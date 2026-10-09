@@ -1,0 +1,584 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101722">
+  <title>План «Ковёр» — карта ограничений</title>
+  <meta name="description" content="Карта временных ограничений воздушного пространства России.">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #0b111a;
+      --panel: #121b28;
+      --panel2: #182334;
+      --line: #28364a;
+      --text: #edf3fb;
+      --muted: #8c9bb0;
+      --red: #ff515b;
+      --yellow: #ffc34d;
+      --green: #45d49b;
+      --blue: #73a9ff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; background: var(--bg); color: var(--text);
+      font: 14px/1.45 Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    button, input { font: inherit; }
+    button { cursor: pointer; }
+    .app { min-height: 100vh; display: flex; flex-direction: column; }
+    header {
+      min-height: 72px; padding: 14px 22px; display: flex;
+      align-items: center; justify-content: space-between; gap: 16px;
+      background: #101722; border-bottom: 1px solid var(--line);
+    }
+    .brand { display: flex; align-items: center; gap: 12px; }
+    .logo {
+      width: 42px; height: 42px; display: grid; place-items: center;
+      border-radius: 13px; background: #243650; font-size: 22px;
+    }
+    h1 { font-size: 17px; line-height: 1.2; margin: 0 0 4px; }
+    .subtitle { color: var(--muted); font-size: 12px; }
+    .live { display: flex; align-items: center; gap: 8px; color: #b6c5d8; font-size: 12px; }
+    .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--green); }
+    .layout {
+      flex: 1; min-height: 0; display: grid;
+      grid-template-columns: 360px minmax(0, 1fr);
+    }
+    aside {
+      min-height: 560px; display: flex; flex-direction: column;
+      background: var(--panel); border-right: 1px solid var(--line);
+    }
+    .sidebar-head { padding: 20px 18px 14px; }
+    .section-title {
+      display: flex; justify-content: space-between; align-items: center;
+      gap: 12px; font-weight: 700; font-size: 15px; margin-bottom: 15px;
+    }
+    .count {
+      color: var(--muted); background: var(--panel2); padding: 3px 8px;
+      border-radius: 7px; font-size: 12px;
+    }
+    .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+    .stat {
+      border: 1px solid var(--line); border-radius: 11px; padding: 11px 10px;
+      background: #101925; min-width: 0;
+    }
+    .stat-num { font-size: 23px; font-weight: 750; line-height: 1.25; }
+    .stat-label { color: var(--muted); font-size: 11px; margin-top: 4px; }
+    .red { color: var(--red); }
+    .yellow { color: var(--yellow); }
+    .green { color: var(--green); }
+    .search-wrap { padding: 0 18px 14px; }
+    .search {
+      width: 100%; padding: 11px 13px; color: var(--text);
+      background: #0d1520; border: 1px solid var(--line); border-radius: 10px;
+      outline: none;
+    }
+    .search:focus { border-color: var(--blue); }
+    .filters { padding: 0 18px 15px; display: flex; flex-wrap: wrap; gap: 7px; }
+    .filter {
+      border: 1px solid var(--line); color: #aebbd0; background: #111a27;
+      padding: 7px 10px; border-radius: 9px; font-size: 12px;
+    }
+    .filter.active { border-color: #5378ac; background: #20334c; color: white; }
+    .list-head {
+      padding: 12px 18px; border-top: 1px solid var(--line);
+      border-bottom: 1px solid var(--line); color: var(--muted);
+      font-size: 11px; text-transform: uppercase; letter-spacing: .08em;
+    }
+    #restriction-list { overflow: auto; padding: 8px; flex: 1; }
+    .item {
+      padding: 13px; margin-bottom: 7px; border: 1px solid transparent;
+      border-radius: 12px; background: #151f2d; cursor: pointer;
+      transition: border-color .15s, background .15s;
+    }
+    .item:hover, .item.selected { border-color: #4c6687; background: #1b2a3d; }
+    .item-top { display: flex; align-items: flex-start; gap: 10px; }
+    .status-icon {
+      width: 11px; height: 11px; flex: 0 0 11px; margin-top: 5px;
+      border-radius: 50%; background: var(--red);
+      box-shadow: 0 0 12px #ff515b33;
+    }
+    .status-icon.yellow-bg { background: var(--yellow); box-shadow: 0 0 12px #ffc34d33; }
+    .item-name { font-weight: 700; font-size: 14px; overflow-wrap: anywhere; }
+    .item-meta { color: var(--muted); font-size: 12px; margin-top: 4px; }
+    .item-bottom { display: flex; justify-content: space-between; align-items: center; gap: 8px; margin-top: 12px; }
+    .tag {
+      display: inline-block; padding: 4px 7px; border-radius: 6px;
+      font-size: 10px; font-weight: 700; letter-spacing: .02em;
+      background: #392128; color: #ff9298;
+    }
+    .tag.partial { background: #3b311d; color: #ffd277; }
+    .tag.stale { background: #3a3321; color: #ffe0a0; }
+    .age { color: var(--muted); font-size: 11px; }
+    .empty { padding: 35px 20px; text-align: center; color: var(--muted); }
+    .empty-icon { font-size: 28px; margin-bottom: 10px; }
+    main { min-width: 0; min-height: 560px; position: relative; }
+    #map { width: 100%; height: 100%; min-height: 560px; background: #d8e0e8; }
+    .map-top {
+      position: absolute; z-index: 500; left: 14px; right: 14px; top: 14px;
+      display: flex; justify-content: space-between; align-items: flex-start; gap: 10px;
+      pointer-events: none;
+    }
+    .map-card {
+      pointer-events: auto; padding: 11px 13px; background: #101722ed;
+      border: 1px solid #344357; border-radius: 11px; box-shadow: 0 5px 22px #0003;
+    }
+    .map-card strong { font-size: 12px; }
+    .map-card small { display: block; color: var(--muted); margin-top: 3px; font-size: 11px; }
+    .map-actions { display: flex; gap: 7px; pointer-events: auto; }
+    .action {
+      border: 1px solid #344357; border-radius: 10px; padding: 10px 12px;
+      color: var(--text); background: #101722ed; font-size: 12px;
+    }
+    .action:hover { background: #233349; }
+    .legend {
+      position: absolute; z-index: 500; bottom: 22px; left: 14px;
+      padding: 12px 14px; border-radius: 11px; background: #101722ed;
+      border: 1px solid #344357; display: grid; gap: 8px; font-size: 11px;
+    }
+    .legend-row { display: flex; align-items: center; gap: 8px; color: #c5d0df; }
+    .legend-dot { width: 9px; height: 9px; border-radius: 50%; }
+    .footnote { color: var(--muted); font-size: 11px; padding: 12px 18px; border-top: 1px solid var(--line); }
+    .leaflet-popup-content-wrapper, .leaflet-popup-tip { background: #172334; color: #edf3fb; }
+    .leaflet-popup-content { line-height: 1.6; }
+    .popup-title { font-weight: 700; font-size: 14px; margin-bottom: 4px; }
+    .popup-muted { color: #a3b2c6; font-size: 12px; }
+    .map-marker {
+      width: 24px; height: 24px; border-radius: 50% 50% 50% 4px;
+      transform: rotate(-45deg); border: 2px solid white;
+      box-shadow: 0 2px 9px #0005; display: grid; place-items: center;
+    }
+    .map-marker span { transform: rotate(45deg); color: #101722; font-size: 12px; }
+    footer { color: var(--muted); font-size: 11px; padding: 12px 20px; border-top: 1px solid var(--line); }
+    footer a { color: #a7c7ff; text-decoration: none; }
+    @media (max-width: 850px) {
+      header { padding: 12px 14px; }
+      .layout { grid-template-columns: 1fr; }
+      aside { min-height: auto; border-right: 0; border-bottom: 1px solid var(--line); }
+      #restriction-list { max-height: 330px; }
+      main, #map { min-height: 65vh; }
+      .map-top { left: 9px; right: 9px; top: 9px; }
+      .map-card { padding: 9px 10px; }
+      .action { padding: 9px; }
+      .legend { bottom: 14px; left: 9px; }
+    }
+    @media (max-width: 420px) {
+      .subtitle { max-width: 210px; }
+      .live { font-size: 0; gap: 0; }
+      .live .dot { margin-right: 0; }
+      .stats { gap: 6px; }
+      .stat { padding: 9px 7px; }
+      .stat-num { font-size: 20px; }
+      .map-card small { max-width: 145px; }
+    }
+  </style>
+</head>
+<body>
+<div class="app">
+  <header>
+    <div class="brand">
+      <div class="logo">✈</div>
+      <div>
+        <h1>План «Ковёр»</h1>
+        <div class="subtitle">Мониторинг временных ограничений воздушного пространства</div>
+      </div>
+    </div>
+    <div class="live"><span class="dot"></span> Карта мониторинга</div>
+  </header>
+
+  <div class="layout">
+    <aside>
+      <div class="sidebar-head">
+        <div class="section-title">
+          <span>Ограничения</span>
+          <span class="count" id="total-count">0 событий</span>
+        </div>
+        <div class="stats">
+          <div class="stat">
+            <div class="stat-num red" id="full-count">0</div>
+            <div class="stat-label">Полные</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num yellow" id="partial-count">0</div>
+            <div class="stat-label">Частичные</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num green" id="stale-count">0</div>
+            <div class="stat-label">Устаревают</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="search-wrap">
+        <input class="search" id="search" type="search" placeholder="⌕  Поиск города или аэропорта…" autocomplete="off">
+      </div>
+
+      <div class="filters">
+        <button class="filter active" data-filter="all">Все</button>
+        <button class="filter" data-filter="full">🔴 Полные</button>
+        <button class="filter" data-filter="partial">🟡 Частичные</button>
+        <button class="filter" data-filter="stale">⚠️ Возможно неактуально</button>
+      </div>
+
+      <div class="list-head">Активные события</div>
+      <div id="restriction-list">
+        <div class="empty">
+          <div class="empty-icon">◌</div>
+          <div>Загружаем данные…</div>
+        </div>
+      </div>
+      <div class="footnote" id="updated-at">Ожидание данных</div>
+    </aside>
+
+    <main>
+      <div id="map"></div>
+      <div class="map-top">
+        <div class="map-card">
+          <strong>Карта ограничений</strong>
+          <small id="map-caption">Данные появятся после подключения источника</small>
+        </div>
+        <div class="map-actions">
+          <button class="action" id="refresh-btn">↻ Обновить</button>
+          <button class="action" id="home-btn">⌖ Обзор</button>
+        </div>
+      </div>
+      <div class="legend">
+        <div class="legend-row"><span class="legend-dot" style="background:#ff515b"></span> Полная зона</div>
+        <div class="legend-row"><span class="legend-dot" style="background:#ffc34d"></span> Частичный сектор</div>
+        <div class="legend-row"><span class="legend-dot" style="background:#45d49b"></span> Снято / неактивно</div>
+      </div>
+    </main>
+  </div>
+  <footer>
+    Информационная карта. Сверяйте сведения с официальными источниками и NOTAM.
+    Карта © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noreferrer">OpenStreetMap</a>.
+    <span id="source-label"></span>
+  </footer>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+(() => {
+  "use strict";
+
+  const DATA_URL = "./data/data.json";
+  const HOUR = 60 * 60 * 1000;
+  const STALE_AFTER = 3 * HOUR;
+  const ARCHIVE_AFTER = 24 * HOUR;
+
+  const map = L.map("map", { zoomControl: false }).setView([55.75, 55.5], 4);
+  L.control.zoom({ position: "bottomright" }).addTo(map);
+
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    maxZoom: 18,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+  }).addTo(map);
+
+  const layer = L.featureGroup().addTo(map);
+  let allItems = [];
+  let activeFilter = "all";
+  let selectedId = null;
+
+  const $ = id => document.getElementById(id);
+  const esc = value => String(value ?? "").replace(/[&<>"']/g, ch => ({
+    "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+  }[ch]));
+
+  function getTimestamp(item) {
+    const value = item.messageTimestamp || item.publishedAt || item.createdAt || item.timestamp;
+    if (typeof value === "number") return value < 1e12 ? value * 1000 : value;
+    if (value) {
+      const parsed = Date.parse(value);
+      if (Number.isFinite(parsed)) return parsed;
+    }
+    return null;
+  }
+
+  function ageLabel(ms) {
+    if (ms < 0) ms = 0;
+    const minutes = Math.floor(ms / 60000);
+    if (minutes < 1) return "только что";
+    if (minutes < 60) return `${minutes} мин. назад`;
+    const hours = Math.floor(minutes / 60);
+    if (hours < 24) return `${hours} ч. назад`;
+    return `${Math.floor(hours / 24)} дн. назад`;
+  }
+
+  function isPartial(item) {
+    return item.type === "partial" || item.status === "partial" ||
+      item.color === "yellow" || item.sector != null ||
+      item.startAzimuth != null || item.azimuthStart != null;
+  }
+
+  function getSector(item) {
+    const sector = item.sector || {};
+    const radius = Number(item.radiusKm ?? item.radius ?? sector.radiusKm);
+    const start = Number(item.startAzimuth ?? item.azimuthStart ?? sector.startAzimuth);
+    const end = Number(item.endAzimuth ?? item.azimuthEnd ?? sector.endAzimuth);
+    if (![radius, start, end].every(Number.isFinite) || radius <= 0) return null;
+    return { radius, start, end };
+  }
+
+  function sectorPoints(lat, lon, radiusKm, start, end) {
+    let sweep = ((end - start) % 360 + 360) % 360;
+    if (sweep === 0) sweep = 360;
+    const points = [[lat, lon]];
+    const steps = Math.max(24, Math.ceil(sweep / 3));
+    for (let i = 0; i <= steps; i++) {
+      const bearing = (start + sweep * i / steps) * Math.PI / 180;
+      const distance = radiusKm * 1000;
+      const angular = distance / 6371000;
+      const lat1 = lat * Math.PI / 180;
+      const lon1 = lon * Math.PI / 180;
+      const lat2 = Math.asin(
+        Math.sin(lat1) * Math.cos(angular) +
+        Math.cos(lat1) * Math.sin(angular) * Math.cos(bearing)
+      );
+      const lon2 = lon1 + Math.atan2(
+        Math.sin(bearing) * Math.sin(angular) * Math.cos(lat1),
+        Math.cos(angular) - Math.sin(lat1) * Math.sin(lat2)
+      );
+      points.push([lat2 * 180 / Math.PI, lon2 * 180 / Math.PI]);
+    }
+    points.push([lat, lon]);
+    return points;
+  }
+
+  function getCoords(item) {
+    const lat = Number(item.lat ?? item.latitude ?? item.coordinates?.lat);
+    const lon = Number(item.lon ?? item.lng ?? item.longitude ?? item.coordinates?.lon ?? item.coordinates?.lng);
+    return Number.isFinite(lat) && Number.isFinite(lon) &&
+      Math.abs(lat) <= 90 && Math.abs(lon) <= 180 ? [lat, lon] : null;
+  }
+
+  function getRadius(item) {
+    const radius = Number(item.radiusKm ?? item.radius);
+    return Number.isFinite(radius) && radius > 0 ? radius : null;
+  }
+
+  function getName(item) {
+    return item.name || item.title || item.airport || item.city || "Объект без названия";
+  }
+
+  function getStatus(item) {
+    const time = getTimestamp(item);
+    if (time === null) return { stale: false, archived: false, age: null };
+    const age = Math.max(0, Date.now() - time);
+    return { stale: age >= STALE_AFTER, archived: age >= ARCHIVE_AFTER, age };
+  }
+
+  function isRemoved(item) {
+    return item.active === false || item.removed === true ||
+      ["removed", "inactive", "cleared", "cancelled"].includes(String(item.status || "").toLowerCase());
+  }
+
+  function normalizeData(payload) {
+    let items = Array.isArray(payload) ? payload :
+      payload?.restrictions || payload?.items || payload?.active || [];
+
+    return items.filter(item => item && typeof item === "object" && !isRemoved(item))
+      .map((item, index) => ({ ...item, _id: String(item.id ?? item.eventId ?? `${getName(item)}-${index}`) }))
+      .filter(item => !getStatus(item).archived);
+  }
+
+  function popupHtml(item) {
+    const radius = getRadius(item);
+    const sector = getSector(item);
+    const time = getTimestamp(item);
+    const status = getStatus(item);
+    const radiusText = radius ? `${esc(radius)} км` : "Радиус не указан";
+    let html = `<div class="popup-title">${esc(getName(item))}</div>`;
+    html += `<div>${isPartial(item) ? "🟡 Частичные ограничения" : "🔴 Полные ограничения"}</div>`;
+    html += `<div class="popup-muted">Радиус: ${radiusText}</div>`;
+    if (sector) html += `<div class="popup-muted">Азимут: ${sector.start}°–${sector.end}°</div>`;
+    if (time) html += `<div class="popup-muted">Опубликовано: ${new Date(time).toLocaleString("ru-RU")}</div>`;
+    if (status.stale) html += `<div style="color:#ffd277;margin-top:5px">⚠️ Возможно неактуально</div>`;
+    if (item.sourceUrl) html += `<div style="margin-top:6px"><a href="${esc(item.sourceUrl)}" target="_blank" rel="noreferrer" style="color:#a7c7ff">Оригинал сообщения ↗</a></div>`;
+    return html;
+  }
+
+  function drawItem(item) {
+    const coords = getCoords(item);
+    if (!coords) return;
+
+    const partial = isPartial(item);
+    const color = partial ? "#ffc34d" : "#ff515b";
+    const fill = partial ? "#ffc34d" : "#ff515b";
+    const radius = getRadius(item);
+    const sector = getSector(item);
+
+    const marker = L.marker(coords, {
+      icon: L.divIcon({
+        className: "",
+        html: `<div class="map-marker" style="background:${color}"><span>✈</span></div>`,
+        iconSize: [24, 24],
+        iconAnchor: [12, 20]
+      })
+    });
+    marker.bindPopup(popupHtml(item));
+    marker.on("click", () => selectItem(item._id, false));
+    marker.addTo(layer);
+
+    if (sector) {
+      L.polygon(sectorPoints(coords[0], coords[1], sector.radius, sector.start, sector.end), {
+        color, weight: 2, opacity: .9, fillColor: fill, fillOpacity: .2
+      }).bindPopup(popupHtml(item)).addTo(layer);
+    } else if (radius) {
+      L.circle(coords, {
+        radius: radius * 1000, color, weight: 2, opacity: .9,
+        fillColor: fill, fillOpacity: .12
+      }).bindPopup(popupHtml(item)).addTo(layer);
+    }
+  }
+
+  function filteredItems() {
+    const query = $("search").value.trim().toLocaleLowerCase("ru");
+    return allItems.filter(item => {
+      const partial = isPartial(item);
+      const stale = getStatus(item).stale;
+      if (activeFilter === "full" && partial) return false;
+      if (activeFilter === "partial" && !partial) return false;
+      if (activeFilter === "stale" && !stale) return false;
+      const haystack = [getName(item), item.icao, item.city, item.region]
+        .filter(Boolean).join(" ").toLocaleLowerCase("ru");
+      return !query || haystack.includes(query);
+    });
+  }
+
+  function selectItem(id, moveMap = true) {
+    selectedId = id;
+    renderList();
+    const item = allItems.find(entry => entry._id === id);
+    if (!item) return;
+    const coords = getCoords(item);
+    if (coords && moveMap) map.flyTo(coords, Math.max(map.getZoom(), 7), { duration: .6 });
+    layer.eachLayer(entry => {
+      if (entry.getLatLng && coords) {
+        const point = entry.getLatLng();
+        if (Math.abs(point.lat - coords[0]) < .0001 && Math.abs(point.lng - coords[1]) < .0001) {
+          entry.openPopup();
+        }
+      }
+    });
+  }
+
+  function renderList() {
+    const items = filteredItems();
+    $("restriction-list").innerHTML = "";
+
+    if (!items.length) {
+      $("restriction-list").innerHTML = `<div class="empty">
+        <div class="empty-icon">${allItems.length ? "⌕" : "◌"}</div>
+        <div>${allItems.length ? "Ничего не найдено по заданным условиям." : "Активных событий пока нет."}</div>
+        <div style="font-size:12px;margin-top:7px">Данные подключаются из файла data/data.json.</div>
+      </div>`;
+      return;
+    }
+
+    for (const item of items) {
+      const partial = isPartial(item);
+      const status = getStatus(item);
+      const radius = getRadius(item);
+      const sector = getSector(item);
+      const el = document.createElement("article");
+      el.className = "item" + (selectedId === item._id ? " selected" : "");
+      el.innerHTML = `
+        <div class="item-top">
+          <span class="status-icon ${partial ? "yellow-bg" : ""}"></span>
+          <div style="min-width:0;flex:1">
+            <div class="item-name">${esc(getName(item))}</div>
+            <div class="item-meta">${esc(item.icao || item.region || (item.city ? item.city : "Объект на карте"))}</div>
+          </div>
+        </div>
+        <div class="item-bottom">
+          <span class="tag ${partial ? "partial" : ""}">${partial ? "ЧАСТИЧНЫЕ" : "ПОЛНЫЕ"}</span>
+          <span class="age">${status.age === null ? "Время неизвестно" : esc(ageLabel(status.age))}</span>
+        </div>
+        <div class="item-meta" style="margin-top:9px">
+          ${radius ? `Радиус: ${esc(radius)} км` : "Радиус не указан"}
+          ${sector ? ` · сектор ${esc(sector.start)}°–${esc(sector.end)}°` : ""}
+          ${status.stale ? `<div style="color:#ffd277;margin-top:5px">⚠️ Возможно неактуально</div>` : ""}
+        </div>`;
+      el.addEventListener("click", () => selectItem(item._id));
+      $("restriction-list").appendChild(el);
+    }
+  }
+
+  function render() {
+    layer.clearLayers();
+    allItems.forEach(drawItem);
+    const full = allItems.filter(item => !isPartial(item)).length;
+    const partial = allItems.filter(isPartial).length;
+    const stale = allItems.filter(item => getStatus(item).stale).length;
+    $("full-count").textContent = full;
+    $("partial-count").textContent = partial;
+    $("stale-count").textContent = stale;
+    $("total-count").textContent = `${allItems.length} ${plural(allItems.length, "событие", "события", "событий")}`;
+    $("map-caption").textContent = allItems.length
+      ? `На карте: ${allItems.length}. Красный — полные, жёлтый — частичные.`
+      : "Ожидаем данные об ограничениях";
+    renderList();
+  }
+
+  function plural(number, one, few, many) {
+    const n = Math.abs(number) % 100;
+    const last = n % 10;
+    if (n > 10 && n < 20) return many;
+    if (last > 1 && last < 5) return few;
+    if (last === 1) return one;
+    return many;
+  }
+
+  async function loadData() {
+    $("refresh-btn").textContent = "↻ Загружаем…";
+    try {
+      const response = await fetch(`${DATA_URL}?t=${Date.now()}`, { cache: "no-store" });
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      const payload = await response.json();
+      allItems = normalizeData(payload);
+      render();
+      const updated = payload?.updatedAt || payload?.generatedAt;
+      $("updated-at").textContent = updated
+        ? `Данные обновлены: ${new Date(updated).toLocaleString("ru-RU")}`
+        : `Последняя проверка: ${new Date().toLocaleTimeString("ru-RU")}`;
+      $("source-label").textContent = payload?.source ? ` Источник: ${payload.source}` : "";
+    } catch (error) {
+      console.error("Не удалось загрузить данные:", error);
+      $("updated-at").textContent = "Не удалось загрузить data/data.json";
+      if (!allItems.length) {
+        $("restriction-list").innerHTML = `<div class="empty">
+          <div class="empty-icon">!</div>
+          <div>Пока нет файла с данными или он недоступен.</div>
+          <div style="font-size:12px;margin-top:8px">Это нормально на этапе настройки. Подключим Telegram-обработчик следующим шагом.</div>
+        </div>`;
+      }
+    } finally {
+      $("refresh-btn").textContent = "↻ Обновить";
+    }
+  }
+
+  $("search").addEventListener("input", renderList);
+  document.querySelectorAll(".filter").forEach(button => {
+    button.addEventListener("click", () => {
+      activeFilter = button.dataset.filter;
+      document.querySelectorAll(".filter").forEach(b => b.classList.toggle("active", b === button));
+      renderList();
+    });
+  });
+  $("refresh-btn").addEventListener("click", loadData);
+  $("home-btn").addEventListener("click", () => {
+    if (layer.getLayers().length) map.fitBounds(layer.getBounds().pad(.12), { maxZoom: 7 });
+    else map.setView([55.75, 55.5], 4);
+  });
+
+  loadData();
+  setInterval(loadData, 5 * 60 * 1000);
+  setInterval(render, 60 * 1000);
+})();
+</script>
+</body>
+</html>
