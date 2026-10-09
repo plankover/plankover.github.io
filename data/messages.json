@@ -19,5 +19,26 @@
         "text": "🔴 Плес (🛩️ Саратов - Гагарин, UWSG) / 150 км"
       }
     ]
+  },
+  {
+    "telegramMessageId": 4589,
+    "chatId": -1003822338715,
+    "messageTimestamp": "2026-10-09T21:46:46+00:00",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4589",
+    "text": "🔴 Можайск / 40 км",
+    "events": [
+      {
+        "id": "185081a5ddc5a828",
+        "action": "ADD",
+        "name": "Можайск",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 40.0,
+        "messageTimestamp": "2026-10-09T21:46:46+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4589",
+        "text": "🔴 Можайск / 40 км"
+      }
+    ]
   }
 ]
