@@ -1,0 +1,32 @@
+
+name: Update airspace data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/15 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check project files
+        run: |
+          echo "Repository checked out"
+          python --version
+          test -f index.html
+          test -f data/data.json
+          echo "Project files found"
+          echo "Telegram collector will be connected in the next step."
