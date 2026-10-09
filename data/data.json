@@ -1,6 +1,18 @@
-
 {
-  "updatedAt": null,
-  "source": "Telegram — @PlanKoverTDay",
-  "restrictions": []
+  "updatedAt": "2026-10-09T21:26:11.178970+00:00",
+  "source": "@PlanKoverTDay",
+  "restrictions": [
+    {
+      "id": "b585c010df371435",
+      "action": "ADD",
+      "name": "Гагарин",
+      "icao": "UWSG",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 150.0,
+      "messageTimestamp": "2026-10-09T21:25:07+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4588",
+      "text": "🔴 Плес (🛩️ Саратов - Гагарин, UWSG) / 150 км"
+    }
+  ]
 }
