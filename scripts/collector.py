@@ -129,6 +129,76 @@ def message_url(message, channel):
 
     return None
 
+import time
+
+COORDINATES_CACHE = DATA_DIR / "coordinates.json"
+
+
+def load_coordinates_cache():
+    return read_json(COORDINATES_CACHE, {})
+
+
+def find_coordinates(name, icao=None, cache=None):
+    """Ищет координаты города или аэропорта и кеширует результат."""
+    if cache is None:
+        cache = load_coordinates_cache()
+
+    name = (name or "").strip()
+    icao = (icao or "").strip().upper()
+
+    if not name:
+        return None
+
+    # Для городов и аэропортов используем разные ключи.
+    key = f"icao:{icao}" if icao else f"place:{name.casefold()}"
+
+    if key in cache:
+        return cache[key]
+
+    query = f"{name}, Россия"
+    if icao:
+        query = f"{icao} airport, Russia"
+
+    params = urllib.parse.urlencode({
+        "q": query,
+        "format": "jsonv2",
+        "limit": 1,
+        "countrycodes": "ru",
+    })
+
+    request = urllib.request.Request(
+        f"https://nominatim.openstreetmap.org/search?{params}",
+        headers={
+            "User-Agent": "PlankoverAirspaceMap/1.0 (GitHub project)"
+        },
+    )
+
+    try:
+        # Не обращаемся к публичному сервису слишком часто.
+        time.sleep(1.1)
+
+        with urllib.request.urlopen(request, timeout=20) as response:
+            results = json.loads(response.read().decode("utf-8"))
+
+        if not results:
+            cache[key] = None
+            write_json(COORDINATES_CACHE, cache)
+            return None
+
+        result = results[0]
+
+        coordinates = {
+            "lat": float(result["lat"]),
+            "lon": float(result["lon"]),
+        }
+
+        cache[key] = coordinates
+        write_json(COORDINATES_CACHE, cache)
+        return coordinates
+
+    except Exception as error:
+        print(f"Не удалось найти координаты для {query}: {error}")
+        return None
 
 def main():
     DATA_DIR.mkdir(parents=True, exist_ok=True)
