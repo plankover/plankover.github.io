@@ -22,11 +22,18 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Check project files
+      - name: Collect Telegram messages
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL: "@PlanKoverTDay"
+        run: python scripts/collector.py
+
+      - name: Save updated data
         run: |
-          echo "Repository checked out"
-          python --version
-          test -f index.html
-          test -f data/data.json
-          echo "Project files found"
-          echo "Telegram collector will be connected in the next step."
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if ! git diff --cached --quiet; then
+            git commit -m "Update Telegram airspace data"
+            git push
+          fi
