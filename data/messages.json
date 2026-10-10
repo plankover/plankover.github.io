@@ -397,5 +397,110 @@
         "text": "🟢⠀ Аэропорты\n\n— ВНУКОВО\n\n— ДОМОДЕДОВО\n\n— ЖУКОВСКИЙ (Раменское)\n\n— ШЕРЕМЕТЬЕВО\n\n✈️⠀СНЯТЫ ограничения на прием и выпуск воздушных судов. \n\n✈️⠀Ограничения вводили для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay"
       }
     ]
+  },
+  {
+    "telegramMessageId": 4602,
+    "chatId": -1003822338715,
+    "messageTimestamp": "2026-10-10T06:31:58+00:00",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4602",
+    "text": "🟢⠀ Аэропорты\n\n— ТАМБОВт(Донское)\n\n— КАЛУГА (Грабцево)\n\n— ЯРОСЛАВЛЬ (Туношна)\n\n✈️⠀СНЯТЫ ограничения на прием и выпуск воздушных судов. \n\n✈️⠀Ограничения вводили для обеспечения безопасности полетов.\n\n✈ - - | @PlanKoverTDay",
+    "events": [
+      {
+        "id": "82cc3f41eb87a861",
+        "action": "REMOVE",
+        "name": "PlanKover",
+        "icao": "TDAY",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-10T06:31:58+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4602",
+        "text": "🟢⠀ Аэропорты\n\n— ТАМБОВт(Донское)\n\n— КАЛУГА (Грабцево)\n\n— ЯРОСЛАВЛЬ (Туношна)\n\n✈️⠀СНЯТЫ ограничения на прием и выпуск воздушных судов. \n\n✈️⠀Ограничения вводили для обеспечения безопасности полетов.\n\n✈ - - | @PlanKoverTDay"
+      }
+    ]
+  },
+  {
+    "telegramMessageId": 4603,
+    "chatId": -1003822338715,
+    "messageTimestamp": "2026-10-10T09:13:37+00:00",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4603",
+    "text": "🔴⠀Аэропорт НИЖНИЙ НОВГОРОД (Чкалов)\n\n✈️⠀ВВЕДЕНЫ временные ограничения на прием и выпуск воздушных судов.\n\n✈️⠀Ограничения необходимы для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay",
+    "events": [
+      {
+        "id": "42922151986a16f7",
+        "action": "ADD",
+        "name": "PlanKover",
+        "icao": "TDAY",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-10T09:13:37+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4603",
+        "text": "🔴⠀Аэропорт НИЖНИЙ НОВГОРОД (Чкалов)\n\n✈️⠀ВВЕДЕНЫ временные ограничения на прием и выпуск воздушных судов.\n\n✈️⠀Ограничения необходимы для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay"
+      }
+    ]
+  },
+  {
+    "telegramMessageId": 4604,
+    "chatId": -1003822338715,
+    "messageTimestamp": "2026-10-10T09:40:47+00:00",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4604",
+    "text": "🔴 а/д Чкаловский / 30 км",
+    "events": [
+      {
+        "id": "ecdca5f5bd050bdc",
+        "action": "ADD",
+        "name": "а",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 30.0,
+        "messageTimestamp": "2026-10-10T09:40:47+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4604",
+        "text": "🔴 а/д Чкаловский / 30 км"
+      }
+    ]
+  },
+  {
+    "telegramMessageId": 4605,
+    "chatId": -1003822338715,
+    "messageTimestamp": "2026-10-10T11:07:29+00:00",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4605",
+    "text": "✈️⠀🔴⠀Аэропорт УХТА\n\n✈️⠀ВВЕДЕНЫ временные ограничения на прием и выпуск воздушных судов.\n\n✈️⠀Ограничения необходимы для обеспечения безопасности полетов.\n\n✈️⠀- - | @PlanKoverTDay",
+    "events": [
+      {
+        "id": "d8ab56ca42f767d6",
+        "action": "ADD",
+        "name": "PlanKover",
+        "icao": "TDAY",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-10T11:07:29+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4605",
+        "text": "✈️⠀🔴⠀Аэропорт УХТА\n\n✈️⠀ВВЕДЕНЫ временные ограничения на прием и выпуск воздушных судов.\n\n✈️⠀Ограничения необходимы для обеспечения безопасности полетов.\n\n✈️⠀- - | @PlanKoverTDay"
+      }
+    ]
+  },
+  {
+    "telegramMessageId": 4606,
+    "chatId": -1003822338715,
+    "messageTimestamp": "2026-10-10T11:11:48+00:00",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4606",
+    "text": "🟢⠀ Аэропорт НИЖНИЙ НОВГОРОД (Чкалов)\n\n✈️⠀СНЯТЫ ограничения на прием и выпуск воздушных судов. \n\n✈️⠀Ограничения вводили для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay",
+    "events": [
+      {
+        "id": "d6a3ffe9a681c025",
+        "action": "REMOVE",
+        "name": "PlanKover",
+        "icao": "TDAY",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-10T11:11:48+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4606",
+        "text": "🟢⠀ Аэропорт НИЖНИЙ НОВГОРОД (Чкалов)\n\n✈️⠀СНЯТЫ ограничения на прием и выпуск воздушных судов. \n\n✈️⠀Ограничения вводили для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay"
+      }
+    ]
   }
 ]

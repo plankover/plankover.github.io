@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-10T06:13:12.577813+00:00",
+  "updatedAt": "2026-10-10T12:39:27.987557+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -181,6 +181,42 @@
       "messageTimestamp": "2026-10-10T05:11:16+00:00",
       "sourceUrl": "https://t.me/PlanKoverTDay/4600",
       "text": "Аэропорты\n\n🔻 ВНУКОВО\n\n🔻 ДОМОДЕДОВО \n\n🔻 ЖУКОВСКИЙ (Раменское)\n\n🔻ШЕРЕМЕТЬЕВО\n\n🚫 ВВЕДЕНЫ временные ограничения на прием и выпуск воздушных судов.\n\n🧑‍🧑‍🧒‍🧒 Ограничения необходимы для обеспечения безопасности полетов.\n\n✈ - - | @PlanKoverTDay"
+    },
+    {
+      "id": "42922151986a16f7",
+      "action": "ADD",
+      "name": "PlanKover",
+      "icao": "TDAY",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-10T09:13:37+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4603",
+      "text": "🔴⠀Аэропорт НИЖНИЙ НОВГОРОД (Чкалов)\n\n✈️⠀ВВЕДЕНЫ временные ограничения на прием и выпуск воздушных судов.\n\n✈️⠀Ограничения необходимы для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay"
+    },
+    {
+      "id": "ecdca5f5bd050bdc",
+      "action": "ADD",
+      "name": "а",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 30.0,
+      "messageTimestamp": "2026-10-10T09:40:47+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4604",
+      "text": "🔴 а/д Чкаловский / 30 км"
+    },
+    {
+      "id": "d8ab56ca42f767d6",
+      "action": "ADD",
+      "name": "PlanKover",
+      "icao": "TDAY",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-10T11:07:29+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4605",
+      "text": "✈️⠀🔴⠀Аэропорт УХТА\n\n✈️⠀ВВЕДЕНЫ временные ограничения на прием и выпуск воздушных судов.\n\n✈️⠀Ограничения необходимы для обеспечения безопасности полетов.\n\n✈️⠀- - | @PlanKoverTDay"
     }
   ]
 }
