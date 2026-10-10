@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-10T17:28:44.635059+00:00",
+  "updatedAt": "2026-10-10T20:40:13.902859+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -15,6 +15,130 @@
       "text": "🔴 Можайск / 40 км",
       "lat": 55.506478,
       "lon": 36.0213092
+    },
+    {
+      "id": "0279cb03e6ed2c57",
+      "action": "ADD",
+      "name": "⠀Аэропорты",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-10T18:46:01+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4610",
+      "text": "🔴⠀Аэропорты",
+      "lat": 54.5543582,
+      "lon": 55.8822099
+    },
+    {
+      "id": "b8c1d85aca5998db",
+      "action": "ADD",
+      "name": "Гагарин",
+      "icao": "UWSG",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 150.0,
+      "messageTimestamp": "2026-10-10T18:46:01+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4610",
+      "text": "🔴 Верхний Еруслан (Саратовская область) (🛩️ Саратов - Гагарин, UWSG) / 150 км",
+      "lat": 51.7139093,
+      "lon": 46.1672319
+    },
+    {
+      "id": "1d49f285e758f6e8",
+      "action": "ADD",
+      "name": "⠀Аэропорт САРАНСК",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-10T18:56:24+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4611",
+      "text": "🔴⠀Аэропорт САРАНСК",
+      "lat": 54.1274695,
+      "lon": 45.2152086
+    },
+    {
+      "id": "31f0ccf663e1473d",
+      "action": "ADD",
+      "name": "Казарка (🛩️ Саранск",
+      "icao": "UWPC",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 150.0,
+      "messageTimestamp": "2026-10-10T18:56:24+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4611",
+      "text": "🔴 Казарка (🛩️ Саранск, UWPC ; 🛩️ Пенза, UWPP) / 150 км"
+    },
+    {
+      "id": "293f58a68d08d6bf",
+      "action": "ADD",
+      "name": "⠀Аэропорт КАЛУГА (Грабцево)",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-10T19:06:03+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4612",
+      "text": "🔴⠀Аэропорт КАЛУГА (Грабцево)",
+      "lat": 54.5488708,
+      "lon": 36.3697725
+    },
+    {
+      "id": "caee1f1b5aeb2e4a",
+      "action": "ADD",
+      "name": "Грабцево",
+      "icao": "UUBC",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 70.0,
+      "messageTimestamp": "2026-10-10T19:06:03+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4612",
+      "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км",
+      "lat": 54.5488708,
+      "lon": 36.3697725
+    },
+    {
+      "id": "e0550d22c7497a51",
+      "action": "ADD",
+      "name": "Клоково, Тула",
+      "icao": null,
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 70.0,
+      "messageTimestamp": "2026-10-10T19:06:03+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4612",
+      "text": "🔴 а/д Клоково, Тула / 70 км",
+      "lat": 54.2418249,
+      "lon": 37.6000197
+    },
+    {
+      "id": "643e825b118c8c31",
+      "action": "ADD",
+      "name": "Михайлов",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 70.0,
+      "messageTimestamp": "2026-10-10T19:06:03+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4612",
+      "text": "🔴 Михайлов / 70 км",
+      "lat": 54.2301856,
+      "lon": 39.0274629
+    },
+    {
+      "id": "94045bbcc1396576",
+      "action": "ADD",
+      "name": "⠀Аэропорт СОЧИ",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-10T20:14:29+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4613",
+      "text": "🔴⠀Аэропорт СОЧИ",
+      "lat": 43.4482983,
+      "lon": 39.9391104
     }
   ]
 }\n

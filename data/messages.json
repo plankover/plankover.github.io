@@ -350,5 +350,339 @@
         "text": "🔴 Можайск / 40 км"
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4610,
+    "timestamp": "2026-10-10T18:46:01+00:00",
+    "text": "🔴⠀Аэропорты\n\n– ПЕНЗА\n\n– САРАТОВ (Гагарин)\n\n✈️⠀ВВЕДЕНЫ временные ограничения на прием и выпуск воздушных судов.\n\n✈️⠀Ограничения необходимы для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4610",
+    "events": [
+      {
+        "id": "0279cb03e6ed2c57",
+        "action": "ADD",
+        "name": "⠀Аэропорты",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-10T18:46:01+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4610",
+        "text": "🔴⠀Аэропорты"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4610,
+    "timestamp": "2026-10-10T18:46:01+00:00",
+    "text": "🔴⠀Аэропорты\n\n– ПЕНЗА\n\n– САРАТОВ (Гагарин)\n\n✈️⠀ВВЕДЕНЫ временные ограничения на прием и выпуск воздушных судов.\n\n✈️⠀Ограничения необходимы для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4610",
+    "events": [
+      {
+        "id": "0279cb03e6ed2c57",
+        "action": "ADD",
+        "name": "⠀Аэропорты",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-10T18:46:01+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4610",
+        "text": "🔴⠀Аэропорты"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4610,
+    "timestamp": "2026-10-10T18:46:01+00:00",
+    "text": "🔴⠀Аэропорты\n\n– ПЕНЗА\n\n– САРАТОВ (Гагарин)\n\n✈️⠀ВВЕДЕНЫ временные ограничения на прием и выпуск воздушных судов.\n\n✈️⠀Ограничения необходимы для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4610",
+    "events": [
+      {
+        "id": "0279cb03e6ed2c57",
+        "action": "ADD",
+        "name": "⠀Аэропорты",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-10T18:46:01+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4610",
+        "text": "🔴⠀Аэропорты"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4610,
+    "timestamp": "2026-10-10T18:46:01+00:00",
+    "text": "🔴 Новоселовка (🛩️ Саратов - Гагарин, UWSG ; 🛩️ Пенза, UWPP) / 150 км\n🔴 Медведица (🛩️ Саратов - Гагарин, UWSG) / 150 км\n🔴 Верхний Еруслан (Саратовская область) (🛩️ Саратов - Гагарин, UWSG) / 150 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4610",
+    "events": [
+      {
+        "id": "849879ee5eff1747",
+        "action": "ADD",
+        "name": "Гагарин",
+        "icao": "UWSG",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 150.0,
+        "messageTimestamp": "2026-10-10T18:46:01+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4610",
+        "text": "🔴 Новоселовка (🛩️ Саратов - Гагарин, UWSG ; 🛩️ Пенза, UWPP) / 150 км"
+      },
+      {
+        "id": "aec8767ea633e0a0",
+        "action": "ADD",
+        "name": "Гагарин",
+        "icao": "UWSG",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 150.0,
+        "messageTimestamp": "2026-10-10T18:46:01+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4610",
+        "text": "🔴 Медведица (🛩️ Саратов - Гагарин, UWSG) / 150 км"
+      },
+      {
+        "id": "b8c1d85aca5998db",
+        "action": "ADD",
+        "name": "Гагарин",
+        "icao": "UWSG",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 150.0,
+        "messageTimestamp": "2026-10-10T18:46:01+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4610",
+        "text": "🔴 Верхний Еруслан (Саратовская область) (🛩️ Саратов - Гагарин, UWSG) / 150 км"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4611,
+    "timestamp": "2026-10-10T18:56:24+00:00",
+    "text": "🔴⠀Аэропорт САРАНСК\n\n✈️⠀ВВЕДЕНЫ временные ограничения на прием и выпуск воздушных судов.\n\n✈️⠀Ограничения необходимы для обеспечения безопасности полетов.\n\n✈ - - | @PlanKoverTDay",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4611",
+    "events": [
+      {
+        "id": "1d49f285e758f6e8",
+        "action": "ADD",
+        "name": "⠀Аэропорт САРАНСК",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-10T18:56:24+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4611",
+        "text": "🔴⠀Аэропорт САРАНСК"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4611,
+    "timestamp": "2026-10-10T18:56:24+00:00",
+    "text": "🔴⠀Аэропорт САРАНСК\n\n✈️⠀ВВЕДЕНЫ временные ограничения на прием и выпуск воздушных судов.\n\n✈️⠀Ограничения необходимы для обеспечения безопасности полетов.\n\n✈ - - | @PlanKoverTDay",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4611",
+    "events": [
+      {
+        "id": "1d49f285e758f6e8",
+        "action": "ADD",
+        "name": "⠀Аэропорт САРАНСК",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-10T18:56:24+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4611",
+        "text": "🔴⠀Аэропорт САРАНСК"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4611,
+    "timestamp": "2026-10-10T18:56:24+00:00",
+    "text": "🔴 Казарка (🛩️ Саранск, UWPC ; 🛩️ Пенза, UWPP) / 150 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4611",
+    "events": [
+      {
+        "id": "31f0ccf663e1473d",
+        "action": "ADD",
+        "name": "Казарка (🛩️ Саранск",
+        "icao": "UWPC",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 150.0,
+        "messageTimestamp": "2026-10-10T18:56:24+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4611",
+        "text": "🔴 Казарка (🛩️ Саранск, UWPC ; 🛩️ Пенза, UWPP) / 150 км"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4612,
+    "timestamp": "2026-10-10T19:06:03+00:00",
+    "text": "🔴⠀Аэропорт КАЛУГА (Грабцево)\n\n✈️⠀ВВЕДЕНЫ временные ограничения на прием и выпуск воздушных судов.\n\n✈️⠀Ограничения необходимы для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4612",
+    "events": [
+      {
+        "id": "293f58a68d08d6bf",
+        "action": "ADD",
+        "name": "⠀Аэропорт КАЛУГА (Грабцево)",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-10T19:06:03+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4612",
+        "text": "🔴⠀Аэропорт КАЛУГА (Грабцево)"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4612,
+    "timestamp": "2026-10-10T19:06:03+00:00",
+    "text": "🔴⠀Аэропорт КАЛУГА (Грабцево)\n\n✈️⠀ВВЕДЕНЫ временные ограничения на прием и выпуск воздушных судов.\n\n✈️⠀Ограничения необходимы для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4612",
+    "events": [
+      {
+        "id": "293f58a68d08d6bf",
+        "action": "ADD",
+        "name": "⠀Аэропорт КАЛУГА (Грабцево)",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-10T19:06:03+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4612",
+        "text": "🔴⠀Аэропорт КАЛУГА (Грабцево)"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4612,
+    "timestamp": "2026-10-10T19:06:03+00:00",
+    "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км\n🔴 а/д Клоково, Тула / 70 км\n🔴 Михайлов / 70 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4612",
+    "events": [
+      {
+        "id": "caee1f1b5aeb2e4a",
+        "action": "ADD",
+        "name": "Грабцево",
+        "icao": "UUBC",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-10-10T19:06:03+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4612",
+        "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км"
+      },
+      {
+        "id": "e0550d22c7497a51",
+        "action": "ADD",
+        "name": "Клоково, Тула",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-10-10T19:06:03+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4612",
+        "text": "🔴 а/д Клоково, Тула / 70 км"
+      },
+      {
+        "id": "643e825b118c8c31",
+        "action": "ADD",
+        "name": "Михайлов",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-10-10T19:06:03+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4612",
+        "text": "🔴 Михайлов / 70 км"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4613,
+    "timestamp": "2026-10-10T20:14:29+00:00",
+    "text": "🔴⠀Аэропорт СОЧИ\n\n✈️⠀ВВЕДЕНЫ временные ограничения на прием и выпуск воздушных судов.\n\n✈️⠀Ограничения необходимы для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4613",
+    "events": [
+      {
+        "id": "94045bbcc1396576",
+        "action": "ADD",
+        "name": "⠀Аэропорт СОЧИ",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-10T20:14:29+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4613",
+        "text": "🔴⠀Аэропорт СОЧИ"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4613,
+    "timestamp": "2026-10-10T20:14:29+00:00",
+    "text": "🔴⠀Аэропорт СОЧИ\n\n✈️⠀ВВЕДЕНЫ временные ограничения на прием и выпуск воздушных судов.\n\n✈️⠀Ограничения необходимы для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4613",
+    "events": [
+      {
+        "id": "94045bbcc1396576",
+        "action": "ADD",
+        "name": "⠀Аэропорт СОЧИ",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-10T20:14:29+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4613",
+        "text": "🔴⠀Аэропорт СОЧИ"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4614,
+    "timestamp": "2026-10-10T20:17:55+00:00",
+    "text": "🟢⠀Аэропорт СОЧИ\n\n✈️⠀СНЯТЫ ограничения на прием и выпуск воздушных судов.\n\n✈️⠀Ограничения вводили для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4614",
+    "events": [
+      {
+        "id": "804098cce491882d",
+        "action": "REMOVE",
+        "messageTimestamp": "2026-10-10T20:17:55+00:00",
+        "text": "🟢⠀Аэропорт СОЧИ\n\n✈️⠀СНЯТЫ ограничения на прием и выпуск воздушных судов.\n\n✈️⠀Ограничения вводили для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4614",
+        "unresolved": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4614,
+    "timestamp": "2026-10-10T20:17:55+00:00",
+    "text": "🟢⠀Аэропорт СОЧИ\n\n✈️⠀СНЯТЫ ограничения на прием и выпуск воздушных судов.\n\n✈️⠀Ограничения вводили для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4614",
+    "events": [
+      {
+        "id": "804098cce491882d",
+        "action": "REMOVE",
+        "messageTimestamp": "2026-10-10T20:17:55+00:00",
+        "text": "🟢⠀Аэропорт СОЧИ\n\n✈️⠀СНЯТЫ ограничения на прием и выпуск воздушных судов.\n\n✈️⠀Ограничения вводили для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4614",
+        "unresolved": true
+      }
+    ]
   }
 ]\n
