@@ -297,5 +297,42 @@
         "sourceUrl": "https://t.me/PlanKoverTDay/4608"
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4608,
+    "timestamp": "2026-10-10T14:12:34+00:00",
+    "text": "🟢 Ранее объявленные\n\n❗ Снизу тестовые сообщения, на 18:16 мск ограничений НЕТ.",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4608",
+    "events": [
+      {
+        "id": "976ab2232054688d",
+        "action": "CLEAR",
+        "messageTimestamp": "2026-10-10T14:12:34+00:00",
+        "text": "🟢 Ранее объявленные\n\n❗ Снизу тестовые сообщения, на 18:16 мск ограничений НЕТ.",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4608"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4609,
+    "timestamp": "2026-10-10T15:16:21+00:00",
+    "text": "🔴 Можайск / 40 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4609",
+    "events": [
+      {
+        "id": "6565d248c7b6074f",
+        "action": "ADD",
+        "name": "Можайск",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 40.0,
+        "messageTimestamp": "2026-10-10T15:16:21+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4609",
+        "text": "🔴 Можайск / 40 км"
+      }
+    ]
   }
 ]\n

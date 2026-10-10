@@ -1,5 +1,20 @@
 {
-  "updatedAt": "2026-10-10T15:12:15.117359+00:00",
+  "updatedAt": "2026-10-10T15:19:07.458329+00:00",
   "source": "@PlanKoverTDay",
-  "restrictions": []
+  "restrictions": [
+    {
+      "id": "6565d248c7b6074f",
+      "action": "ADD",
+      "name": "Можайск",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 40.0,
+      "messageTimestamp": "2026-10-10T15:16:21+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4609",
+      "text": "🔴 Можайск / 40 км",
+      "lat": 55.506478,
+      "lon": 36.0213092
+    }
+  ]
 }\n
