@@ -1,5 +1,26 @@
 [
   {
+    "telegramMessageId": 4586,
+    "chatId": -1003822338715,
+    "messageTimestamp": "2026-10-09T20:15:47+00:00",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4586",
+    "text": "🟢⠀Аэропорт ШЕРЕМЕТЬЕВО\n\n✈️⠀СНЯТЫ ограничения на прием и выпуск воздушных судов.\n\n✈️⠀Ограничения вводили для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay",
+    "events": [
+      {
+        "id": "d79ed983fb5c63d2",
+        "action": "REMOVE",
+        "name": "PlanKover",
+        "icao": "TDAY",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-09T20:15:47+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4586",
+        "text": "🟢⠀Аэропорт ШЕРЕМЕТЬЕВО\n\n✈️⠀СНЯТЫ ограничения на прием и выпуск воздушных судов.\n\n✈️⠀Ограничения вводили для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay"
+      }
+    ]
+  },
+  {
     "telegramMessageId": 4588,
     "chatId": -1003822338715,
     "messageTimestamp": "2026-10-09T21:25:07+00:00",
@@ -164,6 +185,216 @@
         "messageTimestamp": "2026-10-10T00:19:25+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4591",
         "text": "🔴🛩️ Казань, UWKD"
+      }
+    ]
+  },
+  {
+    "telegramMessageId": 4592,
+    "chatId": -1003822338715,
+    "messageTimestamp": "2026-10-10T00:29:12+00:00",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4592",
+    "text": "Корректировки, уточнения \n\n🔴 Ульяновск (🛩️ Баратаевка, UWLL) / 50 км\n🔴 Александровка (Самарская обл) (🛩️ Самара - Курумоч, UWWW) / 150 км\n🔴🛩️ Самара - Курумоч, UWWW / 100 км\n🔴 Казань (🛩️ Казань, UWKD) / 100 км\n\n🔴 Базарный Сызган / 50 км\n🔴 Глотовка / 50 км",
+    "events": [
+      {
+        "id": "5087c842a8224bdf",
+        "action": "ADD",
+        "name": "Корректировки",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 50.0,
+        "messageTimestamp": "2026-10-10T00:29:12+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4592",
+        "text": "Корректировки, уточнения \n\n🔴 Ульяновск (🛩️ Баратаевка, UWLL) / 50 км\n🔴 Александровка (Самарская обл) (🛩️ Самара - Курумоч, UWWW) / 150 км\n🔴🛩️ Самара - Курумоч, UWWW / 100 км\n🔴 Казань (🛩️ Казань, UWKD) / 100 км\n\n🔴 Базарный Сызган / 50 км\n🔴 Глотовка / 50 км"
+      }
+    ]
+  },
+  {
+    "telegramMessageId": 4593,
+    "chatId": -1003822338715,
+    "messageTimestamp": "2026-10-10T02:04:49+00:00",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4593",
+    "text": "⛔️ Аэропорты\n\n— БУГУЛЬМА\n\n— КАЗАНЬ\n\n— НИЖНЕКАМСК (Бегишево)\n\n— НИЖНИЙ НОВГОРОД (Чкалов)\n\n— САМАРА (Курумоч)\n\n— УЛЬЯНОВСК (Баратаевка)\n\n✈️⠀ВВЕДЕНЫ временные ограничения на прием и выпуск воздушных судов.\n\n✈️⠀Ограничения необходимы для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay",
+    "events": [
+      {
+        "id": "515e28d8208c5faf",
+        "action": "ADD",
+        "name": "PlanKover",
+        "icao": "TDAY",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-10T02:04:49+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4593",
+        "text": "⛔️ Аэропорты\n\n— БУГУЛЬМА\n\n— КАЗАНЬ\n\n— НИЖНЕКАМСК (Бегишево)\n\n— НИЖНИЙ НОВГОРОД (Чкалов)\n\n— САМАРА (Курумоч)\n\n— УЛЬЯНОВСК (Баратаевка)\n\n✈️⠀ВВЕДЕНЫ временные ограничения на прием и выпуск воздушных судов.\n\n✈️⠀Ограничения необходимы для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay"
+      }
+    ]
+  },
+  {
+    "telegramMessageId": 4594,
+    "chatId": -1003822338715,
+    "messageTimestamp": "2026-10-10T02:28:45+00:00",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4594",
+    "text": "🟢⠀ Аэропорты\n\n— БУГУЛЬМА\n\n— НИЖНЕКАМСК (Бегишево)\n\n— САРАТОВ (Гагарин)\n\n— ПЕНЗА \n\n✈️⠀СНЯТЫ ограничения на прием и выпуск воздушных судов. \n\n✈️⠀Ограничения вводили для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay",
+    "events": [
+      {
+        "id": "b823580591f2fc77",
+        "action": "REMOVE",
+        "name": "PlanKover",
+        "icao": "TDAY",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-10T02:28:45+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4594",
+        "text": "🟢⠀ Аэропорты\n\n— БУГУЛЬМА\n\n— НИЖНЕКАМСК (Бегишево)\n\n— САРАТОВ (Гагарин)\n\n— ПЕНЗА \n\n✈️⠀СНЯТЫ ограничения на прием и выпуск воздушных судов. \n\n✈️⠀Ограничения вводили для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay"
+      }
+    ]
+  },
+  {
+    "telegramMessageId": 4595,
+    "chatId": -1003822338715,
+    "messageTimestamp": "2026-10-10T02:43:28+00:00",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4595",
+    "text": "🟢⠀ Аэропорты\n\n— САМАРА (Курумоч)\n\n— УЛЬЯНОВСК (Баратаевка) \n\n✈️⠀СНЯТЫ ограничения на прием и выпуск воздушных судов. \n\n✈️⠀Ограничения вводили для обеспечения безопасности полетов.\n\n✈️⠀- - | @PlanKoverTDay",
+    "events": [
+      {
+        "id": "fb6b5dffa4df7bba",
+        "action": "REMOVE",
+        "name": "PlanKover",
+        "icao": "TDAY",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-10T02:43:28+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4595",
+        "text": "🟢⠀ Аэропорты\n\n— САМАРА (Курумоч)\n\n— УЛЬЯНОВСК (Баратаевка) \n\n✈️⠀СНЯТЫ ограничения на прием и выпуск воздушных судов. \n\n✈️⠀Ограничения вводили для обеспечения безопасности полетов.\n\n✈️⠀- - | @PlanKoverTDay"
+      }
+    ]
+  },
+  {
+    "telegramMessageId": 4596,
+    "chatId": -1003822338715,
+    "messageTimestamp": "2026-10-10T03:09:33+00:00",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4596",
+    "text": "🟢⠀ Аэропорт КАЗАНЬ\n\n✈️⠀СНЯТЫ ограничения на прием и выпуск воздушных судов. \n\n✈️⠀Ограничения вводили для обеспечения безопасности полетов.\n\n✈ - - | @PlanKoverTDay",
+    "events": [
+      {
+        "id": "1480cea3198d1fa3",
+        "action": "REMOVE",
+        "name": "PlanKover",
+        "icao": "TDAY",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-10T03:09:33+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4596",
+        "text": "🟢⠀ Аэропорт КАЗАНЬ\n\n✈️⠀СНЯТЫ ограничения на прием и выпуск воздушных судов. \n\n✈️⠀Ограничения вводили для обеспечения безопасности полетов.\n\n✈ - - | @PlanKoverTDay"
+      }
+    ]
+  },
+  {
+    "telegramMessageId": 4597,
+    "chatId": -1003822338715,
+    "messageTimestamp": "2026-10-10T03:18:09+00:00",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4597",
+    "text": "🔴⠀Аэропорт ЯРОСЛАВЛЬ (Туношна)\n\n✈️⠀ВВЕДЕНЫ временные ограничения на прием и выпуск воздушных судов.\n\n✈️⠀Ограничения необходимы для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay",
+    "events": [
+      {
+        "id": "62026d6e5293466e",
+        "action": "ADD",
+        "name": "PlanKover",
+        "icao": "TDAY",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-10T03:18:09+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4597",
+        "text": "🔴⠀Аэропорт ЯРОСЛАВЛЬ (Туношна)\n\n✈️⠀ВВЕДЕНЫ временные ограничения на прием и выпуск воздушных судов.\n\n✈️⠀Ограничения необходимы для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay"
+      }
+    ]
+  },
+  {
+    "telegramMessageId": 4598,
+    "chatId": -1003822338715,
+    "messageTimestamp": "2026-10-10T03:20:48+00:00",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4598",
+    "text": "🟢⠀ Аэропорты\n\n— КОТЛАС\n\n— СЫКТЫВКАР\n\n✈️⠀СНЯТЫ ограничения на прием и выпуск воздушных судов. \n\n✈️⠀Ограничения вводили для обеспечения безопасности полетов.\n\n✈️⠀- - | @PlanKoverTDay",
+    "events": [
+      {
+        "id": "cf5ef3e016c2af58",
+        "action": "REMOVE",
+        "name": "PlanKover",
+        "icao": "TDAY",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-10T03:20:48+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4598",
+        "text": "🟢⠀ Аэропорты\n\n— КОТЛАС\n\n— СЫКТЫВКАР\n\n✈️⠀СНЯТЫ ограничения на прием и выпуск воздушных судов. \n\n✈️⠀Ограничения вводили для обеспечения безопасности полетов.\n\n✈️⠀- - | @PlanKoverTDay"
+      }
+    ]
+  },
+  {
+    "telegramMessageId": 4599,
+    "chatId": -1003822338715,
+    "messageTimestamp": "2026-10-10T03:34:51+00:00",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4599",
+    "text": "🟢⠀ Аэропорт НИЖНИЙ НОВГОРОД (Чкалов)\n\n✈️⠀СНЯТЫ ограничения на прием и выпуск воздушных судов. \n\n✈️⠀Ограничения вводили для обеспечения безопасности полетов.\n\n✈ - - | @PlanKoverTDay",
+    "events": [
+      {
+        "id": "77108f618d2f360a",
+        "action": "REMOVE",
+        "name": "PlanKover",
+        "icao": "TDAY",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-10T03:34:51+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4599",
+        "text": "🟢⠀ Аэропорт НИЖНИЙ НОВГОРОД (Чкалов)\n\n✈️⠀СНЯТЫ ограничения на прием и выпуск воздушных судов. \n\n✈️⠀Ограничения вводили для обеспечения безопасности полетов.\n\n✈ - - | @PlanKoverTDay"
+      }
+    ]
+  },
+  {
+    "telegramMessageId": 4600,
+    "chatId": -1003822338715,
+    "messageTimestamp": "2026-10-10T05:11:16+00:00",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4600",
+    "text": "Аэропорты\n\n🔻 ВНУКОВО\n\n🔻 ДОМОДЕДОВО \n\n🔻 ЖУКОВСКИЙ (Раменское)\n\n🔻ШЕРЕМЕТЬЕВО\n\n🚫 ВВЕДЕНЫ временные ограничения на прием и выпуск воздушных судов.\n\n🧑‍🧑‍🧒‍🧒 Ограничения необходимы для обеспечения безопасности полетов.\n\n✈ - - | @PlanKoverTDay",
+    "events": [
+      {
+        "id": "f36b6972c4767cf9",
+        "action": "ADD",
+        "name": "Аэропорты",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-10T05:11:16+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4600",
+        "text": "Аэропорты\n\n🔻 ВНУКОВО\n\n🔻 ДОМОДЕДОВО \n\n🔻 ЖУКОВСКИЙ (Раменское)\n\n🔻ШЕРЕМЕТЬЕВО\n\n🚫 ВВЕДЕНЫ временные ограничения на прием и выпуск воздушных судов.\n\n🧑‍🧑‍🧒‍🧒 Ограничения необходимы для обеспечения безопасности полетов.\n\n✈ - - | @PlanKoverTDay"
+      }
+    ]
+  },
+  {
+    "telegramMessageId": 4601,
+    "chatId": -1003822338715,
+    "messageTimestamp": "2026-10-10T05:48:51+00:00",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4601",
+    "text": "🟢⠀ Аэропорты\n\n— ВНУКОВО\n\n— ДОМОДЕДОВО\n\n— ЖУКОВСКИЙ (Раменское)\n\n— ШЕРЕМЕТЬЕВО\n\n✈️⠀СНЯТЫ ограничения на прием и выпуск воздушных судов. \n\n✈️⠀Ограничения вводили для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay",
+    "events": [
+      {
+        "id": "48db5400c848d45c",
+        "action": "REMOVE",
+        "name": "PlanKover",
+        "icao": "TDAY",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-10T05:48:51+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4601",
+        "text": "🟢⠀ Аэропорты\n\n— ВНУКОВО\n\n— ДОМОДЕДОВО\n\n— ЖУКОВСКИЙ (Раменское)\n\n— ШЕРЕМЕТЬЕВО\n\n✈️⠀СНЯТЫ ограничения на прием и выпуск воздушных судов. \n\n✈️⠀Ограничения вводили для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay"
       }
     ]
   }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-10T00:20:56.219236+00:00",
+  "updatedAt": "2026-10-10T06:13:12.577813+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -133,6 +133,54 @@
       "messageTimestamp": "2026-10-10T00:19:25+00:00",
       "sourceUrl": "https://t.me/PlanKoverTDay/4591",
       "text": "🔴🛩️ Казань, UWKD"
+    },
+    {
+      "id": "5087c842a8224bdf",
+      "action": "ADD",
+      "name": "Корректировки",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 50.0,
+      "messageTimestamp": "2026-10-10T00:29:12+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4592",
+      "text": "Корректировки, уточнения \n\n🔴 Ульяновск (🛩️ Баратаевка, UWLL) / 50 км\n🔴 Александровка (Самарская обл) (🛩️ Самара - Курумоч, UWWW) / 150 км\n🔴🛩️ Самара - Курумоч, UWWW / 100 км\n🔴 Казань (🛩️ Казань, UWKD) / 100 км\n\n🔴 Базарный Сызган / 50 км\n🔴 Глотовка / 50 км"
+    },
+    {
+      "id": "515e28d8208c5faf",
+      "action": "ADD",
+      "name": "PlanKover",
+      "icao": "TDAY",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-10T02:04:49+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4593",
+      "text": "⛔️ Аэропорты\n\n— БУГУЛЬМА\n\n— КАЗАНЬ\n\n— НИЖНЕКАМСК (Бегишево)\n\n— НИЖНИЙ НОВГОРОД (Чкалов)\n\n— САМАРА (Курумоч)\n\n— УЛЬЯНОВСК (Баратаевка)\n\n✈️⠀ВВЕДЕНЫ временные ограничения на прием и выпуск воздушных судов.\n\n✈️⠀Ограничения необходимы для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay"
+    },
+    {
+      "id": "62026d6e5293466e",
+      "action": "ADD",
+      "name": "PlanKover",
+      "icao": "TDAY",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-10T03:18:09+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4597",
+      "text": "🔴⠀Аэропорт ЯРОСЛАВЛЬ (Туношна)\n\n✈️⠀ВВЕДЕНЫ временные ограничения на прием и выпуск воздушных судов.\n\n✈️⠀Ограничения необходимы для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay"
+    },
+    {
+      "id": "f36b6972c4767cf9",
+      "action": "ADD",
+      "name": "Аэропорты",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-10T05:11:16+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4600",
+      "text": "Аэропорты\n\n🔻 ВНУКОВО\n\n🔻 ДОМОДЕДОВО \n\n🔻 ЖУКОВСКИЙ (Раменское)\n\n🔻ШЕРЕМЕТЬЕВО\n\n🚫 ВВЕДЕНЫ временные ограничения на прием и выпуск воздушных судов.\n\n🧑‍🧑‍🧒‍🧒 Ограничения необходимы для обеспечения безопасности полетов.\n\n✈ - - | @PlanKoverTDay"
     }
   ]
 }
