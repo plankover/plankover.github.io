@@ -316,6 +316,22 @@
   },
   {
     "chatId": -1003822338715,
+    "messageId": 4608,
+    "timestamp": "2026-10-10T14:12:34+00:00",
+    "text": "🟢 Ранее объявленные",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4608",
+    "events": [
+      {
+        "id": "d58694c003f09e78",
+        "action": "CLEAR",
+        "messageTimestamp": "2026-10-10T14:12:34+00:00",
+        "text": "🟢 Ранее объявленные",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4608"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
     "messageId": 4609,
     "timestamp": "2026-10-10T15:16:21+00:00",
     "text": "🔴 Можайск / 40 км",
