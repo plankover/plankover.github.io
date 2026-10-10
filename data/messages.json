@@ -684,5 +684,257 @@
         "unresolved": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4615,
+    "timestamp": "2026-10-10T20:43:52+00:00",
+    "text": "🔴⠀Аэропорт СОЧИ\n\n✈️⠀ВВЕДЕНЫ временные ограничения на прием и выпуск воздушных судов.\n\n✈️⠀Ограничения необходимы для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4615",
+    "events": [
+      {
+        "id": "abb9d32839e9b9dc",
+        "action": "ADD",
+        "name": "⠀Аэропорт СОЧИ",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-10T20:43:52+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4615",
+        "text": "🔴⠀Аэропорт СОЧИ"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4615,
+    "timestamp": "2026-10-10T20:43:52+00:00",
+    "text": "🔴⠀Аэропорт СОЧИ\n\n✈️⠀ВВЕДЕНЫ временные ограничения на прием и выпуск воздушных судов.\n\n✈️⠀Ограничения необходимы для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4615",
+    "events": [
+      {
+        "id": "abb9d32839e9b9dc",
+        "action": "ADD",
+        "name": "⠀Аэропорт СОЧИ",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-10T20:43:52+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4615",
+        "text": "🔴⠀Аэропорт СОЧИ"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4615,
+    "timestamp": "2026-10-10T20:43:52+00:00",
+    "text": "🔴🛩️ Сочи, URSS / 50 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4615",
+    "events": [
+      {
+        "id": "b85d83dcd7330752",
+        "action": "ADD",
+        "name": "Сочи",
+        "icao": "URSS",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 50.0,
+        "messageTimestamp": "2026-10-10T20:43:52+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4615",
+        "text": "🔴🛩️ Сочи, URSS / 50 км"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4616,
+    "timestamp": "2026-10-10T21:08:25+00:00",
+    "text": "Возможно попытка атаки беспилотниками на ТЗК аэропорта или другую инфраструктуру.\nНаходящиеся в аэропорту, будьте осторожны.",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4616",
+    "events": [
+      {
+        "id": "eb4fd703c5e91c5f",
+        "action": "UNKNOWN",
+        "messageTimestamp": "2026-10-10T21:08:25+00:00",
+        "text": "Возможно попытка атаки беспилотниками на ТЗК аэропорта или другую инфраструктуру.\nНаходящиеся в аэропорту, будьте осторожны.",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4616"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4616,
+    "timestamp": "2026-10-10T21:08:25+00:00",
+    "text": "Возможно попытка атаки беспилотниками на ТЗК аэропорта или другую  близлежащую инфраструктуру.\nНаходящиеся в аэропорту, будьте осторожны.",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4616",
+    "events": [
+      {
+        "id": "18466d1d57a7c940",
+        "action": "UNKNOWN",
+        "messageTimestamp": "2026-10-10T21:08:25+00:00",
+        "text": "Возможно попытка атаки беспилотниками на ТЗК аэропорта или другую близлежащую инфраструктуру.\nНаходящиеся в аэропорту, будьте осторожны.",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4616"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4616,
+    "timestamp": "2026-10-10T21:08:25+00:00",
+    "text": "Возможно попытка атаки беспилотниками на ТЗК аэропорта или другую близлежащую инфраструктуру.\nНаходящиеся в аэропорту, будьте осторожны.",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4616",
+    "events": [
+      {
+        "id": "18466d1d57a7c940",
+        "action": "UNKNOWN",
+        "messageTimestamp": "2026-10-10T21:08:25+00:00",
+        "text": "Возможно попытка атаки беспилотниками на ТЗК аэропорта или другую близлежащую инфраструктуру.\nНаходящиеся в аэропорту, будьте осторожны.",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4616"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4617,
+    "timestamp": "2026-10-10T21:59:54+00:00",
+    "text": "🔴⠀Аэропорт ВОЛГОГРАД \n\n✈️⠀ВВЕДЕНЫ временные ограничения на прием и выпуск воздушных судов.\n\n✈️⠀Ограничения необходимы для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4617",
+    "events": [
+      {
+        "id": "5429777634bccc9d",
+        "action": "ADD",
+        "name": "⠀Аэропорт ВОЛГОГРАД",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-10T21:59:54+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4617",
+        "text": "🔴⠀Аэропорт ВОЛГОГРАД "
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4617,
+    "timestamp": "2026-10-10T21:59:54+00:00",
+    "text": "🔴⠀Аэропорт ВОЛГОГРАД \n\n✈️⠀ВВЕДЕНЫ временные ограничения на прием и выпуск воздушных судов.\n\n✈️⠀Ограничения необходимы для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4617",
+    "events": [
+      {
+        "id": "5429777634bccc9d",
+        "action": "ADD",
+        "name": "⠀Аэропорт ВОЛГОГРАД",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-10T21:59:54+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4617",
+        "text": "🔴⠀Аэропорт ВОЛГОГРАД "
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4617,
+    "timestamp": "2026-10-10T21:59:54+00:00",
+    "text": "🔴 Плес (🛩️ Саратов - Гагарин, UWSG) / 150 км\n🔴🛩️ Волгоград - Гумрак, URWW",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4617",
+    "events": [
+      {
+        "id": "410aff7578ffb963",
+        "action": "ADD",
+        "name": "Гагарин",
+        "icao": "UWSG",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 150.0,
+        "messageTimestamp": "2026-10-10T21:59:54+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4617",
+        "text": "🔴 Плес (🛩️ Саратов - Гагарин, UWSG) / 150 км"
+      },
+      {
+        "id": "c98fa58ff99fa70c",
+        "action": "ADD",
+        "name": "Гумрак",
+        "icao": "URWW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-10T21:59:54+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4617",
+        "text": "🔴🛩️ Волгоград - Гумрак, URWW"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4617,
+    "timestamp": "2026-10-10T21:59:54+00:00",
+    "text": "🔴⠀Аэропорт ВОЛГОГРАД \n\n✈️⠀ВВЕДЕНЫ временные ограничения на прием и выпуск воздушных судов.\n\n✈️⠀Ограничения необходимы для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4617",
+    "events": [
+      {
+        "id": "5429777634bccc9d",
+        "action": "ADD",
+        "name": "⠀Аэропорт ВОЛГОГРАД",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-10T21:59:54+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4617",
+        "text": "🔴⠀Аэропорт ВОЛГОГРАД "
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4618,
+    "timestamp": "2026-10-10T22:01:59+00:00",
+    "text": "🔴 а/д Центральный, Ростов на-Дону (⛔ Платов, URRP) / 40 км\n🔴 Новошахтинск / 30 км\n🔴 Агой / 30 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4618",
+    "events": [
+      {
+        "id": "33bd0dcffac296b4",
+        "action": "ADD",
+        "name": "Дону (⛔ Платов",
+        "icao": "URRP",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 40.0,
+        "messageTimestamp": "2026-10-10T22:01:59+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4618",
+        "text": "🔴 а/д Центральный, Ростов на-Дону (⛔ Платов, URRP) / 40 км"
+      },
+      {
+        "id": "61910b162c5edc3a",
+        "action": "ADD",
+        "name": "Новошахтинск",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 30.0,
+        "messageTimestamp": "2026-10-10T22:01:59+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4618",
+        "text": "🔴 Новошахтинск / 30 км"
+      },
+      {
+        "id": "38df562c9889ef8a",
+        "action": "ADD",
+        "name": "Агой",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 30.0,
+        "messageTimestamp": "2026-10-10T22:01:59+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4618",
+        "text": "🔴 Агой / 30 км"
+      }
+    ]
   }
 ]\n

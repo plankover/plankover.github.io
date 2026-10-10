@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-10T20:40:13.902859+00:00",
+  "updatedAt": "2026-10-10T23:52:19.586080+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -31,16 +31,16 @@
       "lon": 55.8822099
     },
     {
-      "id": "b8c1d85aca5998db",
+      "id": "410aff7578ffb963",
       "action": "ADD",
       "name": "Гагарин",
       "icao": "UWSG",
       "kind": "airport",
       "type": "full",
       "radiusKm": 150.0,
-      "messageTimestamp": "2026-10-10T18:46:01+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4610",
-      "text": "🔴 Верхний Еруслан (Саратовская область) (🛩️ Саратов - Гагарин, UWSG) / 150 км",
+      "messageTimestamp": "2026-10-10T21:59:54+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4617",
+      "text": "🔴 Плес (🛩️ Саратов - Гагарин, UWSG) / 150 км",
       "lat": 51.7139093,
       "lon": 46.1672319
     },
@@ -127,18 +127,102 @@
       "lon": 39.0274629
     },
     {
-      "id": "94045bbcc1396576",
+      "id": "abb9d32839e9b9dc",
       "action": "ADD",
       "name": "⠀Аэропорт СОЧИ",
       "icao": null,
       "kind": "city",
       "type": "full",
       "radiusKm": null,
-      "messageTimestamp": "2026-10-10T20:14:29+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4613",
+      "messageTimestamp": "2026-10-10T20:43:52+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4615",
       "text": "🔴⠀Аэропорт СОЧИ",
       "lat": 43.4482983,
       "lon": 39.9391104
+    },
+    {
+      "id": "b85d83dcd7330752",
+      "action": "ADD",
+      "name": "Сочи",
+      "icao": "URSS",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 50.0,
+      "messageTimestamp": "2026-10-10T20:43:52+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4615",
+      "text": "🔴🛩️ Сочи, URSS / 50 км",
+      "lat": 43.4439715,
+      "lon": 39.9400928
+    },
+    {
+      "id": "5429777634bccc9d",
+      "action": "ADD",
+      "name": "⠀Аэропорт ВОЛГОГРАД",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-10T21:59:54+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4617",
+      "text": "🔴⠀Аэропорт ВОЛГОГРАД ",
+      "lat": 48.7833547,
+      "lon": 44.3472901
+    },
+    {
+      "id": "c98fa58ff99fa70c",
+      "action": "ADD",
+      "name": "Гумрак",
+      "icao": "URWW",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-10T21:59:54+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4617",
+      "text": "🔴🛩️ Волгоград - Гумрак, URWW",
+      "lat": 48.7833547,
+      "lon": 44.3472901
+    },
+    {
+      "id": "33bd0dcffac296b4",
+      "action": "ADD",
+      "name": "Дону (⛔ Платов",
+      "icao": "URRP",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 40.0,
+      "messageTimestamp": "2026-10-10T22:01:59+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4618",
+      "text": "🔴 а/д Центральный, Ростов на-Дону (⛔ Платов, URRP) / 40 км",
+      "lat": 47.4879227,
+      "lon": 39.9295997
+    },
+    {
+      "id": "61910b162c5edc3a",
+      "action": "ADD",
+      "name": "Новошахтинск",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 30.0,
+      "messageTimestamp": "2026-10-10T22:01:59+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4618",
+      "text": "🔴 Новошахтинск / 30 км",
+      "lat": 47.7542512,
+      "lon": 39.9347532
+    },
+    {
+      "id": "38df562c9889ef8a",
+      "action": "ADD",
+      "name": "Агой",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 30.0,
+      "messageTimestamp": "2026-10-10T22:01:59+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4618",
+      "text": "🔴 Агой / 30 км",
+      "lat": 44.1454417,
+      "lon": 39.0380211
     }
   ]
 }\n
