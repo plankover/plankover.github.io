@@ -502,5 +502,304 @@
         "text": "🟢⠀ Аэропорт НИЖНИЙ НОВГОРОД (Чкалов)\n\n✈️⠀СНЯТЫ ограничения на прием и выпуск воздушных судов. \n\n✈️⠀Ограничения вводили для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay"
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4602,
+    "timestamp": "2026-10-10T06:31:58+00:00",
+    "text": "🟢⠀ Аэропорты\n\n— ТАМБОВт(Донское)\n\n— КАЛУГА (Грабцево)\n\n— ЯРОСЛАВЛЬ (Туношна)\n\n✈️⠀СНЯТЫ ограничения на прием и выпуск воздушных судов. \n\n✈️⠀Ограничения вводили для обеспечения безопасности полетов.\n\n✈ - - | @PlanKoverTDay",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4602",
+    "events": [
+      {
+        "id": "24fd3583b29bcece",
+        "action": "REMOVE",
+        "messageTimestamp": "2026-10-10T06:31:58+00:00",
+        "text": "🟢⠀ Аэропорты\n\n— ТАМБОВт(Донское)\n\n— КАЛУГА (Грабцево)\n\n— ЯРОСЛАВЛЬ (Туношна)\n\n✈️⠀СНЯТЫ ограничения на прием и выпуск воздушных судов. \n\n✈️⠀Ограничения вводили для обеспечения безопасности полетов.\n\n✈ - - | @PlanKoverTDay",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4602",
+        "unresolved": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4602,
+    "timestamp": "2026-10-10T06:31:58+00:00",
+    "text": "🟢⠀ Аэропорты\n\n— ТАМБОВ (Донское)\n\n— КАЛУГА (Грабцево)\n\n— ЯРОСЛАВЛЬ (Туношна)\n\n✈️⠀СНЯТЫ ограничения на прием и выпуск воздушных судов. \n\n✈️⠀Ограничения вводили для обеспечения безопасности полетов.\n\n✈ - - | @PlanKoverTDay",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4602",
+    "events": [
+      {
+        "id": "fbd9bfacc8b9fca9",
+        "action": "REMOVE",
+        "messageTimestamp": "2026-10-10T06:31:58+00:00",
+        "text": "🟢⠀ Аэропорты\n\n— ТАМБОВ (Донское)\n\n— КАЛУГА (Грабцево)\n\n— ЯРОСЛАВЛЬ (Туношна)\n\n✈️⠀СНЯТЫ ограничения на прием и выпуск воздушных судов. \n\n✈️⠀Ограничения вводили для обеспечения безопасности полетов.\n\n✈ - - | @PlanKoverTDay",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4602",
+        "unresolved": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4602,
+    "timestamp": "2026-10-10T06:31:58+00:00",
+    "text": "🟢⠀ Аэропорты\n\n— ТАМБОВ (Донское)\n\n— КАЛУГА (Грабцево)\n\n— ЯРОСЛАВЛЬ (Туношна)\n\n✈️⠀СНЯТЫ ограничения на прием и выпуск воздушных судов. \n\n✈️⠀Ограничения вводили для обеспечения безопасности полетов.\n\n✈ - - | @PlanKoverTDay",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4602",
+    "events": [
+      {
+        "id": "fbd9bfacc8b9fca9",
+        "action": "REMOVE",
+        "messageTimestamp": "2026-10-10T06:31:58+00:00",
+        "text": "🟢⠀ Аэропорты\n\n— ТАМБОВ (Донское)\n\n— КАЛУГА (Грабцево)\n\n— ЯРОСЛАВЛЬ (Туношна)\n\n✈️⠀СНЯТЫ ограничения на прием и выпуск воздушных судов. \n\n✈️⠀Ограничения вводили для обеспечения безопасности полетов.\n\n✈ - - | @PlanKoverTDay",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4602",
+        "unresolved": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4603,
+    "timestamp": "2026-10-10T09:13:37+00:00",
+    "text": "🔴⠀Аэропорт НИЖНИЙ НОВГОРОД (Чкалов)\n\n✈️⠀ВВЕДЕНЫ временные ограничения на прием и выпуск воздушных судов.\n\n✈️⠀Ограничения необходимы для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4603",
+    "events": [
+      {
+        "id": "337d2c2e3d165bd0",
+        "action": "ADD",
+        "name": "⠀Аэропорт НИЖНИЙ НОВГОРОД (Чкалов)",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-10T09:13:37+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4603",
+        "text": "🔴⠀Аэропорт НИЖНИЙ НОВГОРОД (Чкалов)"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4603,
+    "timestamp": "2026-10-10T09:13:37+00:00",
+    "text": "🔴⠀Аэропорт НИЖНИЙ НОВГОРОД (Чкалов)\n\n✈️⠀ВВЕДЕНЫ временные ограничения на прием и выпуск воздушных судов.\n\n✈️⠀Ограничения необходимы для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4603",
+    "events": [
+      {
+        "id": "337d2c2e3d165bd0",
+        "action": "ADD",
+        "name": "⠀Аэропорт НИЖНИЙ НОВГОРОД (Чкалов)",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-10T09:13:37+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4603",
+        "text": "🔴⠀Аэропорт НИЖНИЙ НОВГОРОД (Чкалов)"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4603,
+    "timestamp": "2026-10-10T09:13:37+00:00",
+    "text": "🔴🛩️ Нижний Новгород - Стригино, UWGG / 70 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4603",
+    "events": [
+      {
+        "id": "c2a044dc78a601b4",
+        "action": "ADD",
+        "name": "Стригино",
+        "icao": "UWGG",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-10-10T09:13:37+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4603",
+        "text": "🔴🛩️ Нижний Новгород - Стригино, UWGG / 70 км"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4604,
+    "timestamp": "2026-10-10T09:40:47+00:00",
+    "text": "🔴 а/д Чкаловский / 30 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4604",
+    "events": [
+      {
+        "id": "d3080d053c94827d",
+        "action": "ADD",
+        "name": "Чкаловский",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 30.0,
+        "messageTimestamp": "2026-10-10T09:40:47+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4604",
+        "text": "🔴 а/д Чкаловский / 30 км"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4605,
+    "timestamp": "2026-10-10T11:07:29+00:00",
+    "text": "✈️⠀🔴⠀Аэропорт УХТА\n\n✈️⠀ВВЕДЕНЫ временные ограничения на прием и выпуск воздушных судов.\n\n✈️⠀Ограничения необходимы для обеспечения безопасности полетов.\n\n✈️⠀- - | @PlanKoverTDay",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4605",
+    "events": [
+      {
+        "id": "854a74d47d0d480c",
+        "action": "ADD",
+        "name": "⠀🔴⠀Аэропорт УХТА",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-10T11:07:29+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4605",
+        "text": "✈️⠀🔴⠀Аэропорт УХТА"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4605,
+    "timestamp": "2026-10-10T11:07:29+00:00",
+    "text": "✈️⠀🔴⠀Аэропорт УХТА\n\n✈️⠀ВВЕДЕНЫ временные ограничения на прием и выпуск воздушных судов.\n\n✈️⠀Ограничения необходимы для обеспечения безопасности полетов.\n\n✈️⠀- - | @PlanKoverTDay",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4605",
+    "events": [
+      {
+        "id": "854a74d47d0d480c",
+        "action": "ADD",
+        "name": "⠀🔴⠀Аэропорт УХТА",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-10T11:07:29+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4605",
+        "text": "✈️⠀🔴⠀Аэропорт УХТА"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4605,
+    "timestamp": "2026-10-10T11:07:29+00:00",
+    "text": "🔴🛩️ Ухта, UUYH / 100 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4605",
+    "events": [
+      {
+        "id": "3dd64691d4a5133e",
+        "action": "ADD",
+        "name": "Ухта",
+        "icao": "UUYH",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 100.0,
+        "messageTimestamp": "2026-10-10T11:07:29+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4605",
+        "text": "🔴🛩️ Ухта, UUYH / 100 км"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4606,
+    "timestamp": "2026-10-10T11:11:48+00:00",
+    "text": "🟢⠀ Аэропорт НИЖНИЙ НОВГОРОД (Чкалов)\n\n✈️⠀СНЯТЫ ограничения на прием и выпуск воздушных судов. \n\n✈️⠀Ограничения вводили для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4606",
+    "events": [
+      {
+        "id": "feb8ad70c5cf5e76",
+        "action": "REMOVE",
+        "messageTimestamp": "2026-10-10T11:11:48+00:00",
+        "text": "🟢⠀ Аэропорт НИЖНИЙ НОВГОРОД (Чкалов)\n\n✈️⠀СНЯТЫ ограничения на прием и выпуск воздушных судов. \n\n✈️⠀Ограничения вводили для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4606",
+        "unresolved": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4606,
+    "timestamp": "2026-10-10T11:11:48+00:00",
+    "text": "🟢⠀ Аэропорт НИЖНИЙ НОВГОРОД (Чкалов)\n\n✈️⠀СНЯТЫ ограничения на прием и выпуск воздушных судов. \n\n✈️⠀Ограничения вводили для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4606",
+    "events": [
+      {
+        "id": "feb8ad70c5cf5e76",
+        "action": "REMOVE",
+        "messageTimestamp": "2026-10-10T11:11:48+00:00",
+        "text": "🟢⠀ Аэропорт НИЖНИЙ НОВГОРОД (Чкалов)\n\n✈️⠀СНЯТЫ ограничения на прием и выпуск воздушных судов. \n\n✈️⠀Ограничения вводили для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4606",
+        "unresolved": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4607,
+    "timestamp": "2026-10-10T14:10:20+00:00",
+    "text": "✈️⠀🟢⠀Аэропорт УХТА\n\n✈️⠀СНЯТЫ ограничения на прием и выпуск воздушных судов.\n\n✈️⠀Ограничения вводили для обеспечения безопасности полетов.\n\n✈️⠀- - | @PlanKoverTDay",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4607",
+    "events": [
+      {
+        "id": "7009dbf29b8459f1",
+        "action": "REMOVE",
+        "messageTimestamp": "2026-10-10T14:10:20+00:00",
+        "text": "✈️⠀🟢⠀Аэропорт УХТА\n\n✈️⠀СНЯТЫ ограничения на прием и выпуск воздушных судов.\n\n✈️⠀Ограничения вводили для обеспечения безопасности полетов.\n\n✈️⠀- - | @PlanKoverTDay",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4607",
+        "unresolved": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4607,
+    "timestamp": "2026-10-10T14:10:20+00:00",
+    "text": "✈️⠀🟢⠀Аэропорт УХТА\n\n✈️⠀СНЯТЫ ограничения на прием и выпуск воздушных судов.\n\n✈️⠀Ограничения вводили для обеспечения безопасности полетов.\n\n✈️⠀- - | @PlanKoverTDay",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4607",
+    "events": [
+      {
+        "id": "7009dbf29b8459f1",
+        "action": "REMOVE",
+        "messageTimestamp": "2026-10-10T14:10:20+00:00",
+        "text": "✈️⠀🟢⠀Аэропорт УХТА\n\n✈️⠀СНЯТЫ ограничения на прием и выпуск воздушных судов.\n\n✈️⠀Ограничения вводили для обеспечения безопасности полетов.\n\n✈️⠀- - | @PlanKoverTDay",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4607",
+        "unresolved": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4607,
+    "timestamp": "2026-10-10T14:10:20+00:00",
+    "text": "✈️⠀🟢⠀Аэропорт УХТА\n\n✈️⠀СНЯТЫ ограничения на прием и выпуск воздушных судов.\n\n✈️⠀Ограничения вводили для обеспечения безопасности полетов.\n\n✈️⠀- - | @PlanKoverTDay",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4607",
+    "events": [
+      {
+        "id": "7009dbf29b8459f1",
+        "action": "REMOVE",
+        "messageTimestamp": "2026-10-10T14:10:20+00:00",
+        "text": "✈️⠀🟢⠀Аэропорт УХТА\n\n✈️⠀СНЯТЫ ограничения на прием и выпуск воздушных судов.\n\n✈️⠀Ограничения вводили для обеспечения безопасности полетов.\n\n✈️⠀- - | @PlanKoverTDay",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4607",
+        "unresolved": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4608,
+    "timestamp": "2026-10-10T14:12:34+00:00",
+    "text": "🟢 Ранее объявленные",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4608",
+    "events": [
+      {
+        "id": "d58694c003f09e78",
+        "action": "CLEAR",
+        "messageTimestamp": "2026-10-10T14:12:34+00:00",
+        "text": "🟢 Ранее объявленные",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4608"
+      }
+    ]
   }
-]
+]\n
