@@ -1,21 +1,7 @@
 {
-  "updatedAt": "2026-10-11T11:02:23.796947+00:00",
+  "updatedAt": "2026-10-11T16:39:32.025390+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
-    {
-      "id": "6565d248c7b6074f",
-      "action": "ADD",
-      "name": "Можайск",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": 40.0,
-      "messageTimestamp": "2026-10-10T15:16:21+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4609",
-      "text": "🔴 Можайск / 40 км",
-      "lat": 55.506478,
-      "lon": 36.0213092
-    },
     {
       "id": "0279cb03e6ed2c57",
       "action": "ADD",
@@ -71,15 +57,15 @@
       "text": "🔴 Казарка (🛩️ Саранск, UWPC ; 🛩️ Пенза, UWPP) / 150 км"
     },
     {
-      "id": "293f58a68d08d6bf",
+      "id": "edaa0aa723fd6ad8",
       "action": "ADD",
       "name": "⠀Аэропорт КАЛУГА (Грабцево)",
       "icao": null,
       "kind": "city",
       "type": "full",
       "radiusKm": null,
-      "messageTimestamp": "2026-10-10T19:06:03+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4612",
+      "messageTimestamp": "2026-10-11T15:38:54+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4633",
       "text": "🔴⠀Аэропорт КАЛУГА (Грабцево)",
       "lat": 54.5488708,
       "lon": 36.3697725
