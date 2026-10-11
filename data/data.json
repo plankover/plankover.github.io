@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-11T04:31:43.961816+00:00",
+  "updatedAt": "2026-10-11T11:02:23.796947+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -127,30 +127,30 @@
       "lon": 39.0274629
     },
     {
-      "id": "abb9d32839e9b9dc",
+      "id": "b94b0a664d22b48d",
       "action": "ADD",
       "name": "⠀Аэропорт СОЧИ",
       "icao": null,
       "kind": "city",
       "type": "full",
       "radiusKm": null,
-      "messageTimestamp": "2026-10-10T20:43:52+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4615",
+      "messageTimestamp": "2026-10-11T09:26:46+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4629",
       "text": "🔴⠀Аэропорт СОЧИ",
-      "lat": 43.4482983,
-      "lon": 39.9391104
+      "lat": 43.4483422,
+      "lon": 39.9391404
     },
     {
-      "id": "b85d83dcd7330752",
+      "id": "e9e58a43a7d2dc63",
       "action": "ADD",
       "name": "Сочи",
       "icao": "URSS",
       "kind": "airport",
       "type": "full",
-      "radiusKm": 50.0,
-      "messageTimestamp": "2026-10-10T20:43:52+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4615",
-      "text": "🔴🛩️ Сочи, URSS / 50 км",
+      "radiusKm": 40.0,
+      "messageTimestamp": "2026-10-11T09:26:46+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4629",
+      "text": "🔴🛩️ Сочи, URSS / 40 км",
       "lat": 43.4439715,
       "lon": 39.9400928
     },
