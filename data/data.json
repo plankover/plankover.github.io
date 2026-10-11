@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-10T23:52:19.586080+00:00",
+  "updatedAt": "2026-10-11T04:31:43.961816+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -223,6 +223,20 @@
       "text": "🔴 Агой / 30 км",
       "lat": 44.1454417,
       "lon": 39.0380211
+    },
+    {
+      "id": "e45206d55eddd4c0",
+      "action": "ADD",
+      "name": "⠀Аэропорт ИВАНОВО (Южный)",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-11T02:22:48+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4624",
+      "text": "🔴⠀Аэропорт ИВАНОВО (Южный)",
+      "lat": 56.941138,
+      "lon": 40.9389727
     }
   ]
 }\n
