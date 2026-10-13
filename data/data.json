@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T22:15:39.176914+00:00",
+  "updatedAt": "2026-10-13T03:07:15.617351+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -140,6 +140,76 @@
       "text": "🟡 Аэропорт ДОМОДЕДОВО",
       "lat": 55.4087122,
       "lon": 37.9094307
+    },
+    {
+      "id": "2cc666e5087880a0",
+      "action": "ADD",
+      "name": "ЖУКОВСКИЙ (Раменское)",
+      "icao": null,
+      "kind": "airport",
+      "type": "partial",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-12T23:06:15+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4667",
+      "text": "🟡 Аэропорт ЖУКОВСКИЙ (Раменское)",
+      "lat": 55.5496554,
+      "lon": 38.1547897
+    },
+    {
+      "id": "8c7bae5cba019635",
+      "action": "ADD",
+      "name": "⠀Аэропорт ВНУКОВО",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-12T23:07:28+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4668",
+      "text": "🔴⠀Аэропорт ВНУКОВО",
+      "lat": 55.5995278,
+      "lon": 37.2735752
+    },
+    {
+      "id": "4217e0d05aeffc5d",
+      "action": "ADD",
+      "name": "⠀Аэропорт ГЕЛЕНДЖИК",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-12T23:43:42+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4669",
+      "text": "🔴⠀Аэропорт ГЕЛЕНДЖИК",
+      "lat": 44.5817785,
+      "lon": 38.0125403
+    },
+    {
+      "id": "8abbf25a303533b4",
+      "action": "ADD",
+      "name": "⠀Аэропорт ИВАНОВО (Южный)",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-12T23:53:18+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4670",
+      "text": "🔴⠀Аэропорт ИВАНОВО (Южный)",
+      "lat": 56.941138,
+      "lon": 40.9389727
+    },
+    {
+      "id": "8574bdc063edfc6c",
+      "action": "ADD",
+      "name": "ВНУКОВО",
+      "icao": null,
+      "kind": "airport",
+      "type": "partial",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-13T00:13:00+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4672",
+      "text": "🟡 Аэропорт ВНУКОВО  ",
+      "lat": 55.611698,
+      "lon": 37.300255
     }
   ]
 }
