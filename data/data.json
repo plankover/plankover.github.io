@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T06:32:18.540798+00:00",
+  "updatedAt": "2026-10-14T12:24:41.310305+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -325,6 +325,34 @@
       "text": "🔴⠀Аэропорт САМАРА (Курумоч)",
       "lat": 53.5057511,
       "lon": 50.1569939
+    },
+    {
+      "id": "b72c5f8af7f04804",
+      "action": "ADD",
+      "name": "Аэропорты",
+      "icao": null,
+      "kind": "city",
+      "type": "partial",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-14T08:42:48+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4704",
+      "text": "🟡 Аэропорты ",
+      "lat": 54.5543582,
+      "lon": 55.8822099
+    },
+    {
+      "id": "cd04db73784d896e",
+      "action": "ADD",
+      "name": "⠀Аэропорт СОЧИ",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-14T12:08:54+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4706",
+      "text": "🔴⠀Аэропорт СОЧИ",
+      "lat": 43.4482983,
+      "lon": 39.9391104
     }
   ]
 }
