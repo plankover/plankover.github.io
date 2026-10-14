@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T17:28:36.400834+00:00",
+  "updatedAt": "2026-10-14T20:55:30.660544+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -18,22 +18,21 @@
       "lon": 36.3697725
     },
     {
-      "id": "f464611c61fe0e25",
+      "id": "b26b10e2f88703f0",
       "action": "ADD",
       "name": "Домодедово",
       "icao": "UUDD",
       "kind": "airport",
       "type": "partial",
       "radiusKm": 100.0,
-      "messageTimestamp": "2026-10-13T22:24:59+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4696",
-      "text": "🔴🛩️ Домодедово, UUDD / 100 км (южная половина окружности - азимуты 270-090) ",
+      "messageTimestamp": "2026-10-14T19:12:38+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4710",
+      "text": "🟡🛩️ Домодедово, UUDD / 100 км (южная половина окружности азимуты 270-090)",
       "sector": {
         "radiusKm": 100.0,
         "startAzimuth": 270,
         "endAzimuth": 90
       },
-      "snapshot": true,
       "lat": 55.4087122,
       "lon": 37.9094307
     },
@@ -353,6 +352,90 @@
       "text": "🔴⠀Аэропорт СОЧИ",
       "lat": 43.4482983,
       "lon": 39.9391104
+    },
+    {
+      "id": "d4bbc15c9391f342",
+      "action": "ADD",
+      "name": "⠀Аэропорт ПЕНЗА",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-14T19:01:17+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4708",
+      "text": "🔴⠀Аэропорт ПЕНЗА",
+      "lat": 53.110734,
+      "lon": 45.023455
+    },
+    {
+      "id": "ab2198bde134885b",
+      "action": "ADD",
+      "name": "ДОМОДЕДОВО",
+      "icao": null,
+      "kind": "airport",
+      "type": "partial",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-14T20:14:12+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4714",
+      "text": "🟡 Аэропорт ДОМОДЕДОВО",
+      "lat": 55.4087122,
+      "lon": 37.9094307
+    },
+    {
+      "id": "1d07d4f9972a2f3d",
+      "action": "ADD",
+      "name": "⠀Аэропорт ВОЛГОГРАД",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-14T19:27:34+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4711",
+      "text": "🔴⠀Аэропорт ВОЛГОГРАД ",
+      "lat": 48.7833547,
+      "lon": 44.3472901
+    },
+    {
+      "id": "4670d41a51d781f0",
+      "action": "ADD",
+      "name": "Гумрак",
+      "icao": "URWW",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 60.0,
+      "messageTimestamp": "2026-10-14T19:27:34+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4711",
+      "text": "🔴🛩️ Волгоград - Гумрак, URWW / 60 км",
+      "lat": 48.7833547,
+      "lon": 44.3472901
+    },
+    {
+      "id": "2f5cc7850ae53764",
+      "action": "ADD",
+      "name": "⠀Аэропорт ДОМОДЕДОВО",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-14T20:00:23+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4712",
+      "text": "🔴⠀Аэропорт ДОМОДЕДОВО",
+      "lat": 55.4087122,
+      "lon": 37.9094307
+    },
+    {
+      "id": "17517fd9cbbde300",
+      "action": "ADD",
+      "name": "⠀Аэропорт САРАНСК",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-14T20:18:09+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4715",
+      "text": "🔴⠀Аэропорт САРАНСК",
+      "lat": 54.1274695,
+      "lon": 45.2152086
     }
   ]
 }
