@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T13:42:40.784494+00:00",
+  "updatedAt": "2026-10-15T17:53:50.024900+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -34,6 +34,20 @@
       "text": "🔴⠀Аэропорт САМАРА (Курумоч)",
       "lat": 53.5057511,
       "lon": 50.1569939
+    },
+    {
+      "id": "f63e0ac67cc1e9b2",
+      "action": "ADD",
+      "name": "⠀Аэропорт СОЧИ",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-15T16:40:52+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4752",
+      "text": "🔴⠀Аэропорт СОЧИ",
+      "lat": 43.4482983,
+      "lon": 39.9391104
     },
     {
       "id": "16d501784cab1779",
@@ -146,15 +160,15 @@
       "text": "🔴⠀Аэропорт НИЖНИЙ НОВГОРОД (Чкалов)"
     },
     {
-      "id": "301b2c7035a20837",
+      "id": "686c585a9d5c2dd3",
       "action": "ADD",
       "name": "⠀Аэропорт КАЛУГА (Грабцево)",
       "icao": null,
       "kind": "city",
       "type": "full",
       "radiusKm": null,
-      "messageTimestamp": "2026-10-15T02:26:46+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4722",
+      "messageTimestamp": "2026-10-15T17:44:31+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4754",
       "text": "🔴⠀Аэропорт КАЛУГА (Грабцево)",
       "lat": 54.5488708,
       "lon": 36.3697725
@@ -256,6 +270,20 @@
       "text": "🔴⠀Аэропорт ИЖЕВСК",
       "lat": 56.8361905,
       "lon": 53.4631283
+    },
+    {
+      "id": "5a7137558d6af612",
+      "action": "ADD",
+      "name": "Сочи",
+      "icao": "URSS",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-15T16:37:08+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4751",
+      "text": "🔴🛩️ Сочи, URSS",
+      "lat": 43.4439715,
+      "lon": 39.9400928
     }
   ]
 }
