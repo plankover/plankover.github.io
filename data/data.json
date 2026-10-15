@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T08:36:18.391487+00:00",
+  "updatedAt": "2026-10-15T13:42:40.784494+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -22,32 +22,18 @@
       "lon": 37.9094307
     },
     {
-      "id": "b72c5f8af7f04804",
+      "id": "55ef657ba66e7923",
       "action": "ADD",
-      "name": "Аэропорты",
-      "icao": null,
-      "kind": "city",
-      "type": "partial",
-      "radiusKm": null,
-      "messageTimestamp": "2026-10-14T08:42:48+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4704",
-      "text": "🟡 Аэропорты ",
-      "lat": 54.5543582,
-      "lon": 55.8822099
-    },
-    {
-      "id": "cd04db73784d896e",
-      "action": "ADD",
-      "name": "⠀Аэропорт СОЧИ",
+      "name": "⠀Аэропорт САМАРА (Курумоч)",
       "icao": null,
       "kind": "city",
       "type": "full",
       "radiusKm": null,
-      "messageTimestamp": "2026-10-14T12:08:54+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4706",
-      "text": "🔴⠀Аэропорт СОЧИ",
-      "lat": 43.4482983,
-      "lon": 39.9391104
+      "messageTimestamp": "2026-10-15T09:05:22+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4737",
+      "text": "🔴⠀Аэропорт САМАРА (Курумоч)",
+      "lat": 53.5057511,
+      "lon": 50.1569939
     },
     {
       "id": "16d501784cab1779",
@@ -120,15 +106,15 @@
       "lon": 37.9094307
     },
     {
-      "id": "17517fd9cbbde300",
+      "id": "86f53960b2d8eb26",
       "action": "ADD",
       "name": "⠀Аэропорт САРАНСК",
       "icao": null,
       "kind": "city",
       "type": "full",
       "radiusKm": null,
-      "messageTimestamp": "2026-10-14T20:18:09+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4715",
+      "messageTimestamp": "2026-10-15T08:59:08+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4736",
       "text": "🔴⠀Аэропорт САРАНСК",
       "lat": 54.1274695,
       "lon": 45.2152086
@@ -174,15 +160,15 @@
       "lon": 36.3697725
     },
     {
-      "id": "60137d08702c28db",
+      "id": "ce7646489208369c",
       "action": "ADD",
       "name": "⠀Аэропорты",
       "icao": null,
       "kind": "city",
       "type": "full",
       "radiusKm": null,
-      "messageTimestamp": "2026-10-15T08:26:24+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4735",
+      "messageTimestamp": "2026-10-15T09:09:07+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4738",
       "text": "🔴⠀Аэропорты",
       "lat": 54.5543582,
       "lon": 55.8822099
@@ -202,15 +188,15 @@
       "lon": 37.300255
     },
     {
-      "id": "7aff959e6bdf0949",
+      "id": "d70d2f645370847c",
       "action": "ADD",
       "name": "⠀Аэропорт ГЕЛЕНДЖИК",
       "icao": null,
       "kind": "city",
       "type": "full",
       "radiusKm": null,
-      "messageTimestamp": "2026-10-15T03:21:22+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4726",
+      "messageTimestamp": "2026-10-15T13:41:15+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4748",
       "text": "🔴⠀Аэропорт ГЕЛЕНДЖИК",
       "lat": 44.5817785,
       "lon": 38.0125403
@@ -228,6 +214,48 @@
       "text": "🟡 Аэропорт ЖУКОВСКИЙ (Раменское)",
       "lat": 55.5496554,
       "lon": 38.1547897
+    },
+    {
+      "id": "a59af1b580c528b3",
+      "action": "ADD",
+      "name": "⠀Аэропорт НИЖНЕКАМСК (Бегишево)",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-15T09:15:51+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4739",
+      "text": "🔴⠀Аэропорт НИЖНЕКАМСК (Бегишево)",
+      "lat": 55.5644478,
+      "lon": 52.1013916
+    },
+    {
+      "id": "4299d611bc77d417",
+      "action": "ADD",
+      "name": "⠀Аэропорт КИРОВ (Победилово)",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-15T09:31:55+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4741",
+      "text": "🔴⠀Аэропорт КИРОВ (Победилово)",
+      "lat": 58.4925089,
+      "lon": 49.3470604
+    },
+    {
+      "id": "7fcd07c66566b9b3",
+      "action": "ADD",
+      "name": "⠀Аэропорт ИЖЕВСК",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-15T09:50:51+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4743",
+      "text": "🔴⠀Аэропорт ИЖЕВСК",
+      "lat": 56.8361905,
+      "lon": 53.4631283
     }
   ]
 }
