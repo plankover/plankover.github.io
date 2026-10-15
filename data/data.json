@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T23:45:21.038009+00:00",
+  "updatedAt": "2026-10-15T03:35:39.342692+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -20,20 +20,6 @@
       },
       "lat": 55.4087122,
       "lon": 37.9094307
-    },
-    {
-      "id": "7d7cdc9dc2a5d38e",
-      "action": "ADD",
-      "name": "⠀Аэропорт САМАРА (Курумоч)",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-10-14T00:58:57+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4698",
-      "text": "🔴⠀Аэропорт САМАРА (Курумоч)",
-      "lat": 53.5057511,
-      "lon": 50.1569939
     },
     {
       "id": "b72c5f8af7f04804",
@@ -78,15 +64,15 @@
       "lon": 45.023455
     },
     {
-      "id": "ab2198bde134885b",
+      "id": "c9a044141b4a2a1e",
       "action": "ADD",
       "name": "ДОМОДЕДОВО",
       "icao": null,
       "kind": "airport",
       "type": "partial",
       "radiusKm": null,
-      "messageTimestamp": "2026-10-14T20:14:12+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4714",
+      "messageTimestamp": "2026-10-15T00:55:52+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4720",
       "text": "🟡 Аэропорт ДОМОДЕДОВО",
       "lat": 55.4087122,
       "lon": 37.9094307
@@ -146,6 +132,88 @@
       "text": "🔴⠀Аэропорт САРАНСК",
       "lat": 54.1274695,
       "lon": 45.2152086
+    },
+    {
+      "id": "34336520e2dbfe66",
+      "action": "ADD",
+      "name": "⠀Аэропорт ТАМБОВ (Донское)",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-15T00:29:02+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4719",
+      "text": "🔴⠀Аэропорт ТАМБОВ (Донское)",
+      "lat": 52.8060125,
+      "lon": 41.4845129
+    },
+    {
+      "id": "22f39893018f8c14",
+      "action": "ADD",
+      "name": "⠀Аэропорт НИЖНИЙ НОВГОРОД (Чкалов)",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-15T02:01:20+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4721",
+      "text": "🔴⠀Аэропорт НИЖНИЙ НОВГОРОД (Чкалов)"
+    },
+    {
+      "id": "301b2c7035a20837",
+      "action": "ADD",
+      "name": "⠀Аэропорт КАЛУГА (Грабцево)",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-15T02:26:46+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4722",
+      "text": "🔴⠀Аэропорт КАЛУГА (Грабцево)",
+      "lat": 54.5488708,
+      "lon": 36.3697725
+    },
+    {
+      "id": "ba30c53e5784c753",
+      "action": "ADD",
+      "name": "⠀Аэропорты",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-15T02:31:53+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4723",
+      "text": "🔴⠀Аэропорты",
+      "lat": 54.5543582,
+      "lon": 55.8822099
+    },
+    {
+      "id": "4c2da564fb5ce574",
+      "action": "ADD",
+      "name": "ВНУКОВО",
+      "icao": null,
+      "kind": "airport",
+      "type": "partial",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-15T03:10:46+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4725",
+      "text": "🟡 Аэропорт ВНУКОВО  ",
+      "lat": 55.611698,
+      "lon": 37.300255
+    },
+    {
+      "id": "7aff959e6bdf0949",
+      "action": "ADD",
+      "name": "⠀Аэропорт ГЕЛЕНДЖИК",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-15T03:21:22+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4726",
+      "text": "🔴⠀Аэропорт ГЕЛЕНДЖИК",
+      "lat": 44.5817785,
+      "lon": 38.0125403
     }
   ]
 }
