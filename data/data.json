@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T03:35:39.342692+00:00",
+  "updatedAt": "2026-10-15T08:36:18.391487+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -50,15 +50,15 @@
       "lon": 39.9391104
     },
     {
-      "id": "d4bbc15c9391f342",
+      "id": "16d501784cab1779",
       "action": "ADD",
       "name": "⠀Аэропорт ПЕНЗА",
       "icao": null,
       "kind": "city",
       "type": "full",
       "radiusKm": null,
-      "messageTimestamp": "2026-10-14T19:01:17+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4708",
+      "messageTimestamp": "2026-10-15T04:42:24+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4730",
       "text": "🔴⠀Аэропорт ПЕНЗА",
       "lat": 53.110734,
       "lon": 45.023455
@@ -174,15 +174,15 @@
       "lon": 36.3697725
     },
     {
-      "id": "ba30c53e5784c753",
+      "id": "60137d08702c28db",
       "action": "ADD",
       "name": "⠀Аэропорты",
       "icao": null,
       "kind": "city",
       "type": "full",
       "radiusKm": null,
-      "messageTimestamp": "2026-10-15T02:31:53+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4723",
+      "messageTimestamp": "2026-10-15T08:26:24+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4735",
       "text": "🔴⠀Аэропорты",
       "lat": 54.5543582,
       "lon": 55.8822099
@@ -214,6 +214,20 @@
       "text": "🔴⠀Аэропорт ГЕЛЕНДЖИК",
       "lat": 44.5817785,
       "lon": 38.0125403
+    },
+    {
+      "id": "b792a06ea16490d7",
+      "action": "ADD",
+      "name": "ЖУКОВСКИЙ (Раменское)",
+      "icao": null,
+      "kind": "airport",
+      "type": "partial",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-15T05:28:58+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4732",
+      "text": "🟡 Аэропорт ЖУКОВСКИЙ (Раменское)",
+      "lat": 55.5496554,
+      "lon": 38.1547897
     }
   ]
 }
