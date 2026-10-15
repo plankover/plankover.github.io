@@ -6904,5 +6904,283 @@
         "sourceUrl": "https://t.me/PlanKoverTDay/4763"
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4764,
+    "timestamp": "2026-10-15T21:20:39+00:00",
+    "text": "🕒 Актуальные ограничения на 00:15 мск:\n\n🔴🛩️ Калуга - Грабцево, UUBC / 70 км\n🔴 Москва (🛩️ Шереметьево, UUEE ; 🛩️ Домодедово, UUDD ; 🛩️ Внуково, UUWW ; 🛩️ Жуковский, UUBW) / 100 км \n🔴🛩️ Домодедово, UUDD / 20 км, 100 км (южная половина окружности)\n🔴🛩️ Раменское - Жуковский, UUBW / 20 км\n🔴🛩️ Внуково, UUWW (сектор)\n🔴 а/д Центральный, Ростов на-Дону (⛔ Платов, URRP) / 60 км\n\n🔴 а/д Северный, Смоленск / 50 км\n🔴 а/д Клоково, Тула / 70 км\n🔴 а/д Дягилево, Рязань / 70 км\n🔴 Конаково / 50 км\n🔴 Валдай / 70 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4764",
+    "events": [
+      {
+        "id": "c8e1b0e8f362f58d",
+        "action": "ADD",
+        "name": "Грабцево",
+        "icao": "UUBC",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-10-15T21:20:39+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4764",
+        "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км",
+        "snapshot": true
+      },
+      {
+        "id": "933e15811e19603b",
+        "action": "ADD",
+        "name": "Москва (🛩️ Шереметьево",
+        "icao": "UUEE",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 100.0,
+        "messageTimestamp": "2026-10-15T21:20:39+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4764",
+        "text": "🔴 Москва (🛩️ Шереметьево, UUEE ; 🛩️ Домодедово, UUDD ; 🛩️ Внуково, UUWW ; 🛩️ Жуковский, UUBW) / 100 км ",
+        "snapshot": true
+      },
+      {
+        "id": "b6ce85b30fda6ea4",
+        "action": "ADD",
+        "name": "Домодедово",
+        "icao": "UUDD",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 20.0,
+        "messageTimestamp": "2026-10-15T21:20:39+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4764",
+        "text": "🔴🛩️ Домодедово, UUDD / 20 км, 100 км (южная половина окружности)",
+        "snapshot": true
+      },
+      {
+        "id": "d24b3f84089a8092",
+        "action": "ADD",
+        "name": "Жуковский",
+        "icao": "UUBW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 20.0,
+        "messageTimestamp": "2026-10-15T21:20:39+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4764",
+        "text": "🔴🛩️ Раменское - Жуковский, UUBW / 20 км",
+        "snapshot": true
+      },
+      {
+        "id": "5ef3b80e24a8e1da",
+        "action": "ADD",
+        "name": "Внуково",
+        "icao": "UUWW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-15T21:20:39+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4764",
+        "text": "🔴🛩️ Внуково, UUWW (сектор)",
+        "snapshot": true
+      },
+      {
+        "id": "cd08d7d8669aff33",
+        "action": "ADD",
+        "name": "Дону (⛔ Платов",
+        "icao": "URRP",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 60.0,
+        "messageTimestamp": "2026-10-15T21:20:39+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4764",
+        "text": "🔴 а/д Центральный, Ростов на-Дону (⛔ Платов, URRP) / 60 км",
+        "snapshot": true
+      },
+      {
+        "id": "5baed5fe597236e0",
+        "action": "ADD",
+        "name": "Северный, Смоленск",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 50.0,
+        "messageTimestamp": "2026-10-15T21:20:39+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4764",
+        "text": "🔴 а/д Северный, Смоленск / 50 км",
+        "snapshot": true
+      },
+      {
+        "id": "25c882be1a8465b3",
+        "action": "ADD",
+        "name": "Клоково, Тула",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-10-15T21:20:39+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4764",
+        "text": "🔴 а/д Клоково, Тула / 70 км",
+        "snapshot": true
+      },
+      {
+        "id": "7761d1856faeed88",
+        "action": "ADD",
+        "name": "Дягилево, Рязань",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-10-15T21:20:39+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4764",
+        "text": "🔴 а/д Дягилево, Рязань / 70 км",
+        "snapshot": true
+      },
+      {
+        "id": "a55988a294de2d69",
+        "action": "ADD",
+        "name": "Конаково",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 50.0,
+        "messageTimestamp": "2026-10-15T21:20:39+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4764",
+        "text": "🔴 Конаково / 50 км",
+        "snapshot": true
+      },
+      {
+        "id": "7580435a2159aad5",
+        "action": "ADD",
+        "name": "Валдай",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-10-15T21:20:39+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4764",
+        "text": "🔴 Валдай / 70 км",
+        "snapshot": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4765,
+    "timestamp": "2026-10-15T21:30:46+00:00",
+    "text": "🔴⠀Аэропорты\n\n– ЧЕРЕПОВЕЦ\n\n– ЯРОСЛАВЛЬ (Туношна)\n\n✈️⠀ВВЕДЕНЫ временные ограничения на прием и выпуск воздушных судов.\n\n✈️⠀Ограничения необходимы для обеспечения безопасности полетов.\n\n✈️⠀- - | @PlanKoverTDay",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4765",
+    "events": [
+      {
+        "id": "9ea1ec44690879d9",
+        "action": "ADD",
+        "name": "⠀Аэропорты",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-15T21:30:46+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4765",
+        "text": "🔴⠀Аэропорты"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4765,
+    "timestamp": "2026-10-15T21:30:46+00:00",
+    "text": "🔴⠀Аэропорты\n\n– ЧЕРЕПОВЕЦ\n\n– ЯРОСЛАВЛЬ (Туношна)\n\n✈️⠀ВВЕДЕНЫ временные ограничения на прием и выпуск воздушных судов.\n\n✈️⠀Ограничения необходимы для обеспечения безопасности полетов.\n\n✈️⠀- - | @PlanKoverTDay",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4765",
+    "events": [
+      {
+        "id": "9ea1ec44690879d9",
+        "action": "ADD",
+        "name": "⠀Аэропорты",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-15T21:30:46+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4765",
+        "text": "🔴⠀Аэропорты"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4766,
+    "timestamp": "2026-10-15T21:56:48+00:00",
+    "text": "🔴⠀Аэропорт ТАМБОВ (Донское)\n\n✈️⠀ВВЕДЕНЫ временные ограничения на прием и выпуск воздушных судов.\n\n✈️⠀Ограничения необходимы для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4766",
+    "events": [
+      {
+        "id": "4c665ea843d3135c",
+        "action": "ADD",
+        "name": "⠀Аэропорт ТАМБОВ (Донское)",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-15T21:56:48+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4766",
+        "text": "🔴⠀Аэропорт ТАМБОВ (Донское)"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4766,
+    "timestamp": "2026-10-15T21:56:48+00:00",
+    "text": "🔴⠀Аэропорт ТАМБОВ (Донское)\n\n✈️⠀ВВЕДЕНЫ временные ограничения на прием и выпуск воздушных судов.\n\n✈️⠀Ограничения необходимы для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4766",
+    "events": [
+      {
+        "id": "4c665ea843d3135c",
+        "action": "ADD",
+        "name": "⠀Аэропорт ТАМБОВ (Донское)",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-15T21:56:48+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4766",
+        "text": "🔴⠀Аэропорт ТАМБОВ (Донское)"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4767,
+    "timestamp": "2026-10-15T22:55:35+00:00",
+    "text": "🔴⠀Аэропорты\n\n– ПЕНЗА\n\n– САРАТОВ (Гагарин)\n\n✈️⠀ВВЕДЕНЫ временные ограничения на прием и выпуск воздушных судов.\n\n✈️⠀Ограничения необходимы для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4767",
+    "events": [
+      {
+        "id": "0b2bb3fd212bab8f",
+        "action": "ADD",
+        "name": "⠀Аэропорты",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-15T22:55:35+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4767",
+        "text": "🔴⠀Аэропорты"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4767,
+    "timestamp": "2026-10-15T22:55:35+00:00",
+    "text": "🔴⠀Аэропорты\n\n– ПЕНЗА\n\n– САРАТОВ (Гагарин)\n\n✈️⠀ВВЕДЕНЫ временные ограничения на прием и выпуск воздушных судов.\n\n✈️⠀Ограничения необходимы для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4767",
+    "events": [
+      {
+        "id": "0b2bb3fd212bab8f",
+        "action": "ADD",
+        "name": "⠀Аэропорты",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-15T22:55:35+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4767",
+        "text": "🔴⠀Аэропорты"
+      }
+    ]
   }
 ]
