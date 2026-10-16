@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T01:41:33.653676+00:00",
+  "updatedAt": "2026-10-16T06:25:55.178827+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -248,6 +248,104 @@
       "text": "🔴⠀Аэропорт УЛЬЯНОВСК (Баратаевка)",
       "lat": 54.2690213,
       "lon": 48.2248287
+    },
+    {
+      "id": "1afb284f74218a8e",
+      "action": "ADD",
+      "name": "ПУЛКОВО",
+      "icao": null,
+      "kind": "airport",
+      "type": "partial",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-16T04:51:53+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4792",
+      "text": "🟡 Аэропорт ПУЛКОВО",
+      "lat": 59.8016986,
+      "lon": 30.2676011
+    },
+    {
+      "id": "ffba891f55dd59ed",
+      "action": "ADD",
+      "name": "⠀Аэропорт ПУЛКОВО",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-16T03:50:32+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4785",
+      "text": "🔴⠀Аэропорт ПУЛКОВО",
+      "lat": 55.4245224,
+      "lon": 37.2633157
+    },
+    {
+      "id": "33974f04ddf664d5",
+      "action": "ADD",
+      "name": "⠀Аэропорт КИРОВ (Победилово)",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-16T02:25:25+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4777",
+      "text": "🔴⠀Аэропорт КИРОВ (Победилово)",
+      "lat": 58.4925089,
+      "lon": 49.3470604
+    },
+    {
+      "id": "2b7e86d94b927928",
+      "action": "ADD",
+      "name": "⠀Аэропорт ИЖЕВСК",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-16T02:31:45+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4778",
+      "text": "🔴⠀Аэропорт ИЖЕВСК",
+      "lat": 56.8361905,
+      "lon": 53.4631283
+    },
+    {
+      "id": "d2642c651ab3b982",
+      "action": "ADD",
+      "name": "⠀Аэропорт УФА",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-16T03:38:02+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4784",
+      "text": "🔴⠀Аэропорт УФА",
+      "lat": 54.5631104,
+      "lon": 55.8861002
+    },
+    {
+      "id": "b0d5438c619581de",
+      "action": "ADD",
+      "name": "⠀Аэропорт ГЕЛЕНДЖИК",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-16T04:06:15+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4786",
+      "text": "🔴⠀Аэропорт ГЕЛЕНДЖИК",
+      "lat": 44.5817785,
+      "lon": 38.0125403
+    },
+    {
+      "id": "0c4823e651b84326",
+      "action": "ADD",
+      "name": "⠀Аэропорт ПЕРМЬ (Большое Савино)",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-16T04:24:20+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4788",
+      "text": "🔴⠀Аэропорт ПЕРМЬ (Большое Савино)",
+      "lat": 57.9204465,
+      "lon": 56.0194435
     }
   ]
 }
