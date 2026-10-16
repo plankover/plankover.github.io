@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T16:13:35.852103+00:00",
+  "updatedAt": "2026-10-16T19:35:05.408065+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -320,15 +320,15 @@
       "lon": 55.8861002
     },
     {
-      "id": "b0d5438c619581de",
+      "id": "a14d71b94650e0f4",
       "action": "ADD",
       "name": "⠀Аэропорт ГЕЛЕНДЖИК",
       "icao": null,
       "kind": "city",
       "type": "full",
       "radiusKm": null,
-      "messageTimestamp": "2026-10-16T04:06:15+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4786",
+      "messageTimestamp": "2026-10-16T17:34:20+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4821",
       "text": "🔴⠀Аэропорт ГЕЛЕНДЖИК",
       "lat": 44.5817785,
       "lon": 38.0125403
@@ -376,15 +376,15 @@
       "lon": 65.3494166
     },
     {
-      "id": "d3d9589fc22c55dc",
+      "id": "ccc068b3641ae749",
       "action": "ADD",
       "name": "⠀Аэропорт КАЛУГА (Грабцево)",
       "icao": null,
       "kind": "city",
       "type": "full",
       "radiusKm": null,
-      "messageTimestamp": "2026-10-16T09:17:24+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4809",
+      "messageTimestamp": "2026-10-16T18:59:07+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4824",
       "text": "🔴⠀Аэропорт КАЛУГА (Грабцево)",
       "lat": 54.5488708,
       "lon": 36.3697725
@@ -416,6 +416,20 @@
       "text": "🔴⠀Аэропорт КОГАЛЫМ",
       "lat": 62.1902422,
       "lon": 74.5349467
+    },
+    {
+      "id": "466e5e9c6cfafd5f",
+      "action": "ADD",
+      "name": "Сургут",
+      "icao": "USRR",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 150.0,
+      "messageTimestamp": "2026-10-16T16:13:50+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4819",
+      "text": "🔴🛩️ Сургут, USRR (🛩️ Когалым, USRK) / 150 км",
+      "lat": 61.3414657,
+      "lon": 73.405212
     }
   ]
 }
