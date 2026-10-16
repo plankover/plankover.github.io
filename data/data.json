@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T23:42:07.279276+00:00",
+  "updatedAt": "2026-10-16T01:41:33.653676+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -194,6 +194,60 @@
       "text": "🔴⠀Аэропорт ТАМБОВ (Донское)",
       "lat": 52.8060125,
       "lon": 41.4845129
+    },
+    {
+      "id": "9ec56015535def62",
+      "action": "ADD",
+      "name": "⠀Аэропорт НИЖНИЙ НОВГОРОД (Чкалов)",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-15T23:43:40+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4768",
+      "text": "🔴⠀Аэропорт НИЖНИЙ НОВГОРОД (Чкалов)"
+    },
+    {
+      "id": "af4eac924f32f6d1",
+      "action": "ADD",
+      "name": "⠀Аэропорт ПСКОВ",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-15T23:44:40+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4769",
+      "text": "🔴⠀Аэропорт ПСКОВ",
+      "lat": 57.7818036,
+      "lon": 28.3865837
+    },
+    {
+      "id": "d4d72564d4ae5a86",
+      "action": "ADD",
+      "name": "⠀Аэропорт САРАНСК",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-16T00:03:46+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4770",
+      "text": "🔴⠀Аэропорт САРАНСК",
+      "lat": 54.1274695,
+      "lon": 45.2152086
+    },
+    {
+      "id": "64d8bb1dc143d706",
+      "action": "ADD",
+      "name": "⠀Аэропорт УЛЬЯНОВСК (Баратаевка)",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-16T00:52:26+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4771",
+      "text": "🔴⠀Аэропорт УЛЬЯНОВСК (Баратаевка)",
+      "lat": 54.2690213,
+      "lon": 48.2248287
     }
   ]
 }
