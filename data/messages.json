@@ -9266,20 +9266,318 @@
     "chatId": -1003822338715,
     "messageId": 4824,
     "timestamp": "2026-10-16T18:59:07+00:00",
-    "text": "🔴⠀Аэропорт КАЛУГА (Грабцево)\n\n✈️⠀ВВЕДЕНЫ временные ограничения на прием и выпуск воздушных судов.\n\n✈️⠀Ограничения необходимы для обеспечения безопасности полетов.\n\n✈ - - | @PlanKoverTDay",
+    "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км\n🔴 а/д Клоково, Тула / 70 км\n🔴 Михайлов / 70 км",
     "sourceUrl": "https://t.me/PlanKoverTDay/4824",
     "events": [
       {
-        "id": "ccc068b3641ae749",
+        "id": "25bfeeae7c40be85",
         "action": "ADD",
-        "name": "⠀Аэропорт КАЛУГА (Грабцево)",
+        "name": "Грабцево",
+        "icao": "UUBC",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-10-16T18:59:07+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4824",
+        "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км"
+      },
+      {
+        "id": "9bbdcdee70712d91",
+        "action": "ADD",
+        "name": "Клоково, Тула",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-10-16T18:59:07+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4824",
+        "text": "🔴 а/д Клоково, Тула / 70 км"
+      },
+      {
+        "id": "6f3705b00fd4b254",
+        "action": "ADD",
+        "name": "Михайлов",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-10-16T18:59:07+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4824",
+        "text": "🔴 Михайлов / 70 км"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4825,
+    "timestamp": "2026-10-16T19:46:33+00:00",
+    "text": "🟡 Аэропорты ВНУКОВО и ДОМОДЕДОВО\n\nпринимают и отправляют рейсы по согласованию с соответствующими органами в связи с введением временных ограничений на использование воздушного пространства в районе авиагаваней. \n\n🗓 Возможны корректировки в расписании рейсов.\n\n❗️Меры приняты для обеспечения безопасности полетов.\n\n🔎 Статус вашего рейса можно уточнить с помощью онлайн-табло аэропортов Внуково и Домодедово. \n\n✈️⠀ - - | @PlanKoverTDay",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4825",
+    "events": [
+      {
+        "id": "b4d4344d21d8b3f7",
+        "action": "ADD",
+        "name": "Аэропорты ВНУКОВО и ДОМОДЕДОВО",
+        "icao": null,
+        "kind": "city",
+        "type": "partial",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-16T19:46:33+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4825",
+        "text": "🟡 Аэропорты ВНУКОВО и ДОМОДЕДОВО"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4825,
+    "timestamp": "2026-10-16T19:46:33+00:00",
+    "text": "🟡 Аэропорты ВНУКОВО и ДОМОДЕДОВО\n\nпринимают и отправляют рейсы по согласованию с соответствующими органами в связи с введением временных ограничений на использование воздушного пространства в районе авиагаваней. \n\n🗓 Возможны корректировки в расписании рейсов.\n\n❗️Меры приняты для обеспечения безопасности полетов.\n\n🔎 Статус вашего рейса можно уточнить с помощью онлайн-табло аэропортов Внуково и Домодедово. \n\n✈️⠀ - - | @PlanKoverTDay",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4825",
+    "events": [
+      {
+        "id": "b4d4344d21d8b3f7",
+        "action": "ADD",
+        "name": "Аэропорты ВНУКОВО и ДОМОДЕДОВО",
+        "icao": null,
+        "kind": "city",
+        "type": "partial",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-16T19:46:33+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4825",
+        "text": "🟡 Аэропорты ВНУКОВО и ДОМОДЕДОВО"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4825,
+    "timestamp": "2026-10-16T19:46:33+00:00",
+    "text": "🟡🛩️ Домодедово, UUDD / 100 км (южная половина окружности, азимуты 270-090)\n🟡🛩️ Внуково, UUWW / 100 км (Азимуты 330-150)",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4825",
+    "events": [
+      {
+        "id": "6236b364a07fb1f6",
+        "action": "ADD",
+        "name": "Домодедово",
+        "icao": "UUDD",
+        "kind": "airport",
+        "type": "partial",
+        "radiusKm": 100.0,
+        "messageTimestamp": "2026-10-16T19:46:33+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4825",
+        "text": "🟡🛩️ Домодедово, UUDD / 100 км (южная половина окружности, азимуты 270-090)",
+        "sector": {
+          "radiusKm": 100.0,
+          "startAzimuth": 270,
+          "endAzimuth": 90
+        }
+      },
+      {
+        "id": "070e652a716dc341",
+        "action": "ADD",
+        "name": "Внуково",
+        "icao": "UUWW",
+        "kind": "airport",
+        "type": "partial",
+        "radiusKm": 100.0,
+        "messageTimestamp": "2026-10-16T19:46:33+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4825",
+        "text": "🟡🛩️ Внуково, UUWW / 100 км (Азимуты 330-150)",
+        "sector": {
+          "radiusKm": 100.0,
+          "startAzimuth": 330,
+          "endAzimuth": 150
+        }
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4826,
+    "timestamp": "2026-10-16T20:26:49+00:00",
+    "text": "Аэропорты\n\n🔻 ВНУКОВО\n\n🔻 ДОМОДЕДОВО\n\n🔻 ЖУКОВСКИЙ (Раменское)\n\n🚫 ВВЕДЕНЫ временные ограничения на прием и выпуск воздушных судов.\n\n🧑‍🧑‍🧒‍🧒 Ограничения необходимы для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4826",
+    "events": [
+      {
+        "id": "4a131500f86a31d7",
+        "action": "ADD",
+        "messageTimestamp": "2026-10-16T20:26:49+00:00",
+        "text": "Аэропорты\n\n🔻 ВНУКОВО\n\n🔻 ДОМОДЕДОВО\n\n🔻 ЖУКОВСКИЙ (Раменское)\n\n🚫 ВВЕДЕНЫ временные ограничения на прием и выпуск воздушных судов.\n\n🧑‍🧑‍🧒‍🧒 Ограничения необходимы для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay",
+        "unresolved": true,
+        "sourceUrl": "https://t.me/PlanKoverTDay/4826"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4826,
+    "timestamp": "2026-10-16T20:26:49+00:00",
+    "text": "Аэропорты\n\n🔻 ВНУКОВО\n\n🔻 ДОМОДЕДОВО\n\n🔻 ЖУКОВСКИЙ (Раменское)\n\n🚫 ВВЕДЕНЫ временные ограничения на прием и выпуск воздушных судов.\n\n🧑‍🧑‍🧒‍🧒 Ограничения необходимы для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4826",
+    "events": [
+      {
+        "id": "4a131500f86a31d7",
+        "action": "ADD",
+        "messageTimestamp": "2026-10-16T20:26:49+00:00",
+        "text": "Аэропорты\n\n🔻 ВНУКОВО\n\n🔻 ДОМОДЕДОВО\n\n🔻 ЖУКОВСКИЙ (Раменское)\n\n🚫 ВВЕДЕНЫ временные ограничения на прием и выпуск воздушных судов.\n\n🧑‍🧑‍🧒‍🧒 Ограничения необходимы для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay",
+        "unresolved": true,
+        "sourceUrl": "https://t.me/PlanKoverTDay/4826"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4826,
+    "timestamp": "2026-10-16T20:26:49+00:00",
+    "text": "🔴 Москва (🛩️ Домодедово, UUDD ; 🛩️ Внуково, UUWW ; 🛩️ Жуковский, UUBW) / 150 км (южная половина окружности, азимуты 270-090)",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4826",
+    "events": [
+      {
+        "id": "3e759afa73a6a59a",
+        "action": "ADD",
+        "name": "Москва (🛩️ Домодедово",
+        "icao": "UUDD",
+        "kind": "airport",
+        "type": "partial",
+        "radiusKm": 150.0,
+        "messageTimestamp": "2026-10-16T20:26:49+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4826",
+        "text": "🔴 Москва (🛩️ Домодедово, UUDD ; 🛩️ Внуково, UUWW ; 🛩️ Жуковский, UUBW) / 150 км (южная половина окружности, азимуты 270-090)",
+        "sector": {
+          "radiusKm": 150.0,
+          "startAzimuth": 270,
+          "endAzimuth": 90
+        }
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4827,
+    "timestamp": "2026-10-16T20:51:03+00:00",
+    "text": "🔴 а/д Северный, Смоленск / 70 км\n🔴 Великие Луки / 100 км\n🔴 Валдай / 70 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4827",
+    "events": [
+      {
+        "id": "b13205b317557048",
+        "action": "ADD",
+        "name": "Северный, Смоленск",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-10-16T20:51:03+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4827",
+        "text": "🔴 а/д Северный, Смоленск / 70 км"
+      },
+      {
+        "id": "4a8c8ad9078f8d17",
+        "action": "ADD",
+        "name": "Великие Луки",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 100.0,
+        "messageTimestamp": "2026-10-16T20:51:03+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4827",
+        "text": "🔴 Великие Луки / 100 км"
+      },
+      {
+        "id": "9208360fcf874898",
+        "action": "ADD",
+        "name": "Валдай",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-10-16T20:51:03+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4827",
+        "text": "🔴 Валдай / 70 км"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4828,
+    "timestamp": "2026-10-16T21:33:28+00:00",
+    "text": "🔴⠀Аэропорт СОЧИ\n\n✈️⠀ВВЕДЕНЫ временные ограничения на прием и выпуск воздушных судов.\n\n✈️⠀Ограничения необходимы для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4828",
+    "events": [
+      {
+        "id": "5d62a8acd7743ccc",
+        "action": "ADD",
+        "name": "⠀Аэропорт СОЧИ",
         "icao": null,
         "kind": "city",
         "type": "full",
         "radiusKm": null,
-        "messageTimestamp": "2026-10-16T18:59:07+00:00",
-        "sourceUrl": "https://t.me/PlanKoverTDay/4824",
-        "text": "🔴⠀Аэропорт КАЛУГА (Грабцево)"
+        "messageTimestamp": "2026-10-16T21:33:28+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4828",
+        "text": "🔴⠀Аэропорт СОЧИ"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4828,
+    "timestamp": "2026-10-16T21:33:28+00:00",
+    "text": "🔴⠀Аэропорт СОЧИ\n\n✈️⠀ВВЕДЕНЫ временные ограничения на прием и выпуск воздушных судов.\n\n✈️⠀Ограничения необходимы для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4828",
+    "events": [
+      {
+        "id": "5d62a8acd7743ccc",
+        "action": "ADD",
+        "name": "⠀Аэропорт СОЧИ",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-16T21:33:28+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4828",
+        "text": "🔴⠀Аэропорт СОЧИ"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4828,
+    "timestamp": "2026-10-16T21:33:28+00:00",
+    "text": "🔴⠀Аэропорт СОЧИ\n\n✈️⠀ВВЕДЕНЫ временные ограничения на прием и выпуск воздушных судов.\n\n✈️⠀Ограничения необходимы для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4828",
+    "events": [
+      {
+        "id": "5d62a8acd7743ccc",
+        "action": "ADD",
+        "name": "⠀Аэропорт СОЧИ",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-16T21:33:28+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4828",
+        "text": "🔴⠀Аэропорт СОЧИ"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4828,
+    "timestamp": "2026-10-16T21:33:28+00:00",
+    "text": "🔴⠀Аэропорт СОЧИ\n\n✈️⠀ВВЕДЕНЫ временные ограничения на прием и выпуск воздушных судов.\n\n✈️⠀Ограничения необходимы для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4828",
+    "events": [
+      {
+        "id": "5d62a8acd7743ccc",
+        "action": "ADD",
+        "name": "⠀Аэропорт СОЧИ",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-16T21:33:28+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4828",
+        "text": "🔴⠀Аэропорт СОЧИ"
       }
     ]
   }
