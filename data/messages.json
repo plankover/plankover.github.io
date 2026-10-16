@@ -8974,5 +8974,85 @@
         "text": "🔴⠀Аэропорт КОГАЛЫМ"
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4815,
+    "timestamp": "2026-10-16T13:50:24+00:00",
+    "text": "Делимся обстановкой в аэропортах московского авиаузла по состоянию на 16.00 МСК.",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4815",
+    "events": [
+      {
+        "id": "985b4d3274950d37",
+        "action": "UNKNOWN",
+        "messageTimestamp": "2026-10-16T13:50:24+00:00",
+        "text": "Делимся обстановкой в аэропортах московского авиаузла по состоянию на 16.00 МСК.",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4815"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4815,
+    "timestamp": "2026-10-16T13:50:24+00:00",
+    "text": "Делимся обстановкой в аэропортах московского авиаузла по состоянию на 16.00 МСК.\n\n(Росавиация)",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4815",
+    "events": [
+      {
+        "id": "21a0167a05ba89ab",
+        "action": "UNKNOWN",
+        "messageTimestamp": "2026-10-16T13:50:24+00:00",
+        "text": "Делимся обстановкой в аэропортах московского авиаузла по состоянию на 16.00 МСК.\n\n(Росавиация)",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4815"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4816,
+    "timestamp": "2026-10-16T13:50:25+00:00",
+    "text": "",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4816",
+    "events": [
+      {
+        "id": "0820e072be346282",
+        "action": "UNKNOWN",
+        "messageTimestamp": "2026-10-16T13:50:25+00:00",
+        "text": "",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4816"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4817,
+    "timestamp": "2026-10-16T13:50:25+00:00",
+    "text": "",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4817",
+    "events": [
+      {
+        "id": "0820e072be346282",
+        "action": "UNKNOWN",
+        "messageTimestamp": "2026-10-16T13:50:25+00:00",
+        "text": "",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4817"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4818,
+    "timestamp": "2026-10-16T13:50:26+00:00",
+    "text": "",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4818",
+    "events": [
+      {
+        "id": "b7b3e73baf69d70b",
+        "action": "UNKNOWN",
+        "messageTimestamp": "2026-10-16T13:50:26+00:00",
+        "text": "",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4818"
+      }
+    ]
   }
 ]
