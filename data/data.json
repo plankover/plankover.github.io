@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T06:25:55.178827+00:00",
+  "updatedAt": "2026-10-16T11:47:37.416715+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -346,6 +346,76 @@
       "text": "🔴⠀Аэропорт ПЕРМЬ (Большое Савино)",
       "lat": 57.9204465,
       "lon": 56.0194435
+    },
+    {
+      "id": "7d0dd91450bf7e69",
+      "action": "ADD",
+      "name": "⠀Аэропорт ЕКАТЕРИНБУРГ (Кольцово)",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-16T06:29:27+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4801",
+      "text": "🔴⠀Аэропорт ЕКАТЕРИНБУРГ (Кольцово)",
+      "lat": 56.7445764,
+      "lon": 60.8027902
+    },
+    {
+      "id": "e66b96dd89d1fbcc",
+      "action": "ADD",
+      "name": "⠀Аэропорт ТЮМЕНЬ (Рощино)",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-16T06:32:12+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4802",
+      "text": "🔴⠀Аэропорт ТЮМЕНЬ (Рощино)",
+      "lat": 57.1799511,
+      "lon": 65.3494166
+    },
+    {
+      "id": "d3d9589fc22c55dc",
+      "action": "ADD",
+      "name": "⠀Аэропорт КАЛУГА (Грабцево)",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-16T09:17:24+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4809",
+      "text": "🔴⠀Аэропорт КАЛУГА (Грабцево)",
+      "lat": 54.5488708,
+      "lon": 36.3697725
+    },
+    {
+      "id": "86070349f322e419",
+      "action": "ADD",
+      "name": "⠀Аэропорт СУРГУТ",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-16T09:39:57+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4811",
+      "text": "🔴⠀Аэропорт СУРГУТ",
+      "lat": 61.3414657,
+      "lon": 73.405212
+    },
+    {
+      "id": "5b31fa5714d4a4a4",
+      "action": "ADD",
+      "name": "⠀Аэропорт КОГАЛЫМ",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-16T11:37:58+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4814",
+      "text": "🔴⠀Аэропорт КОГАЛЫМ",
+      "lat": 62.1902422,
+      "lon": 74.5349467
     }
   ]
 }
