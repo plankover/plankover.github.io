@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T00:31:28.154525+00:00",
+  "updatedAt": "2026-10-17T05:00:56.912549+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -97,116 +97,32 @@
       "lon": 33.2537994
     },
     {
-      "id": "64d8bb1dc143d706",
+      "id": "d32f7a32387f56d3",
       "action": "ADD",
-      "name": "⠀Аэропорт УЛЬЯНОВСК (Баратаевка)",
+      "name": "⠀Аэропорты",
       "icao": null,
       "kind": "city",
       "type": "full",
       "radiusKm": null,
-      "messageTimestamp": "2026-10-16T00:52:26+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4771",
-      "text": "🔴⠀Аэропорт УЛЬЯНОВСК (Баратаевка)",
-      "lat": 54.2690213,
-      "lon": 48.2248287
+      "messageTimestamp": "2026-10-17T01:08:43+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4830",
+      "text": "🔴⠀Аэропорты",
+      "lat": 54.5543582,
+      "lon": 55.8822099
     },
     {
-      "id": "1afb284f74218a8e",
-      "action": "ADD",
-      "name": "ПУЛКОВО",
-      "icao": null,
-      "kind": "airport",
-      "type": "partial",
-      "radiusKm": null,
-      "messageTimestamp": "2026-10-16T04:51:53+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4792",
-      "text": "🟡 Аэропорт ПУЛКОВО",
-      "lat": 59.8016986,
-      "lon": 30.2676011
-    },
-    {
-      "id": "ffba891f55dd59ed",
-      "action": "ADD",
-      "name": "⠀Аэропорт ПУЛКОВО",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-10-16T03:50:32+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4785",
-      "text": "🔴⠀Аэропорт ПУЛКОВО",
-      "lat": 55.4245224,
-      "lon": 37.2633157
-    },
-    {
-      "id": "33974f04ddf664d5",
-      "action": "ADD",
-      "name": "⠀Аэропорт КИРОВ (Победилово)",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-10-16T02:25:25+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4777",
-      "text": "🔴⠀Аэропорт КИРОВ (Победилово)",
-      "lat": 58.4925089,
-      "lon": 49.3470604
-    },
-    {
-      "id": "2b7e86d94b927928",
-      "action": "ADD",
-      "name": "⠀Аэропорт ИЖЕВСК",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-10-16T02:31:45+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4778",
-      "text": "🔴⠀Аэропорт ИЖЕВСК",
-      "lat": 56.8361905,
-      "lon": 53.4631283
-    },
-    {
-      "id": "d2642c651ab3b982",
-      "action": "ADD",
-      "name": "⠀Аэропорт УФА",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-10-16T03:38:02+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4784",
-      "text": "🔴⠀Аэропорт УФА",
-      "lat": 54.5631104,
-      "lon": 55.8861002
-    },
-    {
-      "id": "a14d71b94650e0f4",
+      "id": "a4675214b6df5cd9",
       "action": "ADD",
       "name": "⠀Аэропорт ГЕЛЕНДЖИК",
       "icao": null,
       "kind": "city",
       "type": "full",
       "radiusKm": null,
-      "messageTimestamp": "2026-10-16T17:34:20+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4821",
+      "messageTimestamp": "2026-10-17T01:19:14+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4832",
       "text": "🔴⠀Аэропорт ГЕЛЕНДЖИК",
       "lat": 44.5817785,
       "lon": 38.0125403
-    },
-    {
-      "id": "0c4823e651b84326",
-      "action": "ADD",
-      "name": "⠀Аэропорт ПЕРМЬ (Большое Савино)",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-10-16T04:24:20+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4788",
-      "text": "🔴⠀Аэропорт ПЕРМЬ (Большое Савино)",
-      "lat": 57.9204465,
-      "lon": 56.0194435
     },
     {
       "id": "7d0dd91450bf7e69",
@@ -345,6 +261,20 @@
       "text": "🔴⠀Аэропорт СОЧИ",
       "lat": 43.4482983,
       "lon": 39.9391104
+    },
+    {
+      "id": "dded1a1eab9e1409",
+      "action": "ADD",
+      "name": "⠀Аэропорт ЧЕРЕПОВЕЦ",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-17T01:14:57+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4831",
+      "text": "🔴⠀Аэропорт ЧЕРЕПОВЕЦ",
+      "lat": 59.2829333,
+      "lon": 38.0135697
     }
   ]
 }
