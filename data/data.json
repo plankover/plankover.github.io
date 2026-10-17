@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T22:12:22.152513+00:00",
+  "updatedAt": "2026-10-17T00:31:28.154525+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -95,60 +95,6 @@
       "text": "🔴 Валдай / 70 км",
       "lat": 57.9791414,
       "lon": 33.2537994
-    },
-    {
-      "id": "0b2bb3fd212bab8f",
-      "action": "ADD",
-      "name": "⠀Аэропорты",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-10-15T22:55:35+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4767",
-      "text": "🔴⠀Аэропорты",
-      "lat": 54.5543582,
-      "lon": 55.8822099
-    },
-    {
-      "id": "9ec56015535def62",
-      "action": "ADD",
-      "name": "⠀Аэропорт НИЖНИЙ НОВГОРОД (Чкалов)",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-10-15T23:43:40+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4768",
-      "text": "🔴⠀Аэропорт НИЖНИЙ НОВГОРОД (Чкалов)"
-    },
-    {
-      "id": "af4eac924f32f6d1",
-      "action": "ADD",
-      "name": "⠀Аэропорт ПСКОВ",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-10-15T23:44:40+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4769",
-      "text": "🔴⠀Аэропорт ПСКОВ",
-      "lat": 57.7818036,
-      "lon": 28.3865837
-    },
-    {
-      "id": "d4d72564d4ae5a86",
-      "action": "ADD",
-      "name": "⠀Аэропорт САРАНСК",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-10-16T00:03:46+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4770",
-      "text": "🔴⠀Аэропорт САРАНСК",
-      "lat": 54.1274695,
-      "lon": 45.2152086
     },
     {
       "id": "64d8bb1dc143d706",
