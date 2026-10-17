@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T09:22:14.986305+00:00",
+  "updatedAt": "2026-10-17T13:06:09.302826+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -139,34 +139,6 @@
       "lon": 36.3697725
     },
     {
-      "id": "86070349f322e419",
-      "action": "ADD",
-      "name": "⠀Аэропорт СУРГУТ",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-10-16T09:39:57+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4811",
-      "text": "🔴⠀Аэропорт СУРГУТ",
-      "lat": 61.3414657,
-      "lon": 73.405212
-    },
-    {
-      "id": "5b31fa5714d4a4a4",
-      "action": "ADD",
-      "name": "⠀Аэропорт КОГАЛЫМ",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-10-16T11:37:58+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4814",
-      "text": "🔴⠀Аэропорт КОГАЛЫМ",
-      "lat": 62.1902422,
-      "lon": 74.5349467
-    },
-    {
       "id": "466e5e9c6cfafd5f",
       "action": "ADD",
       "name": "Сургут",
@@ -247,6 +219,34 @@
       "text": "🔴⠀Аэропорт ЧЕРЕПОВЕЦ",
       "lat": 59.2829333,
       "lon": 38.0135697
+    },
+    {
+      "id": "868ebfc5e8226e1d",
+      "action": "ADD",
+      "name": "Новороссийск (🛩️ Геленджик",
+      "icao": "URKG",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 40.0,
+      "messageTimestamp": "2026-10-17T08:58:25+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4839",
+      "text": "🔴 Новороссийск (🛩️ Геленджик, URKG) / 40 км",
+      "lat": 44.5286101,
+      "lon": 38.4217926
+    },
+    {
+      "id": "0d929e5f53967008",
+      "action": "ADD",
+      "name": "Плесецк",
+      "icao": null,
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 80.0,
+      "messageTimestamp": "2026-10-17T10:53:56+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4840",
+      "text": "🔴 а/д Плесецк / 80 км",
+      "lat": 62.709524,
+      "lon": 40.2843885
     }
   ]
 }
