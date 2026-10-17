@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T05:00:56.912549+00:00",
+  "updatedAt": "2026-10-17T09:22:14.986305+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -111,46 +111,18 @@
       "lon": 55.8822099
     },
     {
-      "id": "a4675214b6df5cd9",
+      "id": "ecd8343f7c85231e",
       "action": "ADD",
       "name": "⠀Аэропорт ГЕЛЕНДЖИК",
       "icao": null,
       "kind": "city",
       "type": "full",
       "radiusKm": null,
-      "messageTimestamp": "2026-10-17T01:19:14+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4832",
+      "messageTimestamp": "2026-10-17T08:58:25+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4839",
       "text": "🔴⠀Аэропорт ГЕЛЕНДЖИК",
       "lat": 44.5817785,
       "lon": 38.0125403
-    },
-    {
-      "id": "7d0dd91450bf7e69",
-      "action": "ADD",
-      "name": "⠀Аэропорт ЕКАТЕРИНБУРГ (Кольцово)",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-10-16T06:29:27+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4801",
-      "text": "🔴⠀Аэропорт ЕКАТЕРИНБУРГ (Кольцово)",
-      "lat": 56.7445764,
-      "lon": 60.8027902
-    },
-    {
-      "id": "e66b96dd89d1fbcc",
-      "action": "ADD",
-      "name": "⠀Аэропорт ТЮМЕНЬ (Рощино)",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-10-16T06:32:12+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4802",
-      "text": "🔴⠀Аэропорт ТЮМЕНЬ (Рощино)",
-      "lat": 57.1799511,
-      "lon": 65.3494166
     },
     {
       "id": "ccc068b3641ae749",
