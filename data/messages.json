@@ -9998,14 +9998,14 @@
     "chatId": -1003822338715,
     "messageId": 4837,
     "timestamp": "2026-10-17T06:27:08+00:00",
-    "text": "🔹В аэропортах\n\n✈️⠀Внуково\n\n✈️⠀Домодедово\n\n✈️⠀Калуга (Грабцево)\n\n✈️⠀Череповец \n\nвведены временные ограничения на прием и выпуск воздушных судов для обеспечения безопасности их полетов.\n\n🔘 Остальные аэропорты\nРоссии, нашей большой и любимой страны, принимают и отправляют рейсы.\n\n‼️Быстрее всего информацию об изменениях в работе аэропортов обновляем в нашем оперативном канале в @PlanKoverTDay. Подписывайтесь, чтобы получать проверенные данные напрямую от ведомства.\n\n✈️⠀- - | @PlanKoverTDay",
+    "text": "🔹В аэропортах\n\n✈️⠀Внуково\n\n✈️⠀Домодедово\n\n✈️⠀Иваново (Южный)\n\n✈️⠀Калуга (Грабцево)\n\n✈️⠀Псков\n\n✈️⠀Череповец \n\n✈️⠀Ярославль (Туношна)\n\nвведены временные ограничения на прием и выпуск воздушных судов для обеспечения безопасности их полетов.\n\n🔘 Остальные аэропорты\nРоссии, нашей большой и любимой страны, принимают и отправляют рейсы.\n\n‼️Быстрее всего информацию об изменениях в работе аэропортов обновляем в нашем оперативном канале в @PlanKoverTDay. Подписывайтесь, чтобы получать проверенные данные напрямую от ведомства.\n\n✈️⠀- - | @PlanKoverTDay",
     "sourceUrl": "https://t.me/PlanKoverTDay/4837",
     "events": [
       {
-        "id": "4dc442c5e83ba1fb",
+        "id": "747eaf75c69bd061",
         "action": "ADD",
         "messageTimestamp": "2026-10-17T06:27:08+00:00",
-        "text": "🔹В аэропортах\n\n✈️⠀Внуково\n\n✈️⠀Домодедово\n\n✈️⠀Калуга (Грабцево)\n\n✈️⠀Череповец \n\nвведены временные ограничения на прием и выпуск воздушных судов для обеспечения безопасности их полетов.\n\n🔘 Остальные аэропорты\nРоссии, нашей большой и любимой страны, принимают и отправляют рейсы.\n\n‼️Быстрее всего информацию об изменениях в работе аэропортов обновляем в нашем оперативном канале в @PlanKoverTDay. Подписывайтесь, чтобы получать проверенные данные напрямую от ведомства.\n\n✈️⠀- - | @PlanKoverTDay",
+        "text": "🔹В аэропортах\n\n✈️⠀Внуково\n\n✈️⠀Домодедово\n\n✈️⠀Иваново (Южный)\n\n✈️⠀Калуга (Грабцево)\n\n✈️⠀Псков\n\n✈️⠀Череповец \n\n✈️⠀Ярославль (Туношна)\n\nвведены временные ограничения на прием и выпуск воздушных судов для обеспечения безопасности их полетов.\n\n🔘 Остальные аэропорты\nРоссии, нашей большой и любимой страны, принимают и отправляют рейсы.\n\n‼️Быстрее всего информацию об изменениях в работе аэропортов обновляем в нашем оперативном канале в @PlanKoverTDay. Подписывайтесь, чтобы получать проверенные данные напрямую от ведомства.\n\n✈️⠀- - | @PlanKoverTDay",
         "unresolved": true,
         "sourceUrl": "https://t.me/PlanKoverTDay/4837"
       }
@@ -10805,6 +10805,363 @@
         "messageTimestamp": "2026-10-17T20:59:48+00:00",
         "text": "🟢 Корректировка\nПока ещё принимает",
         "sourceUrl": "https://t.me/PlanKoverTDay/4856"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4857,
+    "timestamp": "2026-10-17T21:28:45+00:00",
+    "text": "🔴⠀Аэропорт ПСКОВ\n\n✈️⠀ВВЕДЕНЫ временные ограничения на прием и выпуск воздушных судов.\n\n✈️⠀Ограничения необходимы для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4857",
+    "events": [
+      {
+        "id": "9334d01b68cf089e",
+        "action": "ADD",
+        "name": "⠀Аэропорт ПСКОВ",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-17T21:28:45+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4857",
+        "text": "🔴⠀Аэропорт ПСКОВ"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4857,
+    "timestamp": "2026-10-17T21:28:45+00:00",
+    "text": "🔴⠀Аэропорт ПСКОВ\n\n✈️⠀ВВЕДЕНЫ временные ограничения на прием и выпуск воздушных судов.\n\n✈️⠀Ограничения необходимы для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4857",
+    "events": [
+      {
+        "id": "9334d01b68cf089e",
+        "action": "ADD",
+        "name": "⠀Аэропорт ПСКОВ",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-17T21:28:45+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4857",
+        "text": "🔴⠀Аэропорт ПСКОВ"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4857,
+    "timestamp": "2026-10-17T21:28:45+00:00",
+    "text": "🔴⠀Аэропорт ПСКОВ\n\n✈️⠀ВВЕДЕНЫ временные ограничения на прием и выпуск воздушных судов.\n\n✈️⠀Ограничения необходимы для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4857",
+    "events": [
+      {
+        "id": "9334d01b68cf089e",
+        "action": "ADD",
+        "name": "⠀Аэропорт ПСКОВ",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-17T21:28:45+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4857",
+        "text": "🔴⠀Аэропорт ПСКОВ"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4857,
+    "timestamp": "2026-10-17T21:28:45+00:00",
+    "text": "🔴🛩️ Псков, ULOO\n\n🔴 а/д Киржач / 40 км\n🔴 Электросталь / 40 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4857",
+    "events": [
+      {
+        "id": "0c90cc3a7359449d",
+        "action": "ADD",
+        "name": "Псков",
+        "icao": "ULOO",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-17T21:28:45+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4857",
+        "text": "🔴🛩️ Псков, ULOO"
+      },
+      {
+        "id": "216f7d63a5d70ccd",
+        "action": "ADD",
+        "name": "Киржач",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 40.0,
+        "messageTimestamp": "2026-10-17T21:28:45+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4857",
+        "text": "🔴 а/д Киржач / 40 км"
+      },
+      {
+        "id": "6b36300cc47358f9",
+        "action": "ADD",
+        "name": "Электросталь",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 40.0,
+        "messageTimestamp": "2026-10-17T21:28:45+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4857",
+        "text": "🔴 Электросталь / 40 км"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4857,
+    "timestamp": "2026-10-17T21:28:45+00:00",
+    "text": "🔴🛩️ Псков, ULOO\n\n🔴 а/д Киржач / 30 км\n🔴 Электросталь / 30 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4857",
+    "events": [
+      {
+        "id": "36a2f99c829f2cee",
+        "action": "ADD",
+        "name": "Псков",
+        "icao": "ULOO",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-17T21:28:45+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4857",
+        "text": "🔴🛩️ Псков, ULOO"
+      },
+      {
+        "id": "a3b8986a2a9dc25c",
+        "action": "ADD",
+        "name": "Киржач",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 30.0,
+        "messageTimestamp": "2026-10-17T21:28:45+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4857",
+        "text": "🔴 а/д Киржач / 30 км"
+      },
+      {
+        "id": "f534623f6ca8f4b4",
+        "action": "ADD",
+        "name": "Электросталь",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 30.0,
+        "messageTimestamp": "2026-10-17T21:28:45+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4857",
+        "text": "🔴 Электросталь / 30 км"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4857,
+    "timestamp": "2026-10-17T21:28:45+00:00",
+    "text": "🔴 Порхов (🛩️ Псков, ULOO) / 100 км \n\n🔴 а/д Киржач / 30 км\n🔴 Электросталь / 30 км\n🔴 Великий Новгород / 100 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4857",
+    "events": [
+      {
+        "id": "5e3b4f297e66ed10",
+        "action": "ADD",
+        "name": "Порхов (🛩️ Псков",
+        "icao": "ULOO",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 100.0,
+        "messageTimestamp": "2026-10-17T21:28:45+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4857",
+        "text": "🔴 Порхов (🛩️ Псков, ULOO) / 100 км "
+      },
+      {
+        "id": "2b6df588ca135ee8",
+        "action": "ADD",
+        "name": "Киржач",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 30.0,
+        "messageTimestamp": "2026-10-17T21:28:45+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4857",
+        "text": "🔴 а/д Киржач / 30 км"
+      },
+      {
+        "id": "f46d2c52347596d2",
+        "action": "ADD",
+        "name": "Электросталь",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 30.0,
+        "messageTimestamp": "2026-10-17T21:28:45+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4857",
+        "text": "🔴 Электросталь / 30 км"
+      },
+      {
+        "id": "504f64c527fb8f47",
+        "action": "ADD",
+        "name": "Великий Новгород",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 100.0,
+        "messageTimestamp": "2026-10-17T21:28:45+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4857",
+        "text": "🔴 Великий Новгород / 100 км"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4858,
+    "timestamp": "2026-10-17T21:43:23+00:00",
+    "text": "🔴⠀Аэропорт ИВАНОВО (Южный)\n\n✈️⠀ВВЕДЕНЫ временные ограниченияна прием и выпуск воздушных судов.\n\n✈️⠀Ограничения необходимы для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4858",
+    "events": [
+      {
+        "id": "6e0d8aed2e4bdf04",
+        "action": "ADD",
+        "name": "⠀Аэропорт ИВАНОВО (Южный)",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-17T21:43:23+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4858",
+        "text": "🔴⠀Аэропорт ИВАНОВО (Южный)"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4858,
+    "timestamp": "2026-10-17T21:43:23+00:00",
+    "text": "🔴⠀Аэропорт ИВАНОВО (Южный)\n\n✈️⠀ВВЕДЕНЫ временные ограниченияна прием и выпуск воздушных судов.\n\n✈️⠀Ограничения необходимы для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4858",
+    "events": [
+      {
+        "id": "6e0d8aed2e4bdf04",
+        "action": "ADD",
+        "name": "⠀Аэропорт ИВАНОВО (Южный)",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-17T21:43:23+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4858",
+        "text": "🔴⠀Аэропорт ИВАНОВО (Южный)"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4858,
+    "timestamp": "2026-10-17T21:43:23+00:00",
+    "text": "🔴⠀Аэропорт ИВАНОВО (Южный)\n\n✈️⠀ВВЕДЕНЫ временные ограниченияна прием и выпуск воздушных судов.\n\n✈️⠀Ограничения необходимы для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4858",
+    "events": [
+      {
+        "id": "6e0d8aed2e4bdf04",
+        "action": "ADD",
+        "name": "⠀Аэропорт ИВАНОВО (Южный)",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-17T21:43:23+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4858",
+        "text": "🔴⠀Аэропорт ИВАНОВО (Южный)"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4858,
+    "timestamp": "2026-10-17T21:43:23+00:00",
+    "text": "🔴 Тейково (🛩️ Иваново - Южный, UUBI) / 30 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4858",
+    "events": [
+      {
+        "id": "1bfe78c19772cc5a",
+        "action": "ADD",
+        "name": "Южный",
+        "icao": "UUBI",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 30.0,
+        "messageTimestamp": "2026-10-17T21:43:23+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4858",
+        "text": "🔴 Тейково (🛩️ Иваново - Южный, UUBI) / 30 км"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4859,
+    "timestamp": "2026-10-17T22:02:01+00:00",
+    "text": "🔴🛩️ Ярославль - Туношна, UUDL / 50 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4859",
+    "events": [
+      {
+        "id": "8bcbb02fe774f044",
+        "action": "ADD",
+        "name": "Туношна",
+        "icao": "UUDL",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 50.0,
+        "messageTimestamp": "2026-10-17T22:02:01+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4859",
+        "text": "🔴🛩️ Ярославль - Туношна, UUDL / 50 км"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4860,
+    "timestamp": "2026-10-17T22:16:59+00:00",
+    "text": "🔴⠀Аэропорт ЯРОСЛАВЛЬ (Туношна)\n\n✈️⠀ВВЕДЕНЫ временные ограничения на прием и выпуск воздушных судов.\n\n✈️⠀Ограничения необходимы для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4860",
+    "events": [
+      {
+        "id": "4849ef13e3f390eb",
+        "action": "ADD",
+        "name": "⠀Аэропорт ЯРОСЛАВЛЬ (Туношна)",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-17T22:16:59+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4860",
+        "text": "🔴⠀Аэропорт ЯРОСЛАВЛЬ (Туношна)"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4860,
+    "timestamp": "2026-10-17T22:16:59+00:00",
+    "text": "🔴⠀Аэропорт ЯРОСЛАВЛЬ (Туношна)\n\n✈️⠀ВВЕДЕНЫ временные ограничения на прием и выпуск воздушных судов.\n\n✈️⠀Ограничения необходимы для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4860",
+    "events": [
+      {
+        "id": "4849ef13e3f390eb",
+        "action": "ADD",
+        "name": "⠀Аэропорт ЯРОСЛАВЛЬ (Туношна)",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-17T22:16:59+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4860",
+        "text": "🔴⠀Аэропорт ЯРОСЛАВЛЬ (Туношна)"
       }
     ]
   }

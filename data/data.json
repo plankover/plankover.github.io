@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T21:01:19.329602+00:00",
+  "updatedAt": "2026-10-17T23:08:31.074160+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -129,6 +129,20 @@
       "lon": 55.8822099
     },
     {
+      "id": "9334d01b68cf089e",
+      "action": "ADD",
+      "name": "⠀Аэропорт ПСКОВ",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-17T21:28:45+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4857",
+      "text": "🔴⠀Аэропорт ПСКОВ",
+      "lat": 57.7818036,
+      "lon": 28.3865837
+    },
+    {
       "id": "ecd8343f7c85231e",
       "action": "ADD",
       "name": "⠀Аэропорт ГЕЛЕНДЖИК",
@@ -167,20 +181,6 @@
       "messageTimestamp": "2026-10-17T19:36:34+00:00",
       "sourceUrl": "https://t.me/PlanKoverTDay/4848",
       "text": "🟡 Аэропорты ВНУКОВО и ДОМОДЕДОВО"
-    },
-    {
-      "id": "5d62a8acd7743ccc",
-      "action": "ADD",
-      "name": "⠀Аэропорт СОЧИ",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-10-16T21:33:28+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4828",
-      "text": "🔴⠀Аэропорт СОЧИ",
-      "lat": 43.4482983,
-      "lon": 39.9391104
     },
     {
       "id": "d42caa9d160b419c",
@@ -293,6 +293,118 @@
       "text": "🔴 Дубна / 40 км",
       "lat": 56.7362705,
       "lon": 37.1623696
+    },
+    {
+      "id": "5e3b4f297e66ed10",
+      "action": "ADD",
+      "name": "Порхов (🛩️ Псков",
+      "icao": "ULOO",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 100.0,
+      "messageTimestamp": "2026-10-17T21:28:45+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4857",
+      "text": "🔴 Порхов (🛩️ Псков, ULOO) / 100 км ",
+      "lat": 57.7594629,
+      "lon": 29.5587337
+    },
+    {
+      "id": "2b6df588ca135ee8",
+      "action": "ADD",
+      "name": "Киржач",
+      "icao": null,
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 30.0,
+      "messageTimestamp": "2026-10-17T21:28:45+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4857",
+      "text": "🔴 а/д Киржач / 30 км",
+      "lat": 56.1592229,
+      "lon": 38.8721255
+    },
+    {
+      "id": "f46d2c52347596d2",
+      "action": "ADD",
+      "name": "Электросталь",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 30.0,
+      "messageTimestamp": "2026-10-17T21:28:45+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4857",
+      "text": "🔴 Электросталь / 30 км",
+      "lat": 55.784515,
+      "lon": 38.4449485
+    },
+    {
+      "id": "504f64c527fb8f47",
+      "action": "ADD",
+      "name": "Великий Новгород",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 100.0,
+      "messageTimestamp": "2026-10-17T21:28:45+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4857",
+      "text": "🔴 Великий Новгород / 100 км",
+      "lat": 58.5209862,
+      "lon": 31.2757862
+    },
+    {
+      "id": "6e0d8aed2e4bdf04",
+      "action": "ADD",
+      "name": "⠀Аэропорт ИВАНОВО (Южный)",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-17T21:43:23+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4858",
+      "text": "🔴⠀Аэропорт ИВАНОВО (Южный)",
+      "lat": 56.941138,
+      "lon": 40.9389727
+    },
+    {
+      "id": "1bfe78c19772cc5a",
+      "action": "ADD",
+      "name": "Южный",
+      "icao": "UUBI",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 30.0,
+      "messageTimestamp": "2026-10-17T21:43:23+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4858",
+      "text": "🔴 Тейково (🛩️ Иваново - Южный, UUBI) / 30 км",
+      "lat": 56.941138,
+      "lon": 40.9389727
+    },
+    {
+      "id": "8bcbb02fe774f044",
+      "action": "ADD",
+      "name": "Туношна",
+      "icao": "UUDL",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 50.0,
+      "messageTimestamp": "2026-10-17T22:02:01+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4859",
+      "text": "🔴🛩️ Ярославль - Туношна, UUDL / 50 км",
+      "lat": 57.5604597,
+      "lon": 40.1579512
+    },
+    {
+      "id": "4849ef13e3f390eb",
+      "action": "ADD",
+      "name": "⠀Аэропорт ЯРОСЛАВЛЬ (Туношна)",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-17T22:16:59+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4860",
+      "text": "🔴⠀Аэропорт ЯРОСЛАВЛЬ (Туношна)",
+      "lat": 57.5604597,
+      "lon": 40.1579512
     }
   ]
 }
