@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-10-18T17:23:34.125472+00:00",
+  "updatedAt": "2026-10-18T19:32:50.425591+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
-      "id": "345f25e6cb7cf780",
+      "id": "845ede420bcebff0",
       "action": "ADD",
       "name": "Грабцево",
       "icao": "UUBC",
       "kind": "airport",
       "type": "full",
       "radiusKm": 70.0,
-      "messageTimestamp": "2026-10-17T18:44:39+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4843",
+      "messageTimestamp": "2026-10-18T17:10:38+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4868",
       "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км",
       "lat": 54.5488708,
       "lon": 36.3697725
@@ -59,29 +59,15 @@
       "lon": 37.2735752
     },
     {
-      "id": "a145b2e30c7e41c8",
-      "action": "ADD",
-      "name": "Северный, Смоленск",
-      "icao": null,
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": 70.0,
-      "messageTimestamp": "2026-10-17T18:44:39+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4843",
-      "text": "🔴 а/д Северный, Смоленск / 70 км",
-      "lat": 54.823085,
-      "lon": 32.0231288
-    },
-    {
-      "id": "83638d5b7cbd219a",
+      "id": "bee96dada29bbb7a",
       "action": "ADD",
       "name": "Клоково, Тула",
       "icao": null,
       "kind": "airport",
       "type": "full",
       "radiusKm": 70.0,
-      "messageTimestamp": "2026-10-17T18:44:39+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4843",
+      "messageTimestamp": "2026-10-18T17:10:38+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4868",
       "text": "🔴 а/д Клоково, Тула / 70 км",
       "lat": 54.2418249,
       "lon": 37.6000197
@@ -113,6 +99,20 @@
       "text": "🔴 Валдай / 70 км ",
       "lat": 57.9791414,
       "lon": 33.2537994
+    },
+    {
+      "id": "07d24713fb0a9207",
+      "action": "ADD",
+      "name": "⠀Аэропорт ТАМБОВ (Донское)",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-18T18:18:38+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4869",
+      "text": "🔴⠀Аэропорт ТАМБОВ (Донское)",
+      "lat": 52.8060125,
+      "lon": 41.4845129
     },
     {
       "id": "9334d01b68cf089e",
@@ -195,20 +195,6 @@
       "text": "🔴⠀Аэропорт ЧЕРЕПОВЕЦ",
       "lat": 59.2829333,
       "lon": 38.0135697
-    },
-    {
-      "id": "c52362eda895df6f",
-      "action": "ADD",
-      "name": "Двоевка, Вязьма",
-      "icao": null,
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": 70.0,
-      "messageTimestamp": "2026-10-17T18:44:39+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4843",
-      "text": "🔴 а/д Двоевка, Вязьма / 70 км",
-      "lat": 55.1468584,
-      "lon": 34.3776834
     },
     {
       "id": "b7b9bced343c437c",
@@ -377,6 +363,34 @@
       "text": "🔴⠀Аэропорт ЯРОСЛАВЛЬ (Туношна)",
       "lat": 57.5604597,
       "lon": 40.1579512
+    },
+    {
+      "id": "4c53ff58abbff8b1",
+      "action": "ADD",
+      "name": "Донское",
+      "icao": "UUOT",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 50.0,
+      "messageTimestamp": "2026-10-18T18:18:38+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4869",
+      "text": "🔴🛩️ Тамбов - Донское, UUOT / 50 км",
+      "lat": 52.8060125,
+      "lon": 41.4845129
+    },
+    {
+      "id": "110845a55a298f45",
+      "action": "ADD",
+      "name": "Борисоглебск",
+      "icao": null,
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 50.0,
+      "messageTimestamp": "2026-10-18T18:18:38+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4869",
+      "text": "🔴 а/д Борисоглебск / 50 км",
+      "lat": 51.368015,
+      "lon": 42.075169
     }
   ]
 }
