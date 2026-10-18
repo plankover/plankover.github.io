@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T05:55:04.916323+00:00",
+  "updatedAt": "2026-10-18T10:32:09.581086+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -157,20 +157,6 @@
       "lon": 37.2633157
     },
     {
-      "id": "ecd8343f7c85231e",
-      "action": "ADD",
-      "name": "⠀Аэропорт ГЕЛЕНДЖИК",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-10-17T08:58:25+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4839",
-      "text": "🔴⠀Аэропорт ГЕЛЕНДЖИК",
-      "lat": 44.5817785,
-      "lon": 38.0125403
-    },
-    {
       "id": "b163de25a9d28b83",
       "action": "ADD",
       "name": "⠀Аэропорт КАЛУГА (Грабцево)",
@@ -209,20 +195,6 @@
       "text": "🔴⠀Аэропорт ЧЕРЕПОВЕЦ",
       "lat": 59.2829333,
       "lon": 38.0135697
-    },
-    {
-      "id": "868ebfc5e8226e1d",
-      "action": "ADD",
-      "name": "Новороссийск (🛩️ Геленджик",
-      "icao": "URKG",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": 40.0,
-      "messageTimestamp": "2026-10-17T08:58:25+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4839",
-      "text": "🔴 Новороссийск (🛩️ Геленджик, URKG) / 40 км",
-      "lat": 44.5286101,
-      "lon": 38.4217926
     },
     {
       "id": "0d929e5f53967008",
