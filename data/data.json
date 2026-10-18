@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T21:54:02.392501+00:00",
+  "updatedAt": "2026-10-18T23:57:22.157134+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -29,20 +29,6 @@
       "text": "🔴 а/д Клоково, Тула / 70 км",
       "lat": 54.2418249,
       "lon": 37.6000197
-    },
-    {
-      "id": "961b9b53a339dc11",
-      "action": "ADD",
-      "name": "Дягилево, Рязань",
-      "icao": null,
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": 70.0,
-      "messageTimestamp": "2026-10-18T21:11:10+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4871",
-      "text": "🔴 а/д Дягилево, Рязань / 70 км",
-      "lat": 54.6571958,
-      "lon": 39.6308884
     },
     {
       "id": "563bc158a092bd01",
@@ -129,34 +115,6 @@
       "lon": 36.3697725
     },
     {
-      "id": "8bcbb02fe774f044",
-      "action": "ADD",
-      "name": "Туношна",
-      "icao": "UUDL",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": 50.0,
-      "messageTimestamp": "2026-10-17T22:02:01+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4859",
-      "text": "🔴🛩️ Ярославль - Туношна, UUDL / 50 км",
-      "lat": 57.5604597,
-      "lon": 40.1579512
-    },
-    {
-      "id": "4849ef13e3f390eb",
-      "action": "ADD",
-      "name": "⠀Аэропорт ЯРОСЛАВЛЬ (Туношна)",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-10-17T22:16:59+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4860",
-      "text": "🔴⠀Аэропорт ЯРОСЛАВЛЬ (Туношна)",
-      "lat": 57.5604597,
-      "lon": 40.1579512
-    },
-    {
       "id": "4c53ff58abbff8b1",
       "action": "ADD",
       "name": "Донское",
@@ -185,44 +143,18 @@
       "lon": 42.075169
     },
     {
-      "id": "14a9cf921e3970e9",
+      "id": "6b9c15f03b855b38",
       "action": "ADD",
       "name": "Гагарин",
       "icao": "UWSG",
       "kind": "airport",
       "type": "full",
       "radiusKm": 150.0,
-      "messageTimestamp": "2026-10-18T19:45:58+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4870",
-      "text": "🔴 Новоселовка (🛩️ Саратов - Гагарин, UWSG; 🛩️ Пенза, UWPP) / 150 км",
+      "messageTimestamp": "2026-10-18T21:57:27+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4873",
+      "text": "🔴 Леляевка (🛩️ Саратов - Гагарин, UWSG ; 🛩️ Пенза, UWPP) / 150 км",
       "lat": 51.7139093,
       "lon": 46.1672319
-    },
-    {
-      "id": "388761714df88115",
-      "action": "ADD",
-      "name": "Казарка (🛩️ Саранск",
-      "icao": "UWPC",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": 150.0,
-      "messageTimestamp": "2026-10-18T21:11:10+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4871",
-      "text": "🔴 Казарка (🛩️ Саранск, UWPC ; 🛩️ Пенза, UWPP) / 150 км"
-    },
-    {
-      "id": "91289f010479f092",
-      "action": "ADD",
-      "name": "Пенза (🛩️ Пенза",
-      "icao": "UWPP",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": 50.0,
-      "messageTimestamp": "2026-10-18T21:11:10+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4871",
-      "text": "🔴 Пенза (🛩️ Пенза, UWPP) / 50 км",
-      "lat": 53.110734,
-      "lon": 45.023455
     },
     {
       "id": "e3ec7a123bf00969",
@@ -235,6 +167,104 @@
       "messageTimestamp": "2026-10-18T21:29:06+00:00",
       "sourceUrl": "https://t.me/PlanKoverTDay/4872",
       "text": "Также существует небольшая вероятность частичных (🟡) ограничений в аэропортах Домодедово, Внуково"
+    },
+    {
+      "id": "92064d53e1970a90",
+      "action": "ADD",
+      "name": "Баратаевка",
+      "icao": "UWLL",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 150.0,
+      "messageTimestamp": "2026-10-18T21:57:27+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4873",
+      "text": "🔴 Верхнесуринск (🛩️ Ульяновск - Баратаевка, UWLL ; 🛩️ Самара - Курумоч, UWWW) / 150 км",
+      "lat": 54.2690213,
+      "lon": 48.2248287
+    },
+    {
+      "id": "13f43e798baece41",
+      "action": "ADD",
+      "name": "Саваслейка",
+      "icao": null,
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 50.0,
+      "messageTimestamp": "2026-10-18T21:57:27+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4873",
+      "text": "🔴 а/д Саваслейка / 50 км",
+      "lat": 55.439058,
+      "lon": 42.3063935
+    },
+    {
+      "id": "349634392dd8fc3b",
+      "action": "ADD",
+      "name": "Дзержинск",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 20.0,
+      "messageTimestamp": "2026-10-18T21:57:27+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4873",
+      "text": "🔴 Дзержинск / 20 км",
+      "lat": 56.2382157,
+      "lon": 43.4617405
+    },
+    {
+      "id": "e25eaea5574deff9",
+      "action": "ADD",
+      "name": "Кстово",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 20.0,
+      "messageTimestamp": "2026-10-18T21:57:27+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4873",
+      "text": "🔴 Кстово / 20 км",
+      "lat": 56.149551,
+      "lon": 44.198032
+    },
+    {
+      "id": "fac8809e6c0a6c11",
+      "action": "ADD",
+      "name": "Курумоч",
+      "icao": "UWWW",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 150.0,
+      "messageTimestamp": "2026-10-18T23:04:47+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4874",
+      "text": "🔴 Александровка (Самарская область) (🛩️ Самара - Курумоч, UWWW) / 150 км",
+      "lat": 53.5057511,
+      "lon": 50.1569939
+    },
+    {
+      "id": "12c749430dc9f28f",
+      "action": "ADD",
+      "name": "⠀Аэропорт КАЗАНЬ",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-18T23:05:20+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4875",
+      "text": "🔴⠀Аэропорт КАЗАНЬ",
+      "lat": 55.6093557,
+      "lon": 49.2994253
+    },
+    {
+      "id": "093630ce5a16ed44",
+      "action": "ADD",
+      "name": "Казань (🛩️ Казань",
+      "icao": "UWKD",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-18T23:05:20+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4875",
+      "text": "🔴 Казань (🛩️ Казань, UWKD)",
+      "lat": 55.6074098,
+      "lon": 49.2855138
     }
   ]
 }
