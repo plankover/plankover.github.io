@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T01:03:03.656461+00:00",
+  "updatedAt": "2026-10-18T05:55:04.916323+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -115,20 +115,6 @@
       "lon": 33.2537994
     },
     {
-      "id": "d32f7a32387f56d3",
-      "action": "ADD",
-      "name": "⠀Аэропорты",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-10-17T01:08:43+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4830",
-      "text": "🔴⠀Аэропорты",
-      "lat": 54.5543582,
-      "lon": 55.8822099
-    },
-    {
       "id": "9334d01b68cf089e",
       "action": "ADD",
       "name": "⠀Аэропорт ПСКОВ",
@@ -141,6 +127,34 @@
       "text": "🔴⠀Аэропорт ПСКОВ",
       "lat": 57.7818036,
       "lon": 28.3865837
+    },
+    {
+      "id": "98a1ede6d4faf7d8",
+      "action": "ADD",
+      "name": "ПУЛКОВО",
+      "icao": null,
+      "kind": "airport",
+      "type": "partial",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-18T05:40:12+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4864",
+      "text": "🟡 Аэропорт ПУЛКОВО",
+      "lat": 59.8016986,
+      "lon": 30.2676011
+    },
+    {
+      "id": "8bc641471baaabb6",
+      "action": "ADD",
+      "name": "⠀Аэропорт ПУЛКОВО",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-18T03:14:50+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4862",
+      "text": "🔴⠀Аэропорт ПУЛКОВО",
+      "lat": 55.4245224,
+      "lon": 37.2633157
     },
     {
       "id": "ecd8343f7c85231e",
