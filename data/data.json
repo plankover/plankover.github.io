@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T10:32:09.581086+00:00",
+  "updatedAt": "2026-10-18T14:09:53.690787+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -195,20 +195,6 @@
       "text": "🔴⠀Аэропорт ЧЕРЕПОВЕЦ",
       "lat": 59.2829333,
       "lon": 38.0135697
-    },
-    {
-      "id": "0d929e5f53967008",
-      "action": "ADD",
-      "name": "Плесецк",
-      "icao": null,
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": 80.0,
-      "messageTimestamp": "2026-10-17T10:53:56+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4840",
-      "text": "🔴 а/д Плесецк / 80 км",
-      "lat": 62.709524,
-      "lon": 40.2843885
     },
     {
       "id": "c52362eda895df6f",
