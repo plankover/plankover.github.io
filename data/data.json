@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T14:09:53.690787+00:00",
+  "updatedAt": "2026-10-18T17:23:34.125472+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -143,7 +143,7 @@
       "lon": 30.2676011
     },
     {
-      "id": "8bc641471baaabb6",
+      "id": "4db9553a78e84640",
       "action": "ADD",
       "name": "⠀Аэропорт ПУЛКОВО",
       "icao": null,
@@ -157,15 +157,15 @@
       "lon": 37.2633157
     },
     {
-      "id": "b163de25a9d28b83",
+      "id": "f11d6a242a81a727",
       "action": "ADD",
       "name": "⠀Аэропорт КАЛУГА (Грабцево)",
       "icao": null,
       "kind": "city",
       "type": "full",
       "radiusKm": null,
-      "messageTimestamp": "2026-10-17T19:16:55+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4846",
+      "messageTimestamp": "2026-10-18T17:10:38+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4868",
       "text": "🔴⠀Аэропорт КАЛУГА (Грабцево)",
       "lat": 54.5488708,
       "lon": 36.3697725
