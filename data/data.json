@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T23:57:22.157134+00:00",
+  "updatedAt": "2026-10-19T04:16:37.887169+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -87,18 +87,32 @@
       "lon": 30.2676011
     },
     {
-      "id": "4db9553a78e84640",
+      "id": "65134f73beb8c8bc",
       "action": "ADD",
-      "name": "⠀Аэропорт ПУЛКОВО",
+      "name": "⠀Аэропорт ИЖЕВСК",
       "icao": null,
       "kind": "city",
       "type": "full",
       "radiusKm": null,
-      "messageTimestamp": "2026-10-18T03:14:50+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4862",
-      "text": "🔴⠀Аэропорт ПУЛКОВО",
-      "lat": 55.4245224,
-      "lon": 37.2633157
+      "messageTimestamp": "2026-10-19T01:26:18+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4879",
+      "text": "🔴⠀Аэропорт ИЖЕВСК",
+      "lat": 56.8361905,
+      "lon": 53.4631283
+    },
+    {
+      "id": "fc216ccd38078b31",
+      "action": "ADD",
+      "name": "⠀Аэропорт ПЕРМЬ (Большое Савино)",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-19T03:52:34+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4883",
+      "text": "🔴⠀Аэропорт ПЕРМЬ (Большое Савино)",
+      "lat": 57.9204465,
+      "lon": 56.0194435
     },
     {
       "id": "f11d6a242a81a727",
