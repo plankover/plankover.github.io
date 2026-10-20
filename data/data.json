@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T19:29:50.144268+00:00",
+  "updatedAt": "2026-10-20T22:35:11.256965+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -15,20 +15,6 @@
       "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км",
       "lat": 54.5488708,
       "lon": 36.3697725
-    },
-    {
-      "id": "3fd32067f883bc6e",
-      "action": "ADD",
-      "name": "Псков",
-      "icao": "ULOO",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-10-19T22:01:17+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4894",
-      "text": "🔴🛩️ Псков, ULOO",
-      "lat": 57.7594629,
-      "lon": 29.5587337
     },
     {
       "id": "9e42d61aa7752bdc",
@@ -146,6 +132,20 @@
       "text": "🟡 Аэропорт ВНУКОВО  ",
       "lat": 55.611698,
       "lon": 37.300255
+    },
+    {
+      "id": "886195e786b5c874",
+      "action": "ADD",
+      "name": "Сочи",
+      "icao": "URSS",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-20T20:41:52+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4903",
+      "text": "🔴🛩️ Сочи, URSS",
+      "lat": 43.4439715,
+      "lon": 39.9400928
     }
   ]
 }

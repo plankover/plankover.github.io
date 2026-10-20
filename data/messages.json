@@ -13086,5 +13086,58 @@
         "text": "🔴🛩️ Геленджик, URKG"
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4902,
+    "timestamp": "2026-10-20T19:38:45+00:00",
+    "text": "🟢🛩️ Москва - Внуково, UUWW",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4902",
+    "events": [
+      {
+        "id": "a18278b504d75bb8",
+        "action": "UNKNOWN",
+        "messageTimestamp": "2026-10-20T19:38:45+00:00",
+        "text": "🟢🛩️ Москва - Внуково, UUWW",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4902"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4903,
+    "timestamp": "2026-10-20T20:41:52+00:00",
+    "text": "🔴🛩️ Сочи, URSS",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4903",
+    "events": [
+      {
+        "id": "886195e786b5c874",
+        "action": "ADD",
+        "name": "Сочи",
+        "icao": "URSS",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-20T20:41:52+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4903",
+        "text": "🔴🛩️ Сочи, URSS"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4904,
+    "timestamp": "2026-10-20T22:23:14+00:00",
+    "text": "🟢🛩️ Сочи, URSS",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4904",
+    "events": [
+      {
+        "id": "c58c8af5368c63d1",
+        "action": "UNKNOWN",
+        "messageTimestamp": "2026-10-20T22:23:14+00:00",
+        "text": "🟢🛩️ Сочи, URSS",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4904"
+      }
+    ]
   }
 ]
