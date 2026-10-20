@@ -9994,16 +9994,34 @@
     "chatId": -1003822338715,
     "messageId": 4837,
     "timestamp": "2026-10-17T06:27:08+00:00",
-    "text": "🔹В аэропорту\n\n✈️⠀Калуга (Грабцево)\n\nвведены временные ограничения на прием и выпуск воздушных судов для обеспечения безопасности их полетов.\n\n✈️⠀Внуково принимает и отправляет рейсы по согласованию с соответствующими органами\n\n🔘 Остальные аэропорты\nРоссии, нашей большой и любимой страны, принимают и отправляют рейсы.\n‼️Быстрее всего информацию об изменениях в работе аэропортов обновляем в нашем оперативном канале в @PlanKoverTDay. Подписывайтесь, чтобы получать проверенные данные напрямую от ведомства.\n✈️⠀- - | @PlanKoverTDay",
+    "text": "Актуальные ограничения:\n\n🔴🛩️ Калуга - Грабцево, UUBC\n🔴🛩️ Псков, ULOO",
     "sourceUrl": "https://t.me/PlanKoverTDay/4837",
     "events": [
       {
-        "id": "d837d1cd2ed08bc3",
+        "id": "6138b0c5f1de9463",
         "action": "ADD",
+        "name": "Грабцево",
+        "icao": "UUBC",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
         "messageTimestamp": "2026-10-17T06:27:08+00:00",
-        "text": "🔹В аэропорту\n\n✈️⠀Калуга (Грабцево)\n\nвведены временные ограничения на прием и выпуск воздушных судов для обеспечения безопасности их полетов.\n\n✈️⠀Внуково принимает и отправляет рейсы по согласованию с соответствующими органами\n\n🔘 Остальные аэропорты\nРоссии, нашей большой и любимой страны, принимают и отправляют рейсы.\n‼️Быстрее всего информацию об изменениях в работе аэропортов обновляем в нашем оперативном канале в @PlanKoverTDay. Подписывайтесь, чтобы получать проверенные данные напрямую от ведомства.\n✈️⠀- - | @PlanKoverTDay",
-        "unresolved": true,
-        "sourceUrl": "https://t.me/PlanKoverTDay/4837"
+        "sourceUrl": "https://t.me/PlanKoverTDay/4837",
+        "text": "🔴🛩️ Калуга - Грабцево, UUBC",
+        "snapshot": true
+      },
+      {
+        "id": "8b20e204bde13e0b",
+        "action": "ADD",
+        "name": "Псков",
+        "icao": "ULOO",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-17T06:27:08+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4837",
+        "text": "🔴🛩️ Псков, ULOO",
+        "snapshot": true
       }
     ]
   },
@@ -12729,6 +12747,43 @@
         "messageTimestamp": "2026-10-19T21:21:52+00:00",
         "text": "👍 е",
         "sourceUrl": "https://t.me/PlanKoverTDay/4893"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4894,
+    "timestamp": "2026-10-19T22:01:17+00:00",
+    "text": "🔴🛩️ Псков, ULOO",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4894",
+    "events": [
+      {
+        "id": "3fd32067f883bc6e",
+        "action": "ADD",
+        "name": "Псков",
+        "icao": "ULOO",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-19T22:01:17+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4894",
+        "text": "🔴🛩️ Псков, ULOO"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4895,
+    "timestamp": "2026-10-19T22:43:41+00:00",
+    "text": "🟢🛩️ Москва - Внуково, UUWW",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4895",
+    "events": [
+      {
+        "id": "88111cc5561c841f",
+        "action": "UNKNOWN",
+        "messageTimestamp": "2026-10-19T22:43:41+00:00",
+        "text": "🟢🛩️ Москва - Внуково, UUWW",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4895"
       }
     ]
   }
