@@ -12818,5 +12818,273 @@
         "sourceUrl": "https://t.me/PlanKoverTDay/4897"
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4898,
+    "timestamp": "2026-10-20T16:53:14+00:00",
+    "text": "🔴⠀Аэропорт КАЛУГА (Грабцево)\n\n✈️⠀ВВЕДЕНЫ временные ограниченияна прием и выпуск воздушных судов.\n\n✈️⠀Ограничения необходимы для обеспечения безопасности полетов.\n\n✈️- - | @PlanKoverTDay",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4898",
+    "events": [
+      {
+        "id": "ad5f9ef3797d4d65",
+        "action": "ADD",
+        "name": "⠀Аэропорт КАЛУГА (Грабцево)",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-20T16:53:14+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4898",
+        "text": "🔴⠀Аэропорт КАЛУГА (Грабцево)"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4898,
+    "timestamp": "2026-10-20T16:53:14+00:00",
+    "text": "🔴⠀Аэропорт КАЛУГА (Грабцево)\n\n✈️⠀ВВЕДЕНЫ временные ограниченияна прием и выпуск воздушных судов.\n\n✈️⠀Ограничения необходимы для обеспечения безопасности полетов.\n\n✈️⠀- - | @PlanKoverTDay",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4898",
+    "events": [
+      {
+        "id": "d1f9077698762d6d",
+        "action": "ADD",
+        "name": "⠀Аэропорт КАЛУГА (Грабцево)",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-20T16:53:14+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4898",
+        "text": "🔴⠀Аэропорт КАЛУГА (Грабцево)"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4898,
+    "timestamp": "2026-10-20T16:53:14+00:00",
+    "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км\n🔴 а/д Северный, Смоленск / 70 км\n🔴 а/д Двоевка, Вязьма / 70 км\n🔴 а/д Клоково, Тула / 70 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4898",
+    "events": [
+      {
+        "id": "ecf26e46a8e1a552",
+        "action": "ADD",
+        "name": "Грабцево",
+        "icao": "UUBC",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-10-20T16:53:14+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4898",
+        "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км"
+      },
+      {
+        "id": "fa73c5a463758aa5",
+        "action": "ADD",
+        "name": "Северный, Смоленск",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-10-20T16:53:14+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4898",
+        "text": "🔴 а/д Северный, Смоленск / 70 км"
+      },
+      {
+        "id": "a09f7f127b5b12f5",
+        "action": "ADD",
+        "name": "Двоевка, Вязьма",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-10-20T16:53:14+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4898",
+        "text": "🔴 а/д Двоевка, Вязьма / 70 км"
+      },
+      {
+        "id": "c3934a68a08d8eed",
+        "action": "ADD",
+        "name": "Клоково, Тула",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-10-20T16:53:14+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4898",
+        "text": "🔴 а/д Клоково, Тула / 70 км"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4899,
+    "timestamp": "2026-10-20T17:59:11+00:00",
+    "text": "🟡 Аэропорт ВНУКОВО  \n\nпринимает и отправляет рейсы по согласованию с соответствующими органами в связи с введением временных ограничений на использование воздушного пространства в районе авиагавани. \n\n🗓 Возможны корректировки в расписании рейсов.\n\n❗Меры приняты для обеспечения безопасности полетов.\n\n🔎 Статус вашего рейса можно уточнить с помощью онлайн-табло аэропорта.\n\n✈- - | @PlanKoverTDay",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4899",
+    "events": [
+      {
+        "id": "0cf24b730f98ad5f",
+        "action": "ADD",
+        "name": "ВНУКОВО",
+        "icao": null,
+        "kind": "airport",
+        "type": "partial",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-20T17:59:11+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4899",
+        "text": "🟡 Аэропорт ВНУКОВО  "
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4899,
+    "timestamp": "2026-10-20T17:59:11+00:00",
+    "text": "🟡 Аэропорт ВНУКОВО  \n\nпринимает и отправляет рейсы по согласованию с соответствующими органами в связи с введением временных ограничений на использование воздушного пространства в районе авиагавани. \n\n🗓 Возможны корректировки в расписании рейсов.\n\n❗Меры приняты для обеспечения безопасности полетов.\n\n🔎 Статус вашего рейса можно уточнить с помощью онлайн-табло аэропорта.\n\n✈- - | @PlanKoverTDay",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4899",
+    "events": [
+      {
+        "id": "0cf24b730f98ad5f",
+        "action": "ADD",
+        "name": "ВНУКОВО",
+        "icao": null,
+        "kind": "airport",
+        "type": "partial",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-20T17:59:11+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4899",
+        "text": "🟡 Аэропорт ВНУКОВО  "
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4899,
+    "timestamp": "2026-10-20T17:59:11+00:00",
+    "text": "🟡🛩️ Внуково, UUWW",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4899",
+    "events": [
+      {
+        "id": "d3663d4242d286f2",
+        "action": "ADD",
+        "name": "Внуково",
+        "icao": "UUWW",
+        "kind": "airport",
+        "type": "partial",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-20T17:59:11+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4899",
+        "text": "🟡🛩️ Внуково, UUWW"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4899,
+    "timestamp": "2026-10-20T17:59:11+00:00",
+    "text": "🟡🛩️ Внуково, UUWW / 100 км (азимуты 180-330)",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4899",
+    "events": [
+      {
+        "id": "e50b4c5e0e3341ec",
+        "action": "ADD",
+        "name": "Внуково",
+        "icao": "UUWW",
+        "kind": "airport",
+        "type": "partial",
+        "radiusKm": 100.0,
+        "messageTimestamp": "2026-10-20T17:59:11+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4899",
+        "text": "🟡🛩️ Внуково, UUWW / 100 км (азимуты 180-330)",
+        "sector": {
+          "radiusKm": 100.0,
+          "startAzimuth": 180,
+          "endAzimuth": 330
+        }
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4900,
+    "timestamp": "2026-10-20T19:10:14+00:00",
+    "text": "📌 Прогноз по ограничениям на ночь. \n\nОднозначных вариантов нет, поэтому ожидаем:\n\n✈️ ряд аэропортов ЦФО (в том числе некоторые московские)",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4900",
+    "events": [
+      {
+        "id": "2f283504309a1108",
+        "action": "ADD",
+        "messageTimestamp": "2026-10-20T19:10:14+00:00",
+        "text": "📌 Прогноз по ограничениям на ночь. \n\nОднозначных вариантов нет, поэтому ожидаем:\n\n✈️ ряд аэропортов ЦФО (в том числе некоторые московские)",
+        "unresolved": true,
+        "sourceUrl": "https://t.me/PlanKoverTDay/4900"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4901,
+    "timestamp": "2026-10-20T19:11:05+00:00",
+    "text": "🔴🛩️ Геленджик, URKG",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4901",
+    "events": [
+      {
+        "id": "3eed90cefaa90b0a",
+        "action": "ADD",
+        "name": "Геленджик",
+        "icao": "URKG",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-20T19:11:05+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4901",
+        "text": "🔴🛩️ Геленджик, URKG"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4901,
+    "timestamp": "2026-10-20T19:11:05+00:00",
+    "text": "🔴⠀Аэропорт ГЕЛЕНДЖИК\n\n✈️⠀ВВЕДЕНЫ дополнительные* временные ограничения на прием и выпуск воздушных судов.\n\n✈️⠀Ограничения необходимы для обеспечения безопасности полетов.\n\n*Согласно действующему NOTAM, аэропорт Геленджик принимает регулярные рейсы с 8:30 до 20:00.\n\n✈ - - | @PlanKoverTDay",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4901",
+    "events": [
+      {
+        "id": "9e42d61aa7752bdc",
+        "action": "ADD",
+        "name": "⠀Аэропорт ГЕЛЕНДЖИК",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-20T19:11:05+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4901",
+        "text": "🔴⠀Аэропорт ГЕЛЕНДЖИК"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4901,
+    "timestamp": "2026-10-20T19:11:05+00:00",
+    "text": "🔴🛩️ Геленджик, URKG",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4901",
+    "events": [
+      {
+        "id": "3eed90cefaa90b0a",
+        "action": "ADD",
+        "name": "Геленджик",
+        "icao": "URKG",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-20T19:11:05+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4901",
+        "text": "🔴🛩️ Геленджик, URKG"
+      }
+    ]
   }
 ]
