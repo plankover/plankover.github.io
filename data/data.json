@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T00:32:01.093865+00:00",
+  "updatedAt": "2026-10-20T05:21:01.222691+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -29,20 +29,6 @@
       "text": "🔴🛩️ Псков, ULOO",
       "lat": 57.7594629,
       "lon": 29.5587337
-    },
-    {
-      "id": "a1655ac7eb70b8b1",
-      "action": "ADD",
-      "name": "⠀Аэропорт ГЕЛЕНДЖИК",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-10-19T05:16:32+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4884",
-      "text": "🔴⠀Аэропорт ГЕЛЕНДЖИК",
-      "lat": 44.5817785,
-      "lon": 38.0125403
     },
     {
       "id": "14fed94ab9e0139a",
@@ -85,60 +71,6 @@
       "text": "🟡🛩️ Внуково, UUWW /",
       "lat": 55.5995278,
       "lon": 37.2735752
-    },
-    {
-      "id": "65134f73beb8c8bc",
-      "action": "ADD",
-      "name": "⠀Аэропорт ИЖЕВСК",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-10-19T01:26:18+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4879",
-      "text": "🔴⠀Аэропорт ИЖЕВСК",
-      "lat": 56.8361905,
-      "lon": 53.4631283
-    },
-    {
-      "id": "3c6a7779ac86342e",
-      "action": "ADD",
-      "name": "⠀Аэропорт ПЕРМЬ (Большое Савино)",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-10-19T01:40:02+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4880",
-      "text": "🔴⠀Аэропорт ПЕРМЬ (Большое Савино)",
-      "lat": 57.9204465,
-      "lon": 56.0194435
-    },
-    {
-      "id": "93649c758f01174f",
-      "action": "ADD",
-      "name": "Большое Савино",
-      "icao": "USPP",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": 100.0,
-      "messageTimestamp": "2026-10-19T03:52:34+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4883",
-      "text": "🔴🛩️ Пермь - Большое Савино, USPP / 100 км",
-      "lat": 57.9153712,
-      "lon": 56.0283146
-    },
-    {
-      "id": "0c217fefcf1da692",
-      "action": "ADD",
-      "name": "Беркзники",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": 70.0,
-      "messageTimestamp": "2026-10-19T03:52:34+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4883",
-      "text": "🔴 Беркзники / 70 км"
     },
     {
       "id": "6d87a1966aea7dd9",

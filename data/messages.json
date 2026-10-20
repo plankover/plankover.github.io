@@ -12786,5 +12786,37 @@
         "sourceUrl": "https://t.me/PlanKoverTDay/4895"
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4896,
+    "timestamp": "2026-10-20T03:12:07+00:00",
+    "text": "🟢🛩️ Псков, ULOO",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4896",
+    "events": [
+      {
+        "id": "e2e394c52ac426d2",
+        "action": "UNKNOWN",
+        "messageTimestamp": "2026-10-20T03:12:07+00:00",
+        "text": "🟢🛩️ Псков, ULOO",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4896"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4897,
+    "timestamp": "2026-10-20T04:28:21+00:00",
+    "text": "🟢🛩️ Калуга - Грабцево, UUBC",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4897",
+    "events": [
+      {
+        "id": "1caccf3af5630af8",
+        "action": "UNKNOWN",
+        "messageTimestamp": "2026-10-20T04:28:21+00:00",
+        "text": "🟢🛩️ Калуга - Грабцево, UUBC",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4897"
+      }
+    ]
   }
 ]
