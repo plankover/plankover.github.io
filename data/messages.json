@@ -13436,5 +13436,21 @@
         "text": "🔴🛩️ Калуга - Грабцево, UUBC"
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4920,
+    "timestamp": "2026-10-21T11:43:59+00:00",
+    "text": "🟢🛩️ Калуга - Грабцево, UUBC",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4920",
+    "events": [
+      {
+        "id": "b9f653c1b834a51d",
+        "action": "UNKNOWN",
+        "messageTimestamp": "2026-10-21T11:43:59+00:00",
+        "text": "🟢🛩️ Калуга - Грабцево, UUBC",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4920"
+      }
+    ]
   }
 ]
