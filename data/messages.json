@@ -13452,5 +13452,84 @@
         "sourceUrl": "https://t.me/PlanKoverTDay/4920"
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4921,
+    "timestamp": "2026-10-21T18:19:38+00:00",
+    "text": "🔴🛩️ Геленджик, URKG",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4921",
+    "events": [
+      {
+        "id": "ae4c5de1f68c1fb7",
+        "action": "ADD",
+        "name": "Геленджик",
+        "icao": "URKG",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-21T18:19:38+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4921",
+        "text": "🔴🛩️ Геленджик, URKG"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4922,
+    "timestamp": "2026-10-21T18:58:21+00:00",
+    "text": "🟡🛩️ Москва - Домодедово, UUDD",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4922",
+    "events": [
+      {
+        "id": "4048ef968f8148f4",
+        "action": "ADD",
+        "name": "Домодедово",
+        "icao": "UUDD",
+        "kind": "airport",
+        "type": "partial",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-21T18:58:21+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4922",
+        "text": "🟡🛩️ Москва - Домодедово, UUDD"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4923,
+    "timestamp": "2026-10-21T18:58:50+00:00",
+    "text": "🔴🛩️ Сочи, URSS",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4923",
+    "events": [
+      {
+        "id": "9c2ac97224c32890",
+        "action": "ADD",
+        "name": "Сочи",
+        "icao": "URSS",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-21T18:58:50+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4923",
+        "text": "🔴🛩️ Сочи, URSS"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4924,
+    "timestamp": "2026-10-21T19:31:01+00:00",
+    "text": "🟢🛩️ Москва - Домодедово, UUDD",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4924",
+    "events": [
+      {
+        "id": "dab8b02f9a1b3782",
+        "action": "UNKNOWN",
+        "messageTimestamp": "2026-10-21T19:31:01+00:00",
+        "text": "🟢🛩️ Москва - Домодедово, UUDD",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4924"
+      }
+    ]
   }
 ]
