@@ -13341,5 +13341,100 @@
         "text": "🔴🛩️ Псков, ULOO"
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4915,
+    "timestamp": "2026-10-21T06:52:32+00:00",
+    "text": "🟡🛩️ Санкт-Петербург - Пулково, ULLI",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4915",
+    "events": [
+      {
+        "id": "83f0df66401c25b7",
+        "action": "ADD",
+        "name": "Пулково",
+        "icao": "ULLI",
+        "kind": "airport",
+        "type": "partial",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-21T06:52:32+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4915",
+        "text": "🟡🛩️ Санкт-Петербург - Пулково, ULLI"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4916,
+    "timestamp": "2026-10-21T07:01:51+00:00",
+    "text": "🟢🛩️ Санкт-Петербург - Пулково, ULLI",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4916",
+    "events": [
+      {
+        "id": "490bbe98113032b1",
+        "action": "UNKNOWN",
+        "messageTimestamp": "2026-10-21T07:01:51+00:00",
+        "text": "🟢🛩️ Санкт-Петербург - Пулково, ULLI",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4916"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4917,
+    "timestamp": "2026-10-21T07:05:29+00:00",
+    "text": "🟡🛩️ Санкт-Петербург - Пулково, ULLI",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4917",
+    "events": [
+      {
+        "id": "21f6f28d97285ef3",
+        "action": "ADD",
+        "name": "Пулково",
+        "icao": "ULLI",
+        "kind": "airport",
+        "type": "partial",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-21T07:05:29+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4917",
+        "text": "🟡🛩️ Санкт-Петербург - Пулково, ULLI"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4918,
+    "timestamp": "2026-10-21T07:35:14+00:00",
+    "text": "🟢🛩️ Псков, ULOO\n🟢🛩️ Санкт-Петербург - Пулково, ULLI",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4918",
+    "events": [
+      {
+        "id": "8ff9b958feb02a71",
+        "action": "UNKNOWN",
+        "messageTimestamp": "2026-10-21T07:35:14+00:00",
+        "text": "🟢🛩️ Псков, ULOO\n🟢🛩️ Санкт-Петербург - Пулково, ULLI",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4918"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4919,
+    "timestamp": "2026-10-21T10:26:06+00:00",
+    "text": "🔴🛩️ Калуга - Грабцево, UUBC",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4919",
+    "events": [
+      {
+        "id": "929a7f1069561272",
+        "action": "ADD",
+        "name": "Грабцево",
+        "icao": "UUBC",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-21T10:26:06+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4919",
+        "text": "🔴🛩️ Калуга - Грабцево, UUBC"
+      }
+    ]
   }
 ]
