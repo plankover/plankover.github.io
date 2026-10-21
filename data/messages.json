@@ -13230,5 +13230,116 @@
         "text": "🔴🛩️ Ярославль - Туношна, UUDL"
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4909,
+    "timestamp": "2026-10-21T02:16:50+00:00",
+    "text": "🟡🛩️ Москва - Шереметьево, UUEE",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4909",
+    "events": [
+      {
+        "id": "cf5e6eb47fcfbaa4",
+        "action": "ADD",
+        "name": "Шереметьево",
+        "icao": "UUEE",
+        "kind": "airport",
+        "type": "partial",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-21T02:16:50+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4909",
+        "text": "🟡🛩️ Москва - Шереметьево, UUEE"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4910,
+    "timestamp": "2026-10-21T03:10:07+00:00",
+    "text": "🟢🛩️ Москва - Шереметьево, UUEE",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4910",
+    "events": [
+      {
+        "id": "caf4804dc8b22108",
+        "action": "UNKNOWN",
+        "messageTimestamp": "2026-10-21T03:10:07+00:00",
+        "text": "🟢🛩️ Москва - Шереметьево, UUEE",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4910"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4911,
+    "timestamp": "2026-10-21T04:27:38+00:00",
+    "text": "🟡🛩️ Москва - Домодедово, UUDD",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4911",
+    "events": [
+      {
+        "id": "d4336a6d37a606cb",
+        "action": "ADD",
+        "name": "Домодедово",
+        "icao": "UUDD",
+        "kind": "airport",
+        "type": "partial",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-21T04:27:38+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4911",
+        "text": "🟡🛩️ Москва - Домодедово, UUDD"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4912,
+    "timestamp": "2026-10-21T04:51:49+00:00",
+    "text": "🟢🛩️ Москва - Внуково, UUWW\n🟢🛩️ Москва - Домодедово, UUDD",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4912",
+    "events": [
+      {
+        "id": "f6d20b279c1ff766",
+        "action": "UNKNOWN",
+        "messageTimestamp": "2026-10-21T04:51:49+00:00",
+        "text": "🟢🛩️ Москва - Внуково, UUWW\n🟢🛩️ Москва - Домодедово, UUDD",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4912"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4913,
+    "timestamp": "2026-10-21T05:02:06+00:00",
+    "text": "🟢🛩️ Калуга - Грабцево, UUBC\n🟢🛩️ Кострома - Сокеркино, UUBA\n🟢🛩️ Нижний Новгород - Чкалов, UWGG\n🟢🛩️ Ярославль - Туношна, UUDL",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4913",
+    "events": [
+      {
+        "id": "5447a735ae903907",
+        "action": "UNKNOWN",
+        "messageTimestamp": "2026-10-21T05:02:06+00:00",
+        "text": "🟢🛩️ Калуга - Грабцево, UUBC\n🟢🛩️ Кострома - Сокеркино, UUBA\n🟢🛩️ Нижний Новгород - Чкалов, UWGG\n🟢🛩️ Ярославль - Туношна, UUDL",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4913"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4914,
+    "timestamp": "2026-10-21T05:11:04+00:00",
+    "text": "🔴🛩️ Псков, ULOO",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4914",
+    "events": [
+      {
+        "id": "969da7345ac1bc56",
+        "action": "ADD",
+        "name": "Псков",
+        "icao": "ULOO",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-21T05:11:04+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4914",
+        "text": "🔴🛩️ Псков, ULOO"
+      }
+    ]
   }
 ]

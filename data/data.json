@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T00:59:25.948784+00:00",
+  "updatedAt": "2026-10-21T05:55:13.008460+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -15,6 +15,20 @@
       "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км",
       "lat": 54.5488708,
       "lon": 36.3697725
+    },
+    {
+      "id": "969da7345ac1bc56",
+      "action": "ADD",
+      "name": "Псков",
+      "icao": "ULOO",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-21T05:11:04+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4914",
+      "text": "🔴🛩️ Псков, ULOO",
+      "lat": 57.7594629,
+      "lon": 29.5587337
     },
     {
       "id": "9e42d61aa7752bdc",
@@ -101,6 +115,20 @@
       "lon": 36.3697725
     },
     {
+      "id": "d4336a6d37a606cb",
+      "action": "ADD",
+      "name": "Домодедово",
+      "icao": "UUDD",
+      "kind": "airport",
+      "type": "partial",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-21T04:27:38+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4911",
+      "text": "🟡🛩️ Москва - Домодедово, UUDD",
+      "lat": 55.4087122,
+      "lon": 37.9094307
+    },
+    {
       "id": "c43a9cc747bdca46",
       "action": "ADD",
       "name": "Внуково",
@@ -113,6 +141,20 @@
       "text": "🟡🛩️ Москва - Внуково, UUWW",
       "lat": 55.5995278,
       "lon": 37.2735752
+    },
+    {
+      "id": "cf5e6eb47fcfbaa4",
+      "action": "ADD",
+      "name": "Шереметьево",
+      "icao": "UUEE",
+      "kind": "airport",
+      "type": "partial",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-21T02:16:50+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4909",
+      "text": "🟡🛩️ Москва - Шереметьево, UUEE",
+      "lat": 55.9760876,
+      "lon": 37.4238008
     },
     {
       "id": "13937f49227aace9",
