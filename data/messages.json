@@ -13531,5 +13531,21 @@
         "sourceUrl": "https://t.me/PlanKoverTDay/4924"
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4925,
+    "timestamp": "2026-10-21T19:52:42+00:00",
+    "text": "🟢🛩️ Сочи, URSS",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4925",
+    "events": [
+      {
+        "id": "5e52095d704b433a",
+        "action": "UNKNOWN",
+        "messageTimestamp": "2026-10-21T19:52:42+00:00",
+        "text": "🟢🛩️ Сочи, URSS",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4925"
+      }
+    ]
   }
 ]
