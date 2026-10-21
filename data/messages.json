@@ -13139,5 +13139,96 @@
         "sourceUrl": "https://t.me/PlanKoverTDay/4904"
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4905,
+    "timestamp": "2026-10-20T22:43:16+00:00",
+    "text": "🟡🛩️ Нижний Новгород - Чкалов, UWGG",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4905",
+    "events": [
+      {
+        "id": "d10332452b9665ab",
+        "action": "ADD",
+        "name": "Чкалов",
+        "icao": "UWGG",
+        "kind": "airport",
+        "type": "partial",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-20T22:43:16+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4905",
+        "text": "🟡🛩️ Нижний Новгород - Чкалов, UWGG"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4906,
+    "timestamp": "2026-10-20T23:00:49+00:00",
+    "text": "🟢🛩️ Геленджик, URKG",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4906",
+    "events": [
+      {
+        "id": "790dfbae9b437cf4",
+        "action": "UNKNOWN",
+        "messageTimestamp": "2026-10-20T23:00:49+00:00",
+        "text": "🟢🛩️ Геленджик, URKG",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4906"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4907,
+    "timestamp": "2026-10-20T23:15:33+00:00",
+    "text": "🟡🛩️ Москва - Внуково, UUWW",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4907",
+    "events": [
+      {
+        "id": "c43a9cc747bdca46",
+        "action": "ADD",
+        "name": "Внуково",
+        "icao": "UUWW",
+        "kind": "airport",
+        "type": "partial",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-20T23:15:33+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4907",
+        "text": "🟡🛩️ Москва - Внуково, UUWW"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4908,
+    "timestamp": "2026-10-20T23:56:56+00:00",
+    "text": "🔴🛩️ Кострома - Сокеркино, UUWE\n🔴🛩️ Ярославль - Туношна, UUDL",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4908",
+    "events": [
+      {
+        "id": "ec369299bbe40eda",
+        "action": "ADD",
+        "name": "Сокеркино",
+        "icao": "UUWE",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-20T23:56:56+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4908",
+        "text": "🔴🛩️ Кострома - Сокеркино, UUWE"
+      },
+      {
+        "id": "13937f49227aace9",
+        "action": "ADD",
+        "name": "Туношна",
+        "icao": "UUDL",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-20T23:56:56+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4908",
+        "text": "🔴🛩️ Ярославль - Туношна, UUDL"
+      }
+    ]
   }
 ]
