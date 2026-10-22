@@ -14450,20 +14450,20 @@
     "chatId": -1003822338715,
     "messageId": 4946,
     "timestamp": "2026-10-22T20:14:35+00:00",
-    "text": "🔴🛩️ Саранск, UWPS",
+    "text": "🔴 Ильмино (🛩️ Саранск, UWPS; 🛩️ Пенза, UWPP) / 150 км",
     "sourceUrl": "https://t.me/PlanKoverTDay/4946",
     "events": [
       {
-        "id": "013c9f6bebeb2f8f",
+        "id": "bc8cab45c70a619d",
         "action": "ADD",
-        "name": "Саранск",
+        "name": "Ильмино (🛩️ Саранск",
         "icao": "UWPS",
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
+        "radiusKm": 150.0,
         "messageTimestamp": "2026-10-22T20:14:35+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4946",
-        "text": "🔴🛩️ Саранск, UWPS"
+        "text": "🔴 Ильмино (🛩️ Саранск, UWPS; 🛩️ Пенза, UWPP) / 150 км"
       }
     ]
   },
@@ -14506,6 +14506,504 @@
         "messageTimestamp": "2026-10-22T20:30:29+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4947",
         "text": "🔴🛩️ Сочи, URSS"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4948,
+    "timestamp": "2026-10-22T20:53:22+00:00",
+    "text": "🔴🛩️ Сочи, URSS / 50 км\n\n🔴 Конаково / 50 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4948",
+    "events": [
+      {
+        "id": "1f57416b129ed4d1",
+        "action": "ADD",
+        "name": "Сочи",
+        "icao": "URSS",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 50.0,
+        "messageTimestamp": "2026-10-22T20:53:22+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4948",
+        "text": "🔴🛩️ Сочи, URSS / 50 км"
+      },
+      {
+        "id": "2674e951fc0e23f7",
+        "action": "ADD",
+        "name": "Конаково",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 50.0,
+        "messageTimestamp": "2026-10-22T20:53:22+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4948",
+        "text": "🔴 Конаково / 50 км"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4949,
+    "timestamp": "2026-10-22T21:38:03+00:00",
+    "text": "🔴🛩️ Ульяновск - Баратаевка, UWLW",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4949",
+    "events": [
+      {
+        "id": "a1e47f44344c7ec5",
+        "action": "ADD",
+        "name": "Баратаевка",
+        "icao": "UWLW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-22T21:38:03+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4949",
+        "text": "🔴🛩️ Ульяновск - Баратаевка, UWLW"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4949,
+    "timestamp": "2026-10-22T21:38:03+00:00",
+    "text": "🔴 Сурское (🛩️ Ульяновск - Баратаевка, UWLW; 🛩️ Саранск, UWPC) / 150 км\n🔴 Ивановка, Тетюшинский р-н (🛩️ Казань, UWKD ; 🛩️ Баратаевка, UWLL) / 150 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4949",
+    "events": [
+      {
+        "id": "0645a1fe58e0c4b5",
+        "action": "ADD",
+        "name": "Баратаевка",
+        "icao": "UWLW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 150.0,
+        "messageTimestamp": "2026-10-22T21:38:03+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4949",
+        "text": "🔴 Сурское (🛩️ Ульяновск - Баратаевка, UWLW; 🛩️ Саранск, UWPC) / 150 км"
+      },
+      {
+        "id": "2a22756d3129a10b",
+        "action": "ADD",
+        "name": "н (🛩️ Казань",
+        "icao": "UWKD",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 150.0,
+        "messageTimestamp": "2026-10-22T21:38:03+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4949",
+        "text": "🔴 Ивановка, Тетюшинский р-н (🛩️ Казань, UWKD ; 🛩️ Баратаевка, UWLL) / 150 км"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4950,
+    "timestamp": "2026-10-22T21:39:05+00:00",
+    "text": "🔴🛩️ Казань, UWKD",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4950",
+    "events": [
+      {
+        "id": "19730a5d19773777",
+        "action": "ADD",
+        "name": "Казань",
+        "icao": "UWKD",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-22T21:39:05+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4950",
+        "text": "🔴🛩️ Казань, UWKD"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4951,
+    "timestamp": "2026-10-22T21:50:40+00:00",
+    "text": "🔴🛩️ Чебоксары, UWKS",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4951",
+    "events": [
+      {
+        "id": "2763984f517e25b3",
+        "action": "ADD",
+        "name": "Чебоксары",
+        "icao": "UWKS",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-22T21:50:40+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4951",
+        "text": "🔴🛩️ Чебоксары, UWKS"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4951,
+    "timestamp": "2026-10-22T21:50:40+00:00",
+    "text": "🔴 Чебоксары (🛩️ Чебоксары, UWKS) / 50 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4951",
+    "events": [
+      {
+        "id": "96a0733f8563dd80",
+        "action": "ADD",
+        "name": "Чебоксары (🛩️ Чебоксары",
+        "icao": "UWKS",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 50.0,
+        "messageTimestamp": "2026-10-22T21:50:40+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4951",
+        "text": "🔴 Чебоксары (🛩️ Чебоксары, UWKS) / 50 км"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4952,
+    "timestamp": "2026-10-22T22:29:40+00:00",
+    "text": "🔴🛩️ Бугульма, UWKB\n🔴🛩️ Нижнекамск - Бегишево, UWKD",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4952",
+    "events": [
+      {
+        "id": "75fe71f2ee0d5490",
+        "action": "ADD",
+        "name": "Бугульма",
+        "icao": "UWKB",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-22T22:29:40+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4952",
+        "text": "🔴🛩️ Бугульма, UWKB"
+      },
+      {
+        "id": "ced564b429fcce66",
+        "action": "ADD",
+        "name": "Бегишево",
+        "icao": "UWKD",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-22T22:29:40+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4952",
+        "text": "🔴🛩️ Нижнекамск - Бегишево, UWKD"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4952,
+    "timestamp": "2026-10-22T22:29:40+00:00",
+    "text": "🔴 Альметьевск (🛩️ Бугульма, Uwkb) / 70 км \n🔴 Новошешминск (🛩️ Казань, UWKD ; 🛩️ Бегишево, UWKE ; 🛩️ Бугульма, UWKB) / 150 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4952",
+    "events": [
+      {
+        "id": "11ec56a49eb3143c",
+        "action": "ADD",
+        "name": "Альметьевск (🛩️ Бугульма, Uwkb)",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-10-22T22:29:40+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4952",
+        "text": "🔴 Альметьевск (🛩️ Бугульма, Uwkb) / 70 км "
+      },
+      {
+        "id": "51af03a00cd0f43e",
+        "action": "ADD",
+        "name": "Новошешминск (🛩️ Казань",
+        "icao": "UWKD",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 150.0,
+        "messageTimestamp": "2026-10-22T22:29:40+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4952",
+        "text": "🔴 Новошешминск (🛩️ Казань, UWKD ; 🛩️ Бегишево, UWKE ; 🛩️ Бугульма, UWKB) / 150 км"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4952,
+    "timestamp": "2026-10-22T22:29:40+00:00",
+    "text": "🔴 Альметьевск (🛩️ Бугульма, Uwkb) / 70 км \n🔴 Новошешминск (🛩️ Казань, UWKD ; 🛩️ Бегишево, UWKE ; 🛩️ Бугульма, UWKB) / 150 км\n🔴 Казань (🛩️ Казань, UWKD) / 100 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4952",
+    "events": [
+      {
+        "id": "c13f546b3753a227",
+        "action": "ADD",
+        "name": "Альметьевск (🛩️ Бугульма, Uwkb)",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-10-22T22:29:40+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4952",
+        "text": "🔴 Альметьевск (🛩️ Бугульма, Uwkb) / 70 км "
+      },
+      {
+        "id": "6a6dd03b81d09f3f",
+        "action": "ADD",
+        "name": "Новошешминск (🛩️ Казань",
+        "icao": "UWKD",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 150.0,
+        "messageTimestamp": "2026-10-22T22:29:40+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4952",
+        "text": "🔴 Новошешминск (🛩️ Казань, UWKD ; 🛩️ Бегишево, UWKE ; 🛩️ Бугульма, UWKB) / 150 км"
+      },
+      {
+        "id": "f883fec8b4440baf",
+        "action": "ADD",
+        "name": "Казань (🛩️ Казань",
+        "icao": "UWKD",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 100.0,
+        "messageTimestamp": "2026-10-22T22:29:40+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4952",
+        "text": "🔴 Казань (🛩️ Казань, UWKD) / 100 км"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4952,
+    "timestamp": "2026-10-22T22:29:40+00:00",
+    "text": "🔴 Альметьевск (🛩️ Бугульма, Uwkb) / 70 км \n🔴 Новошешминск (🛩️ Казань, UWKD ; 🛩️ Бегишево, UWKE ; 🛩️ Бугульма, UWKB) / 150 км\n🔴 Казань (🛩️ Казань, UWKD) / 100 км\n🔴 Елабуга (🛩️ Нижнекамск - Бегишево, UWKE) / 50 км\n🔴 Вятские Поляны (🛩️ Казань, UWKD ; 🛩️ Нижнекамск - Бегишево, UWKE) / 150 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4952",
+    "events": [
+      {
+        "id": "c752457069a0233a",
+        "action": "ADD",
+        "name": "Альметьевск (🛩️ Бугульма, Uwkb)",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-10-22T22:29:40+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4952",
+        "text": "🔴 Альметьевск (🛩️ Бугульма, Uwkb) / 70 км "
+      },
+      {
+        "id": "f8b6e5e378877bd7",
+        "action": "ADD",
+        "name": "Новошешминск (🛩️ Казань",
+        "icao": "UWKD",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 150.0,
+        "messageTimestamp": "2026-10-22T22:29:40+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4952",
+        "text": "🔴 Новошешминск (🛩️ Казань, UWKD ; 🛩️ Бегишево, UWKE ; 🛩️ Бугульма, UWKB) / 150 км"
+      },
+      {
+        "id": "2860db56ae27bafd",
+        "action": "ADD",
+        "name": "Казань (🛩️ Казань",
+        "icao": "UWKD",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 100.0,
+        "messageTimestamp": "2026-10-22T22:29:40+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4952",
+        "text": "🔴 Казань (🛩️ Казань, UWKD) / 100 км"
+      },
+      {
+        "id": "16fe843f0c5264d9",
+        "action": "ADD",
+        "name": "Бегишево",
+        "icao": "UWKE",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 50.0,
+        "messageTimestamp": "2026-10-22T22:29:40+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4952",
+        "text": "🔴 Елабуга (🛩️ Нижнекамск - Бегишево, UWKE) / 50 км"
+      },
+      {
+        "id": "b09085197ba43a8d",
+        "action": "ADD",
+        "name": "Вятские Поляны (🛩️ Казань",
+        "icao": "UWKD",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 150.0,
+        "messageTimestamp": "2026-10-22T22:29:40+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4952",
+        "text": "🔴 Вятские Поляны (🛩️ Казань, UWKD ; 🛩️ Нижнекамск - Бегишево, UWKE) / 150 км"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4952,
+    "timestamp": "2026-10-22T22:29:40+00:00",
+    "text": "🔴 Альметьевск (🛩️ Бугульма, UWKB) / 70 км \n🔴 Новошешминск (🛩️ Казань, UWKD ; 🛩️ Бегишево, UWKE ; 🛩️ Бугульма, UWKB) / 150 км\n🔴 Казань (🛩️ Казань, UWKD) / 100 км\n🔴 Елабуга (🛩️ Нижнекамск - Бегишево, UWKE) / 50 км\n🔴 Вятские Поляны (🛩️ Казань, UWKD ; 🛩️ Нижнекамск - Бегишево, UWKE) / 150 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4952",
+    "events": [
+      {
+        "id": "e8329bbb08b60a24",
+        "action": "ADD",
+        "name": "Альметьевск (🛩️ Бугульма",
+        "icao": "UWKB",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-10-22T22:29:40+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4952",
+        "text": "🔴 Альметьевск (🛩️ Бугульма, UWKB) / 70 км "
+      },
+      {
+        "id": "bb850212edaf6316",
+        "action": "ADD",
+        "name": "Новошешминск (🛩️ Казань",
+        "icao": "UWKD",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 150.0,
+        "messageTimestamp": "2026-10-22T22:29:40+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4952",
+        "text": "🔴 Новошешминск (🛩️ Казань, UWKD ; 🛩️ Бегишево, UWKE ; 🛩️ Бугульма, UWKB) / 150 км"
+      },
+      {
+        "id": "a40423251508d882",
+        "action": "ADD",
+        "name": "Казань (🛩️ Казань",
+        "icao": "UWKD",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 100.0,
+        "messageTimestamp": "2026-10-22T22:29:40+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4952",
+        "text": "🔴 Казань (🛩️ Казань, UWKD) / 100 км"
+      },
+      {
+        "id": "9b35640a51d925d3",
+        "action": "ADD",
+        "name": "Бегишево",
+        "icao": "UWKE",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 50.0,
+        "messageTimestamp": "2026-10-22T22:29:40+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4952",
+        "text": "🔴 Елабуга (🛩️ Нижнекамск - Бегишево, UWKE) / 50 км"
+      },
+      {
+        "id": "e73f96d6664f3e7e",
+        "action": "ADD",
+        "name": "Вятские Поляны (🛩️ Казань",
+        "icao": "UWKD",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 150.0,
+        "messageTimestamp": "2026-10-22T22:29:40+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4952",
+        "text": "🔴 Вятские Поляны (🛩️ Казань, UWKD ; 🛩️ Нижнекамск - Бегишево, UWKE) / 150 км"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4953,
+    "timestamp": "2026-10-22T22:39:33+00:00",
+    "text": "🟡🛩️ Домодедово, UUDD\n🔴 Шатура / 30 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4953",
+    "events": [
+      {
+        "id": "4f971f08831dcacc",
+        "action": "ADD",
+        "name": "Домодедово",
+        "icao": "UUDD",
+        "kind": "airport",
+        "type": "partial",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-22T22:39:33+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4953",
+        "text": "🟡🛩️ Домодедово, UUDD"
+      },
+      {
+        "id": "2dfff8bd7765eebd",
+        "action": "ADD",
+        "name": "Шатура",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 30.0,
+        "messageTimestamp": "2026-10-22T22:39:33+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4953",
+        "text": "🔴 Шатура / 30 км"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4954,
+    "timestamp": "2026-10-22T22:44:00+00:00",
+    "text": "🔴 а/д Саваслейка / 50 км\n🔴 Дзержинск / 20 км\n🔴 Кстово / 20 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4954",
+    "events": [
+      {
+        "id": "52fb86ed0ecc3a4d",
+        "action": "ADD",
+        "name": "Саваслейка",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 50.0,
+        "messageTimestamp": "2026-10-22T22:44:00+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4954",
+        "text": "🔴 а/д Саваслейка / 50 км"
+      },
+      {
+        "id": "43647a5648a1f6ed",
+        "action": "ADD",
+        "name": "Дзержинск",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 20.0,
+        "messageTimestamp": "2026-10-22T22:44:00+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4954",
+        "text": "🔴 Дзержинск / 20 км"
+      },
+      {
+        "id": "6afefe75428b6c47",
+        "action": "ADD",
+        "name": "Кстово",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 20.0,
+        "messageTimestamp": "2026-10-22T22:44:00+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4954",
+        "text": "🔴 Кстово / 20 км"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4955,
+    "timestamp": "2026-10-22T23:04:41+00:00",
+    "text": "🔴 Студенка (⛔ Йошкар-Ола, UWKJ ; 🛩️ Чебоксары, UWKS ; 🛩️ Казань, UWKD) / 150 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4955",
+    "events": [
+      {
+        "id": "9e4e0519323c78f2",
+        "action": "ADD",
+        "name": "Ола",
+        "icao": "UWKJ",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 150.0,
+        "messageTimestamp": "2026-10-22T23:04:41+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4955",
+        "text": "🔴 Студенка (⛔ Йошкар-Ола, UWKJ ; 🛩️ Чебоксары, UWKS ; 🛩️ Казань, UWKD) / 150 км"
       }
     ]
   }
