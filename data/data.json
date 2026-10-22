@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-10-22T06:37:46.988393+00:00",
+  "updatedAt": "2026-10-22T12:28:47.458778+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
-      "id": "bff6d13ab9e4de7e",
+      "id": "a16199e8e0e4b451",
       "action": "ADD",
       "name": "Грабцево",
       "icao": "UUBC",
       "kind": "airport",
       "type": "full",
-      "radiusKm": 70.0,
-      "messageTimestamp": "2026-10-21T21:23:29+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4927",
-      "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-22T10:11:09+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4938",
+      "text": "🔴🛩️ Калуга - Грабцево, UUBC",
       "lat": 54.5488708,
       "lon": 36.3697725
     },
@@ -197,20 +197,6 @@
       "text": "🔴🛩️ Сочи, URSS",
       "lat": 43.4439715,
       "lon": 39.9400928
-    },
-    {
-      "id": "21f6f28d97285ef3",
-      "action": "ADD",
-      "name": "Пулково",
-      "icao": "ULLI",
-      "kind": "airport",
-      "type": "partial",
-      "radiusKm": null,
-      "messageTimestamp": "2026-10-21T07:05:29+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4917",
-      "text": "🟡🛩️ Санкт-Петербург - Пулково, ULLI",
-      "lat": 59.8016986,
-      "lon": 30.2676011
     },
     {
       "id": "e9fa78486c09caec",
