@@ -14108,5 +14108,405 @@
         "sourceUrl": "https://t.me/PlanKoverTDay/4939"
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4940,
+    "timestamp": "2026-10-22T18:02:12+00:00",
+    "text": "🟡🛩️ Внуково, UUWW",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4940",
+    "events": [
+      {
+        "id": "2339c537bf560d9d",
+        "action": "ADD",
+        "name": "Внуково",
+        "icao": "UUWW",
+        "kind": "airport",
+        "type": "partial",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-22T18:02:12+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4940",
+        "text": "🟡🛩️ Внуково, UUWW"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4940,
+    "timestamp": "2026-10-22T18:02:12+00:00",
+    "text": "🟡🛩️ Внуково, UUWW / 100 км (азимуты 330-150)\n🔴 а/д Северный, Смоленск / 70 км\n🔴 а/д Двоевка, Вязьма / 70 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4940",
+    "events": [
+      {
+        "id": "d45b24cb30e77cca",
+        "action": "ADD",
+        "name": "Внуково",
+        "icao": "UUWW",
+        "kind": "airport",
+        "type": "partial",
+        "radiusKm": 100.0,
+        "messageTimestamp": "2026-10-22T18:02:12+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4940",
+        "text": "🟡🛩️ Внуково, UUWW / 100 км (азимуты 330-150)",
+        "sector": {
+          "radiusKm": 100.0,
+          "startAzimuth": 330,
+          "endAzimuth": 150
+        }
+      },
+      {
+        "id": "d822fce2a011f041",
+        "action": "ADD",
+        "name": "Северный, Смоленск",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-10-22T18:02:12+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4940",
+        "text": "🔴 а/д Северный, Смоленск / 70 км"
+      },
+      {
+        "id": "c7f401033c913ca9",
+        "action": "ADD",
+        "name": "Двоевка, Вязьма",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-10-22T18:02:12+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4940",
+        "text": "🔴 а/д Двоевка, Вязьма / 70 км"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4940,
+    "timestamp": "2026-10-22T18:02:12+00:00",
+    "text": "🟡🛩️ Внуково, UUWW / 100 км (азимуты 330-150)\n🔴 а/д Северный, Смоленск / 70 км\n🔴 а/д Двоевка, Вязьма / 70 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4940",
+    "events": [
+      {
+        "id": "d45b24cb30e77cca",
+        "action": "ADD",
+        "name": "Внуково",
+        "icao": "UUWW",
+        "kind": "airport",
+        "type": "partial",
+        "radiusKm": 100.0,
+        "messageTimestamp": "2026-10-22T18:02:12+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4940",
+        "text": "🟡🛩️ Внуково, UUWW / 100 км (азимуты 330-150)",
+        "sector": {
+          "radiusKm": 100.0,
+          "startAzimuth": 330,
+          "endAzimuth": 150
+        }
+      },
+      {
+        "id": "d822fce2a011f041",
+        "action": "ADD",
+        "name": "Северный, Смоленск",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-10-22T18:02:12+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4940",
+        "text": "🔴 а/д Северный, Смоленск / 70 км"
+      },
+      {
+        "id": "c7f401033c913ca9",
+        "action": "ADD",
+        "name": "Двоевка, Вязьма",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-10-22T18:02:12+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4940",
+        "text": "🔴 а/д Двоевка, Вязьма / 70 км"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4941,
+    "timestamp": "2026-10-22T18:13:55+00:00",
+    "text": "🔴🛩️ Калуга - Грабцево, UUBC",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4941",
+    "events": [
+      {
+        "id": "9d7df043bfc92f7d",
+        "action": "ADD",
+        "name": "Грабцево",
+        "icao": "UUBC",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-22T18:13:55+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4941",
+        "text": "🔴🛩️ Калуга - Грабцево, UUBC"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4941,
+    "timestamp": "2026-10-22T18:13:55+00:00",
+    "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км\n🔴 а/д Клоково, Тула / 70 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4941",
+    "events": [
+      {
+        "id": "cbb6b14ce366dbe3",
+        "action": "ADD",
+        "name": "Грабцево",
+        "icao": "UUBC",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-10-22T18:13:55+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4941",
+        "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км"
+      },
+      {
+        "id": "5e1b0055d4d337a3",
+        "action": "ADD",
+        "name": "Клоково, Тула",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-10-22T18:13:55+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4941",
+        "text": "🔴 а/д Клоково, Тула / 70 км"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4942,
+    "timestamp": "2026-10-22T18:25:27+00:00",
+    "text": "🔴⠀Аэропорт ГЕЛЕНДЖИК\n\n✈️⠀ВВЕДЕНЫ дополнительные* временные ограничения на прием и выпуск воздушных судов.\n\n✈️⠀Ограничения необходимы для обеспечения безопасности полетов.\n\n*Согласно действующему NOTAM, аэропорт Геленджик принимает регулярные рейсы с 8:30 до 20:00.\n\n✈ - - | @PlanKoverTDay",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4942",
+    "events": [
+      {
+        "id": "0ba18832c4cf9144",
+        "action": "ADD",
+        "name": "⠀Аэропорт ГЕЛЕНДЖИК",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-22T18:25:27+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4942",
+        "text": "🔴⠀Аэропорт ГЕЛЕНДЖИК"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4942,
+    "timestamp": "2026-10-22T18:25:27+00:00",
+    "text": "🔴🛩️ Геленджик, URKG",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4942",
+    "events": [
+      {
+        "id": "4d39d8f623b1cc05",
+        "action": "ADD",
+        "name": "Геленджик",
+        "icao": "URKG",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-22T18:25:27+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4942",
+        "text": "🔴🛩️ Геленджик, URKG"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4943,
+    "timestamp": "2026-10-22T18:26:23+00:00",
+    "text": "🔴 Новороссийск (🛩️ Геленджик, URKG) / 30 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4943",
+    "events": [
+      {
+        "id": "fc77691633cdfa7b",
+        "action": "ADD",
+        "name": "Новороссийск (🛩️ Геленджик",
+        "icao": "URKG",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 30.0,
+        "messageTimestamp": "2026-10-22T18:26:23+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4943",
+        "text": "🔴 Новороссийск (🛩️ Геленджик, URKG) / 30 км"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4944,
+    "timestamp": "2026-10-22T19:00:15+00:00",
+    "text": "🔴🛩️ Пенза, UWPP\n🔴🛩️ Саратов - Гагарин, UWSG",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4944",
+    "events": [
+      {
+        "id": "317de2a6d47c37f5",
+        "action": "ADD",
+        "name": "Пенза",
+        "icao": "UWPP",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-22T19:00:15+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4944",
+        "text": "🔴🛩️ Пенза, UWPP"
+      },
+      {
+        "id": "2da3c9372ab6ac37",
+        "action": "ADD",
+        "name": "Гагарин",
+        "icao": "UWSG",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-22T19:00:15+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4944",
+        "text": "🔴🛩️ Саратов - Гагарин, UWSG"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4944,
+    "timestamp": "2026-10-22T19:00:15+00:00",
+    "text": "🔴 Новоселовка (🛩️ Пенза, UWPP; 🛩️ Саратов - Гагарин, UWSG) / 150 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4944",
+    "events": [
+      {
+        "id": "56fdd958e7d53dd9",
+        "action": "ADD",
+        "name": "Новоселовка (🛩️ Пенза",
+        "icao": "UWPP",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 150.0,
+        "messageTimestamp": "2026-10-22T19:00:15+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4944",
+        "text": "🔴 Новоселовка (🛩️ Пенза, UWPP; 🛩️ Саратов - Гагарин, UWSG) / 150 км"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4945,
+    "timestamp": "2026-10-22T20:05:17+00:00",
+    "text": "🔴 Пенза (🛩️ Пенза, UWPP) / 50 км\n🔴 Сердобск / 50 км\n\n🔴 Валдай / 70 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4945",
+    "events": [
+      {
+        "id": "e08e827e29f0d89b",
+        "action": "ADD",
+        "name": "Пенза (🛩️ Пенза",
+        "icao": "UWPP",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 50.0,
+        "messageTimestamp": "2026-10-22T20:05:17+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4945",
+        "text": "🔴 Пенза (🛩️ Пенза, UWPP) / 50 км"
+      },
+      {
+        "id": "5ae7081726acaf8c",
+        "action": "ADD",
+        "name": "Сердобск",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 50.0,
+        "messageTimestamp": "2026-10-22T20:05:17+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4945",
+        "text": "🔴 Сердобск / 50 км"
+      },
+      {
+        "id": "505c6823b1a41596",
+        "action": "ADD",
+        "name": "Валдай",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-10-22T20:05:17+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4945",
+        "text": "🔴 Валдай / 70 км"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4946,
+    "timestamp": "2026-10-22T20:14:35+00:00",
+    "text": "🔴🛩️ Саранск, UWPS",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4946",
+    "events": [
+      {
+        "id": "013c9f6bebeb2f8f",
+        "action": "ADD",
+        "name": "Саранск",
+        "icao": "UWPS",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-22T20:14:35+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4946",
+        "text": "🔴🛩️ Саранск, UWPS"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4947,
+    "timestamp": "2026-10-22T20:30:29+00:00",
+    "text": "🔴⠀Аэропорт СОЧИ\n\n✈️⠀ВВЕДЕНЫ временные ограничения на прием и выпуск воздушных судов.\n\n✈️⠀Ограничения необходимы для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4947",
+    "events": [
+      {
+        "id": "d9ff6cd6d5c21547",
+        "action": "ADD",
+        "name": "⠀Аэропорт СОЧИ",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-22T20:30:29+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4947",
+        "text": "🔴⠀Аэропорт СОЧИ"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4947,
+    "timestamp": "2026-10-22T20:30:29+00:00",
+    "text": "🔴🛩️ Сочи, URSS",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4947",
+    "events": [
+      {
+        "id": "5c7cd7b70b9d9a5d",
+        "action": "ADD",
+        "name": "Сочи",
+        "icao": "URSS",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-22T20:30:29+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4947",
+        "text": "🔴🛩️ Сочи, URSS"
+      }
+    ]
   }
 ]
