@@ -13938,5 +13938,68 @@
         "sourceUrl": "https://t.me/PlanKoverTDay/4930"
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4931,
+    "timestamp": "2026-10-21T23:22:56+00:00",
+    "text": "🟡🛩️ Москва - Шереметьево, UUEE",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4931",
+    "events": [
+      {
+        "id": "5e49f53cab7a453b",
+        "action": "ADD",
+        "name": "Шереметьево",
+        "icao": "UUEE",
+        "kind": "airport",
+        "type": "partial",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-21T23:22:56+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4931",
+        "text": "🟡🛩️ Москва - Шереметьево, UUEE"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4932,
+    "timestamp": "2026-10-21T23:44:42+00:00",
+    "text": "🔴🛩️ Москва - Шереметьево, UUEE",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4932",
+    "events": [
+      {
+        "id": "2362ed1fde45914a",
+        "action": "ADD",
+        "name": "Шереметьево",
+        "icao": "UUEE",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-21T23:44:42+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4932",
+        "text": "🔴🛩️ Москва - Шереметьево, UUEE"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4933,
+    "timestamp": "2026-10-22T00:18:02+00:00",
+    "text": "🔴🛩️ Ярославль - Туношна, UUBW",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4933",
+    "events": [
+      {
+        "id": "c3a9cb9cb5ec4dc1",
+        "action": "ADD",
+        "name": "Туношна",
+        "icao": "UUBW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-22T00:18:02+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4933",
+        "text": "🔴🛩️ Ярославль - Туношна, UUBW"
+      }
+    ]
   }
 ]

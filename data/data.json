@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T23:20:25.765459+00:00",
+  "updatedAt": "2026-10-22T01:42:10.762529+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -143,32 +143,18 @@
       "lon": 39.6308884
     },
     {
-      "id": "cf5e6eb47fcfbaa4",
+      "id": "2362ed1fde45914a",
       "action": "ADD",
       "name": "Шереметьево",
       "icao": "UUEE",
       "kind": "airport",
-      "type": "partial",
-      "radiusKm": null,
-      "messageTimestamp": "2026-10-21T02:16:50+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4909",
-      "text": "🟡🛩️ Москва - Шереметьево, UUEE",
-      "lat": 55.9760876,
-      "lon": 37.4238008
-    },
-    {
-      "id": "13937f49227aace9",
-      "action": "ADD",
-      "name": "Туношна",
-      "icao": "UUDL",
-      "kind": "airport",
       "type": "full",
       "radiusKm": null,
-      "messageTimestamp": "2026-10-20T23:56:56+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4908",
-      "text": "🔴🛩️ Ярославль - Туношна, UUDL",
-      "lat": 57.5604597,
-      "lon": 40.1579512
+      "messageTimestamp": "2026-10-21T23:44:42+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4932",
+      "text": "🔴🛩️ Москва - Шереметьево, UUEE",
+      "lat": 55.9760876,
+      "lon": 37.4238008
     },
     {
       "id": "2142eed384c4cb83",
@@ -213,20 +199,6 @@
       "lon": 39.9400928
     },
     {
-      "id": "ec369299bbe40eda",
-      "action": "ADD",
-      "name": "Сокеркино",
-      "icao": "UUWE",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-10-20T23:56:56+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4908",
-      "text": "🔴🛩️ Кострома - Сокеркино, UUWE",
-      "lat": 57.7997797,
-      "lon": 41.0198778
-    },
-    {
       "id": "21f6f28d97285ef3",
       "action": "ADD",
       "name": "Пулково",
@@ -269,16 +241,16 @@
       "lon": 30.527922
     },
     {
-      "id": "b7faace2a15b568f",
+      "id": "c3a9cb9cb5ec4dc1",
       "action": "ADD",
-      "name": "Раменское",
+      "name": "Туношна",
       "icao": "UUBW",
       "kind": "airport",
       "type": "full",
       "radiusKm": null,
-      "messageTimestamp": "2026-10-21T21:38:36+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4929",
-      "text": "🔴🛩️ Жуковский - Раменское, UUBW",
+      "messageTimestamp": "2026-10-22T00:18:02+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4933",
+      "text": "🔴🛩️ Ярославль - Туношна, UUBW",
       "lat": 55.5496554,
       "lon": 38.1547897
     }
