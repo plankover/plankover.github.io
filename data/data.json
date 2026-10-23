@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T18:22:26.523926+00:00",
+  "updatedAt": "2026-10-23T21:34:45.256277+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -16,29 +16,29 @@
       "snapshot": true
     },
     {
-      "id": "4d7b59fa4405deb2",
+      "id": "412e287f1b180bc6",
       "action": "ADD",
       "name": "Внуково",
       "icao": "UUWW",
       "kind": "airport",
       "type": "partial",
       "radiusKm": null,
-      "messageTimestamp": "2026-10-23T18:12:13+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5000",
+      "messageTimestamp": "2026-10-23T20:05:06+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5004",
       "text": "🟡🛩️ Москва - Внуково, UUWW",
       "lat": 55.5995278,
       "lon": 37.2735752
     },
     {
-      "id": "e4c005559998793d",
+      "id": "1612f30eba10f126",
       "action": "ADD",
       "name": "Домодедово",
       "icao": "UUDD",
       "kind": "airport",
       "type": "partial",
       "radiusKm": null,
-      "messageTimestamp": "2026-10-23T18:12:13+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5000",
+      "messageTimestamp": "2026-10-23T20:05:06+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5004",
       "text": "🟡🛩️ Москва - Домодедово, UUDD",
       "lat": 55.4087122,
       "lon": 37.9094307
@@ -58,18 +58,46 @@
       "lon": 38.1547897
     },
     {
-      "id": "f1cb1134b7a51d1f",
+      "id": "42543998903d2281",
       "action": "ADD",
-      "name": "Геленджик",
+      "name": "Новороссийск (🛩️ Геленджик",
       "icao": "URKG",
       "kind": "airport",
       "type": "full",
-      "radiusKm": null,
+      "radiusKm": 30.0,
       "messageTimestamp": "2026-10-23T18:17:23+00:00",
       "sourceUrl": "https://t.me/PlanKoverTDay/5001",
-      "text": "🔴🛩️ Геленджик, URKG",
+      "text": "🔴 Новороссийск (🛩️ Геленджик, URKG) / 30 км",
       "lat": 44.5286101,
       "lon": 38.4217926
+    },
+    {
+      "id": "8d038d0da6c181e8",
+      "action": "ADD",
+      "name": "Сочи",
+      "icao": "URSS",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-23T19:53:35+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5003",
+      "text": "🔴🛩️ Сочи, URSS",
+      "lat": 43.4439715,
+      "lon": 39.9400928
+    },
+    {
+      "id": "90c0589025d58b7d",
+      "action": "ADD",
+      "name": "Пашковский",
+      "icao": "URKK",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-23T21:10:41+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5005",
+      "text": "🔴🛩️ Краснодар - Пашковский, URKK",
+      "lat": 45.033714,
+      "lon": 39.1814429
     }
   ]
 }
