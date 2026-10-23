@@ -15187,5 +15187,158 @@
         "sourceUrl": "https://t.me/PlanKoverTDay/4964"
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4965,
+    "timestamp": "2026-10-23T04:08:30+00:00",
+    "text": "🟢🛩️ Саранск, UWPS",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4965",
+    "events": [
+      {
+        "id": "69d9540987cce3d3",
+        "action": "UNKNOWN",
+        "messageTimestamp": "2026-10-23T04:08:30+00:00",
+        "text": "🟢🛩️ Саранск, UWPS",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4965"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4966,
+    "timestamp": "2026-10-23T04:17:33+00:00",
+    "text": "🟢🛩️ Иваново - Южный, UUBI\n🟢🛩️ Калуга - Грабцево, UUBC",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4966",
+    "events": [
+      {
+        "id": "52b38a79714d374f",
+        "action": "UNKNOWN",
+        "messageTimestamp": "2026-10-23T04:17:33+00:00",
+        "text": "🟢🛩️ Иваново - Южный, UUBI\n🟢🛩️ Калуга - Грабцево, UUBC",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4966"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4967,
+    "timestamp": "2026-10-23T05:12:41+00:00",
+    "text": "🟢🛩️ Чебоксары, UWKS",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4967",
+    "events": [
+      {
+        "id": "e6d459c0bfc4b791",
+        "action": "UNKNOWN",
+        "messageTimestamp": "2026-10-23T05:12:41+00:00",
+        "text": "🟢🛩️ Чебоксары, UWKS",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4967"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4968,
+    "timestamp": "2026-10-23T05:47:12+00:00",
+    "text": "🟢🛩️ Бугульма, UWKB\n🟢🛩️ Казань, UWKD\n🟢🛩️ Нижнекамск - Бегишево, UWKE\n🟢🛩️ Ульяновск - Баратаевка, UWLL",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4968",
+    "events": [
+      {
+        "id": "1aba7d7cba6a3c9c",
+        "action": "UNKNOWN",
+        "messageTimestamp": "2026-10-23T05:47:12+00:00",
+        "text": "🟢🛩️ Бугульма, UWKB\n🟢🛩️ Казань, UWKD\n🟢🛩️ Нижнекамск - Бегишево, UWKE\n🟢🛩️ Ульяновск - Баратаевка, UWLL",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4968"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4969,
+    "timestamp": "2026-10-23T08:02:14+00:00",
+    "text": "🔴🛩️ Пенза, UWPP\n🔴🛩️ Саранск, UWPS\n🔴🛩️ Саратов - Гагарин, UWSG\n🔴🛩️ Ульяновск - Баратаевка, UWLL",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4969",
+    "events": [
+      {
+        "id": "c9ed80c064e34aa6",
+        "action": "ADD",
+        "name": "Пенза",
+        "icao": "UWPP",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-23T08:02:14+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4969",
+        "text": "🔴🛩️ Пенза, UWPP"
+      },
+      {
+        "id": "f7f17040c65f2ce9",
+        "action": "ADD",
+        "name": "Саранск",
+        "icao": "UWPS",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-23T08:02:14+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4969",
+        "text": "🔴🛩️ Саранск, UWPS"
+      },
+      {
+        "id": "e5ba17aa8fc8bf41",
+        "action": "ADD",
+        "name": "Гагарин",
+        "icao": "UWSG",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-23T08:02:14+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4969",
+        "text": "🔴🛩️ Саратов - Гагарин, UWSG"
+      },
+      {
+        "id": "18abf3e3c6e0cca0",
+        "action": "ADD",
+        "name": "Баратаевка",
+        "icao": "UWLL",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-23T08:02:14+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4969",
+        "text": "🔴🛩️ Ульяновск - Баратаевка, UWLL"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4970,
+    "timestamp": "2026-10-23T08:03:00+00:00",
+    "text": "🟢🛩️ Ижевск, USII\n🟢🛩️ Киров - Победилово, USKK",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4970",
+    "events": [
+      {
+        "id": "3ae0779f144d8d7c",
+        "action": "UNKNOWN",
+        "messageTimestamp": "2026-10-23T08:03:00+00:00",
+        "text": "🟢🛩️ Ижевск, USII\n🟢🛩️ Киров - Победилово, USKK",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4970"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4971,
+    "timestamp": "2026-10-23T08:33:39+00:00",
+    "text": "🟢🛩️ Нижний Новгород - Чкалов, UWGG",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4971",
+    "events": [
+      {
+        "id": "3aac551fbac21111",
+        "action": "UNKNOWN",
+        "messageTimestamp": "2026-10-23T08:33:39+00:00",
+        "text": "🟢🛩️ Нижний Новгород - Чкалов, UWGG",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4971"
+      }
+    ]
   }
 ]

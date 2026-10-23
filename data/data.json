@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T03:44:12.289423+00:00",
+  "updatedAt": "2026-10-23T08:51:40.732795+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -162,18 +162,32 @@
       "lon": 40.9389727
     },
     {
-      "id": "2da3c9372ab6ac37",
+      "id": "e5ba17aa8fc8bf41",
       "action": "ADD",
       "name": "Гагарин",
       "icao": "UWSG",
       "kind": "airport",
       "type": "full",
       "radiusKm": null,
-      "messageTimestamp": "2026-10-22T19:00:15+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4944",
+      "messageTimestamp": "2026-10-23T08:02:14+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4969",
       "text": "🔴🛩️ Саратов - Гагарин, UWSG",
       "lat": 51.7139093,
       "lon": 46.1672319
+    },
+    {
+      "id": "18abf3e3c6e0cca0",
+      "action": "ADD",
+      "name": "Баратаевка",
+      "icao": "UWLL",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-23T08:02:14+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4969",
+      "text": "🔴🛩️ Ульяновск - Баратаевка, UWLL",
+      "lat": 54.2690213,
+      "lon": 48.2248287
     },
     {
       "id": "52fb86ed0ecc3a4d",
@@ -274,16 +288,16 @@
       "lon": 43.7840064
     },
     {
-      "id": "e08e827e29f0d89b",
+      "id": "c9ed80c064e34aa6",
       "action": "ADD",
-      "name": "Пенза (🛩️ Пенза",
+      "name": "Пенза",
       "icao": "UWPP",
       "kind": "airport",
       "type": "full",
-      "radiusKm": 50.0,
-      "messageTimestamp": "2026-10-22T20:05:17+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4945",
-      "text": "🔴 Пенза (🛩️ Пенза, UWPP) / 50 км",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-23T08:02:14+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4969",
+      "text": "🔴🛩️ Пенза, UWPP",
       "lat": 53.110734,
       "lon": 45.023455
     },
@@ -302,16 +316,16 @@
       "lon": 44.2029162
     },
     {
-      "id": "bc8cab45c70a619d",
+      "id": "f7f17040c65f2ce9",
       "action": "ADD",
-      "name": "Ильмино (🛩️ Саранск",
+      "name": "Саранск",
       "icao": "UWPS",
       "kind": "airport",
       "type": "full",
-      "radiusKm": 150.0,
-      "messageTimestamp": "2026-10-22T20:14:35+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4946",
-      "text": "🔴 Ильмино (🛩️ Саранск, UWPS; 🛩️ Пенза, UWPP) / 150 км",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-23T08:02:14+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4969",
+      "text": "🔴🛩️ Саранск, UWPS",
       "lat": 54.1274695,
       "lon": 45.2152086
     },
