@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T23:54:14.490762+00:00",
+  "updatedAt": "2026-10-23T03:44:12.289423+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -134,6 +134,34 @@
       "lon": 33.2537994
     },
     {
+      "id": "90a725e3273f83d1",
+      "action": "ADD",
+      "name": "Шереметьево",
+      "icao": "UUEE",
+      "kind": "airport",
+      "type": "partial",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-23T01:54:19+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4961",
+      "text": "🟡🛩️ Москва - Шереметьево, UUEE",
+      "lat": 55.9760876,
+      "lon": 37.4238008
+    },
+    {
+      "id": "f2ca0fa1a1d003fa",
+      "action": "ADD",
+      "name": "Южный",
+      "icao": "UUBI",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-23T00:24:31+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4957",
+      "text": "🔴🛩️ Иваново - Южный, UUBI",
+      "lat": 56.941138,
+      "lon": 40.9389727
+    },
+    {
       "id": "2da3c9372ab6ac37",
       "action": "ADD",
       "name": "Гагарин",
@@ -204,6 +232,20 @@
       "lon": 49.2855138
     },
     {
+      "id": "e1e923b53e36eed5",
+      "action": "ADD",
+      "name": "Большое Савино",
+      "icao": "USPP",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-23T01:06:23+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4960",
+      "text": "🔴🛩️ Пермь - Большое Савино, USPP",
+      "lat": 57.9153712,
+      "lon": 56.0283146
+    },
+    {
       "id": "1f57416b129ed4d1",
       "action": "ADD",
       "name": "Сочи",
@@ -218,18 +260,18 @@
       "lon": 39.9400928
     },
     {
-      "id": "c3a9cb9cb5ec4dc1",
+      "id": "f7e7fba0680a78df",
       "action": "ADD",
-      "name": "Туношна",
-      "icao": "UUBW",
+      "name": "Чкалов",
+      "icao": "UWGG",
       "kind": "airport",
       "type": "full",
       "radiusKm": null,
-      "messageTimestamp": "2026-10-22T00:18:02+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/4933",
-      "text": "🔴🛩️ Ярославль - Туношна, UUBW",
-      "lat": 55.5496554,
-      "lon": 38.1547897
+      "messageTimestamp": "2026-10-23T00:44:21+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4958",
+      "text": "🔴🛩️ Нижний Новгород - Чкалов, UWGG",
+      "lat": 56.2295198,
+      "lon": 43.7840064
     },
     {
       "id": "e08e827e29f0d89b",
@@ -394,6 +436,20 @@
       "text": "🔴 Студенка (⛔ Йошкар-Ола, UWKJ ; 🛩️ Чебоксары, UWKS ; 🛩️ Казань, UWKD) / 150 км",
       "lat": 56.7061048,
       "lon": 47.8973703
+    },
+    {
+      "id": "bcf4932bef3c4740",
+      "action": "ADD",
+      "name": "Ижевск",
+      "icao": "USII",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-23T00:00:49+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/4956",
+      "text": "🔴🛩️ Ижевск, USII",
+      "lat": 56.8361905,
+      "lon": 53.4631283
     }
   ]
 }
