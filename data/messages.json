@@ -15340,5 +15340,561 @@
         "sourceUrl": "https://t.me/PlanKoverTDay/4971"
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4972,
+    "timestamp": "2026-10-23T09:05:35+00:00",
+    "text": "🟢🛩️ Пенза, UWPP\n🟢🛩️ Саранск, UWPS\n🟢🛩️ Саратов - Гагарин, UWSG\n🟢🛩️ Ульяновск - Баратаевка, UWLW",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4972",
+    "events": [
+      {
+        "id": "edd05170e969729e",
+        "action": "UNKNOWN",
+        "messageTimestamp": "2026-10-23T09:05:35+00:00",
+        "text": "🟢🛩️ Пенза, UWPP\n🟢🛩️ Саранск, UWPS\n🟢🛩️ Саратов - Гагарин, UWSG\n🟢🛩️ Ульяновск - Баратаевка, UWLW",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4972"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4973,
+    "timestamp": "2026-10-23T09:55:42+00:00",
+    "text": "🟡🛩️ Москва - Внуково, UUWW",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4973",
+    "events": [
+      {
+        "id": "ee6c9c46ef6eb3cf",
+        "action": "ADD",
+        "name": "Внуково",
+        "icao": "UUWW",
+        "kind": "airport",
+        "type": "partial",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-23T09:55:42+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4973",
+        "text": "🟡🛩️ Москва - Внуково, UUWW"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4974,
+    "timestamp": "2026-10-23T09:57:01+00:00",
+    "text": "🔴🛩️ Калуга - Грабцево, UUBC",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4974",
+    "events": [
+      {
+        "id": "015edd08e0e47eff",
+        "action": "ADD",
+        "name": "Грабцево",
+        "icao": "UUBC",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-23T09:57:01+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4974",
+        "text": "🔴🛩️ Калуга - Грабцево, UUBC"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4975,
+    "timestamp": "2026-10-23T09:57:22+00:00",
+    "text": "🟢🛩️ Пермь - Большое Савино, USPP",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4975",
+    "events": [
+      {
+        "id": "c1391bbb8ce7178e",
+        "action": "UNKNOWN",
+        "messageTimestamp": "2026-10-23T09:57:22+00:00",
+        "text": "🟢🛩️ Пермь - Большое Савино, USPP",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4975"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4976,
+    "timestamp": "2026-10-23T10:00:17+00:00",
+    "text": "🟡🛩️ Москва - Домодедово, UUDD",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4976",
+    "events": [
+      {
+        "id": "b85053ab572cf688",
+        "action": "ADD",
+        "name": "Домодедово",
+        "icao": "UUDD",
+        "kind": "airport",
+        "type": "partial",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-23T10:00:17+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4976",
+        "text": "🟡🛩️ Москва - Домодедово, UUDD"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4977,
+    "timestamp": "2026-10-23T11:05:43+00:00",
+    "text": "🔴🛩️ Москва - Внуково, UUWW\n🔴🛩️ Москва - Домодедово, UUDD\n🔴🛩️ Москва - Жуковский, UUBW\n🔴🛩️ Москва - Шереметьево, UUEE",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4977",
+    "events": [
+      {
+        "id": "3f948748b0c8a5d5",
+        "action": "ADD",
+        "name": "Внуково",
+        "icao": "UUWW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-23T11:05:43+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4977",
+        "text": "🔴🛩️ Москва - Внуково, UUWW"
+      },
+      {
+        "id": "2b46571529d9756c",
+        "action": "ADD",
+        "name": "Домодедово",
+        "icao": "UUDD",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-23T11:05:43+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4977",
+        "text": "🔴🛩️ Москва - Домодедово, UUDD"
+      },
+      {
+        "id": "d0190dfc23dd3adc",
+        "action": "ADD",
+        "name": "Жуковский",
+        "icao": "UUBW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-23T11:05:43+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4977",
+        "text": "🔴🛩️ Москва - Жуковский, UUBW"
+      },
+      {
+        "id": "35454a424ca75a7f",
+        "action": "ADD",
+        "name": "Шереметьево",
+        "icao": "UUEE",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-23T11:05:43+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4977",
+        "text": "🔴🛩️ Москва - Шереметьево, UUEE"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4977,
+    "timestamp": "2026-10-23T11:05:43+00:00",
+    "text": "🔴 Москва (🛩️ Внуково, UUWW; 🛩️ Домодедово, UUDD; 🛩️Жуковский, UUBW; 🛩️ Шереметьево, UUEE) / 60 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4977",
+    "events": [
+      {
+        "id": "13acd2bc59def39a",
+        "action": "ADD",
+        "name": "Москва (🛩️ Внуково",
+        "icao": "UUWW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 60.0,
+        "messageTimestamp": "2026-10-23T11:05:43+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4977",
+        "text": "🔴 Москва (🛩️ Внуково, UUWW; 🛩️ Домодедово, UUDD; 🛩️Жуковский, UUBW; 🛩️ Шереметьево, UUEE) / 60 км"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4978,
+    "timestamp": "2026-10-23T12:15:54+00:00",
+    "text": "Внимание!\nВ аэропорту Шереметьево объявлена «Воздушная тревога»!\n\nПассажирам необходимо проследовать в ближайшие безопасные зоны и места укрытия. \n\nПассажиры информируются по громкой связи.\n\n❗️Запрещается:\n• пользоваться лифтами;\n• оставаться на борту воздушных судов в качестве места укрытия;\n• находиться вблизи окон и стеклянных конструкций;\n• осуществлять фото- и видеосъёмку;\n• приближаться к обнаруженным БПЛА или их фрагментам.\n\nСлужбы аэропорта Шереметьево оказывают содействие пассажирам при перемещении в безопасные места и информировании по текущей ситуации.\n\nАэропорт Шереметьево закрыт на прием и выпуск воздушных судов.\n\nКоманда аэропорта Шереметьево в МАКС",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4978",
+    "events": [
+      {
+        "id": "cdb7fdc66fa9e99d",
+        "action": "UNKNOWN",
+        "messageTimestamp": "2026-10-23T12:15:54+00:00",
+        "text": "Внимание!\nВ аэропорту Шереметьево объявлена «Воздушная тревога»!\n\nПассажирам необходимо проследовать в ближайшие безопасные зоны и места укрытия. \n\nПассажиры информируются по громкой связи.\n\n❗️Запрещается:\n• пользоваться лифтами;\n• оставаться на борту воздушных судов в качестве места укрытия;\n• находиться вблизи окон и стеклянных конструкций;\n• осуществлять фото- и видеосъёмку;\n• приближаться к обнаруженным БПЛА или их фрагментам.\n\nСлужбы аэропорта Шереметьево оказывают содействие пассажирам при перемещении в безопасные места и информировании по текущей ситуации.\n\nАэропорт Шереметьево закрыт на прием и выпуск воздушных судов.\n\nКоманда аэропорта Шереметьево в МАКС",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4978"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4979,
+    "timestamp": "2026-10-23T12:15:54+00:00",
+    "text": "",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4979",
+    "events": [
+      {
+        "id": "683f4ae108e1d0d8",
+        "action": "UNKNOWN",
+        "messageTimestamp": "2026-10-23T12:15:54+00:00",
+        "text": "",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4979"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4980,
+    "timestamp": "2026-10-23T12:19:05+00:00",
+    "text": "🔴🛩️ Москва - Внуково, UUWW\n🔴🛩️ Москва - Домодедово, UUDD\n🔴🛩️ Жуковский, UUBW\n🔴🛩️ Москва - Шереметьево, UUEE",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4980",
+    "events": [
+      {
+        "id": "73d4dd443095609a",
+        "action": "ADD",
+        "name": "Внуково",
+        "icao": "UUWW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-23T12:19:05+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4980",
+        "text": "🔴🛩️ Москва - Внуково, UUWW"
+      },
+      {
+        "id": "8910a42c1506982a",
+        "action": "ADD",
+        "name": "Домодедово",
+        "icao": "UUDD",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-23T12:19:05+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4980",
+        "text": "🔴🛩️ Москва - Домодедово, UUDD"
+      },
+      {
+        "id": "2f6c98c44ece7859",
+        "action": "ADD",
+        "name": "Жуковский",
+        "icao": "UUBW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-23T12:19:05+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4980",
+        "text": "🔴🛩️ Жуковский, UUBW"
+      },
+      {
+        "id": "40f3f7e075b39621",
+        "action": "ADD",
+        "name": "Шереметьево",
+        "icao": "UUEE",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-23T12:19:05+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4980",
+        "text": "🔴🛩️ Москва - Шереметьево, UUEE"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4981,
+    "timestamp": "2026-10-23T13:29:56+00:00",
+    "text": "🚨 Причина эвакуации в Шереметьево.\nНад аэропортом работает ПВО. На территории авиагавани лежат обломки сбитых БПЛА",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4981",
+    "events": [
+      {
+        "id": "99008d3c64a9a44f",
+        "action": "UNKNOWN",
+        "messageTimestamp": "2026-10-23T13:29:56+00:00",
+        "text": "🚨 Причина эвакуации в Шереметьево.\nНад аэропортом работает ПВО. На территории авиагавани лежат обломки сбитых БПЛА",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4981"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4982,
+    "timestamp": "2026-10-23T13:29:57+00:00",
+    "text": "",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4982",
+    "events": [
+      {
+        "id": "9965cbddb6bc3a6f",
+        "action": "UNKNOWN",
+        "messageTimestamp": "2026-10-23T13:29:57+00:00",
+        "text": "",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4982"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4983,
+    "timestamp": "2026-10-23T13:43:37+00:00",
+    "text": "🟡🛩️ Москва - Внуково, UUWW\n🟡🛩️ Москва - Домодедово, UUDD",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4983",
+    "events": [
+      {
+        "id": "f90225a43065418c",
+        "action": "ADD",
+        "name": "Внуково",
+        "icao": "UUWW",
+        "kind": "airport",
+        "type": "partial",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-23T13:43:37+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4983",
+        "text": "🟡🛩️ Москва - Внуково, UUWW"
+      },
+      {
+        "id": "1de3b2e4ae230218",
+        "action": "ADD",
+        "name": "Домодедово",
+        "icao": "UUDD",
+        "kind": "airport",
+        "type": "partial",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-23T13:43:37+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4983",
+        "text": "🟡🛩️ Москва - Домодедово, UUDD"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4984,
+    "timestamp": "2026-10-23T13:44:15+00:00",
+    "text": "🟢🛩️ Жуковский - Раменское, UUBW",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4984",
+    "events": [
+      {
+        "id": "85e001178353ddad",
+        "action": "UNKNOWN",
+        "messageTimestamp": "2026-10-23T13:44:15+00:00",
+        "text": "🟢🛩️ Жуковский - Раменское, UUBW",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4984"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4985,
+    "timestamp": "2026-10-23T13:44:35+00:00",
+    "text": "🟢🛩️ Шереметьево, UUEE",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4985",
+    "events": [
+      {
+        "id": "a3805525206b6567",
+        "action": "UNKNOWN",
+        "messageTimestamp": "2026-10-23T13:44:35+00:00",
+        "text": "🟢🛩️ Шереметьево, UUEE",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4985"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4986,
+    "timestamp": "2026-10-23T13:46:25+00:00",
+    "text": "🕒 Актуальные ограничения на 16:45 мск:\n\n🔴🛩️ Калуга - Грабцево, UUBC / 70 км\n🟡🛩️ Внуково, UUWW / 100 км\n🟡🛩️ Домодедово, UUDD / 100 км (южная половина окружности азимуты 270-090)",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4986",
+    "events": [
+      {
+        "id": "55fc424f917742de",
+        "action": "ADD",
+        "name": "Грабцево",
+        "icao": "UUBC",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-10-23T13:46:25+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4986",
+        "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км",
+        "snapshot": true
+      },
+      {
+        "id": "7511113a959059ae",
+        "action": "ADD",
+        "name": "Внуково",
+        "icao": "UUWW",
+        "kind": "airport",
+        "type": "partial",
+        "radiusKm": 100.0,
+        "messageTimestamp": "2026-10-23T13:46:25+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4986",
+        "text": "🟡🛩️ Внуково, UUWW / 100 км",
+        "snapshot": true
+      },
+      {
+        "id": "56ec829d13449cc7",
+        "action": "ADD",
+        "name": "Домодедово",
+        "icao": "UUDD",
+        "kind": "airport",
+        "type": "partial",
+        "radiusKm": 100.0,
+        "messageTimestamp": "2026-10-23T13:46:25+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4986",
+        "text": "🟡🛩️ Домодедово, UUDD / 100 км (южная половина окружности азимуты 270-090)",
+        "sector": {
+          "radiusKm": 100.0,
+          "startAzimuth": 270,
+          "endAzimuth": 90
+        },
+        "snapshot": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4986,
+    "timestamp": "2026-10-23T13:46:25+00:00",
+    "text": "🕒 Актуальные ограничения на 16:45 мск:\n\n🔴🛩️ Калуга - Грабцево, UUBC / 70 км\n🟡🛩️ Внуково, UUWW / 100 км\n🟡🛩️ Домодедово, UUDD / 100 км (южная половина окружности азимуты 090-270)",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4986",
+    "events": [
+      {
+        "id": "1725dbd481c0d98b",
+        "action": "ADD",
+        "name": "Грабцево",
+        "icao": "UUBC",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-10-23T13:46:25+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4986",
+        "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км",
+        "snapshot": true
+      },
+      {
+        "id": "03434bd0a1dcf424",
+        "action": "ADD",
+        "name": "Внуково",
+        "icao": "UUWW",
+        "kind": "airport",
+        "type": "partial",
+        "radiusKm": 100.0,
+        "messageTimestamp": "2026-10-23T13:46:25+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4986",
+        "text": "🟡🛩️ Внуково, UUWW / 100 км",
+        "snapshot": true
+      },
+      {
+        "id": "0237ed83230076e4",
+        "action": "ADD",
+        "name": "Домодедово",
+        "icao": "UUDD",
+        "kind": "airport",
+        "type": "partial",
+        "radiusKm": 100.0,
+        "messageTimestamp": "2026-10-23T13:46:25+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4986",
+        "text": "🟡🛩️ Домодедово, UUDD / 100 км (южная половина окружности азимуты 090-270)",
+        "sector": {
+          "radiusKm": 100.0,
+          "startAzimuth": 90,
+          "endAzimuth": 270
+        },
+        "snapshot": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4986,
+    "timestamp": "2026-10-23T13:46:25+00:00",
+    "text": "🕒 Актуальные ограничения на 16:45 мск:\n\n🔴🛩️ Калуга - Грабцево, UUBC / 70 км\n🟡🛩️ Внуково, UUWW / 100 км (азимуты 150-330) \n🟡🛩️ Домодедово, UUDD / 100 км (южная половина окружности азимуты 090-270)",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4986",
+    "events": [
+      {
+        "id": "320fa25151249a9e",
+        "action": "ADD",
+        "name": "Грабцево",
+        "icao": "UUBC",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-10-23T13:46:25+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4986",
+        "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км",
+        "snapshot": true
+      },
+      {
+        "id": "a4f4aee93662de46",
+        "action": "ADD",
+        "name": "Внуково",
+        "icao": "UUWW",
+        "kind": "airport",
+        "type": "partial",
+        "radiusKm": 100.0,
+        "messageTimestamp": "2026-10-23T13:46:25+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4986",
+        "text": "🟡🛩️ Внуково, UUWW / 100 км (азимуты 150-330) ",
+        "sector": {
+          "radiusKm": 100.0,
+          "startAzimuth": 150,
+          "endAzimuth": 330
+        },
+        "snapshot": true
+      },
+      {
+        "id": "03e2b0dee7941d0e",
+        "action": "ADD",
+        "name": "Домодедово",
+        "icao": "UUDD",
+        "kind": "airport",
+        "type": "partial",
+        "radiusKm": 100.0,
+        "messageTimestamp": "2026-10-23T13:46:25+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4986",
+        "text": "🟡🛩️ Домодедово, UUDD / 100 км (южная половина окружности азимуты 090-270)",
+        "sector": {
+          "radiusKm": 100.0,
+          "startAzimuth": 90,
+          "endAzimuth": 270
+        },
+        "snapshot": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4987,
+    "timestamp": "2026-10-23T13:50:20+00:00",
+    "text": "🟢⠀Аэропорт ШЕРЕМЕТЬЕВО\n\n✈️⠀СНЯТЫ ограничения на прием и выпуск воздушных судов.\n\n✈️⠀Ограничения вводили для обеспечения безопасности полетов.\n\n✈ - - | @PlanKoverTDay",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4987",
+    "events": [
+      {
+        "id": "3cd9ddad70f3fbed",
+        "action": "REMOVE",
+        "messageTimestamp": "2026-10-23T13:50:20+00:00",
+        "text": "🟢⠀Аэропорт ШЕРЕМЕТЬЕВО\n\n✈️⠀СНЯТЫ ограничения на прием и выпуск воздушных судов.\n\n✈️⠀Ограничения вводили для обеспечения безопасности полетов.\n\n✈ - - | @PlanKoverTDay",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4987",
+        "unresolved": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 4988,
+    "timestamp": "2026-10-23T13:50:42+00:00",
+    "text": "🟢 В Шереметьево отмена режима \"Воздушная тревога\"",
+    "sourceUrl": "https://t.me/PlanKoverTDay/4988",
+    "events": [
+      {
+        "id": "fd0fafeb4f1ea8fc",
+        "action": "UNKNOWN",
+        "messageTimestamp": "2026-10-23T13:50:42+00:00",
+        "text": "🟢 В Шереметьево отмена режима \"Воздушная тревога\"",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4988"
+      }
+    ]
   }
 ]
