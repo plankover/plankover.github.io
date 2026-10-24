@@ -549,7 +549,24 @@
           "radiusKm": 150.0,
           "startAzimuth": 0,
           "endAzimuth": 150
-        }
+        },
+        "affectedAirports": [
+          {
+            "name": "Шереметьево",
+            "icao": "UUEE",
+            "kind": "airport"
+          },
+          {
+            "name": "Домодедово",
+            "icao": "UUDD",
+            "kind": "airport"
+          },
+          {
+            "name": "Внуково",
+            "icao": "UUWW",
+            "kind": "airport"
+          }
+        ]
       }
     ]
   },
@@ -1218,7 +1235,14 @@
         "radiusKm": 50.0,
         "messageTimestamp": "2026-10-12T19:40:56+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4658",
-        "text": "🔴 Пенза (🛩️ Пенза, UWPP) / 50 км"
+        "text": "🔴 Пенза (🛩️ Пенза, UWPP) / 50 км",
+        "affectedAirports": [
+          {
+            "name": "Пенза",
+            "icao": "UWPP",
+            "kind": "airport"
+          }
+        ]
       },
       {
         "id": "7e780722060288c6",
@@ -1347,7 +1371,14 @@
         "radiusKm": 50.0,
         "messageTimestamp": "2026-10-12T21:09:55+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4663",
-        "text": "🟢 Пенза (🛩️ Пенза, UWPP) / 50 км"
+        "text": "🟢 Пенза (🛩️ Пенза, UWPP) / 50 км",
+        "affectedAirports": [
+          {
+            "name": "Пенза",
+            "icao": "UWPP",
+            "kind": "airport"
+          }
+        ]
       },
       {
         "id": "ab88fd7d7a412ca9",
@@ -1748,6 +1779,13 @@
         "messageTimestamp": "2026-10-13T04:18:07+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4675",
         "text": "🔴 а/д Северный, Иваново (🛩️ Южный, UUIO) / 50 км ",
+        "affectedAirports": [
+          {
+            "name": "Южный",
+            "icao": "UUIO",
+            "kind": "airport"
+          }
+        ],
         "snapshot": true
       },
       {
@@ -2084,7 +2122,24 @@
         "radiusKm": 150.0,
         "messageTimestamp": "2026-10-13T19:52:44+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4688",
-        "text": "🔴 Москва (🛩️ Домодедово, UUDD ; 🛩️ Внуково, UUWW ; 🛩️ Жуковский, UUBW) / 150 км"
+        "text": "🔴 Москва (🛩️ Домодедово, UUDD ; 🛩️ Внуково, UUWW ; 🛩️ Жуковский, UUBW) / 150 км",
+        "affectedAirports": [
+          {
+            "name": "Домодедово",
+            "icao": "UUDD",
+            "kind": "airport"
+          },
+          {
+            "name": "Внуково",
+            "icao": "UUWW",
+            "kind": "airport"
+          },
+          {
+            "name": "Жуковский",
+            "icao": "UUBW",
+            "kind": "airport"
+          }
+        ]
       }
     ]
   },
@@ -2250,7 +2305,24 @@
         "radiusKm": 150.0,
         "messageTimestamp": "2026-10-13T22:24:59+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4696",
-        "text": "🔴 Москва (🛩️ Домодедово, UUDD ; 🛩️ Внуково, UUWW ; 🛩️ Жуковский, UUBW) / 150 км"
+        "text": "🔴 Москва (🛩️ Домодедово, UUDD ; 🛩️ Внуково, UUWW ; 🛩️ Жуковский, UUBW) / 150 км",
+        "affectedAirports": [
+          {
+            "name": "Домодедово",
+            "icao": "UUDD",
+            "kind": "airport"
+          },
+          {
+            "name": "Внуково",
+            "icao": "UUWW",
+            "kind": "airport"
+          },
+          {
+            "name": "Жуковский",
+            "icao": "UUBW",
+            "kind": "airport"
+          }
+        ]
       },
       {
         "id": "e6e1b2e7d8023447",
@@ -2298,7 +2370,14 @@
         "radiusKm": 50.0,
         "messageTimestamp": "2026-10-13T22:24:59+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4696",
-        "text": "🔴 Пенза (🛩️ Пенза, UWPP) / 50 км "
+        "text": "🔴 Пенза (🛩️ Пенза, UWPP) / 50 км ",
+        "affectedAirports": [
+          {
+            "name": "Пенза",
+            "icao": "UWPP",
+            "kind": "airport"
+          }
+        ]
       },
       {
         "id": "50a4aa0e5432519f",
@@ -2310,7 +2389,14 @@
         "radiusKm": 100.0,
         "messageTimestamp": "2026-10-13T22:24:59+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4696",
-        "text": "🔴 Энгельс (🛩️ Саратов - Гагарин, UWSG) / 100 км "
+        "text": "🔴 Энгельс (🛩️ Саратов - Гагарин, UWSG) / 100 км ",
+        "affectedAirports": [
+          {
+            "name": "Гагарин",
+            "icao": "UWSG",
+            "kind": "airport"
+          }
+        ]
       },
       {
         "id": "83c988b7b7950c8f",
@@ -2322,7 +2408,19 @@
         "radiusKm": 150.0,
         "messageTimestamp": "2026-10-13T22:24:59+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4696",
-        "text": "🔴 Новосёловка (🛩️ Саратов - Гагарин, UWSG; 🛩️ Пенза, UWPP) / 150 км "
+        "text": "🔴 Новосёловка (🛩️ Саратов - Гагарин, UWSG; 🛩️ Пенза, UWPP) / 150 км ",
+        "affectedAirports": [
+          {
+            "name": "Гагарин",
+            "icao": "UWSG",
+            "kind": "airport"
+          },
+          {
+            "name": "Пенза",
+            "icao": "UWPP",
+            "kind": "airport"
+          }
+        ]
       },
       {
         "id": "ab42272462bb2914",
@@ -2334,7 +2432,14 @@
         "radiusKm": 150.0,
         "messageTimestamp": "2026-10-13T22:24:59+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4696",
-        "text": "🔴 Плёс (🛩️ Саратов - Гагарин, UWSG) / 150 км "
+        "text": "🔴 Плёс (🛩️ Саратов - Гагарин, UWSG) / 150 км ",
+        "affectedAirports": [
+          {
+            "name": "Гагарин",
+            "icao": "UWSG",
+            "kind": "airport"
+          }
+        ]
       },
       {
         "id": "f464611c61fe0e25",
@@ -3924,6 +4029,28 @@
         "messageTimestamp": "2026-10-15T21:20:39+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4764",
         "text": "🔴 Москва (🛩️ Шереметьево, UUEE ; 🛩️ Домодедово, UUDD ; 🛩️ Внуково, UUWW ; 🛩️ Жуковский, UUBW) / 100 км ",
+        "affectedAirports": [
+          {
+            "name": "Шереметьево",
+            "icao": "UUEE",
+            "kind": "airport"
+          },
+          {
+            "name": "Домодедово",
+            "icao": "UUDD",
+            "kind": "airport"
+          },
+          {
+            "name": "Внуково",
+            "icao": "UUWW",
+            "kind": "airport"
+          },
+          {
+            "name": "Жуковский",
+            "icao": "UUBW",
+            "kind": "airport"
+          }
+        ],
         "snapshot": true
       },
       {
@@ -5314,7 +5441,24 @@
           "radiusKm": 150.0,
           "startAzimuth": 270,
           "endAzimuth": 90
-        }
+        },
+        "affectedAirports": [
+          {
+            "name": "Домодедово",
+            "icao": "UUDD",
+            "kind": "airport"
+          },
+          {
+            "name": "Внуково",
+            "icao": "UUWW",
+            "kind": "airport"
+          },
+          {
+            "name": "Жуковский",
+            "icao": "UUBW",
+            "kind": "airport"
+          }
+        ]
       }
     ]
   },
@@ -5605,7 +5749,14 @@
         "radiusKm": 40.0,
         "messageTimestamp": "2026-10-17T08:58:25+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4839",
-        "text": "🔴 Новороссийск (🛩️ Геленджик, URKG) / 40 км"
+        "text": "🔴 Новороссийск (🛩️ Геленджик, URKG) / 40 км",
+        "affectedAirports": [
+          {
+            "name": "Геленджик",
+            "icao": "URKG",
+            "kind": "airport"
+          }
+        ]
       }
     ]
   },
@@ -6062,7 +6213,14 @@
         "radiusKm": 100.0,
         "messageTimestamp": "2026-10-17T21:28:45+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4857",
-        "text": "🔴 Порхов (🛩️ Псков, ULOO) / 100 км "
+        "text": "🔴 Порхов (🛩️ Псков, ULOO) / 100 км ",
+        "affectedAirports": [
+          {
+            "name": "Псков",
+            "icao": "ULOO",
+            "kind": "airport"
+          }
+        ]
       },
       {
         "id": "2b6df588ca135ee8",
@@ -6119,7 +6277,14 @@
         "radiusKm": 30.0,
         "messageTimestamp": "2026-10-17T21:43:23+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4858",
-        "text": "🔴 Тейково (🛩️ Иваново - Южный, UUBI) / 30 км"
+        "text": "🔴 Тейково (🛩️ Иваново - Южный, UUBI) / 30 км",
+        "affectedAirports": [
+          {
+            "name": "Южный",
+            "icao": "UUBI",
+            "kind": "airport"
+          }
+        ]
       }
     ]
   },
@@ -6382,7 +6547,19 @@
         "radiusKm": 150.0,
         "messageTimestamp": "2026-10-18T19:45:58+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4870",
-        "text": "🔴 Новоселовка (🛩️ Саратов - Гагарин, UWSG; 🛩️ Пенза, UWPP) / 150 км"
+        "text": "🔴 Новоселовка (🛩️ Саратов - Гагарин, UWSG; 🛩️ Пенза, UWPP) / 150 км",
+        "affectedAirports": [
+          {
+            "name": "Гагарин",
+            "icao": "UWSG",
+            "kind": "airport"
+          },
+          {
+            "name": "Пенза",
+            "icao": "UWPP",
+            "kind": "airport"
+          }
+        ]
       }
     ]
   },
@@ -6445,7 +6622,19 @@
         "radiusKm": 150.0,
         "messageTimestamp": "2026-10-18T21:57:27+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4873",
-        "text": "🔴 Верхнесуринск (🛩️ Ульяновск - Баратаевка, UWLL ; 🛩️ Самара - Курумоч, UWWW) / 150 км"
+        "text": "🔴 Верхнесуринск (🛩️ Ульяновск - Баратаевка, UWLL ; 🛩️ Самара - Курумоч, UWWW) / 150 км",
+        "affectedAirports": [
+          {
+            "name": "Баратаевка",
+            "icao": "UWLL",
+            "kind": "airport"
+          },
+          {
+            "name": "Курумоч",
+            "icao": "UWWW",
+            "kind": "airport"
+          }
+        ]
       },
       {
         "id": "21ec28d3ac898bfb",
@@ -6457,7 +6646,19 @@
         "radiusKm": 150.0,
         "messageTimestamp": "2026-10-18T21:57:27+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4873",
-        "text": "🔴 Леляевка (🛩️ Саратов - Гагарин, UWSG ; 🛩️ Пенза, UWPP) / 150 км"
+        "text": "🔴 Леляевка (🛩️ Саратов - Гагарин, UWSG ; 🛩️ Пенза, UWPP) / 150 км",
+        "affectedAirports": [
+          {
+            "name": "Гагарин",
+            "icao": "UWSG",
+            "kind": "airport"
+          },
+          {
+            "name": "Пенза",
+            "icao": "UWPP",
+            "kind": "airport"
+          }
+        ]
       },
       {
         "id": "13f43e798baece41",
@@ -6514,7 +6715,14 @@
         "radiusKm": 150.0,
         "messageTimestamp": "2026-10-18T23:04:47+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4874",
-        "text": "🔴 Александровка (Самарская область) (🛩️ Самара - Курумоч, UWWW) / 150 км"
+        "text": "🔴 Александровка (Самарская область) (🛩️ Самара - Курумоч, UWWW) / 150 км",
+        "affectedAirports": [
+          {
+            "name": "Курумоч",
+            "icao": "UWWW",
+            "kind": "airport"
+          }
+        ]
       }
     ]
   },
@@ -6535,7 +6743,14 @@
         "radiusKm": null,
         "messageTimestamp": "2026-10-18T23:05:20+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4875",
-        "text": "🔴 Казань (🛩️ Казань, UWKD)"
+        "text": "🔴 Казань (🛩️ Казань, UWKD)",
+        "affectedAirports": [
+          {
+            "name": "Казань",
+            "icao": "UWKD",
+            "kind": "airport"
+          }
+        ]
       }
     ]
   },
@@ -7815,7 +8030,14 @@
         "radiusKm": 100.0,
         "messageTimestamp": "2026-10-21T21:37:31+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4928",
-        "text": "🔴 Порхов (🛩️ Псков, ULOO) / 100 км"
+        "text": "🔴 Порхов (🛩️ Псков, ULOO) / 100 км",
+        "affectedAirports": [
+          {
+            "name": "Псков",
+            "icao": "ULOO",
+            "kind": "airport"
+          }
+        ]
       },
       {
         "id": "b3be66d3babd3eb9",
@@ -7860,7 +8082,24 @@
         "radiusKm": 150.0,
         "messageTimestamp": "2026-10-21T21:38:36+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4929",
-        "text": "🔴 Москва (🛩️ Внуково, UUWW; 🛩️ Домодедово, UUDD; 🛩️ Жуковский, UUBW) / 150 км (южная половина окружности)"
+        "text": "🔴 Москва (🛩️ Внуково, UUWW; 🛩️ Домодедово, UUDD; 🛩️ Жуковский, UUBW) / 150 км (южная половина окружности)",
+        "affectedAirports": [
+          {
+            "name": "Внуково",
+            "icao": "UUWW",
+            "kind": "airport"
+          },
+          {
+            "name": "Домодедово",
+            "icao": "UUDD",
+            "kind": "airport"
+          },
+          {
+            "name": "Жуковский",
+            "icao": "UUBW",
+            "kind": "airport"
+          }
+        ]
       }
     ]
   },
@@ -8227,7 +8466,14 @@
         "radiusKm": 30.0,
         "messageTimestamp": "2026-10-22T18:26:23+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4943",
-        "text": "🔴 Новороссийск (🛩️ Геленджик, URKG) / 30 км"
+        "text": "🔴 Новороссийск (🛩️ Геленджик, URKG) / 30 км",
+        "affectedAirports": [
+          {
+            "name": "Геленджик",
+            "icao": "URKG",
+            "kind": "airport"
+          }
+        ]
       }
     ]
   },
@@ -8248,7 +8494,19 @@
         "radiusKm": 150.0,
         "messageTimestamp": "2026-10-22T19:00:15+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4944",
-        "text": "🔴 Новоселовка (🛩️ Пенза, UWPP; 🛩️ Саратов - Гагарин, UWSG) / 150 км"
+        "text": "🔴 Новоселовка (🛩️ Пенза, UWPP; 🛩️ Саратов - Гагарин, UWSG) / 150 км",
+        "affectedAirports": [
+          {
+            "name": "Пенза",
+            "icao": "UWPP",
+            "kind": "airport"
+          },
+          {
+            "name": "Гагарин",
+            "icao": "UWSG",
+            "kind": "airport"
+          }
+        ]
       }
     ]
   },
@@ -8269,7 +8527,14 @@
         "radiusKm": 50.0,
         "messageTimestamp": "2026-10-22T20:05:17+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4945",
-        "text": "🔴 Пенза (🛩️ Пенза, UWPP) / 50 км"
+        "text": "🔴 Пенза (🛩️ Пенза, UWPP) / 50 км",
+        "affectedAirports": [
+          {
+            "name": "Пенза",
+            "icao": "UWPP",
+            "kind": "airport"
+          }
+        ]
       },
       {
         "id": "5ae7081726acaf8c",
@@ -8314,7 +8579,19 @@
         "radiusKm": 150.0,
         "messageTimestamp": "2026-10-22T20:14:35+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4946",
-        "text": "🔴 Ильмино (🛩️ Саранск, UWPS; 🛩️ Пенза, UWPP) / 150 км"
+        "text": "🔴 Ильмино (🛩️ Саранск, UWPS; 🛩️ Пенза, UWPP) / 150 км",
+        "affectedAirports": [
+          {
+            "name": "Саранск",
+            "icao": "UWPS",
+            "kind": "airport"
+          },
+          {
+            "name": "Пенза",
+            "icao": "UWPP",
+            "kind": "airport"
+          }
+        ]
       }
     ]
   },
@@ -8389,7 +8666,19 @@
         "radiusKm": 150.0,
         "messageTimestamp": "2026-10-22T21:38:03+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4949",
-        "text": "🔴 Сурское (🛩️ Ульяновск - Баратаевка, UWLW; 🛩️ Саранск, UWPC) / 150 км"
+        "text": "🔴 Сурское (🛩️ Ульяновск - Баратаевка, UWLW; 🛩️ Саранск, UWPC) / 150 км",
+        "affectedAirports": [
+          {
+            "name": "Баратаевка",
+            "icao": "UWLW",
+            "kind": "airport"
+          },
+          {
+            "name": "Саранск",
+            "icao": "UWPC",
+            "kind": "airport"
+          }
+        ]
       },
       {
         "id": "2a22756d3129a10b",
@@ -8443,7 +8732,14 @@
         "radiusKm": 50.0,
         "messageTimestamp": "2026-10-22T21:50:40+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4951",
-        "text": "🔴 Чебоксары (🛩️ Чебоксары, UWKS) / 50 км"
+        "text": "🔴 Чебоксары (🛩️ Чебоксары, UWKS) / 50 км",
+        "affectedAirports": [
+          {
+            "name": "Чебоксары",
+            "icao": "UWKS",
+            "kind": "airport"
+          }
+        ]
       }
     ]
   },
@@ -8464,7 +8760,14 @@
         "radiusKm": 70.0,
         "messageTimestamp": "2026-10-22T22:29:40+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4952",
-        "text": "🔴 Альметьевск (🛩️ Бугульма, UWKB) / 70 км "
+        "text": "🔴 Альметьевск (🛩️ Бугульма, UWKB) / 70 км ",
+        "affectedAirports": [
+          {
+            "name": "Бугульма",
+            "icao": "UWKB",
+            "kind": "airport"
+          }
+        ]
       },
       {
         "id": "d257bef4ce84d7b6",
@@ -8476,7 +8779,24 @@
         "radiusKm": 150.0,
         "messageTimestamp": "2026-10-22T22:29:40+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4952",
-        "text": "🔴 Новошешминск (🛩️ Казань, UWKD ; 🛩️ Бегишево, UWKE ; 🛩️ Бугульма, UWKB) / 150 км"
+        "text": "🔴 Новошешминск (🛩️ Казань, UWKD ; 🛩️ Бегишево, UWKE ; 🛩️ Бугульма, UWKB) / 150 км",
+        "affectedAirports": [
+          {
+            "name": "Казань",
+            "icao": "UWKD",
+            "kind": "airport"
+          },
+          {
+            "name": "Бегишево",
+            "icao": "UWKE",
+            "kind": "airport"
+          },
+          {
+            "name": "Бугульма",
+            "icao": "UWKB",
+            "kind": "airport"
+          }
+        ]
       },
       {
         "id": "9c6cc67bdfe0baf9",
@@ -8488,7 +8808,14 @@
         "radiusKm": 100.0,
         "messageTimestamp": "2026-10-22T22:29:40+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4952",
-        "text": "🔴 Казань (🛩️ Казань, UWKD) / 100 км"
+        "text": "🔴 Казань (🛩️ Казань, UWKD) / 100 км",
+        "affectedAirports": [
+          {
+            "name": "Казань",
+            "icao": "UWKD",
+            "kind": "airport"
+          }
+        ]
       },
       {
         "id": "2765d52205ebc895",
@@ -8500,7 +8827,14 @@
         "radiusKm": 50.0,
         "messageTimestamp": "2026-10-22T22:29:40+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4952",
-        "text": "🔴 Елабуга (🛩️ Нижнекамск - Бегишево, UWKE) / 50 км"
+        "text": "🔴 Елабуга (🛩️ Нижнекамск - Бегишево, UWKE) / 50 км",
+        "affectedAirports": [
+          {
+            "name": "Бегишево",
+            "icao": "UWKE",
+            "kind": "airport"
+          }
+        ]
       },
       {
         "id": "b472bc77195beceb",
@@ -8512,7 +8846,19 @@
         "radiusKm": 150.0,
         "messageTimestamp": "2026-10-22T22:29:40+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4952",
-        "text": "🔴 Вятские Поляны (🛩️ Казань, UWKD ; 🛩️ Нижнекамск - Бегишево, UWKE) / 150 км"
+        "text": "🔴 Вятские Поляны (🛩️ Казань, UWKD ; 🛩️ Нижнекамск - Бегишево, UWKE) / 150 км",
+        "affectedAirports": [
+          {
+            "name": "Казань",
+            "icao": "UWKD",
+            "kind": "airport"
+          },
+          {
+            "name": "Бегишево",
+            "icao": "UWKE",
+            "kind": "airport"
+          }
+        ]
       }
     ]
   },
@@ -8611,7 +8957,24 @@
         "radiusKm": 150.0,
         "messageTimestamp": "2026-10-22T23:04:41+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4955",
-        "text": "🔴 Студенка (⛔ Йошкар-Ола, UWKJ ; 🛩️ Чебоксары, UWKS ; 🛩️ Казань, UWKD) / 150 км"
+        "text": "🔴 Студенка (⛔ Йошкар-Ола, UWKJ ; 🛩️ Чебоксары, UWKS ; 🛩️ Казань, UWKD) / 150 км",
+        "affectedAirports": [
+          {
+            "name": "Ола",
+            "icao": "UWKJ",
+            "kind": "airport"
+          },
+          {
+            "name": "Чебоксары",
+            "icao": "UWKS",
+            "kind": "airport"
+          },
+          {
+            "name": "Казань",
+            "icao": "UWKD",
+            "kind": "airport"
+          }
+        ]
       }
     ]
   },
@@ -9229,7 +9592,29 @@
         "radiusKm": 60.0,
         "messageTimestamp": "2026-10-23T11:05:43+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4977",
-        "text": "🔴 Москва (🛩️ Внуково, UUWW; 🛩️ Домодедово, UUDD; 🛩️Жуковский, UUBW; 🛩️ Шереметьево, UUEE) / 60 км"
+        "text": "🔴 Москва (🛩️ Внуково, UUWW; 🛩️ Домодедово, UUDD; 🛩️Жуковский, UUBW; 🛩️ Шереметьево, UUEE) / 60 км",
+        "affectedAirports": [
+          {
+            "name": "Внуково",
+            "icao": "UUWW",
+            "kind": "airport"
+          },
+          {
+            "name": "Домодедово",
+            "icao": "UUDD",
+            "kind": "airport"
+          },
+          {
+            "name": "Жуковский",
+            "icao": "UUBW",
+            "kind": "airport"
+          },
+          {
+            "name": "Шереметьево",
+            "icao": "UUEE",
+            "kind": "airport"
+          }
+        ]
       }
     ]
   },
@@ -9563,7 +9948,29 @@
         "radiusKm": 150.0,
         "messageTimestamp": "2026-10-23T14:21:56+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4990",
-        "text": "🔴 Москва (🛩️ Внуково, UUWW; 🛩️ Домодедово, UUDD; 🛩️ Жуковский, UUBW; 🛩️ Шереметьево, UUEE) / 150 км"
+        "text": "🔴 Москва (🛩️ Внуково, UUWW; 🛩️ Домодедово, UUDD; 🛩️ Жуковский, UUBW; 🛩️ Шереметьево, UUEE) / 150 км",
+        "affectedAirports": [
+          {
+            "name": "Внуково",
+            "icao": "UUWW",
+            "kind": "airport"
+          },
+          {
+            "name": "Домодедово",
+            "icao": "UUDD",
+            "kind": "airport"
+          },
+          {
+            "name": "Жуковский",
+            "icao": "UUBW",
+            "kind": "airport"
+          },
+          {
+            "name": "Шереметьево",
+            "icao": "UUEE",
+            "kind": "airport"
+          }
+        ]
       }
     ]
   },
@@ -9941,7 +10348,14 @@
         "radiusKm": 30.0,
         "messageTimestamp": "2026-10-23T18:17:23+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/5001",
-        "text": "🔴 Новороссийск (🛩️ Геленджик, URKG) / 30 км"
+        "text": "🔴 Новороссийск (🛩️ Геленджик, URKG) / 30 км",
+        "affectedAirports": [
+          {
+            "name": "Геленджик",
+            "icao": "URKG",
+            "kind": "airport"
+          }
+        ]
       }
     ]
   },
@@ -11156,6 +11570,27 @@
         "messageTimestamp": "2026-10-24T17:59:13+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/5045",
         "text": "🔴 а/д Клоково, Тула / 70 км"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5046,
+    "timestamp": "2026-10-24T18:29:26+00:00",
+    "text": "🔴🛩️ Тамбов - Донское, UUOT",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5046",
+    "events": [
+      {
+        "id": "1c61399a7951ead6",
+        "action": "ADD",
+        "name": "Донское",
+        "icao": "UUOT",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-24T18:29:26+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5046",
+        "text": "🔴🛩️ Тамбов - Донское, UUOT"
       }
     ]
   }

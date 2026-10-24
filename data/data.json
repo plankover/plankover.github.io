@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T18:15:50.067185+00:00",
+  "updatedAt": "2026-10-24T19:05:45.034721+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -29,6 +29,20 @@
       "text": "🔴 а/д Клоково, Тула / 70 км",
       "lat": 54.2418249,
       "lon": 37.6000197
+    },
+    {
+      "id": "1c61399a7951ead6",
+      "action": "ADD",
+      "name": "Донское",
+      "icao": "UUOT",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-24T18:29:26+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5046",
+      "text": "🔴🛩️ Тамбов - Донское, UUOT",
+      "lat": 52.8060125,
+      "lon": 41.4845129
     }
   ]
 }
