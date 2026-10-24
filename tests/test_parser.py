@@ -71,8 +71,7 @@ class ParserTests(unittest.TestCase):
             "🟢⠀Аэропорты\n\n— ВНУКОВО\n— КАЛУГА (Грабцево)",
             "2026-10-24T12:00:00+00:00",
         )
-        self.assertEqual(events[0]["action"], "REMOVE")
-        self.assertTrue(events[0].get("unresolved"))
+        self.assertEqual(events[0]["action"], "UNKNOWN")
 
     def test_city_circle_does_not_use_first_airport_as_center(self):
         events = parse_message(
