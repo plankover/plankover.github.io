@@ -157,6 +157,8 @@
       box-shadow: 0 2px 9px #0005; display: grid; place-items: center;
     }
     .map-marker span { transform: rotate(45deg); color: #fff; font-size: 13px; line-height: 1; }
+    .map-marker.partial { border-color: #9c701b; background: #ffc34d; }
+    .map-marker.partial span { color: #392b0b; }
     footer { color: var(--muted); font-size: 11px; padding: 12px 20px; border-top: 1px solid var(--line); }
     footer a { color: #a7c7ff; text-decoration: none; }
     @media (max-width: 850px) {
@@ -451,10 +453,14 @@
   }
 
   function drawAirplaneMarker(group) {
+    // An airport can be referenced by multiple restrictions; turn its marker
+    // yellow whenever any associated restriction is partial.
+    const partial = group.entries.some(entry => isPartial(entry.item));
+    const markerClass = partial ? "map-marker partial" : "map-marker";
     const marker = L.marker(group.coords, {
       icon: L.divIcon({
         className: "",
-        html: '<div class="map-marker"><span>✈</span></div>',
+        html: `<div class="${markerClass}"><span>✈</span></div>`,
         iconSize: [24, 24],
         iconAnchor: [12, 20]
       })
@@ -467,12 +473,12 @@
     marker.addTo(layer);
   }
 
-  function bindCenterHover(shape, coords) {
+  function bindCenterHover(shape, coords, color) {
     const centerDot = L.circleMarker(coords, {
       radius: 5,
-      color: "#ff3b45",
+      color,
       weight: 0,
-      fillColor: "#ff3b45",
+      fillColor: color,
       fillOpacity: 0,
       opacity: 0,
       interactive: false,
@@ -557,7 +563,7 @@
     }
 
     shape.bindPopup(popupHtml(item)).addTo(layer);
-    if (!ktaRestriction) bindCenterHover(shape, coords);
+    if (!ktaRestriction) bindCenterHover(shape, coords, color);
   }
   function filteredItems() {
     const query = $("search").value.trim().toLocaleLowerCase("ru");
