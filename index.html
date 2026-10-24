@@ -214,10 +214,6 @@
             <div class="stat-num yellow" id="partial-count">0</div>
             <div class="stat-label">Частичные</div>
           </div>
-          <div class="stat">
-            <div class="stat-num green" id="stale-count">0</div>
-            <div class="stat-label">Устаревают</div>
-          </div>
         </div>
       </div>
 
@@ -229,7 +225,6 @@
         <button class="filter active" data-filter="all">Все</button>
         <button class="filter" data-filter="full">🔴 Полные</button>
         <button class="filter" data-filter="partial">🟡 Частичные</button>
-        <button class="filter" data-filter="stale">⚠️ Возможно неактуально</button>
       </div>
 
       <div class="list-head">Активные события</div>
@@ -408,7 +403,6 @@
     html += `<div class="popup-muted">Радиус: ${radiusText}</div>`;
     if (sector) html += `<div class="popup-muted">Азимут: ${sector.start}°–${sector.end}°</div>`;
     if (time) html += `<div class="popup-muted">Опубликовано: ${new Date(time).toLocaleString("ru-RU")}</div>`;
-    if (status.stale) html += `<div style="color:#ffd277;margin-top:5px">⚠️ Возможно неактуально</div>`;
     if (item.sourceUrl) html += `<div style="margin-top:6px"><a href="${esc(item.sourceUrl)}" target="_blank" rel="noreferrer" style="color:#a7c7ff">Оригинал сообщения ↗</a></div>`;
     return html;
   }
@@ -571,10 +565,8 @@
     const query = $("search").value.trim().toLocaleLowerCase("ru");
     return allItems.filter(item => {
       const partial = isPartial(item);
-      const stale = getStatus(item).stale;
       if (activeFilter === "full" && partial) return false;
       if (activeFilter === "partial" && !partial) return false;
-      if (activeFilter === "stale" && !stale) return false;
       const haystack = [getName(item), item.icao, item.city, item.region]
         .filter(Boolean).join(" ").toLocaleLowerCase("ru");
       return !query || haystack.includes(query);
@@ -634,7 +626,6 @@
         <div class="item-meta" style="margin-top:9px">
           ${radius ? `Радиус: ${esc(radius)} км` : "Радиус не указан"}
           ${sector ? ` · сектор ${esc(sector.start)}°–${esc(sector.end)}°` : ""}
-          ${status.stale ? `<div style="color:#ffd277;margin-top:5px">⚠️ Возможно неактуально</div>` : ""}
         </div>`;
       el.addEventListener("click", () => selectItem(item._id));
       $("restriction-list").appendChild(el);
@@ -648,10 +639,8 @@
     airplaneGroups.forEach(drawAirplaneMarker);
     const full = allItems.filter(item => !isPartial(item)).length;
     const partial = allItems.filter(isPartial).length;
-    const stale = allItems.filter(item => getStatus(item).stale).length;
     $("full-count").textContent = full;
     $("partial-count").textContent = partial;
-    $("stale-count").textContent = stale;
     $("total-count").textContent = `${allItems.length} ${plural(allItems.length, "событие", "события", "событий")}`;
     $("map-caption").textContent = allItems.length
       ? `На карте: ${allItems.length}. Красный — полные, жёлтый — частичные.`
