@@ -12626,11 +12626,11 @@
     "chatId": -1003822338715,
     "messageId": 5056,
     "timestamp": "2026-10-24T21:14:55+00:00",
-    "text": "🟢🛩️ Пенза, UWPP\n🟢🛩️ Саратов - Гагарин, UWSG",
+    "text": "🟢 Новоселовка (🛩️ Пенза, UWPP; 🛩️ Саратов - Гагарин, UWSG)",
     "sourceUrl": "https://t.me/PlanKoverTDay/5056",
     "events": [
       {
-        "id": "c27804c29042c699",
+        "id": "203522462f90b308",
         "action": "REMOVE",
         "name": "Пенза",
         "icao": "UWPP",
@@ -12639,11 +12639,10 @@
         "radiusKm": null,
         "messageTimestamp": "2026-10-24T21:14:55+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/5056",
-        "text": "🟢🛩️ Пенза, UWPP",
-        "inKta": true
+        "text": "🟢 🛩️ Пенза, UWPP"
       },
       {
-        "id": "8803805326ca44c6",
+        "id": "c0c04ff0f06b0793",
         "action": "REMOVE",
         "name": "Гагарин",
         "icao": "UWSG",
@@ -12652,8 +12651,36 @@
         "radiusKm": null,
         "messageTimestamp": "2026-10-24T21:14:55+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/5056",
-        "text": "🟢🛩️ Саратов - Гагарин, UWSG",
-        "inKta": true
+        "text": "🟢 🛩️ Саратов - Гагарин, UWSG"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5057,
+    "timestamp": "2026-10-24T21:20:19+00:00",
+    "text": "🔴 Новоселовка (🛩️ Пенза, UWPP) / 120 км\nСИГНАЛ КОВЕР НОВОСЕЛОВКА 120 КМ АЭРОПОРТ ПЕНЗА ПРЕКРАТИЛ ПРИЕМ И ВЫПУСК ВОЗДУШНЫХ СУДОВ",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5057",
+    "events": [
+      {
+        "id": "cbf37f440b0347c0",
+        "action": "ADD",
+        "name": "Новоселовка",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 120.0,
+        "messageTimestamp": "2026-10-24T21:20:19+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5057",
+        "text": "🔴 Новоселовка (🛩️ Пенза, UWPP) / 120 км",
+        "affectedAirports": [
+          {
+            "name": "Пенза",
+            "icao": "UWPP",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false
       }
     ]
   }
