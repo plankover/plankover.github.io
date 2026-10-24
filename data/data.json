@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T19:05:45.034721+00:00",
+  "updatedAt": "2026-10-24T19:23:01.382883+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -13,6 +13,7 @@
       "messageTimestamp": "2026-10-24T17:31:47+00:00",
       "sourceUrl": "https://t.me/PlanKoverTDay/5044",
       "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км",
+      "inKta": true,
       "lat": 54.5488708,
       "lon": 36.3697725
     },
@@ -27,22 +28,39 @@
       "messageTimestamp": "2026-10-24T17:59:13+00:00",
       "sourceUrl": "https://t.me/PlanKoverTDay/5045",
       "text": "🔴 а/д Клоково, Тула / 70 км",
+      "inKta": false,
       "lat": 54.2418249,
       "lon": 37.6000197
     },
     {
-      "id": "1c61399a7951ead6",
+      "id": "f2ebf59d7b35d008",
       "action": "ADD",
       "name": "Донское",
       "icao": "UUOT",
       "kind": "airport",
       "type": "full",
-      "radiusKm": null,
+      "radiusKm": 50.0,
       "messageTimestamp": "2026-10-24T18:29:26+00:00",
       "sourceUrl": "https://t.me/PlanKoverTDay/5046",
-      "text": "🔴🛩️ Тамбов - Донское, UUOT",
+      "text": "🔴🛩️ Тамбов - Донское, UUOT / 50 км",
+      "inKta": true,
       "lat": 52.8060125,
       "lon": 41.4845129
+    },
+    {
+      "id": "bc69657bf47171e1",
+      "action": "ADD",
+      "name": "Борисоглебск",
+      "icao": null,
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 50.0,
+      "messageTimestamp": "2026-10-24T18:29:26+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5046",
+      "text": "🔴 а/д Борисоглебск / 50 км",
+      "inKta": false,
+      "lat": 51.3677214,
+      "lon": 42.1756878
     }
   ]
 }
