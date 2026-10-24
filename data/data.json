@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T20:37:57.250668+00:00",
+  "updatedAt": "2026-10-24T20:56:45.823379+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -138,6 +138,171 @@
       "snapshot": true,
       "lat": 56.149551,
       "lon": 44.198032
+    },
+    {
+      "id": "f19cae1a6fb27157",
+      "action": "ADD",
+      "name": "Новоселовка",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 150.0,
+      "messageTimestamp": "2026-10-24T20:43:29+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5050",
+      "text": "🔴 Новоселовка (🛩️ Саратов - Гагарин, UWSG ; 🛩️ Пенза, UWPP) / 150 км",
+      "affectedAirports": [
+        {
+          "name": "Гагарин",
+          "icao": "UWSG",
+          "kind": "airport",
+          "lat": 51.7139093,
+          "lon": 46.1672319
+        },
+        {
+          "name": "Пенза",
+          "icao": "UWPP",
+          "kind": "airport",
+          "lat": 53.110734,
+          "lon": 45.023455
+        }
+      ],
+      "inKta": false,
+      "lat": 52.084183,
+      "lon": 36.882427
+    },
+    {
+      "id": "7cbd0f2d6024fb25",
+      "action": "ADD",
+      "name": "Пашковский",
+      "icao": "URKK",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 20.0,
+      "messageTimestamp": "2026-10-24T20:50:07+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5052",
+      "text": "🔴🛩️ Краснодар - Пашковский, URKK / 20 км",
+      "inKta": true,
+      "lat": 45.033714,
+      "lon": 39.1814429
+    },
+    {
+      "id": "e3555f851019b1fc",
+      "action": "ADD",
+      "name": "Пенза",
+      "icao": "UWPP",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-24T20:49:45+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5051",
+      "text": "🔴🛩️ Пенза, UWPP",
+      "inKta": true,
+      "lat": 53.110734,
+      "lon": 45.023455
+    },
+    {
+      "id": "abdc823d95db9dd3",
+      "action": "ADD",
+      "name": "Гагарин",
+      "icao": "UWSG",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-24T20:49:45+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5051",
+      "text": "🔴🛩️ Саратов - Гагарин, UWSG",
+      "inKta": true,
+      "lat": 51.7139093,
+      "lon": 46.1672319
+    },
+    {
+      "id": "f95dceb32548ef3c",
+      "action": "ADD",
+      "name": "Домодедово",
+      "icao": "UUDD",
+      "kind": "airport",
+      "type": "partial",
+      "radiusKm": 100.0,
+      "messageTimestamp": "2026-10-24T20:52:56+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5053",
+      "text": "🟡🛩️ Домодедово, UUDD / 100 км (азимуты 090-270)",
+      "sector": {
+        "radiusKm": 100.0,
+        "startAzimuth": 90,
+        "endAzimuth": 270
+      },
+      "inKta": true,
+      "lat": 55.4087122,
+      "lon": 37.9094307
+    },
+    {
+      "id": "5f3719d7065c0fbc",
+      "action": "ADD",
+      "name": "Новороссийск",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 30.0,
+      "messageTimestamp": "2026-10-24T20:55:00+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5054",
+      "text": "🔴 Новороссийск (🛩️ Геленджик, URKG) / 30 км",
+      "affectedAirports": [
+        {
+          "name": "Геленджик",
+          "icao": "URKG",
+          "kind": "airport",
+          "lat": 44.5286101,
+          "lon": 38.4217926
+        }
+      ],
+      "inKta": false,
+      "lat": 44.7239578,
+      "lon": 37.7690711
+    },
+    {
+      "id": "19a331761fb08182",
+      "action": "ADD",
+      "name": "Афипский",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 20.0,
+      "messageTimestamp": "2026-10-24T20:55:00+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5054",
+      "text": "🔴 Афипский / 20 км",
+      "inKta": false,
+      "lat": 44.9040435,
+      "lon": 38.8426821
+    },
+    {
+      "id": "bd762d9909827f2b",
+      "action": "ADD",
+      "name": "Ильский",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 20.0,
+      "messageTimestamp": "2026-10-24T20:55:00+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5054",
+      "text": "🔴 Ильский / 20 км",
+      "inKta": false,
+      "lat": 44.8458544,
+      "lon": 38.5608255
+    },
+    {
+      "id": "3dae3037bab3fb55",
+      "action": "ADD",
+      "name": "Можайск",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 30.0,
+      "messageTimestamp": "2026-10-24T20:55:00+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5054",
+      "text": "🔴 Можайск / 30 км",
+      "inKta": false,
+      "lat": 55.506478,
+      "lon": 36.0213092
     }
   ]
 }
