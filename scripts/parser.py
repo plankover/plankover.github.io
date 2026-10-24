@@ -135,6 +135,8 @@ def parse_message(message, published_at=None, source_url=None):
             continue
         radius = parse_radius(line)
         sector = parse_sector(line)
+        marker_match = re.search(r"[🔴🟡🟢]", line)
+        marker = marker_match.group(0) if marker_match else ""
         yellow = marker == "🟡"
         line_action = "REMOVE" if marker == "🟢" else "ADD"
         key = target.get("icao") or target["name"].casefold()
