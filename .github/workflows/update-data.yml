@@ -44,9 +44,18 @@ jobs:
             git add data/
             if ! git diff --cached --quiet; then
               git commit -m "Update Telegram airspace data"
-              # If main advanced concurrently, fail without polling again; the
-              # next run will retry unconfirmed Telegram updates from saved state.
-              git push origin HEAD:main
+              # A concurrent manual edit or another workflow may advance main
+              # between checkout and push. Rebase this data commit and retry.
+              for attempt in 1 2 3; do
+                if git push origin HEAD:main; then
+                  return 0
+                fi
+                echo "Push attempt $attempt failed; rebasing onto latest main."
+                git fetch origin main
+                git rebase origin/main
+              done
+              echo "Could not publish after three attempts." >&2
+              return 1
             fi
           }
 
