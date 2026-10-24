@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T21:34:45.256277+00:00",
+  "updatedAt": "2026-10-24T00:02:58.048878+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -98,6 +98,34 @@
       "text": "🔴🛩️ Краснодар - Пашковский, URKK",
       "lat": 45.033714,
       "lon": 39.1814429
+    },
+    {
+      "id": "21723305c0d69529",
+      "action": "ADD",
+      "name": "Пенза",
+      "icao": "UWPP",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-23T22:37:07+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5006",
+      "text": "🔴🛩️ Пенза, UWPP",
+      "lat": 53.110734,
+      "lon": 45.023455
+    },
+    {
+      "id": "2419f17516038480",
+      "action": "ADD",
+      "name": "Гагарин",
+      "icao": "UWSG",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-23T22:37:07+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5006",
+      "text": "🔴🛩️ Саратов - Гагарин, UWSG",
+      "lat": 51.7139093,
+      "lon": 46.1672319
     }
   ]
 }

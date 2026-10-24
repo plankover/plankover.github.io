@@ -16466,5 +16466,38 @@
         "text": "🔴🛩️ Краснодар - Пашковский, URKK"
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5006,
+    "timestamp": "2026-10-23T22:37:07+00:00",
+    "text": "🔴🛩️ Пенза, UWPP\n🔴🛩️ Саратов - Гагарин, UWSG",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5006",
+    "events": [
+      {
+        "id": "21723305c0d69529",
+        "action": "ADD",
+        "name": "Пенза",
+        "icao": "UWPP",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-23T22:37:07+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5006",
+        "text": "🔴🛩️ Пенза, UWPP"
+      },
+      {
+        "id": "2419f17516038480",
+        "action": "ADD",
+        "name": "Гагарин",
+        "icao": "UWSG",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-23T22:37:07+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5006",
+        "text": "🔴🛩️ Саратов - Гагарин, UWSG"
+      }
+    ]
   }
 ]
