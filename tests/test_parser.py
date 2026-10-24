@@ -93,5 +93,22 @@ class ParserTests(unittest.TestCase):
         self.assertEqual(events[0]["kind"], "city")
 
 
+    def test_city_restriction_lists_explicitly_affected_airports(self):
+        events = parse_message(
+            "🔴 Москва (🛩️ Внуково, UUWW; 🛩️ Домодедово, UUDD) / 150 км",
+            "2026-10-24T12:00:00+00:00",
+        )
+        self.assertEqual(len(events), 1)
+        self.assertEqual(events[0]["name"], "Москва")
+        self.assertEqual(events[0]["kind"], "city")
+        self.assertEqual(
+            events[0]["affectedAirports"],
+            [
+                {"name": "Внуково", "icao": "UUWW", "kind": "airport"},
+                {"name": "Домодедово", "icao": "UUDD", "kind": "airport"},
+            ],
+        )
+
+
 if __name__ == "__main__":
     unittest.main()
