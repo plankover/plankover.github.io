@@ -20,6 +20,7 @@ class ParserTests(unittest.TestCase):
         self.assertEqual(events[0]["kind"], "airport")
         self.assertEqual(events[0]["type"], "full")
         self.assertEqual(events[0]["radiusKm"], 70.0)
+        self.assertTrue(events[0]["inKta"])
 
     def test_yellow_without_radius_stays_partial(self):
         events = parse_message(
@@ -91,6 +92,7 @@ class ParserTests(unittest.TestCase):
         self.assertEqual(events[0]["name"], "Москва")
         self.assertIsNone(events[0]["icao"])
         self.assertEqual(events[0]["kind"], "city")
+        self.assertFalse(events[0]["inKta"])
 
 
     def test_city_restriction_lists_explicitly_affected_airports(self):
@@ -107,6 +109,52 @@ class ParserTests(unittest.TestCase):
                 {"name": "Внуково", "icao": "UUWW", "kind": "airport"},
                 {"name": "Домодедово", "icao": "UUDD", "kind": "airport"},
             ],
+        )
+
+
+    def test_airfield_radius_without_kta_airplane_is_not_kta(self):
+        events = parse_message(
+            "🔴 а/д Северный, Смоленск / 70 км",
+            "2026-10-24T12:00:00+00:00",
+        )
+        self.assertEqual(len(events), 1)
+        self.assertEqual(events[0]["name"], "Северный, Смоленск")
+        self.assertEqual(events[0]["kind"], "airport")
+        self.assertFalse(events[0]["inKta"])
+
+    def test_airport_operation_notice_marks_kta_despite_braille_spacing(self):
+        text = (
+            "🔴⠀Аэропорт ЕКАТЕРИНБУРГ (Кольцово)\n\n"
+            "✈️⠀ВВЕДЕНЫ временные ограничения на прием и выпуск воздушных судов."
+        )
+        events = parse_message(text, "2026-10-24T12:00:00+00:00")
+        self.assertEqual(len(events), 1)
+        self.assertEqual(events[0]["name"], "ЕКАТЕРИНБУРГ (Кольцово)")
+        self.assertTrue(events[0]["inKta"])
+
+    def test_non_kta_airfield_circle_marks_explicitly_affected_airport(self):
+        events = parse_message(
+            "🔴 а/д Центральный, Ростов на-Дону (⛔ Платов, URRP) / 40 км",
+            "2026-10-24T12:00:00+00:00",
+        )
+        self.assertEqual(len(events), 1)
+        self.assertEqual(events[0]["name"], "Центральный, Ростов на-Дону")
+        self.assertFalse(events[0]["inKta"])
+        self.assertEqual(
+            events[0]["affectedAirports"],
+            [{"name": "Платов", "icao": "URRP", "kind": "airport"}],
+        )
+
+    def test_kta_restriction_can_also_list_another_affected_airport(self):
+        events = parse_message(
+            "🔴🛩️ Сургут, USRR (🛩️ Когалым, USRK) / 150 км",
+            "2026-10-24T12:00:00+00:00",
+        )
+        self.assertEqual(events[0]["name"], "Сургут")
+        self.assertTrue(events[0]["inKta"])
+        self.assertEqual(
+            events[0]["affectedAirports"],
+            [{"name": "Когалым", "icao": "USRK", "kind": "airport"}],
         )
 
 
