@@ -12683,5 +12683,34 @@
         "inKta": false
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5058,
+    "timestamp": "2026-10-24T21:41:27+00:00",
+    "text": "🔴 Медведица (🛩️ Саратов - Гагарин, UWSG) / 150 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5058",
+    "events": [
+      {
+        "id": "29bf809d6e7cd54d",
+        "action": "ADD",
+        "name": "Медведица",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 150.0,
+        "messageTimestamp": "2026-10-24T21:41:27+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5058",
+        "text": "🔴 Медведица (🛩️ Саратов - Гагарин, UWSG) / 150 км",
+        "affectedAirports": [
+          {
+            "name": "Гагарин",
+            "icao": "UWSG",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false
+      }
+    ]
   }
 ]

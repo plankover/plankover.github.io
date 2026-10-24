@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T21:25:51.585284+00:00",
+  "updatedAt": "2026-10-24T21:42:09.033340+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -281,6 +281,30 @@
       "inKta": true,
       "lat": 44.58209,
       "lon": 38.01248
+    },
+    {
+      "id": "29bf809d6e7cd54d",
+      "action": "ADD",
+      "name": "Медведица",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 150.0,
+      "messageTimestamp": "2026-10-24T21:41:27+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5058",
+      "text": "🔴 Медведица (🛩️ Саратов - Гагарин, UWSG) / 150 км",
+      "affectedAirports": [
+        {
+          "name": "Гагарин",
+          "icao": "UWSG",
+          "kind": "airport",
+          "lat": 51.7139093,
+          "lon": 46.1672319
+        }
+      ],
+      "inKta": false,
+      "lat": 57.1963252,
+      "lon": 36.3647255
     }
   ]
 }
