@@ -6,7 +6,7 @@ from unittest.mock import patch
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
-from collector import build_data_payload, fetch_updates, polling_timeout, resolve_event_coords
+from collector import build_data_payload, cache_coords, fetch_updates, polling_timeout, resolve_event_coords
 
 
 class DataPayloadTests(unittest.TestCase):
@@ -67,6 +67,26 @@ class AffectedAirportCoordinateTests(unittest.TestCase):
             [(a["lat"], a["lon"]) for a in result["affectedAirports"]],
             [(55.59, 37.26), (55.41, 37.91)],
         )
+
+
+class CuratedCoordinateTests(unittest.TestCase):
+    def test_curated_novoselovka_overrides_wrong_cached_match(self):
+        cache = {"place:новоселовка": {"lat": 52.084183, "lon": 36.882427}}
+        with patch("collector.write") as write_mock:
+            coords = cache_coords("Новоселовка", None, cache)
+
+        self.assertEqual(coords, {"lat": 51.9489, "lon": 44.2678})
+        self.assertEqual(cache["place:новоселовка"], coords)
+        write_mock.assert_called_once()
+
+    def test_curated_gelendzhik_airport_overrides_wrong_icao_cache(self):
+        cache = {"icao:URKG": {"lat": 44.5286101, "lon": 38.4217926}}
+        with patch("collector.write") as write_mock:
+            coords = cache_coords("Геленджик", "URKG", cache, airport=True)
+
+        self.assertEqual(coords, {"lat": 44.58209, "lon": 38.01248})
+        self.assertEqual(cache["icao:URKG"], coords)
+        write_mock.assert_called_once()
 
 
 class TelegramLongPollingTests(unittest.TestCase):

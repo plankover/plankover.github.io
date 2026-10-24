@@ -49,15 +49,7 @@ jobs:
             fi
           }
 
-          # Code pushes and manual runs remain quick single polls. Scheduled
-          # runs keep a single long-polling worker active for most of each
-          # five-minute interval, publishing each change immediately.
-          if [[ "$GITHUB_EVENT_NAME" != "schedule" ]]; then
-            poll_once
-            exit 0
-          fi
-
-          deadline=$((SECONDS + 230))
-          while (( SECONDS < deadline )); do
-            poll_once
-          done
+          # Perform one poll per workflow run. Scheduled polling may wait up to
+          # 25 seconds in Telegram, then exits well before the next five-minute
+          # slot instead of holding the concurrency group for almost four minutes.
+          poll_once
