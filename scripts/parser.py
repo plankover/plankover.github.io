@@ -122,11 +122,11 @@ def parse_target_line(line):
 def parse_affected_airports(text):
     """Extract airports explicitly named in a parenthetical restriction target."""
     airports = {}
-    for group in re.findall(r"\\(([^()]*)\\)", clean_text(text)):
-        if not re.search(r"\\b[A-Z]{4}\\b", group):
+    for group in re.findall(r"\(([^()]*)\)", clean_text(text)):
+        if not re.search(r"\b[A-Z]{4}\b", group):
             continue
         for part in group.split(";"):
-            if not re.search(r"\\b[A-Z]{4}\\b", part):
+            if not re.search(r"\b[A-Z]{4}\b", part):
                 continue
             target = parse_target_line("🔴 " + part.strip())
             if not target or target.get("kind") != "airport" or not target.get("icao"):
