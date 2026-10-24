@@ -470,17 +470,26 @@
   function bindCenterHover(shape, coords) {
     const centerDot = L.circleMarker(coords, {
       radius: 5,
-      color: "#8f1721",
-      weight: 2.5,
+      color: "#ff3b45",
+      weight: 0,
       fillColor: "#ff3b45",
-      fillOpacity: 1,
+      fillOpacity: 0,
+      opacity: 0,
       interactive: false,
       bubblingMouseEvents: false
     });
     let hovered = false;
     let popupOpen = false;
+    let fadeFrame = null;
     const show = () => {
-      if (!layer.hasLayer(centerDot)) centerDot.addTo(layer);
+      if (!layer.hasLayer(centerDot)) {
+        centerDot.setStyle({ opacity: 0, fillOpacity: 0 }).addTo(layer);
+        if (fadeFrame !== null) cancelAnimationFrame(fadeFrame);
+        fadeFrame = requestAnimationFrame(() => {
+          centerDot.setStyle({ opacity: 1, fillOpacity: 1 });
+          fadeFrame = null;
+        });
+      }
     };
     const hideWhenInactive = () => {
       if (!hovered && !popupOpen && layer.hasLayer(centerDot)) {
