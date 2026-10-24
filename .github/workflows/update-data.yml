@@ -6,7 +6,8 @@ on:
   push:
     branches: [main]
   schedule:
-    - cron: "*/5 * * * *"
+    # Avoid the top of the hour, when GitHub Actions scheduling is busiest.
+    - cron: "3-59/5 * * * *"
 
 permissions:
   contents: write
