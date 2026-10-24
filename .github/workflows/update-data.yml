@@ -40,23 +40,27 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           poll_once() {
-            python scripts/collector.py
-            git add data/
-            if ! git diff --cached --quiet; then
+            for attempt in 1 2 3; do
+              python scripts/collector.py
+              git add data/
+              if git diff --cached --quiet; then
+                return 0
+              fi
               git commit -m "Update Telegram airspace data"
-              # A concurrent manual edit or another workflow may advance main
-              # between checkout and push. Rebase this data commit and retry.
-              for attempt in 1 2 3; do
-                if git push origin HEAD:main; then
-                  return 0
-                fi
-                echo "Push attempt $attempt failed; rebasing onto latest main."
-                git fetch origin main
-                git rebase origin/main
-              done
-              echo "Could not publish after three attempts." >&2
-              return 1
-            fi
+              if git push origin HEAD:main; then
+                return 0
+              fi
+
+              # If main advanced concurrently, discard this local attempt and
+              # rerun the collector from the latest committed state. Telegram
+              # updates are acknowledged only after the next offset is sent,
+              # so uncommitted updates can be fetched again.
+              echo "Push attempt $attempt failed; retrying from latest main."
+              git fetch origin main
+              git reset --hard origin/main
+            done
+            echo "Could not publish after three attempts." >&2
+            return 1
           }
 
           # Perform one poll per workflow run. Scheduled polling may wait up to
