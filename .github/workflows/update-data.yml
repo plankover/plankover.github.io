@@ -43,9 +43,8 @@ jobs:
             git add data/
             if ! git diff --cached --quiet; then
               git commit -m "Update Telegram airspace data"
-              # Rebase safely if a code/configuration push landed while polling.
-              git fetch origin main
-              git rebase origin/main
+              # If main advanced concurrently, fail without polling again; the
+              # next run will retry unconfirmed Telegram updates from saved state.
               git push origin HEAD:main
             fi
           }
