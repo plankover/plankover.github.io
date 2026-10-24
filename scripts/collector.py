@@ -46,9 +46,9 @@ def message_url(m):
     channel=CHANNEL.removeprefix("@")
     return f"https://t.me/{channel}/{mid}" if channel and mid else None
 def polling_timeout():
-    """Return Telegram long-poll timeout, capped at the Bot API maximum."""
+    """Return a long-poll timeout that stays below the HTTP request timeout."""
     try:
-        return min(50, max(0, int(os.environ.get("TELEGRAM_LONG_POLL_TIMEOUT_SECONDS", "0"))))
+        return min(25, max(0, int(os.environ.get("TELEGRAM_LONG_POLL_TIMEOUT_SECONDS", "0"))))
     except (TypeError, ValueError):
         return 0
 
