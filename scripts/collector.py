@@ -60,16 +60,16 @@ def fetch_updates(offset):
         m=u.get("channel_post") or u.get("edited_channel_post")
         if m:msgs.append(m)
     return msgs,new_offset
-def cache_coords(name,icao,cache):
+def cache_coords(name,icao,cache,airport=False):
     name=(name or "").strip(); icao=(icao or "").strip().upper()
     if not name:return None
-    key=f"icao:{icao}" if icao else f"place:{name.casefold()}"
+    key=f"icao:{icao}" if icao else (f"airport:place:{name.casefold()}" if airport else f"place:{name.casefold()}")
     old=cache.get(key)
     if isinstance(old,dict) and "lat" in old and "lon" in old:return old
     if isinstance(old,dict) and old.get("notFoundAt"):
         stamp=dt(old["notFoundAt"])
         if stamp and datetime.now(timezone.utc)-stamp<timedelta(days=30):return None
-    queries=[f"{name} airport, Russia",f"{name}, Russia"] if icao or name.casefold().startswith("аэропорт ") else [f"{name}, Russia"]
+    queries=[f"{name} airport, Russia",f"{name}, Russia"] if icao or airport or name.casefold().startswith("аэропорт ") else [f"{name}, Russia"]
     for query in queries:
         params=urllib.parse.urlencode({"q":query,"format":"jsonv2","limit":5,"countrycodes":"ru"})
         req=urllib.request.Request(f"https://nominatim.openstreetmap.org/search?{params}",headers={"User-Agent":"PlankoverAirspaceMap/1.0 (public GitHub Pages project)"})
@@ -78,7 +78,7 @@ def cache_coords(name,icao,cache):
             with urllib.request.urlopen(req,timeout=20) as r:results=json.loads(r.read().decode())
             if results:
                 result=results[0]
-                if icao:
+                if icao or airport:
                     for candidate in results:
                         cls=str(candidate.get("class","")).lower(); typ=str(candidate.get("type","")).lower(); display=str(candidate.get("display_name","")).lower()
                         if "aeroway" in cls or "aerodrome" in typ or "airport" in display:
@@ -89,14 +89,14 @@ def cache_coords(name,icao,cache):
     cache[key]={"notFoundAt":now()};write(CACHE_FILE,cache);return None
 def resolve_event_coords(event, cache):
     """Resolve the restriction center and any explicitly affected airports."""
-    coords=cache_coords(event.get("name"),event.get("icao"),cache)
+    coords=cache_coords(event.get("name"),event.get("icao"),cache,airport=event.get("kind")=="airport")
     if coords:
         event["lat"],event["lon"]=coords["lat"],coords["lon"]
     else:
         event.pop("lat",None);event.pop("lon",None)
 
     for airport in event.get("affectedAirports",[]):
-        coords=cache_coords(airport.get("name"),airport.get("icao"),cache)
+        coords=cache_coords(airport.get("name"),airport.get("icao"),cache,airport=True)
         if coords:
             airport["lat"],airport["lon"]=coords["lat"],coords["lon"]
         else:

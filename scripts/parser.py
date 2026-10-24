@@ -13,6 +13,8 @@ def clean_text(text):
     text = re.sub(r"<[^>]+>", " ", text)
     text = re.sub(r"[*_`~]+", "", text)
     text = re.sub(r"[ \t]+", " ", text)
+    # Telegram sometimes inserts Braille blank characters around airport labels.
+    text = text.replace("\u2800", " ")
     return text.strip()
 
 
@@ -66,61 +68,88 @@ def detect_action(text):
 
 
 def parse_target_line(line):
-    """Return one target from one bullet/line, or None if it is not safely parsed."""
+    """Parse the restriction center and separately identify an explicit KTA marker."""
     line = clean_text(line)
     marker_match = re.search(r"[🔴🟡🟢]", line)
     if not line or not marker_match:
         return None
-    # Take the text after the status marker. This also handles
-    # messages such as "👆 Актуальные ограничения + 🔴 Рыбинск".
-    marker = marker_match.group(0)
+
     body = line[marker_match.end():].strip()
-    explicit_airport = bool(re.match(r"(?:(?:а\s*/\s*д|аэродром|аэропорт(?:а|у|е|ом)?)\s+|(?:✈️|🛩️)\s*)", body, re.I)) or "🛩️" in line or "✈️" in line
+    # An airplane emoji attached directly to the target is the channel's
+    # explicit signal that this restriction is tied to an airport/KTA.
+    in_kta = bool(re.match(r"(?:🛩️|✈️)\s*", body))
+    explicit_airport = bool(re.match(
+        r"(?:(?:а\s*/\s*д|аэродром|аэропорт(?:а|у|е|ом)?)\s+|(?:✈️|🛩️|⛔️?|🚫)\s*)",
+        body,
+        re.I,
+    ))
+
     body = re.sub(r"^(?:а\s*/\s*д|аэродром|аэропорт(?:а|у|е|ом)?)\s+", "", body, flags=re.I)
-    body = re.sub(r"^\s*(?:🛩️|✈️)\s*", "", body)
-    # Ignore the radius tail and any sector description while identifying the place.
+    body = re.sub(r"^\s*(?:🛩️|✈️|⛔️?|🚫)\s*", "", body)
+    # Ignore the radius and sector suffix, but keep parenthetical airport
+    # lists so they can be parsed separately below.
     body = re.split(r"\s*/\s*\d|\bрадиус(?:ом)?\s*\d|\bсектор\b|\bазимут", body, maxsplit=1, flags=re.I)[0].strip(" .,:;—–-")
-    # Generic plural labels are not a single map location.
-    if re.match(r"^[\s⠀]*(?:аэропорты|аэродромы)\b", body, re.I):
+
+    # Generic plural labels are not one map location.
+    if re.match(r"^(?:аэропорты|аэродромы)\b", body, re.I):
         return None
+
+    # A parenthetical group with an ICAO code describes an additional airport
+    # when the main target name/code ends before that group. Do not mistake
+    # the associated airport's ICAO for the restriction-center ICAO.
+    associated_group = next(
+        (m for m in re.finditer(r"\(([^()]*)\)", body)
+         if re.search(r"\b[A-Z]{4}\b", m.group(1))),
+        None,
+    )
+    if associated_group:
+        prefix = body[:associated_group.start()].strip(" ,.:;—–-")
+        if prefix and not re.search(r"\b[A-Z]{4}\b", prefix):
+            name = re.sub(r"\s+", " ", prefix).strip()
+            if name:
+                return {
+                    "name": name,
+                    "icao": None,
+                    "kind": "airport" if explicit_airport else "city",
+                    "locationHint": None,
+                    "inKta": in_kta,
+                }
 
     icao_match = re.search(r"\b([A-Z]{4})\b", body)
     icao = icao_match.group(1) if icao_match else None
     if icao_match:
-        # A city-level circle can list several affected airports in parentheses.
-        # Keep the outer city as the map center instead of anchoring the circle
-        # on whichever airport code happens to appear first.
-        paren = body.find("(")
-        if paren >= 0 and paren < icao_match.start():
-            outer_name = body[:paren].strip(" ,.:;—–-")
-            if outer_name and not re.search(r"[-—–]", outer_name):
-                outer_name = re.sub(r"\s+", " ", outer_name).strip()
-                return {"name": outer_name, "icao": None, "kind": "city", "locationHint": None}
         before = body[:icao_match.start()].strip(" ,()—–-")
-        # Typical format "Калуга - Грабцево, UUBC": airport is the final name after dash.
-        if re.search(r"[-—–]", before):
-            name = re.split(r"\s*[-—–]\s*", before)[-1].strip()
+        # Only split the common "City - Airport" form; preserve internal
+        # hyphens in names such as Йошкар-Ола and Ростов на-Дону.
+        if re.search(r"\s+[-—–]\s+", before):
+            name = re.split(r"\s+[-—–]\s+", before)[-1].strip()
         else:
             name = before
         name = re.sub(r",\s*$", "", name).strip()
         if not name:
             return None
-        return {"name": name, "icao": icao, "kind": "airport", "locationHint": None}
-    # "а/д Клоково, Тула" should keep the city hint for geocoding.
-    if explicit_airport and "," in body:
-        first, rest = [x.strip() for x in body.split(",", 1)]
-        name = f"{first}, {rest}" if rest else first
-    else:
-        name = body
-    name = re.sub(r"\s+", " ", name).strip(" ,.:;—–-")
+        return {
+            "name": name,
+            "icao": icao,
+            "kind": "airport",
+            "locationHint": None,
+            "inKta": in_kta,
+        }
+
+    name = re.sub(r"\s+", " ", body).strip(" ,.:;—–-")
     if not name or len(name) > 100:
         return None
-    return {"name": name, "icao": None, "kind": "airport" if explicit_airport else "city", "locationHint": None}
-
+    return {
+        "name": name,
+        "icao": None,
+        "kind": "airport" if explicit_airport else "city",
+        "locationHint": None,
+        "inKta": in_kta,
+    }
 
 
 def parse_affected_airports(text):
-    """Extract airports explicitly named in a parenthetical restriction target."""
+    """Extract airports explicitly listed in parentheses, never by proximity."""
     airports = {}
     for group in re.findall(r"\(([^()]*)\)", clean_text(text)):
         if not re.search(r"\b[A-Z]{4}\b", group):
@@ -129,7 +158,7 @@ def parse_affected_airports(text):
             if not re.search(r"\b[A-Z]{4}\b", part):
                 continue
             target = parse_target_line("🔴 " + part.strip())
-            if not target or target.get("kind") != "airport" or not target.get("icao"):
+            if not target or not target.get("icao"):
                 continue
             icao = target["icao"]
             airports[icao] = {
@@ -138,6 +167,7 @@ def parse_affected_airports(text):
                 "kind": "airport",
             }
     return list(airports.values())
+
 
 def parse_message(message, published_at=None, source_url=None):
     original = message or ""
@@ -225,10 +255,22 @@ def parse_message(message, published_at=None, source_url=None):
             event["locationHint"] = target["locationHint"]
         if sector:
             event["sector"] = {"radiusKm": radius, **sector}
-        if target.get("kind") != "airport":
-            affected_airports = parse_affected_airports(line)
-            if affected_airports:
-                event["affectedAirports"] = affected_airports
+        affected_airports = parse_affected_airports(line)
+        if affected_airports:
+            event["affectedAirports"] = affected_airports
+
+        # Airport operation notices use a longer Telegram template without the
+        # 🛩️ prefix. Treat only this explicit airport-closure template as KTA.
+        airport_closure_notice = (
+            line_no == 0
+            and bool(re.match(r"^[🔴🟡]\s*аэропорт\b", text, re.I))
+            and bool(re.search(
+                r"введен[ыо]?.{0,100}ограничени\w* на прием и выпуск воздушных судов",
+                text,
+                re.I | re.S,
+            ))
+        )
+        event["inKta"] = bool(target.get("inKta") or (overall_action == "ADD" and airport_closure_notice))
         if snapshot:
             event["snapshot"] = True
         events.append(event)
