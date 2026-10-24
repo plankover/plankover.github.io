@@ -35,8 +35,16 @@ def parse_sector(text):
 
 
 def is_snapshot(text):
-    """Only explicit summary headings trigger destructive reconciliation."""
-    return bool(re.search(r"(?:актуальные\s+ограничени|список\s+актуальных\s+ограничени|текущие\s+ограничени)\s*(?:на\s+\d{1,2}:\d{2}\s*(?:мск)?)?", clean_text(text).lower()))
+    """A snapshot must have a standalone heading, not a heading plus one target."""
+    lines = clean_text(text).splitlines()
+    if not lines:
+        return False
+    heading = re.compile(
+        r"^\s*(?:👆\s*)?(?:список\s+)?(?:актуальные\s+ограничени\w*|текущие\s+ограничени\w*)"
+        r"(?:\s+на\s+\d{1,2}:\d{2}\s*(?:мск)?)?\s*[.!:—–-]*\s*$",
+        re.I,
+    )
+    return bool(heading.match(lines[0]))
 
 
 def detect_action(text):
