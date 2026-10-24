@@ -6,7 +6,7 @@ from unittest.mock import patch
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
-from collector import build_data_payload, fetch_updates, polling_timeout
+from collector import build_data_payload, fetch_updates, polling_timeout, resolve_event_coords
 
 
 class DataPayloadTests(unittest.TestCase):
@@ -43,6 +43,30 @@ class DataPayloadTests(unittest.TestCase):
         self.assertEqual(result["updatedAt"], "2026-10-24T12:05:00+00:00")
         self.assertEqual(result["restrictions"], current_restrictions)
 
+
+
+class AffectedAirportCoordinateTests(unittest.TestCase):
+    def test_resolves_coordinates_for_restriction_and_each_affected_airport(self):
+        event = {
+            "name": "Москва",
+            "icao": None,
+            "affectedAirports": [
+                {"name": "Внуково", "icao": "UUWW", "kind": "airport"},
+                {"name": "Домодедово", "icao": "UUDD", "kind": "airport"},
+            ],
+        }
+        city = {"lat": 55.75, "lon": 37.62}
+        vnukovo = {"lat": 55.59, "lon": 37.26}
+        domodedovo = {"lat": 55.41, "lon": 37.91}
+
+        with patch("collector.cache_coords", side_effect=[city, vnukovo, domodedovo]):
+            result = resolve_event_coords(event, {})
+
+        self.assertEqual((result["lat"], result["lon"]), (55.75, 37.62))
+        self.assertEqual(
+            [(a["lat"], a["lon"]) for a in result["affectedAirports"]],
+            [(55.59, 37.26), (55.41, 37.91)],
+        )
 
 
 class TelegramLongPollingTests(unittest.TestCase):
