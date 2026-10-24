@@ -51,6 +51,15 @@ class ParserTests(unittest.TestCase):
         self.assertEqual([event["action"] for event in events], ["REMOVE", "REMOVE"])
         self.assertEqual([event["icao"] for event in events], ["URSS", "UUBC"])
 
+    def test_green_summary_removes_each_named_airport(self):
+        text = "🟢 Москва (🛩️ Внуково, UUWW; 🛩️ Домодедово, UUDD; 🛩️ Жуковский, UUBW; 🛩️ Шереметьево, UUEE)"
+        events = parse_message(text, "2026-10-24T12:00:00+00:00")
+        self.assertEqual([event["action"] for event in events], ["REMOVE"] * 4)
+        self.assertEqual(
+            [event["icao"] for event in events],
+            ["UUWW", "UUDD", "UUBW", "UUEE"],
+        )
+
     def test_new_global_clear_command(self):
         events = parse_message(
             "✅ Ранее объявленные",
