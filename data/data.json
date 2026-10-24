@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T04:37:50.618944+00:00",
+  "updatedAt": "2026-10-24T09:08:36.637075+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -58,16 +58,16 @@
       "lon": 38.1547897
     },
     {
-      "id": "42543998903d2281",
+      "id": "bc6fd2696c0d7a00",
       "action": "ADD",
-      "name": "Новороссийск (🛩️ Геленджик",
+      "name": "Геленджик",
       "icao": "URKG",
       "kind": "airport",
       "type": "full",
-      "radiusKm": 30.0,
-      "messageTimestamp": "2026-10-23T18:17:23+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5001",
-      "text": "🔴 Новороссийск (🛩️ Геленджик, URKG) / 30 км",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-24T08:03:19+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5022",
+      "text": "🔴🛩️ Геленджик, URKG",
       "lat": 44.5286101,
       "lon": 38.4217926
     },
@@ -114,15 +114,15 @@
       "lon": 45.023455
     },
     {
-      "id": "2419f17516038480",
+      "id": "2382b04377df3288",
       "action": "ADD",
       "name": "Гагарин",
       "icao": "UWSG",
       "kind": "airport",
       "type": "full",
       "radiusKm": null,
-      "messageTimestamp": "2026-10-23T22:37:07+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5006",
+      "messageTimestamp": "2026-10-24T08:03:19+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5022",
       "text": "🔴🛩️ Саратов - Гагарин, UWSG",
       "lat": 51.7139093,
       "lon": 46.1672319
@@ -278,6 +278,62 @@
       "text": "🔴🛩️ Ижевск, USII",
       "lat": 56.8361905,
       "lon": 53.4631283
+    },
+    {
+      "id": "94bd63b4f587c1ec",
+      "action": "ADD",
+      "name": "Большое Савино",
+      "icao": "USPP",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-24T05:21:19+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5019",
+      "text": "🔴🛩️ Пермь - Большое Савино, USPP",
+      "lat": 57.9153712,
+      "lon": 56.0283146
+    },
+    {
+      "id": "01d23a0f672fc94d",
+      "action": "ADD",
+      "name": "Кольцово",
+      "icao": "USSS",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-24T06:16:39+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5020",
+      "text": "🔴🛩️ Екатеринбург - Кольцово, USSS",
+      "lat": 56.7445764,
+      "lon": 60.8027902
+    },
+    {
+      "id": "514934f4986c990e",
+      "action": "ADD",
+      "name": "Курган",
+      "icao": "USUU",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-24T08:03:19+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5022",
+      "text": "🔴🛩️ Курган, USUU",
+      "lat": 55.4750269,
+      "lon": 65.4127512
+    },
+    {
+      "id": "924f3f2ed2f68ff4",
+      "action": "ADD",
+      "name": "Рощино",
+      "icao": "USTR",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-24T08:03:19+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5022",
+      "text": "🔴🛩️ Тюмень - Рощино, USTR",
+      "lat": 57.1799511,
+      "lon": 65.3494166
     }
   ]
 }
