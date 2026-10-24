@@ -22,8 +22,16 @@ def read(path,default):
     except (OSError,json.JSONDecodeError):return default
 def write(path,obj):
     path.parent.mkdir(parents=True,exist_ok=True); tmp=path.with_suffix(path.suffix+".tmp")
-    with tmp.open("w",encoding="utf-8") as f:json.dump(obj,f,ensure_ascii=False,indent=2);f.write("\n")
+    with tmp.open("w",encoding="utf-8") as f:json.dump(obj,f,ensure_ascii=False,indent=2);f.write("\\n")
     tmp.replace(path)
+def canonical(obj):
+    return json.dumps(obj,ensure_ascii=False,sort_keys=True,separators=(",",":"))
+def build_data_payload(existing,restrictions,channel,updated_at):
+    # Preserve updatedAt when the actual map content is unchanged, so periodic
+    # polls without new Telegram activity do not create pointless commits.
+    if existing.get("source")==channel and canonical(existing.get("restrictions",[]))==canonical(restrictions):
+        return existing
+    return {"updatedAt":updated_at,"source":channel,"restrictions":restrictions}
 def api(method,params=None):
     if not TOKEN:raise RuntimeError("Не задан TELEGRAM_BOT_TOKEN в GitHub Secrets.")
     req=urllib.request.Request(f"{API}/{method}",data=urllib.parse.urlencode(params or {}).encode(),headers={"Content-Type":"application/x-www-form-urlencoded"})
@@ -103,6 +111,7 @@ def main():
     chat=api("getChat",{"chat_id":CHANNEL}); chat_id=chat["id"]
     state=read(STATE_FILE,{"lastUpdateId":-1}); offset=int(state.get("lastUpdateId",-1))
     updates,new_offset=fetch_updates(offset); history=read(HISTORY_FILE,[])
+    original_history_json=canonical(history)
     index={(r.get("chatId"),r.get("messageId")):i for i,r in enumerate(history) if r.get("messageId") is not None}
     processed=0
     for m in updates:
@@ -139,7 +148,12 @@ def main():
             )
 
     history.sort(key=lambda r:dt(r.get("timestamp")) or datetime.min.replace(tzinfo=timezone.utc))
-    write(HISTORY_FILE,history);write(STATE_FILE,{"lastUpdateId":new_offset,"lastRunAt":now()})
+    # Avoid writing files when a poll found no new Telegram update and the
+    # migrated archive is already stable. This keeps frequent schedules quiet.
+    if canonical(history)!=original_history_json:
+        write(HISTORY_FILE,history)
+    if new_offset!=offset or processed:
+        write(STATE_FILE,{"lastUpdateId":new_offset,"lastRunAt":now()})
     active=build_active(history);cache=read(CACHE_FILE,{})
     public=[]
     for e in active:
@@ -149,7 +163,10 @@ def main():
         if coords:e["lat"],e["lon"]=coords["lat"],coords["lon"]
         else:e.pop("lat",None);e.pop("lon",None)
         public.append(e)
-    write(DATA_FILE,{"updatedAt":now(),"source":CHANNEL,"restrictions":public})
+    existing_data=read(DATA_FILE,{})
+    payload=build_data_payload(existing_data,public,CHANNEL,now())
+    if canonical(payload)!=canonical(existing_data):
+        write(DATA_FILE,payload)
     print(f"Telegram updates processed: {processed}")
     print(f"Messages in history: {len(history)}")
     print(f"Active restrictions published: {len(public)}")
