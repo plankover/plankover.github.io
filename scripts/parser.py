@@ -35,13 +35,14 @@ def parse_sector(text):
 
 
 def is_snapshot(text):
-    """A snapshot must have a standalone heading, not a heading plus one target."""
+    """A snapshot needs a standalone heading, not a heading plus one target."""
     lines = clean_text(text).splitlines()
     if not lines:
         return False
     heading = re.compile(
-        r"^\s*(?:👆\s*)?(?:список\s+)?(?:актуальные\s+ограничени\w*|текущие\s+ограничени\w*)"
-        r"(?:\s+на\s+\d{1,2}:\d{2}\s*(?:мск)?)?\s*[.!:—–-]*\s*$",
+        r"^\s*(?:🕒\s*)?(?:👆\s*)?(?:список\s+)?"
+        r"(?:актуальные\s+ограничени\w*|текущие\s+ограничени\w*)"
+        r"(?:\s+на\s+\d{1,2}:\d{2}\s*(?:мск)?)?\s*[:.!—–-]*\s*$",
         re.I,
     )
     return bool(heading.match(lines[0]))
@@ -79,9 +80,22 @@ def parse_target_line(line):
     body = re.sub(r"^\s*(?:🛩️|✈️)\s*", "", body)
     # Ignore the radius tail and any sector description while identifying the place.
     body = re.split(r"\s*/\s*\d|\bрадиус(?:ом)?\s*\d|\bсектор\b|\bазимут", body, maxsplit=1, flags=re.I)[0].strip(" .,:;—–-")
+    # Generic plural labels are not a single map location.
+    if re.match(r"^(?:аэропорты|аэродромы)\b", body, re.I):
+        return None
+
     icao_match = re.search(r"\b([A-Z]{4})\b", body)
     icao = icao_match.group(1) if icao_match else None
     if icao_match:
+        # A city-level circle can list several affected airports in parentheses.
+        # Keep the outer city as the map center instead of anchoring the circle
+        # on whichever airport code happens to appear first.
+        paren = body.find("(")
+        if paren >= 0 and paren < icao_match.start():
+            outer_name = body[:paren].strip(" ,.:;—–-")
+            if outer_name and not re.search(r"[-—–]", outer_name):
+                outer_name = re.sub(r"\s+", " ", outer_name).strip()
+                return {"name": outer_name, "icao": None, "kind": "city", "locationHint": None}
         before = body[:icao_match.start()].strip(" ,()—–-")
         # Typical format "Калуга - Грабцево, UUBC": airport is the final name after dash.
         if re.search(r"[-—–]", before):
