@@ -114,13 +114,37 @@ def main():
         if k in index:history[index[k]]=rec
         else:history.append(rec)
         processed+=1
+    # Deduplicate message edits already present in the legacy archive.
+    # Keep the last archived version for each Telegram message ID; duplicate
+    # edited copies otherwise replay stale content as if it were a new event.
+    deduped = {}
+    for position, rec in enumerate(history):
+        if not isinstance(rec, dict):
+            continue
+        mid = rec.get("messageId")
+        chat = rec.get("chatId")
+        key_id = (chat, mid) if mid is not None else ("legacy", position)
+        deduped[key_id] = rec
+    history = list(deduped.values())
+
+    # Re-parse saved messages with the current parser. This migrates old
+    # UNKNOWN green-marker posts into explicit REMOVE events without needing
+    # to fetch the channel's full historical backlog from Telegram.
+    for rec in history:
+        if isinstance(rec, dict) and isinstance(rec.get("text"), str):
+            rec["events"] = parse_message(
+                rec.get("text", ""),
+                rec.get("timestamp"),
+                rec.get("sourceUrl"),
+            )
+
     history.sort(key=lambda r:dt(r.get("timestamp")) or datetime.min.replace(tzinfo=timezone.utc))
     write(HISTORY_FILE,history);write(STATE_FILE,{"lastUpdateId":new_offset,"lastRunAt":now()})
     active=build_active(history);cache=read(CACHE_FILE,{})
     public=[]
     for e in active:
-        when=dt(e.get("messageTimestamp"))
-        if when and datetime.now(timezone.utc)-when>=timedelta(hours=24):continue
+        # Active restrictions remain until an explicit removal/clear event.
+        # Do not expire them merely because 24 hours have elapsed.
         coords=cache_coords(e.get("name"),e.get("icao"),cache)
         if coords:e["lat"],e["lon"]=coords["lat"],coords["lon"]
         else:e.pop("lat",None);e.pop("lon",None)

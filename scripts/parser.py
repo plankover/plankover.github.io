@@ -35,13 +35,22 @@ def parse_sector(text):
 
 
 def is_snapshot(text):
-    """Only explicit summary headings trigger destructive reconciliation."""
-    return bool(re.search(r"(?:актуальные\s+ограничени|список\s+актуальных\s+ограничени|текущие\s+ограничени)\s*(?:на\s+\d{1,2}:\d{2}\s*(?:мск)?)?", clean_text(text).lower()))
+    """A snapshot needs a standalone heading, not a heading plus one target."""
+    lines = clean_text(text).splitlines()
+    if not lines:
+        return False
+    heading = re.compile(
+        r"^\s*(?:🕒\s*)?(?:👆\s*)?(?:список\s+)?"
+        r"(?:актуальные\s+ограничени\w*|текущие\s+ограничени\w*)"
+        r"(?:\s+на\s+\d{1,2}:\d{2}\s*(?:мск)?)?\s*[:.!—–-]*\s*$",
+        re.I,
+    )
+    return bool(heading.match(lines[0]))
 
 
 def detect_action(text):
     t = re.sub(r"\s+", " ", clean_text(text).lower()).strip()
-    if re.search(r"🟢\s*ранее\s+объявлен", t):
+    if re.search(r"(?:🟢|✅)\s*ранее\s+объявлен", t):
         return "CLEAR"
     removal = re.search(r"(?:сняты|снято|отменены|отменено|прекращены|прекращено)", t)
     topic = re.search(r"(?:ограничени|при[её]м|выпуск|работ[ау]\s+аэропорт|аэропорт)", t)
@@ -59,18 +68,34 @@ def detect_action(text):
 def parse_target_line(line):
     """Return one target from one bullet/line, or None if it is not safely parsed."""
     line = clean_text(line)
-    if not line or not re.search(r"[🔴🟡]", line):
+    marker_match = re.search(r"[🔴🟡🟢]", line)
+    if not line or not marker_match:
         return None
-    # Remove status emoji and leading bullet-like symbols.
-    body = re.sub(r"^\s*[🔴🟡⚠️✈️🛩️\s]+", "", line).strip()
+    # Take the text after the status marker. This also handles
+    # messages such as "👆 Актуальные ограничения + 🔴 Рыбинск".
+    marker = marker_match.group(0)
+    body = line[marker_match.end():].strip()
     explicit_airport = bool(re.match(r"(?:(?:а\s*/\s*д|аэродром|аэропорт(?:а|у|е|ом)?)\s+|(?:✈️|🛩️)\s*)", body, re.I)) or "🛩️" in line or "✈️" in line
     body = re.sub(r"^(?:а\s*/\s*д|аэродром|аэропорт(?:а|у|е|ом)?)\s+", "", body, flags=re.I)
     body = re.sub(r"^\s*(?:🛩️|✈️)\s*", "", body)
     # Ignore the radius tail and any sector description while identifying the place.
     body = re.split(r"\s*/\s*\d|\bрадиус(?:ом)?\s*\d|\bсектор\b|\bазимут", body, maxsplit=1, flags=re.I)[0].strip(" .,:;—–-")
+    # Generic plural labels are not a single map location.
+    if re.match(r"^[\s⠀]*(?:аэропорты|аэродромы)\b", body, re.I):
+        return None
+
     icao_match = re.search(r"\b([A-Z]{4})\b", body)
     icao = icao_match.group(1) if icao_match else None
     if icao_match:
+        # A city-level circle can list several affected airports in parentheses.
+        # Keep the outer city as the map center instead of anchoring the circle
+        # on whichever airport code happens to appear first.
+        paren = body.find("(")
+        if paren >= 0 and paren < icao_match.start():
+            outer_name = body[:paren].strip(" ,.:;—–-")
+            if outer_name and not re.search(r"[-—–]", outer_name):
+                outer_name = re.sub(r"\s+", " ", outer_name).strip()
+                return {"name": outer_name, "icao": None, "kind": "city", "locationHint": None}
         before = body[:icao_match.start()].strip(" ,()—–-")
         # Typical format "Калуга - Грабцево, UUBC": airport is the final name after dash.
         if re.search(r"[-—–]", before):
@@ -106,18 +131,50 @@ def parse_message(message, published_at=None, source_url=None):
     digest = hashlib.sha256(f"{ts}|{text}".encode()).hexdigest()[:16]
     snapshot = is_snapshot(text)
 
-    if re.search(r"🟢\s*ранее\s+объявлен", text.lower()):
+    if re.search(r"(?:🟢|✅)\s*ранее\s+объявлен", text.lower()):
         return [{"id": digest, "action": "CLEAR", "messageTimestamp": ts, "text": text, "sourceUrl": source_url}]
 
-    # Ordinary removal messages keep their existing non-destructive handling.
+    # If a removal message contains named green-marked targets, parse those
+    # targets first so they can be removed individually. Unnamed removals stay
+    # unresolved and therefore do not accidentally clear the whole map.
     overall_action = detect_action(original)
-    if overall_action == "REMOVE" and not snapshot:
-        return [{"id": digest, "action": "REMOVE", "messageTimestamp": ts, "text": text, "sourceUrl": source_url, "unresolved": True}]
-
     events = []
     lines = text.splitlines() or [text]
     failed_snapshot_line = False
     for line_no, line in enumerate(lines):
+        # A green summary can name several airports in parentheses. Convert
+        # each semicolon-separated airport entry into an individual removal.
+        multi_green_targets = []
+        if "🟢" in line:
+            group = re.search(r"\(([^()]*)\)", line)
+            if group and len(re.findall(r"\b[A-Z]{4}\b", group.group(1))) >= 2:
+                for part in group.group(1).split(";"):
+                    if re.search(r"\b[A-Z]{4}\b", part):
+                        multi_green_targets.append("🟢 " + part.strip())
+        if multi_green_targets:
+            for sub_no, subline in enumerate(multi_green_targets):
+                target = parse_target_line(subline)
+                if not target:
+                    continue
+                radius = parse_radius(line)
+                sector = parse_sector(line)
+                key = target.get("icao") or target["name"].casefold()
+                eid = hashlib.sha256(f"{digest}|{key}|{line_no}|{sub_no}".encode()).hexdigest()[:16]
+                event = {
+                    "id": eid,
+                    "action": "REMOVE",
+                    "name": target["name"],
+                    "icao": target.get("icao"),
+                    "kind": target["kind"],
+                    "type": "full",
+                    "radiusKm": radius,
+                    "messageTimestamp": ts,
+                    "sourceUrl": source_url,
+                    "text": subline,
+                }
+                events.append(event)
+            continue
+
         target = parse_target_line(line)
         if not target:
             if snapshot and re.search(r"[🔴🟡]", line):
@@ -125,12 +182,15 @@ def parse_message(message, published_at=None, source_url=None):
             continue
         radius = parse_radius(line)
         sector = parse_sector(line)
-        yellow = "🟡" in line
+        marker_match = re.search(r"[🔴🟡🟢]", line)
+        marker = marker_match.group(0) if marker_match else ""
+        yellow = marker == "🟡"
+        line_action = "REMOVE" if marker == "🟢" else "ADD"
         key = target.get("icao") or target["name"].casefold()
         eid = hashlib.sha256(f"{digest}|{key}|{line_no}".encode()).hexdigest()[:16]
         event = {
             "id": eid,
-            "action": "ADD",
+            "action": line_action,
             "name": target["name"],
             "icao": target.get("icao"),
             "kind": target["kind"],
