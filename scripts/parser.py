@@ -14,7 +14,7 @@ def clean_text(text):
     text = re.sub(r"[*_`~]+", "", text)
     text = re.sub(r"[ \t]+", " ", text)
     # Telegram sometimes inserts Braille blank characters around airport labels.
-    text = text.replace("\\u2800", " ")
+    text = text.replace("\u2800", " ")
     return text.strip()
 
 
