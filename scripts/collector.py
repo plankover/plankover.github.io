@@ -45,8 +45,15 @@ def message_url(m):
     if username and mid:return f"https://t.me/{username}/{mid}"
     channel=CHANNEL.removeprefix("@")
     return f"https://t.me/{channel}/{mid}" if channel and mid else None
+def polling_timeout():
+    """Return Telegram long-poll timeout, capped at the Bot API maximum."""
+    try:
+        return min(50, max(0, int(os.environ.get("TELEGRAM_LONG_POLL_TIMEOUT_SECONDS", "0"))))
+    except (TypeError, ValueError):
+        return 0
+
 def fetch_updates(offset):
-    updates=api("getUpdates",{"offset":offset+1,"timeout":0,"allowed_updates":json.dumps(["channel_post","edited_channel_post"])})
+    updates=api("getUpdates",{"offset":offset+1,"timeout":polling_timeout(),"allowed_updates":json.dumps(["channel_post","edited_channel_post"])})
     new_offset=offset; msgs=[]
     for u in updates:
         if isinstance(u.get("update_id"),int):new_offset=max(new_offset,u["update_id"])
