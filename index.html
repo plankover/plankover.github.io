@@ -404,8 +404,9 @@
     return html;
   }
 
-  function isAirportRestriction(item) {
-    return item.kind === "airport" || Boolean(String(item.icao || "").trim());
+  function isKtaRestriction(item) {
+    // KTA status is explicit parser metadata, not inferred from the location name.
+    return item.inKta === true;
   }
 
   function addAirplanePoint(groups, location, item, role) {
@@ -509,9 +510,9 @@
     const fill = partial ? "#ffc34d" : "#ff515b";
     const radius = getRadius(item);
     const sector = getSector(item);
-    const airportRestriction = isAirportRestriction(item);
+    const ktaRestriction = isKtaRestriction(item);
 
-    if (airportRestriction) {
+    if (isKtaRestriction(item)) {
       addAirplanePoint(airplaneGroups, item, item, "kta");
     }
     if (Array.isArray(item.affectedAirports)) {
@@ -540,7 +541,7 @@
     }
 
     shape.bindPopup(popupHtml(item)).addTo(layer);
-    if (!airportRestriction) bindCenterHover(shape, coords);
+    if (!ktaRestriction) bindCenterHover(shape, coords);
   }
   function filteredItems() {
     const query = $("search").value.trim().toLocaleLowerCase("ru");
