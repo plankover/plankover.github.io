@@ -22,7 +22,7 @@ def read(path,default):
     except (OSError,json.JSONDecodeError):return default
 def write(path,obj):
     path.parent.mkdir(parents=True,exist_ok=True); tmp=path.with_suffix(path.suffix+".tmp")
-    with tmp.open("w",encoding="utf-8") as f:json.dump(obj,f,ensure_ascii=False,indent=2);f.write("\\n")
+    with tmp.open("w",encoding="utf-8") as f:json.dump(obj,f,ensure_ascii=False,indent=2);f.write("\n")
     tmp.replace(path)
 def canonical(obj):
     return json.dumps(obj,ensure_ascii=False,sort_keys=True,separators=(",",":"))
