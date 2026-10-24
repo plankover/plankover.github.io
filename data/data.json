@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T19:23:01.382883+00:00",
+  "updatedAt": "2026-10-24T20:17:42.209887+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -61,6 +61,36 @@
       "inKta": false,
       "lat": 51.3677214,
       "lon": 42.1756878
+    },
+    {
+      "id": "90d5d22cef84c4aa",
+      "action": "ADD",
+      "name": "Дягилево, Рязань",
+      "icao": null,
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 70.0,
+      "messageTimestamp": "2026-10-24T19:45:54+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5047",
+      "text": "🔴 а/д Дягилево, Рязань / 70 км",
+      "inKta": false,
+      "lat": 54.6571958,
+      "lon": 39.6308884
+    },
+    {
+      "id": "edfe0e51523df2c7",
+      "action": "ADD",
+      "name": "Чкалов",
+      "icao": "UWGG",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-24T19:58:30+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5048",
+      "text": "🔴🛩️ Нижний Новгород - Чкалов, UWGG",
+      "inKta": true,
+      "lat": 56.2295198,
+      "lon": 43.7840064
     }
   ]
 }

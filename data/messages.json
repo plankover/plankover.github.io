@@ -12195,5 +12195,49 @@
         "inKta": false
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5047,
+    "timestamp": "2026-10-24T19:45:54+00:00",
+    "text": "🔴 а/д Дягилево, Рязань / 70 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5047",
+    "events": [
+      {
+        "id": "90d5d22cef84c4aa",
+        "action": "ADD",
+        "name": "Дягилево, Рязань",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-10-24T19:45:54+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5047",
+        "text": "🔴 а/д Дягилево, Рязань / 70 км",
+        "inKta": false
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5048,
+    "timestamp": "2026-10-24T19:58:30+00:00",
+    "text": "🔴🛩️ Нижний Новгород - Чкалов, UWGG",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5048",
+    "events": [
+      {
+        "id": "edfe0e51523df2c7",
+        "action": "ADD",
+        "name": "Чкалов",
+        "icao": "UWGG",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-24T19:58:30+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5048",
+        "text": "🔴🛩️ Нижний Новгород - Чкалов, UWGG",
+        "inKta": true
+      }
+    ]
   }
 ]
