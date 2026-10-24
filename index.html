@@ -469,11 +469,34 @@
       interactive: false,
       bubblingMouseEvents: false
     });
-    shape.on("mouseover", () => {
+    let hovered = false;
+    let popupOpen = false;
+    const show = () => {
       if (!layer.hasLayer(centerDot)) centerDot.addTo(layer);
+    };
+    const hideWhenInactive = () => {
+      if (!hovered && !popupOpen && layer.hasLayer(centerDot)) {
+        layer.removeLayer(centerDot);
+      }
+    };
+
+    shape.on("mouseover", () => {
+      hovered = true;
+      show();
     });
     shape.on("mouseout", () => {
-      if (layer.hasLayer(centerDot)) layer.removeLayer(centerDot);
+      hovered = false;
+      hideWhenInactive();
+    });
+    // Touchscreens have no reliable hover: show the center while its popup
+    // is open after a tap, then remove it when the popup closes.
+    shape.on("popupopen", () => {
+      popupOpen = true;
+      show();
+    });
+    shape.on("popupclose", () => {
+      popupOpen = false;
+      hideWhenInactive();
     });
   }
 
