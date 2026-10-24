@@ -27,7 +27,7 @@ jobs:
           from pathlib import Path
 
           html = Path("index.html").read_text(encoding="utf-8")
-          scripts = re.findall(r"<script>\\s*(.*?)\\s*</script>", html, re.S)
+          scripts = re.findall(r"<script>\s*(.*?)\s*</script>", html, re.S)
           if len(scripts) != 1:
               raise SystemExit(f"Expected one inline map script, found {len(scripts)}")
           Path("/tmp/map-inline.js").write_text(scripts[0], encoding="utf-8")
