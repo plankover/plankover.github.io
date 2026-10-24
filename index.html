@@ -528,8 +528,10 @@
     if (!coords) return;
 
     const partial = isPartial(item);
-    const color = partial ? "#ffc34d" : "#ff515b";
-    const fill = partial ? "#ffc34d" : "#ff515b";
+    // Restriction geometry stays red; yellow is reserved for the affected
+    // airport marker that is shown by addAirplanePoint/drawAirplaneMarker.
+    const color = "#ff515b";
+    const fill = "#ff515b";
     const radius = getRadius(item);
     const sector = getSector(item);
     const ktaRestriction = isKtaRestriction(item);
