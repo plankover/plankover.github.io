@@ -114,6 +114,19 @@ def main():
         if k in index:history[index[k]]=rec
         else:history.append(rec)
         processed+=1
+    # Deduplicate message edits already present in the legacy archive.
+    # Keep the last archived version for each Telegram message ID; duplicate
+    # edited copies otherwise replay stale content as if it were a new event.
+    deduped = {}
+    for position, rec in enumerate(history):
+        if not isinstance(rec, dict):
+            continue
+        mid = rec.get("messageId")
+        chat = rec.get("chatId")
+        key_id = (chat, mid) if mid is not None else ("legacy", position)
+        deduped[key_id] = rec
+    history = list(deduped.values())
+
     # Re-parse saved messages with the current parser. This migrates old
     # UNKNOWN green-marker posts into explicit REMOVE events without needing
     # to fetch the channel's full historical backlog from Telegram.
