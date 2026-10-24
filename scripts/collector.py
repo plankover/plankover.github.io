@@ -87,6 +87,22 @@ def cache_coords(name,icao,cache):
                 cache[key]=coords;write(CACHE_FILE,cache);return coords
         except Exception as e:print(f"Не удалось найти координаты для {query}: {e}")
     cache[key]={"notFoundAt":now()};write(CACHE_FILE,cache);return None
+def resolve_event_coords(event, cache):
+    """Resolve the restriction center and any explicitly affected airports."""
+    coords=cache_coords(event.get("name"),event.get("icao"),cache)
+    if coords:
+        event["lat"],event["lon"]=coords["lat"],coords["lon"]
+    else:
+        event.pop("lat",None);event.pop("lon",None)
+
+    for airport in event.get("affectedAirports",[]):
+        coords=cache_coords(airport.get("name"),airport.get("icao"),cache)
+        if coords:
+            airport["lat"],airport["lon"]=coords["lat"],coords["lon"]
+        else:
+            airport.pop("lat",None);airport.pop("lon",None)
+    return event
+
 def key(e):
     icao=(e.get("icao") or "").strip().upper(); name=(e.get("name") or "").strip().casefold()
     return f"icao:{icao}" if icao else f"place:{name}"
@@ -166,10 +182,9 @@ def main():
     for e in active:
         # Active restrictions remain until an explicit removal/clear event.
         # Do not expire them merely because 24 hours have elapsed.
-        coords=cache_coords(e.get("name"),e.get("icao"),cache)
-        if coords:e["lat"],e["lon"]=coords["lat"],coords["lon"]
-        else:e.pop("lat",None);e.pop("lon",None)
-        public.append(e)
+        # Airport markers are published only for airports explicitly listed
+        # as affected in the source message; geographic proximity is not enough.
+        public.append(resolve_event_coords(e,cache))
     existing_data=read(DATA_FILE,{})
     payload=build_data_payload(existing_data,public,CHANNEL,now())
     if canonical(payload)!=canonical(existing_data):
