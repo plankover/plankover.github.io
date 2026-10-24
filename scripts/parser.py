@@ -142,6 +142,39 @@ def parse_message(message, published_at=None, source_url=None):
     lines = text.splitlines() or [text]
     failed_snapshot_line = False
     for line_no, line in enumerate(lines):
+        # A green summary can name several airports in parentheses. Convert
+        # each semicolon-separated airport entry into an individual removal.
+        multi_green_targets = []
+        if "🟢" in line:
+            group = re.search(r"\(([^()]*)\)", line)
+            if group and len(re.findall(r"\b[A-Z]{4}\b", group.group(1))) >= 2:
+                for part in group.group(1).split(";"):
+                    if re.search(r"\b[A-Z]{4}\b", part):
+                        multi_green_targets.append("🟢 " + part.strip())
+        if multi_green_targets:
+            for sub_no, subline in enumerate(multi_green_targets):
+                target = parse_target_line(subline)
+                if not target:
+                    continue
+                radius = parse_radius(line)
+                sector = parse_sector(line)
+                key = target.get("icao") or target["name"].casefold()
+                eid = hashlib.sha256(f"{digest}|{key}|{line_no}|{sub_no}".encode()).hexdigest()[:16]
+                event = {
+                    "id": eid,
+                    "action": "REMOVE",
+                    "name": target["name"],
+                    "icao": target.get("icao"),
+                    "kind": target["kind"],
+                    "type": "full",
+                    "radiusKm": radius,
+                    "messageTimestamp": ts,
+                    "sourceUrl": source_url,
+                    "text": subline,
+                }
+                events.append(event)
+            continue
+
         target = parse_target_line(line)
         if not target:
             if snapshot and re.search(r"[🔴🟡]", line):
