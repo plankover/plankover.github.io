@@ -149,10 +149,11 @@
     .popup-muted { color: #a3b2c6; font-size: 12px; }
     .map-marker {
       width: 24px; height: 24px; border-radius: 50% 50% 50% 4px;
-      transform: rotate(-45deg); border: 2px solid white;
+      transform: rotate(-45deg); border: 2px solid #233449;
+      background: #f1f5f9; color: #101722;
       box-shadow: 0 2px 9px #0005; display: grid; place-items: center;
     }
-    .map-marker span { transform: rotate(45deg); color: #101722; font-size: 12px; }
+    .map-marker span { transform: rotate(45deg); color: #101722; font-size: 13px; line-height: 1; }
     footer { color: var(--muted); font-size: 11px; padding: 12px 20px; border-top: 1px solid var(--line); }
     footer a { color: #a7c7ff; text-decoration: none; }
     @media (max-width: 850px) {
@@ -403,7 +404,76 @@
     return html;
   }
 
-  function drawItem(item) {
+  function isAirportRestriction(item) {
+    return item.kind === "airport" || Boolean(String(item.icao || "").trim());
+  }
+
+  function addAirplanePoint(groups, location, item, role) {
+    const coords = getCoords(location);
+    if (!coords) return;
+
+    const icao = String(location.icao || "").trim().toUpperCase();
+    const key = icao || `coords:${coords[0].toFixed(4)},${coords[1].toFixed(4)}`;
+    let group = groups.get(key);
+    if (!group) {
+      group = { coords, name: getName(location), icao, entries: [] };
+      groups.set(key, group);
+    }
+    // One airplane per airport, even when multiple active restrictions refer to it.
+    if (!group.entries.some(entry => entry.item._id === item._id)) {
+      group.entries.push({ item, role });
+    }
+  }
+
+  function airplanePopupHtml(group) {
+    const airportName = group.icao
+      ? `${esc(group.name)} (${esc(group.icao)})`
+      : esc(group.name);
+    let html = `<div class="popup-title">✈ ${airportName}</div>`;
+    for (const entry of group.entries) {
+      const context = entry.role === "affected"
+        ? "Аэропорт явно указан как затронутый в сообщении Telegram"
+        : "Ограничение в КТА";
+      html += `<div style="border-top:1px solid #344357;margin-top:8px;padding-top:8px">
+        <div class="popup-muted">${context}</div>
+        ${popupHtml(entry.item)}
+      </div>`;
+    }
+    return html;
+  }
+
+  function drawAirplaneMarker(group) {
+    const marker = L.marker(group.coords, {
+      icon: L.divIcon({
+        className: "",
+        html: '<div class="map-marker"><span>✈</span></div>',
+        iconSize: [24, 24],
+        iconAnchor: [12, 20]
+      })
+    });
+    marker.bindPopup(airplanePopupHtml(group), { maxWidth: 320 });
+    marker.addTo(layer);
+  }
+
+  function bindCenterHover(shape, coords) {
+    const centerDot = L.circleMarker(coords, {
+      radius: 3,
+      color: "#233449",
+      weight: 1,
+      fillColor: "#f8fafc",
+      fillOpacity: 1,
+      interactive: false,
+      bubblingMouseEvents: false
+    });
+    shape.on("mouseover", () => {
+      if (!layer.hasLayer(centerDot)) centerDot.addTo(layer);
+    });
+    shape.on("mouseout", () => {
+      if (layer.hasLayer(centerDot)) layer.removeLayer(centerDot);
+    });
+  }
+
+  function drawItem(item, airplaneGroups) {
     const coords = getCoords(item);
     if (!coords) return;
 
@@ -412,31 +482,39 @@
     const fill = partial ? "#ffc34d" : "#ff515b";
     const radius = getRadius(item);
     const sector = getSector(item);
+    const airportRestriction = isAirportRestriction(item);
 
-    const marker = L.marker(coords, {
-      icon: L.divIcon({
-        className: "",
-        html: `<div class="map-marker" style="background:${color}"><span>✈</span></div>`,
-        iconSize: [24, 24],
-        iconAnchor: [12, 20]
-      })
-    });
-    marker.bindPopup(popupHtml(item));
-    marker.on("click", () => selectItem(item._id, false));
-    marker.addTo(layer);
+    if (airportRestriction) {
+      addAirplanePoint(airplaneGroups, item, item, "kta");
+    }
+    if (Array.isArray(item.affectedAirports)) {
+      for (const airport of item.affectedAirports) {
+        addAirplanePoint(airplaneGroups, airport, item, "affected");
+      }
+    }
 
+    let shape;
     if (sector) {
-      L.polygon(sectorPoints(coords[0], coords[1], sector.radius, sector.start, sector.end), {
+      shape = L.polygon(sectorPoints(coords[0], coords[1], sector.radius, sector.start, sector.end), {
         color, weight: 2, opacity: .9, fillColor: fill, fillOpacity: .2
-      }).bindPopup(popupHtml(item)).addTo(layer);
+      });
     } else if (radius) {
-      L.circle(coords, {
+      shape = L.circle(coords, {
         radius: radius * 1000, color, weight: 2, opacity: .9,
         fillColor: fill, fillOpacity: .12
-      }).bindPopup(popupHtml(item)).addTo(layer);
+      });
+    } else {
+      // Keep an otherwise unmarked point restriction hoverable without adding
+      // a permanent icon that would clutter the map.
+      shape = L.circleMarker(coords, {
+        radius: 12, color: "#233449", weight: 1, opacity: .01,
+        fillColor: "#f8fafc", fillOpacity: .01
+      });
     }
-  }
 
+    shape.bindPopup(popupHtml(item)).addTo(layer);
+    if (!airportRestriction) bindCenterHover(shape, coords);
+  }
   function filteredItems() {
     const query = $("search").value.trim().toLocaleLowerCase("ru");
     return allItems.filter(item => {
@@ -512,7 +590,9 @@
 
   function render() {
     layer.clearLayers();
-    allItems.forEach(drawItem);
+    const airplaneGroups = new Map();
+    allItems.forEach(item => drawItem(item, airplaneGroups));
+    airplaneGroups.forEach(drawAirplaneMarker);
     const full = allItems.filter(item => !isPartial(item)).length;
     const partial = allItems.filter(isPartial).length;
     const stale = allItems.filter(item => getStatus(item).stale).length;
