@@ -11058,5 +11058,63 @@
         "text": "🟢🛩️ Сочи, URSS"
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5041,
+    "timestamp": "2026-10-24T14:02:26+00:00",
+    "text": "🟢🛩️ Сургут, USRR",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5041",
+    "events": [
+      {
+        "id": "49fc7140c062fc8b",
+        "action": "REMOVE",
+        "name": "Сургут",
+        "icao": "USRR",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-24T14:02:26+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5041",
+        "text": "🟢🛩️ Сургут, USRR"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5042,
+    "timestamp": "2026-10-24T16:03:03+00:00",
+    "text": "🔴🛩️ Омск - Центральный, UNOO",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5042",
+    "events": [
+      {
+        "id": "d4b2bb9085381251",
+        "action": "ADD",
+        "name": "Центральный",
+        "icao": "UNOO",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-24T16:03:03+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5042",
+        "text": "🔴🛩️ Омск - Центральный, UNOO"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5043,
+    "timestamp": "2026-10-24T16:16:23+00:00",
+    "text": "✅ Ранее объявленные",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5043",
+    "events": [
+      {
+        "id": "17bf53c0eca410c2",
+        "action": "CLEAR",
+        "messageTimestamp": "2026-10-24T16:16:23+00:00",
+        "text": "✅ Ранее объявленные",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5043"
+      }
+    ]
   }
 ]
