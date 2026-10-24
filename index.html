@@ -271,6 +271,8 @@
   const ARCHIVE_AFTER = 24 * HOUR;
 
   const map = L.map("map", { zoomControl: false }).setView([55.75, 55.5], 4);
+  // Keep required map data attribution, but remove Leaflet promotional prefix/link.
+  map.attributionControl.setPrefix(false);
   L.control.zoom({ position: "bottomright" }).addTo(map);
 
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
