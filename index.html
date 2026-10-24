@@ -452,6 +452,10 @@
       })
     });
     marker.bindPopup(airplanePopupHtml(group), { maxWidth: 320 });
+    marker.on("click", () => {
+      const firstEntry = group.entries[0];
+      if (firstEntry) selectItem(firstEntry.item._id, false, false);
+    });
     marker.addTo(layer);
   }
 
@@ -529,13 +533,14 @@
     });
   }
 
-  function selectItem(id, moveMap = true) {
+  function selectItem(id, moveMap = true, openPopup = true) {
     selectedId = id;
     renderList();
     const item = allItems.find(entry => entry._id === id);
     if (!item) return;
     const coords = getCoords(item);
     if (coords && moveMap) map.flyTo(coords, Math.max(map.getZoom(), 7), { duration: .6 });
+    if (!openPopup) return;
     layer.eachLayer(entry => {
       if (entry.getLatLng && coords) {
         const point = entry.getLatLng();
