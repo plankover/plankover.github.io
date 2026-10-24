@@ -59,6 +59,30 @@ class ParserTests(unittest.TestCase):
         self.assertEqual(len(events), 1)
         self.assertEqual(events[0]["action"], "CLEAR")
 
+    def test_clock_prefixed_snapshot_heading(self):
+        text = "🕒 Актуальные ограничения на 16:45 мск:\\n\\n🔴🛩️ Калуга - Грабцево, UUBC / 70 км"
+        self.assertTrue(is_snapshot(text))
+        events = parse_message(text, "2026-10-24T12:00:00+00:00")
+        self.assertEqual(len(events), 1)
+        self.assertTrue(events[0].get("snapshot"))
+
+    def test_generic_airports_heading_is_not_a_target(self):
+        events = parse_message(
+            "🟢⠀Аэропорты\\n\\n— ВНУКОВО\\n— КАЛУГА (Грабцево)",
+            "2026-10-24T12:00:00+00:00",
+        )
+        self.assertEqual(events[0]["action"], "UNKNOWN")
+
+    def test_city_circle_does_not_use_first_airport_as_center(self):
+        events = parse_message(
+            "🔴 Москва (🛩️ Внуково, UUWW; 🛩️ Домодедово, UUDD; 🛩️ Жуковский, UUBW; 🛩️ Шереметьево, UUEE) / 150 км",
+            "2026-10-24T12:00:00+00:00",
+        )
+        self.assertEqual(len(events), 1)
+        self.assertEqual(events[0]["name"], "Москва")
+        self.assertIsNone(events[0]["icao"])
+        self.assertEqual(events[0]["kind"], "city")
+
 
 if __name__ == "__main__":
     unittest.main()
