@@ -12272,5 +12272,133 @@
         "inKta": false
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5049,
+    "timestamp": "2026-10-24T20:36:40+00:00",
+    "text": "🕒 Актуальные ограничения на 23:35 мск:\n\n🔴🛩️ Калуга - Грабцево, UUBC / 70 км\n🔴🛩️ Тамбов - Донское, UUOT / 50 км\n🔴 Дзержинск (🛩️ Нижний Новгород - Чкалов, UWGG) / 20 км\n\n🔴 а/д Клоково, Тула / 70 км\n🔴 а/д Дягилево, Рязань / 70 км\n🔴 а/д Саваслейка / 50 км\n🔴 а/д Борисоглебск / 50 км\n🔴 Кстово / 20 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5049",
+    "events": [
+      {
+        "id": "0cf26cbb32ab8cc3",
+        "action": "ADD",
+        "name": "Грабцево",
+        "icao": "UUBC",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-10-24T20:36:40+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5049",
+        "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км",
+        "inKta": true,
+        "snapshot": true
+      },
+      {
+        "id": "09b226e073e9f9c1",
+        "action": "ADD",
+        "name": "Донское",
+        "icao": "UUOT",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 50.0,
+        "messageTimestamp": "2026-10-24T20:36:40+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5049",
+        "text": "🔴🛩️ Тамбов - Донское, UUOT / 50 км",
+        "inKta": true,
+        "snapshot": true
+      },
+      {
+        "id": "6cc1b3c180750620",
+        "action": "ADD",
+        "name": "Дзержинск",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 20.0,
+        "messageTimestamp": "2026-10-24T20:36:40+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5049",
+        "text": "🔴 Дзержинск (🛩️ Нижний Новгород - Чкалов, UWGG) / 20 км",
+        "affectedAirports": [
+          {
+            "name": "Чкалов",
+            "icao": "UWGG",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false,
+        "snapshot": true
+      },
+      {
+        "id": "b219fe6e0fc5dcef",
+        "action": "ADD",
+        "name": "Клоково, Тула",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-10-24T20:36:40+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5049",
+        "text": "🔴 а/д Клоково, Тула / 70 км",
+        "inKta": false,
+        "snapshot": true
+      },
+      {
+        "id": "be1de5fe81e76c4c",
+        "action": "ADD",
+        "name": "Дягилево, Рязань",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-10-24T20:36:40+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5049",
+        "text": "🔴 а/д Дягилево, Рязань / 70 км",
+        "inKta": false,
+        "snapshot": true
+      },
+      {
+        "id": "1c54068b628baf08",
+        "action": "ADD",
+        "name": "Саваслейка",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 50.0,
+        "messageTimestamp": "2026-10-24T20:36:40+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5049",
+        "text": "🔴 а/д Саваслейка / 50 км",
+        "inKta": false,
+        "snapshot": true
+      },
+      {
+        "id": "f42fe8ec9674c3e9",
+        "action": "ADD",
+        "name": "Борисоглебск",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 50.0,
+        "messageTimestamp": "2026-10-24T20:36:40+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5049",
+        "text": "🔴 а/д Борисоглебск / 50 км",
+        "inKta": false,
+        "snapshot": true
+      },
+      {
+        "id": "f3ec8975e72e22f5",
+        "action": "ADD",
+        "name": "Кстово",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 20.0,
+        "messageTimestamp": "2026-10-24T20:36:40+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5049",
+        "text": "🔴 Кстово / 20 км",
+        "inKta": false,
+        "snapshot": true
+      }
+    ]
   }
 ]
