@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T22:14:27.227344+00:00",
+  "updatedAt": "2026-10-24T23:36:28.012386+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -390,6 +390,83 @@
       "inKta": false,
       "lat": 52.392879,
       "lon": 45.885208
+    },
+    {
+      "id": "0f7d81929ba49906",
+      "action": "ADD",
+      "name": "Сызрань",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 50.0,
+      "messageTimestamp": "2026-10-24T22:46:20+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5062",
+      "text": "🔴 Сызрань / 50 км",
+      "inKta": false,
+      "lat": 53.15538,
+      "lon": 48.474121
+    },
+    {
+      "id": "4140205a4216ada2",
+      "action": "ADD",
+      "name": "Канаш",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 150.0,
+      "messageTimestamp": "2026-10-24T22:58:41+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5063",
+      "text": "🔴 Канаш (🛩️ Казань, UWKD; 🛩️ Чебоксары, UWKS) / 150 км",
+      "affectedAirports": [
+        {
+          "name": "Казань",
+          "icao": "UWKD",
+          "kind": "airport",
+          "lat": 55.6074098,
+          "lon": 49.2855138
+        },
+        {
+          "name": "Чебоксары",
+          "icao": "UWKS",
+          "kind": "airport",
+          "lat": 56.0880752,
+          "lon": 47.3382761
+        }
+      ],
+      "inKta": false,
+      "lat": 55.5078398,
+      "lon": 47.4965751
+    },
+    {
+      "id": "0940f25e560353c8",
+      "action": "ADD",
+      "name": "Биринск",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 150.0,
+      "messageTimestamp": "2026-10-24T22:58:41+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5063",
+      "text": "🔴 Биринск (🛩️ Самара - Курумоч, UWWW; 🛩️ Ульяновск - Баратаевка, UWLL) / 150 км",
+      "affectedAirports": [
+        {
+          "name": "Курумоч",
+          "icao": "UWWW",
+          "kind": "airport",
+          "lat": 53.5057511,
+          "lon": 50.1569939
+        },
+        {
+          "name": "Баратаевка",
+          "icao": "UWLL",
+          "kind": "airport",
+          "lat": 54.2690213,
+          "lon": 48.2248287
+        }
+      ],
+      "inKta": false,
+      "lat": 53.5798818,
+      "lon": 48.6498061
     }
   ]
 }
