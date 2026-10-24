@@ -118,6 +118,27 @@ def parse_target_line(line):
     return {"name": name, "icao": None, "kind": "airport" if explicit_airport else "city", "locationHint": None}
 
 
+
+def parse_affected_airports(text):
+    """Extract airports explicitly named in a parenthetical restriction target."""
+    airports = {}
+    for group in re.findall(r"\\(([^()]*)\\)", clean_text(text)):
+        if not re.search(r"\\b[A-Z]{4}\\b", group):
+            continue
+        for part in group.split(";"):
+            if not re.search(r"\\b[A-Z]{4}\\b", part):
+                continue
+            target = parse_target_line("🔴 " + part.strip())
+            if not target or target.get("kind") != "airport" or not target.get("icao"):
+                continue
+            icao = target["icao"]
+            airports[icao] = {
+                "name": target["name"],
+                "icao": icao,
+                "kind": "airport",
+            }
+    return list(airports.values())
+
 def parse_message(message, published_at=None, source_url=None):
     original = message or ""
     text = clean_text(original)
@@ -204,6 +225,10 @@ def parse_message(message, published_at=None, source_url=None):
             event["locationHint"] = target["locationHint"]
         if sector:
             event["sector"] = {"radiusKm": radius, **sector}
+        if target.get("kind") != "airport":
+            affected_airports = parse_affected_airports(line)
+            if affected_airports:
+                event["affectedAirports"] = affected_airports
         if snapshot:
             event["snapshot"] = True
         events.append(event)
