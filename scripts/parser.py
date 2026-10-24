@@ -81,7 +81,7 @@ def parse_target_line(line):
     # Ignore the radius tail and any sector description while identifying the place.
     body = re.split(r"\s*/\s*\d|\bрадиус(?:ом)?\s*\d|\bсектор\b|\bазимут", body, maxsplit=1, flags=re.I)[0].strip(" .,:;—–-")
     # Generic plural labels are not a single map location.
-    if re.match(r"^(?:аэропорты|аэродромы)\b", body, re.I):
+    if re.match(r"^[\s⠀]*(?:аэропорты|аэродромы)\b", body, re.I):
         return None
 
     icao_match = re.search(r"\b([A-Z]{4})\b", body)
