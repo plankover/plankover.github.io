@@ -65,6 +65,8 @@ def fetch_updates(offset):
 # restriction explicitly references Saratov and Penza airports.
 CURATED_COORDS = {
     "place:новоселовка": {"lat": 51.9489, "lon": 44.2678},
+    # Медведица, Жирновский район, Волгоградская область.
+    "place:медведица": {"lat": 51.079559, "lon": 44.8182885},
     "icao:URKG": {"lat": 44.58209, "lon": 38.01248},
 }
 
