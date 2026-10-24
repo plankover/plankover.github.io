@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T20:17:42.209887+00:00",
+  "updatedAt": "2026-10-24T20:26:03.440541+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -78,19 +78,58 @@
       "lon": 39.6308884
     },
     {
-      "id": "edfe0e51523df2c7",
+      "id": "928322d49009858c",
       "action": "ADD",
-      "name": "Чкалов",
-      "icao": "UWGG",
-      "kind": "airport",
+      "name": "Дзержинск",
+      "icao": null,
+      "kind": "city",
       "type": "full",
-      "radiusKm": null,
+      "radiusKm": 20.0,
       "messageTimestamp": "2026-10-24T19:58:30+00:00",
       "sourceUrl": "https://t.me/PlanKoverTDay/5048",
-      "text": "🔴🛩️ Нижний Новгород - Чкалов, UWGG",
-      "inKta": true,
-      "lat": 56.2295198,
-      "lon": 43.7840064
+      "text": "🔴 Дзержинск (🛩️ Нижний Новгород - Чкалов, UWGG) / 20 км",
+      "affectedAirports": [
+        {
+          "name": "Чкалов",
+          "icao": "UWGG",
+          "kind": "airport",
+          "lat": 56.2295198,
+          "lon": 43.7840064
+        }
+      ],
+      "inKta": false,
+      "lat": 56.2382157,
+      "lon": 43.4617405
+    },
+    {
+      "id": "9570dd0154ccaad8",
+      "action": "ADD",
+      "name": "Саваслейка",
+      "icao": null,
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 50.0,
+      "messageTimestamp": "2026-10-24T19:58:30+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5048",
+      "text": "🔴 а/д Саваслейка / 50 км",
+      "inKta": false,
+      "lat": 55.439058,
+      "lon": 42.3063935
+    },
+    {
+      "id": "d81e5e864ab5d86b",
+      "action": "ADD",
+      "name": "Кстово",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 20.0,
+      "messageTimestamp": "2026-10-24T19:58:30+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5048",
+      "text": "🔴 Кстово / 20 км",
+      "inKta": false,
+      "lat": 56.149551,
+      "lon": 44.198032
     }
   ]
 }
