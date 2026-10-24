@@ -31,7 +31,15 @@ class HistoryReplayTests(unittest.TestCase):
             )
 
         active = build_active(history)
-        self.assertGreater(len(active), 0)
+        # A legitimate final global-clear command can leave no active items.
+        # Only require a non-empty map when the most recent message is not a clear.
+        if history:
+            latest = max(history, key=lambda record: record.get("timestamp", ""))
+            latest_events = latest.get("events", [])
+            if any(event.get("action") == "CLEAR" for event in latest_events):
+                self.assertEqual(active, [])
+            else:
+                self.assertGreater(len(active), 0)
         self.assertTrue(all(item.get("name") for item in active))
         self.assertTrue(all(item.get("action") == "ADD" for item in active))
         print(
