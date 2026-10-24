@@ -11,6 +11,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: update-airspace-data
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -24,18 +28,36 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Collect Telegram messages
+      - name: Collect and publish Telegram updates
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHANNEL: "@PlanKoverTDay"
-        run: python scripts/collector.py
-
-      - name: Save updated data
+          TELEGRAM_LONG_POLL_TIMEOUT_SECONDS: ${{ github.event_name == 'schedule' && '25' || '0' }}
         run: |
+          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/
-          if ! git diff --cached --quiet; then
-            git commit -m "Update Telegram airspace data"
-            git push
+
+          poll_once() {
+            python scripts/collector.py
+            git add data/
+            if ! git diff --cached --quiet; then
+              git commit -m "Update Telegram airspace data"
+              # If main advanced concurrently, fail without polling again; the
+              # next run will retry unconfirmed Telegram updates from saved state.
+              git push origin HEAD:main
+            fi
+          }
+
+          # Code pushes and manual runs remain quick single polls. Scheduled
+          # runs keep a single long-polling worker active for most of each
+          # five-minute interval, publishing each change immediately.
+          if [[ "$GITHUB_EVENT_NAME" != "schedule" ]]; then
+            poll_once
+            exit 0
           fi
+
+          deadline=$((SECONDS + 230))
+          while (( SECONDS < deadline )); do
+            poll_once
+          done
