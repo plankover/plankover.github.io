@@ -114,6 +114,17 @@ def main():
         if k in index:history[index[k]]=rec
         else:history.append(rec)
         processed+=1
+    # Re-parse saved messages with the current parser. This migrates old
+    # UNKNOWN green-marker posts into explicit REMOVE events without needing
+    # to fetch the channel's full historical backlog from Telegram.
+    for rec in history:
+        if isinstance(rec, dict) and isinstance(rec.get("text"), str):
+            rec["events"] = parse_message(
+                rec.get("text", ""),
+                rec.get("timestamp"),
+                rec.get("sourceUrl"),
+            )
+
     history.sort(key=lambda r:dt(r.get("timestamp")) or datetime.min.replace(tzinfo=timezone.utc))
     write(HISTORY_FILE,history);write(STATE_FILE,{"lastUpdateId":new_offset,"lastRunAt":now()})
     active=build_active(history);cache=read(CACHE_FILE,{})
