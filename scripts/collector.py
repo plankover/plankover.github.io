@@ -60,10 +60,25 @@ def fetch_updates(offset):
         m=u.get("channel_post") or u.get("edited_channel_post")
         if m:msgs.append(m)
     return msgs,new_offset
+# Manually verified coordinates for ambiguous place names and airports.
+# Novoselovka is in Ekaterinovsky District, Saratov Oblast; its 150 km
+# restriction explicitly references Saratov and Penza airports.
+CURATED_COORDS = {
+    "place:новоселовка": {"lat": 51.9489, "lon": 44.2678},
+    "icao:URKG": {"lat": 44.58209, "lon": 38.01248},
+}
+
+
 def cache_coords(name,icao,cache,airport=False):
     name=(name or "").strip(); icao=(icao or "").strip().upper()
     if not name:return None
     key=f"icao:{icao}" if icao else (f"airport:place:{name.casefold()}" if airport else f"place:{name.casefold()}")
+    curated = CURATED_COORDS.get(key)
+    if curated:
+        if cache.get(key) != curated:
+            cache[key] = curated
+            write(CACHE_FILE, cache)
+        return curated
     old=cache.get(key)
     if isinstance(old,dict) and "lat" in old and "lon" in old:return old
     if isinstance(old,dict) and old.get("notFoundAt"):
