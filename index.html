@@ -149,11 +149,11 @@
     .popup-muted { color: #a3b2c6; font-size: 12px; }
     .map-marker {
       width: 24px; height: 24px; border-radius: 50% 50% 50% 4px;
-      transform: rotate(-45deg); border: 2px solid #233449;
-      background: #f1f5f9; color: #101722;
+      transform: rotate(-45deg); border: 2px solid #8f1721;
+      background: #ff3b45; color: #fff;
       box-shadow: 0 2px 9px #0005; display: grid; place-items: center;
     }
-    .map-marker span { transform: rotate(45deg); color: #101722; font-size: 13px; line-height: 1; }
+    .map-marker span { transform: rotate(45deg); color: #fff; font-size: 13px; line-height: 1; }
     footer { color: var(--muted); font-size: 11px; padding: 12px 20px; border-top: 1px solid var(--line); }
     footer a { color: #a7c7ff; text-decoration: none; }
     @media (max-width: 850px) {
@@ -271,7 +271,8 @@
   const STALE_AFTER = 3 * HOUR;
   const ARCHIVE_AFTER = 24 * HOUR;
 
-  const map = L.map("map", { zoomControl: false }).setView([55.75, 55.5], 4);
+  // Prevent wheel events from the neighboring restriction feed from zooming the map.
+  const map = L.map("map", { zoomControl: false, scrollWheelZoom: false }).setView([55.75, 55.5], 4);
   // Keep required map data attribution, but remove Leaflet promotional prefix/link.
   map.attributionControl.setPrefix(false);
   L.control.zoom({ position: "bottomright" }).addTo(map);
