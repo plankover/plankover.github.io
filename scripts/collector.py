@@ -130,8 +130,8 @@ def main():
     active=build_active(history);cache=read(CACHE_FILE,{})
     public=[]
     for e in active:
-        when=dt(e.get("messageTimestamp"))
-        if when and datetime.now(timezone.utc)-when>=timedelta(hours=24):continue
+        # Active restrictions remain until an explicit removal/clear event.
+        # Do not expire them merely because 24 hours have elapsed.
         coords=cache_coords(e.get("name"),e.get("icao"),cache)
         if coords:e["lat"],e["lon"]=coords["lat"],coords["lon"]
         else:e.pop("lat",None);e.pop("lon",None)
