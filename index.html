@@ -339,9 +339,15 @@
   }
 
   function isPartial(item) {
+    // The status emoji in the original channel post is authoritative.
+    // A sector/azimuth alone does not mean a yellow restriction: red
+    // restrictions can also be limited to a direction.
+    const sourceText = String(item.text || "");
+    const statusEmoji = sourceText.match(/[🔴🟡]/)?.[0];
+    if (statusEmoji === "🟡") return true;
+    if (statusEmoji === "🔴") return false;
     return item.type === "partial" || item.status === "partial" ||
-      item.color === "yellow" || item.sector != null ||
-      item.startAzimuth != null || item.azimuthStart != null;
+      item.color === "yellow";
   }
 
   function getSector(item) {
