@@ -13811,5 +13811,62 @@
         "inKta": false
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5088,
+    "timestamp": "2026-10-25T16:28:16+00:00",
+    "text": "🟡🛩️ Внуково, UUWW / 100 км (азимуты 150-300)\n\n🔴 а/д Ермолино / 40 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5088",
+    "events": [
+      {
+        "id": "1e40e127fae94000",
+        "action": "ADD",
+        "name": "Внуково",
+        "icao": "UUWW",
+        "kind": "airport",
+        "type": "partial",
+        "radiusKm": 100.0,
+        "messageTimestamp": "2026-10-25T16:28:16+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5088",
+        "text": "🟡🛩️ Внуково, UUWW / 100 км (азимуты 150-300)",
+        "sector": {
+          "radiusKm": 100.0,
+          "startAzimuth": 150,
+          "endAzimuth": 300
+        },
+        "inKta": true
+      },
+      {
+        "id": "9cc998c20aafbd19",
+        "action": "ADD",
+        "name": "Ермолино",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 40.0,
+        "messageTimestamp": "2026-10-25T16:28:16+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5088",
+        "text": "🔴 а/д Ермолино / 40 км",
+        "inKta": false
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5089,
+    "timestamp": "2026-10-25T16:29:32+00:00",
+    "text": "⚠️ В ближайшие часы ожидаем ограничения в ряде московских аэропортов",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5089",
+    "events": [
+      {
+        "id": "aec32e156a015afb",
+        "action": "ADD",
+        "messageTimestamp": "2026-10-25T16:29:32+00:00",
+        "text": "⚠️ В ближайшие часы ожидаем ограничения в ряде московских аэропортов",
+        "unresolved": true,
+        "sourceUrl": "https://t.me/PlanKoverTDay/5089"
+      }
+    ]
   }
 ]

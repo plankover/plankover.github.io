@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T15:50:15.633059+00:00",
+  "updatedAt": "2026-10-25T16:30:23.374228+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -31,6 +31,41 @@
       "inKta": false,
       "lat": 55.506478,
       "lon": 36.0213092
+    },
+    {
+      "id": "1e40e127fae94000",
+      "action": "ADD",
+      "name": "Внуково",
+      "icao": "UUWW",
+      "kind": "airport",
+      "type": "partial",
+      "radiusKm": 100.0,
+      "messageTimestamp": "2026-10-25T16:28:16+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5088",
+      "text": "🟡🛩️ Внуково, UUWW / 100 км (азимуты 150-300)",
+      "sector": {
+        "radiusKm": 100.0,
+        "startAzimuth": 150,
+        "endAzimuth": 300
+      },
+      "inKta": true,
+      "lat": 55.5995278,
+      "lon": 37.2735752
+    },
+    {
+      "id": "9cc998c20aafbd19",
+      "action": "ADD",
+      "name": "Ермолино",
+      "icao": null,
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 40.0,
+      "messageTimestamp": "2026-10-25T16:28:16+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5088",
+      "text": "🔴 а/д Ермолино / 40 км",
+      "inKta": false,
+      "lat": 55.2262459,
+      "lon": 36.6097447
     }
   ]
 }
