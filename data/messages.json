@@ -13856,16 +13856,32 @@
     "chatId": -1003822338715,
     "messageId": 5089,
     "timestamp": "2026-10-25T16:29:32+00:00",
-    "text": "⚠️ В ближайшие часы ожидаем ограничения в ряде московских аэропортов",
+    "text": "⚠️ В ближайшие часы ожидаем ограничения в ряде московских аэропортов\n\nОтбой, все хорошо",
     "sourceUrl": "https://t.me/PlanKoverTDay/5089",
     "events": [
       {
-        "id": "aec32e156a015afb",
+        "id": "43a2b864fbd80c52",
         "action": "ADD",
         "messageTimestamp": "2026-10-25T16:29:32+00:00",
-        "text": "⚠️ В ближайшие часы ожидаем ограничения в ряде московских аэропортов",
+        "text": "⚠️ В ближайшие часы ожидаем ограничения в ряде московских аэропортов\n\nОтбой, все хорошо",
         "unresolved": true,
         "sourceUrl": "https://t.me/PlanKoverTDay/5089"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5090,
+    "timestamp": "2026-10-25T17:23:11+00:00",
+    "text": "✅ Ранее объявленные",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5090",
+    "events": [
+      {
+        "id": "5869953ba5463a11",
+        "action": "CLEAR",
+        "messageTimestamp": "2026-10-25T17:23:11+00:00",
+        "text": "✅ Ранее объявленные",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5090"
       }
     ]
   }
