@@ -212,7 +212,7 @@
         <div class="subtitle">Мониторинг временных ограничений воздушного пространства</div>
       </div>
     </div>
-    <div class="live"><span class="dot"></span> Карта мониторинга</div>
+    <div class="live"><span class="dot"></span> Данные обновляются автоматически</div>
   </header>
 
   <div class="layout">
@@ -268,15 +268,14 @@
         <p><strong class="help-red">Красный</strong> - полные ограничения.</p>
         <p><strong class="help-yellow">Желтый</strong> - частичные ограничения.</p>
         <p>Значок самолета показывает аэропорт, упомянутый в ограничении. При близком расположении аэропорты объединяются в группы - приблизьте карту, чтобы увидеть их отдельно.</p>
-        <p>Время публикации относится к исходному сообщению. Время обновления набора данных - отдельная отметка.</p>
+        <p>Время публикации указано по исходному сообщению, если оно доступно.</p>
         <p>Карта носит информационный характер. Сверяйте сведения с официальными источниками и NOTAM.</p>
       </section>
     </main>
   </div>
   <footer>
-    Информационная карта. Данные обновляются автоматически с некоторой периодичностью. Возможны задержки. Сверяйте сведения с официальными источниками и NOTAM.
+    Информационная карта. Данные обновляются автоматически с некоторой периодичностью. Возможны задержки. Сверяйте сведения с официальными источниками и NOTAM. <a href="https://t.me/PlanKoverTDay" target="_blank" rel="noreferrer">Telegram-канал</a>.
     Карта © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noreferrer">OpenStreetMap</a>.
-    <span id="source-label"></span>
   </footer>
 </div>
 
@@ -311,9 +310,6 @@
     maxClusterRadius: 48
   }).addTo(map);
   let allItems = [];
-  let dataUpdatedAt = null;
-  let lastCheckAt = null;
-  let lastCheckSucceeded = false;
   let activeFilter = "all";
   let selectedId = null;
 
@@ -423,7 +419,6 @@
     const radius = getRadius(item);
     const sector = getSector(item);
     const time = getTimestamp(item);
-    const status = getStatus(item);
     const radiusText = radius ? `${esc(radius)} км` : "Радиус не указан";
     let html = `<div class="popup-title">${esc(getName(item))}</div>`;
     html += `<div>${isPartial(item) ? "🟡 Частичные ограничения" : "🔴 Полные ограничения"}</div>`;
@@ -632,7 +627,7 @@
       $("restriction-list").innerHTML = `<div class="empty">
         <div class="empty-icon">${allItems.length ? "⌕" : "◌"}</div>
         <div>${allItems.length ? "Ничего не найдено по заданным условиям." : "Активных событий пока нет."}</div>
-        <div style="font-size:12px;margin-top:7px">Данные подключаются из файла data/data.json.</div>
+        
       </div>`;
       return;
     }
@@ -697,22 +692,16 @@
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
       const payload = await response.json();
       allItems = normalizeData(payload);
-      dataUpdatedAt = payload?.updatedAt || payload?.generatedAt || null;
-      lastCheckAt = new Date();
-      lastCheckSucceeded = true;
       render();
       $("updated-at").textContent = "Данные обновляются автоматически с некоторой периодичностью. Возможны задержки.";
-      $("source-label").textContent = payload?.source ? ` Источник: ${payload.source}` : "";
     } catch (error) {
       console.error("Не удалось загрузить данные:", error);
-      lastCheckAt = new Date();
-      lastCheckSucceeded = false;
       $("updated-at").textContent = "Не удалось обновить данные. Ниже может отображаться последняя загруженная версия.";
       if (!allItems.length) {
         $("restriction-list").innerHTML = `<div class="empty">
           <div class="empty-icon">!</div>
           <div>Пока нет файла с данными или он недоступен.</div>
-          <div style="font-size:12px;margin-top:8px">Это нормально на этапе настройки. Подключим Telegram-обработчик следующим шагом.</div>
+          <div style="font-size:12px;margin-top:8px">Попробуйте обновить страницу немного позже.</div>
         </div>`;
       }
     } finally {
