@@ -260,7 +260,7 @@
       <div class="map-top">
         <div class="map-actions">
           <button class="action" id="refresh-btn">↻ Обновить</button>
-          <div class="map-status" id="map-status" aria-live="polite">Данные: проверяем...</div>
+
         </div>
       </div>
       <button class="map-info" id="map-info" aria-label="Условные обозначения" title="Условные обозначения">i</button>
@@ -690,17 +690,6 @@
     return many;
   }
 
-  function updateFreshness() {
-    const status = $("map-status");
-    const checkText = lastCheckAt ? lastCheckAt.toLocaleTimeString("ru-RU", { hour:"2-digit", minute:"2-digit" }) : null;
-    const dataText = dataUpdatedAt ? new Date(dataUpdatedAt).toLocaleString("ru-RU", { day:"2-digit", month:"2-digit", hour:"2-digit", minute:"2-digit" }) : null;
-    const timestampUnknown = !dataUpdatedAt || !Number.isFinite(new Date(dataUpdatedAt).getTime());
-    status.classList.toggle("status-warning", !lastCheckSucceeded || timestampUnknown);
-    if (!lastCheckAt) status.innerHTML = "<strong>Данные:</strong> ожидаем загрузку";
-    else if (!lastCheckSucceeded) status.innerHTML = `<strong>Проверка:</strong> ошибка ${checkText}`;
-    else status.innerHTML = `<strong>Изменение набора:</strong> ${dataText || "время неизвестно"}<br><span>Файл получен: ${checkText}</span>`;
-  }
-
   async function loadData() {
     $("refresh-btn").textContent = "↻ Загружаем…";
     $("refresh-btn").disabled = true;
@@ -713,7 +702,6 @@
       lastCheckAt = new Date();
       lastCheckSucceeded = true;
       render();
-      updateFreshness();
       $("updated-at").textContent = dataUpdatedAt
         ? `Последнее изменение набора: ${new Date(dataUpdatedAt).toLocaleString("ru-RU")}`
         : "Время формирования набора неизвестно";
@@ -722,7 +710,6 @@
       console.error("Не удалось загрузить данные:", error);
       lastCheckAt = new Date();
       lastCheckSucceeded = false;
-      updateFreshness();
       $("updated-at").textContent = "Не удалось проверить данные. Ниже может отображаться последняя загруженная версия.";
       if (!allItems.length) {
         $("restriction-list").innerHTML = `<div class="empty">
@@ -753,10 +740,7 @@
 
   loadData();
   setInterval(loadData, 5 * 60 * 1000);
-  setInterval(() => {
-    updateFreshness();
-    renderList();
-  }, 60 * 1000);
+  setInterval(renderList, 60 * 1000);
 })();
 </script>
 </body>
