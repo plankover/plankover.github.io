@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#101722">
-  <title>План «Ковёр» — карта ограничений</title>
+  <title>План «Ковер» - карта ограничений</title>
   <meta name="description" content="Карта временных ограничений воздушного пространства России.">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
   <style>
@@ -191,7 +191,7 @@
     <div class="brand">
       <div class="logo">✈</div>
       <div>
-        <h1>План «Ковёр»</h1>
+        <h1>План «Ковер»</h1>
         <div class="subtitle">Мониторинг временных ограничений воздушного пространства</div>
       </div>
     </div>
@@ -240,24 +240,14 @@
     <main>
       <div id="map"></div>
       <div class="map-top">
-        <div class="map-card">
-          <strong>Карта ограничений</strong>
-          <small id="map-caption">Данные появятся после подключения источника</small>
-        </div>
         <div class="map-actions">
-          <button class="action" id="refresh-btn">↻ Обновить</button>
-          <button class="action" id="home-btn">⌖ Обзор</button>
+          <button class="action" id="refresh-btn">↻ ОБНОВИТЬ</button>
         </div>
-      </div>
-      <div class="legend">
-        <div class="legend-row"><span class="legend-dot" style="background:#ff515b"></span> Полная зона</div>
-        <div class="legend-row"><span class="legend-dot" style="background:#ffc34d"></span> Частичный сектор</div>
-        <div class="legend-row"><span class="legend-dot" style="background:#45d49b"></span> Снято / неактивно</div>
       </div>
     </main>
   </div>
   <footer>
-    Информационная карта. Сверяйте сведения с официальными источниками и NOTAM.
+    Информационная карта. Данные обновляются автоматически с некоторой периодичностью. Возможны задержки. Сверяйте сведения с официальными источниками и NOTAM.
     Карта © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noreferrer">OpenStreetMap</a>.
     <span id="source-label"></span>
   </footer>
@@ -401,7 +391,7 @@
     let html = `<div class="popup-title">${esc(getName(item))}</div>`;
     html += `<div>${isPartial(item) ? "🟡 Частичные ограничения" : "🔴 Полные ограничения"}</div>`;
     html += `<div class="popup-muted">Радиус: ${radiusText}</div>`;
-    if (sector) html += `<div class="popup-muted">Азимут: ${sector.start}°–${sector.end}°</div>`;
+    if (sector) html += `<div class="popup-muted">Азимут: ${sector.start}°-${sector.end}°</div>`;
     if (time) html += `<div class="popup-muted">Опубликовано: ${new Date(time).toLocaleString("ru-RU")}</div>`;
     if (item.sourceUrl) html += `<div style="margin-top:6px"><a href="${esc(item.sourceUrl)}" target="_blank" rel="noreferrer" style="color:#a7c7ff">Оригинал сообщения ↗</a></div>`;
     return html;
@@ -628,7 +618,7 @@
         </div>
         <div class="item-meta" style="margin-top:9px">
           ${radius ? `Радиус: ${esc(radius)} км` : "Радиус не указан"}
-          ${sector ? ` · сектор ${esc(sector.start)}°–${esc(sector.end)}°` : ""}
+          ${sector ? ` · сектор ${esc(sector.start)}°-${esc(sector.end)}°` : ""}
         </div>`;
       el.addEventListener("click", () => selectItem(item._id));
       $("restriction-list").appendChild(el);
@@ -645,9 +635,6 @@
     $("full-count").textContent = full;
     $("partial-count").textContent = partial;
     $("total-count").textContent = `${allItems.length} ${plural(allItems.length, "событие", "события", "событий")}`;
-    $("map-caption").textContent = allItems.length
-      ? `На карте: ${allItems.length}. Красный — полные, жёлтый — частичные.`
-      : "Ожидаем данные об ограничениях";
     renderList();
   }
 
@@ -684,7 +671,7 @@
         </div>`;
       }
     } finally {
-      $("refresh-btn").textContent = "↻ Обновить";
+      $("refresh-btn").textContent = "↻ ОБНОВИТЬ";
     }
   }
 
@@ -697,10 +684,6 @@
     });
   });
   $("refresh-btn").addEventListener("click", loadData);
-  $("home-btn").addEventListener("click", () => {
-    if (layer.getLayers().length) map.fitBounds(layer.getBounds().pad(.12), { maxZoom: 7 });
-    else map.setView([55.75, 55.5], 4);
-  });
 
   loadData();
   setInterval(loadData, 5 * 60 * 1000);
