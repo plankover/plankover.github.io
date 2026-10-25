@@ -1,5 +1,36 @@
 {
-  "updatedAt": "2026-10-25T15:15:16.883577+00:00",
+  "updatedAt": "2026-10-25T15:50:15.633059+00:00",
   "source": "@PlanKoverTDay",
-  "restrictions": []
+  "restrictions": [
+    {
+      "id": "83599083eaaf444e",
+      "action": "ADD",
+      "name": "Грабцево",
+      "icao": "UUBC",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-25T15:48:43+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5087",
+      "text": "🔴🛩️ Калуга - Грабцево, UUBC",
+      "inKta": true,
+      "lat": 54.5488708,
+      "lon": 36.3697725
+    },
+    {
+      "id": "f78537820c96a3bc",
+      "action": "ADD",
+      "name": "Можайск",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 30.0,
+      "messageTimestamp": "2026-10-25T15:48:43+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5087",
+      "text": "🔴 Можайск / 30 км",
+      "inKta": false,
+      "lat": 55.506478,
+      "lon": 36.0213092
+    }
+  ]
 }

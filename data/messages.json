@@ -13776,5 +13776,40 @@
         "inKta": false
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5087,
+    "timestamp": "2026-10-25T15:48:43+00:00",
+    "text": "🔴🛩️ Калуга - Грабцево, UUBC\n🔴 Можайск / 30 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5087",
+    "events": [
+      {
+        "id": "83599083eaaf444e",
+        "action": "ADD",
+        "name": "Грабцево",
+        "icao": "UUBC",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-25T15:48:43+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5087",
+        "text": "🔴🛩️ Калуга - Грабцево, UUBC",
+        "inKta": true
+      },
+      {
+        "id": "f78537820c96a3bc",
+        "action": "ADD",
+        "name": "Можайск",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 30.0,
+        "messageTimestamp": "2026-10-25T15:48:43+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5087",
+        "text": "🔴 Можайск / 30 км",
+        "inKta": false
+      }
+    ]
   }
 ]
