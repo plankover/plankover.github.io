@@ -8,6 +8,8 @@
   <title>План «Ковер» - карта ограничений</title>
   <meta name="description" content="Карта временных ограничений воздушного пространства России.">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css">
   <style>
     :root {
       color-scheme: dark;
@@ -132,7 +134,21 @@
     }
     .map-card strong { font-size: 12px; }
     .map-card small { display: block; color: var(--muted); margin-top: 3px; font-size: 11px; }
-    .map-actions { display: flex; gap: 7px; pointer-events: auto; }
+    .map-actions { display: flex; gap: 7px; pointer-events: auto; align-items: flex-start; }
+    .map-status { pointer-events:auto; padding:9px 11px; border:1px solid #344357; border-radius:10px; color:#c5d0df; background:#101722ed; font-size:11px; box-shadow:0 5px 22px #0003; max-width:min(290px,60vw); }
+    .map-status strong { color:var(--text); font-weight:650; }
+    .status-warning { color:#ffd277; }
+    .map-help { position:absolute; z-index:600; right:14px; bottom:18px; width:min(320px,calc(100% - 28px)); padding:14px; border:1px solid #344357; border-radius:12px; color:var(--text); background:#101722f5; box-shadow:0 8px 28px #0005; font-size:12px; }
+    .map-help[hidden] { display:none; }
+    .map-help-head { display:flex; align-items:center; justify-content:space-between; gap:12px; margin-bottom:8px; font-weight:700; }
+    .map-help button { border:0; color:var(--text); background:transparent; font-size:18px; padding:0 3px; }
+    .map-help p { margin:6px 0; color:#c5d0df; }
+    .map-help .help-red { color:#ff8d94; }
+    .map-help .help-yellow { color:#ffd277; }
+    .map-info { position:absolute; z-index:500; right:14px; bottom:18px; width:36px; height:36px; border:1px solid #344357; border-radius:50%; color:var(--text); background:#101722ed; font-weight:700; font-size:16px; box-shadow:0 5px 22px #0003; }
+    .map-info:hover { background:#233349; }
+    .marker-cluster div { color:#fff; background:#263b55; border:2px solid #90baff; font-weight:700; }
+    .marker-cluster span { line-height:30px; }
     .action {
       border: 1px solid #344357; border-radius: 10px; padding: 10px 12px;
       color: var(--text); background: #101722ed; font-size: 12px;
@@ -172,7 +188,9 @@
       .map-top { left: 9px; right: 9px; top: 9px; }
       .map-card { padding: 9px 10px; }
       .action { padding: 9px; }
-      .legend { bottom: 14px; left: 9px; }
+      .map-status { padding:8px 9px; max-width:55vw; }
+      .map-help { right:9px; bottom:58px; }
+      .map-info { right:9px; bottom:12px; }
     }
     @media (max-width: 420px) {
       .subtitle { max-width: 210px; }
@@ -242,8 +260,18 @@
       <div class="map-top">
         <div class="map-actions">
           <button class="action" id="refresh-btn">↻ Обновить</button>
+          <div class="map-status" id="map-status" aria-live="polite">Данные: проверяем...</div>
         </div>
       </div>
+      <button class="map-info" id="map-info" aria-label="Условные обозначения" title="Условные обозначения">i</button>
+      <section class="map-help" id="map-help" hidden aria-label="Условные обозначения">
+        <div class="map-help-head"><span>Как читать карту</span><button id="map-help-close" aria-label="Закрыть">×</button></div>
+        <p><strong class="help-red">Красный</strong> - полные ограничения.</p>
+        <p><strong class="help-yellow">Желтый</strong> - частичные ограничения.</p>
+        <p>Значок самолета показывает аэропорт, упомянутый в ограничении. При близком расположении аэропорты объединяются в группы - приблизьте карту, чтобы увидеть их отдельно.</p>
+        <p>Время публикации относится к исходному сообщению. Время обновления набора данных - отдельная отметка.</p>
+        <p>Карта носит информационный характер. Сверяйте сведения с официальными источниками и NOTAM.</p>
+      </section>
     </main>
   </div>
   <footer>
@@ -254,6 +282,7 @@
 </div>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
 <script>
 (() => {
   "use strict";
@@ -276,7 +305,16 @@
   }).addTo(map);
 
   const layer = L.featureGroup().addTo(map);
+  const airportMarkers = L.markerClusterGroup({
+    disableClusteringAtZoom: 7,
+    showCoverageOnHover: false,
+    spiderfyOnMaxZoom: true,
+    maxClusterRadius: 48
+  }).addTo(map);
   let allItems = [];
+  let dataUpdatedAt = null;
+  let lastCheckAt = null;
+  let lastCheckSucceeded = false;
   let activeFilter = "all";
   let selectedId = null;
 
@@ -457,7 +495,7 @@
       const firstEntry = group.entries[0];
       if (firstEntry) selectItem(firstEntry.item._id, false, false);
     });
-    marker.addTo(layer);
+    marker.addTo(airportMarkers);
   }
 
   function bindCenterHover(shape, coords, color) {
@@ -574,7 +612,10 @@
     const coords = getCoords(item);
     if (coords && moveMap) map.flyTo(coords, Math.max(map.getZoom(), 7), { duration: .6 });
     if (!openPopup) return;
-    layer.eachLayer(entry => {
+    const candidateMarkers = [];
+    layer.eachLayer(entry => candidateMarkers.push(entry));
+    airportMarkers.eachLayer(entry => candidateMarkers.push(entry));
+    candidateMarkers.forEach(entry => {
       if (entry.getLatLng && coords) {
         const point = entry.getLatLng();
         if (Math.abs(point.lat - coords[0]) < .0001 && Math.abs(point.lng - coords[1]) < .0001) {
@@ -627,6 +668,7 @@
 
   function render() {
     layer.clearLayers();
+    airportMarkers.clearLayers();
     const airplaneGroups = new Map();
     allItems.forEach(item => drawItem(item, airplaneGroups));
     airplaneGroups.forEach(drawAirplaneMarker);
@@ -647,22 +689,40 @@
     return many;
   }
 
+  function updateFreshness() {
+    const status = $("map-status");
+    const checkText = lastCheckAt ? lastCheckAt.toLocaleTimeString("ru-RU", { hour:"2-digit", minute:"2-digit" }) : null;
+    const dataText = dataUpdatedAt ? new Date(dataUpdatedAt).toLocaleString("ru-RU", { day:"2-digit", month:"2-digit", hour:"2-digit", minute:"2-digit" }) : null;
+    const stale = !dataUpdatedAt || !Number.isFinite(new Date(dataUpdatedAt).getTime()) || Date.now() - new Date(dataUpdatedAt).getTime() > 3 * HOUR;
+    status.classList.toggle("status-warning", !lastCheckSucceeded || stale);
+    if (!lastCheckAt) status.innerHTML = "<strong>Данные:</strong> ожидаем загрузку";
+    else if (!lastCheckSucceeded) status.innerHTML = `<strong>Проверка:</strong> ошибка ${checkText}`;
+    else status.innerHTML = `<strong>Набор:</strong> ${dataText || "время неизвестно"}<br><span>Проверено: ${checkText}</span>`;
+  }
+
   async function loadData() {
     $("refresh-btn").textContent = "↻ Загружаем…";
+    $("refresh-btn").disabled = true;
     try {
       const response = await fetch(`${DATA_URL}?t=${Date.now()}`, { cache: "no-store" });
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
       const payload = await response.json();
       allItems = normalizeData(payload);
+      dataUpdatedAt = payload?.updatedAt || payload?.generatedAt || null;
+      lastCheckAt = new Date();
+      lastCheckSucceeded = true;
       render();
-      const updated = payload?.updatedAt || payload?.generatedAt;
-      $("updated-at").textContent = updated
-        ? `Данные обновлены: ${new Date(updated).toLocaleString("ru-RU")}`
-        : `Последняя проверка: ${new Date().toLocaleTimeString("ru-RU")}`;
+      updateFreshness();
+      $("updated-at").textContent = dataUpdatedAt
+        ? `Набор данных обновлен: ${new Date(dataUpdatedAt).toLocaleString("ru-RU")}`
+        : "Время формирования набора неизвестно";
       $("source-label").textContent = payload?.source ? ` Источник: ${payload.source}` : "";
     } catch (error) {
       console.error("Не удалось загрузить данные:", error);
-      $("updated-at").textContent = "Не удалось загрузить data/data.json";
+      lastCheckAt = new Date();
+      lastCheckSucceeded = false;
+      updateFreshness();
+      $("updated-at").textContent = "Не удалось проверить данные. Ниже может отображаться последняя загруженная версия.";
       if (!allItems.length) {
         $("restriction-list").innerHTML = `<div class="empty">
           <div class="empty-icon">!</div>
@@ -672,8 +732,13 @@
       }
     } finally {
       $("refresh-btn").textContent = "↻ Обновить";
+      $("refresh-btn").disabled = false;
     }
   }
+
+  $("map-info").addEventListener("click", () => { $("map-help").hidden = !$("map-help").hidden; });
+  $("map-help-close").addEventListener("click", () => { $("map-help").hidden = true; });
+  map.on("click", () => { $("map-help").hidden = true; });
 
   $("search").addEventListener("input", renderList);
   document.querySelectorAll(".filter").forEach(button => {
@@ -687,7 +752,10 @@
 
   loadData();
   setInterval(loadData, 5 * 60 * 1000);
-  setInterval(render, 60 * 1000);
+  setInterval(() => {
+    updateFreshness();
+    renderList();
+  }, 60 * 1000);
 })();
 </script>
 </body>
