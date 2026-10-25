@@ -696,7 +696,7 @@
       $("updated-at").textContent = "Данные обновляются автоматически с некоторой периодичностью. Возможны задержки.";
     } catch (error) {
       console.error("Не удалось загрузить данные:", error);
-      $("updated-at").textContent = "Не удалось обновить данные. Ниже может отображаться последняя загруженная версия.";
+      $("updated-at").textContent = "Не удалось загрузить данные. Попробуйте обновить страницу немного позже.";
       if (!allItems.length) {
         $("restriction-list").innerHTML = `<div class="empty">
           <div class="empty-icon">!</div>
