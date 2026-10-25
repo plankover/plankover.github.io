@@ -13975,5 +13975,40 @@
         "inKta": false
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5094,
+    "timestamp": "2026-10-25T19:42:23+00:00",
+    "text": "🔴 а/д Старая Русса / 100 км\n🔴 а/д Большое, Завидово / 40 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5094",
+    "events": [
+      {
+        "id": "6f7489da0fa6da5f",
+        "action": "ADD",
+        "name": "Старая Русса",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 100.0,
+        "messageTimestamp": "2026-10-25T19:42:23+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5094",
+        "text": "🔴 а/д Старая Русса / 100 км",
+        "inKta": false
+      },
+      {
+        "id": "ec674e61cd405230",
+        "action": "ADD",
+        "name": "Большое, Завидово",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 40.0,
+        "messageTimestamp": "2026-10-25T19:42:23+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5094",
+        "text": "🔴 а/д Большое, Завидово / 40 км",
+        "inKta": false
+      }
+    ]
   }
 ]

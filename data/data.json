@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T18:50:16.796292+00:00",
+  "updatedAt": "2026-10-25T19:45:19.230544+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -75,6 +75,34 @@
       "inKta": false,
       "lat": 56.342361,
       "lon": 30.527922
+    },
+    {
+      "id": "6f7489da0fa6da5f",
+      "action": "ADD",
+      "name": "Старая Русса",
+      "icao": null,
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 100.0,
+      "messageTimestamp": "2026-10-25T19:42:23+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5094",
+      "text": "🔴 а/д Старая Русса / 100 км",
+      "inKta": false,
+      "lat": 57.9601551,
+      "lon": 31.3840079
+    },
+    {
+      "id": "ec674e61cd405230",
+      "action": "ADD",
+      "name": "Большое, Завидово",
+      "icao": null,
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 40.0,
+      "messageTimestamp": "2026-10-25T19:42:23+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5094",
+      "text": "🔴 а/д Большое, Завидово / 40 км",
+      "inKta": false
     }
   ]
 }
