@@ -13025,5 +13025,307 @@
         "inKta": false
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5066,
+    "timestamp": "2026-10-25T02:07:13+00:00",
+    "text": "🔴🛩️ Нижнекамск - Бегишево, UWKE\n🔴🛩️ Пермь - Большое Савино, USPP",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5066",
+    "events": [
+      {
+        "id": "bc74a477a8136334",
+        "action": "ADD",
+        "name": "Бегишево",
+        "icao": "UWKE",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-25T02:07:13+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5066",
+        "text": "🔴🛩️ Нижнекамск - Бегишево, UWKE",
+        "inKta": true
+      },
+      {
+        "id": "780bbd0245773364",
+        "action": "ADD",
+        "name": "Большое Савино",
+        "icao": "USPP",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-25T02:07:13+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5066",
+        "text": "🔴🛩️ Пермь - Большое Савино, USPP",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5067,
+    "timestamp": "2026-10-25T02:12:11+00:00",
+    "text": "🟢🛩️ Пенза, UUWP\n🟢🛩️ Саратов - Гагарин, UWSG\n🟢🛩️ Тамбов - Донское, UUOT",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5067",
+    "events": [
+      {
+        "id": "407d3d2e95049cdb",
+        "action": "REMOVE",
+        "name": "Пенза",
+        "icao": "UUWP",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-25T02:12:11+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5067",
+        "text": "🟢🛩️ Пенза, UUWP",
+        "inKta": true
+      },
+      {
+        "id": "0c214414fe1397fe",
+        "action": "REMOVE",
+        "name": "Гагарин",
+        "icao": "UWSG",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-25T02:12:11+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5067",
+        "text": "🟢🛩️ Саратов - Гагарин, UWSG",
+        "inKta": true
+      },
+      {
+        "id": "718faca1b2613452",
+        "action": "REMOVE",
+        "name": "Донское",
+        "icao": "UUOT",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-25T02:12:11+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5067",
+        "text": "🟢🛩️ Тамбов - Донское, UUOT",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5068,
+    "timestamp": "2026-10-25T02:15:33+00:00",
+    "text": "🟢🛩️ Москва - Домодедово, UUDD",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5068",
+    "events": [
+      {
+        "id": "e2b3c3690bd101e8",
+        "action": "REMOVE",
+        "name": "Домодедово",
+        "icao": "UUDD",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-25T02:15:33+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5068",
+        "text": "🟢🛩️ Москва - Домодедово, UUDD",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5069,
+    "timestamp": "2026-10-25T02:28:47+00:00",
+    "text": "🟢🛩️ Геленджик, URKG\n🟢🛩️ Краснодар - Пашковский, URKK",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5069",
+    "events": [
+      {
+        "id": "58a068471248cc64",
+        "action": "REMOVE",
+        "name": "Геленджик",
+        "icao": "URKG",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-25T02:28:47+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5069",
+        "text": "🟢🛩️ Геленджик, URKG",
+        "inKta": true
+      },
+      {
+        "id": "35ba0134a50c714a",
+        "action": "REMOVE",
+        "name": "Пашковский",
+        "icao": "URKK",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-25T02:28:47+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5069",
+        "text": "🟢🛩️ Краснодар - Пашковский, URKK",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5070,
+    "timestamp": "2026-10-25T02:59:29+00:00",
+    "text": "🔴🛩️ Пермь - Большое Савино, USPP",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5070",
+    "events": [
+      {
+        "id": "a6edce74961dd0c0",
+        "action": "ADD",
+        "name": "Большое Савино",
+        "icao": "USPP",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-25T02:59:29+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5070",
+        "text": "🔴🛩️ Пермь - Большое Савино, USPP",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5071,
+    "timestamp": "2026-10-25T03:06:54+00:00",
+    "text": "🟡🛩️ Нижний Новгород - Чкалов, UWGG",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5071",
+    "events": [
+      {
+        "id": "5c2119cae64740e5",
+        "action": "ADD",
+        "name": "Чкалов",
+        "icao": "UWGG",
+        "kind": "airport",
+        "type": "partial",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-25T03:06:54+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5071",
+        "text": "🟡🛩️ Нижний Новгород - Чкалов, UWGG",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5072,
+    "timestamp": "2026-10-25T03:11:29+00:00",
+    "text": "🟢🛩️ Нижнекамск - Бегишево, UWKE\n🟢🛩️ Самара - Курумоч, UWWW\n🟢🛩️ Ульяновск - Баратаевка, UWLL",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5072",
+    "events": [
+      {
+        "id": "02055ded02431ebc",
+        "action": "REMOVE",
+        "name": "Бегишево",
+        "icao": "UWKE",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-25T03:11:29+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5072",
+        "text": "🟢🛩️ Нижнекамск - Бегишево, UWKE",
+        "inKta": true
+      },
+      {
+        "id": "711ee8616c7448f9",
+        "action": "REMOVE",
+        "name": "Курумоч",
+        "icao": "UWWW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-25T03:11:29+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5072",
+        "text": "🟢🛩️ Самара - Курумоч, UWWW",
+        "inKta": true
+      },
+      {
+        "id": "bb4eb37572b1143e",
+        "action": "REMOVE",
+        "name": "Баратаевка",
+        "icao": "UWLL",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-25T03:11:29+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5072",
+        "text": "🟢🛩️ Ульяновск - Баратаевка, UWLL",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5073,
+    "timestamp": "2026-10-25T03:42:59+00:00",
+    "text": "🟢🛩️ Казань, UWKD\n🟢🛩️ Чебоксары, UWKS",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5073",
+    "events": [
+      {
+        "id": "04c6757d2974334b",
+        "action": "REMOVE",
+        "name": "Казань",
+        "icao": "UWKD",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-25T03:42:59+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5073",
+        "text": "🟢🛩️ Казань, UWKD",
+        "inKta": true
+      },
+      {
+        "id": "2a093f0b8034b644",
+        "action": "REMOVE",
+        "name": "Чебоксары",
+        "icao": "UWKS",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-25T03:42:59+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5073",
+        "text": "🟢🛩️ Чебоксары, UWKS",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5074,
+    "timestamp": "2026-10-25T04:12:53+00:00",
+    "text": "🟢🛩️ Калуга - Грабцево, UUBC\n🟢🛩️ Нижний Новгород - Чкалов, UWGG",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5074",
+    "events": [
+      {
+        "id": "09f0198db85000fe",
+        "action": "REMOVE",
+        "name": "Грабцево",
+        "icao": "UUBC",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-25T04:12:53+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5074",
+        "text": "🟢🛩️ Калуга - Грабцево, UUBC",
+        "inKta": true
+      },
+      {
+        "id": "19527a7ee35faa01",
+        "action": "REMOVE",
+        "name": "Чкалов",
+        "icao": "UWGG",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-25T04:12:53+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5074",
+        "text": "🟢🛩️ Нижний Новгород - Чкалов, UWGG",
+        "inKta": true
+      }
+    ]
   }
 ]

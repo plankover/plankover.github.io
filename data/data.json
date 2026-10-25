@@ -1,39 +1,7 @@
 {
-  "updatedAt": "2026-10-25T01:35:46.759849+00:00",
+  "updatedAt": "2026-10-25T06:47:04.057830+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
-    {
-      "id": "0cf26cbb32ab8cc3",
-      "action": "ADD",
-      "name": "Грабцево",
-      "icao": "UUBC",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": 70.0,
-      "messageTimestamp": "2026-10-24T20:36:40+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5049",
-      "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км",
-      "inKta": true,
-      "snapshot": true,
-      "lat": 54.5488708,
-      "lon": 36.3697725
-    },
-    {
-      "id": "09b226e073e9f9c1",
-      "action": "ADD",
-      "name": "Донское",
-      "icao": "UUOT",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": 50.0,
-      "messageTimestamp": "2026-10-24T20:36:40+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5049",
-      "text": "🔴🛩️ Тамбов - Донское, UUOT / 50 км",
-      "inKta": true,
-      "snapshot": true,
-      "lat": 52.8060125,
-      "lon": 41.4845129
-    },
     {
       "id": "6cc1b3c180750620",
       "action": "ADD",
@@ -164,41 +132,6 @@
       "lon": 44.2678
     },
     {
-      "id": "7cbd0f2d6024fb25",
-      "action": "ADD",
-      "name": "Пашковский",
-      "icao": "URKK",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": 20.0,
-      "messageTimestamp": "2026-10-24T20:50:07+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5052",
-      "text": "🔴🛩️ Краснодар - Пашковский, URKK / 20 км",
-      "inKta": true,
-      "lat": 45.033714,
-      "lon": 39.1814429
-    },
-    {
-      "id": "f95dceb32548ef3c",
-      "action": "ADD",
-      "name": "Домодедово",
-      "icao": "UUDD",
-      "kind": "airport",
-      "type": "partial",
-      "radiusKm": 100.0,
-      "messageTimestamp": "2026-10-24T20:52:56+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5053",
-      "text": "🟡🛩️ Домодедово, UUDD / 100 км (азимуты 090-270)",
-      "sector": {
-        "radiusKm": 100.0,
-        "startAzimuth": 90,
-        "endAzimuth": 270
-      },
-      "inKta": true,
-      "lat": 55.4087122,
-      "lon": 37.9094307
-    },
-    {
       "id": "5f3719d7065c0fbc",
       "action": "ADD",
       "name": "Новороссийск",
@@ -268,21 +201,6 @@
       "lon": 36.0213092
     },
     {
-      "id": "d3b731d7f5e6124b",
-      "action": "ADD",
-      "name": "Геленджик",
-      "icao": "URKG",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-10-24T20:58:17+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5055",
-      "text": "🔴🛩️ Геленджик, URKG",
-      "inKta": true,
-      "lat": 44.58209,
-      "lon": 38.01248
-    },
-    {
       "id": "29bf809d6e7cd54d",
       "action": "ADD",
       "name": "Медведица",
@@ -305,21 +223,6 @@
       "inKta": false,
       "lat": 51.079559,
       "lon": 44.8182885
-    },
-    {
-      "id": "54f8da035f7a6a57",
-      "action": "ADD",
-      "name": "Гагарин",
-      "icao": "UWSG",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-10-24T21:45:25+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5059",
-      "text": "🔴🛩️ Саратов - Гагарин, UWSG",
-      "inKta": true,
-      "lat": 51.7139093,
-      "lon": 46.1672319
     },
     {
       "id": "9959e5f3a35eb00e",
@@ -607,6 +510,21 @@
       "inKta": false,
       "lat": 57.2977748,
       "lon": 51.1877584
+    },
+    {
+      "id": "a6edce74961dd0c0",
+      "action": "ADD",
+      "name": "Большое Савино",
+      "icao": "USPP",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-25T02:59:29+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5070",
+      "text": "🔴🛩️ Пермь - Большое Савино, USPP",
+      "inKta": true,
+      "lat": 57.9153712,
+      "lon": 56.0283146
     }
   ]
 }
