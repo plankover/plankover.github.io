@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T20:11:05.446676+00:00",
+  "updatedAt": "2026-10-25T20:23:33.908511+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -102,7 +102,9 @@
       "messageTimestamp": "2026-10-25T19:42:23+00:00",
       "sourceUrl": "https://t.me/PlanKoverTDay/5094",
       "text": "🔴 а/д Большое, Завидово / 40 км",
-      "inKta": false
+      "inKta": false,
+      "lat": 56.5536,
+      "lon": 36.5595
     },
     {
       "id": "cb6ce71a005a62d9",
