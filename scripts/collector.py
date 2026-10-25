@@ -64,6 +64,8 @@ def fetch_updates(offset):
 # Novoselovka is in Ekaterinovsky District, Saratov Oblast; its 150 km
 # restriction explicitly references Saratov and Penza airports.
 CURATED_COORDS = {
+    # Москва: фиксируем центр города, а не геометрический центр его территории.
+    "place:москва": {"lat": 55.7522, "lon": 37.6156},
     "place:новоселовка": {"lat": 51.9489, "lon": 44.2678},
     # Медведица, Жирновский район, Волгоградская область.
     "place:медведица": {"lat": 51.079559, "lon": 44.8182885},
