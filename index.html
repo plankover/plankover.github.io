@@ -188,7 +188,6 @@
       .map-top { left: 9px; right: 9px; top: 9px; }
       .map-card { padding: 9px 10px; }
       .action { padding: 9px; }
-      .map-status { padding:8px 9px; max-width:55vw; }
       .map-help { left:9px; bottom:58px; }
       .map-info { left:9px; bottom:12px; }
     }
@@ -702,15 +701,13 @@
       lastCheckAt = new Date();
       lastCheckSucceeded = true;
       render();
-      $("updated-at").textContent = dataUpdatedAt
-        ? `Последнее изменение набора: ${new Date(dataUpdatedAt).toLocaleString("ru-RU")}`
-        : "Время формирования набора неизвестно";
+      $("updated-at").textContent = "Данные обновляются автоматически с некоторой периодичностью. Возможны задержки.";
       $("source-label").textContent = payload?.source ? ` Источник: ${payload.source}` : "";
     } catch (error) {
       console.error("Не удалось загрузить данные:", error);
       lastCheckAt = new Date();
       lastCheckSucceeded = false;
-      $("updated-at").textContent = "Не удалось проверить данные. Ниже может отображаться последняя загруженная версия.";
+      $("updated-at").textContent = "Не удалось обновить данные. Ниже может отображаться последняя загруженная версия.";
       if (!allItems.length) {
         $("restriction-list").innerHTML = `<div class="empty">
           <div class="empty-icon">!</div>
