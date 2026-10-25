@@ -343,7 +343,7 @@
     // A sector/azimuth alone does not mean a yellow restriction: red
     // restrictions can also be limited to a direction.
     const sourceText = String(item.text || "");
-    const statusEmoji = sourceText.match(/[🔴🟡]/)?.[0];
+    const statusEmoji = sourceText.match(/[🔴🟡]/u)?.[0];
     if (statusEmoji === "🟡") return true;
     if (statusEmoji === "🔴") return false;
     return item.type === "partial" || item.status === "partial" ||
