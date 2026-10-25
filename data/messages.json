@@ -14054,5 +14054,98 @@
         "inKta": false
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5096,
+    "timestamp": "2026-10-25T20:30:44+00:00",
+    "text": "🟢🛩️ Москва - Внуково, UUWW\n🟢🛩️ Москва - Домодедово, UUDD\n🟢🛩️ Жуковский - Раменское, UUBW",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5096",
+    "events": [
+      {
+        "id": "cce50f01a0f3e11a",
+        "action": "REMOVE",
+        "name": "Внуково",
+        "icao": "UUWW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-25T20:30:44+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5096",
+        "text": "🟢🛩️ Москва - Внуково, UUWW",
+        "inKta": true
+      },
+      {
+        "id": "737c7de9314086b0",
+        "action": "REMOVE",
+        "name": "Домодедово",
+        "icao": "UUDD",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-25T20:30:44+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5096",
+        "text": "🟢🛩️ Москва - Домодедово, UUDD",
+        "inKta": true
+      },
+      {
+        "id": "6c373e36fb475498",
+        "action": "REMOVE",
+        "name": "Раменское",
+        "icao": "UUBW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-25T20:30:44+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5096",
+        "text": "🟢🛩️ Жуковский - Раменское, UUBW",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5097,
+    "timestamp": "2026-10-25T20:32:09+00:00",
+    "text": "🟢 Москва (🛩️ Внуково, UUWW ; 🛩️ Домодедово, UUDD ; 🛩️ Жуковский, UUBW)",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5097",
+    "events": [
+      {
+        "id": "9a6dbc5c0dce6f18",
+        "action": "REMOVE",
+        "name": "Внуково",
+        "icao": "UUWW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-25T20:32:09+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5097",
+        "text": "🟢 🛩️ Внуково, UUWW"
+      },
+      {
+        "id": "a9bcfc035efb0091",
+        "action": "REMOVE",
+        "name": "Домодедово",
+        "icao": "UUDD",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-25T20:32:09+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5097",
+        "text": "🟢 🛩️ Домодедово, UUDD"
+      },
+      {
+        "id": "b7b87fff291ec646",
+        "action": "REMOVE",
+        "name": "Жуковский",
+        "icao": "UUBW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-25T20:32:09+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5097",
+        "text": "🟢 🛩️ Жуковский, UUBW"
+      }
+    ]
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T20:23:33.908511+00:00",
+  "updatedAt": "2026-10-25T20:35:17.912498+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -16,35 +16,6 @@
       "inKta": true,
       "lat": 54.5488708,
       "lon": 36.3697725
-    },
-    {
-      "id": "3b56966e0aecbf02",
-      "action": "ADD",
-      "name": "Внуково",
-      "icao": "UUWW",
-      "kind": "airport",
-      "type": "partial",
-      "radiusKm": 150.0,
-      "messageTimestamp": "2026-10-25T18:14:51+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5092",
-      "text": "🟡🛩️ Внуково, UUWW (🔴🛩️ Калуга - Грабцево, UUBC) / 150 км (азимуты 150-330)",
-      "sector": {
-        "radiusKm": 150.0,
-        "startAzimuth": 150,
-        "endAzimuth": 330
-      },
-      "affectedAirports": [
-        {
-          "name": "Грабцево",
-          "icao": "UUBC",
-          "kind": "airport",
-          "lat": 54.5488708,
-          "lon": 36.3697725
-        }
-      ],
-      "inKta": true,
-      "lat": 55.5995278,
-      "lon": 37.2735752
     },
     {
       "id": "2e7edcf26be4a6bf",
