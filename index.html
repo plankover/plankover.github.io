@@ -447,9 +447,12 @@
   }
 
   function drawAirplaneMarker(group) {
-    // An airport can be referenced by multiple restrictions; turn its marker
-    // yellow whenever any associated restriction is partial.
-    const partial = group.entries.some(entry => isPartial(entry.item));
+    // If this airport has its own KTA restriction, use those entries to
+    // determine marker color. Restrictions that merely mention it as affected
+    // must not override its own status.
+    const ktaEntries = group.entries.filter(entry => entry.role === "kta");
+    const relevantEntries = ktaEntries.length ? ktaEntries : group.entries;
+    const partial = relevantEntries.some(entry => isPartial(entry.item));
     const markerClass = partial ? "map-marker partial" : "map-marker";
     const marker = L.marker(group.coords, {
       icon: L.divIcon({
