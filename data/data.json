@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T23:36:28.012386+00:00",
+  "updatedAt": "2026-10-25T01:35:46.759849+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -467,6 +467,146 @@
       "inKta": false,
       "lat": 53.5798818,
       "lon": 48.6498061
+    },
+    {
+      "id": "ebb2fa0d5048cc76",
+      "action": "ADD",
+      "name": "Студенка",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 150.0,
+      "messageTimestamp": "2026-10-24T23:47:42+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5064",
+      "text": "🔴 Студенка (🛩️ Чебоксары, UWKS ; 🛩️ Казань, UWKD) / 150 км",
+      "affectedAirports": [
+        {
+          "name": "Чебоксары",
+          "icao": "UWKS",
+          "kind": "airport",
+          "lat": 56.0880752,
+          "lon": 47.3382761
+        },
+        {
+          "name": "Казань",
+          "icao": "UWKD",
+          "kind": "airport",
+          "lat": 55.6074098,
+          "lon": 49.2855138
+        }
+      ],
+      "inKta": false,
+      "lat": 52.0265959,
+      "lon": 40.3266933
+    },
+    {
+      "id": "4eb3383f5bedcf16",
+      "action": "ADD",
+      "name": "Казань",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 100.0,
+      "messageTimestamp": "2026-10-24T23:47:42+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5064",
+      "text": "🔴 Казань (🛩️ Казань, UWKD) / 100 км",
+      "affectedAirports": [
+        {
+          "name": "Казань",
+          "icao": "UWKD",
+          "kind": "airport",
+          "lat": 55.6074098,
+          "lon": 49.2855138
+        }
+      ],
+      "inKta": false,
+      "lat": 55.7946485,
+      "lon": 49.1115022
+    },
+    {
+      "id": "bcb63c98d8ac7553",
+      "action": "ADD",
+      "name": "Северный, Смоленск",
+      "icao": null,
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 50.0,
+      "messageTimestamp": "2026-10-24T23:47:42+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5064",
+      "text": "🔴 а/д Северный, Смоленск / 50 км ",
+      "inKta": false,
+      "lat": 54.823085,
+      "lon": 32.0231288
+    },
+    {
+      "id": "e38d7d398996629f",
+      "action": "ADD",
+      "name": "Базарный Сызган",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 50.0,
+      "messageTimestamp": "2026-10-24T23:47:42+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5064",
+      "text": "🔴 Базарный Сызган / 50 км",
+      "inKta": false,
+      "lat": 53.7482676,
+      "lon": 46.7584818
+    },
+    {
+      "id": "81cf6440d14106be",
+      "action": "ADD",
+      "name": "Вятские Поляны",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 150.0,
+      "messageTimestamp": "2026-10-24T23:54:21+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5065",
+      "text": "🔴 Вятские Поляны (🛩️ Казань, UWKD ; 🛩️ Нижнекамск - Бегишево, UWKE) / 150 км",
+      "affectedAirports": [
+        {
+          "name": "Казань",
+          "icao": "UWKD",
+          "kind": "airport",
+          "lat": 55.6074098,
+          "lon": 49.2855138
+        },
+        {
+          "name": "Бегишево",
+          "icao": "UWKE",
+          "kind": "airport",
+          "lat": 55.5655378,
+          "lon": 52.0988028
+        }
+      ],
+      "inKta": false,
+      "lat": 56.2229946,
+      "lon": 51.0749038
+    },
+    {
+      "id": "e18ed32c322fc63d",
+      "action": "ADD",
+      "name": "Березовка (Сюмсинский р-н, Удмуртская Республика)",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 150.0,
+      "messageTimestamp": "2026-10-24T23:54:21+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5065",
+      "text": "🔴 Березовка (Сюмсинский р-н, Удмуртская Республика) (🛩️ Ижевск, USII) / 150 км",
+      "affectedAirports": [
+        {
+          "name": "Ижевск",
+          "icao": "USII",
+          "kind": "airport",
+          "lat": 56.8361905,
+          "lon": 53.4631283
+        }
+      ],
+      "inKta": false,
+      "lat": 57.2977748,
+      "lon": 51.1877584
     }
   ]
 }

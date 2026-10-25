@@ -12891,5 +12891,139 @@
         "inKta": false
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5064,
+    "timestamp": "2026-10-24T23:47:42+00:00",
+    "text": "🔴 Студенка (🛩️ Чебоксары, UWKS ; 🛩️ Казань, UWKD) / 150 км\n🔴 Казань (🛩️ Казань, UWKD) / 100 км\n🔴 а/д Северный, Смоленск / 50 км \n🔴 Базарный Сызган / 50 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5064",
+    "events": [
+      {
+        "id": "ebb2fa0d5048cc76",
+        "action": "ADD",
+        "name": "Студенка",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 150.0,
+        "messageTimestamp": "2026-10-24T23:47:42+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5064",
+        "text": "🔴 Студенка (🛩️ Чебоксары, UWKS ; 🛩️ Казань, UWKD) / 150 км",
+        "affectedAirports": [
+          {
+            "name": "Чебоксары",
+            "icao": "UWKS",
+            "kind": "airport"
+          },
+          {
+            "name": "Казань",
+            "icao": "UWKD",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false
+      },
+      {
+        "id": "4eb3383f5bedcf16",
+        "action": "ADD",
+        "name": "Казань",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 100.0,
+        "messageTimestamp": "2026-10-24T23:47:42+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5064",
+        "text": "🔴 Казань (🛩️ Казань, UWKD) / 100 км",
+        "affectedAirports": [
+          {
+            "name": "Казань",
+            "icao": "UWKD",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false
+      },
+      {
+        "id": "bcb63c98d8ac7553",
+        "action": "ADD",
+        "name": "Северный, Смоленск",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 50.0,
+        "messageTimestamp": "2026-10-24T23:47:42+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5064",
+        "text": "🔴 а/д Северный, Смоленск / 50 км ",
+        "inKta": false
+      },
+      {
+        "id": "e38d7d398996629f",
+        "action": "ADD",
+        "name": "Базарный Сызган",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 50.0,
+        "messageTimestamp": "2026-10-24T23:47:42+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5064",
+        "text": "🔴 Базарный Сызган / 50 км",
+        "inKta": false
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5065,
+    "timestamp": "2026-10-24T23:54:21+00:00",
+    "text": "🔴 Вятские Поляны (🛩️ Казань, UWKD ; 🛩️ Нижнекамск - Бегишево, UWKE) / 150 км\n🔴 Березовка (Сюмсинский р-н, Удмуртская Республика) (🛩️ Ижевск, USII) / 150 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5065",
+    "events": [
+      {
+        "id": "81cf6440d14106be",
+        "action": "ADD",
+        "name": "Вятские Поляны",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 150.0,
+        "messageTimestamp": "2026-10-24T23:54:21+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5065",
+        "text": "🔴 Вятские Поляны (🛩️ Казань, UWKD ; 🛩️ Нижнекамск - Бегишево, UWKE) / 150 км",
+        "affectedAirports": [
+          {
+            "name": "Казань",
+            "icao": "UWKD",
+            "kind": "airport"
+          },
+          {
+            "name": "Бегишево",
+            "icao": "UWKE",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false
+      },
+      {
+        "id": "e18ed32c322fc63d",
+        "action": "ADD",
+        "name": "Березовка (Сюмсинский р-н, Удмуртская Республика)",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 150.0,
+        "messageTimestamp": "2026-10-24T23:54:21+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5065",
+        "text": "🔴 Березовка (Сюмсинский р-н, Удмуртская Республика) (🛩️ Ижевск, USII) / 150 км",
+        "affectedAirports": [
+          {
+            "name": "Ижевск",
+            "icao": "USII",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false
+      }
+    ]
   }
 ]
