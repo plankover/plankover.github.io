@@ -13327,5 +13327,358 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5075,
+    "timestamp": "2026-10-25T06:53:01+00:00",
+    "text": "🕒 Актуальные ограничения на 9:50 мск:\n\n🔴 Зюкайка (🛩️ Пермь - Большое Савино, USPP) / 150 км\n🔴 Гремячинск (🛩️ Пермь - Большое Савино, USPP) / 150 км\n🔴 Юрла / 150 км\n🔴 Березники / 120 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5075",
+    "events": [
+      {
+        "id": "9b10a1fd7d2e504d",
+        "action": "ADD",
+        "name": "Зюкайка",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 150.0,
+        "messageTimestamp": "2026-10-25T06:53:01+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5075",
+        "text": "🔴 Зюкайка (🛩️ Пермь - Большое Савино, USPP) / 150 км",
+        "affectedAirports": [
+          {
+            "name": "Большое Савино",
+            "icao": "USPP",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false,
+        "snapshot": true
+      },
+      {
+        "id": "3c3d5d66fae81dda",
+        "action": "ADD",
+        "name": "Гремячинск",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 150.0,
+        "messageTimestamp": "2026-10-25T06:53:01+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5075",
+        "text": "🔴 Гремячинск (🛩️ Пермь - Большое Савино, USPP) / 150 км",
+        "affectedAirports": [
+          {
+            "name": "Большое Савино",
+            "icao": "USPP",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false,
+        "snapshot": true
+      },
+      {
+        "id": "0ae4ba160ff0a6cb",
+        "action": "ADD",
+        "name": "Юрла",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 150.0,
+        "messageTimestamp": "2026-10-25T06:53:01+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5075",
+        "text": "🔴 Юрла / 150 км",
+        "inKta": false,
+        "snapshot": true
+      },
+      {
+        "id": "bbbd8a6c7434bfa0",
+        "action": "ADD",
+        "name": "Березники",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 120.0,
+        "messageTimestamp": "2026-10-25T06:53:01+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5075",
+        "text": "🔴 Березники / 120 км",
+        "inKta": false,
+        "snapshot": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5076,
+    "timestamp": "2026-10-25T07:10:37+00:00",
+    "text": "✅ Ранее объявленные",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5076",
+    "events": [
+      {
+        "id": "7bcb45afc42b838e",
+        "action": "CLEAR",
+        "messageTimestamp": "2026-10-25T07:10:37+00:00",
+        "text": "✅ Ранее объявленные",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5076"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5077,
+    "timestamp": "2026-10-25T07:14:52+00:00",
+    "text": "🟢🛩️ Пермь - Большое Савино, USPP",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5077",
+    "events": [
+      {
+        "id": "a6610354f20d358c",
+        "action": "REMOVE",
+        "name": "Большое Савино",
+        "icao": "USPP",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-25T07:14:52+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5077",
+        "text": "🟢🛩️ Пермь - Большое Савино, USPP",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5078,
+    "timestamp": "2026-10-25T08:22:11+00:00",
+    "text": "⚠️ В ближайшее время возможны ограничения в ряде аэропортов",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5078",
+    "events": [
+      {
+        "id": "98a2adb06a697ce6",
+        "action": "ADD",
+        "messageTimestamp": "2026-10-25T08:22:11+00:00",
+        "text": "⚠️ В ближайшее время возможны ограничения в ряде аэропортов",
+        "unresolved": true,
+        "sourceUrl": "https://t.me/PlanKoverTDay/5078"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5079,
+    "timestamp": "2026-10-25T08:39:53+00:00",
+    "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км\n🔴 а/д Клоково, Тула / 70 км\n🔴 а/д Дягилево, Рязань / 70 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5079",
+    "events": [
+      {
+        "id": "6adb74e62e61fb84",
+        "action": "ADD",
+        "name": "Грабцево",
+        "icao": "UUBC",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-10-25T08:39:53+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5079",
+        "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км",
+        "inKta": true
+      },
+      {
+        "id": "2cc760e91bc8d136",
+        "action": "ADD",
+        "name": "Клоково, Тула",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-10-25T08:39:53+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5079",
+        "text": "🔴 а/д Клоково, Тула / 70 км",
+        "inKta": false
+      },
+      {
+        "id": "1987ee37843da7a4",
+        "action": "ADD",
+        "name": "Дягилево, Рязань",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-10-25T08:39:53+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5079",
+        "text": "🔴 а/д Дягилево, Рязань / 70 км",
+        "inKta": false
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5080,
+    "timestamp": "2026-10-25T09:19:50+00:00",
+    "text": "🟢🛩️ Калуга - Грабцево, UUBC\n🟢 а/д Клоково, Тула\n🟢 а/д Дягилево, Рязань",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5080",
+    "events": [
+      {
+        "id": "ba18c914fe9a6abc",
+        "action": "REMOVE",
+        "name": "Грабцево",
+        "icao": "UUBC",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-25T09:19:50+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5080",
+        "text": "🟢🛩️ Калуга - Грабцево, UUBC",
+        "inKta": true
+      },
+      {
+        "id": "74abbee3514fec98",
+        "action": "REMOVE",
+        "name": "Клоково, Тула",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-25T09:19:50+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5080",
+        "text": "🟢 а/д Клоково, Тула",
+        "inKta": false
+      },
+      {
+        "id": "fc75d4e824d2dbef",
+        "action": "REMOVE",
+        "name": "Дягилево, Рязань",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-25T09:19:50+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5080",
+        "text": "🟢 а/д Дягилево, Рязань",
+        "inKta": false
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5081,
+    "timestamp": "2026-10-25T10:21:18+00:00",
+    "text": "🔴 Новороссийск (🛩️ Геленджик, URKG) / 30 км\n🔴🛩️ Геленджик, URKG / 30 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5081",
+    "events": [
+      {
+        "id": "988ed82944f6eaf9",
+        "action": "ADD",
+        "name": "Новороссийск",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 30.0,
+        "messageTimestamp": "2026-10-25T10:21:18+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5081",
+        "text": "🔴 Новороссийск (🛩️ Геленджик, URKG) / 30 км",
+        "affectedAirports": [
+          {
+            "name": "Геленджик",
+            "icao": "URKG",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false
+      },
+      {
+        "id": "a93a63df7457c48c",
+        "action": "ADD",
+        "name": "Геленджик",
+        "icao": "URKG",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 30.0,
+        "messageTimestamp": "2026-10-25T10:21:18+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5081",
+        "text": "🔴🛩️ Геленджик, URKG / 30 км",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5082,
+    "timestamp": "2026-10-25T10:43:10+00:00",
+    "text": "⚠️ В ближайшее время возможны ограничения в ЦФО (ожидаем Грабцево, Клоково, Дягилево)",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5082",
+    "events": [
+      {
+        "id": "5b4ce93de1596ea1",
+        "action": "ADD",
+        "messageTimestamp": "2026-10-25T10:43:10+00:00",
+        "text": "⚠️ В ближайшее время возможны ограничения в ЦФО (ожидаем Грабцево, Клоково, Дягилево)",
+        "unresolved": true,
+        "sourceUrl": "https://t.me/PlanKoverTDay/5082"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5083,
+    "timestamp": "2026-10-25T10:53:05+00:00",
+    "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км\n🔴 а/д Клоково, Тула / 70 км\n🔴 а/д Дягилево, Рязань / 70 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5083",
+    "events": [
+      {
+        "id": "b434508ebaf3c5a4",
+        "action": "ADD",
+        "name": "Грабцево",
+        "icao": "UUBC",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-10-25T10:53:05+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5083",
+        "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км",
+        "inKta": true
+      },
+      {
+        "id": "f2edd7529e8d97cf",
+        "action": "ADD",
+        "name": "Клоково, Тула",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-10-25T10:53:05+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5083",
+        "text": "🔴 а/д Клоково, Тула / 70 км",
+        "inKta": false
+      },
+      {
+        "id": "979a14dbe0efc04b",
+        "action": "ADD",
+        "name": "Дягилево, Рязань",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-10-25T10:53:05+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5083",
+        "text": "🔴 а/д Дягилево, Рязань / 70 км",
+        "inKta": false
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5084,
+    "timestamp": "2026-10-25T11:51:28+00:00",
+    "text": "✅ Ранее объявленные",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5084",
+    "events": [
+      {
+        "id": "075ebae12cb1a6d9",
+        "action": "CLEAR",
+        "messageTimestamp": "2026-10-25T11:51:28+00:00",
+        "text": "✅ Ранее объявленные",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5084"
+      }
+    ]
   }
 ]
