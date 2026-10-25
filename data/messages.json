@@ -13953,5 +13953,27 @@
         "inKta": false
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5093,
+    "timestamp": "2026-10-25T18:47:41+00:00",
+    "text": "🔴 Великие Луки / 100 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5093",
+    "events": [
+      {
+        "id": "1f50b78c275e472a",
+        "action": "ADD",
+        "name": "Великие Луки",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 100.0,
+        "messageTimestamp": "2026-10-25T18:47:41+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5093",
+        "text": "🔴 Великие Луки / 100 км",
+        "inKta": false
+      }
+    ]
   }
 ]

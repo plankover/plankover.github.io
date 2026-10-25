@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T18:15:17.402762+00:00",
+  "updatedAt": "2026-10-25T18:50:16.796292+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -60,6 +60,21 @@
       "inKta": false,
       "lat": 54.823085,
       "lon": 32.0231288
+    },
+    {
+      "id": "1f50b78c275e472a",
+      "action": "ADD",
+      "name": "Великие Луки",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 100.0,
+      "messageTimestamp": "2026-10-25T18:47:41+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5093",
+      "text": "🔴 Великие Луки / 100 км",
+      "inKta": false,
+      "lat": 56.342361,
+      "lon": 30.527922
     }
   ]
 }
