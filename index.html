@@ -660,8 +660,9 @@
         <div class="item-meta" style="margin-top:9px">
           ${radius ? `Радиус: ${esc(radius)} км` : "Радиус не указан"}
           ${sector ? ` · сектор ${esc(sector.start)}°-${esc(sector.end)}°` : ""}
-        </div>`;
-      el.addEventListener("click", () => selectItem(item._id));
+        </div>
+        ${item.sourceUrl ? `<div style="margin-top:9px"><a href="${esc(item.sourceUrl)}" target="_blank" rel="noreferrer" style="color:#a7c7ff" class="source-link">Открыть сообщение в Telegram ↗</a></div>` : ""}`;
+      el.addEventListener("click", event => { if (event.target.closest("a")) return; selectItem(item._id); });
       $("restriction-list").appendChild(el);
     }
   }
@@ -693,11 +694,11 @@
     const status = $("map-status");
     const checkText = lastCheckAt ? lastCheckAt.toLocaleTimeString("ru-RU", { hour:"2-digit", minute:"2-digit" }) : null;
     const dataText = dataUpdatedAt ? new Date(dataUpdatedAt).toLocaleString("ru-RU", { day:"2-digit", month:"2-digit", hour:"2-digit", minute:"2-digit" }) : null;
-    const stale = !dataUpdatedAt || !Number.isFinite(new Date(dataUpdatedAt).getTime()) || Date.now() - new Date(dataUpdatedAt).getTime() > 3 * HOUR;
-    status.classList.toggle("status-warning", !lastCheckSucceeded || stale);
+    const timestampUnknown = !dataUpdatedAt || !Number.isFinite(new Date(dataUpdatedAt).getTime());
+    status.classList.toggle("status-warning", !lastCheckSucceeded || timestampUnknown);
     if (!lastCheckAt) status.innerHTML = "<strong>Данные:</strong> ожидаем загрузку";
     else if (!lastCheckSucceeded) status.innerHTML = `<strong>Проверка:</strong> ошибка ${checkText}`;
-    else status.innerHTML = `<strong>Набор:</strong> ${dataText || "время неизвестно"}<br><span>Проверено: ${checkText}</span>`;
+    else status.innerHTML = `<strong>Изменение набора:</strong> ${dataText || "время неизвестно"}<br><span>Файл получен: ${checkText}</span>`;
   }
 
   async function loadData() {
@@ -714,7 +715,7 @@
       render();
       updateFreshness();
       $("updated-at").textContent = dataUpdatedAt
-        ? `Набор данных обновлен: ${new Date(dataUpdatedAt).toLocaleString("ru-RU")}`
+        ? `Последнее изменение набора: ${new Date(dataUpdatedAt).toLocaleString("ru-RU")}`
         : "Время формирования набора неизвестно";
       $("source-label").textContent = payload?.source ? ` Источник: ${payload.source}` : "";
     } catch (error) {
