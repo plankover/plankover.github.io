@@ -1,5 +1,51 @@
 {
-  "updatedAt": "2026-10-25T12:05:03.653970+00:00",
+  "updatedAt": "2026-10-25T14:20:16.970894+00:00",
   "source": "@PlanKoverTDay",
-  "restrictions": []
+  "restrictions": [
+    {
+      "id": "fbe571d2ed406be5",
+      "action": "ADD",
+      "name": "Грабцево",
+      "icao": "UUBC",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 70.0,
+      "messageTimestamp": "2026-10-25T14:16:47+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5085",
+      "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км",
+      "inKta": true,
+      "lat": 54.5488708,
+      "lon": 36.3697725
+    },
+    {
+      "id": "c791b49181102371",
+      "action": "ADD",
+      "name": "Клоково, Тула",
+      "icao": null,
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 70.0,
+      "messageTimestamp": "2026-10-25T14:16:47+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5085",
+      "text": "🔴 а/д Клоково, Тула / 70 км",
+      "inKta": false,
+      "lat": 54.2418249,
+      "lon": 37.6000197
+    },
+    {
+      "id": "01323f4996f89c04",
+      "action": "ADD",
+      "name": "Дягилево, Рязань",
+      "icao": null,
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 70.0,
+      "messageTimestamp": "2026-10-25T14:16:47+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5085",
+      "text": "🔴 а/д Дягилево, Рязань / 70 км",
+      "inKta": false,
+      "lat": 54.6571958,
+      "lon": 39.6308884
+    }
+  ]
 }
