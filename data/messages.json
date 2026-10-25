@@ -14010,5 +14010,49 @@
         "inKta": false
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5095,
+    "timestamp": "2026-10-25T20:03:18+00:00",
+    "text": "🔴 Москва (🛩️ Внуково, UUWW ; 🛩️ Домодедово, UUDD ; 🛩️ Жуковский, UUBW) / 150 км (азимуты 090-270)",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5095",
+    "events": [
+      {
+        "id": "cb6ce71a005a62d9",
+        "action": "ADD",
+        "name": "Москва",
+        "icao": null,
+        "kind": "city",
+        "type": "partial",
+        "radiusKm": 150.0,
+        "messageTimestamp": "2026-10-25T20:03:18+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5095",
+        "text": "🔴 Москва (🛩️ Внуково, UUWW ; 🛩️ Домодедово, UUDD ; 🛩️ Жуковский, UUBW) / 150 км (азимуты 090-270)",
+        "sector": {
+          "radiusKm": 150.0,
+          "startAzimuth": 90,
+          "endAzimuth": 270
+        },
+        "affectedAirports": [
+          {
+            "name": "Внуково",
+            "icao": "UUWW",
+            "kind": "airport"
+          },
+          {
+            "name": "Домодедово",
+            "icao": "UUDD",
+            "kind": "airport"
+          },
+          {
+            "name": "Жуковский",
+            "icao": "UUBW",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false
+      }
+    ]
   }
 ]

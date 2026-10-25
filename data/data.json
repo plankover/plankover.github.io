@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T19:45:19.230544+00:00",
+  "updatedAt": "2026-10-25T20:05:21.643942+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -103,6 +103,49 @@
       "sourceUrl": "https://t.me/PlanKoverTDay/5094",
       "text": "🔴 а/д Большое, Завидово / 40 км",
       "inKta": false
+    },
+    {
+      "id": "cb6ce71a005a62d9",
+      "action": "ADD",
+      "name": "Москва",
+      "icao": null,
+      "kind": "city",
+      "type": "partial",
+      "radiusKm": 150.0,
+      "messageTimestamp": "2026-10-25T20:03:18+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5095",
+      "text": "🔴 Москва (🛩️ Внуково, UUWW ; 🛩️ Домодедово, UUDD ; 🛩️ Жуковский, UUBW) / 150 км (азимуты 090-270)",
+      "sector": {
+        "radiusKm": 150.0,
+        "startAzimuth": 90,
+        "endAzimuth": 270
+      },
+      "affectedAirports": [
+        {
+          "name": "Внуково",
+          "icao": "UUWW",
+          "kind": "airport",
+          "lat": 55.5995278,
+          "lon": 37.2735752
+        },
+        {
+          "name": "Домодедово",
+          "icao": "UUDD",
+          "kind": "airport",
+          "lat": 55.4087122,
+          "lon": 37.9094307
+        },
+        {
+          "name": "Жуковский",
+          "icao": "UUBW",
+          "kind": "airport",
+          "lat": 55.5496554,
+          "lon": 38.1547897
+        }
+      ],
+      "inKta": false,
+      "lat": 55.625578,
+      "lon": 37.6063916
     }
   ]
 }
