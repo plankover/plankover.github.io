@@ -1,37 +1,7 @@
 {
-  "updatedAt": "2026-10-26T22:55:16.896020+00:00",
+  "updatedAt": "2026-10-26T23:30:16.805555+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
-    {
-      "id": "92b651147ab66afb",
-      "action": "ADD",
-      "name": "Геленджик",
-      "icao": "URKG",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-10-26T17:27:11+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5105",
-      "text": "🔴🛩️ Геленджик, URKG",
-      "inKta": true,
-      "lat": 44.58209,
-      "lon": 38.01248
-    },
-    {
-      "id": "c15bec1143fca794",
-      "action": "ADD",
-      "name": "Сочи",
-      "icao": "URSS",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-10-26T21:26:16+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5106",
-      "text": "🔴🛩️ Сочи, URSS",
-      "inKta": true,
-      "lat": 43.4439715,
-      "lon": 39.9400928
-    },
     {
       "id": "abb9fbc66a850c1a",
       "action": "ADD",

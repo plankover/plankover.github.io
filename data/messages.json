@@ -14512,5 +14512,40 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5109,
+    "timestamp": "2026-10-26T23:25:34+00:00",
+    "text": "🟢🛩️ Геленджик, URKG\n🟢🛩️ Сочи, URSS",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5109",
+    "events": [
+      {
+        "id": "7af93b96f0d3d4c4",
+        "action": "REMOVE",
+        "name": "Геленджик",
+        "icao": "URKG",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-26T23:25:34+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5109",
+        "text": "🟢🛩️ Геленджик, URKG",
+        "inKta": true
+      },
+      {
+        "id": "3cda58066ac81a30",
+        "action": "REMOVE",
+        "name": "Сочи",
+        "icao": "URSS",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-26T23:25:34+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5109",
+        "text": "🟢🛩️ Сочи, URSS",
+        "inKta": true
+      }
+    ]
   }
 ]
