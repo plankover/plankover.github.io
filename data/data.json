@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T20:35:17.912498+00:00",
+  "updatedAt": "2026-10-26T00:25:16.481864+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -119,6 +119,21 @@
       "inKta": false,
       "lat": 55.7522,
       "lon": 37.6156
+    },
+    {
+      "id": "6b0a431b018a402f",
+      "action": "ADD",
+      "name": "Донское",
+      "icao": "UUOO",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-26T00:23:45+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5098",
+      "text": "🔴🛩️ Тамбов - Донское, UUOO",
+      "inKta": true,
+      "lat": 52.8060125,
+      "lon": 41.4845129
     }
   ]
 }

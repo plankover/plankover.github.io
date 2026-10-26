@@ -14147,5 +14147,27 @@
         "text": "🟢 🛩️ Жуковский, UUBW"
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5098,
+    "timestamp": "2026-10-26T00:23:45+00:00",
+    "text": "🔴🛩️ Тамбов - Донское, UUOO",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5098",
+    "events": [
+      {
+        "id": "6b0a431b018a402f",
+        "action": "ADD",
+        "name": "Донское",
+        "icao": "UUOO",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-26T00:23:45+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5098",
+        "text": "🔴🛩️ Тамбов - Донское, UUOO",
+        "inKta": true
+      }
+    ]
   }
 ]
