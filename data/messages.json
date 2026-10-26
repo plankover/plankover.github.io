@@ -14312,21 +14312,34 @@
     "chatId": -1003822338715,
     "messageId": 5100,
     "timestamp": "2026-10-26T04:24:31+00:00",
-    "text": "🔴🛩️ Москва - Шереметьево, UUEE",
+    "text": "🔴🛩️ Москва - Шереметьево, UUEE / 40 км\n🔴 Дубна / 20 км",
     "sourceUrl": "https://t.me/PlanKoverTDay/5100",
     "events": [
       {
-        "id": "01be5d349d8c5695",
+        "id": "15da3b309f3f48f3",
         "action": "ADD",
         "name": "Шереметьево",
         "icao": "UUEE",
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
+        "radiusKm": 40.0,
         "messageTimestamp": "2026-10-26T04:24:31+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/5100",
-        "text": "🔴🛩️ Москва - Шереметьево, UUEE",
+        "text": "🔴🛩️ Москва - Шереметьево, UUEE / 40 км",
         "inKta": true
+      },
+      {
+        "id": "6181cadde8a6c345",
+        "action": "ADD",
+        "name": "Дубна",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 20.0,
+        "messageTimestamp": "2026-10-26T04:24:31+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5100",
+        "text": "🔴 Дубна / 20 км",
+        "inKta": false
       }
     ]
   }
