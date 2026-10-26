@@ -14152,21 +14152,159 @@
     "chatId": -1003822338715,
     "messageId": 5098,
     "timestamp": "2026-10-26T00:23:45+00:00",
-    "text": "🔴🛩️ Тамбов - Донское, UUOO",
+    "text": "🔴🛩️ Тамбов - Донское, UUOT",
     "sourceUrl": "https://t.me/PlanKoverTDay/5098",
     "events": [
       {
-        "id": "6b0a431b018a402f",
+        "id": "383305cdbc7adfef",
         "action": "ADD",
         "name": "Донское",
-        "icao": "UUOO",
+        "icao": "UUOT",
         "kind": "airport",
         "type": "full",
         "radiusKm": null,
         "messageTimestamp": "2026-10-26T00:23:45+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/5098",
-        "text": "🔴🛩️ Тамбов - Донское, UUOO",
+        "text": "🔴🛩️ Тамбов - Донское, UUOT",
         "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5099,
+    "timestamp": "2026-10-26T04:08:46+00:00",
+    "text": "🕒 Актуальные ограничения на 7:05 мск:\n\n🔴🛩️ Калуга - Грабцево, UUBC / 70 км\n🔴🛩️ Тамбов - Донское, UUOT / 50 км \n🟡🛩️ Внуково, UUWW (🔴🛩️ Калуга - Грабцево, UUBC) / 150 км (азимуты 150-330)\n🟡🛩️ Домодедово, UUDD / 100 км (азимуты 090-270)\n\n🔴 а/д Клоково, Тула / 70 км \n🔴 а/д Большое, Завидово / 40 км\n🔴 а/д Северный, Смоленск / 70 км\n🔴 Михайлов / 70 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5099",
+    "events": [
+      {
+        "id": "159866fad9faced6",
+        "action": "ADD",
+        "name": "Грабцево",
+        "icao": "UUBC",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-10-26T04:08:46+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5099",
+        "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км",
+        "inKta": true,
+        "snapshot": true
+      },
+      {
+        "id": "9663404f4fc4b1ab",
+        "action": "ADD",
+        "name": "Донское",
+        "icao": "UUOT",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 50.0,
+        "messageTimestamp": "2026-10-26T04:08:46+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5099",
+        "text": "🔴🛩️ Тамбов - Донское, UUOT / 50 км ",
+        "inKta": true,
+        "snapshot": true
+      },
+      {
+        "id": "87002318cdc182b6",
+        "action": "ADD",
+        "name": "Внуково",
+        "icao": "UUWW",
+        "kind": "airport",
+        "type": "partial",
+        "radiusKm": 150.0,
+        "messageTimestamp": "2026-10-26T04:08:46+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5099",
+        "text": "🟡🛩️ Внуково, UUWW (🔴🛩️ Калуга - Грабцево, UUBC) / 150 км (азимуты 150-330)",
+        "sector": {
+          "radiusKm": 150.0,
+          "startAzimuth": 150,
+          "endAzimuth": 330
+        },
+        "affectedAirports": [
+          {
+            "name": "Грабцево",
+            "icao": "UUBC",
+            "kind": "airport"
+          }
+        ],
+        "inKta": true,
+        "snapshot": true
+      },
+      {
+        "id": "f42cee9136d994ae",
+        "action": "ADD",
+        "name": "Домодедово",
+        "icao": "UUDD",
+        "kind": "airport",
+        "type": "partial",
+        "radiusKm": 100.0,
+        "messageTimestamp": "2026-10-26T04:08:46+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5099",
+        "text": "🟡🛩️ Домодедово, UUDD / 100 км (азимуты 090-270)",
+        "sector": {
+          "radiusKm": 100.0,
+          "startAzimuth": 90,
+          "endAzimuth": 270
+        },
+        "inKta": true,
+        "snapshot": true
+      },
+      {
+        "id": "01e186fdeadf04c0",
+        "action": "ADD",
+        "name": "Клоково, Тула",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-10-26T04:08:46+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5099",
+        "text": "🔴 а/д Клоково, Тула / 70 км ",
+        "inKta": false,
+        "snapshot": true
+      },
+      {
+        "id": "7f56bd4919da17dd",
+        "action": "ADD",
+        "name": "Большое, Завидово",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 40.0,
+        "messageTimestamp": "2026-10-26T04:08:46+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5099",
+        "text": "🔴 а/д Большое, Завидово / 40 км",
+        "inKta": false,
+        "snapshot": true
+      },
+      {
+        "id": "6877678e68635436",
+        "action": "ADD",
+        "name": "Северный, Смоленск",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-10-26T04:08:46+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5099",
+        "text": "🔴 а/д Северный, Смоленск / 70 км",
+        "inKta": false,
+        "snapshot": true
+      },
+      {
+        "id": "b5d65515a5235ab1",
+        "action": "ADD",
+        "name": "Михайлов",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-10-26T04:08:46+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5099",
+        "text": "🔴 Михайлов / 70 км",
+        "inKta": false,
+        "snapshot": true
       }
     ]
   }
