@@ -445,7 +445,8 @@
     if (!coords) return;
 
     const icao = String(location.icao || "").trim().toUpperCase();
-    const key = icao || `coords:${coords[0].toFixed(4)},${coords[1].toFixed(4)}`;
+    // Merge identical physical airport points despite conflicting source ICAO codes.
+    const key = `coords:${coords[0].toFixed(4)},${coords[1].toFixed(4)}`;
     let group = groups.get(key);
     if (!group) {
       group = { coords, name: getName(location), icao, entries: [] };
