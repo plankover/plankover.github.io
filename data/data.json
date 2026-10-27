@@ -1,5 +1,66 @@
 {
-  "updatedAt": "2026-10-27T03:25:16.697899+00:00",
+  "updatedAt": "2026-10-27T12:10:16.742343+00:00",
   "source": "@PlanKoverTDay",
-  "restrictions": []
+  "restrictions": [
+    {
+      "id": "c13b79fcc9837e19",
+      "action": "ADD",
+      "name": "Внуково",
+      "icao": "UUWW",
+      "kind": "airport",
+      "type": "partial",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-27T12:06:34+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5112",
+      "text": "🟡🛩️ Москва - Внуково, UUWW",
+      "inKta": true,
+      "lat": 55.5995278,
+      "lon": 37.2735752
+    },
+    {
+      "id": "a9dcfb02c3bf608d",
+      "action": "ADD",
+      "name": "Домодедово",
+      "icao": "UUDD",
+      "kind": "airport",
+      "type": "partial",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-27T12:06:34+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5112",
+      "text": "🟡🛩️ Москва - Домодедово, UUDD",
+      "inKta": true,
+      "lat": 55.4087122,
+      "lon": 37.9094307
+    },
+    {
+      "id": "52660a97a6e41005",
+      "action": "ADD",
+      "name": "Жуковский",
+      "icao": "UUBW",
+      "kind": "airport",
+      "type": "partial",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-27T12:06:34+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5112",
+      "text": "🟡🛩️ Раменское - Жуковский, UUBW",
+      "inKta": true,
+      "lat": 55.5496554,
+      "lon": 38.1547897
+    },
+    {
+      "id": "f67854df8ca4070e",
+      "action": "ADD",
+      "name": "Грабцево",
+      "icao": "UUBC",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-27T12:07:32+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5113",
+      "text": "🔴🛩️ Калуга - Грабцево, UUBC",
+      "inKta": true,
+      "lat": 54.5488708,
+      "lon": 36.3697725
+    }
+  ]
 }
