@@ -109,15 +109,26 @@ def cache_coords(name,icao,cache,airport=False):
         except Exception as e:print(f"Не удалось найти координаты для {query}: {e}")
     cache[key]={"notFoundAt":now()};write(CACHE_FILE,cache);return None
 def resolve_event_coords(event, cache):
-    """Resolve the restriction center and any explicitly affected airports."""
-    coords=cache_coords(event.get("name"),event.get("icao"),cache,airport=event.get("kind")=="airport")
+    """Resolve restriction center and explicitly affected airports.
+
+    Saransk was once published with Cheboksary's ICAO code (UWKS).
+    Resolve it by its explicit name so the wrong code cannot move its marker.
+    Do not change the global UWKS coordinates: they belong to Cheboksary.
+    """
+    def airport_coords(item):
+        name=(item.get("name") or "").strip().casefold()
+        if item.get("kind") == "airport" and name in {"саранск", "аэропорт саранск"}:
+            return {"lat": 54.1274695, "lon": 45.2152086}
+        return cache_coords(item.get("name"),item.get("icao"),cache,airport=item.get("kind")=="airport")
+
+    coords=airport_coords(event)
     if coords:
         event["lat"],event["lon"]=coords["lat"],coords["lon"]
     else:
         event.pop("lat",None);event.pop("lon",None)
 
     for airport in event.get("affectedAirports",[]):
-        coords=cache_coords(airport.get("name"),airport.get("icao"),cache,airport=True)
+        coords=airport_coords(airport)
         if coords:
             airport["lat"],airport["lon"]=coords["lat"],coords["lon"]
         else:
