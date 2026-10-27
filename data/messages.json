@@ -14661,5 +14661,49 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5114,
+    "timestamp": "2026-10-27T13:16:58+00:00",
+    "text": "🔴🛩️ Внуково, UUWW",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5114",
+    "events": [
+      {
+        "id": "93ffb4c2ca17de56",
+        "action": "ADD",
+        "name": "Внуково",
+        "icao": "UUWW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-27T13:16:58+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5114",
+        "text": "🔴🛩️ Внуково, UUWW",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5115,
+    "timestamp": "2026-10-27T13:17:28+00:00",
+    "text": "🔴🛩️ Внуково, UUWW",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5115",
+    "events": [
+      {
+        "id": "3d36de56cf423cf3",
+        "action": "ADD",
+        "name": "Внуково",
+        "icao": "UUWW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-27T13:17:28+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5115",
+        "text": "🔴🛩️ Внуково, UUWW",
+        "inKta": true
+      }
+    ]
   }
 ]
