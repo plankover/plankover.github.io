@@ -463,31 +463,39 @@
       ? `${esc(group.name)} (${esc(group.icao)})`
       : esc(group.name);
 
-    // A full restriction takes precedence over a partial one for the airport summary.
+    // Show the airport itself first. Keep restriction events only as concise
+    // context so readers can see why this airport's marker has its status.
     const hasFull = group.entries.some(entry => !isPartial(entry.item));
-    const ownEntries = group.entries.filter(entry => entry.role === "kta");
-    const affectedEntries = group.entries.filter(entry => entry.role === "affected");
     const statusLabel = hasFull
-      ? '<span style="color:#ff858d">🔴 Есть полное ограничение</span>'
-      : '<span style="color:#ffd277">🟡 Только частичные ограничения</span>';
+      ? '<span style="color:#ff858d">🔴 Полное ограничение</span>'
+      : '<span style="color:#ffd277">🟡 Частичное ограничение</span>';
 
     let html = `<div class="popup-title">✈ ${airportName}</div>`;
-    html += `<div style="padding:7px 9px;border:1px solid #344357;border-radius:8px;background:#101722;margin:7px 0 10px">${statusLabel}<div class="popup-muted" style="margin-top:3px">Учтено событий: ${group.entries.length}</div></div>`;
+    html += `<div style="padding:7px 9px;border:1px solid #344357;border-radius:8px;background:#101722;margin:7px 0 10px">${statusLabel}</div>`;
+    html += '<div style="font-weight:700;margin:8px 0 5px">Основание статуса аэропорта</div>';
 
-    const renderSection = (title, entries, note) => {
-      if (!entries.length) return "";
-      let section = `<div style="font-weight:700;margin:10px 0 5px">${title} <span class="popup-muted">(${entries.length})</span></div>`;
-      if (note) section += `<div class="popup-muted" style="margin-bottom:5px">${note}</div>`;
-      for (const entry of entries) {
-        section += `<div style="border-top:1px solid #344357;margin-top:7px;padding-top:7px">${popupHtml(entry.item)}</div>`;
-      }
-      return section;
-    };
+    for (const entry of group.entries) {
+      const item = entry.item;
+      const restrictionName = esc(getName(item));
+      const restrictionStatus = isPartial(item)
+        ? '<span style="color:#ffd277">🟡 Частичное</span>'
+        : '<span style="color:#ff858d">🔴 Полное</span>';
+      const relation = entry.role === "kta"
+        ? "Собственное ограничение аэропорта"
+        : "Аэропорт затронут ограничением зоны";
+      const radius = getRadius(item);
+      const radiusText = radius ? ` · радиус ${esc(radius)} км` : "";
+      const source = item.sourceUrl
+        ? `<div style="margin-top:3px"><a href="${esc(item.sourceUrl)}" target="_blank" rel="noreferrer" style="color:#a7c7ff">Сообщение об ограничении ↗</a></div>`
+        : "";
 
-    html += renderSection("Ограничения в КТА аэропорта", ownEntries,
-      "Ограничения, непосредственно относящиеся к этому аэропорту.");
-    html += renderSection("Другие зоны, затрагивающие аэропорт", affectedEntries,
-      "Аэропорт указан в сообщении как затронутый. Это отдельные события, а не дубли.");
+      html += `<div style="border-top:1px solid #344357;margin-top:7px;padding-top:7px">
+        <div class="popup-muted">${relation}</div>
+        <div style="font-weight:650">${restrictionName}</div>
+        <div>${restrictionStatus}${radiusText}</div>
+        ${source}
+      </div>`;
+    }
     return html;
   }
 
