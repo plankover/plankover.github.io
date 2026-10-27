@@ -14984,5 +14984,22 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5124,
+    "timestamp": "2026-10-27T20:07:55+00:00",
+    "text": "⚠️ В ближайшее время возможны ограничения в ряде аэропортов ЦФО",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5124",
+    "events": [
+      {
+        "id": "0ad8f9cbc705f3d5",
+        "action": "ADD",
+        "messageTimestamp": "2026-10-27T20:07:55+00:00",
+        "text": "⚠️ В ближайшее время возможны ограничения в ряде аэропортов ЦФО",
+        "unresolved": true,
+        "sourceUrl": "https://t.me/PlanKoverTDay/5124"
+      }
+    ]
   }
 ]
