@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T20:35:20.889156+00:00",
+  "updatedAt": "2026-10-27T20:54:25.399222+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -97,7 +97,9 @@
         {
           "name": "Саранск",
           "icao": "UWPC",
-          "kind": "airport"
+          "kind": "airport",
+          "lat": 54.1274695,
+          "lon": 45.2152086
         },
         {
           "name": "Пенза",
@@ -169,8 +171,8 @@
       "sourceUrl": "https://t.me/PlanKoverTDay/5126",
       "text": "🔴🛩️ Саранск, UWKS",
       "inKta": true,
-      "lat": 56.0880752,
-      "lon": 47.3382761
+      "lat": 54.1274695,
+      "lon": 45.2152086
     },
     {
       "id": "e02d05a4b1aa0942",
