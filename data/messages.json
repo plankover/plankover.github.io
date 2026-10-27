@@ -14810,5 +14810,27 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5121,
+    "timestamp": "2026-10-27T18:12:29+00:00",
+    "text": "🟢🛩️ Москва - Жуковский, UUBW",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5121",
+    "events": [
+      {
+        "id": "fa2fbd70fc1fb2a3",
+        "action": "REMOVE",
+        "name": "Жуковский",
+        "icao": "UUBW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-27T18:12:29+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5121",
+        "text": "🟢🛩️ Москва - Жуковский, UUBW",
+        "inKta": true
+      }
+    ]
   }
 ]
