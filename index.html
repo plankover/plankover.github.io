@@ -462,16 +462,32 @@
     const airportName = group.icao
       ? `${esc(group.name)} (${esc(group.icao)})`
       : esc(group.name);
+
+    // A full restriction takes precedence over a partial one for the airport summary.
+    const hasFull = group.entries.some(entry => !isPartial(entry.item));
+    const ownEntries = group.entries.filter(entry => entry.role === "kta");
+    const affectedEntries = group.entries.filter(entry => entry.role === "affected");
+    const statusLabel = hasFull
+      ? '<span style="color:#ff858d">🔴 Есть полное ограничение</span>'
+      : '<span style="color:#ffd277">🟡 Только частичные ограничения</span>';
+
     let html = `<div class="popup-title">✈ ${airportName}</div>`;
-    for (const entry of group.entries) {
-      const context = entry.role === "affected"
-        ? "Аэропорт явно указан как затронутый в сообщении Telegram"
-        : "Ограничение в КТА";
-      html += `<div style="border-top:1px solid #344357;margin-top:8px;padding-top:8px">
-        <div class="popup-muted">${context}</div>
-        ${popupHtml(entry.item)}
-      </div>`;
-    }
+    html += `<div style="padding:7px 9px;border:1px solid #344357;border-radius:8px;background:#101722;margin:7px 0 10px">${statusLabel}<div class="popup-muted" style="margin-top:3px">Учтено событий: ${group.entries.length}</div></div>`;
+
+    const renderSection = (title, entries, note) => {
+      if (!entries.length) return "";
+      let section = `<div style="font-weight:700;margin:10px 0 5px">${title} <span class="popup-muted">(${entries.length})</span></div>`;
+      if (note) section += `<div class="popup-muted" style="margin-bottom:5px">${note}</div>`;
+      for (const entry of entries) {
+        section += `<div style="border-top:1px solid #344357;margin-top:7px;padding-top:7px">${popupHtml(entry.item)}</div>`;
+      }
+      return section;
+    };
+
+    html += renderSection("Ограничения в КТА аэропорта", ownEntries,
+      "Ограничения, непосредственно относящиеся к этому аэропорту.");
+    html += renderSection("Другие зоны, затрагивающие аэропорт", affectedEntries,
+      "Аэропорт указан в сообщении как затронутый. Это отдельные события, а не дубли.");
     return html;
   }
 
