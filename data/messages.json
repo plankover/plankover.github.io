@@ -14727,5 +14727,44 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5117,
+    "timestamp": "2026-10-27T15:12:31+00:00",
+    "text": "🔴🛩️ Внуково, UUWW",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5117",
+    "events": [
+      {
+        "id": "483fb8879037ac74",
+        "action": "ADD",
+        "name": "Внуково",
+        "icao": "UUWW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-27T15:12:31+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5117",
+        "text": "🔴🛩️ Внуково, UUWW",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5118,
+    "timestamp": "2026-10-27T15:14:50+00:00",
+    "text": "▫️Аэропорт ВНУКОВО\n\n✈️ВВЕДЕНЫ временные ограниченияна прием и выпуск воздушных судов.\n\n✈️Ограничения необходимы для обеспечения безопасности полетов.\n\n✈Говорит Росавиация | MАХ",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5118",
+    "events": [
+      {
+        "id": "214190a06cfa289d",
+        "action": "ADD",
+        "messageTimestamp": "2026-10-27T15:14:50+00:00",
+        "text": "▫️Аэропорт ВНУКОВО\n\n✈️ВВЕДЕНЫ временные ограниченияна прием и выпуск воздушных судов.\n\n✈️Ограничения необходимы для обеспечения безопасности полетов.\n\n✈Говорит Росавиация | MАХ",
+        "unresolved": true,
+        "sourceUrl": "https://t.me/PlanKoverTDay/5118"
+      }
+    ]
   }
 ]
