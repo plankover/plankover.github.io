@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T19:59:35.081575+00:00",
+  "updatedAt": "2026-10-28T20:15:18.011633+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -68,19 +68,39 @@
       "lon": 37.2735752
     },
     {
-      "id": "b0a3d12bf85d2d40",
+      "id": "eb9bb05320f298ba",
       "action": "ADD",
       "name": "Домодедово",
       "icao": "UUDD",
       "kind": "airport",
       "type": "partial",
-      "radiusKm": null,
+      "radiusKm": 100.0,
       "messageTimestamp": "2026-10-28T19:58:43+00:00",
       "sourceUrl": "https://t.me/PlanKoverTDay/5137",
-      "text": "🟡🛩️ Москва - Домодедово, UUDD",
+      "text": "🟡🛩️ Москва - Домодедово, UUDD / 100 км (азимуты 090-270)",
+      "sector": {
+        "radiusKm": 100.0,
+        "startAzimuth": 90,
+        "endAzimuth": 270
+      },
       "inKta": true,
       "lat": 55.4087122,
       "lon": 37.9094307
+    },
+    {
+      "id": "50c6f34e2699f5a5",
+      "action": "ADD",
+      "name": "Конаково",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 50.0,
+      "messageTimestamp": "2026-10-28T19:58:43+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5137",
+      "text": "🔴 Конаково / 50 км",
+      "inKta": false,
+      "lat": 56.7126,
+      "lon": 36.779
     }
   ]
 }
