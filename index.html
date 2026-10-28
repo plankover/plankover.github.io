@@ -293,7 +293,7 @@
 
   // Keep desktop scrolling inside the restriction feed; leave Leaflet wheel zoom enabled on the map.
   // Canvas keeps restriction circles/sectors aligned with map tiles in html2canvas exports.
-  const map = L.map("map", { zoomControl: false, preferCanvas: true }).setView([55.75, 55.5], 4);
+  const map = L.map("map", { zoomControl: false, preferCanvas: true, zoomSnap: 0.5 }).setView([55.75, 55.5], 4);
   L.DomEvent.disableScrollPropagation(document.getElementById("restriction-list"));
   // Keep required map data attribution, but remove Leaflet promotional prefix/link.
   map.attributionControl.setPrefix(false);
@@ -770,7 +770,7 @@
         animate: false
       });
       // Deliberately zoom in one extra level after fitting all restriction bounds.
-      map.setZoom(Math.min(map.getZoom() + 1, 8), { animate: false });
+      map.setZoom(Math.min(map.getZoom() + 0.5, 8), { animate: false });
 
       // Temporarily show each airport marker directly on the map, bypassing clusters.
       map.removeLayer(airportMarkers);
