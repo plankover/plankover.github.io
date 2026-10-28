@@ -734,8 +734,10 @@
     const originalCenter = map.getCenter();
     const zoomControl = map.zoomControl?.getContainer();
     const originalZoomDisplay = zoomControl ? zoomControl.style.display : "";
+    const originalClusterRadius = airportMarkers.options.maxClusterRadius;
+    const attribution = map.attributionControl;
+    const originalAttributionPosition = attribution.getPosition();
     let watermark = null;
-    let watermarkControl = null;
 
     try {
       if (typeof html2canvas !== "function") {
@@ -761,7 +763,15 @@
         maxZoom: 6,
         animate: false
       });
+
+      // Export individual airport markers, without cluster bubbles.
+      airportMarkers.options.maxClusterRadius = 0;
+      airportMarkers.refreshClusters();
+      map.setView(map.getCenter(), map.getZoom(), { animate: false });
+
       if (zoomControl) zoomControl.style.display = "none";
+      // Keep OSM attribution visible, moved away from the channel frame.
+      attribution.setPosition("bottomleft");
 
       const now = new Date();
       const timestamp = new Intl.DateTimeFormat("ru-RU", {
@@ -789,7 +799,7 @@
           "white-space:nowrap"
         ].join(";");
         container.innerHTML = '<strong style="display:block;font-size:14px">@PlanKoverTDay</strong>' +
-          '<span style="display:block;color:#c5d0df;margin-top:2px">Сформировано: ' + esc(timestamp) + ' МСК</span>';
+          '<span style="display:block;color:#c5d0df;margin-top:2px">' + esc(timestamp) + ' МСК</span>';
         L.DomEvent.disableClickPropagation(container);
         return container;
       };
@@ -821,6 +831,9 @@
     } finally {
       if (watermark) watermark.remove();
       if (zoomControl) zoomControl.style.display = originalZoomDisplay;
+      attribution.setPosition(originalAttributionPosition);
+      airportMarkers.options.maxClusterRadius = originalClusterRadius;
+      airportMarkers.refreshClusters();
       mapElement.style.width = originalWidth;
       mapElement.style.height = originalHeight;
       map.invalidateSize({ animate: false, pan: false });
