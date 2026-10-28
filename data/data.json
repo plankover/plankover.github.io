@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T21:05:17.106642+00:00",
+  "updatedAt": "2026-10-28T21:15:23.576126+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -146,34 +146,35 @@
       "lon": 37.6156
     },
     {
-      "id": "2b01365165341657",
+      "id": "dafee308b2c05b57",
       "action": "ADD",
-      "name": "Пенза",
-      "icao": "UWPP",
-      "kind": "airport",
+      "name": "Новоселовка",
+      "icao": null,
+      "kind": "city",
       "type": "full",
-      "radiusKm": null,
+      "radiusKm": 150.0,
       "messageTimestamp": "2026-10-28T20:52:04+00:00",
       "sourceUrl": "https://t.me/PlanKoverTDay/5139",
-      "text": "🔴🛩️ Пенза, UWPP",
-      "inKta": true,
-      "lat": 53.110734,
-      "lon": 45.023455
-    },
-    {
-      "id": "179b762dc16274d2",
-      "action": "ADD",
-      "name": "Гагарин",
-      "icao": "UWSG",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-10-28T20:52:04+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5139",
-      "text": "🔴🛩️ Саратов - Гагарин, UWSG",
-      "inKta": true,
-      "lat": 51.7139093,
-      "lon": 46.1672319
+      "text": "🔴 Новоселовка (🛩️ Пенза, UWPP; 🛩️ Саратов - Гагарин, UWSG) / 150 км",
+      "affectedAirports": [
+        {
+          "name": "Пенза",
+          "icao": "UWPP",
+          "kind": "airport",
+          "lat": 53.110734,
+          "lon": 45.023455
+        },
+        {
+          "name": "Гагарин",
+          "icao": "UWSG",
+          "kind": "airport",
+          "lat": 51.7139093,
+          "lon": 46.1672319
+        }
+      ],
+      "inKta": false,
+      "lat": 51.9489,
+      "lon": 44.2678
     }
   ]
 }

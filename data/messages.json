@@ -15592,34 +15592,33 @@
     "chatId": -1003822338715,
     "messageId": 5139,
     "timestamp": "2026-10-28T20:52:04+00:00",
-    "text": "🔴🛩️ Пенза, UWPP\n🔴🛩️ Саратов - Гагарин, UWSG",
+    "text": "🔴 Новоселовка (🛩️ Пенза, UWPP; 🛩️ Саратов - Гагарин, UWSG) / 150 км",
     "sourceUrl": "https://t.me/PlanKoverTDay/5139",
     "events": [
       {
-        "id": "2b01365165341657",
+        "id": "dafee308b2c05b57",
         "action": "ADD",
-        "name": "Пенза",
-        "icao": "UWPP",
-        "kind": "airport",
+        "name": "Новоселовка",
+        "icao": null,
+        "kind": "city",
         "type": "full",
-        "radiusKm": null,
+        "radiusKm": 150.0,
         "messageTimestamp": "2026-10-28T20:52:04+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/5139",
-        "text": "🔴🛩️ Пенза, UWPP",
-        "inKta": true
-      },
-      {
-        "id": "179b762dc16274d2",
-        "action": "ADD",
-        "name": "Гагарин",
-        "icao": "UWSG",
-        "kind": "airport",
-        "type": "full",
-        "radiusKm": null,
-        "messageTimestamp": "2026-10-28T20:52:04+00:00",
-        "sourceUrl": "https://t.me/PlanKoverTDay/5139",
-        "text": "🔴🛩️ Саратов - Гагарин, UWSG",
-        "inKta": true
+        "text": "🔴 Новоселовка (🛩️ Пенза, UWPP; 🛩️ Саратов - Гагарин, UWSG) / 150 км",
+        "affectedAirports": [
+          {
+            "name": "Пенза",
+            "icao": "UWPP",
+            "kind": "airport"
+          },
+          {
+            "name": "Гагарин",
+            "icao": "UWSG",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false
       }
     ]
   }
