@@ -15204,5 +15204,122 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5129,
+    "timestamp": "2026-10-28T04:08:36+00:00",
+    "text": "🕒 Актуальные ограничения на 07:05 мск:\n\n🔴🛩️ Калуга - Грабцево, UUBC / 70 км\n🟡🛩️ Внуково, UUWW / 100 км (азимуты 150-300)\n🟡🛩️ Домодедово, UUDD  / 100 км (азимуты 090-270)\n\n🔴 а/д Северный, Смоленск / 70 км\n🔴 а/д Двоевка, Вязьма / 70 км\n🔴 а/д Клоково, Тула / 70 км\n🔴 а/д Дягилево, Рязань / 70 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5129",
+    "events": [
+      {
+        "id": "222c3045044f0a11",
+        "action": "ADD",
+        "name": "Грабцево",
+        "icao": "UUBC",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-10-28T04:08:36+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5129",
+        "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км",
+        "inKta": true,
+        "snapshot": true
+      },
+      {
+        "id": "f2cc602a593ba14a",
+        "action": "ADD",
+        "name": "Внуково",
+        "icao": "UUWW",
+        "kind": "airport",
+        "type": "partial",
+        "radiusKm": 100.0,
+        "messageTimestamp": "2026-10-28T04:08:36+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5129",
+        "text": "🟡🛩️ Внуково, UUWW / 100 км (азимуты 150-300)",
+        "sector": {
+          "radiusKm": 100.0,
+          "startAzimuth": 150,
+          "endAzimuth": 300
+        },
+        "inKta": true,
+        "snapshot": true
+      },
+      {
+        "id": "772cca40abe9280a",
+        "action": "ADD",
+        "name": "Домодедово",
+        "icao": "UUDD",
+        "kind": "airport",
+        "type": "partial",
+        "radiusKm": 100.0,
+        "messageTimestamp": "2026-10-28T04:08:36+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5129",
+        "text": "🟡🛩️ Домодедово, UUDD / 100 км (азимуты 090-270)",
+        "sector": {
+          "radiusKm": 100.0,
+          "startAzimuth": 90,
+          "endAzimuth": 270
+        },
+        "inKta": true,
+        "snapshot": true
+      },
+      {
+        "id": "0da67941061569b0",
+        "action": "ADD",
+        "name": "Северный, Смоленск",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-10-28T04:08:36+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5129",
+        "text": "🔴 а/д Северный, Смоленск / 70 км",
+        "inKta": false,
+        "snapshot": true
+      },
+      {
+        "id": "dc6b17e378aec73f",
+        "action": "ADD",
+        "name": "Двоевка, Вязьма",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-10-28T04:08:36+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5129",
+        "text": "🔴 а/д Двоевка, Вязьма / 70 км",
+        "inKta": false,
+        "snapshot": true
+      },
+      {
+        "id": "0cf1dc763bf54278",
+        "action": "ADD",
+        "name": "Клоково, Тула",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-10-28T04:08:36+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5129",
+        "text": "🔴 а/д Клоково, Тула / 70 км",
+        "inKta": false,
+        "snapshot": true
+      },
+      {
+        "id": "cf048ae86b176289",
+        "action": "ADD",
+        "name": "Дягилево, Рязань",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-10-28T04:08:36+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5129",
+        "text": "🔴 а/д Дягилево, Рязань / 70 км",
+        "inKta": false,
+        "snapshot": true
+      }
+    ]
   }
 ]
