@@ -793,18 +793,16 @@
       watermark.onAdd = () => {
         const container = L.DomUtil.create("div", "screenshot-watermark");
         container.style.cssText = [
-          "padding:10px 13px",
-          "border:1px solid #ffffff35",
-          "border-radius:10px",
-          "background:rgba(11,17,26,.92)",
-          "color:#edf3fb",
-          "box-shadow:0 3px 14px #0005",
-          "font:12px/1.45 Inter,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif",
+          "padding:0",
+          "border:0",
+          "background:transparent",
+          "color:#fff",
+          "font:600 12px/1.4 Inter,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif",
           "text-align:right",
-          "white-space:nowrap"
+          "white-space:nowrap",
+          "text-shadow:0 1px 3px #000,0 0 6px #000b"
         ].join(";");
-        container.innerHTML = '<strong style="display:block;font-size:14px">@PlanKoverTDay</strong>' +
-          '<span style="display:block;color:#c5d0df;margin-top:2px">' + esc(timestamp) + ' МСК</span>';
+        container.textContent = "@PlanKoverTDay  ·  " + timestamp + " МСК";
         L.DomEvent.disableClickPropagation(container);
         return container;
       };
