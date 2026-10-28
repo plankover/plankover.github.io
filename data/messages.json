@@ -15486,5 +15486,22 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5136,
+    "timestamp": "2026-10-28T19:26:42+00:00",
+    "text": "📌 Прогноз на ночь.\n\n✈️ Ожидаем ограничения в ряде аэропортов ЦФО, ПФО (в том числе московских)",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5136",
+    "events": [
+      {
+        "id": "3f18029a4f7cdbd1",
+        "action": "ADD",
+        "messageTimestamp": "2026-10-28T19:26:42+00:00",
+        "text": "📌 Прогноз на ночь.\n\n✈️ Ожидаем ограничения в ряде аэропортов ЦФО, ПФО (в том числе московских)",
+        "unresolved": true,
+        "sourceUrl": "https://t.me/PlanKoverTDay/5136"
+      }
+    ]
   }
 ]
