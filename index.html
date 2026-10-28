@@ -292,7 +292,8 @@
   const ARCHIVE_AFTER = 24 * HOUR;
 
   // Keep desktop scrolling inside the restriction feed; leave Leaflet wheel zoom enabled on the map.
-  const map = L.map("map", { zoomControl: false }).setView([55.75, 55.5], 4);
+  // Canvas keeps restriction circles/sectors aligned with map tiles in html2canvas exports.
+  const map = L.map("map", { zoomControl: false, preferCanvas: true }).setView([55.75, 55.5], 4);
   L.DomEvent.disableScrollPropagation(document.getElementById("restriction-list"));
   // Keep required map data attribution, but remove Leaflet promotional prefix/link.
   map.attributionControl.setPrefix(false);
