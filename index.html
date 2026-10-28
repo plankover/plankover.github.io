@@ -721,6 +721,12 @@
     return new Promise(resolve => setTimeout(resolve, ms));
   }
 
+  function mapElementZoomControl() {
+    // Zoom control was created explicitly with L.control.zoom(), so it is not
+    // available as map.zoomControl; locate its actual Leaflet container.
+    return $("map").querySelector(".leaflet-control-zoom");
+  }
+
   async function exportMapScreenshot() {
     const button = $("export-btn");
     if (button.disabled) return;
@@ -732,7 +738,7 @@
     const originalHeight = mapElement.style.height;
     const originalZoom = map.getZoom();
     const originalCenter = map.getCenter();
-    const zoomControl = map.zoomControl?.getContainer();
+    const zoomControl = mapElementZoomControl();
     const originalZoomDisplay = zoomControl ? zoomControl.style.display : "";
     const exportAirportMarkers = airportMarkers.getLayers();
     const attribution = map.attributionControl;
