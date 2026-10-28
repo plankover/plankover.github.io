@@ -769,6 +769,8 @@
         maxZoom: 7,
         animate: false
       });
+      // Deliberately zoom in one extra level after fitting all restriction bounds.
+      map.setZoom(Math.min(map.getZoom() + 1, 8), { animate: false });
 
       // Temporarily show each airport marker directly on the map, bypassing clusters.
       map.removeLayer(airportMarkers);
