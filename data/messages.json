@@ -15743,5 +15743,21 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5143,
+    "timestamp": "2026-10-28T22:05:46+00:00",
+    "text": "🕒 Актуальные ограничения на 01:05 мск.",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5143",
+    "events": [
+      {
+        "id": "ce3fd7280176dd46",
+        "action": "SNAPSHOT_UNRESOLVED",
+        "messageTimestamp": "2026-10-28T22:05:46+00:00",
+        "text": "🕒 Актуальные ограничения на 01:05 мск.",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5143"
+      }
+    ]
   }
 ]
