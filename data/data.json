@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T21:49:32.878900+00:00",
+  "updatedAt": "2026-10-28T22:00:18.055191+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -48,7 +48,7 @@
       "lon": 39.6308884
     },
     {
-      "id": "b439888f5b60b0b5",
+      "id": "ec3db5b63b253713",
       "action": "ADD",
       "name": "Внуково",
       "icao": "UUWW",
@@ -57,7 +57,7 @@
       "radiusKm": 100.0,
       "messageTimestamp": "2026-10-28T21:47:26+00:00",
       "sourceUrl": "https://t.me/PlanKoverTDay/5142",
-      "text": "Сохраняется 🟡🛩️ Внуково, UUWW / 100 км (азимуты 150-330)",
+      "text": "🟡🛩️ Внуково, UUWW / 100 км (азимуты 150-330)",
       "sector": {
         "radiusKm": 100.0,
         "startAzimuth": 150,
@@ -68,7 +68,7 @@
       "lon": 37.2735752
     },
     {
-      "id": "282713a9a3548bda",
+      "id": "78f333d0fe3bd806",
       "action": "ADD",
       "name": "Домодедово",
       "icao": "UUDD",

@@ -15683,11 +15683,11 @@
     "chatId": -1003822338715,
     "messageId": 5142,
     "timestamp": "2026-10-28T21:47:26+00:00",
-    "text": "🟢 Москва (🛩️ Жуковский, UUBW)\n\nСохраняется 🟡🛩️ Внуково, UUWW / 100 км (азимуты 150-330)\n🟡🛩️ Домодедово, UUDD / 100 км (азимуты 090-270)",
+    "text": "🟢 Москва (🛩️ Жуковский, UUBW)\n\nСохраняется\n🟡🛩️ Внуково, UUWW / 100 км (азимуты 150-330)\n🟡🛩️ Домодедово, UUDD / 100 км (азимуты 090-270)",
     "sourceUrl": "https://t.me/PlanKoverTDay/5142",
     "events": [
       {
-        "id": "ed16e885dfbe5a3f",
+        "id": "c2fe6569c4b5b413",
         "action": "REMOVE",
         "name": "Москва",
         "icao": null,
@@ -15707,7 +15707,7 @@
         "inKta": false
       },
       {
-        "id": "b439888f5b60b0b5",
+        "id": "ec3db5b63b253713",
         "action": "ADD",
         "name": "Внуково",
         "icao": "UUWW",
@@ -15716,7 +15716,7 @@
         "radiusKm": 100.0,
         "messageTimestamp": "2026-10-28T21:47:26+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/5142",
-        "text": "Сохраняется 🟡🛩️ Внуково, UUWW / 100 км (азимуты 150-330)",
+        "text": "🟡🛩️ Внуково, UUWW / 100 км (азимуты 150-330)",
         "sector": {
           "radiusKm": 100.0,
           "startAzimuth": 150,
@@ -15725,7 +15725,7 @@
         "inKta": true
       },
       {
-        "id": "282713a9a3548bda",
+        "id": "78f333d0fe3bd806",
         "action": "ADD",
         "name": "Домодедово",
         "icao": "UUDD",
