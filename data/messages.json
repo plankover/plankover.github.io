@@ -15464,11 +15464,11 @@
     "chatId": -1003822338715,
     "messageId": 5135,
     "timestamp": "2026-10-28T19:08:21+00:00",
-    "text": "🟡🛩️ Москва - Внуково, UUWW / 100 км (азимуты 000-150)",
+    "text": "🟡🛩️ Москва - Внуково, UUWW / 100 км (азимуты 150-000)",
     "sourceUrl": "https://t.me/PlanKoverTDay/5135",
     "events": [
       {
-        "id": "3915bcc9bc251018",
+        "id": "1d80786c4143b744",
         "action": "ADD",
         "name": "Внуково",
         "icao": "UUWW",
@@ -15477,11 +15477,11 @@
         "radiusKm": 100.0,
         "messageTimestamp": "2026-10-28T19:08:21+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/5135",
-        "text": "🟡🛩️ Москва - Внуково, UUWW / 100 км (азимуты 000-150)",
+        "text": "🟡🛩️ Москва - Внуково, UUWW / 100 км (азимуты 150-000)",
         "sector": {
           "radiusKm": 100.0,
-          "startAzimuth": 0,
-          "endAzimuth": 150
+          "startAzimuth": 150,
+          "endAzimuth": 0
         },
         "inKta": true
       }
