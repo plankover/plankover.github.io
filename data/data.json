@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T22:30:16.843144+00:00",
+  "updatedAt": "2026-10-28T02:15:18.566699+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -158,6 +158,51 @@
       "inKta": true,
       "lat": 54.1274695,
       "lon": 45.2152086
+    },
+    {
+      "id": "de2cab4ce879029c",
+      "action": "ADD",
+      "name": "Внуково",
+      "icao": "UUWW",
+      "kind": "airport",
+      "type": "partial",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-28T02:15:05+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5128",
+      "text": "🟡🛩️ Москва - Внуково, UUWW",
+      "inKta": true,
+      "lat": 55.5995278,
+      "lon": 37.2735752
+    },
+    {
+      "id": "5216decaee74b1a3",
+      "action": "ADD",
+      "name": "Домодедово",
+      "icao": "UUDD",
+      "kind": "airport",
+      "type": "partial",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-28T02:15:05+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5128",
+      "text": "🟡🛩️ Москва - Домодедово, UUDD",
+      "inKta": true,
+      "lat": 55.4087122,
+      "lon": 37.9094307
+    },
+    {
+      "id": "7afa3f52e44a5173",
+      "action": "ADD",
+      "name": "Раменское",
+      "icao": "UUBW",
+      "kind": "airport",
+      "type": "partial",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-28T02:15:05+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5128",
+      "text": "🟡🛩️ Жуковский - Раменское, UUBW",
+      "inKta": true,
+      "lat": 55.5496554,
+      "lon": 38.1547897
     }
   ]
 }
