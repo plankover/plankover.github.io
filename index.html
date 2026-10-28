@@ -749,15 +749,10 @@
       ].join(";");
       document.body.appendChild(exportElement);
 
-      // Force Canvas rendering for every vector shape. html2canvas is known
-      // to misplace Leaflet SVG paths during export, while Canvas stays aligned
-      // with the tile and marker panes.
-      const exportRenderer = L.canvas({ padding: 0.5 });
       exportMap = L.map(exportElement, {
         zoomControl: false,
         attributionControl: false,
         preferCanvas: true,
-        renderer: exportRenderer,
         fadeAnimation: false,
         zoomAnimation: false,
         markerZoomAnimation: false
@@ -789,8 +784,7 @@
           weight: 2,
           opacity: .9,
           fillColor: "#ff515b",
-          fillOpacity: sector ? .2 : .12,
-          renderer: exportRenderer
+          fillOpacity: sector ? .2 : .12
         };
         let shape;
         if (sector) {
@@ -803,8 +797,7 @@
         } else {
           shape = L.circleMarker(coords, {
             radius: 12, color: "#233449", weight: 1,
-            opacity: .01, fillColor: "#f8fafc", fillOpacity: .01,
-            renderer: exportRenderer
+            opacity: .01, fillColor: "#f8fafc", fillOpacity: .01
           });
         }
         shape.addTo(exportShapes);
