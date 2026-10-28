@@ -259,7 +259,7 @@
       <div class="map-top">
         <div class="map-actions">
           <button class="action" id="refresh-btn">↻ Обновить</button>
-
+          <button class="action" id="export-btn" title="Скачать изображение карты">📸 Скриншот</button>
         </div>
       </div>
       <button class="map-info" id="map-info" aria-label="Условные обозначения" title="Условные обозначения">i</button>
@@ -281,6 +281,7 @@
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 <script>
 (() => {
   "use strict";
@@ -715,6 +716,119 @@
     return many;
   }
 
+  function wait(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+  }
+
+  async function exportMapScreenshot() {
+    const button = $("export-btn");
+    if (button.disabled) return;
+    button.disabled = true;
+    button.textContent = "📸 Готовим…";
+
+    const mapElement = $("map");
+    const originalWidth = mapElement.style.width;
+    const originalHeight = mapElement.style.height;
+    const originalZoom = map.getZoom();
+    const originalCenter = map.getCenter();
+    const zoomControl = map.zoomControl?.getContainer();
+    const originalZoomDisplay = zoomControl ? zoomControl.style.display : "";
+    let watermark = null;
+    let watermarkControl = null;
+
+    try {
+      if (typeof html2canvas !== "function") {
+        throw new Error("Не удалось загрузить библиотеку экспорта изображения.");
+      }
+
+      // Use a consistent landscape canvas on both desktop and mobile.
+      mapElement.style.width = "1400px";
+      mapElement.style.height = "900px";
+      map.invalidateSize({ animate: false, pan: false });
+
+      let bounds = layer.getBounds();
+      if (airportMarkers.getLayers().length) {
+        const airportBounds = airportMarkers.getBounds();
+        if (airportBounds.isValid()) bounds.extend(airportBounds);
+      }
+      if (!bounds.isValid()) {
+        bounds = L.latLngBounds([[41, 19], [82, 180]]);
+      }
+
+      map.fitBounds(bounds, {
+        padding: [75, 75],
+        maxZoom: 6,
+        animate: false
+      });
+      if (zoomControl) zoomControl.style.display = "none";
+
+      const now = new Date();
+      const timestamp = new Intl.DateTimeFormat("ru-RU", {
+        timeZone: "Europe/Moscow",
+        day: "2-digit",
+        month: "2-digit",
+        year: "numeric",
+        hour: "2-digit",
+        minute: "2-digit",
+        hourCycle: "h23"
+      }).format(now);
+
+      watermark = L.control({ position: "bottomright" });
+      watermark.onAdd = () => {
+        const container = L.DomUtil.create("div", "screenshot-watermark");
+        container.style.cssText = [
+          "padding:10px 13px",
+          "border:1px solid #ffffff35",
+          "border-radius:10px",
+          "background:rgba(11,17,26,.92)",
+          "color:#edf3fb",
+          "box-shadow:0 3px 14px #0005",
+          "font:12px/1.45 Inter,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif",
+          "text-align:right",
+          "white-space:nowrap"
+        ].join(";");
+        container.innerHTML = '<strong style="display:block;font-size:14px">@PlanKoverTDay</strong>' +
+          '<span style="display:block;color:#c5d0df;margin-top:2px">Сформировано: ' + esc(timestamp) + ' МСК</span>';
+        L.DomEvent.disableClickPropagation(container);
+        return container;
+      };
+      watermark.addTo(map);
+
+      // Give the map time to load tiles for the new bounds before capturing.
+      await wait(2200);
+      const canvas = await html2canvas(mapElement, {
+        useCORS: true,
+        allowTaint: false,
+        backgroundColor: "#d8e0e8",
+        scale: 1.5,
+        logging: false,
+        width: 1400,
+        height: 900,
+        windowWidth: Math.max(window.innerWidth, 1400),
+        windowHeight: Math.max(window.innerHeight, 900)
+      });
+
+      const link = document.createElement("a");
+      const fileStamp = now.toLocaleString("sv-SE", { timeZone: "Europe/Moscow" })
+        .replace(" ", "_").replace(/:/g, "-");
+      link.download = "PlanKoverToday_" + fileStamp + ".png";
+      link.href = canvas.toDataURL("image/png");
+      link.click();
+    } catch (error) {
+      console.error("Не удалось создать скриншот карты:", error);
+      alert("Не удалось создать скриншот. Попробуйте ещё раз; если повторится, обновите страницу.");
+    } finally {
+      if (watermark) watermark.remove();
+      if (zoomControl) zoomControl.style.display = originalZoomDisplay;
+      mapElement.style.width = originalWidth;
+      mapElement.style.height = originalHeight;
+      map.invalidateSize({ animate: false, pan: false });
+      map.setView(originalCenter, originalZoom, { animate: false });
+      button.disabled = false;
+      button.textContent = "📸 Скриншот";
+    }
+  }
+
   async function loadData() {
     $("refresh-btn").textContent = "↻ Загружаем…";
     $("refresh-btn").disabled = true;
@@ -754,6 +868,7 @@
     });
   });
   $("refresh-btn").addEventListener("click", loadData);
+  $("export-btn").addEventListener("click", exportMapScreenshot);
 
   loadData();
   setInterval(loadData, 5 * 60 * 1000);
