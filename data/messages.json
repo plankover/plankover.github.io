@@ -15860,5 +15860,40 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5148,
+    "timestamp": "2026-10-28T22:58:57+00:00",
+    "text": "🔴🛩️ Москва - Домодедово, UUDD\n🔴🛩️ Москва - Жуковский, UUBW",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5148",
+    "events": [
+      {
+        "id": "665b36a2695a8e0a",
+        "action": "ADD",
+        "name": "Домодедово",
+        "icao": "UUDD",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-28T22:58:57+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5148",
+        "text": "🔴🛩️ Москва - Домодедово, UUDD",
+        "inKta": true
+      },
+      {
+        "id": "ef3e5f9f73d3d31b",
+        "action": "ADD",
+        "name": "Жуковский",
+        "icao": "UUBW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-28T22:58:57+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5148",
+        "text": "🔴🛩️ Москва - Жуковский, UUBW",
+        "inKta": true
+      }
+    ]
   }
 ]
