@@ -726,53 +726,109 @@
     button.disabled = true;
     button.textContent = "📸 Готовим…";
 
-    const mapElement = $("map");
-    const originalWidth = mapElement.style.width;
-    const originalHeight = mapElement.style.height;
-    const originalZoom = map.getZoom();
-    const originalCenter = map.getCenter();
-    const zoomControl = map.zoomControl?.getContainer();
-    const originalZoomDisplay = zoomControl ? zoomControl.style.display : "";
+    let exportMap = null;
+    let exportElement = null;
     let watermark = null;
-    let watermarkControl = null;
 
     try {
       if (typeof html2canvas !== "function") {
         throw new Error("Не удалось загрузить библиотеку экспорта изображения.");
       }
 
-      // Use a consistent landscape canvas on both desktop and mobile.
-      mapElement.style.width = "1400px";
-      mapElement.style.height = "900px";
-      map.invalidateSize({ animate: false, pan: false });
+      // Render the screenshot in a separate map. Resizing the live Leaflet map
+      // can leave its SVG restriction overlays out of sync with its markers.
+      exportElement = document.createElement("div");
+      exportElement.style.cssText = [
+        "position:fixed",
+        "left:-10000px",
+        "top:0",
+        "width:1400px",
+        "height:900px",
+        "z-index:-1",
+        "background:#d8e0e8"
+      ].join(";");
+      document.body.appendChild(exportElement);
 
-      let bounds = layer.getBounds();
-      if (airportMarkers.getLayers().length) {
-        const airportBounds = airportMarkers.getBounds();
-        if (airportBounds.isValid()) bounds.extend(airportBounds);
-      }
-      if (!bounds.isValid()) {
-        bounds = L.latLngBounds([[41, 19], [82, 180]]);
+      exportMap = L.map(exportElement, {
+        zoomControl: false,
+        attributionControl: false,
+        preferCanvas: true,
+        fadeAnimation: false,
+        zoomAnimation: false,
+        markerZoomAnimation: false
+      });
+      L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+        maxZoom: 18,
+        attribution: '&copy; OpenStreetMap'
+      }).addTo(exportMap);
+
+      const exportShapes = L.featureGroup().addTo(exportMap);
+      const exportAirports = L.layerGroup().addTo(exportMap);
+      const airportGroups = new Map();
+
+      for (const item of allItems) {
+        const coords = getCoords(item);
+        if (!coords) continue;
+
+        if (item.inKta === true) addAirplanePoint(airportGroups, item, item, "kta");
+        if (Array.isArray(item.affectedAirports)) {
+          for (const airport of item.affectedAirports) {
+            addAirplanePoint(airportGroups, airport, item, "affected");
+          }
+        }
+
+        const sector = getSector(item);
+        const radius = getRadius(item);
+        const style = {
+          color: "#ff515b",
+          weight: 2,
+          opacity: .9,
+          fillColor: "#ff515b",
+          fillOpacity: sector ? .2 : .12
+        };
+        let shape;
+        if (sector) {
+          shape = L.polygon(
+            sectorPoints(coords[0], coords[1], sector.radius, sector.start, sector.end),
+            style
+          );
+        } else if (radius) {
+          shape = L.circle(coords, { ...style, radius: radius * 1000 });
+        } else {
+          shape = L.circleMarker(coords, {
+            radius: 12, color: "#233449", weight: 1,
+            opacity: .01, fillColor: "#f8fafc", fillOpacity: .01
+          });
+        }
+        shape.addTo(exportShapes);
       }
 
-      map.fitBounds(bounds, {
+      for (const group of airportGroups.values()) {
+        const partial = group.entries.length > 0 &&
+          group.entries.every(entry => isPartial(entry.item));
+        const markerClass = partial ? "map-marker partial" : "map-marker";
+        L.marker(group.coords, {
+          icon: L.divIcon({
+            className: "",
+            html: '<div class="' + markerClass + '"><span>✈</span></div>',
+            iconSize: [24, 24],
+            iconAnchor: [12, 20]
+          }),
+          interactive: false
+        }).addTo(exportAirports);
+      }
+
+      let bounds = exportShapes.getBounds();
+      const airportBounds = exportAirports.getBounds();
+      if (airportBounds.isValid()) bounds.extend(airportBounds);
+      if (!bounds.isValid()) bounds = L.latLngBounds([[41, 19], [82, 180]]);
+
+      exportMap.fitBounds(bounds, {
         padding: [75, 75],
         maxZoom: 6,
         animate: false
       });
-
-      // Force Leaflet's vector shapes to recalculate their pixel positions
-      // after the export-only map resize. Without this, SVG circles/polygons
-      // can be captured with a stale transform while airport markers are current.
-      map.invalidateSize({ animate: false, pan: false });
-      map.setView(map.getCenter(), map.getZoom(), { animate: false });
-      layer.eachLayer(shape => {
-        if (typeof shape.redraw === "function") shape.redraw();
-      });
-      airportMarkers.refreshClusters();
-      await wait(350);
-
-      if (zoomControl) zoomControl.style.display = "none";
+      exportMap.invalidateSize({ animate: false, pan: false });
 
       const now = new Date();
       const timestamp = new Intl.DateTimeFormat("ru-RU", {
@@ -801,14 +857,13 @@
         ].join(";");
         container.innerHTML = '<strong style="display:block;font-size:14px">@PlanKoverTDay</strong>' +
           '<span style="display:block;color:#c5d0df;margin-top:2px">Сформировано: ' + esc(timestamp) + ' МСК</span>';
-        L.DomEvent.disableClickPropagation(container);
         return container;
       };
-      watermark.addTo(map);
+      watermark.addTo(exportMap);
 
-      // Give the map time to load tiles for the new bounds before capturing.
-      await wait(2200);
-      const canvas = await html2canvas(mapElement, {
+      // Let the new map and its tile images finish rendering before capture.
+      await wait(2600);
+      const canvas = await html2canvas(exportElement, {
         useCORS: true,
         allowTaint: false,
         backgroundColor: "#d8e0e8",
@@ -831,11 +886,8 @@
       alert("Не удалось создать скриншот. Попробуйте ещё раз; если повторится, обновите страницу.");
     } finally {
       if (watermark) watermark.remove();
-      if (zoomControl) zoomControl.style.display = originalZoomDisplay;
-      mapElement.style.width = originalWidth;
-      mapElement.style.height = originalHeight;
-      map.invalidateSize({ animate: false, pan: false });
-      map.setView(originalCenter, originalZoom, { animate: false });
+      if (exportMap) exportMap.remove();
+      if (exportElement) exportElement.remove();
       button.disabled = false;
       button.textContent = "📸 Скриншот";
     }
