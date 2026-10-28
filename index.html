@@ -734,7 +734,7 @@
     const originalCenter = map.getCenter();
     const zoomControl = map.zoomControl?.getContainer();
     const originalZoomDisplay = zoomControl ? zoomControl.style.display : "";
-    const originalClusterRadius = airportMarkers.options.maxClusterRadius;
+    const exportAirportMarkers = airportMarkers.getLayers();
     const attribution = map.attributionControl;
     const originalAttributionPosition = attribution.getPosition();
     let watermark = null;
@@ -764,10 +764,9 @@
         animate: false
       });
 
-      // Export individual airport markers, without cluster bubbles.
-      airportMarkers.options.maxClusterRadius = 0;
-      airportMarkers.refreshClusters();
-      map.setView(map.getCenter(), map.getZoom(), { animate: false });
+      // Temporarily show each airport marker directly on the map, bypassing clusters.
+      map.removeLayer(airportMarkers);
+      exportAirportMarkers.forEach(marker => marker.addTo(map));
 
       if (zoomControl) zoomControl.style.display = "none";
       // Keep OSM attribution visible, moved away from the channel frame.
@@ -832,8 +831,8 @@
       if (watermark) watermark.remove();
       if (zoomControl) zoomControl.style.display = originalZoomDisplay;
       attribution.setPosition(originalAttributionPosition);
-      airportMarkers.options.maxClusterRadius = originalClusterRadius;
-      airportMarkers.refreshClusters();
+      exportAirportMarkers.forEach(marker => map.removeLayer(marker));
+      map.addLayer(airportMarkers);
       mapElement.style.width = originalWidth;
       mapElement.style.height = originalHeight;
       map.invalidateSize({ animate: false, pan: false });
