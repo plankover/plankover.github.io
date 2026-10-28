@@ -821,7 +821,10 @@
         width: 1400,
         height: 900,
         windowWidth: Math.max(window.innerWidth, 1400),
-        windowHeight: Math.max(window.innerHeight, 900)
+        windowHeight: Math.max(window.innerHeight, 900),
+        // Explicitly exclude Leaflet's + / − zoom buttons from the exported image.
+        ignoreElements: element =>
+          element.classList?.contains("leaflet-control-zoom") === true
       });
 
       const link = document.createElement("a");
