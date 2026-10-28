@@ -8,6 +8,7 @@
   <title>План «Ковер» - карта ограничений</title>
   <meta name="description" content="Карта временных ограничений воздушного пространства России.">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/bubbleboddy-neue-trial">
   <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css">
   <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css">
   <style>
@@ -794,21 +795,25 @@
         const container = L.DomUtil.create("div", "screenshot-watermark");
         container.style.cssText = [
           "position:absolute",
-          "left:700px",
+          "left:0",
           "bottom:8px",
-          "transform:translateX(-50%)",
+          "width:1400px",
+          "display:flex",
+          "justify-content:center",
+          "box-sizing:border-box",
           "margin:0",
-          "padding:3px 7px",
-          "border:1px solid rgba(255,255,255,.9)",
-          "border-radius:3px",
-          "background:rgba(255,255,255,.12)",
+          "padding:0",
+          "border:0",
+          "background:transparent",
           "color:#000000",
-          "font:600 11px/1.4 Inter,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif",
+          "font-family:'Bubbleboddy Neue Trial',sans-serif",
+          "font-size:12px",
+          "font-weight:700",
+          "line-height:1.4",
           "text-align:center",
-          "white-space:nowrap",
-          "text-shadow:0 0 2px #ffffff,0 0 3px #ffffff"
+          "white-space:nowrap"
         ].join(";");
-        container.textContent = "@PlanKoverTDay  ·  " + timestamp + " МСК";
+        container.innerHTML = '<span style="display:inline-block;padding:3px 7px;border:1px solid #fff;border-radius:4px;background:#fff;color:#000;box-shadow:0 1px 3px #0002">@PlanKoverTDay · ' + esc(timestamp) + ' МСК</span>';
         L.DomEvent.disableClickPropagation(container);
         return container;
       };
