@@ -760,6 +760,18 @@
         maxZoom: 6,
         animate: false
       });
+
+      // Force Leaflet's vector shapes to recalculate their pixel positions
+      // after the export-only map resize. Without this, SVG circles/polygons
+      // can be captured with a stale transform while airport markers are current.
+      map.invalidateSize({ animate: false, pan: false });
+      map.setView(map.getCenter(), map.getZoom(), { animate: false });
+      layer.eachLayer(shape => {
+        if (typeof shape.redraw === "function") shape.redraw();
+      });
+      airportMarkers.refreshClusters();
+      await wait(350);
+
       if (zoomControl) zoomControl.style.display = "none";
 
       const now = new Date();
