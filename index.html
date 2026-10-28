@@ -755,22 +755,18 @@
       mapElement.style.height = "900px";
       map.invalidateSize({ animate: false, pan: false });
 
-      let bounds = layer.getBounds();
-      if (airportMarkers.getLayers().length) {
-        const airportBounds = airportMarkers.getBounds();
-        if (airportBounds.isValid()) bounds.extend(airportBounds);
+      // Fit the screenshot to restriction zones only. Airport markers remain visible,
+      // but distant airport points must not shrink the restriction map.
+      const bounds = layer.getBounds();
+      if (bounds.isValid()) {
+        map.fitBounds(bounds, {
+          padding: [35, 35],
+          maxZoom: 8,
+          animate: false
+        });
+      } else {
+        map.setView([55.75, 55.5], 4, { animate: false });
       }
-      if (!bounds.isValid()) {
-        bounds = L.latLngBounds([[41, 19], [82, 180]]);
-      }
-
-      map.fitBounds(bounds, {
-        padding: [20, 20],
-        maxZoom: 7,
-        animate: false
-      });
-      // Deliberately zoom in one extra level after fitting all restriction bounds.
-      map.setZoom(Math.min(map.getZoom() + 0.5, 8), { animate: false });
 
       // Temporarily show each airport marker directly on the map, bypassing clusters.
       map.removeLayer(airportMarkers);
