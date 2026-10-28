@@ -794,17 +794,18 @@
         const container = L.DomUtil.create("div", "screenshot-watermark");
         container.style.cssText = [
           "position:absolute",
-          "left:50%",
+          "left:700px",
           "bottom:8px",
           "transform:translateX(-50%)",
           "margin:0",
           "padding:0",
           "border:0",
           "background:transparent",
-          "color:#202833",
-          "font:600 12px/1.4 Inter,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif",
+          "color:#000000",
+          "font:600 11px/1.4 Inter,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif",
           "text-align:center",
-          "white-space:nowrap"
+          "white-space:nowrap",
+          "text-shadow:0 0 2px #ffffff,0 0 4px #ffffff"
         ].join(";");
         container.textContent = "@PlanKoverTDay  ·  " + timestamp + " МСК";
         L.DomEvent.disableClickPropagation(container);
