@@ -17046,5 +17046,22 @@
         "inKta": false
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5191,
+    "timestamp": "2026-10-29T16:26:24+00:00",
+    "text": "⚠️ В ближайшие минуты возможны ограничения в аэропорту Грабцево (Калуга).",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5191",
+    "events": [
+      {
+        "id": "b86a55dccec48398",
+        "action": "ADD",
+        "messageTimestamp": "2026-10-29T16:26:24+00:00",
+        "text": "⚠️ В ближайшие минуты возможны ограничения в аэропорту Грабцево (Калуга).",
+        "unresolved": true,
+        "sourceUrl": "https://t.me/PlanKoverTDay/5191"
+      }
+    ]
   }
 ]
