@@ -17590,5 +17590,53 @@
         "snapshot": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5204,
+    "timestamp": "2026-10-29T21:48:44+00:00",
+    "text": "🔴🛩️ Ярославль - Туношна, UUDL / 50 км\n🔴 а/д Семязино, Владимир / 40 км\n🔴 Костерёво / 30 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5204",
+    "events": [
+      {
+        "id": "b277fea20f23a6bd",
+        "action": "ADD",
+        "name": "Туношна",
+        "icao": "UUDL",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 50.0,
+        "messageTimestamp": "2026-10-29T21:48:44+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5204",
+        "text": "🔴🛩️ Ярославль - Туношна, UUDL / 50 км",
+        "inKta": true
+      },
+      {
+        "id": "9586252a0c5aa574",
+        "action": "ADD",
+        "name": "Семязино, Владимир",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 40.0,
+        "messageTimestamp": "2026-10-29T21:48:44+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5204",
+        "text": "🔴 а/д Семязино, Владимир / 40 км",
+        "inKta": false
+      },
+      {
+        "id": "fa221468dff84905",
+        "action": "ADD",
+        "name": "Костерёво",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 30.0,
+        "messageTimestamp": "2026-10-29T21:48:44+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5204",
+        "text": "🔴 Костерёво / 30 км",
+        "inKta": false
+      }
+    ]
   }
 ]
