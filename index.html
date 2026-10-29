@@ -460,14 +460,23 @@
     }
   }
 
+  function airportStatusEntries(group) {
+    // Prefer restrictions explicitly attached to this airport (KTA).
+    // A red regional/affected-zone entry must not override the airport's
+    // own yellow coordinated-operation status.
+    const ownEntries = group.entries.filter(entry => entry.role === "kta");
+    return ownEntries.length ? ownEntries : group.entries;
+  }
+
   function airplanePopupHtml(group) {
     const airportName = group.icao
       ? `${esc(group.name)} (${esc(group.icao)})`
       : esc(group.name);
 
-    // Show the airport itself first. Keep restriction events only as concise
-    // context so readers can see why this airport's marker has its status.
-    const hasFull = group.entries.some(entry => !isPartial(entry.item));
+    // Airport status is based on its own event when available; affected
+    // regional restrictions are displayed below as context.
+    const statusEntries = airportStatusEntries(group);
+    const hasFull = statusEntries.some(entry => !isPartial(entry.item));
     const statusLabel = hasFull
       ? '<span style="color:#ff858d">🔴 Полное ограничение</span>'
       : '<span style="color:#ffd277">🟡 Частичное ограничение</span>';
@@ -502,10 +511,9 @@
   }
 
   function drawAirplaneMarker(group) {
-    // A full (red) restriction overrides a partial (yellow) one, whether
-    // the airport is the KTA or is only listed as affected. Show yellow only
-    // when every active restriction relevant to this airport is partial.
-    const relevantEntries = group.entries;
+    // Use an airport's own restriction first. If there is no airport-specific
+    // event, fall back to restrictions affecting the wider zone.
+    const relevantEntries = airportStatusEntries(group);
     const partial = relevantEntries.length > 0 &&
       relevantEntries.every(entry => isPartial(entry.item));
     const markerClass = partial ? "map-marker partial" : "map-marker";
