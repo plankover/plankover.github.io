@@ -17225,11 +17225,11 @@
     "chatId": -1003822338715,
     "messageId": 5197,
     "timestamp": "2026-10-29T18:25:12+00:00",
-    "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км\n🟡🛩️ Внуково, UUWW / 100 км \n🔴 а/д Клоково, Тула / 70 км",
+    "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км\n🟡🛩️ Внуково, UUWW / 100 км (азимуты 150-330) \n🔴 а/д Клоково, Тула / 70 км",
     "sourceUrl": "https://t.me/PlanKoverTDay/5197",
     "events": [
       {
-        "id": "9e62e6097875d416",
+        "id": "be5e9b22156d5219",
         "action": "ADD",
         "name": "Грабцево",
         "icao": "UUBC",
@@ -17242,7 +17242,7 @@
         "inKta": true
       },
       {
-        "id": "1abf9dd58329a81d",
+        "id": "8601876455f2465a",
         "action": "ADD",
         "name": "Внуково",
         "icao": "UUWW",
@@ -17251,11 +17251,16 @@
         "radiusKm": 100.0,
         "messageTimestamp": "2026-10-29T18:25:12+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/5197",
-        "text": "🟡🛩️ Внуково, UUWW / 100 км ",
+        "text": "🟡🛩️ Внуково, UUWW / 100 км (азимуты 150-330) ",
+        "sector": {
+          "radiusKm": 100.0,
+          "startAzimuth": 150,
+          "endAzimuth": 330
+        },
         "inKta": true
       },
       {
-        "id": "fb1b112d892f0c8c",
+        "id": "12412b2d96d7a2eb",
         "action": "ADD",
         "name": "Клоково, Тула",
         "icao": null,
