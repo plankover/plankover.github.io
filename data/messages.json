@@ -17063,5 +17063,53 @@
         "sourceUrl": "https://t.me/PlanKoverTDay/5191"
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5192,
+    "timestamp": "2026-10-29T16:44:09+00:00",
+    "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км\n🔴 а/д Клоково, Тула / 70 км\n🔴 а/д Дягилево, Рязань / 70 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5192",
+    "events": [
+      {
+        "id": "959e4ad3102b23c5",
+        "action": "ADD",
+        "name": "Грабцево",
+        "icao": "UUBC",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-10-29T16:44:09+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5192",
+        "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км",
+        "inKta": true
+      },
+      {
+        "id": "6d0575e4b3772049",
+        "action": "ADD",
+        "name": "Клоково, Тула",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-10-29T16:44:09+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5192",
+        "text": "🔴 а/д Клоково, Тула / 70 км",
+        "inKta": false
+      },
+      {
+        "id": "06af3d5610d2674f",
+        "action": "ADD",
+        "name": "Дягилево, Рязань",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-10-29T16:44:09+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5192",
+        "text": "🔴 а/д Дягилево, Рязань / 70 км",
+        "inKta": false
+      }
+    ]
   }
 ]
