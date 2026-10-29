@@ -1,21 +1,51 @@
 {
-  "updatedAt": "2026-10-29T11:10:16.779357+00:00",
+  "updatedAt": "2026-10-29T11:25:22.998586+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
-      "id": "e3743d756d319632",
+      "id": "821e4648d089abd3",
       "action": "ADD",
       "name": "Уфа",
       "icao": "UWUU",
       "kind": "airport",
       "type": "full",
-      "radiusKm": null,
+      "radiusKm": 50.0,
       "messageTimestamp": "2026-10-29T11:08:45+00:00",
       "sourceUrl": "https://t.me/PlanKoverTDay/5182",
-      "text": "🔴🛩️ Уфа, UWUU",
+      "text": "🔴🛩️ Уфа, UWUU / 50 км",
       "inKta": true,
       "lat": 54.5543582,
       "lon": 55.8822099
+    },
+    {
+      "id": "46124ca65114b6d1",
+      "action": "ADD",
+      "name": "Стерлитамак",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 50.0,
+      "messageTimestamp": "2026-10-29T11:08:45+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5182",
+      "text": "🔴 Стерлитамак / 50 км",
+      "inKta": false,
+      "lat": 53.6194416,
+      "lon": 55.9616172
+    },
+    {
+      "id": "93f44049f40fb8e8",
+      "action": "ADD",
+      "name": "Салават",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 50.0,
+      "messageTimestamp": "2026-10-29T11:08:45+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5182",
+      "text": "🔴 Салават / 50 км",
+      "inKta": false,
+      "lat": 53.361687,
+      "lon": 55.924641
     }
   ]
 }
