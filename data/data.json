@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T01:50:17.577103+00:00",
+  "updatedAt": "2026-10-29T02:20:16.439738+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -63,16 +63,16 @@
       "lon": 37.2735752
     },
     {
-      "id": "fea8621fb16bb588",
+      "id": "0764dbcf35f84865",
       "action": "ADD",
       "name": "Домодедово",
       "icao": "UUDD",
       "kind": "airport",
-      "type": "partial",
+      "type": "full",
       "radiusKm": null,
-      "messageTimestamp": "2026-10-29T00:38:43+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5155",
-      "text": "🟡🛩️ Москва - Домодедово, UUDD",
+      "messageTimestamp": "2026-10-29T02:16:13+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5158",
+      "text": "🔴🛩️ Москва - Домодедово, UUDD",
       "inKta": true,
       "lat": 55.4087122,
       "lon": 37.9094307
@@ -300,6 +300,21 @@
       "inKta": true,
       "lat": 59.2778367,
       "lon": 38.0206535
+    },
+    {
+      "id": "79c49d5ea05ee979",
+      "action": "ADD",
+      "name": "Жуковский",
+      "icao": "UUBW",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-29T02:16:13+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5158",
+      "text": "🔴🛩️ Москва - Жуковский, UUBW",
+      "inKta": true,
+      "lat": 55.5496554,
+      "lon": 38.1547897
     }
   ]
 }
