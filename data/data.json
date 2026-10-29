@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T18:30:18.198665+00:00",
+  "updatedAt": "2026-10-29T19:50:18.184050+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -18,21 +18,16 @@
       "lon": 36.3697725
     },
     {
-      "id": "8601876455f2465a",
+      "id": "aac6765c8d0bc9cd",
       "action": "ADD",
       "name": "Внуково",
       "icao": "UUWW",
       "kind": "airport",
-      "type": "partial",
-      "radiusKm": 100.0,
-      "messageTimestamp": "2026-10-29T18:25:12+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5197",
-      "text": "🟡🛩️ Внуково, UUWW / 100 км (азимуты 150-330) ",
-      "sector": {
-        "radiusKm": 100.0,
-        "startAzimuth": 150,
-        "endAzimuth": 330
-      },
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-29T19:49:13+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5198",
+      "text": "🔴🛩️ Внуково, UUWW",
       "inKta": true,
       "lat": 55.5995278,
       "lon": 37.2735752
@@ -51,6 +46,36 @@
       "inKta": false,
       "lat": 54.2418249,
       "lon": 37.6000197
+    },
+    {
+      "id": "5ddaddda57a8b739",
+      "action": "ADD",
+      "name": "Домодедово",
+      "icao": "UUDD",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-29T19:49:13+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5198",
+      "text": "🔴🛩️ Домодедово, UUDD",
+      "inKta": true,
+      "lat": 55.4087122,
+      "lon": 37.9094307
+    },
+    {
+      "id": "dd12222997c8a155",
+      "action": "ADD",
+      "name": "Жуковский",
+      "icao": "UUBW",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-29T19:49:13+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5198",
+      "text": "🔴🛩️ Жуковский, UUBW",
+      "inKta": true,
+      "lat": 55.5496554,
+      "lon": 38.1547897
     }
   ]
 }
