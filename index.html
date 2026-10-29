@@ -463,32 +463,12 @@
   }
 
   function airportStatusEntries(group) {
-    // Airport-specific KTA status normally takes priority over the regional
-    // restriction. Explicit yellow airport annotations in a regional message
-    // also override that region's red status (e.g. Sheremetyevo in Moscow).
+    // Own airport restriction has priority, then an explicitly yellow
+    // affected-airport annotation, then the regional status.
     const ownEntries = group.entries.filter(entry => entry.role === "kta");
     if (ownEntries.length) return ownEntries;
-
-    const explicitlyPartial = group.entries.filter(entry => {
-      if (entry.explicitlyPartial) return true;
-      if (entry.role !== "affected") return false;
-      const text = String(entry.item.text || "");
-      const icao = String(group.icao || "").trim().toUpperCase();
-      if (!icao) return false;
-      // Match a yellow-marked airport entry by ICAO in the original message.
-      const escapedIcao = icao.replace(/[.*+?^${}()|[\]\\]/g, "\\function airportStatusEntries(group) {
-    // An explicit per-airport yellow annotation overrides the regional red.
-    // Otherwise, use affected-zone status before standalone airport KTA status,
-    // so airports inside a red zone remain red.
     const explicitlyPartial = group.entries.filter(entry => entry.explicitlyPartial);
     if (explicitlyPartial.length) return explicitlyPartial;
-    const affectedEntries = group.entries.filter(entry => entry.role === "affected");
-    return affectedEntries.length ? affectedEntries : group.entries;
-  }");
-      return new RegExp("🟡\\s*🛩️?[^;\\n]*\\b" + escapedIcao + "\\b", "u").test(text);
-    });
-    if (explicitlyPartial.length) return explicitlyPartial;
-
     const affectedEntries = group.entries.filter(entry => entry.role === "affected");
     return affectedEntries.length ? affectedEntries : group.entries;
   }
