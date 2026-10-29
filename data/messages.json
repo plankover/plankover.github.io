@@ -17128,5 +17128,64 @@
         "sourceUrl": "https://t.me/PlanKoverTDay/5193"
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5194,
+    "timestamp": "2026-10-29T17:12:53+00:00",
+    "text": "🔴 Новоселовка (🛩️ Саратов - Гагарин, UWSG ; 🛩️ Пенза, UWPP) / 150 км\n🔴 Ильмино (🛩️ Саранск, UWPS; 🛩️ Пенза, UWPP) / 150 км\n\nСкоро снимут.",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5194",
+    "events": [
+      {
+        "id": "906ded0a24848848",
+        "action": "ADD",
+        "name": "Новоселовка",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 150.0,
+        "messageTimestamp": "2026-10-29T17:12:53+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5194",
+        "text": "🔴 Новоселовка (🛩️ Саратов - Гагарин, UWSG ; 🛩️ Пенза, UWPP) / 150 км",
+        "affectedAirports": [
+          {
+            "name": "Гагарин",
+            "icao": "UWSG",
+            "kind": "airport"
+          },
+          {
+            "name": "Пенза",
+            "icao": "UWPP",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false
+      },
+      {
+        "id": "091fae882b844e62",
+        "action": "ADD",
+        "name": "Ильмино",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 150.0,
+        "messageTimestamp": "2026-10-29T17:12:53+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5194",
+        "text": "🔴 Ильмино (🛩️ Саранск, UWPS; 🛩️ Пенза, UWPP) / 150 км",
+        "affectedAirports": [
+          {
+            "name": "Саранск",
+            "icao": "UWPS",
+            "kind": "airport"
+          },
+          {
+            "name": "Пенза",
+            "icao": "UWPP",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false
+      }
+    ]
   }
 ]
