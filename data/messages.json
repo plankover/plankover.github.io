@@ -17424,5 +17424,27 @@
         "sourceUrl": "https://t.me/PlanKoverTDay/5201"
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5202,
+    "timestamp": "2026-10-29T20:29:43+00:00",
+    "text": "🔴🛩️ Шереметьево, UUEE",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5202",
+    "events": [
+      {
+        "id": "253ba03254fa8321",
+        "action": "ADD",
+        "name": "Шереметьево",
+        "icao": "UUEE",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-29T20:29:43+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5202",
+        "text": "🔴🛩️ Шереметьево, UUEE",
+        "inKta": true
+      }
+    ]
   }
 ]
