@@ -17446,5 +17446,149 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5203,
+    "timestamp": "2026-10-29T20:38:13+00:00",
+    "text": "🕒 Актуальные ограничения на 23:35 мск:\n\n🔴🛩️ Калуга - Грабцево, UUBC / 70 км\n🔴 Москва (🛩️ Домодедово, UUDD; 🛩️ Жуковский, UUBW; 🛩️ Внуково, UUWW; 🛩️ Шереметьево, UUEE) / 150 км (азимуты 090-000)\n🔴🛩️ Внуково, UUWW / 100 км (азимуты 150-330) \n🔴🛩️ Домодедово, UUDD / 100 км (азимуты 090-270)\n\n🔴 а/д Клоково, Тула / 70 км\n🔴 а/д Большое, Завидово / 40 км\n🔴 Дубна / 20 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5203",
+    "events": [
+      {
+        "id": "4962a13d0d3b5278",
+        "action": "ADD",
+        "name": "Грабцево",
+        "icao": "UUBC",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-10-29T20:38:13+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5203",
+        "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км",
+        "inKta": true,
+        "snapshot": true
+      },
+      {
+        "id": "9012042834c38ae2",
+        "action": "ADD",
+        "name": "Москва",
+        "icao": null,
+        "kind": "city",
+        "type": "partial",
+        "radiusKm": 150.0,
+        "messageTimestamp": "2026-10-29T20:38:13+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5203",
+        "text": "🔴 Москва (🛩️ Домодедово, UUDD; 🛩️ Жуковский, UUBW; 🛩️ Внуково, UUWW; 🛩️ Шереметьево, UUEE) / 150 км (азимуты 090-000)",
+        "sector": {
+          "radiusKm": 150.0,
+          "startAzimuth": 90,
+          "endAzimuth": 0
+        },
+        "affectedAirports": [
+          {
+            "name": "Домодедово",
+            "icao": "UUDD",
+            "kind": "airport"
+          },
+          {
+            "name": "Жуковский",
+            "icao": "UUBW",
+            "kind": "airport"
+          },
+          {
+            "name": "Внуково",
+            "icao": "UUWW",
+            "kind": "airport"
+          },
+          {
+            "name": "Шереметьево",
+            "icao": "UUEE",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false,
+        "snapshot": true
+      },
+      {
+        "id": "0ec5502f0ada7b59",
+        "action": "ADD",
+        "name": "Внуково",
+        "icao": "UUWW",
+        "kind": "airport",
+        "type": "partial",
+        "radiusKm": 100.0,
+        "messageTimestamp": "2026-10-29T20:38:13+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5203",
+        "text": "🔴🛩️ Внуково, UUWW / 100 км (азимуты 150-330) ",
+        "sector": {
+          "radiusKm": 100.0,
+          "startAzimuth": 150,
+          "endAzimuth": 330
+        },
+        "inKta": true,
+        "snapshot": true
+      },
+      {
+        "id": "759b5f3a92511762",
+        "action": "ADD",
+        "name": "Домодедово",
+        "icao": "UUDD",
+        "kind": "airport",
+        "type": "partial",
+        "radiusKm": 100.0,
+        "messageTimestamp": "2026-10-29T20:38:13+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5203",
+        "text": "🔴🛩️ Домодедово, UUDD / 100 км (азимуты 090-270)",
+        "sector": {
+          "radiusKm": 100.0,
+          "startAzimuth": 90,
+          "endAzimuth": 270
+        },
+        "inKta": true,
+        "snapshot": true
+      },
+      {
+        "id": "53bd4ace6815bfac",
+        "action": "ADD",
+        "name": "Клоково, Тула",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-10-29T20:38:13+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5203",
+        "text": "🔴 а/д Клоково, Тула / 70 км",
+        "inKta": false,
+        "snapshot": true
+      },
+      {
+        "id": "9f6ce46033d99e2b",
+        "action": "ADD",
+        "name": "Большое, Завидово",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 40.0,
+        "messageTimestamp": "2026-10-29T20:38:13+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5203",
+        "text": "🔴 а/д Большое, Завидово / 40 км",
+        "inKta": false,
+        "snapshot": true
+      },
+      {
+        "id": "0f6999da78c43d5a",
+        "action": "ADD",
+        "name": "Дубна",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 20.0,
+        "messageTimestamp": "2026-10-29T20:38:13+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5203",
+        "text": "🔴 Дубна / 20 км",
+        "inKta": false,
+        "snapshot": true
+      }
+    ]
   }
 ]
