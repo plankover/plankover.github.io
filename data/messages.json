@@ -16561,5 +16561,40 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5171,
+    "timestamp": "2026-10-29T06:40:58+00:00",
+    "text": "🟢🛩️ Череповец, ULWW\n🟢🛩️ Ярославль - Туношна, UUDL",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5171",
+    "events": [
+      {
+        "id": "349507d38682a565",
+        "action": "REMOVE",
+        "name": "Череповец",
+        "icao": "ULWW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-29T06:40:58+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5171",
+        "text": "🟢🛩️ Череповец, ULWW",
+        "inKta": true
+      },
+      {
+        "id": "49ddef8bd771bd5e",
+        "action": "REMOVE",
+        "name": "Туношна",
+        "icao": "UUDL",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-29T06:40:58+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5171",
+        "text": "🟢🛩️ Ярославль - Туношна, UUDL",
+        "inKta": true
+      }
+    ]
   }
 ]
