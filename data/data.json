@@ -1,36 +1,5 @@
 {
-  "updatedAt": "2026-10-29T14:40:20.235385+00:00",
+  "updatedAt": "2026-10-29T15:54:45.894485+00:00",
   "source": "@PlanKoverTDay",
-  "restrictions": [
-    {
-      "id": "93f44049f40fb8e8",
-      "action": "ADD",
-      "name": "Салават",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": 50.0,
-      "messageTimestamp": "2026-10-29T11:08:45+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5182",
-      "text": "🔴 Салават / 50 км",
-      "inKta": false,
-      "lat": 53.361687,
-      "lon": 55.924641
-    },
-    {
-      "id": "2a822535a33b5a82",
-      "action": "ADD",
-      "name": "Стерлитамак",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": 50.0,
-      "messageTimestamp": "2026-10-29T11:50:39+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5184",
-      "text": "🔴 Стерлитамак / 50 км",
-      "inKta": false,
-      "lat": 53.6194416,
-      "lon": 55.9616172
-    }
-  ]
+  "restrictions": []
 }

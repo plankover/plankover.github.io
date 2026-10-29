@@ -17011,5 +17011,40 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5190,
+    "timestamp": "2026-10-29T15:52:51+00:00",
+    "text": "🟢 Стерлитамак\n🟢 Салават",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5190",
+    "events": [
+      {
+        "id": "d4e98fa2a61bd4af",
+        "action": "REMOVE",
+        "name": "Стерлитамак",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-29T15:52:51+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5190",
+        "text": "🟢 Стерлитамак",
+        "inKta": false
+      },
+      {
+        "id": "6d187ad9e110ab0d",
+        "action": "REMOVE",
+        "name": "Салават",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-29T15:52:51+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5190",
+        "text": "🟢 Салават",
+        "inKta": false
+      }
+    ]
   }
 ]
