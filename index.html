@@ -314,6 +314,7 @@
   let allItems = [];
   let activeFilter = "all";
   let selectedId = null;
+  let hasAutoFitRestrictions = false;
 
   const $ = id => document.getElementById(id);
   const esc = value => String(value ?? "").replace(/[&<>"']/g, ch => ({
@@ -442,6 +443,36 @@
     return item.inKta === true;
   }
 
+  function getAffectedAirportStatusOverride(location, item, role) {
+    if (role !== "affected") return null;
+
+    // The status icon written directly before an airport name in the regional
+    // message overrides the overall regional status in either direction.
+    const airportName = String(location.name || location.title || "");
+    const directMarker = airportName.match(/^\\s*([🔴🟡])/u)?.[1];
+    if (directMarker) return directMarker === "🟡";
+
+    // Fallback to the original message if a data-source parser strips the icon
+    // from affectedAirports[].name. Only inspect the semicolon-delimited airport
+    // entry containing this ICAO, not the red/yellow icon for the whole region.
+    const icao = String(location.icao || "").trim().toUpperCase();
+    if (!/^[A-Z0-9]{4}$/.test(icao)) return null;
+    const sourceText = String(item.text || "");
+    const escapedIcao = icao;
+    const groupsInMessage = sourceText.match(/\\(([^()]*)\\)/gu) || [];
+    for (const groupText of groupsInMessage) {
+      const airportList = groupText.slice(1, -1);
+      if (!(new RegExp("\\b" + escapedIcao + "\\b", "u")).test(airportList)) continue;
+      const segment = airportList.split(";").find(part =>
+        (new RegExp("\\b" + escapedIcao + "\\b", "u")).test(part)
+      );
+      const marker = segment?.match(/^\\s*([🔴🟡])/u)?.[1];
+      if (marker) return marker === "🟡";
+      return null;
+    }
+    return null;
+  }
+
   function addAirplanePoint(groups, location, item, role) {
     const coords = getCoords(location);
     if (!coords) return;
@@ -456,21 +487,33 @@
     }
     // One airplane per airport, even when multiple active restrictions refer to it.
     if (!group.entries.some(entry => entry.item._id === item._id)) {
-      const explicitlyPartial = role === "affected" &&
-        /🟡/.test(String(location.name || ""));
-      group.entries.push({ item, role, explicitlyPartial });
+      const statusOverride = getAffectedAirportStatusOverride(location, item, role);
+      group.entries.push({ item, role, statusOverride });
     }
   }
 
   function airportStatusEntries(group) {
-    // Own airport restriction has priority, then an explicitly yellow
-    // affected-airport annotation, then the regional status.
-    const ownEntries = group.entries.filter(entry => entry.role === "kta");
-    if (ownEntries.length) return ownEntries;
-    const explicitlyPartial = group.entries.filter(entry => entry.explicitlyPartial);
-    if (explicitlyPartial.length) return explicitlyPartial;
+    // If an airport is listed in a regional restriction, that restriction sets
+    // its default status regardless of a separate airport circle. A per-airport
+    // red/yellow icon in the list is the explicit exception.
     const affectedEntries = group.entries.filter(entry => entry.role === "affected");
-    return affectedEntries.length ? affectedEntries : group.entries;
+    if (affectedEntries.length) {
+      const explicitEntries = affectedEntries.filter(entry =>
+        typeof entry.statusOverride === "boolean"
+      );
+      return explicitEntries.length ? explicitEntries : affectedEntries;
+    }
+
+    // Standalone airport restrictions are used when no regional restriction
+    // explicitly includes this airport.
+    const ownEntries = group.entries.filter(entry => entry.role === "kta");
+    return ownEntries.length ? ownEntries : group.entries;
+  }
+
+  function airportEntryIsPartial(entry) {
+    return typeof entry.statusOverride === "boolean"
+      ? entry.statusOverride
+      : isPartial(entry.item);
   }
 
   function airplanePopupHtml(group) {
@@ -481,7 +524,7 @@
     // Airport status is based on its own event when available; affected
     // regional restrictions are displayed below as context.
     const statusEntries = airportStatusEntries(group);
-    const hasFull = statusEntries.some(entry => !isPartial(entry.item));
+    const hasFull = statusEntries.some(entry => !airportEntryIsPartial(entry));
     const statusLabel = hasFull
       ? '<span style="color:#ff858d">🔴 Полное ограничение</span>'
       : '<span style="color:#ffd277">🟡 Частичное ограничение</span>';
@@ -520,7 +563,7 @@
     // event, fall back to restrictions affecting the wider zone.
     const relevantEntries = airportStatusEntries(group);
     const partial = relevantEntries.length > 0 &&
-      relevantEntries.every(entry => isPartial(entry.item));
+      relevantEntries.every(entry => airportEntryIsPartial(entry));
     const markerClass = partial ? "map-marker partial" : "map-marker";
     const marker = L.marker(group.coords, {
       icon: L.divIcon({
@@ -879,6 +922,22 @@
       const payload = await response.json();
       allItems = normalizeData(payload);
       render();
+
+      // On first successful load, automatically frame the active restriction
+      // areas so visitors don't have to zoom and pan to find them manually.
+      if (!hasAutoFitRestrictions) {
+        const bounds = layer.getBounds();
+        if (bounds.isValid()) {
+          map.fitBounds(bounds, {
+            padding: [28, 28],
+            maxZoom: 8,
+            animate: false
+          });
+          hasAutoFitRestrictions = true;
+          map.invalidateSize({ animate: false, pan: false });
+        }
+      }
+
       $("updated-at").textContent = "Данные обновляются автоматически с некоторой периодичностью. Возможны задержки.";
     } catch (error) {
       console.error("Не удалось загрузить данные:", error);
