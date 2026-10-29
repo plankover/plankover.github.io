@@ -17673,5 +17673,62 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5206,
+    "timestamp": "2026-10-29T23:16:33+00:00",
+    "text": "🟡🛩️ Москва - Домодедово, UUDD\n🟡🛩️ Москва - Шереметьево, UUEE",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5206",
+    "events": [
+      {
+        "id": "ea35c84f5c106837",
+        "action": "ADD",
+        "name": "Домодедово",
+        "icao": "UUDD",
+        "kind": "airport",
+        "type": "partial",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-29T23:16:33+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5206",
+        "text": "🟡🛩️ Москва - Домодедово, UUDD",
+        "inKta": true
+      },
+      {
+        "id": "b5a8eed1f1401c37",
+        "action": "ADD",
+        "name": "Шереметьево",
+        "icao": "UUEE",
+        "kind": "airport",
+        "type": "partial",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-29T23:16:33+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5206",
+        "text": "🟡🛩️ Москва - Шереметьево, UUEE",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5207,
+    "timestamp": "2026-10-29T23:20:02+00:00",
+    "text": "🔴🛩️ Москва - Шереметьево, UUEE",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5207",
+    "events": [
+      {
+        "id": "9551e6cbc68aba25",
+        "action": "ADD",
+        "name": "Шереметьево",
+        "icao": "UUEE",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-29T23:20:02+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5207",
+        "text": "🔴🛩️ Москва - Шереметьево, UUEE",
+        "inKta": true
+      }
+    ]
   }
 ]
