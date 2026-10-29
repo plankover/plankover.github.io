@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T08:00:20.921867+00:00",
+  "updatedAt": "2026-10-29T08:50:17.447683+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -79,19 +79,6 @@
       "lon": 44.2678
     },
     {
-      "id": "873a5665949d4634",
-      "action": "ADD",
-      "name": "Бугульма",
-      "icao": "UWKB",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-10-29T00:34:38+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5153",
-      "text": "🔴🛩️ Бугульма, UWKB",
-      "inKta": true
-    },
-    {
       "id": "cc0725414ed74583",
       "action": "ADD",
       "name": "Бегишево",
@@ -105,21 +92,6 @@
       "inKta": true,
       "lat": 55.5655378,
       "lon": 52.0988028
-    },
-    {
-      "id": "2c192b38ef862823",
-      "action": "ADD",
-      "name": "Уфа",
-      "icao": "UWUU",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-10-29T02:58:04+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5159",
-      "text": "🔴🛩️ Уфа, UWUU",
-      "inKta": true,
-      "lat": 54.5543582,
-      "lon": 55.8822099
     },
     {
       "id": "1b92d86870d83c07",
