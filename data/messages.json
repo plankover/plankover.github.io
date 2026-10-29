@@ -16834,5 +16834,21 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5183,
+    "timestamp": "2026-10-29T11:10:41+00:00",
+    "text": "❗️❗️ - ЧС на борту\n\n✈️ AZO6030 (Sukhoi Superjet 100 - RA-89095)\n\nЕреван (EVN) - Минводы (MRV)\n\nПеренаправлен в Ереван",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5183",
+    "events": [
+      {
+        "id": "9f8cc53b61597c6b",
+        "action": "UNKNOWN",
+        "messageTimestamp": "2026-10-29T11:10:41+00:00",
+        "text": "❗️❗️ - ЧС на борту\n\n✈️ AZO6030 (Sukhoi Superjet 100 - RA-89095)\n\nЕреван (EVN) - Минводы (MRV)\n\nПеренаправлен в Ереван",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5183"
+      }
+    ]
   }
 ]
