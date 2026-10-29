@@ -16865,14 +16865,14 @@
     "chatId": -1003822338715,
     "messageId": 5183,
     "timestamp": "2026-10-29T11:10:41+00:00",
-    "text": "❗️❗️ - ЧС на борту\n\n✈️ AZO6030 (Sukhoi Superjet 100 - RA-89095)\n\nЕреван (EVN) - Минводы (MRV)\n\nПеренаправлен в Ереван\nupd: Успешно приземлился",
+    "text": "❗️❗️ - ЧС на борту\n\n✈️ AZO6030 (Sukhoi Superjet 100 - RA-89095)\n\nЕреван (EVN) - Минводы (MRV)\n\nПеренаправлен в Ереван\nupd: Успешно приземлился\n\nupd 2: Причина возвращения в аэропорт вылета - проблемы с системой кондиционирования",
     "sourceUrl": "https://t.me/PlanKoverTDay/5183",
     "events": [
       {
-        "id": "465bff1ac1dc6c05",
+        "id": "74dff39f77805fa2",
         "action": "UNKNOWN",
         "messageTimestamp": "2026-10-29T11:10:41+00:00",
-        "text": "❗️❗️ - ЧС на борту\n\n✈️ AZO6030 (Sukhoi Superjet 100 - RA-89095)\n\nЕреван (EVN) - Минводы (MRV)\n\nПеренаправлен в Ереван\nupd: Успешно приземлился",
+        "text": "❗️❗️ - ЧС на борту\n\n✈️ AZO6030 (Sukhoi Superjet 100 - RA-89095)\n\nЕреван (EVN) - Минводы (MRV)\n\nПеренаправлен в Ереван\nupd: Успешно приземлился\n\nupd 2: Причина возвращения в аэропорт вылета - проблемы с системой кондиционирования",
         "sourceUrl": "https://t.me/PlanKoverTDay/5183"
       }
     ]
@@ -16881,11 +16881,11 @@
     "chatId": -1003822338715,
     "messageId": 5184,
     "timestamp": "2026-10-29T11:50:39+00:00",
-    "text": "🟢 Стерлитамак",
+    "text": "🟢 Стерлитамак\n\n🔴 Стерлитамак / 50 км\nсохраняется",
     "sourceUrl": "https://t.me/PlanKoverTDay/5184",
     "events": [
       {
-        "id": "b5c02a89af8ee32a",
+        "id": "60dfb3d6a85512e6",
         "action": "REMOVE",
         "name": "Стерлитамак",
         "icao": null,
@@ -16895,6 +16895,19 @@
         "messageTimestamp": "2026-10-29T11:50:39+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/5184",
         "text": "🟢 Стерлитамак",
+        "inKta": false
+      },
+      {
+        "id": "2a822535a33b5a82",
+        "action": "ADD",
+        "name": "Стерлитамак",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 50.0,
+        "messageTimestamp": "2026-10-29T11:50:39+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5184",
+        "text": "🔴 Стерлитамак / 50 км",
         "inKta": false
       }
     ]

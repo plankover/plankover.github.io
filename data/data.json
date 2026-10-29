@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T11:55:18.880087+00:00",
+  "updatedAt": "2026-10-29T12:00:16.718945+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -31,6 +31,21 @@
       "inKta": false,
       "lat": 53.361687,
       "lon": 55.924641
+    },
+    {
+      "id": "2a822535a33b5a82",
+      "action": "ADD",
+      "name": "Стерлитамак",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 50.0,
+      "messageTimestamp": "2026-10-29T11:50:39+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5184",
+      "text": "🔴 Стерлитамак / 50 км",
+      "inKta": false,
+      "lat": 53.6194416,
+      "lon": 55.9616172
     }
   ]
 }
