@@ -17340,5 +17340,39 @@
         "inKta": false
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5199,
+    "timestamp": "2026-10-29T20:14:13+00:00",
+    "text": "❔🔴 Ильмино (🛩️ Саранск, UWPS; 🛩️ Пенза, UWPP) / 150 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5199",
+    "events": [
+      {
+        "id": "6f495e0a76d25410",
+        "action": "ADD",
+        "name": "Ильмино",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 150.0,
+        "messageTimestamp": "2026-10-29T20:14:13+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5199",
+        "text": "❔🔴 Ильмино (🛩️ Саранск, UWPS; 🛩️ Пенза, UWPP) / 150 км",
+        "affectedAirports": [
+          {
+            "name": "Саранск",
+            "icao": "UWPS",
+            "kind": "airport"
+          },
+          {
+            "name": "Пенза",
+            "icao": "UWPP",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false
+      }
+    ]
   }
 ]
