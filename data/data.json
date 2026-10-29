@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T01:00:17.061481+00:00",
+  "updatedAt": "2026-10-29T01:50:17.577103+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -48,16 +48,16 @@
       "lon": 39.6308884
     },
     {
-      "id": "6470964f1bacb20d",
+      "id": "fa2d14da0a8ebfee",
       "action": "ADD",
       "name": "Внуково",
       "icao": "UUWW",
       "kind": "airport",
-      "type": "partial",
+      "type": "full",
       "radiusKm": null,
-      "messageTimestamp": "2026-10-29T00:38:43+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5155",
-      "text": "🟡🛩️ Москва - Внуково, UUWW",
+      "messageTimestamp": "2026-10-29T01:46:36+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5157",
+      "text": "🔴🛩️ Москва - Внуково, UUWW",
       "inKta": true,
       "lat": 55.5995278,
       "lon": 37.2735752
