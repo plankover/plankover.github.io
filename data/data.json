@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T02:20:16.439738+00:00",
+  "updatedAt": "2026-10-29T03:00:16.834407+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -315,6 +315,36 @@
       "inKta": true,
       "lat": 55.5496554,
       "lon": 38.1547897
+    },
+    {
+      "id": "a7afd67fb2d44e16",
+      "action": "ADD",
+      "name": "Победилово",
+      "icao": "USKK",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-29T02:58:04+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5159",
+      "text": "🔴🛩️ Киров - Победилово, USKK",
+      "inKta": true,
+      "lat": 58.5021703,
+      "lon": 49.3399536
+    },
+    {
+      "id": "2c192b38ef862823",
+      "action": "ADD",
+      "name": "Уфа",
+      "icao": "UWUU",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-29T02:58:04+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5159",
+      "text": "🔴🛩️ Уфа, UWUU",
+      "inKta": true,
+      "lat": 54.5543582,
+      "lon": 55.8822099
     }
   ]
 }

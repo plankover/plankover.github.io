@@ -16193,5 +16193,40 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5159,
+    "timestamp": "2026-10-29T02:58:04+00:00",
+    "text": "🔴🛩️ Киров - Победилово, USKK\n🔴🛩️ Уфа, UWUU",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5159",
+    "events": [
+      {
+        "id": "a7afd67fb2d44e16",
+        "action": "ADD",
+        "name": "Победилово",
+        "icao": "USKK",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-29T02:58:04+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5159",
+        "text": "🔴🛩️ Киров - Победилово, USKK",
+        "inKta": true
+      },
+      {
+        "id": "2c192b38ef862823",
+        "action": "ADD",
+        "name": "Уфа",
+        "icao": "UWUU",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-29T02:58:04+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5159",
+        "text": "🔴🛩️ Уфа, UWUU",
+        "inKta": true
+      }
+    ]
   }
 ]
