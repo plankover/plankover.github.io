@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T08:50:17.447683+00:00",
+  "updatedAt": "2026-10-29T09:05:17.871750+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -122,21 +122,6 @@
       "inKta": true,
       "lat": 57.9153712,
       "lon": 56.0283146
-    },
-    {
-      "id": "e83938d28c3c0c01",
-      "action": "ADD",
-      "name": "Баландино",
-      "icao": "USCC",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-10-29T04:33:47+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5165",
-      "text": "🔴🛩️ Челябинск - Баландино, USCC",
-      "inKta": true,
-      "lat": 55.3015326,
-      "lon": 61.5128638
     }
   ]
 }
