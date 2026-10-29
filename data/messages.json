@@ -16320,5 +16320,27 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5163,
+    "timestamp": "2026-10-29T03:54:30+00:00",
+    "text": "🔴🛩️ Пермь - Большое Савино, USPP",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5163",
+    "events": [
+      {
+        "id": "a474c75028c0d531",
+        "action": "ADD",
+        "name": "Большое Савино",
+        "icao": "USPP",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-29T03:54:30+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5163",
+        "text": "🔴🛩️ Пермь - Большое Савино, USPP",
+        "inKta": true
+      }
+    ]
   }
 ]

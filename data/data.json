@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T03:50:17.519951+00:00",
+  "updatedAt": "2026-10-29T03:55:16.341230+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -330,6 +330,21 @@
       "inKta": true,
       "lat": 56.8361905,
       "lon": 53.4631283
+    },
+    {
+      "id": "a474c75028c0d531",
+      "action": "ADD",
+      "name": "Большое Савино",
+      "icao": "USPP",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-29T03:54:30+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5163",
+      "text": "🔴🛩️ Пермь - Большое Савино, USPP",
+      "inKta": true,
+      "lat": 57.9153712,
+      "lon": 56.0283146
     }
   ]
 }
