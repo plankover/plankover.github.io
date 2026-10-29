@@ -17187,5 +17187,21 @@
         "inKta": false
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5195,
+    "timestamp": "2026-10-29T17:41:58+00:00",
+    "text": "✅ Ранее объявленные",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5195",
+    "events": [
+      {
+        "id": "60a2289ee7061099",
+        "action": "CLEAR",
+        "messageTimestamp": "2026-10-29T17:41:58+00:00",
+        "text": "✅ Ранее объявленные",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5195"
+      }
+    ]
   }
 ]
