@@ -16228,5 +16228,27 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5160,
+    "timestamp": "2026-10-29T03:09:39+00:00",
+    "text": "🔴🛩️ Оренбург, UWOO",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5160",
+    "events": [
+      {
+        "id": "67bae6f104087704",
+        "action": "ADD",
+        "name": "Оренбург",
+        "icao": "UWOO",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-29T03:09:39+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5160",
+        "text": "🔴🛩️ Оренбург, UWOO",
+        "inKta": true
+      }
+    ]
   }
 ]
