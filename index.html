@@ -456,16 +456,19 @@
     }
     // One airplane per airport, even when multiple active restrictions refer to it.
     if (!group.entries.some(entry => entry.item._id === item._id)) {
-      group.entries.push({ item, role });
+      const explicitlyPartial = role === "affected" &&
+        /🟡/.test(String(location.name || ""));
+      group.entries.push({ item, role, explicitlyPartial });
     }
   }
 
   function airportStatusEntries(group) {
-    // Prefer restrictions explicitly attached to this airport (KTA).
-    // A red regional/affected-zone entry must not override the airport's
-    // own yellow coordinated-operation status.
+    // Priority: airport-specific KTA status, then an explicit per-airport
+    // yellow annotation in the affected-airports list, then zone status.
     const ownEntries = group.entries.filter(entry => entry.role === "kta");
-    return ownEntries.length ? ownEntries : group.entries;
+    if (ownEntries.length) return ownEntries;
+    const explicitlyPartial = group.entries.filter(entry => entry.explicitlyPartial);
+    return explicitlyPartial.length ? explicitlyPartial : group.entries;
   }
 
   function airplanePopupHtml(group) {
