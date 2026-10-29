@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T03:10:17.139418+00:00",
+  "updatedAt": "2026-10-29T03:15:17.029856+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -360,6 +360,21 @@
       "inKta": true,
       "lat": 51.7957696,
       "lon": 55.455575
+    },
+    {
+      "id": "1b92d86870d83c07",
+      "action": "ADD",
+      "name": "Ижевск",
+      "icao": "USII",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-29T03:10:34+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5161",
+      "text": "🔴🛩️ Ижевск, USII",
+      "inKta": true,
+      "lat": 56.8361905,
+      "lon": 53.4631283
     }
   ]
 }
