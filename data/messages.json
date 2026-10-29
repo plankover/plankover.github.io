@@ -16364,5 +16364,27 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5165,
+    "timestamp": "2026-10-29T04:33:47+00:00",
+    "text": "🔴🛩️ Челябинск - Баландино, USCC",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5165",
+    "events": [
+      {
+        "id": "e83938d28c3c0c01",
+        "action": "ADD",
+        "name": "Баландино",
+        "icao": "USCC",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-29T04:33:47+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5165",
+        "text": "🔴🛩️ Челябинск - Баландино, USCC",
+        "inKta": true
+      }
+    ]
   }
 ]
