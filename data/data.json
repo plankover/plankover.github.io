@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T00:35:16.497226+00:00",
+  "updatedAt": "2026-10-29T00:40:17.601218+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -48,31 +48,31 @@
       "lon": 39.6308884
     },
     {
-      "id": "8b0536682e92c755",
+      "id": "6470964f1bacb20d",
       "action": "ADD",
       "name": "Внуково",
       "icao": "UUWW",
       "kind": "airport",
-      "type": "full",
+      "type": "partial",
       "radiusKm": null,
-      "messageTimestamp": "2026-10-28T22:30:30+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5145",
-      "text": "🔴🛩️ Москва - Внуково, UUWW",
+      "messageTimestamp": "2026-10-29T00:38:43+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5155",
+      "text": "🟡🛩️ Москва - Внуково, UUWW",
       "inKta": true,
       "lat": 55.5995278,
       "lon": 37.2735752
     },
     {
-      "id": "665b36a2695a8e0a",
+      "id": "fea8621fb16bb588",
       "action": "ADD",
       "name": "Домодедово",
       "icao": "UUDD",
       "kind": "airport",
-      "type": "full",
+      "type": "partial",
       "radiusKm": null,
-      "messageTimestamp": "2026-10-28T22:58:57+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5148",
-      "text": "🔴🛩️ Москва - Домодедово, UUDD",
+      "messageTimestamp": "2026-10-29T00:38:43+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5155",
+      "text": "🟡🛩️ Москва - Домодедово, UUDD",
       "inKta": true,
       "lat": 55.4087122,
       "lon": 37.9094307
@@ -152,21 +152,6 @@
       "inKta": true,
       "lat": 56.2295198,
       "lon": 43.7840064
-    },
-    {
-      "id": "ef3e5f9f73d3d31b",
-      "action": "ADD",
-      "name": "Жуковский",
-      "icao": "UUBW",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-10-28T22:58:57+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5148",
-      "text": "🔴🛩️ Москва - Жуковский, UUBW",
-      "inKta": true,
-      "lat": 55.5496554,
-      "lon": 38.1547897
     },
     {
       "id": "db24b5960e56b2fe",
