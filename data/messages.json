@@ -16876,5 +16876,27 @@
         "sourceUrl": "https://t.me/PlanKoverTDay/5183"
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5184,
+    "timestamp": "2026-10-29T11:50:39+00:00",
+    "text": "🟢 Стерлитамак",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5184",
+    "events": [
+      {
+        "id": "b5c02a89af8ee32a",
+        "action": "REMOVE",
+        "name": "Стерлитамак",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-29T11:50:39+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5184",
+        "text": "🟢 Стерлитамак",
+        "inKta": false
+      }
+    ]
   }
 ]
