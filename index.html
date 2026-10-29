@@ -463,12 +463,13 @@
   }
 
   function airportStatusEntries(group) {
-    // Priority: airport-specific KTA status, then an explicit per-airport
-    // yellow annotation in the affected-airports list, then zone status.
-    const ownEntries = group.entries.filter(entry => entry.role === "kta");
-    if (ownEntries.length) return ownEntries;
+    // An explicit per-airport yellow annotation overrides the regional red.
+    // Otherwise, use affected-zone status before standalone airport KTA status,
+    // so airports inside a red zone remain red.
     const explicitlyPartial = group.entries.filter(entry => entry.explicitlyPartial);
-    return explicitlyPartial.length ? explicitlyPartial : group.entries;
+    if (explicitlyPartial.length) return explicitlyPartial;
+    const affectedEntries = group.entries.filter(entry => entry.role === "affected");
+    return affectedEntries.length ? affectedEntries : group.entries;
   }
 
   function airplanePopupHtml(group) {
