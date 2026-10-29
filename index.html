@@ -449,7 +449,7 @@
     // The status icon written directly before an airport name in the regional
     // message overrides the overall regional status in either direction.
     const airportName = String(location.name || location.title || "");
-    const directMarker = airportName.match(/^\\s*([🔴🟡])/u)?.[1];
+    const directMarker = airportName.match(/^\s*([🔴🟡])/u)?.[1];
     if (directMarker) return directMarker === "🟡";
 
     // Fallback to the original message if a data-source parser strips the icon
@@ -459,14 +459,14 @@
     if (!/^[A-Z0-9]{4}$/.test(icao)) return null;
     const sourceText = String(item.text || "");
     const escapedIcao = icao;
-    const groupsInMessage = sourceText.match(/\\(([^()]*)\\)/gu) || [];
+    const groupsInMessage = sourceText.match(/\(([^()]*)\)/gu) || [];
     for (const groupText of groupsInMessage) {
       const airportList = groupText.slice(1, -1);
       if (!(new RegExp("\\b" + escapedIcao + "\\b", "u")).test(airportList)) continue;
       const segment = airportList.split(";").find(part =>
         (new RegExp("\\b" + escapedIcao + "\\b", "u")).test(part)
       );
-      const marker = segment?.match(/^\\s*([🔴🟡])/u)?.[1];
+      const marker = segment?.match(/^\s*([🔴🟡])/u)?.[1];
       if (marker) return marker === "🟡";
       return null;
     }
