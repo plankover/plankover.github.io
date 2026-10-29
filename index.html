@@ -521,8 +521,8 @@
       ? `${esc(group.name)} (${esc(group.icao)})`
       : esc(group.name);
 
-    // Airport status is based on its own event when available; affected
-    // regional restrictions are displayed below as context.
+    // The regional restriction controls the airport status when it lists
+    // the airport; an explicit red/yellow airport marker overrides that status.
     const statusEntries = airportStatusEntries(group);
     const hasFull = statusEntries.some(entry => !airportEntryIsPartial(entry));
     const statusLabel = hasFull
@@ -559,8 +559,8 @@
   }
 
   function drawAirplaneMarker(group) {
-    // Use an airport's own restriction first. If there is no airport-specific
-    // event, fall back to restrictions affecting the wider zone.
+    // A regional restriction controls airports it lists. An explicit
+    // per-airport marker overrides it; standalone KTA applies otherwise.
     const relevantEntries = airportStatusEntries(group);
     const partial = relevantEntries.length > 0 &&
       relevantEntries.every(entry => airportEntryIsPartial(entry));
