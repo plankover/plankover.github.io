@@ -17225,11 +17225,11 @@
     "chatId": -1003822338715,
     "messageId": 5197,
     "timestamp": "2026-10-29T18:25:12+00:00",
-    "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км\n🟡🛩️ Внуково, UUWW / 100 км (азимуты 150-330) \n🔴 а/д Клоково, Тула / 70 км",
+    "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км\n🟡🛩️ Внуково, UUWW / 100 км (азимуты 150-330) \n🟡🛩️ Домодедово, UUDD / 100 км (азимуты 090-270)\n🔴 а/д Клоково, Тула / 70 км",
     "sourceUrl": "https://t.me/PlanKoverTDay/5197",
     "events": [
       {
-        "id": "be5e9b22156d5219",
+        "id": "5396dcd976ee9d46",
         "action": "ADD",
         "name": "Грабцево",
         "icao": "UUBC",
@@ -17242,7 +17242,7 @@
         "inKta": true
       },
       {
-        "id": "8601876455f2465a",
+        "id": "fb112c531d64d28a",
         "action": "ADD",
         "name": "Внуково",
         "icao": "UUWW",
@@ -17260,7 +17260,25 @@
         "inKta": true
       },
       {
-        "id": "12412b2d96d7a2eb",
+        "id": "97e88b628c430b11",
+        "action": "ADD",
+        "name": "Домодедово",
+        "icao": "UUDD",
+        "kind": "airport",
+        "type": "partial",
+        "radiusKm": 100.0,
+        "messageTimestamp": "2026-10-29T18:25:12+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5197",
+        "text": "🟡🛩️ Домодедово, UUDD / 100 км (азимуты 090-270)",
+        "sector": {
+          "radiusKm": 100.0,
+          "startAzimuth": 90,
+          "endAzimuth": 270
+        },
+        "inKta": true
+      },
+      {
+        "id": "a88a67c9667243b9",
         "action": "ADD",
         "name": "Клоково, Тула",
         "icao": null,
@@ -17278,47 +17296,48 @@
     "chatId": -1003822338715,
     "messageId": 5198,
     "timestamp": "2026-10-29T19:49:13+00:00",
-    "text": "🔴🛩️ Домодедово, UUDD\n🔴🛩️ Жуковский, UUBW\n🔴🛩️ Внуково, UUWW",
+    "text": "🔴 Москва (🛩️ Домодедово, UUDD; 🛩️ Жуковский, UUBW; 🛩️ Внуково, UUWW; 🟡🛩️ Шереметьево, UUEE) / 150 км (азимуты 090-330)",
     "sourceUrl": "https://t.me/PlanKoverTDay/5198",
     "events": [
       {
-        "id": "5ddaddda57a8b739",
+        "id": "a30c753e30d92bac",
         "action": "ADD",
-        "name": "Домодедово",
-        "icao": "UUDD",
-        "kind": "airport",
-        "type": "full",
-        "radiusKm": null,
+        "name": "Москва",
+        "icao": null,
+        "kind": "city",
+        "type": "partial",
+        "radiusKm": 150.0,
         "messageTimestamp": "2026-10-29T19:49:13+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/5198",
-        "text": "🔴🛩️ Домодедово, UUDD",
-        "inKta": true
-      },
-      {
-        "id": "dd12222997c8a155",
-        "action": "ADD",
-        "name": "Жуковский",
-        "icao": "UUBW",
-        "kind": "airport",
-        "type": "full",
-        "radiusKm": null,
-        "messageTimestamp": "2026-10-29T19:49:13+00:00",
-        "sourceUrl": "https://t.me/PlanKoverTDay/5198",
-        "text": "🔴🛩️ Жуковский, UUBW",
-        "inKta": true
-      },
-      {
-        "id": "aac6765c8d0bc9cd",
-        "action": "ADD",
-        "name": "Внуково",
-        "icao": "UUWW",
-        "kind": "airport",
-        "type": "full",
-        "radiusKm": null,
-        "messageTimestamp": "2026-10-29T19:49:13+00:00",
-        "sourceUrl": "https://t.me/PlanKoverTDay/5198",
-        "text": "🔴🛩️ Внуково, UUWW",
-        "inKta": true
+        "text": "🔴 Москва (🛩️ Домодедово, UUDD; 🛩️ Жуковский, UUBW; 🛩️ Внуково, UUWW; 🟡🛩️ Шереметьево, UUEE) / 150 км (азимуты 090-330)",
+        "sector": {
+          "radiusKm": 150.0,
+          "startAzimuth": 90,
+          "endAzimuth": 330
+        },
+        "affectedAirports": [
+          {
+            "name": "Домодедово",
+            "icao": "UUDD",
+            "kind": "airport"
+          },
+          {
+            "name": "Жуковский",
+            "icao": "UUBW",
+            "kind": "airport"
+          },
+          {
+            "name": "Внуково",
+            "icao": "UUWW",
+            "kind": "airport"
+          },
+          {
+            "name": "🟡🛩️ Шереметьево",
+            "icao": "UUEE",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false
       }
     ]
   }
