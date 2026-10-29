@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T05:20:19.196361+00:00",
+  "updatedAt": "2026-10-29T06:05:18.440878+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -109,66 +109,6 @@
       "lon": 43.7840064
     },
     {
-      "id": "a891a1e614cf7f19",
-      "action": "ADD",
-      "name": "Саранск",
-      "icao": "UWPS",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-10-28T23:40:33+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5150",
-      "text": "🔴🛩️ Саранск, UWPS",
-      "inKta": true,
-      "lat": 54.1274695,
-      "lon": 45.2152086
-    },
-    {
-      "id": "f912346773bd5573",
-      "action": "ADD",
-      "name": "Курумоч",
-      "icao": "UWWW",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-10-28T23:58:03+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5151",
-      "text": "🔴🛩️ Самара - Курумоч, UWWW",
-      "inKta": true,
-      "lat": 53.5057511,
-      "lon": 50.1569939
-    },
-    {
-      "id": "2869f7d5a6e84040",
-      "action": "ADD",
-      "name": "Баратаевка",
-      "icao": "UWLL",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-10-28T23:58:03+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5151",
-      "text": "🔴🛩️ Ульяновск - Баратаевка, UWLL",
-      "inKta": true,
-      "lat": 54.2690213,
-      "lon": 48.2248287
-    },
-    {
-      "id": "38d7fa7545708448",
-      "action": "ADD",
-      "name": "Чебоксары",
-      "icao": "UWKS",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-10-29T00:13:22+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5152",
-      "text": "🔴🛩️ Чебоксары, UWKS",
-      "inKta": true,
-      "lat": 56.0880752,
-      "lon": 47.3382761
-    },
-    {
       "id": "873a5665949d4634",
       "action": "ADD",
       "name": "Бугульма",
@@ -180,21 +120,6 @@
       "sourceUrl": "https://t.me/PlanKoverTDay/5153",
       "text": "🔴🛩️ Бугульма, UWKB",
       "inKta": true
-    },
-    {
-      "id": "304f2d8adb257535",
-      "action": "ADD",
-      "name": "Казань",
-      "icao": "UWKD",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-10-29T00:34:38+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5153",
-      "text": "🔴🛩️ Казань, UWKD",
-      "inKta": true,
-      "lat": 55.6074098,
-      "lon": 49.2855138
     },
     {
       "id": "cc0725414ed74583",
