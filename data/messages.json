@@ -16114,5 +16114,27 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5156,
+    "timestamp": "2026-10-29T00:59:57+00:00",
+    "text": "🔴🛩️ Череповец, ULWW",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5156",
+    "events": [
+      {
+        "id": "08d4ae2a9e333564",
+        "action": "ADD",
+        "name": "Череповец",
+        "icao": "ULWW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-29T00:59:57+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5156",
+        "text": "🔴🛩️ Череповец, ULWW",
+        "inKta": true
+      }
+    ]
   }
 ]
