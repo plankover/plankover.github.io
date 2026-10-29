@@ -17374,5 +17374,38 @@
         "inKta": false
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5200,
+    "timestamp": "2026-10-29T20:15:59+00:00",
+    "text": "🟢 Ильмино (🛩️ Саранск, UWPS; 🛩️ Пенза, UWPP)\n\nОграничение длилось ~10-15 минут",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5200",
+    "events": [
+      {
+        "id": "e11784a5ce9bc14c",
+        "action": "REMOVE",
+        "name": "Саранск",
+        "icao": "UWPS",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-29T20:15:59+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5200",
+        "text": "🟢 🛩️ Саранск, UWPS"
+      },
+      {
+        "id": "e588517b920982a7",
+        "action": "REMOVE",
+        "name": "Пенза",
+        "icao": "UWPP",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-29T20:15:59+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5200",
+        "text": "🟢 🛩️ Пенза, UWPP"
+      }
+    ]
   }
 ]
