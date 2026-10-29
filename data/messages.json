@@ -16795,5 +16795,44 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5181,
+    "timestamp": "2026-10-29T11:08:34+00:00",
+    "text": "▫️Аэропорт УФА\n\n✈️ВВЕДЕНЫ временные ограничения на прием и выпуск воздушных судов.\n\n✈️Ограничения необходимы для обеспечения безопасности полетов.\n\n✈️Говорит Росавиация | MАХ",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5181",
+    "events": [
+      {
+        "id": "51e6701427874eec",
+        "action": "ADD",
+        "messageTimestamp": "2026-10-29T11:08:34+00:00",
+        "text": "▫️Аэропорт УФА\n\n✈️ВВЕДЕНЫ временные ограничения на прием и выпуск воздушных судов.\n\n✈️Ограничения необходимы для обеспечения безопасности полетов.\n\n✈️Говорит Росавиация | MАХ",
+        "unresolved": true,
+        "sourceUrl": "https://t.me/PlanKoverTDay/5181"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5182,
+    "timestamp": "2026-10-29T11:08:45+00:00",
+    "text": "🔴🛩️ Уфа, UWUU",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5182",
+    "events": [
+      {
+        "id": "e3743d756d319632",
+        "action": "ADD",
+        "name": "Уфа",
+        "icao": "UWUU",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-29T11:08:45+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5182",
+        "text": "🔴🛩️ Уфа, UWUU",
+        "inKta": true
+      }
+    ]
   }
 ]
