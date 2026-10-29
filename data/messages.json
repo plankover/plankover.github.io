@@ -16517,5 +16517,27 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5169,
+    "timestamp": "2026-10-29T06:13:43+00:00",
+    "text": "🔴🛩️ Екатеринбург - Кольцово, USSS",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5169",
+    "events": [
+      {
+        "id": "50b448a524ce71db",
+        "action": "ADD",
+        "name": "Кольцово",
+        "icao": "USSS",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-29T06:13:43+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5169",
+        "text": "🔴🛩️ Екатеринбург - Кольцово, USSS",
+        "inKta": true
+      }
+    ]
   }
 ]
