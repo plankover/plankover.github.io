@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T20:05:16.747931+00:00",
+  "updatedAt": "2026-10-30T20:10:16.710799+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -48,19 +48,28 @@
       "lon": 41.4845129
     },
     {
-      "id": "81ca8c3f674efd79",
+      "id": "11ec5f4e3eeef226",
       "action": "ADD",
-      "name": "Пенза",
-      "icao": "UWPP",
-      "kind": "airport",
+      "name": "Новоселовка",
+      "icao": null,
+      "kind": "city",
       "type": "full",
       "radiusKm": null,
       "messageTimestamp": "2026-10-30T20:05:02+00:00",
       "sourceUrl": "https://t.me/PlanKoverTDay/5229",
-      "text": "🔴🛩️ Пенза, UWPP",
-      "inKta": true,
-      "lat": 53.110734,
-      "lon": 45.023455
+      "text": "🔴 Новоселовка (🛩️ Пенза, UWPP) / 120 (?) км",
+      "affectedAirports": [
+        {
+          "name": "Пенза",
+          "icao": "UWPP",
+          "kind": "airport",
+          "lat": 53.110734,
+          "lon": 45.023455
+        }
+      ],
+      "inKta": false,
+      "lat": 51.9489,
+      "lon": 44.2678
     }
   ]
 }
