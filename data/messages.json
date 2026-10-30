@@ -18404,11 +18404,11 @@
     "chatId": -1003822338715,
     "messageId": 5230,
     "timestamp": "2026-10-30T20:09:39+00:00",
-    "text": "🟢🛩️ Пенза, UWPP\n\n🔴 Новосёловка / 120 км\nсохраняется",
+    "text": "🟢🛩️ Пенза, UWPP\n\n🔴 Новоселовка / 120 км\nсохраняется",
     "sourceUrl": "https://t.me/PlanKoverTDay/5230",
     "events": [
       {
-        "id": "64fe1f04137844f0",
+        "id": "878df8b6a899bef6",
         "action": "REMOVE",
         "name": "Пенза",
         "icao": "UWPP",
@@ -18421,17 +18421,39 @@
         "inKta": true
       },
       {
-        "id": "1580fdb2c7c33d11",
+        "id": "4bca7a7efb6c5de5",
         "action": "ADD",
-        "name": "Новосёловка",
+        "name": "Новоселовка",
         "icao": null,
         "kind": "city",
         "type": "full",
         "radiusKm": 120.0,
         "messageTimestamp": "2026-10-30T20:09:39+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/5230",
-        "text": "🔴 Новосёловка / 120 км",
+        "text": "🔴 Новоселовка / 120 км",
         "inKta": false
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5231,
+    "timestamp": "2026-10-30T20:45:29+00:00",
+    "text": "🔴🛩️ Пенза, UWPP",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5231",
+    "events": [
+      {
+        "id": "3c0381cb4f8d80e5",
+        "action": "ADD",
+        "name": "Пенза",
+        "icao": "UWPP",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-30T20:45:29+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5231",
+        "text": "🔴🛩️ Пенза, UWPP",
+        "inKta": true
       }
     ]
   }
