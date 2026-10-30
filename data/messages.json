@@ -18348,5 +18348,49 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5228,
+    "timestamp": "2026-10-30T20:03:46+00:00",
+    "text": "🔴🛩️ Тамбов - Донское, UUOT",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5228",
+    "events": [
+      {
+        "id": "f6c13701c44d5419",
+        "action": "ADD",
+        "name": "Донское",
+        "icao": "UUOT",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-30T20:03:46+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5228",
+        "text": "🔴🛩️ Тамбов - Донское, UUOT",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5229,
+    "timestamp": "2026-10-30T20:05:02+00:00",
+    "text": "🔴🛩️ Пенза, UWPP",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5229",
+    "events": [
+      {
+        "id": "81ca8c3f674efd79",
+        "action": "ADD",
+        "name": "Пенза",
+        "icao": "UWPP",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-30T20:05:02+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5229",
+        "text": "🔴🛩️ Пенза, UWPP",
+        "inKta": true
+      }
+    ]
   }
 ]

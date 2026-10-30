@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T20:00:17.925510+00:00",
+  "updatedAt": "2026-10-30T20:05:16.747931+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -33,19 +33,34 @@
       "lon": 37.6000197
     },
     {
-      "id": "b30cd281b72f1496",
+      "id": "f6c13701c44d5419",
       "action": "ADD",
       "name": "Донское",
       "icao": "UUOT",
       "kind": "airport",
       "type": "full",
-      "radiusKm": 40.0,
-      "messageTimestamp": "2026-10-30T19:56:12+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5227",
-      "text": "🔴🛩️ Тамбов - Донское, UUOT / 40 км",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-30T20:03:46+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5228",
+      "text": "🔴🛩️ Тамбов - Донское, UUOT",
       "inKta": true,
       "lat": 52.8060125,
       "lon": 41.4845129
+    },
+    {
+      "id": "81ca8c3f674efd79",
+      "action": "ADD",
+      "name": "Пенза",
+      "icao": "UWPP",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-30T20:05:02+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5229",
+      "text": "🔴🛩️ Пенза, UWPP",
+      "inKta": true,
+      "lat": 53.110734,
+      "lon": 45.023455
     }
   ]
 }
