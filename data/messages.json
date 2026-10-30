@@ -18439,21 +18439,28 @@
     "chatId": -1003822338715,
     "messageId": 5231,
     "timestamp": "2026-10-30T20:45:29+00:00",
-    "text": "🔴🛩️ Пенза, UWPP",
+    "text": "🔴 Пенза (🛩️ Пенза, UWPP) / 50 км",
     "sourceUrl": "https://t.me/PlanKoverTDay/5231",
     "events": [
       {
-        "id": "3c0381cb4f8d80e5",
+        "id": "8d71b608b8f82239",
         "action": "ADD",
         "name": "Пенза",
-        "icao": "UWPP",
-        "kind": "airport",
+        "icao": null,
+        "kind": "city",
         "type": "full",
-        "radiusKm": null,
+        "radiusKm": 50.0,
         "messageTimestamp": "2026-10-30T20:45:29+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/5231",
-        "text": "🔴🛩️ Пенза, UWPP",
-        "inKta": true
+        "text": "🔴 Пенза (🛩️ Пенза, UWPP) / 50 км",
+        "affectedAirports": [
+          {
+            "name": "Пенза",
+            "icao": "UWPP",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false
       }
     ]
   },
