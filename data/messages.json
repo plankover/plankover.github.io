@@ -18326,5 +18326,27 @@
         "inKta": false
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5227,
+    "timestamp": "2026-10-30T19:56:12+00:00",
+    "text": "🔴🛩️ Тамбов - Донское, UUOT / 40 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5227",
+    "events": [
+      {
+        "id": "b30cd281b72f1496",
+        "action": "ADD",
+        "name": "Донское",
+        "icao": "UUOT",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 40.0,
+        "messageTimestamp": "2026-10-30T19:56:12+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5227",
+        "text": "🔴🛩️ Тамбов - Донское, UUOT / 40 км",
+        "inKta": true
+      }
+    ]
   }
 ]
