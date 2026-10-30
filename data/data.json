@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T02:30:16.289775+00:00",
+  "updatedAt": "2026-10-30T02:40:17.100743+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -272,6 +272,21 @@
       "inKta": true,
       "lat": 53.5057511,
       "lon": 50.1569939
+    },
+    {
+      "id": "feb0e97476f38bba",
+      "action": "ADD",
+      "name": "Казань",
+      "icao": "UWKD",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-30T02:37:38+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5211",
+      "text": "🔴🛩️ Казань, UWKD",
+      "inKta": true,
+      "lat": 55.6074098,
+      "lon": 49.2855138
     }
   ]
 }
