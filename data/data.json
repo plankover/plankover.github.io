@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T05:10:16.962021+00:00",
+  "updatedAt": "2026-10-30T05:50:16.987286+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -279,21 +279,6 @@
       "sourceUrl": "https://t.me/PlanKoverTDay/5212",
       "text": "🔴🛩️ Бугульма, UWKB",
       "inKta": true
-    },
-    {
-      "id": "bede4e10d90b9920",
-      "action": "ADD",
-      "name": "Чебоксары",
-      "icao": "UWKS",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-10-30T04:34:31+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5213",
-      "text": "🔴🛩️ Чебоксары, UWKS",
-      "inKta": true,
-      "lat": 56.0880752,
-      "lon": 47.3382761
     },
     {
       "id": "4d0908f94191c20d",
