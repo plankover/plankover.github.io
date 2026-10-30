@@ -18224,5 +18224,50 @@
         "sourceUrl": "https://t.me/PlanKoverTDay/5222"
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5223,
+    "timestamp": "2026-10-30T08:12:30+00:00",
+    "text": "🟢🛩️ Ярославль - Туношна, UUBW",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5223",
+    "events": [
+      {
+        "id": "36c5032312b67af9",
+        "action": "REMOVE",
+        "name": "Туношна",
+        "icao": "UUBW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-30T08:12:30+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5223",
+        "text": "🟢🛩️ Ярославль - Туношна, UUBW",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5224,
+    "timestamp": "2026-10-30T08:12:51+00:00",
+    "text": "🕒 Актуальные ограничения на 11:10 мск\n\n🔴🛩️ Калуга - Грабцево, UUBC / 70 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5224",
+    "events": [
+      {
+        "id": "8670c3724d0da2c6",
+        "action": "ADD",
+        "name": "Грабцево",
+        "icao": "UUBC",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-10-30T08:12:51+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5224",
+        "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км",
+        "inKta": true,
+        "snapshot": true
+      }
+    ]
   }
 ]

@@ -1,166 +1,22 @@
 {
-  "updatedAt": "2026-10-30T06:50:16.635246+00:00",
+  "updatedAt": "2026-10-30T08:15:20.593962+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
-      "id": "4962a13d0d3b5278",
+      "id": "8670c3724d0da2c6",
       "action": "ADD",
       "name": "Грабцево",
       "icao": "UUBC",
       "kind": "airport",
       "type": "full",
       "radiusKm": 70.0,
-      "messageTimestamp": "2026-10-29T20:38:13+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5203",
+      "messageTimestamp": "2026-10-30T08:12:51+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5224",
       "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км",
       "inKta": true,
       "snapshot": true,
       "lat": 54.5488708,
       "lon": 36.3697725
-    },
-    {
-      "id": "9012042834c38ae2",
-      "action": "ADD",
-      "name": "Москва",
-      "icao": null,
-      "kind": "city",
-      "type": "partial",
-      "radiusKm": 150.0,
-      "messageTimestamp": "2026-10-29T20:38:13+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5203",
-      "text": "🔴 Москва (🛩️ Домодедово, UUDD; 🛩️ Жуковский, UUBW; 🛩️ Внуково, UUWW; 🛩️ Шереметьево, UUEE) / 150 км (азимуты 090-000)",
-      "sector": {
-        "radiusKm": 150.0,
-        "startAzimuth": 90,
-        "endAzimuth": 0
-      },
-      "affectedAirports": [
-        {
-          "name": "Домодедово",
-          "icao": "UUDD",
-          "kind": "airport",
-          "lat": 55.4087122,
-          "lon": 37.9094307
-        },
-        {
-          "name": "Жуковский",
-          "icao": "UUBW",
-          "kind": "airport",
-          "lat": 55.5496554,
-          "lon": 38.1547897
-        },
-        {
-          "name": "Внуково",
-          "icao": "UUWW",
-          "kind": "airport",
-          "lat": 55.5995278,
-          "lon": 37.2735752
-        },
-        {
-          "name": "Шереметьево",
-          "icao": "UUEE",
-          "kind": "airport",
-          "lat": 55.9760876,
-          "lon": 37.4238008
-        }
-      ],
-      "inKta": false,
-      "snapshot": true,
-      "lat": 55.7522,
-      "lon": 37.6156
-    },
-    {
-      "id": "53bd4ace6815bfac",
-      "action": "ADD",
-      "name": "Клоково, Тула",
-      "icao": null,
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": 70.0,
-      "messageTimestamp": "2026-10-29T20:38:13+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5203",
-      "text": "🔴 а/д Клоково, Тула / 70 км",
-      "inKta": false,
-      "snapshot": true,
-      "lat": 54.2418249,
-      "lon": 37.6000197
-    },
-    {
-      "id": "9f6ce46033d99e2b",
-      "action": "ADD",
-      "name": "Большое, Завидово",
-      "icao": null,
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": 40.0,
-      "messageTimestamp": "2026-10-29T20:38:13+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5203",
-      "text": "🔴 а/д Большое, Завидово / 40 км",
-      "inKta": false,
-      "snapshot": true,
-      "lat": 56.5536,
-      "lon": 36.5595
-    },
-    {
-      "id": "0f6999da78c43d5a",
-      "action": "ADD",
-      "name": "Дубна",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": 20.0,
-      "messageTimestamp": "2026-10-29T20:38:13+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5203",
-      "text": "🔴 Дубна / 20 км",
-      "inKta": false,
-      "snapshot": true,
-      "lat": 56.7362705,
-      "lon": 37.1623696
-    },
-    {
-      "id": "b277fea20f23a6bd",
-      "action": "ADD",
-      "name": "Туношна",
-      "icao": "UUDL",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": 50.0,
-      "messageTimestamp": "2026-10-29T21:48:44+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5204",
-      "text": "🔴🛩️ Ярославль - Туношна, UUDL / 50 км",
-      "inKta": true,
-      "lat": 57.5604597,
-      "lon": 40.1579512
-    },
-    {
-      "id": "9586252a0c5aa574",
-      "action": "ADD",
-      "name": "Семязино, Владимир",
-      "icao": null,
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": 40.0,
-      "messageTimestamp": "2026-10-29T21:48:44+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5204",
-      "text": "🔴 а/д Семязино, Владимир / 40 км",
-      "inKta": false,
-      "lat": 56.1269091,
-      "lon": 40.3173426
-    },
-    {
-      "id": "fa221468dff84905",
-      "action": "ADD",
-      "name": "Костерёво",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": 30.0,
-      "messageTimestamp": "2026-10-29T21:48:44+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5204",
-      "text": "🔴 Костерёво / 30 км",
-      "inKta": false,
-      "lat": 55.9287862,
-      "lon": 39.6201571
     }
   ]
 }
