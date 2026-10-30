@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T06:00:31.245224+00:00",
+  "updatedAt": "2026-10-30T06:40:17.343545+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -163,36 +163,6 @@
       "lon": 39.6201571
     },
     {
-      "id": "95ce463f3e84f072",
-      "action": "ADD",
-      "name": "Пенза",
-      "icao": "UWPP",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-10-29T23:05:25+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5205",
-      "text": "🔴🛩️ Пенза, UWPP",
-      "inKta": true,
-      "lat": 53.110734,
-      "lon": 45.023455
-    },
-    {
-      "id": "a9f7a1b1c4bd40d9",
-      "action": "ADD",
-      "name": "Гагарин",
-      "icao": "UWSG",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-10-29T23:05:25+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5205",
-      "text": "🔴🛩️ Саратов - Гагарин, UWSG",
-      "inKta": true,
-      "lat": 51.7139093,
-      "lon": 46.1672319
-    },
-    {
       "id": "0bd35abd63c102af",
       "action": "ADD",
       "name": "Баратаевка",
@@ -206,64 +176,6 @@
       "inKta": true,
       "lat": 54.2690213,
       "lon": 48.2248287
-    },
-    {
-      "id": "1733bcb2c3fa361d",
-      "action": "ADD",
-      "name": "Курумоч",
-      "icao": "UWWW",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-10-30T02:28:46+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5210",
-      "text": "🔴🛩️ Самара - Курумоч, UWWW",
-      "inKta": true,
-      "lat": 53.5057511,
-      "lon": 50.1569939
-    },
-    {
-      "id": "520ba89ed048d09f",
-      "action": "ADD",
-      "name": "Бегишево",
-      "icao": "UWKD",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-10-30T03:50:02+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5212",
-      "text": "🔴🛩️ Нижнекамск - Бегишево, UWKD",
-      "inKta": true,
-      "lat": 55.6074098,
-      "lon": 49.2855138
-    },
-    {
-      "id": "73fbfb2fdb9793b2",
-      "action": "ADD",
-      "name": "Бугульма",
-      "icao": "UWKB",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-10-30T03:50:02+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5212",
-      "text": "🔴🛩️ Бугульма, UWKB",
-      "inKta": true
-    },
-    {
-      "id": "4d0908f94191c20d",
-      "action": "ADD",
-      "name": "Саранск",
-      "icao": "UWPS",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-10-30T04:48:05+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5214",
-      "text": "🔴🛩️ Саранск, UWPS",
-      "inKta": true,
-      "lat": 54.1274695,
-      "lon": 45.2152086
     }
   ]
 }

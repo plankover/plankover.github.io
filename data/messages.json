@@ -18024,5 +18024,105 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5219,
+    "timestamp": "2026-10-30T06:36:00+00:00",
+    "text": "🟢🛩️ Бугульма, UWKB\n🟢🛩️ Казань, UWKD\n🟢🛩️ Нижнекамск - Бегишево, UWKE\n🟢🛩️ Пенза, UWPP\n🟢🛩️ Саранск, UWPS\n🟢🛩️ Саратов - Гагарин, UWSG\n🟢🛩️ Самара - Курумоч, UWWW",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5219",
+    "events": [
+      {
+        "id": "0894d71236bc0459",
+        "action": "REMOVE",
+        "name": "Бугульма",
+        "icao": "UWKB",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-30T06:36:00+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5219",
+        "text": "🟢🛩️ Бугульма, UWKB",
+        "inKta": true
+      },
+      {
+        "id": "640c8b163aaf7852",
+        "action": "REMOVE",
+        "name": "Казань",
+        "icao": "UWKD",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-30T06:36:00+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5219",
+        "text": "🟢🛩️ Казань, UWKD",
+        "inKta": true
+      },
+      {
+        "id": "39bad031a71974f9",
+        "action": "REMOVE",
+        "name": "Бегишево",
+        "icao": "UWKE",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-30T06:36:00+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5219",
+        "text": "🟢🛩️ Нижнекамск - Бегишево, UWKE",
+        "inKta": true
+      },
+      {
+        "id": "adac21a65febab3a",
+        "action": "REMOVE",
+        "name": "Пенза",
+        "icao": "UWPP",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-30T06:36:00+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5219",
+        "text": "🟢🛩️ Пенза, UWPP",
+        "inKta": true
+      },
+      {
+        "id": "040891cf6f55d82f",
+        "action": "REMOVE",
+        "name": "Саранск",
+        "icao": "UWPS",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-30T06:36:00+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5219",
+        "text": "🟢🛩️ Саранск, UWPS",
+        "inKta": true
+      },
+      {
+        "id": "f50c028a6c8d77c8",
+        "action": "REMOVE",
+        "name": "Гагарин",
+        "icao": "UWSG",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-30T06:36:00+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5219",
+        "text": "🟢🛩️ Саратов - Гагарин, UWSG",
+        "inKta": true
+      },
+      {
+        "id": "7c622403053700e1",
+        "action": "REMOVE",
+        "name": "Курумоч",
+        "icao": "UWWW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-30T06:36:00+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5219",
+        "text": "🟢🛩️ Самара - Курумоч, UWWW",
+        "inKta": true
+      }
+    ]
   }
 ]
