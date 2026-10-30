@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T04:50:16.296428+00:00",
+  "updatedAt": "2026-10-30T05:10:16.962021+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -70,37 +70,31 @@
       "lon": 37.6156
     },
     {
-      "id": "0ec5502f0ada7b59",
+      "id": "3ae3402c870688b4",
       "action": "ADD",
       "name": "Внуково",
       "icao": "UUWW",
       "kind": "airport",
       "type": "partial",
-      "radiusKm": 100.0,
-      "messageTimestamp": "2026-10-29T20:38:13+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5203",
-      "text": "🔴🛩️ Внуково, UUWW / 100 км (азимуты 150-330) ",
-      "sector": {
-        "radiusKm": 100.0,
-        "startAzimuth": 150,
-        "endAzimuth": 330
-      },
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-30T05:10:12+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5216",
+      "text": "🟡🛩️ Москва - Внуково, UUWW",
       "inKta": true,
-      "snapshot": true,
       "lat": 55.5995278,
       "lon": 37.2735752
     },
     {
-      "id": "cd77ad26626d76b0",
+      "id": "13fd2d54a73e4eb7",
       "action": "ADD",
       "name": "Домодедово",
       "icao": "UUDD",
       "kind": "airport",
-      "type": "full",
+      "type": "partial",
       "radiusKm": null,
-      "messageTimestamp": "2026-10-29T23:38:57+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5208",
-      "text": "🔴🛩️ Москва - Домодедово, UUDD",
+      "messageTimestamp": "2026-10-30T05:10:12+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5216",
+      "text": "🟡🛩️ Москва - Домодедово, UUDD",
       "inKta": true,
       "lat": 55.4087122,
       "lon": 37.9094307
@@ -227,21 +221,6 @@
       "inKta": true,
       "lat": 51.7139093,
       "lon": 46.1672319
-    },
-    {
-      "id": "9551e6cbc68aba25",
-      "action": "ADD",
-      "name": "Шереметьево",
-      "icao": "UUEE",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-10-29T23:20:02+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5207",
-      "text": "🔴🛩️ Москва - Шереметьево, UUEE",
-      "inKta": true,
-      "lat": 55.9760876,
-      "lon": 37.4238008
     },
     {
       "id": "0bd35abd63c102af",

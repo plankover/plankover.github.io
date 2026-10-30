@@ -17897,5 +17897,75 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5215,
+    "timestamp": "2026-10-30T05:09:37+00:00",
+    "text": "🟢🛩️ Москва - Жуковский, UUBW\n🟢🛩️ Москва - Шереметьево, UUEE",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5215",
+    "events": [
+      {
+        "id": "335364cad218c8b3",
+        "action": "REMOVE",
+        "name": "Жуковский",
+        "icao": "UUBW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-30T05:09:37+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5215",
+        "text": "🟢🛩️ Москва - Жуковский, UUBW",
+        "inKta": true
+      },
+      {
+        "id": "a3f25b9bdb77d51b",
+        "action": "REMOVE",
+        "name": "Шереметьево",
+        "icao": "UUEE",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-30T05:09:37+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5215",
+        "text": "🟢🛩️ Москва - Шереметьево, UUEE",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5216,
+    "timestamp": "2026-10-30T05:10:12+00:00",
+    "text": "🟡🛩️ Москва - Внуково, UUWW\n🟡🛩️ Москва - Домодедово, UUDD",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5216",
+    "events": [
+      {
+        "id": "3ae3402c870688b4",
+        "action": "ADD",
+        "name": "Внуково",
+        "icao": "UUWW",
+        "kind": "airport",
+        "type": "partial",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-30T05:10:12+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5216",
+        "text": "🟡🛩️ Москва - Внуково, UUWW",
+        "inKta": true
+      },
+      {
+        "id": "13fd2d54a73e4eb7",
+        "action": "ADD",
+        "name": "Домодедово",
+        "icao": "UUDD",
+        "kind": "airport",
+        "type": "partial",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-30T05:10:12+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5216",
+        "text": "🟡🛩️ Москва - Домодедово, UUDD",
+        "inKta": true
+      }
+    ]
   }
 ]
