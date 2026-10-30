@@ -18404,11 +18404,11 @@
     "chatId": -1003822338715,
     "messageId": 5230,
     "timestamp": "2026-10-30T20:09:39+00:00",
-    "text": "🟢🛩️ Пенза, UWPP",
+    "text": "🟢🛩️ Пенза, UWPP\n\n🔴 Новосёловка / 120 км\nсохраняется",
     "sourceUrl": "https://t.me/PlanKoverTDay/5230",
     "events": [
       {
-        "id": "6cf8607a44612005",
+        "id": "64fe1f04137844f0",
         "action": "REMOVE",
         "name": "Пенза",
         "icao": "UWPP",
@@ -18419,6 +18419,19 @@
         "sourceUrl": "https://t.me/PlanKoverTDay/5230",
         "text": "🟢🛩️ Пенза, UWPP",
         "inKta": true
+      },
+      {
+        "id": "1580fdb2c7c33d11",
+        "action": "ADD",
+        "name": "Новосёловка",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 120.0,
+        "messageTimestamp": "2026-10-30T20:09:39+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5230",
+        "text": "🔴 Новосёловка / 120 км",
+        "inKta": false
       }
     ]
   }

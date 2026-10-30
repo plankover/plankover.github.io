@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T20:10:16.710799+00:00",
+  "updatedAt": "2026-10-30T20:15:21.103610+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -70,6 +70,21 @@
       "inKta": false,
       "lat": 51.9489,
       "lon": 44.2678
+    },
+    {
+      "id": "1580fdb2c7c33d11",
+      "action": "ADD",
+      "name": "Новосёловка",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 120.0,
+      "messageTimestamp": "2026-10-30T20:09:39+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5230",
+      "text": "🔴 Новосёловка / 120 км",
+      "inKta": false,
+      "lat": 51.410345,
+      "lon": 35.2383155
     }
   ]
 }
