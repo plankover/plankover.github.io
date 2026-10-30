@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T20:50:18.259523+00:00",
+  "updatedAt": "2026-10-30T21:10:17.744948+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -76,6 +76,21 @@
       "inKta": true,
       "lat": 53.110734,
       "lon": 45.023455
+    },
+    {
+      "id": "f28bf67835ff1109",
+      "action": "ADD",
+      "name": "Саранск",
+      "icao": "UWPS",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-30T21:09:02+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5232",
+      "text": "🔴🛩️ Саранск, UWPS",
+      "inKta": true,
+      "lat": 54.1274695,
+      "lon": 45.2152086
     }
   ]
 }
