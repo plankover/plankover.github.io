@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T22:20:18.010499+00:00",
+  "updatedAt": "2026-10-30T23:35:17.342631+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -130,6 +130,36 @@
       "inKta": true,
       "lat": 54.2690213,
       "lon": 48.2248287
+    },
+    {
+      "id": "bce05e65b7d6b5de",
+      "action": "ADD",
+      "name": "Казань",
+      "icao": "UWKD",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-30T23:31:44+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5235",
+      "text": "🔴🛩️ Казань, UWKD",
+      "inKta": true,
+      "lat": 55.6074098,
+      "lon": 49.2855138
+    },
+    {
+      "id": "f5355ea0e3de0150",
+      "action": "ADD",
+      "name": "Курумоч",
+      "icao": "UWWW",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-30T23:31:44+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5235",
+      "text": "🔴🛩️ Самара - Курумоч, UWWW",
+      "inKta": true,
+      "lat": 53.5057511,
+      "lon": 50.1569939
     }
   ]
 }

@@ -18529,5 +18529,40 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5235,
+    "timestamp": "2026-10-30T23:31:44+00:00",
+    "text": "🔴🛩️ Казань, UWKD\n🔴🛩️ Самара - Курумоч, UWWW",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5235",
+    "events": [
+      {
+        "id": "bce05e65b7d6b5de",
+        "action": "ADD",
+        "name": "Казань",
+        "icao": "UWKD",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-30T23:31:44+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5235",
+        "text": "🔴🛩️ Казань, UWKD",
+        "inKta": true
+      },
+      {
+        "id": "f5355ea0e3de0150",
+        "action": "ADD",
+        "name": "Курумоч",
+        "icao": "UWWW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-30T23:31:44+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5235",
+        "text": "🔴🛩️ Самара - Курумоч, UWWW",
+        "inKta": true
+      }
+    ]
   }
 ]
