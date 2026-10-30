@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T05:50:16.987286+00:00",
+  "updatedAt": "2026-10-30T06:00:31.245224+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -68,36 +68,6 @@
       "snapshot": true,
       "lat": 55.7522,
       "lon": 37.6156
-    },
-    {
-      "id": "3ae3402c870688b4",
-      "action": "ADD",
-      "name": "Внуково",
-      "icao": "UUWW",
-      "kind": "airport",
-      "type": "partial",
-      "radiusKm": null,
-      "messageTimestamp": "2026-10-30T05:10:12+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5216",
-      "text": "🟡🛩️ Москва - Внуково, UUWW",
-      "inKta": true,
-      "lat": 55.5995278,
-      "lon": 37.2735752
-    },
-    {
-      "id": "13fd2d54a73e4eb7",
-      "action": "ADD",
-      "name": "Домодедово",
-      "icao": "UUDD",
-      "kind": "airport",
-      "type": "partial",
-      "radiusKm": null,
-      "messageTimestamp": "2026-10-30T05:10:12+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5216",
-      "text": "🟡🛩️ Москва - Домодедово, UUDD",
-      "inKta": true,
-      "lat": 55.4087122,
-      "lon": 37.9094307
     },
     {
       "id": "53bd4ace6815bfac",
