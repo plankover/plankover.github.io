@@ -17818,5 +17818,40 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5212,
+    "timestamp": "2026-10-30T03:50:02+00:00",
+    "text": "🔴🛩️ Бугульма, UWKB\n🔴🛩️ Нижнекамск - Бегишево, UWKD",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5212",
+    "events": [
+      {
+        "id": "73fbfb2fdb9793b2",
+        "action": "ADD",
+        "name": "Бугульма",
+        "icao": "UWKB",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-30T03:50:02+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5212",
+        "text": "🔴🛩️ Бугульма, UWKB",
+        "inKta": true
+      },
+      {
+        "id": "520ba89ed048d09f",
+        "action": "ADD",
+        "name": "Бегишево",
+        "icao": "UWKD",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-30T03:50:02+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5212",
+        "text": "🔴🛩️ Нижнекамск - Бегишево, UWKD",
+        "inKta": true
+      }
+    ]
   }
 ]

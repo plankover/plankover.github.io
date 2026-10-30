@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T02:40:17.100743+00:00",
+  "updatedAt": "2026-10-30T03:50:16.928645+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -274,19 +274,32 @@
       "lon": 50.1569939
     },
     {
-      "id": "feb0e97476f38bba",
+      "id": "520ba89ed048d09f",
       "action": "ADD",
-      "name": "Казань",
+      "name": "Бегишево",
       "icao": "UWKD",
       "kind": "airport",
       "type": "full",
       "radiusKm": null,
-      "messageTimestamp": "2026-10-30T02:37:38+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5211",
-      "text": "🔴🛩️ Казань, UWKD",
+      "messageTimestamp": "2026-10-30T03:50:02+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5212",
+      "text": "🔴🛩️ Нижнекамск - Бегишево, UWKD",
       "inKta": true,
       "lat": 55.6074098,
       "lon": 49.2855138
+    },
+    {
+      "id": "73fbfb2fdb9793b2",
+      "action": "ADD",
+      "name": "Бугульма",
+      "icao": "UWKB",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-30T03:50:02+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5212",
+      "text": "🔴🛩️ Бугульма, UWKB",
+      "inKta": true
     }
   ]
 }
