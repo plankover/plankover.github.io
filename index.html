@@ -192,26 +192,44 @@
     footer a { color: #a7c7ff; text-decoration: none; }
     @media (max-width: 850px) {
       .app { height: auto; min-height: 100vh; overflow: visible; }
-      header { padding: 12px 14px; }
-      .layout { min-height: 0; overflow: visible; grid-template-columns: 1fr; }
-      aside { min-height: auto; overflow: visible; border-right: 0; border-bottom: 1px solid var(--line); }
-      #restriction-list { max-height: 330px; }
-      main { min-height: 65vh; overflow: visible; }
-      #map { min-height: 65vh; }
+      header { min-height: 62px; padding: 10px 14px; }
+      .logo { width: 38px; height: 38px; border-radius: 10px; }
+      .layout { min-height: 0; overflow: visible; display: flex; flex-direction: column; }
+      /* On smaller screens, put the map first: it is the main product surface. */
+      main { order: -1; height: clamp(430px, 66svh, 760px); min-height: 430px; overflow: hidden; }
+      #map { height: 100%; min-height: 0; }
+      aside { order: 1; min-height: auto; overflow: visible; border-right: 0; border-bottom: 1px solid var(--line); }
+      .sidebar-head { padding: 16px 14px 11px; }
+      .section-title { margin-bottom: 10px; }
+      .search-wrap { padding: 0 14px 11px; }
+      .filters { padding: 0 14px 12px; }
+      .list-head { padding: 10px 14px; }
+      #restriction-list { max-height: min(48vh, 420px); overflow-y: auto; }
+      .footnote { padding: 10px 14px; }
       .map-top { left: 9px; right: 9px; top: 9px; }
       .map-card { padding: 9px 10px; }
-      .action { padding: 9px; }
+      .action { padding: 9px 10px; }
       .map-help { left:9px; bottom:58px; }
       .map-info { left:9px; bottom:12px; }
+      footer { padding: 12px 14px; }
     }
     @media (max-width: 420px) {
-      .subtitle { max-width: 210px; }
+      header { gap: 8px; }
+      .brand { gap: 9px; }
+      h1 { font-size: 15px; }
+      .subtitle { max-width: 210px; font-size: 10px; }
       .live { font-size: 0; gap: 0; }
       .live .dot { margin-right: 0; }
       .stats { gap: 6px; }
       .stat { padding: 9px 7px; }
       .stat-num { font-size: 20px; }
       .map-card small { max-width: 145px; }
+      .map-actions { gap: 5px; }
+      .action { padding: 9px 8px; font-size: 11px; }
+      .map-top { left: 7px; right: 7px; top: 7px; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; }
     }
   </style>
 </head>
