@@ -18953,5 +18953,61 @@
         "inKta": false
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5249,
+    "timestamp": "2026-10-31T08:19:00+00:00",
+    "text": "🕒 Актуальные ограничения на 11:10 мск:\n\n🔴 Немчиновка (🟡🛩️ Москва - Внуково, UUWW; 🟡🛩️ Москва - Шереметьево, UUEE) / 30 км\n🔴 Уфа (🛩️ Уфа, UWUU) / 50 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5249",
+    "events": [
+      {
+        "id": "095aac9c2342c84d",
+        "action": "ADD",
+        "name": "Немчиновка",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 30.0,
+        "messageTimestamp": "2026-10-31T08:19:00+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5249",
+        "text": "🔴 Немчиновка (🟡🛩️ Москва - Внуково, UUWW; 🟡🛩️ Москва - Шереметьево, UUEE) / 30 км",
+        "affectedAirports": [
+          {
+            "name": "Внуково",
+            "icao": "UUWW",
+            "kind": "airport"
+          },
+          {
+            "name": "Шереметьево",
+            "icao": "UUEE",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false,
+        "snapshot": true
+      },
+      {
+        "id": "d4b612327418c5a4",
+        "action": "ADD",
+        "name": "Уфа",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 50.0,
+        "messageTimestamp": "2026-10-31T08:19:00+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5249",
+        "text": "🔴 Уфа (🛩️ Уфа, UWUU) / 50 км",
+        "affectedAirports": [
+          {
+            "name": "Уфа",
+            "icao": "UWUU",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false,
+        "snapshot": true
+      }
+    ]
   }
 ]

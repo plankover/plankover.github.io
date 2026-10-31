@@ -1,101 +1,17 @@
 {
-  "updatedAt": "2026-10-31T08:05:20.453713+00:00",
+  "updatedAt": "2026-10-31T08:20:20.753718+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
-      "id": "40dedb407dbbd4fd",
-      "action": "ADD",
-      "name": "Клоково, Тула",
-      "icao": null,
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": 70.0,
-      "messageTimestamp": "2026-10-30T18:49:21+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5226",
-      "text": "🔴 а/д Клоково, Тула / 70 км",
-      "inKta": false,
-      "lat": 54.2418249,
-      "lon": 37.6000197
-    },
-    {
-      "id": "4bca7a7efb6c5de5",
-      "action": "ADD",
-      "name": "Новоселовка",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": 120.0,
-      "messageTimestamp": "2026-10-30T20:09:39+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5230",
-      "text": "🔴 Новоселовка / 120 км",
-      "inKta": false,
-      "lat": 51.9489,
-      "lon": 44.2678
-    },
-    {
-      "id": "8d71b608b8f82239",
-      "action": "ADD",
-      "name": "Пенза",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": 50.0,
-      "messageTimestamp": "2026-10-30T20:45:29+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5231",
-      "text": "🔴 Пенза (🛩️ Пенза, UWPP) / 50 км",
-      "affectedAirports": [
-        {
-          "name": "Пенза",
-          "icao": "UWPP",
-          "kind": "airport",
-          "lat": 53.110734,
-          "lon": 45.023455
-        }
-      ],
-      "inKta": false,
-      "lat": 53.1953477,
-      "lon": 45.0190437
-    },
-    {
-      "id": "c3894458bccb2ef0",
-      "action": "ADD",
-      "name": "Гагарин",
-      "icao": "UWSG",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-10-30T21:42:35+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5233",
-      "text": "🔴🛩️ Саратов - Гагарин, UWSG",
-      "inKta": true,
-      "lat": 51.7139093,
-      "lon": 46.1672319
-    },
-    {
-      "id": "a16460b97686304f",
-      "action": "ADD",
-      "name": "Магнит",
-      "icao": "UWUU",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-10-31T02:46:06+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5236",
-      "text": "🔴🛩️ Уфа - Магнит, UWUU",
-      "inKta": true,
-      "lat": 54.5543582,
-      "lon": 55.8822099
-    },
-    {
-      "id": "344a8fc69baca588",
+      "id": "095aac9c2342c84d",
       "action": "ADD",
       "name": "Немчиновка",
       "icao": null,
       "kind": "city",
       "type": "full",
       "radiusKm": 30.0,
-      "messageTimestamp": "2026-10-31T07:54:53+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5248",
+      "messageTimestamp": "2026-10-31T08:19:00+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5249",
       "text": "🔴 Немчиновка (🟡🛩️ Москва - Внуково, UUWW; 🟡🛩️ Москва - Шереметьево, UUEE) / 30 км",
       "affectedAirports": [
         {
@@ -114,8 +30,34 @@
         }
       ],
       "inKta": false,
+      "snapshot": true,
       "lat": 55.7208421,
       "lon": 37.3666309
+    },
+    {
+      "id": "d4b612327418c5a4",
+      "action": "ADD",
+      "name": "Уфа",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 50.0,
+      "messageTimestamp": "2026-10-31T08:19:00+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5249",
+      "text": "🔴 Уфа (🛩️ Уфа, UWUU) / 50 км",
+      "affectedAirports": [
+        {
+          "name": "Уфа",
+          "icao": "UWUU",
+          "kind": "airport",
+          "lat": 54.5543582,
+          "lon": 55.8822099
+        }
+      ],
+      "inKta": false,
+      "snapshot": true,
+      "lat": 54.7261409,
+      "lon": 55.947499
     }
   ]
 }
