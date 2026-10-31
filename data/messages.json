@@ -19260,5 +19260,80 @@
         "sourceUrl": "https://t.me/PlanKoverTDay/5259"
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5260,
+    "timestamp": "2026-10-31T11:11:14+00:00",
+    "text": "🕒 Актуальные ограничения на 14:10 мск:\n\n🔴🛩️ Калуга - Грабцево, UUBC / 70 км\n🟡🛩️ Внуково, UUWW / 100 км (азимуты 130-330)\n🟡🛩️ Домодедово, UUDD / 100 км (азимуты 090-270)\n\n🔴 а/д Клоково, Тула / 70 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5260",
+    "events": [
+      {
+        "id": "f33d13d311a7263c",
+        "action": "ADD",
+        "name": "Грабцево",
+        "icao": "UUBC",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-10-31T11:11:14+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5260",
+        "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км",
+        "inKta": true,
+        "snapshot": true
+      },
+      {
+        "id": "98f811e92e6c4067",
+        "action": "ADD",
+        "name": "Внуково",
+        "icao": "UUWW",
+        "kind": "airport",
+        "type": "partial",
+        "radiusKm": 100.0,
+        "messageTimestamp": "2026-10-31T11:11:14+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5260",
+        "text": "🟡🛩️ Внуково, UUWW / 100 км (азимуты 130-330)",
+        "sector": {
+          "radiusKm": 100.0,
+          "startAzimuth": 130,
+          "endAzimuth": 330
+        },
+        "inKta": true,
+        "snapshot": true
+      },
+      {
+        "id": "294d6a3cfbc321ff",
+        "action": "ADD",
+        "name": "Домодедово",
+        "icao": "UUDD",
+        "kind": "airport",
+        "type": "partial",
+        "radiusKm": 100.0,
+        "messageTimestamp": "2026-10-31T11:11:14+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5260",
+        "text": "🟡🛩️ Домодедово, UUDD / 100 км (азимуты 090-270)",
+        "sector": {
+          "radiusKm": 100.0,
+          "startAzimuth": 90,
+          "endAzimuth": 270
+        },
+        "inKta": true,
+        "snapshot": true
+      },
+      {
+        "id": "c47b85c1b4ad7fca",
+        "action": "ADD",
+        "name": "Клоково, Тула",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-10-31T11:11:14+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5260",
+        "text": "🔴 а/д Клоково, Тула / 70 км",
+        "inKta": false,
+        "snapshot": true
+      }
+    ]
   }
 ]

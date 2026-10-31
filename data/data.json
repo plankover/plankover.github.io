@@ -1,56 +1,80 @@
 {
-  "updatedAt": "2026-10-31T09:55:17.562412+00:00",
+  "updatedAt": "2026-10-31T11:15:22.806955+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
-      "id": "4b7ed2b4caae366b",
+      "id": "f33d13d311a7263c",
+      "action": "ADD",
+      "name": "Грабцево",
+      "icao": "UUBC",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 70.0,
+      "messageTimestamp": "2026-10-31T11:11:14+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5260",
+      "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км",
+      "inKta": true,
+      "snapshot": true,
+      "lat": 54.5488708,
+      "lon": 36.3697725
+    },
+    {
+      "id": "98f811e92e6c4067",
       "action": "ADD",
       "name": "Внуково",
       "icao": "UUWW",
       "kind": "airport",
       "type": "partial",
       "radiusKm": 100.0,
-      "messageTimestamp": "2026-10-31T08:24:06+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5251",
-      "text": "🟡🛩️ Внуково, UUWW / 100 км (азимуты 130-300)",
+      "messageTimestamp": "2026-10-31T11:11:14+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5260",
+      "text": "🟡🛩️ Внуково, UUWW / 100 км (азимуты 130-330)",
       "sector": {
         "radiusKm": 100.0,
         "startAzimuth": 130,
-        "endAzimuth": 300
+        "endAzimuth": 330
       },
       "inKta": true,
+      "snapshot": true,
       "lat": 55.5995278,
       "lon": 37.2735752
     },
     {
-      "id": "008d5c865bdc613a",
+      "id": "294d6a3cfbc321ff",
       "action": "ADD",
       "name": "Домодедово",
       "icao": "UUDD",
       "kind": "airport",
       "type": "partial",
-      "radiusKm": null,
-      "messageTimestamp": "2026-10-31T08:27:30+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5253",
-      "text": "🟡🛩️ Москва - Домодедово, UUDD",
+      "radiusKm": 100.0,
+      "messageTimestamp": "2026-10-31T11:11:14+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5260",
+      "text": "🟡🛩️ Домодедово, UUDD / 100 км (азимуты 090-270)",
+      "sector": {
+        "radiusKm": 100.0,
+        "startAzimuth": 90,
+        "endAzimuth": 270
+      },
       "inKta": true,
+      "snapshot": true,
       "lat": 55.4087122,
       "lon": 37.9094307
     },
     {
-      "id": "44a0d02a7ce50e87",
+      "id": "c47b85c1b4ad7fca",
       "action": "ADD",
-      "name": "Грабцево",
-      "icao": "UUBC",
+      "name": "Клоково, Тула",
+      "icao": null,
       "kind": "airport",
       "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-10-31T09:12:06+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5257",
-      "text": "🔴🛩️ Калуга - Грабцево, UUBC",
-      "inKta": true,
-      "lat": 54.5488708,
-      "lon": 36.3697725
+      "radiusKm": 70.0,
+      "messageTimestamp": "2026-10-31T11:11:14+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5260",
+      "text": "🔴 а/д Клоково, Тула / 70 км",
+      "inKta": false,
+      "snapshot": true,
+      "lat": 54.2418249,
+      "lon": 37.6000197
     }
   ]
 }
