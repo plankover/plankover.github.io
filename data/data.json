@@ -1,22 +1,7 @@
 {
-  "updatedAt": "2026-10-31T04:35:16.550602+00:00",
+  "updatedAt": "2026-10-31T06:35:17.629470+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
-    {
-      "id": "5d9adc5ceecea750",
-      "action": "ADD",
-      "name": "Грабцево",
-      "icao": "UUBC",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": 70.0,
-      "messageTimestamp": "2026-10-30T18:49:21+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5226",
-      "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км",
-      "inKta": true,
-      "lat": 54.5488708,
-      "lon": 36.3697725
-    },
     {
       "id": "40dedb407dbbd4fd",
       "action": "ADD",
@@ -31,21 +16,6 @@
       "inKta": false,
       "lat": 54.2418249,
       "lon": 37.6000197
-    },
-    {
-      "id": "f6c13701c44d5419",
-      "action": "ADD",
-      "name": "Донское",
-      "icao": "UUOT",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-10-30T20:03:46+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5228",
-      "text": "🔴🛩️ Тамбов - Донское, UUOT",
-      "inKta": true,
-      "lat": 52.8060125,
-      "lon": 41.4845129
     },
     {
       "id": "4bca7a7efb6c5de5",
@@ -117,21 +87,6 @@
       "lon": 55.8822099
     },
     {
-      "id": "ae133e36ecabf4e0",
-      "action": "ADD",
-      "name": "Большое Савино",
-      "icao": "USPP",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-10-31T03:00:56+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5238",
-      "text": "🔴🛩️ Пермь - Большое Савино, USPP",
-      "inKta": true,
-      "lat": 57.9153712,
-      "lon": 56.0283146
-    },
-    {
       "id": "7e720e137e0f344d",
       "action": "ADD",
       "name": "Бугульма",
@@ -143,21 +98,6 @@
       "sourceUrl": "https://t.me/PlanKoverTDay/5240",
       "text": "🔴🛩️ Бугульма, UWKB",
       "inKta": true
-    },
-    {
-      "id": "27dddb62de860dce",
-      "action": "ADD",
-      "name": "Ижевск",
-      "icao": "USII",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-10-31T03:56:03+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5242",
-      "text": "🔴🛩️ Ижевск, USII",
-      "inKta": true,
-      "lat": 56.8361905,
-      "lon": 53.4631283
     }
   ]
 }
