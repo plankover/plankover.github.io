@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T21:35:16.435982+00:00",
+  "updatedAt": "2026-10-31T21:40:16.036168+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -33,34 +33,59 @@
       "lon": 37.6000197
     },
     {
-      "id": "9c5eed4a2db2b440",
+      "id": "cb82d31a0097be79",
       "action": "ADD",
-      "name": "Пенза",
-      "icao": "UWPP",
-      "kind": "airport",
+      "name": "Новоселовка",
+      "icao": null,
+      "kind": "city",
       "type": "full",
-      "radiusKm": null,
+      "radiusKm": 150.0,
       "messageTimestamp": "2026-10-31T21:27:29+00:00",
       "sourceUrl": "https://t.me/PlanKoverTDay/5274",
-      "text": "🔴🛩️ Пенза, UWPP",
-      "inKta": true,
-      "lat": 53.110734,
-      "lon": 45.023455
+      "text": "🔴 Новоселовка (🛩️ Пенза, UWPP; 🛩️ Саратов - Гагарин, UWSG) / 150 км",
+      "affectedAirports": [
+        {
+          "name": "Пенза",
+          "icao": "UWPP",
+          "kind": "airport",
+          "lat": 53.110734,
+          "lon": 45.023455
+        },
+        {
+          "name": "Гагарин",
+          "icao": "UWSG",
+          "kind": "airport",
+          "lat": 51.7139093,
+          "lon": 46.1672319
+        }
+      ],
+      "inKta": false,
+      "lat": 51.9489,
+      "lon": 44.2678
     },
     {
-      "id": "ba2c1d51bb4f8f83",
+      "id": "c3522287a7aa38c4",
       "action": "ADD",
-      "name": "Гагарин",
-      "icao": "UWSG",
-      "kind": "airport",
+      "name": "Пенза",
+      "icao": null,
+      "kind": "city",
       "type": "full",
-      "radiusKm": null,
+      "radiusKm": 50.0,
       "messageTimestamp": "2026-10-31T21:27:29+00:00",
       "sourceUrl": "https://t.me/PlanKoverTDay/5274",
-      "text": "🔴🛩️ Саратов - Гагарин, UWSG",
-      "inKta": true,
-      "lat": 51.7139093,
-      "lon": 46.1672319
+      "text": "🔴 Пенза (🛩️ Пенза, UWPP) / 50 км",
+      "affectedAirports": [
+        {
+          "name": "Пенза",
+          "icao": "UWPP",
+          "kind": "airport",
+          "lat": 53.110734,
+          "lon": 45.023455
+        }
+      ],
+      "inKta": false,
+      "lat": 53.1953477,
+      "lon": 45.0190437
     },
     {
       "id": "2f7dd8cb80faabe2",
@@ -76,6 +101,21 @@
       "inKta": true,
       "lat": 54.2690213,
       "lon": 48.2248287
+    },
+    {
+      "id": "b5b15252f608e464",
+      "action": "ADD",
+      "name": "Саранск",
+      "icao": "UWPS",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-31T21:37:50+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5276",
+      "text": "🔴🛩️ Саранск, UWPS",
+      "inKta": true,
+      "lat": 54.1274695,
+      "lon": 45.2152086
     }
   ]
 }
