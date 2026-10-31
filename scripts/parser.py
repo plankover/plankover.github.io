@@ -196,7 +196,7 @@ def parse_message(message, published_at=None, source_url=None):
 
     # Airport reopening notices name the airport in the heading.
     if overall_action == "REMOVE":
-        header = re.compile(r"^\\s*(?:🟢|⬜️)?\\s*аэропорт\\s+(.+?)\\s*$", re.I)
+        header = re.compile(r"^\s*(?:🟢|⬜️)?\s*аэропорт\s+(.+?)\s*$", re.I)
         for line_no, line in enumerate(lines):
             match = header.match(line)
             if not match:
