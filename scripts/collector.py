@@ -165,7 +165,10 @@ def build_active(history):
                 if removed_icaos or removed_names:
                     for active_key, restriction in list(active.items()):
                         affected = restriction.get("affectedAirports", [])
-                        if any(str(a.get("icao") or "").strip().upper() in removed_icaos or re.sub(r"[^а-яa-z0-9]", "", str(a.get("name") or "").casefold()) in removed_names for a in affected):
+                        restriction_name = re.sub(r"[^а-яa-z0-9]", "", str(restriction.get("name") or "").casefold())
+                        direct_match = restriction.get("kind") == "airport" and restriction_name in removed_names
+                        affected_match = any(str(a.get("icao") or "").strip().upper() in removed_icaos or re.sub(r"[^а-яa-z0-9]", "", str(a.get("name") or "").casefold()) in removed_names for a in affected)
+                        if direct_match or affected_match:
                             active.pop(active_key, None)
             elif action=="ADD" and e.get("name"):
                 active[key(e)]=dict(e)
