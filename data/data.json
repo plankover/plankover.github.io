@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T21:40:16.036168+00:00",
+  "updatedAt": "2026-10-31T21:45:19.401415+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -33,7 +33,7 @@
       "lon": 37.6000197
     },
     {
-      "id": "cb82d31a0097be79",
+      "id": "3821223f5d35c7ae",
       "action": "ADD",
       "name": "Новоселовка",
       "icao": null,
@@ -64,7 +64,31 @@
       "lon": 44.2678
     },
     {
-      "id": "c3522287a7aa38c4",
+      "id": "16b77459c7610c91",
+      "action": "ADD",
+      "name": "Медведица",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 150.0,
+      "messageTimestamp": "2026-10-31T21:27:29+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5274",
+      "text": "🔴 Медведица (🛩️ Саратов - Гагарин, UWSG) / 150 км ",
+      "affectedAirports": [
+        {
+          "name": "Гагарин",
+          "icao": "UWSG",
+          "kind": "airport",
+          "lat": 51.7139093,
+          "lon": 46.1672319
+        }
+      ],
+      "inKta": false,
+      "lat": 51.079559,
+      "lon": 44.8182885
+    },
+    {
+      "id": "a6c4335308f0b014",
       "action": "ADD",
       "name": "Пенза",
       "icao": null,
@@ -88,19 +112,35 @@
       "lon": 45.0190437
     },
     {
-      "id": "2f7dd8cb80faabe2",
+      "id": "6de70616aea210f7",
       "action": "ADD",
-      "name": "Баратаевка",
-      "icao": "UWLL",
-      "kind": "airport",
+      "name": "Сурское",
+      "icao": null,
+      "kind": "city",
       "type": "full",
-      "radiusKm": null,
+      "radiusKm": 150.0,
       "messageTimestamp": "2026-10-31T21:34:11+00:00",
       "sourceUrl": "https://t.me/PlanKoverTDay/5275",
-      "text": "🔴🛩️ Ульяновск - Баратаевка, UWLL",
-      "inKta": true,
-      "lat": 54.2690213,
-      "lon": 48.2248287
+      "text": "🔴 Сурское (🛩️ Ульяновск - Баратаевка, UWLL; 🛩️ Саранск UWPS) / 150 км",
+      "affectedAirports": [
+        {
+          "name": "Баратаевка",
+          "icao": "UWLL",
+          "kind": "airport",
+          "lat": 54.2690213,
+          "lon": 48.2248287
+        },
+        {
+          "name": "Саранск",
+          "icao": "UWPS",
+          "kind": "airport",
+          "lat": 54.1274695,
+          "lon": 45.2152086
+        }
+      ],
+      "inKta": false,
+      "lat": 54.4800412,
+      "lon": 46.7234429
     },
     {
       "id": "b5b15252f608e464",

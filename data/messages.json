@@ -19753,11 +19753,11 @@
     "chatId": -1003822338715,
     "messageId": 5274,
     "timestamp": "2026-10-31T21:27:29+00:00",
-    "text": "🔴 Новоселовка (🛩️ Пенза, UWPP; 🛩️ Саратов - Гагарин, UWSG) / 150 км\nСИГНАЛ КОВЕР НОВОСЕЛОВКА. АЭРОПОРТЫ САРАТОВ(ГАГАРИН), ПЕНЗА ПРЕКРАТИЛИ ПРИЕМ/ВЫПУСК ВС.ТРУБА ЗАКРЫТА ПО САМАРСКОМУ РЕГ.Ц\n🔴 Пенза (🛩️ Пенза, UWPP) / 50 км",
+    "text": "🔴 Новоселовка (🛩️ Пенза, UWPP; 🛩️ Саратов - Гагарин, UWSG) / 150 км\nСИГНАЛ КОВЕР НОВОСЕЛОВКА. АЭРОПОРТЫ САРАТОВ(ГАГАРИН), ПЕНЗА ПРЕКРАТИЛИ ПРИЕМ/ВЫПУСК ВС.ТРУБА ЗАКРЫТА ПО САМАРСКОМУ РЕГ.Ц\n🔴 Медведица (🛩️ Саратов - Гагарин, UWSG) / 150 км \n🔴 Пенза (🛩️ Пенза, UWPP) / 50 км",
     "sourceUrl": "https://t.me/PlanKoverTDay/5274",
     "events": [
       {
-        "id": "cb82d31a0097be79",
+        "id": "3821223f5d35c7ae",
         "action": "ADD",
         "name": "Новоселовка",
         "icao": null,
@@ -19782,7 +19782,27 @@
         "inKta": false
       },
       {
-        "id": "c3522287a7aa38c4",
+        "id": "16b77459c7610c91",
+        "action": "ADD",
+        "name": "Медведица",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 150.0,
+        "messageTimestamp": "2026-10-31T21:27:29+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5274",
+        "text": "🔴 Медведица (🛩️ Саратов - Гагарин, UWSG) / 150 км ",
+        "affectedAirports": [
+          {
+            "name": "Гагарин",
+            "icao": "UWSG",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false
+      },
+      {
+        "id": "a6c4335308f0b014",
         "action": "ADD",
         "name": "Пенза",
         "icao": null,
@@ -19807,21 +19827,33 @@
     "chatId": -1003822338715,
     "messageId": 5275,
     "timestamp": "2026-10-31T21:34:11+00:00",
-    "text": "🔴🛩️ Ульяновск - Баратаевка, UWLL",
+    "text": "🔴 Сурское (🛩️ Ульяновск - Баратаевка, UWLL; 🛩️ Саранск UWPS) / 150 км",
     "sourceUrl": "https://t.me/PlanKoverTDay/5275",
     "events": [
       {
-        "id": "2f7dd8cb80faabe2",
+        "id": "6de70616aea210f7",
         "action": "ADD",
-        "name": "Баратаевка",
-        "icao": "UWLL",
-        "kind": "airport",
+        "name": "Сурское",
+        "icao": null,
+        "kind": "city",
         "type": "full",
-        "radiusKm": null,
+        "radiusKm": 150.0,
         "messageTimestamp": "2026-10-31T21:34:11+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/5275",
-        "text": "🔴🛩️ Ульяновск - Баратаевка, UWLL",
-        "inKta": true
+        "text": "🔴 Сурское (🛩️ Ульяновск - Баратаевка, UWLL; 🛩️ Саранск UWPS) / 150 км",
+        "affectedAirports": [
+          {
+            "name": "Баратаевка",
+            "icao": "UWLL",
+            "kind": "airport"
+          },
+          {
+            "name": "Саранск",
+            "icao": "UWPS",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false
       }
     ]
   },
