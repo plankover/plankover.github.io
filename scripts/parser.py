@@ -194,18 +194,30 @@ def parse_message(message, published_at=None, source_url=None):
     events = []
     lines = text.splitlines() or [text]
 
-    # Airport reopening notices name the airport in the heading.
+    # Airport reopening notices name the airport(s) in the heading; some
+    # posts list several airports on separate dash-prefixed lines.
     if overall_action == "REMOVE":
-        header = re.compile(r"^\s*(?:🟢|⬜️)?\s*аэропорт\s+(.+?)\s*$", re.I)
+        header = re.compile(r"^\s*(?:🟢|⬜️)?\s*аэропорт(?:ы)?(?:\s+(.+?))?\s*$", re.I)
         for line_no, line in enumerate(lines):
             match = header.match(line)
             if not match:
                 continue
-            target = parse_target_line("🟢 " + match.group(1).strip())
-            if target:
+            names_text = (match.group(1) or "").strip(" .,:;—–-")
+            candidates = [names_text] if names_text and names_text.casefold() not in {"аэропорты"} else []
+            if not candidates:
+                for following in lines[line_no + 1:]:
+                    bullet = re.match(r"^\s*[—–-]\s*(.+?)\s*$", following)
+                    if bullet:
+                        candidates.append(bullet.group(1).strip())
+                    elif candidates or re.search(r"сняты|снято|отменены|отменено", following, re.I):
+                        break
+            for sub_no, candidate in enumerate(candidates):
+                target = parse_target_line("🟢 " + candidate)
+                if not target:
+                    continue
                 target["kind"] = "airport"
                 key = target.get("icao") or target["name"].casefold()
-                eid = hashlib.sha256(f"{digest}|reopen|{key}|{line_no}".encode()).hexdigest()[:16]
+                eid = hashlib.sha256(f"{digest}|reopen|{key}|{line_no}|{sub_no}".encode()).hexdigest()[:16]
                 events.append({"id": eid, "action": "REMOVE", "name": target["name"], "icao": target.get("icao"), "kind": "airport", "type": "full", "messageTimestamp": ts, "sourceUrl": source_url, "text": line})
         if events:
             return events
