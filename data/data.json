@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T18:30:23.107857+00:00",
+  "updatedAt": "2026-10-31T19:35:16.448448+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -23,21 +23,6 @@
       "inKta": false,
       "lat": 57.0534389,
       "lon": 40.9839543
-    },
-    {
-      "id": "cb80c6ff72a1d5c0",
-      "action": "ADD",
-      "name": "Южный",
-      "icao": "UUBI",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-10-31T18:26:08+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5271",
-      "text": "🔴🛩️ Иваново - Южный, UUBI",
-      "inKta": true,
-      "lat": 56.941138,
-      "lon": 40.9389727
     }
   ]
 }
