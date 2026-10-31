@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-10-31T08:25:16.622195+00:00",
+  "updatedAt": "2026-10-31T08:30:20.930637+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
-      "id": "96b44631df3cc2a7",
+      "id": "58010f88b37560de",
       "action": "ADD",
       "name": "Шереметьево",
       "icao": "UUEE",
       "kind": "airport",
       "type": "full",
-      "radiusKm": 30.0,
-      "messageTimestamp": "2026-10-31T08:20:56+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5250",
-      "text": "🔴🛩️ Шереметьево, UUEE / 30 км",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-31T08:27:54+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5254",
+      "text": "🔴🛩️ Москва - Шереметьево, UUEE",
       "inKta": true,
       "lat": 55.9760876,
       "lon": 37.4238008
@@ -38,21 +38,16 @@
       "lon": 37.2735752
     },
     {
-      "id": "edc323244ee92ff0",
+      "id": "008d5c865bdc613a",
       "action": "ADD",
       "name": "Домодедово",
       "icao": "UUDD",
       "kind": "airport",
       "type": "partial",
-      "radiusKm": 100.0,
-      "messageTimestamp": "2026-10-31T08:24:06+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5251",
-      "text": "🟡🛩️ Домодедово, UUDD / 100 км (азимуты 090-270)",
-      "sector": {
-        "radiusKm": 100.0,
-        "startAzimuth": 90,
-        "endAzimuth": 270
-      },
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-31T08:27:30+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5253",
+      "text": "🟡🛩️ Москва - Домодедово, UUDD",
       "inKta": true,
       "lat": 55.4087122,
       "lon": 37.9094307

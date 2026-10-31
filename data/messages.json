@@ -18569,20 +18569,20 @@
     "chatId": -1003822338715,
     "messageId": 5236,
     "timestamp": "2026-10-31T02:46:06+00:00",
-    "text": "🔴🛩️ Уфа - Магнит, UWUU",
+    "text": "🔴🛩️ Уфа, UWUU",
     "sourceUrl": "https://t.me/PlanKoverTDay/5236",
     "events": [
       {
-        "id": "a16460b97686304f",
+        "id": "71ff7c60981df40d",
         "action": "ADD",
-        "name": "Магнит",
+        "name": "Уфа",
         "icao": "UWUU",
         "kind": "airport",
         "type": "full",
         "radiusKm": null,
         "messageTimestamp": "2026-10-31T02:46:06+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/5236",
-        "text": "🔴🛩️ Уфа - Магнит, UWUU",
+        "text": "🔴🛩️ Уфа, UWUU",
         "inKta": true
       }
     ]
@@ -19116,6 +19116,72 @@
           }
         ],
         "inKta": false
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5253,
+    "timestamp": "2026-10-31T08:27:30+00:00",
+    "text": "🟡🛩️ Москва - Домодедово, UUDD",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5253",
+    "events": [
+      {
+        "id": "008d5c865bdc613a",
+        "action": "ADD",
+        "name": "Домодедово",
+        "icao": "UUDD",
+        "kind": "airport",
+        "type": "partial",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-31T08:27:30+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5253",
+        "text": "🟡🛩️ Москва - Домодедово, UUDD",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5254,
+    "timestamp": "2026-10-31T08:27:54+00:00",
+    "text": "🔴🛩️ Москва - Шереметьево, UUEE",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5254",
+    "events": [
+      {
+        "id": "58010f88b37560de",
+        "action": "ADD",
+        "name": "Шереметьево",
+        "icao": "UUEE",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-31T08:27:54+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5254",
+        "text": "🔴🛩️ Москва - Шереметьево, UUEE",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5255,
+    "timestamp": "2026-10-31T08:28:33+00:00",
+    "text": "🟢🛩️ Уфа, UWUU",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5255",
+    "events": [
+      {
+        "id": "18e625eceb076897",
+        "action": "REMOVE",
+        "name": "Уфа",
+        "icao": "UWUU",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-31T08:28:33+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5255",
+        "text": "🟢🛩️ Уфа, UWUU",
+        "inKta": true
       }
     ]
   }
