@@ -39,8 +39,8 @@
     }
     .brand { display: flex; align-items: center; gap: 12px; }
     .logo {
-      width: 42px; height: 42px; display: grid; place-items: center;
-      border-radius: 13px; background: #243650; font-size: 22px;
+      width: 42px; height: 42px; display: block; flex: 0 0 42px;
+      border-radius: 13px; object-fit: cover; background: #243650;
     }
     h1 { font-size: 17px; line-height: 1.2; margin: 0 0 4px; }
     .subtitle { color: var(--muted); font-size: 12px; }
@@ -237,7 +237,7 @@
 <div class="app">
   <header>
     <div class="brand">
-      <div class="logo">✈</div>
+      <img class="logo" src="https://i.ibb.co/wZigP8Xa/IMG%20-20261031-224746-787.jpg" alt="Аватарка канала «План Ковер»">
       <div>
         <h1>План «Ковер»</h1>
         <div class="subtitle">Мониторинг временных ограничений воздушного пространства</div>
