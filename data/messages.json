@@ -19009,5 +19009,114 @@
         "snapshot": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5250,
+    "timestamp": "2026-10-31T08:20:56+00:00",
+    "text": "🔴🛩️ Шереметьево, UUEE / 30 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5250",
+    "events": [
+      {
+        "id": "96b44631df3cc2a7",
+        "action": "ADD",
+        "name": "Шереметьево",
+        "icao": "UUEE",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 30.0,
+        "messageTimestamp": "2026-10-31T08:20:56+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5250",
+        "text": "🔴🛩️ Шереметьево, UUEE / 30 км",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5251,
+    "timestamp": "2026-10-31T08:24:06+00:00",
+    "text": "🟢 Немчиновка\n\n🟡🛩️ Внуково, UUWW / 100 км (азимуты 130-300)\n🟡🛩️ Домодедово, UUDD / 100 км (азимуты 090-270)",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5251",
+    "events": [
+      {
+        "id": "4543fdf429f0d031",
+        "action": "REMOVE",
+        "name": "Немчиновка",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-31T08:24:06+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5251",
+        "text": "🟢 Немчиновка",
+        "inKta": false
+      },
+      {
+        "id": "4b7ed2b4caae366b",
+        "action": "ADD",
+        "name": "Внуково",
+        "icao": "UUWW",
+        "kind": "airport",
+        "type": "partial",
+        "radiusKm": 100.0,
+        "messageTimestamp": "2026-10-31T08:24:06+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5251",
+        "text": "🟡🛩️ Внуково, UUWW / 100 км (азимуты 130-300)",
+        "sector": {
+          "radiusKm": 100.0,
+          "startAzimuth": 130,
+          "endAzimuth": 300
+        },
+        "inKta": true
+      },
+      {
+        "id": "edc323244ee92ff0",
+        "action": "ADD",
+        "name": "Домодедово",
+        "icao": "UUDD",
+        "kind": "airport",
+        "type": "partial",
+        "radiusKm": 100.0,
+        "messageTimestamp": "2026-10-31T08:24:06+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5251",
+        "text": "🟡🛩️ Домодедово, UUDD / 100 км (азимуты 090-270)",
+        "sector": {
+          "radiusKm": 100.0,
+          "startAzimuth": 90,
+          "endAzimuth": 270
+        },
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5252,
+    "timestamp": "2026-10-31T08:24:29+00:00",
+    "text": "🟢 Уфа (🛩️ Уфа, UWUU)",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5252",
+    "events": [
+      {
+        "id": "e2b94d56bf6f9ff5",
+        "action": "REMOVE",
+        "name": "Уфа",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-31T08:24:29+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5252",
+        "text": "🟢 Уфа (🛩️ Уфа, UWUU)",
+        "affectedAirports": [
+          {
+            "name": "Уфа",
+            "icao": "UWUU",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false
+      }
+    ]
   }
 ]

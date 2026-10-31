@@ -1,63 +1,61 @@
 {
-  "updatedAt": "2026-10-31T08:20:20.753718+00:00",
+  "updatedAt": "2026-10-31T08:25:16.622195+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
-      "id": "095aac9c2342c84d",
+      "id": "96b44631df3cc2a7",
       "action": "ADD",
-      "name": "Немчиновка",
-      "icao": null,
-      "kind": "city",
+      "name": "Шереметьево",
+      "icao": "UUEE",
+      "kind": "airport",
       "type": "full",
       "radiusKm": 30.0,
-      "messageTimestamp": "2026-10-31T08:19:00+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5249",
-      "text": "🔴 Немчиновка (🟡🛩️ Москва - Внуково, UUWW; 🟡🛩️ Москва - Шереметьево, UUEE) / 30 км",
-      "affectedAirports": [
-        {
-          "name": "Внуково",
-          "icao": "UUWW",
-          "kind": "airport",
-          "lat": 55.5995278,
-          "lon": 37.2735752
-        },
-        {
-          "name": "Шереметьево",
-          "icao": "UUEE",
-          "kind": "airport",
-          "lat": 55.9760876,
-          "lon": 37.4238008
-        }
-      ],
-      "inKta": false,
-      "snapshot": true,
-      "lat": 55.7208421,
-      "lon": 37.3666309
+      "messageTimestamp": "2026-10-31T08:20:56+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5250",
+      "text": "🔴🛩️ Шереметьево, UUEE / 30 км",
+      "inKta": true,
+      "lat": 55.9760876,
+      "lon": 37.4238008
     },
     {
-      "id": "d4b612327418c5a4",
+      "id": "4b7ed2b4caae366b",
       "action": "ADD",
-      "name": "Уфа",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": 50.0,
-      "messageTimestamp": "2026-10-31T08:19:00+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5249",
-      "text": "🔴 Уфа (🛩️ Уфа, UWUU) / 50 км",
-      "affectedAirports": [
-        {
-          "name": "Уфа",
-          "icao": "UWUU",
-          "kind": "airport",
-          "lat": 54.5543582,
-          "lon": 55.8822099
-        }
-      ],
-      "inKta": false,
-      "snapshot": true,
-      "lat": 54.7261409,
-      "lon": 55.947499
+      "name": "Внуково",
+      "icao": "UUWW",
+      "kind": "airport",
+      "type": "partial",
+      "radiusKm": 100.0,
+      "messageTimestamp": "2026-10-31T08:24:06+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5251",
+      "text": "🟡🛩️ Внуково, UUWW / 100 км (азимуты 130-300)",
+      "sector": {
+        "radiusKm": 100.0,
+        "startAzimuth": 130,
+        "endAzimuth": 300
+      },
+      "inKta": true,
+      "lat": 55.5995278,
+      "lon": 37.2735752
+    },
+    {
+      "id": "edc323244ee92ff0",
+      "action": "ADD",
+      "name": "Домодедово",
+      "icao": "UUDD",
+      "kind": "airport",
+      "type": "partial",
+      "radiusKm": 100.0,
+      "messageTimestamp": "2026-10-31T08:24:06+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5251",
+      "text": "🟡🛩️ Домодедово, UUDD / 100 км (азимуты 090-270)",
+      "sector": {
+        "radiusKm": 100.0,
+        "startAzimuth": 90,
+        "endAzimuth": 270
+      },
+      "inKta": true,
+      "lat": 55.4087122,
+      "lon": 37.9094307
     }
   ]
 }
