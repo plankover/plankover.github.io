@@ -18665,5 +18665,62 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5240,
+    "timestamp": "2026-10-31T03:31:52+00:00",
+    "text": "🔴🛩️ Бугульма, UWKB\n🔴🛩️ Нижнекамск - Бегишево, UWKD",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5240",
+    "events": [
+      {
+        "id": "7e720e137e0f344d",
+        "action": "ADD",
+        "name": "Бугульма",
+        "icao": "UWKB",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-31T03:31:52+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5240",
+        "text": "🔴🛩️ Бугульма, UWKB",
+        "inKta": true
+      },
+      {
+        "id": "9c14f36aa884e47a",
+        "action": "ADD",
+        "name": "Бегишево",
+        "icao": "UWKD",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-31T03:31:52+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5240",
+        "text": "🔴🛩️ Нижнекамск - Бегишево, UWKD",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5241,
+    "timestamp": "2026-10-31T03:34:19+00:00",
+    "text": "🟢🛩️ Саранск, UWPS",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5241",
+    "events": [
+      {
+        "id": "454e7b40055b970f",
+        "action": "REMOVE",
+        "name": "Саранск",
+        "icao": "UWPS",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-31T03:34:19+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5241",
+        "text": "🟢🛩️ Саранск, UWPS",
+        "inKta": true
+      }
+    ]
   }
 ]
