@@ -18608,5 +18608,40 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5238,
+    "timestamp": "2026-10-31T03:00:56+00:00",
+    "text": "🔴🛩️ Екатеринбург - Кольцово, USSS\n🔴🛩️ Пермь - Большое Савино, USPP",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5238",
+    "events": [
+      {
+        "id": "9a63ac1f1cb03f60",
+        "action": "ADD",
+        "name": "Кольцово",
+        "icao": "USSS",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-31T03:00:56+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5238",
+        "text": "🔴🛩️ Екатеринбург - Кольцово, USSS",
+        "inKta": true
+      },
+      {
+        "id": "ae133e36ecabf4e0",
+        "action": "ADD",
+        "name": "Большое Савино",
+        "icao": "USPP",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-31T03:00:56+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5238",
+        "text": "🔴🛩️ Пермь - Большое Савино, USPP",
+        "inKta": true
+      }
+    ]
   }
 ]
