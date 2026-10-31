@@ -58,6 +58,8 @@ def detect_action(text):
     topic = re.search(r"(?:ограничени|при[её]м|выпуск|работ[ау]\s+аэропорт|аэропорт)", t)
     if removal and topic:
         return "REMOVE"
+    if ("открыт" in t or "возобновлен" in t) and "аэропорт" in t:
+        return "REMOVE"
     if re.search(r"(?:ограничени\w*|при[её]м\s+и\s+выпуск).{0,180}(?:сняты|снято|отменены|отменено|прекращены|прекращено)", t):
         return "REMOVE"
     if "🔴" in text or "🟡" in text:
@@ -70,7 +72,7 @@ def detect_action(text):
 def parse_target_line(line):
     """Parse the restriction center and separately identify an explicit KTA marker."""
     line = clean_text(line)
-    marker_match = re.search(r"[🔴🟡🟢]", line)
+    marker_match = re.search(r"[🔴🟡🟢]|⬜️", line)
     if not line or not marker_match:
         return None
 
@@ -191,6 +193,22 @@ def parse_message(message, published_at=None, source_url=None):
     overall_action = detect_action(original)
     events = []
     lines = text.splitlines() or [text]
+
+    # Airport reopening notices name the airport in the heading.
+    if overall_action == "REMOVE":
+        header = re.compile(r"^\\s*(?:🟢|⬜️)?\\s*аэропорт\\s+(.+?)\\s*$", re.I)
+        for line_no, line in enumerate(lines):
+            match = header.match(line)
+            if not match:
+                continue
+            target = parse_target_line("🟢 " + match.group(1).strip())
+            if target:
+                target["kind"] = "airport"
+                key = target.get("icao") or target["name"].casefold()
+                eid = hashlib.sha256(f"{digest}|reopen|{key}|{line_no}".encode()).hexdigest()[:16]
+                events.append({"id": eid, "action": "REMOVE", "name": target["name"], "icao": target.get("icao"), "kind": "airport", "type": "full", "messageTimestamp": ts, "sourceUrl": source_url, "text": line})
+        if events:
+            return events
     failed_snapshot_line = False
     for line_no, line in enumerate(lines):
         # A green summary can name several airports in parentheses. Convert
@@ -236,7 +254,7 @@ def parse_message(message, published_at=None, source_url=None):
         marker_match = re.search(r"[🔴🟡🟢]", line)
         marker = marker_match.group(0) if marker_match else ""
         yellow = marker == "🟡"
-        line_action = "REMOVE" if marker == "🟢" else "ADD"
+        line_action = "REMOVE" if marker in {"🟢", "⬜️"} else "ADD"
         key = target.get("icao") or target["name"].casefold()
         eid = hashlib.sha256(f"{digest}|{key}|{line_no}".encode()).hexdigest()[:16]
         event = {
