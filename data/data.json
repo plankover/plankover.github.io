@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-10-31T13:05:26.468343+00:00",
+  "updatedAt": "2026-10-31T13:15:20.599175+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
-      "id": "f33d13d311a7263c",
+      "id": "8e23dba911aaaa63",
       "action": "ADD",
       "name": "Грабцево",
       "icao": "UUBC",
       "kind": "airport",
       "type": "full",
       "radiusKm": 70.0,
-      "messageTimestamp": "2026-10-31T11:11:14+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5260",
+      "messageTimestamp": "2026-10-31T13:11:01+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5263",
       "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км",
       "inKta": true,
       "snapshot": true,
@@ -19,20 +19,36 @@
       "lon": 36.3697725
     },
     {
-      "id": "98f811e92e6c4067",
+      "id": "96444b8bcb560df6",
+      "action": "ADD",
+      "name": "Шереметьево",
+      "icao": "UUEE",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 20.0,
+      "messageTimestamp": "2026-10-31T13:11:01+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5263",
+      "text": "🔴🛩️ Шереметьево, UUEE / 20 км ",
+      "inKta": true,
+      "snapshot": true,
+      "lat": 55.9760876,
+      "lon": 37.4238008
+    },
+    {
+      "id": "a3d7e6db2bf2f6be",
       "action": "ADD",
       "name": "Внуково",
       "icao": "UUWW",
       "kind": "airport",
       "type": "partial",
       "radiusKm": 100.0,
-      "messageTimestamp": "2026-10-31T11:11:14+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5260",
-      "text": "🟡🛩️ Внуково, UUWW / 100 км (азимуты 130-330)",
+      "messageTimestamp": "2026-10-31T13:11:01+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5263",
+      "text": "🟡🛩️ Внуково, UUWW / 100 км (азимуты 130-000)",
       "sector": {
         "radiusKm": 100.0,
         "startAzimuth": 130,
-        "endAzimuth": 330
+        "endAzimuth": 0
       },
       "inKta": true,
       "snapshot": true,
@@ -40,15 +56,15 @@
       "lon": 37.2735752
     },
     {
-      "id": "294d6a3cfbc321ff",
+      "id": "f0bff62ca1512a7c",
       "action": "ADD",
       "name": "Домодедово",
       "icao": "UUDD",
       "kind": "airport",
       "type": "partial",
       "radiusKm": 100.0,
-      "messageTimestamp": "2026-10-31T11:11:14+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5260",
+      "messageTimestamp": "2026-10-31T13:11:01+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5263",
       "text": "🟡🛩️ Домодедово, UUDD / 100 км (азимуты 090-270)",
       "sector": {
         "radiusKm": 100.0,
@@ -61,35 +77,20 @@
       "lon": 37.9094307
     },
     {
-      "id": "c47b85c1b4ad7fca",
+      "id": "d051e16f25e510cb",
       "action": "ADD",
       "name": "Клоково, Тула",
       "icao": null,
       "kind": "airport",
       "type": "full",
       "radiusKm": 70.0,
-      "messageTimestamp": "2026-10-31T11:11:14+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5260",
+      "messageTimestamp": "2026-10-31T13:11:01+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5263",
       "text": "🔴 а/д Клоково, Тула / 70 км",
       "inKta": false,
       "snapshot": true,
       "lat": 54.2418249,
       "lon": 37.6000197
-    },
-    {
-      "id": "c1ad2645656dea62",
-      "action": "ADD",
-      "name": "Шереметьево",
-      "icao": "UUEE",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-10-31T13:01:35+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5262",
-      "text": "🔴🛩️ Москва - Шереметьево, UUEE",
-      "inKta": true,
-      "lat": 55.9760876,
-      "lon": 37.4238008
     }
   ]
 }
