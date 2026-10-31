@@ -20642,5 +20642,197 @@
         "inKta": false
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5281,
+    "timestamp": "2026-10-31T22:45:37+00:00",
+    "text": "🟢🛩️ Самара - Курумоч, UWWW\n🟢🛩️ Саранск, UWPS\n🟢🛩️ Ульяновск - Баратаевка, UWLW\n🟢🛩️ Чебоксары, UWKS",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5281",
+    "events": [
+      {
+        "id": "8cbb1a596e23a02b",
+        "action": "REMOVE",
+        "name": "Курумоч",
+        "icao": "UWWW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-31T22:45:37+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5281",
+        "text": "🟢🛩️ Самара - Курумоч, UWWW",
+        "inKta": true
+      },
+      {
+        "id": "a9ed96fd966bfb9a",
+        "action": "REMOVE",
+        "name": "Саранск",
+        "icao": "UWPS",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-31T22:45:37+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5281",
+        "text": "🟢🛩️ Саранск, UWPS",
+        "inKta": true
+      },
+      {
+        "id": "719df15ef050c5b2",
+        "action": "REMOVE",
+        "name": "Баратаевка",
+        "icao": "UWLW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-31T22:45:37+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5281",
+        "text": "🟢🛩️ Ульяновск - Баратаевка, UWLW",
+        "inKta": true
+      },
+      {
+        "id": "6325a6daad7857c5",
+        "action": "REMOVE",
+        "name": "Чебоксары",
+        "icao": "UWKS",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-31T22:45:37+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5281",
+        "text": "🟢🛩️ Чебоксары, UWKS",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5282,
+    "timestamp": "2026-10-31T22:50:05+00:00",
+    "text": "🕒 Актуальные ограничения на 01:50 мск\n\n🔴🛩️ Калуга - Грабцево, UUBC / 70 км\n🔴 Новоселовка (🛩️ Пенза, UWPP; 🛩️ Саратов - Гагарин, UWSG) / 150 км\n🔴 Пенза (🛩️ Пенза, UWPP) / 50 км\n🟡🛩️ Москва - Домодедово, UUDD / 100 км (азимуты 090-270)\n\n🔴 а/д Клоково, Тула / 70 км\n🔴 а/д Дягилево, Рязань / 70 км\n🔴 а/д Шувое, Егорьевск / 40 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5282",
+    "events": [
+      {
+        "id": "83231b761461ead7",
+        "action": "ADD",
+        "name": "Грабцево",
+        "icao": "UUBC",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-10-31T22:50:05+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5282",
+        "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км",
+        "inKta": true,
+        "snapshot": true
+      },
+      {
+        "id": "20a8f0ff420dec96",
+        "action": "ADD",
+        "name": "Новоселовка",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 150.0,
+        "messageTimestamp": "2026-10-31T22:50:05+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5282",
+        "text": "🔴 Новоселовка (🛩️ Пенза, UWPP; 🛩️ Саратов - Гагарин, UWSG) / 150 км",
+        "affectedAirports": [
+          {
+            "name": "Пенза",
+            "icao": "UWPP",
+            "kind": "airport"
+          },
+          {
+            "name": "Гагарин",
+            "icao": "UWSG",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false,
+        "snapshot": true
+      },
+      {
+        "id": "020dffc40dcf1074",
+        "action": "ADD",
+        "name": "Пенза",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 50.0,
+        "messageTimestamp": "2026-10-31T22:50:05+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5282",
+        "text": "🔴 Пенза (🛩️ Пенза, UWPP) / 50 км",
+        "affectedAirports": [
+          {
+            "name": "Пенза",
+            "icao": "UWPP",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false,
+        "snapshot": true
+      },
+      {
+        "id": "a560295304fe036e",
+        "action": "ADD",
+        "name": "Домодедово",
+        "icao": "UUDD",
+        "kind": "airport",
+        "type": "partial",
+        "radiusKm": 100.0,
+        "messageTimestamp": "2026-10-31T22:50:05+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5282",
+        "text": "🟡🛩️ Москва - Домодедово, UUDD / 100 км (азимуты 090-270)",
+        "sector": {
+          "radiusKm": 100.0,
+          "startAzimuth": 90,
+          "endAzimuth": 270
+        },
+        "inKta": true,
+        "snapshot": true
+      },
+      {
+        "id": "4fd2873f016eb32f",
+        "action": "ADD",
+        "name": "Клоково, Тула",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-10-31T22:50:05+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5282",
+        "text": "🔴 а/д Клоково, Тула / 70 км",
+        "inKta": false,
+        "snapshot": true
+      },
+      {
+        "id": "815f7f43c20e7e8e",
+        "action": "ADD",
+        "name": "Дягилево, Рязань",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-10-31T22:50:05+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5282",
+        "text": "🔴 а/д Дягилево, Рязань / 70 км",
+        "inKta": false,
+        "snapshot": true
+      },
+      {
+        "id": "85c63ed4b01a13e3",
+        "action": "ADD",
+        "name": "Шувое, Егорьевск",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 40.0,
+        "messageTimestamp": "2026-10-31T22:50:05+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5282",
+        "text": "🔴 а/д Шувое, Егорьевск / 40 км",
+        "inKta": false,
+        "snapshot": true
+      }
+    ]
   }
 ]

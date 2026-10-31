@@ -1,62 +1,33 @@
 {
-  "updatedAt": "2026-10-31T22:40:23.622995+00:00",
+  "updatedAt": "2026-10-31T22:50:16.612039+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
-      "id": "5927cfbafff768fd",
+      "id": "83231b761461ead7",
       "action": "ADD",
       "name": "Грабцево",
       "icao": "UUBC",
       "kind": "airport",
       "type": "full",
       "radiusKm": 70.0,
-      "messageTimestamp": "2026-10-31T21:00:45+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5273",
+      "messageTimestamp": "2026-10-31T22:50:05+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5282",
       "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км",
       "inKta": true,
+      "snapshot": true,
       "lat": 54.5488708,
       "lon": 36.3697725
     },
     {
-      "id": "ba536398071d311a",
-      "action": "ADD",
-      "name": "Клоково, Тула",
-      "icao": null,
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": 70.0,
-      "messageTimestamp": "2026-10-31T21:00:45+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5273",
-      "text": "🔴 а/д Клоково, Тула / 70 км",
-      "inKta": false,
-      "lat": 54.2418249,
-      "lon": 37.6000197
-    },
-    {
-      "id": "da36ea02855cd8dd",
-      "action": "ADD",
-      "name": "Дягилево, Рязань",
-      "icao": null,
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": 70.0,
-      "messageTimestamp": "2026-10-31T21:00:45+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5273",
-      "text": "🔴 а/д Дягилево, Рязань / 70 км",
-      "inKta": false,
-      "lat": 54.6571958,
-      "lon": 39.6308884
-    },
-    {
-      "id": "3821223f5d35c7ae",
+      "id": "20a8f0ff420dec96",
       "action": "ADD",
       "name": "Новоселовка",
       "icao": null,
       "kind": "city",
       "type": "full",
       "radiusKm": 150.0,
-      "messageTimestamp": "2026-10-31T21:27:29+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5274",
+      "messageTimestamp": "2026-10-31T22:50:05+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5282",
       "text": "🔴 Новоселовка (🛩️ Пенза, UWPP; 🛩️ Саратов - Гагарин, UWSG) / 150 км",
       "affectedAirports": [
         {
@@ -75,43 +46,20 @@
         }
       ],
       "inKta": false,
+      "snapshot": true,
       "lat": 51.9489,
       "lon": 44.2678
     },
     {
-      "id": "16b77459c7610c91",
-      "action": "ADD",
-      "name": "Медведица",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": 150.0,
-      "messageTimestamp": "2026-10-31T21:27:29+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5274",
-      "text": "🔴 Медведица (🛩️ Саратов - Гагарин, UWSG) / 150 км ",
-      "affectedAirports": [
-        {
-          "name": "Гагарин",
-          "icao": "UWSG",
-          "kind": "airport",
-          "lat": 51.7139093,
-          "lon": 46.1672319
-        }
-      ],
-      "inKta": false,
-      "lat": 51.079559,
-      "lon": 44.8182885
-    },
-    {
-      "id": "a6c4335308f0b014",
+      "id": "020dffc40dcf1074",
       "action": "ADD",
       "name": "Пенза",
       "icao": null,
       "kind": "city",
       "type": "full",
       "radiusKm": 50.0,
-      "messageTimestamp": "2026-10-31T21:27:29+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5274",
+      "messageTimestamp": "2026-10-31T22:50:05+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5282",
       "text": "🔴 Пенза (🛩️ Пенза, UWPP) / 50 км",
       "affectedAirports": [
         {
@@ -123,152 +71,20 @@
         }
       ],
       "inKta": false,
+      "snapshot": true,
       "lat": 53.1953477,
       "lon": 45.0190437
     },
     {
-      "id": "6d68c3d026a7b3b1",
-      "action": "ADD",
-      "name": "Сурское",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": 150.0,
-      "messageTimestamp": "2026-10-31T21:34:11+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5275",
-      "text": "🔴 Сурское (🛩️ Ульяновск - Баратаевка, UWLL; 🛩️ Саранск UWPS) / 150 км",
-      "affectedAirports": [
-        {
-          "name": "Баратаевка",
-          "icao": "UWLL",
-          "kind": "airport",
-          "lat": 54.2690213,
-          "lon": 48.2248287
-        },
-        {
-          "name": "Саранск",
-          "icao": "UWPS",
-          "kind": "airport",
-          "lat": 54.1274695,
-          "lon": 45.2152086
-        }
-      ],
-      "inKta": false,
-      "lat": 54.4800412,
-      "lon": 46.7234429
-    },
-    {
-      "id": "ad0237167f45f2f5",
-      "action": "ADD",
-      "name": "Ульяновск",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": 50.0,
-      "messageTimestamp": "2026-10-31T21:34:11+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5275",
-      "text": "🔴 Ульяновск (🛩️ Баратаевка, UWLL) / 50 км",
-      "affectedAirports": [
-        {
-          "name": "Баратаевка",
-          "icao": "UWLL",
-          "kind": "airport",
-          "lat": 54.2690213,
-          "lon": 48.2248287
-        }
-      ],
-      "inKta": false,
-      "lat": 54.3150278,
-      "lon": 48.403373
-    },
-    {
-      "id": "980805b563ff001c",
-      "action": "ADD",
-      "name": "Базарный Сызган",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": 50.0,
-      "messageTimestamp": "2026-10-31T21:34:11+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5275",
-      "text": "🔴 Базарный Сызган / 50 км",
-      "inKta": false,
-      "lat": 53.7482676,
-      "lon": 46.7584818
-    },
-    {
-      "id": "b5b15252f608e464",
-      "action": "ADD",
-      "name": "Саранск",
-      "icao": "UWPS",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-10-31T21:37:50+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5276",
-      "text": "🔴🛩️ Саранск, UWPS",
-      "inKta": true,
-      "lat": 54.1274695,
-      "lon": 45.2152086
-    },
-    {
-      "id": "1e51a461f434bd52",
-      "action": "ADD",
-      "name": "Чебоксары",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": 50.0,
-      "messageTimestamp": "2026-10-31T21:53:58+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5277",
-      "text": "🔴 Чебоксары (🛩️ Чебоксары, UWKS) / 50 км",
-      "affectedAirports": [
-        {
-          "name": "Чебоксары",
-          "icao": "UWKS",
-          "kind": "airport",
-          "lat": 56.0880752,
-          "lon": 47.3382761
-        }
-      ],
-      "inKta": false,
-      "lat": 56.1399598,
-      "lon": 47.2480999
-    },
-    {
-      "id": "a8d0eb5a07aaa2a8",
-      "action": "ADD",
-      "name": "Самара",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": 100.0,
-      "messageTimestamp": "2026-10-31T21:59:06+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5278",
-      "text": "🔴 Самара (🛩️ Курумоч, UWWW) / 100 км",
-      "affectedAirports": [
-        {
-          "name": "Курумоч",
-          "icao": "UWWW",
-          "kind": "airport",
-          "lat": 53.5057511,
-          "lon": 50.1569939
-        }
-      ],
-      "inKta": false,
-      "lat": 53.1956255,
-      "lon": 50.1014927
-    },
-    {
-      "id": "2824357df591847a",
+      "id": "a560295304fe036e",
       "action": "ADD",
       "name": "Домодедово",
       "icao": "UUDD",
       "kind": "airport",
       "type": "partial",
       "radiusKm": 100.0,
-      "messageTimestamp": "2026-10-31T22:14:28+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5279",
+      "messageTimestamp": "2026-10-31T22:50:05+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5282",
       "text": "🟡🛩️ Москва - Домодедово, UUDD / 100 км (азимуты 090-270)",
       "sector": {
         "radiusKm": 100.0,
@@ -276,47 +92,57 @@
         "endAzimuth": 270
       },
       "inKta": true,
+      "snapshot": true,
       "lat": 55.4087122,
       "lon": 37.9094307
     },
     {
-      "id": "261e36268abcaab3",
+      "id": "4fd2873f016eb32f",
+      "action": "ADD",
+      "name": "Клоково, Тула",
+      "icao": null,
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 70.0,
+      "messageTimestamp": "2026-10-31T22:50:05+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5282",
+      "text": "🔴 а/д Клоково, Тула / 70 км",
+      "inKta": false,
+      "snapshot": true,
+      "lat": 54.2418249,
+      "lon": 37.6000197
+    },
+    {
+      "id": "815f7f43c20e7e8e",
+      "action": "ADD",
+      "name": "Дягилево, Рязань",
+      "icao": null,
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 70.0,
+      "messageTimestamp": "2026-10-31T22:50:05+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5282",
+      "text": "🔴 а/д Дягилево, Рязань / 70 км",
+      "inKta": false,
+      "snapshot": true,
+      "lat": 54.6571958,
+      "lon": 39.6308884
+    },
+    {
+      "id": "85c63ed4b01a13e3",
       "action": "ADD",
       "name": "Шувое, Егорьевск",
       "icao": null,
       "kind": "airport",
       "type": "full",
       "radiusKm": 40.0,
-      "messageTimestamp": "2026-10-31T22:38:05+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5280",
+      "messageTimestamp": "2026-10-31T22:50:05+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5282",
       "text": "🔴 а/д Шувое, Егорьевск / 40 км",
       "inKta": false,
+      "snapshot": true,
       "lat": 55.4720676,
       "lon": 39.0764902
-    },
-    {
-      "id": "c57167d1d67b7680",
-      "action": "ADD",
-      "name": "Плес",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": 150.0,
-      "messageTimestamp": "2026-10-31T22:38:05+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5280",
-      "text": "🔴 Плес (🛩️ Саратов - Гагарин, UWSG) / 150 км",
-      "affectedAirports": [
-        {
-          "name": "Гагарин",
-          "icao": "UWSG",
-          "kind": "airport",
-          "lat": 51.7139093,
-          "lon": 46.1672319
-        }
-      ],
-      "inKta": false,
-      "lat": 50.039535,
-      "lon": 42.420249
     }
   ]
 }
