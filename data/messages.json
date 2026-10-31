@@ -19576,5 +19576,40 @@
         "sourceUrl": "https://t.me/PlanKoverTDay/5267"
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5268,
+    "timestamp": "2026-10-31T18:02:18+00:00",
+    "text": "🔴 а/д Дягилево, Рязань / 70 км\n🔴 Гусь-Хрустальный / 70 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5268",
+    "events": [
+      {
+        "id": "0d13563441eb1c45",
+        "action": "ADD",
+        "name": "Дягилево, Рязань",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-10-31T18:02:18+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5268",
+        "text": "🔴 а/д Дягилево, Рязань / 70 км",
+        "inKta": false
+      },
+      {
+        "id": "c50a682cd58f70cc",
+        "action": "ADD",
+        "name": "Гусь-Хрустальный",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-10-31T18:02:18+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5268",
+        "text": "🔴 Гусь-Хрустальный / 70 км",
+        "inKta": false
+      }
+    ]
   }
 ]
