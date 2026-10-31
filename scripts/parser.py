@@ -209,6 +209,8 @@ def parse_message(message, published_at=None, source_url=None):
                     bullet = re.match(r"^\s*[—–-]\s*(.+?)\s*$", following)
                     if bullet:
                         candidates.append(bullet.group(1).strip())
+                    elif not following.strip():
+                        continue
                     elif candidates or re.search(r"сняты|снято|отменены|отменено", following, re.I):
                         break
             for sub_no, candidate in enumerate(candidates):
