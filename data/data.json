@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T06:35:17.629470+00:00",
+  "updatedAt": "2026-10-31T07:15:34.793300+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -85,19 +85,6 @@
       "inKta": true,
       "lat": 54.5543582,
       "lon": 55.8822099
-    },
-    {
-      "id": "7e720e137e0f344d",
-      "action": "ADD",
-      "name": "Бугульма",
-      "icao": "UWKB",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-10-31T03:31:52+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5240",
-      "text": "🔴🛩️ Бугульма, UWKB",
-      "inKta": true
     }
   ]
 }
