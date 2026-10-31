@@ -19357,5 +19357,27 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5262,
+    "timestamp": "2026-10-31T13:01:35+00:00",
+    "text": "🔴🛩️ Москва - Шереметьево, UUEE",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5262",
+    "events": [
+      {
+        "id": "c1ad2645656dea62",
+        "action": "ADD",
+        "name": "Шереметьево",
+        "icao": "UUEE",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-31T13:01:35+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5262",
+        "text": "🔴🛩️ Москва - Шереметьево, UUEE",
+        "inKta": true
+      }
+    ]
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T13:00:16.293182+00:00",
+  "updatedAt": "2026-10-31T13:05:26.468343+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -77,16 +77,16 @@
       "lon": 37.6000197
     },
     {
-      "id": "da32158c1e368f04",
+      "id": "c1ad2645656dea62",
       "action": "ADD",
       "name": "Шереметьево",
       "icao": "UUEE",
       "kind": "airport",
-      "type": "partial",
+      "type": "full",
       "radiusKm": null,
-      "messageTimestamp": "2026-10-31T12:55:37+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5261",
-      "text": "🟡🛩️ Москва - Шереметьево, UUEE",
+      "messageTimestamp": "2026-10-31T13:01:35+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5262",
+      "text": "🔴🛩️ Москва - Шереметьево, UUEE",
       "inKta": true,
       "lat": 55.9760876,
       "lon": 37.4238008
