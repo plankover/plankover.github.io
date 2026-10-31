@@ -46,7 +46,7 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4454",
     "events": [
       {
-        "id": "b8fd2ec790805d9f",
+        "id": "e689afc01476e30c",
         "action": "REMOVE",
         "name": "КАЛУГА (Грабцево)",
         "icao": null,
@@ -198,7 +198,7 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4620",
     "events": [
       {
-        "id": "c49c7b364c6e1fbf",
+        "id": "415fc9595ef241bb",
         "action": "REMOVE",
         "name": "САРАТОВ (Гагарин)",
         "icao": null,
@@ -218,7 +218,7 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4621",
     "events": [
       {
-        "id": "9a006a4f9a85e51b",
+        "id": "08d24b3a0d803652",
         "action": "REMOVE",
         "name": "ВОЛГОГРАД",
         "icao": null,
@@ -238,7 +238,7 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4622",
     "events": [
       {
-        "id": "d56db468699c2b5b",
+        "id": "e1ec399f18311002",
         "action": "REMOVE",
         "name": "САМАРА (Курумоч)",
         "icao": null,
@@ -258,12 +258,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4623",
     "events": [
       {
-        "id": "d91726f5ee51c239",
+        "id": "a3fd7bc476ede353",
         "action": "REMOVE",
+        "name": "САРАНСК",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
         "messageTimestamp": "2026-10-11T01:06:25+00:00",
-        "text": "🟢  Аэропорты\n\n— САРАНСК\n\n— ПЕНЗА\n\n✈️ СНЯТЫ ограничения на прием и выпуск воздушных судов. \n\n✈️ Ограничения вводили для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay",
-        "unresolved": true,
-        "sourceUrl": "https://t.me/PlanKoverTDay/4623"
+        "sourceUrl": "https://t.me/PlanKoverTDay/4623",
+        "text": "🟢  Аэропорты"
       }
     ]
   },
@@ -297,7 +300,7 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4625",
     "events": [
       {
-        "id": "bbe7e4d0d96428a9",
+        "id": "40ff756a532d3836",
         "action": "REMOVE",
         "name": "НИЖНИЙ НОВГОРОД (Чкалов)",
         "icao": null,
@@ -317,12 +320,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4626",
     "events": [
       {
-        "id": "19bebc721d19c9c7",
+        "id": "a9898ac328800d09",
         "action": "REMOVE",
+        "name": "ИВАНОВО (Южный)",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
         "messageTimestamp": "2026-10-11T04:24:22+00:00",
-        "text": "🟢  Аэропорты\n\n— ИВАНОВО (Южный)\n\n— КАЛУГА (Грабцево)\n\n✈️ СНЯТЫ ограничения на прием и выпуск воздушных судов. \n\n✈️ Ограничения вводили для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay",
-        "unresolved": true,
-        "sourceUrl": "https://t.me/PlanKoverTDay/4626"
+        "sourceUrl": "https://t.me/PlanKoverTDay/4626",
+        "text": "🟢  Аэропорты"
       }
     ]
   },
@@ -334,7 +340,7 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4627",
     "events": [
       {
-        "id": "b3b821d58a49fe0a",
+        "id": "c3bdeab4fe35423b",
         "action": "REMOVE",
         "name": "СОЧИ",
         "icao": null,
@@ -354,7 +360,7 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4628",
     "events": [
       {
-        "id": "a633e9002f57b62d",
+        "id": "f35d133114f8b426",
         "action": "REMOVE",
         "name": "СОЧИ",
         "icao": null,
@@ -396,7 +402,7 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4630",
     "events": [
       {
-        "id": "832ea38cf8e1dee3",
+        "id": "97cdfd6c20d9c57d",
         "action": "REMOVE",
         "name": "СОЧИ",
         "icao": null,
@@ -438,7 +444,7 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4632",
     "events": [
       {
-        "id": "405ac180c19e9008",
+        "id": "df02758367706a01",
         "action": "REMOVE",
         "name": "КАЛУГА (Грабцево)",
         "icao": null,
@@ -986,12 +992,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4645",
     "events": [
       {
-        "id": "980dba6e9b03a94e",
+        "id": "8e09b540dc18eb55",
         "action": "REMOVE",
+        "name": "ЖУКОВСКИЙ (Раменское)",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
         "messageTimestamp": "2026-10-11T19:21:24+00:00",
-        "text": "🟢  Аэропорты\n\n— ЖУКОВСКИЙ (Раменское)\n\n— ШЕРЕМЕТЬЕВО\n\n✈️ СНЯТЫ ограничения на прием и выпуск воздушных судов. \n\n✈️ Ограничения вводили для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay",
-        "unresolved": true,
-        "sourceUrl": "https://t.me/PlanKoverTDay/4645"
+        "sourceUrl": "https://t.me/PlanKoverTDay/4645",
+        "text": "🟢  Аэропорты"
       }
     ]
   },
@@ -1003,12 +1012,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4646",
     "events": [
       {
-        "id": "de26f3d19bfbdcfe",
+        "id": "fbdc73914f2db49a",
         "action": "REMOVE",
+        "name": "ВНУКОВО",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
         "messageTimestamp": "2026-10-11T20:14:20+00:00",
-        "text": "🟢  Аэропорты\n\n— ВНУКОВО\n\n— ДОМОДЕДОВО\n\n✈️ СНЯТЫ ограничения на прием и выпуск воздушных судов. \n\n✈️ Ограничения вводили для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay",
-        "unresolved": true,
-        "sourceUrl": "https://t.me/PlanKoverTDay/4646"
+        "sourceUrl": "https://t.me/PlanKoverTDay/4646",
+        "text": "🟢  Аэропорты"
       }
     ]
   },
@@ -1042,7 +1054,7 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4648",
     "events": [
       {
-        "id": "4f2b32b2365b8b33",
+        "id": "4a67404fb2eb4524",
         "action": "REMOVE",
         "name": "КАЛУГА (Грабцево)",
         "icao": null,
@@ -1100,7 +1112,7 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4651",
     "events": [
       {
-        "id": "fdb4a3e21916a145",
+        "id": "6d982b6a4c8c21a3",
         "action": "REMOVE",
         "name": "СОЧИ",
         "icao": null,
@@ -1142,7 +1154,7 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4653",
     "events": [
       {
-        "id": "1be691a87a33cb38",
+        "id": "1f3b7abdd6160fa0",
         "action": "REMOVE",
         "name": "ВОЛГОГРАД",
         "icao": null,
@@ -1719,7 +1731,7 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4671",
     "events": [
       {
-        "id": "a6fcc91475c06618",
+        "id": "282dc8cba234c166",
         "action": "REMOVE",
         "name": "ГЕЛЕНДЖИК",
         "icao": null,
@@ -1761,7 +1773,7 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4673",
     "events": [
       {
-        "id": "a13187d8c8d919ac",
+        "id": "6c7e5e9a29183231",
         "action": "REMOVE",
         "name": "КРАСНОДАР (Пашковский)",
         "icao": null,
@@ -1781,7 +1793,7 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4674",
     "events": [
       {
-        "id": "43f7235106751f08",
+        "id": "eeca62ece65adf22",
         "action": "REMOVE",
         "name": "ЧЕРЕПОВЕЦ",
         "icao": null,
@@ -1953,7 +1965,7 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4676",
     "events": [
       {
-        "id": "54cb66ff1c8f6a5a",
+        "id": "fc1f9688148911ca",
         "action": "REMOVE",
         "name": "ЖУКОВСКИЙ (Раменское)",
         "icao": null,
@@ -1995,7 +2007,7 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4678",
     "events": [
       {
-        "id": "df5d873fc672c9f9",
+        "id": "2faae2108138fc9a",
         "action": "REMOVE",
         "name": "ДОМОДЕДОВО",
         "icao": null,
@@ -2037,7 +2049,7 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4680",
     "events": [
       {
-        "id": "8d6774521e59836c",
+        "id": "f84bfeaea6c847cf",
         "action": "REMOVE",
         "name": "ТАМБОВ (Донское)",
         "icao": null,
@@ -2057,12 +2069,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4681",
     "events": [
       {
-        "id": "e21fdfcb5880b501",
+        "id": "59185e120cb81c93",
         "action": "REMOVE",
+        "name": "ИВАНОВО (Южный)",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
         "messageTimestamp": "2026-10-13T07:57:23+00:00",
-        "text": "🟢  Аэропорты\n\n— ИВАНОВО (Южный)\n\n— КАЛУГА (Грабцево)\n\n— ЯРОСЛАВЛЬ (Туношна)\n\n\n✈️ СНЯТЫ ограничения на прием и выпуск воздушных судов. \n\n✈️ Ограничения вводили для обеспечения безопасности полетов.\n\n✈️  - - | @PlanKoverTDay",
-        "unresolved": true,
-        "sourceUrl": "https://t.me/PlanKoverTDay/4681"
+        "sourceUrl": "https://t.me/PlanKoverTDay/4681",
+        "text": "🟢  Аэропорты"
       }
     ]
   },
@@ -2074,12 +2089,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4682",
     "events": [
       {
-        "id": "37b528663feb8771",
+        "id": "4886fda43cfcad99",
         "action": "REMOVE",
+        "name": "ВНУКОВО",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
         "messageTimestamp": "2026-10-13T07:59:16+00:00",
-        "text": "🟢  Аэропорты\n\n— ВНУКОВО\n\n— ШЕРЕМЕТЬЕВО\n\n✈️ СНЯТЫ ограничения на прием и выпуск воздушных судов. \n\n✈️ Ограничения вводили для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay",
-        "unresolved": true,
-        "sourceUrl": "https://t.me/PlanKoverTDay/4682"
+        "sourceUrl": "https://t.me/PlanKoverTDay/4682",
+        "text": "🟢  Аэропорты"
       }
     ]
   },
@@ -2152,7 +2170,7 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4686",
     "events": [
       {
-        "id": "57635ec6de71df4b",
+        "id": "4f2aa20a1cd55404",
         "action": "REMOVE",
         "name": "СОЧИ",
         "icao": null,
@@ -2738,7 +2756,7 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4697",
     "events": [
       {
-        "id": "780312745221507a",
+        "id": "d00270d1c151e1a1",
         "action": "REMOVE",
         "name": "НИЖНИЙ НОВГОРОД (Чкалов)",
         "icao": null,
@@ -2780,7 +2798,7 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4699",
     "events": [
       {
-        "id": "cf5c820e75b34943",
+        "id": "460f0e69e003ee48",
         "action": "REMOVE",
         "name": "ВОЛГОГРАД",
         "icao": null,
@@ -2800,12 +2818,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4700",
     "events": [
       {
-        "id": "d6d3645257ef69b4",
+        "id": "d66f1d321c084703",
         "action": "REMOVE",
+        "name": "ПЕНЗА",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
         "messageTimestamp": "2026-10-14T03:17:50+00:00",
-        "text": "🟢 Аэропорты\n\n— ПЕНЗА\n\n— САМАРА (Курумоч)\n\n✈️ СНЯТЫ ограничения на прием и выпуск воздушных судов.\n\n✈️ Ограничения вводили для обеспечения безопасности полетов.\n\n✈️ - - | @PlanKoverTDay",
-        "unresolved": true,
-        "sourceUrl": "https://t.me/PlanKoverTDay/4700"
+        "sourceUrl": "https://t.me/PlanKoverTDay/4700",
+        "text": "🟢 Аэропорты"
       }
     ]
   },
@@ -2817,12 +2838,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4701",
     "events": [
       {
-        "id": "47231b2464963e73",
+        "id": "79d2a040c36b9053",
         "action": "REMOVE",
+        "name": "ВНУКОВО",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
         "messageTimestamp": "2026-10-14T03:44:55+00:00",
-        "text": "🟢  Аэропорты\n\n— ВНУКОВО\n\n— ДОМОДЕДОВО\n\n— ЖУКОВСКИЙ (Раменское)\n\n— ШЕРЕМЕТЬЕВО\n\n✈️ СНЯТЫ ограничения на прием и выпуск воздушных судов. \n\n✈️ Ограничения вводили для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay",
-        "unresolved": true,
-        "sourceUrl": "https://t.me/PlanKoverTDay/4701"
+        "sourceUrl": "https://t.me/PlanKoverTDay/4701",
+        "text": "🟢  Аэропорты"
       }
     ]
   },
@@ -2834,7 +2858,7 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4702",
     "events": [
       {
-        "id": "d74a6efc77eb7170",
+        "id": "572fcefc913f2842",
         "action": "REMOVE",
         "name": "САРАТОВ (Гагарин)",
         "icao": null,
@@ -2854,12 +2878,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4703",
     "events": [
       {
-        "id": "dcc21d79bfda0e3a",
+        "id": "96d47fdaed6b928e",
         "action": "REMOVE",
+        "name": "КАЛУГА (Грабцево)",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
         "messageTimestamp": "2026-10-14T06:15:59+00:00",
-        "text": "🟢  Аэропорты\n\n— КАЛУГА (Грабцево)\n\n— ЯРОСЛАВЛЬ (Туношна)\n\n\n✈️ СНЯТЫ ограничения на прием и выпуск воздушных судов. \n\n✈️ Ограничения вводили для обеспечения безопасности полетов.\n\n✈️ - - | @PlanKoverTDay",
-        "unresolved": true,
-        "sourceUrl": "https://t.me/PlanKoverTDay/4703"
+        "sourceUrl": "https://t.me/PlanKoverTDay/4703",
+        "text": "🟢  Аэропорты"
       }
     ]
   },
@@ -2888,12 +2915,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4705",
     "events": [
       {
-        "id": "d8ec0e3f0e20085b",
+        "id": "82b582602693b8f5",
         "action": "REMOVE",
+        "name": "ДОМОДЕДОВО",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
         "messageTimestamp": "2026-10-14T10:04:32+00:00",
-        "text": "🟢  Аэропорты\n\n— ДОМОДЕДОВО\n\n— ЖУКОВСКИЙ (Раменское)\n\n✈️ СНЯТЫ ограничения на прием и выпуск воздушных судов. \n\n✈️ Ограничения вводили для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay",
-        "unresolved": true,
-        "sourceUrl": "https://t.me/PlanKoverTDay/4705"
+        "sourceUrl": "https://t.me/PlanKoverTDay/4705",
+        "text": "🟢  Аэропорты"
       }
     ]
   },
@@ -2927,7 +2957,7 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4707",
     "events": [
       {
-        "id": "28957f14a810fb77",
+        "id": "1f6e3c49210e3e57",
         "action": "REMOVE",
         "name": "СОЧИ",
         "icao": null,
@@ -3117,7 +3147,7 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4716",
     "events": [
       {
-        "id": "06844f0b121a059c",
+        "id": "a13285374caf51ea",
         "action": "REMOVE",
         "name": "ВОЛГОГРАД",
         "icao": null,
@@ -3137,12 +3167,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4717",
     "events": [
       {
-        "id": "b6e99664e05f7a57",
+        "id": "949a72536dec7bed",
         "action": "REMOVE",
+        "name": "САРАНСК",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
         "messageTimestamp": "2026-10-14T20:55:52+00:00",
-        "text": "🟢  Аэропорты\n\n— САРАНСК\n\n— САРАТОВ (Гагарин) \n\n— ПЕНЗА\n\n✈️ СНЯТЫ ограничения на прием и выпуск воздушных судов. \n\n✈️ Ограничения вводили для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay",
-        "unresolved": true,
-        "sourceUrl": "https://t.me/PlanKoverTDay/4717"
+        "sourceUrl": "https://t.me/PlanKoverTDay/4717",
+        "text": "🟢  Аэропорты"
       }
     ]
   },
@@ -3154,7 +3187,7 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4718",
     "events": [
       {
-        "id": "754f735169c3f6ec",
+        "id": "9769aa6f9ed1a053",
         "action": "REMOVE",
         "name": "ДОМОДЕДОВО",
         "icao": null,
@@ -3340,7 +3373,7 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4727",
     "events": [
       {
-        "id": "afc10c46ff3b0e51",
+        "id": "73b819b6ad9db77e",
         "action": "REMOVE",
         "name": "ГЕЛЕНДЖИК",
         "icao": null,
@@ -3360,7 +3393,7 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4728",
     "events": [
       {
-        "id": "7fd45071ffbf37ce",
+        "id": "4c9984309b16f842",
         "action": "REMOVE",
         "name": "САРАНСК",
         "icao": null,
@@ -3380,12 +3413,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4729",
     "events": [
       {
-        "id": "4caa4ce25592cc26",
+        "id": "f51bb3343e3cccef",
         "action": "REMOVE",
+        "name": "ПЕНЗА",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
         "messageTimestamp": "2026-10-15T04:37:46+00:00",
-        "text": "🟢 Аэропорты\n\n— ПЕНЗА\n\n— САРАТОВ (Гагарин)\n\n✈️ СНЯТЫ ограничения на прием и выпуск воздушных судов.\n\n✈️ Ограничения вводили для обеспечения безопасности полетов.\n\n✈️ - - | @PlanKoverTDay",
-        "unresolved": true,
-        "sourceUrl": "https://t.me/PlanKoverTDay/4729"
+        "sourceUrl": "https://t.me/PlanKoverTDay/4729",
+        "text": "🟢 Аэропорты"
       }
     ]
   },
@@ -3419,12 +3455,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4731",
     "events": [
       {
-        "id": "fb7d3e28c0698510",
+        "id": "312c75d4e407d982",
         "action": "REMOVE",
+        "name": "КАЗАНЬ",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
         "messageTimestamp": "2026-10-15T05:10:43+00:00",
-        "text": "🟢  Аэропорты\n\n— КАЗАНЬ\n\n— ЧЕБОКСАРЫ\n\n✈️ СНЯТЫ ограничения на прием и выпуск воздушных судов. \n\n✈️ Ограничения вводили для обеспечения безопасности полетов.\n\n✈️ - - | @PlanKoverTDay",
-        "unresolved": true,
-        "sourceUrl": "https://t.me/PlanKoverTDay/4731"
+        "sourceUrl": "https://t.me/PlanKoverTDay/4731",
+        "text": "🟢  Аэропорты"
       }
     ]
   },
@@ -3458,7 +3497,7 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4733",
     "events": [
       {
-        "id": "d434b7478ddc8f28",
+        "id": "788bac25e49b0028",
         "action": "REMOVE",
         "name": "ПЕНЗА",
         "icao": null,
@@ -3478,12 +3517,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4734",
     "events": [
       {
-        "id": "032a915546d634d6",
+        "id": "b1aa2f2265f5cb91",
         "action": "REMOVE",
+        "name": "КАЛУГА (Грабцево)",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
         "messageTimestamp": "2026-10-15T07:19:09+00:00",
-        "text": "🟢 Аэропорты \n\n– КАЛУГА (Грабцево)\n\n– НИЖНИЙ НОВГОРОД (Чкалов)\n\n– ТАМБОВ (Донское)\n\n✈️ СНЯТЫ ограничения на прием и выпуск воздушных судов.\n\n✈️ Ограничения вводили для обеспечения безопасности полетов.\n\n✈️  - - | @PlanKoverTDay",
-        "unresolved": true,
-        "sourceUrl": "https://t.me/PlanKoverTDay/4734"
+        "sourceUrl": "https://t.me/PlanKoverTDay/4734",
+        "text": "🟢 Аэропорты "
       }
     ]
   },
@@ -3595,12 +3637,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4740",
     "events": [
       {
-        "id": "b265e62f9980cac6",
+        "id": "d63eb06dd2019062",
         "action": "REMOVE",
+        "name": "ВНУКОВО",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
         "messageTimestamp": "2026-10-15T09:23:25+00:00",
-        "text": "🟢  Аэропорты\n\n— ВНУКОВО\n\n— ДОМОДЕДОВО\n\n— ЖУКОВСКИЙ (Раменское)\n\n✈️ СНЯТЫ ограничения на прием и выпуск воздушных судов. \n\n✈️ Ограничения вводили для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay",
-        "unresolved": true,
-        "sourceUrl": "https://t.me/PlanKoverTDay/4740"
+        "sourceUrl": "https://t.me/PlanKoverTDay/4740",
+        "text": "🟢  Аэропорты"
       }
     ]
   },
@@ -3634,7 +3679,7 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4742",
     "events": [
       {
-        "id": "dca49b0d7b0d6ffc",
+        "id": "70126e350e4da69d",
         "action": "REMOVE",
         "name": "САРАТОВ (Гагарин)",
         "icao": null,
@@ -3676,12 +3721,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4744",
     "events": [
       {
-        "id": "4ae99fee2b39b60d",
+        "id": "77c9c0568e075bb2",
         "action": "REMOVE",
+        "name": "ПЕНЗА",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
         "messageTimestamp": "2026-10-15T09:52:14+00:00",
-        "text": "🟢 Аэропорты\n\n— ПЕНЗА\n\n— САРАНСК\n\n✈️ СНЯТЫ ограничения на прием и выпуск воздушных судов.\n\n✈️ Ограничения вводили для обеспечения безопасности полетов.\n\n✈️  - - | @PlanKoverTDay",
-        "unresolved": true,
-        "sourceUrl": "https://t.me/PlanKoverTDay/4744"
+        "sourceUrl": "https://t.me/PlanKoverTDay/4744",
+        "text": "🟢 Аэропорты"
       }
     ]
   },
@@ -3693,12 +3741,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4745",
     "events": [
       {
-        "id": "6bb1ec2d52584a5f",
+        "id": "3acf9f320c4e8eda",
         "action": "REMOVE",
+        "name": "САМАРА (Курумоч)",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
         "messageTimestamp": "2026-10-15T09:56:51+00:00",
-        "text": "🟢  Аэропорты\n\n— САМАРА (Курумоч)\n\n— УЛЬЯНОВСК (Баратаевка) \n\n✈️ СНЯТЫ ограничения на прием и выпуск воздушных судов. \n\n✈️ Ограничения вводили для обеспечения безопасности полетов.\n\n✈️ - - | @PlanKoverTDay",
-        "unresolved": true,
-        "sourceUrl": "https://t.me/PlanKoverTDay/4745"
+        "sourceUrl": "https://t.me/PlanKoverTDay/4745",
+        "text": "🟢  Аэропорты"
       }
     ]
   },
@@ -3710,12 +3761,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4746",
     "events": [
       {
-        "id": "80d88c0488f93872",
+        "id": "0bc0a143fc66c4fd",
         "action": "REMOVE",
+        "name": "КАЗАНЬ",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
         "messageTimestamp": "2026-10-15T10:11:31+00:00",
-        "text": "🟢  Аэропорты\n\n— КАЗАНЬ\n\n— НИЖНЕКАМСК (Бегишево)\n\n— ЧЕБОКСАРЫ\n\n✈️ СНЯТЫ ограничения на прием и выпуск воздушных судов. \n\n✈️ Ограничения вводили для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay",
-        "unresolved": true,
-        "sourceUrl": "https://t.me/PlanKoverTDay/4746"
+        "sourceUrl": "https://t.me/PlanKoverTDay/4746",
+        "text": "🟢  Аэропорты"
       }
     ]
   },
@@ -3727,12 +3781,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4747",
     "events": [
       {
-        "id": "12f37df51a68cf6b",
+        "id": "6960d3afe1960645",
         "action": "REMOVE",
+        "name": "ИЖЕВСК",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
         "messageTimestamp": "2026-10-15T10:52:24+00:00",
-        "text": "🟢  Аэропорты\n\n— ИЖЕВСК\n\n— КИРОВ (Победилово)\n\n\n✈️ СНЯТЫ ограничения на прием и выпуск воздушных судов. \n\n✈️ Ограничения вводили для обеспечения безопасности полетов.\n\n✈ - - | @PlanKoverTDay",
-        "unresolved": true,
-        "sourceUrl": "https://t.me/PlanKoverTDay/4747"
+        "sourceUrl": "https://t.me/PlanKoverTDay/4747",
+        "text": "🟢  Аэропорты"
       }
     ]
   },
@@ -3766,7 +3823,7 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4749",
     "events": [
       {
-        "id": "ab466bd1363f66a5",
+        "id": "8f9e5ce6fd558f37",
         "action": "REMOVE",
         "name": "ГЕЛЕНДЖИК",
         "icao": null,
@@ -3847,7 +3904,7 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4753",
     "events": [
       {
-        "id": "ede0d920c6aef619",
+        "id": "20de6436644ac1b5",
         "action": "REMOVE",
         "name": "СОЧИ",
         "icao": null,
@@ -3950,7 +4007,7 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4756",
     "events": [
       {
-        "id": "4b91b29f211c7d5b",
+        "id": "85dd4783eefcbcab",
         "action": "REMOVE",
         "name": "СОЧИ",
         "icao": null,
@@ -4490,12 +4547,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4773",
     "events": [
       {
-        "id": "721dc0c3121ac333",
+        "id": "1a7f19126095cf61",
         "action": "REMOVE",
+        "name": "ВНУКОВО",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
         "messageTimestamp": "2026-10-16T02:06:13+00:00",
-        "text": "🟢  Аэропорты\n\n— ВНУКОВО\n\n— ШЕРЕМЕТЬЕВО\n\n✈️ СНЯТЫ ограничения на прием и выпуск воздушных судов. \n\n✈️ Ограничения вводили для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay",
-        "unresolved": true,
-        "sourceUrl": "https://t.me/PlanKoverTDay/4773"
+        "sourceUrl": "https://t.me/PlanKoverTDay/4773",
+        "text": "🟢  Аэропорты"
       }
     ]
   },
@@ -4612,12 +4672,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4779",
     "events": [
       {
-        "id": "5614db58232a0ddd",
+        "id": "c59ca17140632f08",
         "action": "REMOVE",
+        "name": "ДОМОДЕДОВО",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
         "messageTimestamp": "2026-10-16T02:43:28+00:00",
-        "text": "🟢  Аэропорты\n\n— ДОМОДЕДОВО\n\n— ЖУКОВСКИЙ (Раменское)\n\n✈️ СНЯТЫ ограничения на прием и выпуск воздушных судов. \n\n✈️ Ограничения вводили для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay",
-        "unresolved": true,
-        "sourceUrl": "https://t.me/PlanKoverTDay/4779"
+        "sourceUrl": "https://t.me/PlanKoverTDay/4779",
+        "text": "🟢  Аэропорты"
       }
     ]
   },
@@ -4629,7 +4692,7 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4780",
     "events": [
       {
-        "id": "37ebfa86cd70640d",
+        "id": "2ca4cb6bf13cdf78",
         "action": "REMOVE",
         "name": "ПУЛКОВО",
         "icao": null,
@@ -4649,12 +4712,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4781",
     "events": [
       {
-        "id": "13928d8a7b7ebb81",
+        "id": "68007fc7d4f4c5f2",
         "action": "REMOVE",
+        "name": "ПЕНЗА",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
         "messageTimestamp": "2026-10-16T03:16:43+00:00",
-        "text": "🟢 Аэропорты\n\n— ПЕНЗА\n\n— САРАТОВ (Гагарин)\n\n✈️ СНЯТЫ ограничения на прием и выпуск воздушных судов.\n\n✈️ Ограничения вводили для обеспечения безопасности полетов.\n\n✈️ - - | @PlanKoverTDay",
-        "unresolved": true,
-        "sourceUrl": "https://t.me/PlanKoverTDay/4781"
+        "sourceUrl": "https://t.me/PlanKoverTDay/4781",
+        "text": "🟢 Аэропорты"
       }
     ]
   },
@@ -4666,7 +4732,7 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4782",
     "events": [
       {
-        "id": "768ba9788f734e84",
+        "id": "78ff052fa5ae622c",
         "action": "REMOVE",
         "name": "САРАНСК",
         "icao": null,
@@ -4774,12 +4840,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4787",
     "events": [
       {
-        "id": "8fe26c115e3118f6",
+        "id": "2a4e397aa51eae1b",
         "action": "REMOVE",
+        "name": "КАЛУГА (Грабцево)",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
         "messageTimestamp": "2026-10-16T04:16:22+00:00",
-        "text": "🟢 Аэропорты \n\n– КАЛУГА (Грабцево)\n\n– НИЖНИЙ НОВГОРОД (Чкалов)\n\n– ТАМБОВ (Донское)\n\n✈️ СНЯТЫ ограничения на прием и выпуск воздушных судов.\n\n✈️ Ограничения вводили для обеспечения безопасности полетов.\n\n✈️  - - | @PlanKoverTDay",
-        "unresolved": true,
-        "sourceUrl": "https://t.me/PlanKoverTDay/4787"
+        "sourceUrl": "https://t.me/PlanKoverTDay/4787",
+        "text": "🟢 Аэропорты "
       }
     ]
   },
@@ -4813,7 +4882,7 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4789",
     "events": [
       {
-        "id": "961d8b6a0b655f3a",
+        "id": "8298bac7b607dcca",
         "action": "REMOVE",
         "name": "ПСКОВ",
         "icao": null,
@@ -4906,7 +4975,7 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4794",
     "events": [
       {
-        "id": "3ac160b7d2d30852",
+        "id": "40fc45c6cc130323",
         "action": "REMOVE",
         "name": "ЧЕРЕПОВЕЦ",
         "icao": null,
@@ -4926,7 +4995,7 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4795",
     "events": [
       {
-        "id": "ede3787af8ca4367",
+        "id": "60899d5cbd5361fe",
         "action": "REMOVE",
         "name": "КАЗАНЬ",
         "icao": null,
@@ -4946,7 +5015,7 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4796",
     "events": [
       {
-        "id": "08db7b5b4c2b20ca",
+        "id": "272fcc36dd24e1fa",
         "action": "REMOVE",
         "name": "ЯРОСЛАВЛЬ (Туношна)",
         "icao": null,
@@ -4966,12 +5035,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4797",
     "events": [
       {
-        "id": "11e4f0d5499dd7ee",
+        "id": "c486c4ea5f375720",
         "action": "REMOVE",
+        "name": "УЛЬЯНОВСК (Баратаевка)",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
         "messageTimestamp": "2026-10-16T05:54:32+00:00",
-        "text": "🟢  Аэропорты\n\n— УЛЬЯНОВСК (Баратаевка)\n\n— ЧЕБОКСАРЫ\n\n✈️ СНЯТЫ ограничения на прием и выпуск воздушных судов. \n\n✈️ Ограничения вводили для обеспечения безопасности полетов.\n\n✈ - - | @PlanKoverTDay",
-        "unresolved": true,
-        "sourceUrl": "https://t.me/PlanKoverTDay/4797"
+        "sourceUrl": "https://t.me/PlanKoverTDay/4797",
+        "text": "🟢  Аэропорты"
       }
     ]
   },
@@ -4983,7 +5055,7 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4798",
     "events": [
       {
-        "id": "eff338dd8369b9ee",
+        "id": "403198dd73a59766",
         "action": "REMOVE",
         "name": "КИРОВ (Победилово)",
         "icao": null,
@@ -5003,7 +5075,7 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4799",
     "events": [
       {
-        "id": "3dfeef372c907f2b",
+        "id": "65e239f5eb2dc03a",
         "action": "REMOVE",
         "name": "ПУЛКОВО",
         "icao": null,
@@ -5023,7 +5095,7 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4800",
     "events": [
       {
-        "id": "30c50fd3ce117573",
+        "id": "7e831bc8b923df18",
         "action": "REMOVE",
         "name": "САМАРА (Курумоч)",
         "icao": null,
@@ -5087,7 +5159,7 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4803",
     "events": [
       {
-        "id": "ec7d20d1f00a6d1b",
+        "id": "104595a7a533dce1",
         "action": "REMOVE",
         "name": "НИЖНЕКАМСК (Бегишево)",
         "icao": null,
@@ -5107,7 +5179,7 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4804",
     "events": [
       {
-        "id": "d88dde4bfecd9870",
+        "id": "0fabeda5ac78b8a7",
         "action": "REMOVE",
         "name": "ГЕЛЕНДЖИК",
         "icao": null,
@@ -5127,12 +5199,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4805",
     "events": [
       {
-        "id": "6ec044ba940aee01",
+        "id": "0957eab6b9bede95",
         "action": "REMOVE",
+        "name": "БУГУЛЬМА",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
         "messageTimestamp": "2026-10-16T06:51:25+00:00",
-        "text": "🟢  Аэропорты\n\n— БУГУЛЬМА\n\n— УФА\n\n✈️ СНЯТЫ ограничения на прием и выпуск воздушных судов. \n\n✈️ Ограничения вводили для обеспечения безопасности полетов.\n\n✈ - - | @PlanKoverTDay",
-        "unresolved": true,
-        "sourceUrl": "https://t.me/PlanKoverTDay/4805"
+        "sourceUrl": "https://t.me/PlanKoverTDay/4805",
+        "text": "🟢  Аэропорты"
       }
     ]
   },
@@ -5161,7 +5236,7 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4807",
     "events": [
       {
-        "id": "babfa04af555038d",
+        "id": "35795088851264fe",
         "action": "REMOVE",
         "name": "ИЖЕВСК",
         "icao": null,
@@ -5181,7 +5256,7 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4808",
     "events": [
       {
-        "id": "73100996bf6f1dd6",
+        "id": "4637cf25b1e3d7f4",
         "action": "REMOVE",
         "name": "ПЕРМЬ (Большое Савино)",
         "icao": null,
@@ -5223,7 +5298,7 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4810",
     "events": [
       {
-        "id": "7c7bf1f2bf310bbe",
+        "id": "550a4b6483ee7a6d",
         "action": "REMOVE",
         "name": "КАЛУГА (Грабцево)",
         "icao": null,
@@ -5265,7 +5340,7 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4812",
     "events": [
       {
-        "id": "5c710e2e70a3bbb0",
+        "id": "6c0954fd1ea9e5f2",
         "action": "REMOVE",
         "name": "ЕКАТЕРИНБУРГ (Кольцово)",
         "icao": null,
@@ -5285,12 +5360,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4813",
     "events": [
       {
-        "id": "3d2e82529c3e7248",
+        "id": "7cf37439e1f8f917",
         "action": "REMOVE",
+        "name": "СОВЕТСКИЙ",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
         "messageTimestamp": "2026-10-16T11:37:36+00:00",
-        "text": "🟢  Аэропорты\n\n— СОВЕТСКИЙ \n\n— ТЮМЕНЬ (Рощино)\n\n— УРАЙ\n\n✈️ СНЯТЫ ограничения на прием и выпуск воздушных судов. \n\n✈️ Ограничения вводили для обеспечения безопасности полетов.\n\n✈ - - | @PlanKoverTDay",
-        "unresolved": true,
-        "sourceUrl": "https://t.me/PlanKoverTDay/4813"
+        "sourceUrl": "https://t.me/PlanKoverTDay/4813",
+        "text": "🟢  Аэропорты"
       }
     ]
   },
@@ -5417,7 +5495,7 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4820",
     "events": [
       {
-        "id": "c0c73bbaf4b23da6",
+        "id": "568f6bac53072052",
         "action": "REMOVE",
         "name": "КОГАЛЫМ",
         "icao": null,
@@ -5459,7 +5537,7 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4822",
     "events": [
       {
-        "id": "2113e85f48d921d4",
+        "id": "54185dae459ae84d",
         "action": "REMOVE",
         "name": "ГЕЛЕНДЖИК",
         "icao": null,
@@ -5479,7 +5557,7 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4823",
     "events": [
       {
-        "id": "30212138ea54d13d",
+        "id": "2d71760cc3dceb1e",
         "action": "REMOVE",
         "name": "СУРГУТ",
         "icao": null,
@@ -5784,12 +5862,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4833",
     "events": [
       {
-        "id": "c3069a014051936c",
+        "id": "431db6078d4cb14d",
         "action": "REMOVE",
+        "name": "ПЕНЗА",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
         "messageTimestamp": "2026-10-17T03:17:09+00:00",
-        "text": "🟢 Аэропорты\n\n— ПЕНЗА\n\n— САРАТОВ (Гагарин)\n\n✈️ СНЯТЫ ограничения на прием и выпуск воздушных судов.\n\n✈️ Ограничения вводили для обеспечения безопасности полетов.\n\n✈ - - | @PlanKoverTDay",
-        "unresolved": true,
-        "sourceUrl": "https://t.me/PlanKoverTDay/4833"
+        "sourceUrl": "https://t.me/PlanKoverTDay/4833",
+        "text": "🟢 Аэропорты"
       }
     ]
   },
@@ -5801,12 +5882,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4834",
     "events": [
       {
-        "id": "bb2d9226abec021e",
+        "id": "9d57b913c79929d8",
         "action": "REMOVE",
+        "name": "ВНУКОВО",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
         "messageTimestamp": "2026-10-17T03:57:39+00:00",
-        "text": "- -:\n🟢  Аэропорты\n\n— ВНУКОВО\n\n— ДОМОДЕДОВО\n\n— ЖУКОВСКИЙ(Раменское)\n\n— ШЕРЕМЕТЬЕВО\n\n✈️ СНЯТЫ ограничения на прием и выпуск воздушных судов. \n\n✈️ Ограничения вводили для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay",
-        "unresolved": true,
-        "sourceUrl": "https://t.me/PlanKoverTDay/4834"
+        "sourceUrl": "https://t.me/PlanKoverTDay/4834",
+        "text": "🟢  Аэропорты"
       }
     ]
   },
@@ -5818,7 +5902,7 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4835",
     "events": [
       {
-        "id": "64e23739214576c4",
+        "id": "e8a352ebe5cc81a8",
         "action": "REMOVE",
         "name": "КАЛУГА (Грабцево)",
         "icao": null,
@@ -5838,12 +5922,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4836",
     "events": [
       {
-        "id": "11e7211ab1b432a6",
+        "id": "0e084c2d66618550",
         "action": "REMOVE",
+        "name": "КОСТРОМА (Сокеркино)",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
         "messageTimestamp": "2026-10-17T06:24:28+00:00",
-        "text": "🟢  Аэропорты\n\n— КОСТРОМА (Сокеркино)\n\n— ЯРОСЛАВЛЬ (Туношна)\n\n✈️ СНЯТЫ ограничения на прием и выпуск воздушных судов. \n\n✈️ Ограничения вводили для обеспечения безопасности полетов.\n\n✈ - - | @PlanKoverTDay",
-        "unresolved": true,
-        "sourceUrl": "https://t.me/PlanKoverTDay/4836"
+        "sourceUrl": "https://t.me/PlanKoverTDay/4836",
+        "text": "🟢  Аэропорты"
       }
     ]
   },
@@ -5892,7 +5979,7 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4838",
     "events": [
       {
-        "id": "a357d80783f84efb",
+        "id": "28189d4e5cd01c1d",
         "action": "REMOVE",
         "name": "ЧЕРЕПОВЕЦ",
         "icao": null,
@@ -5979,7 +6066,7 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4842",
     "events": [
       {
-        "id": "7ac0b1555f438a6e",
+        "id": "f4ee0663797958f0",
         "action": "REMOVE",
         "name": "ГЕЛЕНДЖИК",
         "icao": null,
@@ -6549,12 +6636,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4861",
     "events": [
       {
-        "id": "3e94d7c8a0309e9e",
+        "id": "7a4f2799dd55eebd",
         "action": "REMOVE",
+        "name": "ВНУКОВО",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
         "messageTimestamp": "2026-10-18T02:34:57+00:00",
-        "text": "🟢  Аэропорты\n\n— ВНУКОВО\n\n— ДОМОДЕДОВО\n\n— ЧЕРЕПОВЕЦ \n\n— ЯРОСЛАВЛЬ (Туношна)\n\n✈️ СНЯТЫ ограничения на прием и выпуск воздушных судов. \n\n✈️ Ограничения вводили для обеспечения безопасности полетов.\n\n✈ - - | @PlanKoverTDay",
-        "unresolved": true,
-        "sourceUrl": "https://t.me/PlanKoverTDay/4861"
+        "sourceUrl": "https://t.me/PlanKoverTDay/4861",
+        "text": "🟢  Аэропорты"
       }
     ]
   },
@@ -6588,12 +6678,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4863",
     "events": [
       {
-        "id": "59fed67da587abc4",
+        "id": "d6b18da1c82d35f2",
         "action": "REMOVE",
+        "name": "ИВАНОВО (Южный)",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
         "messageTimestamp": "2026-10-18T04:57:17+00:00",
-        "text": "🟢  Аэропорты\n\n— ИВАНОВО (Южный)\n\n— КАЛУГА (Грабцево)\n\n✈️ СНЯТЫ ограничения на прием и выпуск воздушных судов. \n\n✈️ Ограничения вводили для обеспечения безопасности полетов.\n\n✈️ - - | @PlanKoverTDay",
-        "unresolved": true,
-        "sourceUrl": "https://t.me/PlanKoverTDay/4863"
+        "sourceUrl": "https://t.me/PlanKoverTDay/4863",
+        "text": "🟢  Аэропорты"
       }
     ]
   },
@@ -6627,7 +6720,7 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4865",
     "events": [
       {
-        "id": "243ca6e3d006b742",
+        "id": "d4c8c0be2ca9f9ac",
         "action": "REMOVE",
         "name": "ПУЛКОВО",
         "icao": null,
@@ -6647,7 +6740,7 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4866",
     "events": [
       {
-        "id": "47f394b0c651e29d",
+        "id": "c82119bcbb315be4",
         "action": "REMOVE",
         "name": "ПСКОВ",
         "icao": null,
@@ -7004,12 +7097,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4877",
     "events": [
       {
-        "id": "01033b1c91961bfe",
+        "id": "379df375d7829bd6",
         "action": "REMOVE",
+        "name": "БУГУЛЬМА",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
         "messageTimestamp": "2026-10-19T01:09:24+00:00",
-        "text": "🟢  Аэропорты\n\n— БУГУЛЬМА \n\n— КАЗАНЬ\n\n— КАЛУГА (Грабцево)\n\n— НИЖНЕКАМСК (Бегишево)\n\n— ПЕНЗА\n\n— САРАНСК\n\n— САРАТОВ (Гагарин) \n\n✈️ СНЯТЫ ограниченияна прием и выпуск воздушных судов. \n\n✈️ Ограничения вводили для обеспечения безопасности полетов.\n\n✈️ - - | @PlanKoverTDay",
-        "unresolved": true,
-        "sourceUrl": "https://t.me/PlanKoverTDay/4877"
+        "sourceUrl": "https://t.me/PlanKoverTDay/4877",
+        "text": "🟢  Аэропорты"
       }
     ]
   },
@@ -7021,7 +7117,7 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4878",
     "events": [
       {
-        "id": "f2e6c00c756fee5e",
+        "id": "fd70caf1afc1fb11",
         "action": "REMOVE",
         "name": "УЛЬЯНОВСК (Баратаевка)",
         "icao": null,
@@ -7085,7 +7181,7 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4881",
     "events": [
       {
-        "id": "aca8fc2770eeeae8",
+        "id": "c3e77805e0211c95",
         "action": "REMOVE",
         "name": "САМАРА (Курумоч)",
         "icao": null,
@@ -7105,12 +7201,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4882",
     "events": [
       {
-        "id": "34d2b1611c4b62fa",
+        "id": "fbc7de664c7e562f",
         "action": "REMOVE",
+        "name": "ИЖЕВСК",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
         "messageTimestamp": "2026-10-19T03:02:54+00:00",
-        "text": "🟢  Аэропорты\n\n— ИЖЕВСК\n\n— ПЕРМЬ (Большое Савино) \n\n— ТАМБОВ (Донское) \n\n✈️ СНЯТЫ ограничения на прием и выпуск воздушных судов. \n\n✈️ Ограничения вводили для обеспечения безопасности полетов.\n\n✈- - | @PlanKoverTDay",
-        "unresolved": true,
-        "sourceUrl": "https://t.me/PlanKoverTDay/4882"
+        "sourceUrl": "https://t.me/PlanKoverTDay/4882",
+        "text": "🟢  Аэропорты"
       }
     ]
   },
@@ -7179,7 +7278,7 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4885",
     "events": [
       {
-        "id": "e4ca0ef11a32a461",
+        "id": "9b5c8d9c7cbdb2bf",
         "action": "REMOVE",
         "name": "ГЕЛЕНДЖИК",
         "icao": null,
@@ -7199,7 +7298,7 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4886",
     "events": [
       {
-        "id": "b6198be0423db419",
+        "id": "1f90f89563ec5b25",
         "action": "REMOVE",
         "name": "ПЕРМЬ (Большое Савино)",
         "icao": null,
@@ -7257,7 +7356,7 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4889",
     "events": [
       {
-        "id": "6a215d5dbb594f5f",
+        "id": "af194be9c424e698",
         "action": "REMOVE",
         "name": "КАЛУГА (Грабцево)",
         "icao": null,
@@ -8584,12 +8683,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4937",
     "events": [
       {
-        "id": "bf0afe3c0159382c",
+        "id": "54738a43ef1ed731",
         "action": "REMOVE",
+        "name": "ВНУКОВО",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
         "messageTimestamp": "2026-10-22T05:25:26+00:00",
-        "text": "🟢  Аэропорты\n\n— ВНУКОВО\n\n— КАЛУГА (Грабцево)\n\n— ТАМБОВ (Донское)\n\n— ЯРОСЛАВЛЬ (Туношна)\n\n✈️ СНЯТЫ ограничения на прием и выпуск воздушных судов. \n\n✈️ Ограничения вводили для обеспечения безопасности полетов.\n\n✈ - - | @PlanKoverTDay",
-        "unresolved": true,
-        "sourceUrl": "https://t.me/PlanKoverTDay/4937"
+        "sourceUrl": "https://t.me/PlanKoverTDay/4937",
+        "text": "🟢  Аэропорты"
       }
     ]
   },
@@ -10260,7 +10362,7 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4987",
     "events": [
       {
-        "id": "803a37d1f8d61bec",
+        "id": "83f9759700f27406",
         "action": "REMOVE",
         "name": "ШЕРЕМЕТЬЕВО",
         "icao": null,
@@ -15259,7 +15361,7 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/5132",
     "events": [
       {
-        "id": "843a7889616666f7",
+        "id": "dc119fbb92a2dc68",
         "action": "REMOVE",
         "name": "ЖУКОВСКИЙ (Раменское)",
         "icao": null,
@@ -16862,7 +16964,7 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/5188",
     "events": [
       {
-        "id": "78cbe515c8e9a1d5",
+        "id": "a202a1eb1f0dfcf8",
         "action": "REMOVE",
         "name": "КАЛУГА (Грабцево)",
         "icao": null,
