@@ -1,36 +1,43 @@
 {
-  "updatedAt": "2026-10-31T18:05:18.479619+00:00",
+  "updatedAt": "2026-10-31T18:30:23.107857+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
-      "id": "0d13563441eb1c45",
+      "id": "ca2752cc149c99d6",
       "action": "ADD",
-      "name": "Дягилево, Рязань",
+      "name": "Северный, Иваново",
       "icao": null,
       "kind": "airport",
       "type": "full",
       "radiusKm": 70.0,
-      "messageTimestamp": "2026-10-31T18:02:18+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5268",
-      "text": "🔴 а/д Дягилево, Рязань / 70 км",
+      "messageTimestamp": "2026-10-31T18:25:51+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5270",
+      "text": "🔴 а/д Северный, Иваново (🛩️ Южный, UUIO) / 70 км",
+      "affectedAirports": [
+        {
+          "name": "Южный",
+          "icao": "UUIO",
+          "kind": "airport"
+        }
+      ],
       "inKta": false,
-      "lat": 54.6571958,
-      "lon": 39.6308884
+      "lat": 57.0534389,
+      "lon": 40.9839543
     },
     {
-      "id": "c50a682cd58f70cc",
+      "id": "cb80c6ff72a1d5c0",
       "action": "ADD",
-      "name": "Гусь-Хрустальный",
-      "icao": null,
-      "kind": "city",
+      "name": "Южный",
+      "icao": "UUBI",
+      "kind": "airport",
       "type": "full",
-      "radiusKm": 70.0,
-      "messageTimestamp": "2026-10-31T18:02:18+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5268",
-      "text": "🔴 Гусь-Хрустальный / 70 км",
-      "inKta": false,
-      "lat": 55.6149968,
-      "lon": 40.6708665
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-31T18:26:08+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5271",
+      "text": "🔴🛩️ Иваново - Южный, UUBI",
+      "inKta": true,
+      "lat": 56.941138,
+      "lon": 40.9389727
     }
   ]
 }
