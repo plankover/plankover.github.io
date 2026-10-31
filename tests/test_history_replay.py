@@ -10,6 +10,18 @@ from collector import build_active
 
 
 class HistoryReplayTests(unittest.TestCase):
+    def test_reopening_removes_area_zone_for_airport(self):
+        history = [
+            {"timestamp": "2026-11-01T00:00:00+00:00", "events": [
+                {"action": "ADD", "name": "Москва", "kind": "city", "affectedAirports": [{"name": "Внуково", "icao": "UUWW", "kind": "airport"}]},
+                {"action": "ADD", "name": "Казань", "icao": "UWKD", "kind": "airport"},
+            ]},
+            {"timestamp": "2026-11-01T00:10:00+00:00", "events": [
+                {"action": "REMOVE", "name": "Внуково", "icao": "UUWW", "kind": "airport"},
+            ]},
+        ]
+        active = build_active(history)
+        self.assertEqual([item["name"] for item in active], ["Казань"])
     def test_archived_history_replays_without_empty_or_unresolved_targets(self):
         archive_path = ROOT / "data" / "messages.json"
         with archive_path.open(encoding="utf-8") as f:
