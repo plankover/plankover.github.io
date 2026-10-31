@@ -19651,11 +19651,11 @@
     "chatId": -1003822338715,
     "messageId": 5270,
     "timestamp": "2026-10-31T18:25:51+00:00",
-    "text": "🔴 а/д Северный, Иваново (🛩️ Южный, UUIO) / 70 км",
+    "text": "🔴 а/д Северный, Иваново (🛩️ Южный, UUBI) / 70 км",
     "sourceUrl": "https://t.me/PlanKoverTDay/5270",
     "events": [
       {
-        "id": "ca2752cc149c99d6",
+        "id": "d05367f05fdb00a1",
         "action": "ADD",
         "name": "Северный, Иваново",
         "icao": null,
@@ -19664,11 +19664,11 @@
         "radiusKm": 70.0,
         "messageTimestamp": "2026-10-31T18:25:51+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/5270",
-        "text": "🔴 а/д Северный, Иваново (🛩️ Южный, UUIO) / 70 км",
+        "text": "🔴 а/д Северный, Иваново (🛩️ Южный, UUBI) / 70 км",
         "affectedAirports": [
           {
             "name": "Южный",
-            "icao": "UUIO",
+            "icao": "UUBI",
             "kind": "airport"
           }
         ],
@@ -19702,21 +19702,28 @@
     "chatId": -1003822338715,
     "messageId": 5272,
     "timestamp": "2026-10-31T19:34:57+00:00",
-    "text": "🟢🛩️ Иваново - Южный, UUBI",
+    "text": "🟢 а/д Северный (🛩️ Иваново - Южный, UUBI)",
     "sourceUrl": "https://t.me/PlanKoverTDay/5272",
     "events": [
       {
-        "id": "474991e97a7539df",
+        "id": "91402b2a9f2bc96a",
         "action": "REMOVE",
-        "name": "Южный",
-        "icao": "UUBI",
+        "name": "Северный",
+        "icao": null,
         "kind": "airport",
         "type": "full",
         "radiusKm": null,
         "messageTimestamp": "2026-10-31T19:34:57+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/5272",
-        "text": "🟢🛩️ Иваново - Южный, UUBI",
-        "inKta": true
+        "text": "🟢 а/д Северный (🛩️ Иваново - Южный, UUBI)",
+        "affectedAirports": [
+          {
+            "name": "Южный",
+            "icao": "UUBI",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false
       }
     ]
   }
