@@ -1,4 +1,4 @@
-import json, os, time, urllib.error, urllib.parse, urllib.request
+import json, os, re, time, urllib.error, urllib.parse, urllib.request
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from parser import parse_message
@@ -157,7 +157,16 @@ def build_active(history):
             if action=="CLEAR":active.clear()
             elif action=="REMOVE":
                 targets=e.get("targets") or ([e] if e.get("name") else [])
-                for target in targets:active.pop(key(target),None)
+                removed_icaos = {str(t.get("icao") or "").strip().upper() for t in targets if t.get("kind") == "airport" and t.get("icao")}
+                removed_names = {re.sub(r"[^а-яa-z0-9]", "", str(t.get("name") or "").casefold()) for t in targets if t.get("kind") == "airport" and t.get("name")}
+                for target in targets:
+                    active.pop(key(target), None)
+                # Remove area zones that explicitly listed the reopened airport.
+                if removed_icaos or removed_names:
+                    for active_key, restriction in list(active.items()):
+                        affected = restriction.get("affectedAirports", [])
+                        if any(str(a.get("icao") or "").strip().upper() in removed_icaos or re.sub(r"[^а-яa-z0-9]", "", str(a.get("name") or "").casefold()) in removed_names for a in affected):
+                            active.pop(active_key, None)
             elif action=="ADD" and e.get("name"):
                 active[key(e)]=dict(e)
     return list(active.values())
