@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T22:00:17.643149+00:00",
+  "updatedAt": "2026-10-31T22:05:21.505493+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -127,7 +127,7 @@
       "lon": 45.0190437
     },
     {
-      "id": "6de70616aea210f7",
+      "id": "6d68c3d026a7b3b1",
       "action": "ADD",
       "name": "Сурское",
       "icao": null,
@@ -158,6 +158,45 @@
       "lon": 46.7234429
     },
     {
+      "id": "ad0237167f45f2f5",
+      "action": "ADD",
+      "name": "Ульяновск",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 50.0,
+      "messageTimestamp": "2026-10-31T21:34:11+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5275",
+      "text": "🔴 Ульяновск (🛩️ Баратаевка, UWLL) / 50 км",
+      "affectedAirports": [
+        {
+          "name": "Баратаевка",
+          "icao": "UWLL",
+          "kind": "airport",
+          "lat": 54.2690213,
+          "lon": 48.2248287
+        }
+      ],
+      "inKta": false,
+      "lat": 54.3150278,
+      "lon": 48.403373
+    },
+    {
+      "id": "980805b563ff001c",
+      "action": "ADD",
+      "name": "Базарный Сызган",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 50.0,
+      "messageTimestamp": "2026-10-31T21:34:11+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5275",
+      "text": "🔴 Базарный Сызган / 50 км",
+      "inKta": false,
+      "lat": 53.7482676,
+      "lon": 46.7584818
+    },
+    {
       "id": "b5b15252f608e464",
       "action": "ADD",
       "name": "Саранск",
@@ -173,34 +212,52 @@
       "lon": 45.2152086
     },
     {
-      "id": "f3b6d9d8f94cd6b5",
+      "id": "1e51a461f434bd52",
       "action": "ADD",
       "name": "Чебоксары",
-      "icao": "UWKS",
-      "kind": "airport",
+      "icao": null,
+      "kind": "city",
       "type": "full",
-      "radiusKm": null,
+      "radiusKm": 50.0,
       "messageTimestamp": "2026-10-31T21:53:58+00:00",
       "sourceUrl": "https://t.me/PlanKoverTDay/5277",
-      "text": "🔴🛩️ Чебоксары, UWKS",
-      "inKta": true,
-      "lat": 56.0880752,
-      "lon": 47.3382761
+      "text": "🔴 Чебоксары (🛩️ Чебоксары, UWKS) / 50 км",
+      "affectedAirports": [
+        {
+          "name": "Чебоксары",
+          "icao": "UWKS",
+          "kind": "airport",
+          "lat": 56.0880752,
+          "lon": 47.3382761
+        }
+      ],
+      "inKta": false,
+      "lat": 56.1399598,
+      "lon": 47.2480999
     },
     {
-      "id": "e3c130c4a6763797",
+      "id": "a8d0eb5a07aaa2a8",
       "action": "ADD",
-      "name": "Курумоч",
-      "icao": "UWWW",
-      "kind": "airport",
+      "name": "Самара",
+      "icao": null,
+      "kind": "city",
       "type": "full",
-      "radiusKm": null,
+      "radiusKm": 100.0,
       "messageTimestamp": "2026-10-31T21:59:06+00:00",
       "sourceUrl": "https://t.me/PlanKoverTDay/5278",
-      "text": "🔴🛩️ Самара - Курумоч, UWWW",
-      "inKta": true,
-      "lat": 53.5057511,
-      "lon": 50.1569939
+      "text": "🔴 Самара (🛩️ Курумоч, UWWW) / 100 км",
+      "affectedAirports": [
+        {
+          "name": "Курумоч",
+          "icao": "UWWW",
+          "kind": "airport",
+          "lat": 53.5057511,
+          "lon": 50.1569939
+        }
+      ],
+      "inKta": false,
+      "lat": 53.1956255,
+      "lon": 50.1014927
     }
   ]
 }
