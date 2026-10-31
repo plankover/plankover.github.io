@@ -46,17 +46,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4454",
     "events": [
       {
-        "id": "e48f1df7e7917efa",
+        "id": "b8fd2ec790805d9f",
         "action": "REMOVE",
         "name": "КАЛУГА (Грабцево)",
         "icao": null,
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
         "messageTimestamp": "2026-10-06T11:29:01+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4454",
-        "text": "🟢 Аэропорт КАЛУГА (Грабцево)                                                                     ",
-        "inKta": false
+        "text": "🟢 Аэропорт КАЛУГА (Грабцево)                                                                     "
       }
     ]
   },
@@ -200,17 +198,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4620",
     "events": [
       {
-        "id": "26731308681156bd",
+        "id": "c49c7b364c6e1fbf",
         "action": "REMOVE",
         "name": "САРАТОВ (Гагарин)",
         "icao": null,
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
         "messageTimestamp": "2026-10-11T00:31:00+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4620",
-        "text": "🟢  Аэропорт САРАТОВ (Гагарин)",
-        "inKta": false
+        "text": "🟢  Аэропорт САРАТОВ (Гагарин)"
       }
     ]
   },
@@ -222,17 +218,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4621",
     "events": [
       {
-        "id": "7e74c8be9476c086",
+        "id": "9a006a4f9a85e51b",
         "action": "REMOVE",
         "name": "ВОЛГОГРАД",
         "icao": null,
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
         "messageTimestamp": "2026-10-11T00:42:52+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4621",
-        "text": "🟢 Аэропорт ВОЛГОГРАД",
-        "inKta": false
+        "text": "🟢 Аэропорт ВОЛГОГРАД"
       }
     ]
   },
@@ -244,17 +238,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4622",
     "events": [
       {
-        "id": "c0deb8a14bfca109",
+        "id": "d56db468699c2b5b",
         "action": "REMOVE",
         "name": "САМАРА (Курумоч)",
         "icao": null,
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
         "messageTimestamp": "2026-10-11T00:56:55+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4622",
-        "text": "🟢 Аэропорт САМАРА (Курумоч)",
-        "inKta": false
+        "text": "🟢 Аэропорт САМАРА (Курумоч)"
       }
     ]
   },
@@ -305,17 +297,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4625",
     "events": [
       {
-        "id": "a6e8e7d19dc0be41",
+        "id": "bbe7e4d0d96428a9",
         "action": "REMOVE",
         "name": "НИЖНИЙ НОВГОРОД (Чкалов)",
         "icao": null,
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
         "messageTimestamp": "2026-10-11T03:08:48+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4625",
-        "text": "🟢  Аэропорт НИЖНИЙ НОВГОРОД (Чкалов)",
-        "inKta": false
+        "text": "🟢  Аэропорт НИЖНИЙ НОВГОРОД (Чкалов)"
       }
     ]
   },
@@ -344,17 +334,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4627",
     "events": [
       {
-        "id": "22a210b9e67bc9ec",
+        "id": "b3b821d58a49fe0a",
         "action": "REMOVE",
         "name": "СОЧИ",
         "icao": null,
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
         "messageTimestamp": "2026-10-11T06:23:21+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4627",
-        "text": "🟢 Аэропорт СОЧИ",
-        "inKta": false
+        "text": "🟢 Аэропорт СОЧИ"
       }
     ]
   },
@@ -366,17 +354,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4628",
     "events": [
       {
-        "id": "f4ed273866685243",
+        "id": "a633e9002f57b62d",
         "action": "REMOVE",
         "name": "СОЧИ",
         "icao": null,
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
         "messageTimestamp": "2026-10-11T08:12:49+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4628",
-        "text": "🟢 Аэропорт СОЧИ",
-        "inKta": false
+        "text": "🟢 Аэропорт СОЧИ"
       }
     ]
   },
@@ -410,17 +396,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4630",
     "events": [
       {
-        "id": "6a51a233538d5b25",
+        "id": "832ea38cf8e1dee3",
         "action": "REMOVE",
         "name": "СОЧИ",
         "icao": null,
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
         "messageTimestamp": "2026-10-11T10:32:12+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4630",
-        "text": "🟢 Аэропорт СОЧИ",
-        "inKta": false
+        "text": "🟢 Аэропорт СОЧИ"
       }
     ]
   },
@@ -454,17 +438,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4632",
     "events": [
       {
-        "id": "8d1770c832064f1a",
+        "id": "405ac180c19e9008",
         "action": "REMOVE",
         "name": "КАЛУГА (Грабцево)",
         "icao": null,
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
         "messageTimestamp": "2026-10-11T14:49:25+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4632",
-        "text": "🟢 Аэропорт КАЛУГА (Грабцево)",
-        "inKta": false
+        "text": "🟢 Аэропорт КАЛУГА (Грабцево)"
       }
     ]
   },
@@ -1060,17 +1042,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4648",
     "events": [
       {
-        "id": "69736bade09d6ca4",
+        "id": "4f2b32b2365b8b33",
         "action": "REMOVE",
         "name": "КАЛУГА (Грабцево)",
         "icao": null,
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
         "messageTimestamp": "2026-10-11T20:28:17+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4648",
-        "text": "🟢 Аэропорт КАЛУГА (Грабцево)",
-        "inKta": false
+        "text": "🟢 Аэропорт КАЛУГА (Грабцево)"
       }
     ]
   },
@@ -1120,17 +1100,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4651",
     "events": [
       {
-        "id": "f382c55bd429e7bc",
+        "id": "fdb4a3e21916a145",
         "action": "REMOVE",
         "name": "СОЧИ",
         "icao": null,
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
         "messageTimestamp": "2026-10-12T16:29:36+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4651",
-        "text": "🟢 Аэропорт СОЧИ",
-        "inKta": false
+        "text": "🟢 Аэропорт СОЧИ"
       }
     ]
   },
@@ -1164,17 +1142,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4653",
     "events": [
       {
-        "id": "bea2b98841ee4209",
+        "id": "1be691a87a33cb38",
         "action": "REMOVE",
         "name": "ВОЛГОГРАД",
         "icao": null,
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
         "messageTimestamp": "2026-10-12T16:54:08+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4653",
-        "text": "🟢 Аэропорт ВОЛГОГРАД",
-        "inKta": false
+        "text": "🟢 Аэропорт ВОЛГОГРАД"
       }
     ]
   },
@@ -1743,17 +1719,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4671",
     "events": [
       {
-        "id": "a8f0ebd0cea5f2b3",
+        "id": "a6fcc91475c06618",
         "action": "REMOVE",
         "name": "ГЕЛЕНДЖИК",
         "icao": null,
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
         "messageTimestamp": "2026-10-13T00:08:48+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4671",
-        "text": "🟢 Аэропорт ГЕЛЕНДЖИК",
-        "inKta": false
+        "text": "🟢 Аэропорт ГЕЛЕНДЖИК"
       }
     ]
   },
@@ -1787,17 +1761,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4673",
     "events": [
       {
-        "id": "ff03c981d23e9f13",
+        "id": "a13187d8c8d919ac",
         "action": "REMOVE",
         "name": "КРАСНОДАР (Пашковский)",
         "icao": null,
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
         "messageTimestamp": "2026-10-13T02:28:49+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4673",
-        "text": "🟢 Аэропорт КРАСНОДАР (Пашковский)",
-        "inKta": false
+        "text": "🟢 Аэропорт КРАСНОДАР (Пашковский)"
       }
     ]
   },
@@ -1809,17 +1781,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4674",
     "events": [
       {
-        "id": "deabc473b19c26d2",
+        "id": "43f7235106751f08",
         "action": "REMOVE",
         "name": "ЧЕРЕПОВЕЦ",
         "icao": null,
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
         "messageTimestamp": "2026-10-13T02:29:08+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4674",
-        "text": "🟢  Аэропорт ЧЕРЕПОВЕЦ                                                        ",
-        "inKta": false
+        "text": "🟢  Аэропорт ЧЕРЕПОВЕЦ                                                        "
       }
     ]
   },
@@ -1983,17 +1953,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4676",
     "events": [
       {
-        "id": "f4fa918def904967",
+        "id": "54cb66ff1c8f6a5a",
         "action": "REMOVE",
         "name": "ЖУКОВСКИЙ (Раменское)",
         "icao": null,
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
         "messageTimestamp": "2026-10-13T04:23:00+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4676",
-        "text": "🟢 Аэропорт ЖУКОВСКИЙ (Раменское)",
-        "inKta": false
+        "text": "🟢 Аэропорт ЖУКОВСКИЙ (Раменское)"
       }
     ]
   },
@@ -2027,17 +1995,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4678",
     "events": [
       {
-        "id": "63883e1338478b1b",
+        "id": "df5d873fc672c9f9",
         "action": "REMOVE",
         "name": "ДОМОДЕДОВО",
         "icao": null,
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
         "messageTimestamp": "2026-10-13T05:48:10+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4678",
-        "text": "🟢 Аэропорт ДОМОДЕДОВО",
-        "inKta": false
+        "text": "🟢 Аэропорт ДОМОДЕДОВО"
       }
     ]
   },
@@ -2071,17 +2037,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4680",
     "events": [
       {
-        "id": "0d336e517a823bc9",
+        "id": "8d6774521e59836c",
         "action": "REMOVE",
         "name": "ТАМБОВ (Донское)",
         "icao": null,
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
         "messageTimestamp": "2026-10-13T07:42:27+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4680",
-        "text": "🟢 Аэропорт ТАМБОВ (Донское)",
-        "inKta": false
+        "text": "🟢 Аэропорт ТАМБОВ (Донское)"
       }
     ]
   },
@@ -2188,17 +2152,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4686",
     "events": [
       {
-        "id": "444f199a0b144559",
+        "id": "57635ec6de71df4b",
         "action": "REMOVE",
         "name": "СОЧИ",
         "icao": null,
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
         "messageTimestamp": "2026-10-13T19:17:27+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4686",
-        "text": "🟢 Аэропорт СОЧИ",
-        "inKta": false
+        "text": "🟢 Аэропорт СОЧИ"
       }
     ]
   },
@@ -2776,17 +2738,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4697",
     "events": [
       {
-        "id": "61b2d914dca1cbf0",
+        "id": "780312745221507a",
         "action": "REMOVE",
         "name": "НИЖНИЙ НОВГОРОД (Чкалов)",
         "icao": null,
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
         "messageTimestamp": "2026-10-14T00:55:28+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4697",
-        "text": "🟢  Аэропорт НИЖНИЙ НОВГОРОД (Чкалов)",
-        "inKta": false
+        "text": "🟢  Аэропорт НИЖНИЙ НОВГОРОД (Чкалов)"
       }
     ]
   },
@@ -2820,17 +2780,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4699",
     "events": [
       {
-        "id": "9efa88290d779378",
+        "id": "cf5c820e75b34943",
         "action": "REMOVE",
         "name": "ВОЛГОГРАД",
         "icao": null,
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
         "messageTimestamp": "2026-10-14T02:53:50+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4699",
-        "text": "🟢 Аэропорт ВОЛГОГРАД",
-        "inKta": false
+        "text": "🟢 Аэропорт ВОЛГОГРАД"
       }
     ]
   },
@@ -2876,17 +2834,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4702",
     "events": [
       {
-        "id": "ce6bfb3f0161f7aa",
+        "id": "d74a6efc77eb7170",
         "action": "REMOVE",
         "name": "САРАТОВ (Гагарин)",
         "icao": null,
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
         "messageTimestamp": "2026-10-14T04:36:46+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4702",
-        "text": "🟢  Аэропорт САРАТОВ (Гагарин)",
-        "inKta": false
+        "text": "🟢  Аэропорт САРАТОВ (Гагарин)"
       }
     ]
   },
@@ -2971,17 +2927,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4707",
     "events": [
       {
-        "id": "7cbc6e8c391c4813",
+        "id": "28957f14a810fb77",
         "action": "REMOVE",
         "name": "СОЧИ",
         "icao": null,
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
         "messageTimestamp": "2026-10-14T12:49:27+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4707",
-        "text": "🟢 Аэропорт СОЧИ",
-        "inKta": false
+        "text": "🟢 Аэропорт СОЧИ"
       }
     ]
   },
@@ -3163,17 +3117,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4716",
     "events": [
       {
-        "id": "5626e2f144d22fd6",
+        "id": "06844f0b121a059c",
         "action": "REMOVE",
         "name": "ВОЛГОГРАД",
         "icao": null,
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
         "messageTimestamp": "2026-10-14T20:45:09+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4716",
-        "text": "🟢 Аэропорт ВОЛГОГРАД",
-        "inKta": false
+        "text": "🟢 Аэропорт ВОЛГОГРАД"
       }
     ]
   },
@@ -3202,17 +3154,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4718",
     "events": [
       {
-        "id": "ce8d2e924803fe0b",
+        "id": "754f735169c3f6ec",
         "action": "REMOVE",
         "name": "ДОМОДЕДОВО",
         "icao": null,
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
         "messageTimestamp": "2026-10-14T21:41:32+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4718",
-        "text": "🟢 Аэропорт ДОМОДЕДОВО",
-        "inKta": false
+        "text": "🟢 Аэропорт ДОМОДЕДОВО"
       }
     ]
   },
@@ -3390,17 +3340,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4727",
     "events": [
       {
-        "id": "96ca7211e4039da9",
+        "id": "afc10c46ff3b0e51",
         "action": "REMOVE",
         "name": "ГЕЛЕНДЖИК",
         "icao": null,
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
         "messageTimestamp": "2026-10-15T03:28:18+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4727",
-        "text": "🟢 Аэропорт ГЕЛЕНДЖИК",
-        "inKta": false
+        "text": "🟢 Аэропорт ГЕЛЕНДЖИК"
       }
     ]
   },
@@ -3412,17 +3360,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4728",
     "events": [
       {
-        "id": "123f5ffee1655a6a",
+        "id": "7fd45071ffbf37ce",
         "action": "REMOVE",
         "name": "САРАНСК",
         "icao": null,
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
         "messageTimestamp": "2026-10-15T04:16:55+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4728",
-        "text": "🟢 Аэропорт САРАНСК",
-        "inKta": false
+        "text": "🟢 Аэропорт САРАНСК"
       }
     ]
   },
@@ -3512,17 +3458,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4733",
     "events": [
       {
-        "id": "c08ccdcda2869d57",
+        "id": "d434b7478ddc8f28",
         "action": "REMOVE",
         "name": "ПЕНЗА",
         "icao": null,
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
         "messageTimestamp": "2026-10-15T06:22:57+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4733",
-        "text": "🟢 Аэропорт ПЕНЗА",
-        "inKta": false
+        "text": "🟢 Аэропорт ПЕНЗА"
       }
     ]
   },
@@ -3690,17 +3634,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4742",
     "events": [
       {
-        "id": "1e18eacfe64641ae",
+        "id": "dca49b0d7b0d6ffc",
         "action": "REMOVE",
         "name": "САРАТОВ (Гагарин)",
         "icao": null,
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
         "messageTimestamp": "2026-10-15T09:32:32+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4742",
-        "text": "🟢  Аэропорт САРАТОВ (Гагарин)",
-        "inKta": false
+        "text": "🟢  Аэропорт САРАТОВ (Гагарин)"
       }
     ]
   },
@@ -3824,17 +3766,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4749",
     "events": [
       {
-        "id": "4c2b0ae4ba0f1c8a",
+        "id": "ab466bd1363f66a5",
         "action": "REMOVE",
         "name": "ГЕЛЕНДЖИК",
         "icao": null,
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
         "messageTimestamp": "2026-10-15T14:19:44+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4749",
-        "text": "🟢  Аэропорт ГЕЛЕНДЖИК",
-        "inKta": false
+        "text": "🟢  Аэропорт ГЕЛЕНДЖИК"
       }
     ]
   },
@@ -3907,17 +3847,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4753",
     "events": [
       {
-        "id": "06e826dde99e4509",
+        "id": "ede0d920c6aef619",
         "action": "REMOVE",
         "name": "СОЧИ",
         "icao": null,
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
         "messageTimestamp": "2026-10-15T17:23:06+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4753",
-        "text": "🟢 Аэропорт СОЧИ",
-        "inKta": false
+        "text": "🟢 Аэропорт СОЧИ"
       }
     ]
   },
@@ -4012,17 +3950,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4756",
     "events": [
       {
-        "id": "a496edf674a7adaa",
+        "id": "4b91b29f211c7d5b",
         "action": "REMOVE",
         "name": "СОЧИ",
         "icao": null,
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
         "messageTimestamp": "2026-10-15T19:02:26+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4756",
-        "text": "🟢 Аэропорт СОЧИ",
-        "inKta": false
+        "text": "🟢 Аэропорт СОЧИ"
       }
     ]
   },
@@ -4693,17 +4629,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4780",
     "events": [
       {
-        "id": "34b0bfbd4abe8784",
+        "id": "37ebfa86cd70640d",
         "action": "REMOVE",
         "name": "ПУЛКОВО",
         "icao": null,
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
         "messageTimestamp": "2026-10-16T03:03:08+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4780",
-        "text": "🟢 Аэропорт ПУЛКОВО",
-        "inKta": false
+        "text": "🟢 Аэропорт ПУЛКОВО"
       }
     ]
   },
@@ -4732,17 +4666,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4782",
     "events": [
       {
-        "id": "e619f48d33008d4e",
+        "id": "768ba9788f734e84",
         "action": "REMOVE",
         "name": "САРАНСК",
         "icao": null,
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
         "messageTimestamp": "2026-10-16T03:21:23+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4782",
-        "text": "🟢 Аэропорт САРАНСК",
-        "inKta": false
+        "text": "🟢 Аэропорт САРАНСК"
       }
     ]
   },
@@ -4881,17 +4813,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4789",
     "events": [
       {
-        "id": "65214e1e5af94cfb",
+        "id": "961d8b6a0b655f3a",
         "action": "REMOVE",
         "name": "ПСКОВ",
         "icao": null,
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
         "messageTimestamp": "2026-10-16T04:27:00+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4789",
-        "text": "🟢  Аэропорт ПСКОВ",
-        "inKta": false
+        "text": "🟢  Аэропорт ПСКОВ"
       }
     ]
   },
@@ -4976,17 +4906,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4794",
     "events": [
       {
-        "id": "09d2f8dd20d8b9e3",
+        "id": "3ac160b7d2d30852",
         "action": "REMOVE",
         "name": "ЧЕРЕПОВЕЦ",
         "icao": null,
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
         "messageTimestamp": "2026-10-16T05:14:54+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4794",
-        "text": "🟢 Аэропорт ЧЕРЕПОВЕЦ ",
-        "inKta": false
+        "text": "🟢 Аэропорт ЧЕРЕПОВЕЦ "
       }
     ]
   },
@@ -4998,17 +4926,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4795",
     "events": [
       {
-        "id": "8f1fc500afe7011e",
+        "id": "ede3787af8ca4367",
         "action": "REMOVE",
         "name": "КАЗАНЬ",
         "icao": null,
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
         "messageTimestamp": "2026-10-16T05:26:41+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4795",
-        "text": "🟢  Аэропорт КАЗАНЬ",
-        "inKta": false
+        "text": "🟢  Аэропорт КАЗАНЬ"
       }
     ]
   },
@@ -5020,17 +4946,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4796",
     "events": [
       {
-        "id": "c2f591ccbacb1995",
+        "id": "08db7b5b4c2b20ca",
         "action": "REMOVE",
         "name": "ЯРОСЛАВЛЬ (Туношна)",
         "icao": null,
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
         "messageTimestamp": "2026-10-16T05:51:17+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4796",
-        "text": "🟢  Аэропорт ЯРОСЛАВЛЬ (Туношна)",
-        "inKta": false
+        "text": "🟢  Аэропорт ЯРОСЛАВЛЬ (Туношна)"
       }
     ]
   },
@@ -5059,17 +4983,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4798",
     "events": [
       {
-        "id": "9b6ce8ff14164dd7",
+        "id": "eff338dd8369b9ee",
         "action": "REMOVE",
         "name": "КИРОВ (Победилово)",
         "icao": null,
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
         "messageTimestamp": "2026-10-16T06:05:55+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4798",
-        "text": "🟢 Аэропорт КИРОВ (Победилово)",
-        "inKta": false
+        "text": "🟢 Аэропорт КИРОВ (Победилово)"
       }
     ]
   },
@@ -5081,17 +5003,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4799",
     "events": [
       {
-        "id": "a017de83252eed41",
+        "id": "3dfeef372c907f2b",
         "action": "REMOVE",
         "name": "ПУЛКОВО",
         "icao": null,
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
         "messageTimestamp": "2026-10-16T06:07:00+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4799",
-        "text": "🟢 Аэропорт ПУЛКОВО",
-        "inKta": false
+        "text": "🟢 Аэропорт ПУЛКОВО"
       }
     ]
   },
@@ -5103,17 +5023,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4800",
     "events": [
       {
-        "id": "14cb6de8619e7490",
+        "id": "30c50fd3ce117573",
         "action": "REMOVE",
         "name": "САМАРА (Курумоч)",
         "icao": null,
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
         "messageTimestamp": "2026-10-16T06:27:38+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4800",
-        "text": "🟢 Аэропорт САМАРА (Курумоч)",
-        "inKta": false
+        "text": "🟢 Аэропорт САМАРА (Курумоч)"
       }
     ]
   },
@@ -5169,17 +5087,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4803",
     "events": [
       {
-        "id": "22de24da0a51d6a0",
+        "id": "ec7d20d1f00a6d1b",
         "action": "REMOVE",
         "name": "НИЖНЕКАМСК (Бегишево)",
         "icao": null,
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
         "messageTimestamp": "2026-10-16T06:32:37+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4803",
-        "text": "🟢 Аэропорт НИЖНЕКАМСК (Бегишево)",
-        "inKta": false
+        "text": "🟢 Аэропорт НИЖНЕКАМСК (Бегишево)"
       }
     ]
   },
@@ -5191,17 +5107,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4804",
     "events": [
       {
-        "id": "c4c7e8fb09607f3e",
+        "id": "d88dde4bfecd9870",
         "action": "REMOVE",
         "name": "ГЕЛЕНДЖИК",
         "icao": null,
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
         "messageTimestamp": "2026-10-16T06:50:05+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4804",
-        "text": "🟢  Аэропорт ГЕЛЕНДЖИК",
-        "inKta": false
+        "text": "🟢  Аэропорт ГЕЛЕНДЖИК"
       }
     ]
   },
@@ -5247,17 +5161,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4807",
     "events": [
       {
-        "id": "c96d610eb105b0a4",
+        "id": "babfa04af555038d",
         "action": "REMOVE",
         "name": "ИЖЕВСК",
         "icao": null,
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
         "messageTimestamp": "2026-10-16T08:01:48+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4807",
-        "text": "🟢 Аэропорт ИЖЕВСК",
-        "inKta": false
+        "text": "🟢 Аэропорт ИЖЕВСК"
       }
     ]
   },
@@ -5269,17 +5181,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4808",
     "events": [
       {
-        "id": "6ffd6843a8dee49f",
+        "id": "73100996bf6f1dd6",
         "action": "REMOVE",
         "name": "ПЕРМЬ (Большое Савино)",
         "icao": null,
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
         "messageTimestamp": "2026-10-16T08:39:03+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4808",
-        "text": "🟢  Аэропорт ПЕРМЬ (Большое Савино)",
-        "inKta": false
+        "text": "🟢  Аэропорт ПЕРМЬ (Большое Савино)"
       }
     ]
   },
@@ -5313,17 +5223,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4810",
     "events": [
       {
-        "id": "770a2846a2265122",
+        "id": "7c7bf1f2bf310bbe",
         "action": "REMOVE",
         "name": "КАЛУГА (Грабцево)",
         "icao": null,
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
         "messageTimestamp": "2026-10-16T09:27:25+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4810",
-        "text": "🟢 Аэропорт КАЛУГА (Грабцево)",
-        "inKta": false
+        "text": "🟢 Аэропорт КАЛУГА (Грабцево)"
       }
     ]
   },
@@ -5357,17 +5265,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4812",
     "events": [
       {
-        "id": "5c74130153225ecd",
+        "id": "5c710e2e70a3bbb0",
         "action": "REMOVE",
         "name": "ЕКАТЕРИНБУРГ (Кольцово)",
         "icao": null,
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
         "messageTimestamp": "2026-10-16T09:40:27+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4812",
-        "text": "🟢 Аэропорт ЕКАТЕРИНБУРГ (Кольцово)",
-        "inKta": false
+        "text": "🟢 Аэропорт ЕКАТЕРИНБУРГ (Кольцово)"
       }
     ]
   },
@@ -5511,17 +5417,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4820",
     "events": [
       {
-        "id": "ece1fdf335309bd4",
+        "id": "c0c73bbaf4b23da6",
         "action": "REMOVE",
         "name": "КОГАЛЫМ",
         "icao": null,
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
         "messageTimestamp": "2026-10-16T17:23:36+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4820",
-        "text": "🟢 Аэропорт КОГАЛЫМ ",
-        "inKta": false
+        "text": "🟢 Аэропорт КОГАЛЫМ "
       }
     ]
   },
@@ -5555,17 +5459,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4822",
     "events": [
       {
-        "id": "96673d3ac3b41837",
+        "id": "2113e85f48d921d4",
         "action": "REMOVE",
         "name": "ГЕЛЕНДЖИК",
         "icao": null,
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
         "messageTimestamp": "2026-10-16T18:23:03+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4822",
-        "text": "🟢 Аэропорт ГЕЛЕНДЖИК",
-        "inKta": false
+        "text": "🟢 Аэропорт ГЕЛЕНДЖИК"
       }
     ]
   },
@@ -5577,17 +5479,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4823",
     "events": [
       {
-        "id": "a9e765804151d518",
+        "id": "30212138ea54d13d",
         "action": "REMOVE",
         "name": "СУРГУТ",
         "icao": null,
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
         "messageTimestamp": "2026-10-16T18:51:40+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4823",
-        "text": "🟢 Аэропорт СУРГУТ ",
-        "inKta": false
+        "text": "🟢 Аэропорт СУРГУТ "
       }
     ]
   },
@@ -5918,17 +5818,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4835",
     "events": [
       {
-        "id": "ceaf2c40e804021a",
+        "id": "64e23739214576c4",
         "action": "REMOVE",
         "name": "КАЛУГА (Грабцево)",
         "icao": null,
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
         "messageTimestamp": "2026-10-17T04:33:58+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4835",
-        "text": "🟢 Аэропорт КАЛУГА (Грабцево)",
-        "inKta": false
+        "text": "🟢 Аэропорт КАЛУГА (Грабцево)"
       }
     ]
   },
@@ -5994,17 +5892,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4838",
     "events": [
       {
-        "id": "8ff48dbff6611715",
+        "id": "a357d80783f84efb",
         "action": "REMOVE",
         "name": "ЧЕРЕПОВЕЦ",
         "icao": null,
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
         "messageTimestamp": "2026-10-17T06:41:58+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4838",
-        "text": "🟢 Аэропорт ЧЕРЕПОВЕЦ",
-        "inKta": false
+        "text": "🟢 Аэропорт ЧЕРЕПОВЕЦ"
       }
     ]
   },
@@ -6083,17 +5979,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4842",
     "events": [
       {
-        "id": "1efdad1943d5d036",
+        "id": "7ac0b1555f438a6e",
         "action": "REMOVE",
         "name": "ГЕЛЕНДЖИК",
         "icao": null,
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
         "messageTimestamp": "2026-10-17T13:23:15+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4842",
-        "text": "🟢  Аэропорт ГЕЛЕНДЖИК",
-        "inKta": false
+        "text": "🟢  Аэропорт ГЕЛЕНДЖИК"
       }
     ]
   },
@@ -6733,17 +6627,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4865",
     "events": [
       {
-        "id": "4c8175e69f630c5c",
+        "id": "243ca6e3d006b742",
         "action": "REMOVE",
         "name": "ПУЛКОВО",
         "icao": null,
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
         "messageTimestamp": "2026-10-18T07:00:02+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4865",
-        "text": "🟢 Аэропорт ПУЛКОВО",
-        "inKta": false
+        "text": "🟢 Аэропорт ПУЛКОВО"
       }
     ]
   },
@@ -6755,17 +6647,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4866",
     "events": [
       {
-        "id": "7be4cf1c0d3b8a59",
+        "id": "47f394b0c651e29d",
         "action": "REMOVE",
         "name": "ПСКОВ",
         "icao": null,
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
         "messageTimestamp": "2026-10-18T07:35:44+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4866",
-        "text": "🟢  Аэропорт ПСКОВ",
-        "inKta": false
+        "text": "🟢  Аэропорт ПСКОВ"
       }
     ]
   },
@@ -7131,17 +7021,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4878",
     "events": [
       {
-        "id": "11b9ae10344d2f7e",
+        "id": "f2e6c00c756fee5e",
         "action": "REMOVE",
         "name": "УЛЬЯНОВСК (Баратаевка)",
         "icao": null,
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
         "messageTimestamp": "2026-10-19T01:17:03+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4878",
-        "text": "🟢 Аэропорт УЛЬЯНОВСК (Баратаевка)",
-        "inKta": false
+        "text": "🟢 Аэропорт УЛЬЯНОВСК (Баратаевка)"
       }
     ]
   },
@@ -7197,17 +7085,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4881",
     "events": [
       {
-        "id": "8299490a7f577ac3",
+        "id": "aca8fc2770eeeae8",
         "action": "REMOVE",
         "name": "САМАРА (Курумоч)",
         "icao": null,
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
         "messageTimestamp": "2026-10-19T02:15:32+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4881",
-        "text": "🟢 Аэропорт САМАРА (Курумоч)",
-        "inKta": false
+        "text": "🟢 Аэропорт САМАРА (Курумоч)"
       }
     ]
   },
@@ -7293,17 +7179,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4885",
     "events": [
       {
-        "id": "7d1e2bfa8c01df4b",
+        "id": "e4ca0ef11a32a461",
         "action": "REMOVE",
         "name": "ГЕЛЕНДЖИК",
         "icao": null,
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
         "messageTimestamp": "2026-10-19T05:41:34+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4885",
-        "text": "🟢  Аэропорт ГЕЛЕНДЖИК",
-        "inKta": false
+        "text": "🟢  Аэропорт ГЕЛЕНДЖИК"
       }
     ]
   },
@@ -7315,17 +7199,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4886",
     "events": [
       {
-        "id": "656776e2c114231a",
+        "id": "b6198be0423db419",
         "action": "REMOVE",
         "name": "ПЕРМЬ (Большое Савино)",
         "icao": null,
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
         "messageTimestamp": "2026-10-19T07:01:26+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4886",
-        "text": "🟢  Аэропорт ПЕРМЬ (Большое Савино)",
-        "inKta": false
+        "text": "🟢  Аэропорт ПЕРМЬ (Большое Савино)"
       }
     ]
   },
@@ -7375,17 +7257,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4889",
     "events": [
       {
-        "id": "eb164cfcd966c333",
+        "id": "6a215d5dbb594f5f",
         "action": "REMOVE",
         "name": "КАЛУГА (Грабцево)",
         "icao": null,
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
         "messageTimestamp": "2026-10-19T10:46:05+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4889",
-        "text": "🟢 Аэропорт КАЛУГА (Грабцево)",
-        "inKta": false
+        "text": "🟢 Аэропорт КАЛУГА (Грабцево)"
       }
     ]
   },
@@ -10380,17 +10260,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4987",
     "events": [
       {
-        "id": "6cb22c7dcfd0d486",
+        "id": "803a37d1f8d61bec",
         "action": "REMOVE",
         "name": "ШЕРЕМЕТЬЕВО",
         "icao": null,
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
         "messageTimestamp": "2026-10-23T13:50:20+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4987",
-        "text": "🟢 Аэропорт ШЕРЕМЕТЬЕВО",
-        "inKta": false
+        "text": "🟢 Аэропорт ШЕРЕМЕТЬЕВО"
       }
     ]
   },
@@ -15381,17 +15259,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/5132",
     "events": [
       {
-        "id": "3f510eac707184d1",
-        "action": "ADD",
+        "id": "843a7889616666f7",
+        "action": "REMOVE",
         "name": "ЖУКОВСКИЙ (Раменское)",
         "icao": null,
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
         "messageTimestamp": "2026-10-28T15:12:21+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/5132",
-        "text": "⬜️Аэропорт ЖУКОВСКИЙ (Раменское)",
-        "inKta": false
+        "text": "⬜️Аэропорт ЖУКОВСКИЙ (Раменское)"
       }
     ]
   },
@@ -16986,17 +16862,15 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/5188",
     "events": [
       {
-        "id": "fca2793a3666ee1f",
-        "action": "ADD",
+        "id": "78cbe515c8e9a1d5",
+        "action": "REMOVE",
         "name": "КАЛУГА (Грабцево)",
         "icao": null,
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
         "messageTimestamp": "2026-10-29T14:36:55+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/5188",
-        "text": "⬜️Аэропорт КАЛУГА (Грабцево)",
-        "inKta": false
+        "text": "⬜️Аэропорт КАЛУГА (Грабцево)"
       }
     ]
   },
