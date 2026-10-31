@@ -267,6 +267,17 @@
         "messageTimestamp": "2026-10-11T01:06:25+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4623",
         "text": "🟢  Аэропорты"
+      },
+      {
+        "id": "14f5a4926a23b3a0",
+        "action": "REMOVE",
+        "name": "ПЕНЗА",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "messageTimestamp": "2026-10-11T01:06:25+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4623",
+        "text": "🟢  Аэропорты"
       }
     ]
   },
@@ -323,6 +334,17 @@
         "id": "a9898ac328800d09",
         "action": "REMOVE",
         "name": "ИВАНОВО (Южный)",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "messageTimestamp": "2026-10-11T04:24:22+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4626",
+        "text": "🟢  Аэропорты"
+      },
+      {
+        "id": "d059af6df65db867",
+        "action": "REMOVE",
+        "name": "КАЛУГА (Грабцево)",
         "icao": null,
         "kind": "airport",
         "type": "full",
@@ -1001,6 +1023,17 @@
         "messageTimestamp": "2026-10-11T19:21:24+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4645",
         "text": "🟢  Аэропорты"
+      },
+      {
+        "id": "511d4549d752f488",
+        "action": "REMOVE",
+        "name": "ШЕРЕМЕТЬЕВО",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "messageTimestamp": "2026-10-11T19:21:24+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4645",
+        "text": "🟢  Аэропорты"
       }
     ]
   },
@@ -1015,6 +1048,17 @@
         "id": "fbdc73914f2db49a",
         "action": "REMOVE",
         "name": "ВНУКОВО",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "messageTimestamp": "2026-10-11T20:14:20+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4646",
+        "text": "🟢  Аэропорты"
+      },
+      {
+        "id": "ea884c11e782a958",
+        "action": "REMOVE",
+        "name": "ДОМОДЕДОВО",
         "icao": null,
         "kind": "airport",
         "type": "full",
@@ -2078,6 +2122,28 @@
         "messageTimestamp": "2026-10-13T07:57:23+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4681",
         "text": "🟢  Аэропорты"
+      },
+      {
+        "id": "79a98a4d06995301",
+        "action": "REMOVE",
+        "name": "КАЛУГА (Грабцево)",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "messageTimestamp": "2026-10-13T07:57:23+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4681",
+        "text": "🟢  Аэропорты"
+      },
+      {
+        "id": "dd9f47b8eed7c6ce",
+        "action": "REMOVE",
+        "name": "ЯРОСЛАВЛЬ (Туношна)",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "messageTimestamp": "2026-10-13T07:57:23+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4681",
+        "text": "🟢  Аэропорты"
       }
     ]
   },
@@ -2092,6 +2158,17 @@
         "id": "4886fda43cfcad99",
         "action": "REMOVE",
         "name": "ВНУКОВО",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "messageTimestamp": "2026-10-13T07:59:16+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4682",
+        "text": "🟢  Аэропорты"
+      },
+      {
+        "id": "6228275eaa4d2fb1",
+        "action": "REMOVE",
+        "name": "ШЕРЕМЕТЬЕВО",
         "icao": null,
         "kind": "airport",
         "type": "full",
@@ -2827,6 +2904,17 @@
         "messageTimestamp": "2026-10-14T03:17:50+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4700",
         "text": "🟢 Аэропорты"
+      },
+      {
+        "id": "0f68fc4cdeb5af67",
+        "action": "REMOVE",
+        "name": "САМАРА (Курумоч)",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "messageTimestamp": "2026-10-14T03:17:50+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4700",
+        "text": "🟢 Аэропорты"
       }
     ]
   },
@@ -2841,6 +2929,39 @@
         "id": "79d2a040c36b9053",
         "action": "REMOVE",
         "name": "ВНУКОВО",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "messageTimestamp": "2026-10-14T03:44:55+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4701",
+        "text": "🟢  Аэропорты"
+      },
+      {
+        "id": "7f48515fc397bd19",
+        "action": "REMOVE",
+        "name": "ДОМОДЕДОВО",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "messageTimestamp": "2026-10-14T03:44:55+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4701",
+        "text": "🟢  Аэропорты"
+      },
+      {
+        "id": "53befdbae63c8223",
+        "action": "REMOVE",
+        "name": "ЖУКОВСКИЙ (Раменское)",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "messageTimestamp": "2026-10-14T03:44:55+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4701",
+        "text": "🟢  Аэропорты"
+      },
+      {
+        "id": "ce484157005dc701",
+        "action": "REMOVE",
+        "name": "ШЕРЕМЕТЬЕВО",
         "icao": null,
         "kind": "airport",
         "type": "full",
@@ -2887,6 +3008,17 @@
         "messageTimestamp": "2026-10-14T06:15:59+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4703",
         "text": "🟢  Аэропорты"
+      },
+      {
+        "id": "5edccb16ff07b41a",
+        "action": "REMOVE",
+        "name": "ЯРОСЛАВЛЬ (Туношна)",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "messageTimestamp": "2026-10-14T06:15:59+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4703",
+        "text": "🟢  Аэропорты"
       }
     ]
   },
@@ -2918,6 +3050,17 @@
         "id": "82b582602693b8f5",
         "action": "REMOVE",
         "name": "ДОМОДЕДОВО",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "messageTimestamp": "2026-10-14T10:04:32+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4705",
+        "text": "🟢  Аэропорты"
+      },
+      {
+        "id": "3dcd49f8fdf7b2ec",
+        "action": "REMOVE",
+        "name": "ЖУКОВСКИЙ (Раменское)",
         "icao": null,
         "kind": "airport",
         "type": "full",
@@ -3176,6 +3319,28 @@
         "messageTimestamp": "2026-10-14T20:55:52+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4717",
         "text": "🟢  Аэропорты"
+      },
+      {
+        "id": "f3d994e0850d5a3d",
+        "action": "REMOVE",
+        "name": "САРАТОВ (Гагарин)",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "messageTimestamp": "2026-10-14T20:55:52+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4717",
+        "text": "🟢  Аэропорты"
+      },
+      {
+        "id": "d00069b7c34bd3c3",
+        "action": "REMOVE",
+        "name": "ПЕНЗА",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "messageTimestamp": "2026-10-14T20:55:52+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4717",
+        "text": "🟢  Аэропорты"
       }
     ]
   },
@@ -3422,6 +3587,17 @@
         "messageTimestamp": "2026-10-15T04:37:46+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4729",
         "text": "🟢 Аэропорты"
+      },
+      {
+        "id": "e5b1c2825ed73e7a",
+        "action": "REMOVE",
+        "name": "САРАТОВ (Гагарин)",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "messageTimestamp": "2026-10-15T04:37:46+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4729",
+        "text": "🟢 Аэропорты"
       }
     ]
   },
@@ -3458,6 +3634,17 @@
         "id": "312c75d4e407d982",
         "action": "REMOVE",
         "name": "КАЗАНЬ",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "messageTimestamp": "2026-10-15T05:10:43+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4731",
+        "text": "🟢  Аэропорты"
+      },
+      {
+        "id": "e11e02bea09161c4",
+        "action": "REMOVE",
+        "name": "ЧЕБОКСАРЫ",
         "icao": null,
         "kind": "airport",
         "type": "full",
@@ -3520,6 +3707,28 @@
         "id": "b1aa2f2265f5cb91",
         "action": "REMOVE",
         "name": "КАЛУГА (Грабцево)",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "messageTimestamp": "2026-10-15T07:19:09+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4734",
+        "text": "🟢 Аэропорты "
+      },
+      {
+        "id": "957357e155b0e46d",
+        "action": "REMOVE",
+        "name": "НИЖНИЙ НОВГОРОД (Чкалов)",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "messageTimestamp": "2026-10-15T07:19:09+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4734",
+        "text": "🟢 Аэропорты "
+      },
+      {
+        "id": "e4765b921e918ab1",
+        "action": "REMOVE",
+        "name": "ТАМБОВ (Донское)",
         "icao": null,
         "kind": "airport",
         "type": "full",
@@ -3646,6 +3855,28 @@
         "messageTimestamp": "2026-10-15T09:23:25+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4740",
         "text": "🟢  Аэропорты"
+      },
+      {
+        "id": "d4f3e994fde8e0f2",
+        "action": "REMOVE",
+        "name": "ДОМОДЕДОВО",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "messageTimestamp": "2026-10-15T09:23:25+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4740",
+        "text": "🟢  Аэропорты"
+      },
+      {
+        "id": "45be272fef577353",
+        "action": "REMOVE",
+        "name": "ЖУКОВСКИЙ (Раменское)",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "messageTimestamp": "2026-10-15T09:23:25+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4740",
+        "text": "🟢  Аэропорты"
       }
     ]
   },
@@ -3730,6 +3961,17 @@
         "messageTimestamp": "2026-10-15T09:52:14+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4744",
         "text": "🟢 Аэропорты"
+      },
+      {
+        "id": "289094a3d9e7313f",
+        "action": "REMOVE",
+        "name": "САРАНСК",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "messageTimestamp": "2026-10-15T09:52:14+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4744",
+        "text": "🟢 Аэропорты"
       }
     ]
   },
@@ -3744,6 +3986,17 @@
         "id": "3acf9f320c4e8eda",
         "action": "REMOVE",
         "name": "САМАРА (Курумоч)",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "messageTimestamp": "2026-10-15T09:56:51+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4745",
+        "text": "🟢  Аэропорты"
+      },
+      {
+        "id": "0a9c107a0a2dcc8b",
+        "action": "REMOVE",
+        "name": "УЛЬЯНОВСК (Баратаевка)",
         "icao": null,
         "kind": "airport",
         "type": "full",
@@ -3770,6 +4023,28 @@
         "messageTimestamp": "2026-10-15T10:11:31+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4746",
         "text": "🟢  Аэропорты"
+      },
+      {
+        "id": "c1e3a50b43181fca",
+        "action": "REMOVE",
+        "name": "НИЖНЕКАМСК (Бегишево)",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "messageTimestamp": "2026-10-15T10:11:31+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4746",
+        "text": "🟢  Аэропорты"
+      },
+      {
+        "id": "96ce5c2a00af1673",
+        "action": "REMOVE",
+        "name": "ЧЕБОКСАРЫ",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "messageTimestamp": "2026-10-15T10:11:31+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4746",
+        "text": "🟢  Аэропорты"
       }
     ]
   },
@@ -3784,6 +4059,17 @@
         "id": "6960d3afe1960645",
         "action": "REMOVE",
         "name": "ИЖЕВСК",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "messageTimestamp": "2026-10-15T10:52:24+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4747",
+        "text": "🟢  Аэропорты"
+      },
+      {
+        "id": "76496941756c6f4d",
+        "action": "REMOVE",
+        "name": "КИРОВ (Победилово)",
         "icao": null,
         "kind": "airport",
         "type": "full",
@@ -4556,6 +4842,17 @@
         "messageTimestamp": "2026-10-16T02:06:13+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4773",
         "text": "🟢  Аэропорты"
+      },
+      {
+        "id": "c01dbed78972b3d7",
+        "action": "REMOVE",
+        "name": "ШЕРЕМЕТЬЕВО",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "messageTimestamp": "2026-10-16T02:06:13+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4773",
+        "text": "🟢  Аэропорты"
       }
     ]
   },
@@ -4681,6 +4978,17 @@
         "messageTimestamp": "2026-10-16T02:43:28+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4779",
         "text": "🟢  Аэропорты"
+      },
+      {
+        "id": "5e028536df2d6d55",
+        "action": "REMOVE",
+        "name": "ЖУКОВСКИЙ (Раменское)",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "messageTimestamp": "2026-10-16T02:43:28+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4779",
+        "text": "🟢  Аэропорты"
       }
     ]
   },
@@ -4715,6 +5023,17 @@
         "id": "68007fc7d4f4c5f2",
         "action": "REMOVE",
         "name": "ПЕНЗА",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "messageTimestamp": "2026-10-16T03:16:43+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4781",
+        "text": "🟢 Аэропорты"
+      },
+      {
+        "id": "d0f00213bd345c0e",
+        "action": "REMOVE",
+        "name": "САРАТОВ (Гагарин)",
         "icao": null,
         "kind": "airport",
         "type": "full",
@@ -4843,6 +5162,28 @@
         "id": "2a4e397aa51eae1b",
         "action": "REMOVE",
         "name": "КАЛУГА (Грабцево)",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "messageTimestamp": "2026-10-16T04:16:22+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4787",
+        "text": "🟢 Аэропорты "
+      },
+      {
+        "id": "552161ee6ee10f93",
+        "action": "REMOVE",
+        "name": "НИЖНИЙ НОВГОРОД (Чкалов)",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "messageTimestamp": "2026-10-16T04:16:22+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4787",
+        "text": "🟢 Аэропорты "
+      },
+      {
+        "id": "e8ab25f1f82c4b6c",
+        "action": "REMOVE",
+        "name": "ТАМБОВ (Донское)",
         "icao": null,
         "kind": "airport",
         "type": "full",
@@ -5044,6 +5385,17 @@
         "messageTimestamp": "2026-10-16T05:54:32+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4797",
         "text": "🟢  Аэропорты"
+      },
+      {
+        "id": "a357e358e4fc2391",
+        "action": "REMOVE",
+        "name": "ЧЕБОКСАРЫ",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "messageTimestamp": "2026-10-16T05:54:32+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4797",
+        "text": "🟢  Аэропорты"
       }
     ]
   },
@@ -5208,6 +5560,17 @@
         "messageTimestamp": "2026-10-16T06:51:25+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4805",
         "text": "🟢  Аэропорты"
+      },
+      {
+        "id": "4d94ff90bed689ca",
+        "action": "REMOVE",
+        "name": "УФА",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "messageTimestamp": "2026-10-16T06:51:25+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4805",
+        "text": "🟢  Аэропорты"
       }
     ]
   },
@@ -5363,6 +5726,28 @@
         "id": "7cf37439e1f8f917",
         "action": "REMOVE",
         "name": "СОВЕТСКИЙ",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "messageTimestamp": "2026-10-16T11:37:36+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4813",
+        "text": "🟢  Аэропорты"
+      },
+      {
+        "id": "58a9db6f244725dd",
+        "action": "REMOVE",
+        "name": "ТЮМЕНЬ (Рощино)",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "messageTimestamp": "2026-10-16T11:37:36+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4813",
+        "text": "🟢  Аэропорты"
+      },
+      {
+        "id": "ae7af82685f1349d",
+        "action": "REMOVE",
+        "name": "УРАЙ",
         "icao": null,
         "kind": "airport",
         "type": "full",
@@ -5871,6 +6256,17 @@
         "messageTimestamp": "2026-10-17T03:17:09+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4833",
         "text": "🟢 Аэропорты"
+      },
+      {
+        "id": "e40d6a284f23746c",
+        "action": "REMOVE",
+        "name": "САРАТОВ (Гагарин)",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "messageTimestamp": "2026-10-17T03:17:09+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4833",
+        "text": "🟢 Аэропорты"
       }
     ]
   },
@@ -5885,6 +6281,39 @@
         "id": "9d57b913c79929d8",
         "action": "REMOVE",
         "name": "ВНУКОВО",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "messageTimestamp": "2026-10-17T03:57:39+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4834",
+        "text": "🟢  Аэропорты"
+      },
+      {
+        "id": "b31f6379f99dad80",
+        "action": "REMOVE",
+        "name": "ДОМОДЕДОВО",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "messageTimestamp": "2026-10-17T03:57:39+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4834",
+        "text": "🟢  Аэропорты"
+      },
+      {
+        "id": "0ca3517223ced325",
+        "action": "REMOVE",
+        "name": "ЖУКОВСКИЙ(Раменское)",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "messageTimestamp": "2026-10-17T03:57:39+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4834",
+        "text": "🟢  Аэропорты"
+      },
+      {
+        "id": "64b75bc7bed28e3d",
+        "action": "REMOVE",
+        "name": "ШЕРЕМЕТЬЕВО",
         "icao": null,
         "kind": "airport",
         "type": "full",
@@ -5925,6 +6354,17 @@
         "id": "0e084c2d66618550",
         "action": "REMOVE",
         "name": "КОСТРОМА (Сокеркино)",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "messageTimestamp": "2026-10-17T06:24:28+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4836",
+        "text": "🟢  Аэропорты"
+      },
+      {
+        "id": "b8917a827655f6f0",
+        "action": "REMOVE",
+        "name": "ЯРОСЛАВЛЬ (Туношна)",
         "icao": null,
         "kind": "airport",
         "type": "full",
@@ -6645,6 +7085,39 @@
         "messageTimestamp": "2026-10-18T02:34:57+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4861",
         "text": "🟢  Аэропорты"
+      },
+      {
+        "id": "112696b756e047d2",
+        "action": "REMOVE",
+        "name": "ДОМОДЕДОВО",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "messageTimestamp": "2026-10-18T02:34:57+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4861",
+        "text": "🟢  Аэропорты"
+      },
+      {
+        "id": "8eaecc0fd217c4e4",
+        "action": "REMOVE",
+        "name": "ЧЕРЕПОВЕЦ",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "messageTimestamp": "2026-10-18T02:34:57+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4861",
+        "text": "🟢  Аэропорты"
+      },
+      {
+        "id": "cd1a35d75266ae18",
+        "action": "REMOVE",
+        "name": "ЯРОСЛАВЛЬ (Туношна)",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "messageTimestamp": "2026-10-18T02:34:57+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4861",
+        "text": "🟢  Аэропорты"
       }
     ]
   },
@@ -6681,6 +7154,17 @@
         "id": "d6b18da1c82d35f2",
         "action": "REMOVE",
         "name": "ИВАНОВО (Южный)",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "messageTimestamp": "2026-10-18T04:57:17+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4863",
+        "text": "🟢  Аэропорты"
+      },
+      {
+        "id": "7181d399acea3429",
+        "action": "REMOVE",
+        "name": "КАЛУГА (Грабцево)",
         "icao": null,
         "kind": "airport",
         "type": "full",
@@ -7106,6 +7590,72 @@
         "messageTimestamp": "2026-10-19T01:09:24+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/4877",
         "text": "🟢  Аэропорты"
+      },
+      {
+        "id": "4b882a3e28bc870f",
+        "action": "REMOVE",
+        "name": "КАЗАНЬ",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "messageTimestamp": "2026-10-19T01:09:24+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4877",
+        "text": "🟢  Аэропорты"
+      },
+      {
+        "id": "d290f17e698a62ad",
+        "action": "REMOVE",
+        "name": "КАЛУГА (Грабцево)",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "messageTimestamp": "2026-10-19T01:09:24+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4877",
+        "text": "🟢  Аэропорты"
+      },
+      {
+        "id": "c79f13004265871f",
+        "action": "REMOVE",
+        "name": "НИЖНЕКАМСК (Бегишево)",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "messageTimestamp": "2026-10-19T01:09:24+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4877",
+        "text": "🟢  Аэропорты"
+      },
+      {
+        "id": "556e7196402528bf",
+        "action": "REMOVE",
+        "name": "ПЕНЗА",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "messageTimestamp": "2026-10-19T01:09:24+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4877",
+        "text": "🟢  Аэропорты"
+      },
+      {
+        "id": "847d49fbde605be5",
+        "action": "REMOVE",
+        "name": "САРАНСК",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "messageTimestamp": "2026-10-19T01:09:24+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4877",
+        "text": "🟢  Аэропорты"
+      },
+      {
+        "id": "ebce59648932d88b",
+        "action": "REMOVE",
+        "name": "САРАТОВ (Гагарин)",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "messageTimestamp": "2026-10-19T01:09:24+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4877",
+        "text": "🟢  Аэропорты"
       }
     ]
   },
@@ -7204,6 +7754,28 @@
         "id": "fbc7de664c7e562f",
         "action": "REMOVE",
         "name": "ИЖЕВСК",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "messageTimestamp": "2026-10-19T03:02:54+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4882",
+        "text": "🟢  Аэропорты"
+      },
+      {
+        "id": "1439b37ad1a5257b",
+        "action": "REMOVE",
+        "name": "ПЕРМЬ (Большое Савино)",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "messageTimestamp": "2026-10-19T03:02:54+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4882",
+        "text": "🟢  Аэропорты"
+      },
+      {
+        "id": "c5b9ae786ccb8d7b",
+        "action": "REMOVE",
+        "name": "ТАМБОВ (Донское)",
         "icao": null,
         "kind": "airport",
         "type": "full",
@@ -8686,6 +9258,39 @@
         "id": "54738a43ef1ed731",
         "action": "REMOVE",
         "name": "ВНУКОВО",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "messageTimestamp": "2026-10-22T05:25:26+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4937",
+        "text": "🟢  Аэропорты"
+      },
+      {
+        "id": "cb5e7f2058b0e264",
+        "action": "REMOVE",
+        "name": "КАЛУГА (Грабцево)",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "messageTimestamp": "2026-10-22T05:25:26+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4937",
+        "text": "🟢  Аэропорты"
+      },
+      {
+        "id": "844eea2f10bd61cd",
+        "action": "REMOVE",
+        "name": "ТАМБОВ (Донское)",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "messageTimestamp": "2026-10-22T05:25:26+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4937",
+        "text": "🟢  Аэропорты"
+      },
+      {
+        "id": "ec69c6483f97a7c7",
+        "action": "REMOVE",
+        "name": "ЯРОСЛАВЛЬ (Туношна)",
         "icao": null,
         "kind": "airport",
         "type": "full",
