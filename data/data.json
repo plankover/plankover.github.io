@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T23:35:17.342631+00:00",
+  "updatedAt": "2026-10-31T02:50:17.349984+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -160,6 +160,21 @@
       "inKta": true,
       "lat": 53.5057511,
       "lon": 50.1569939
+    },
+    {
+      "id": "a16460b97686304f",
+      "action": "ADD",
+      "name": "Магнит",
+      "icao": "UWUU",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-31T02:46:06+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5236",
+      "text": "🔴🛩️ Уфа - Магнит, UWUU",
+      "inKta": true,
+      "lat": 54.5543582,
+      "lon": 55.8822099
     }
   ]
 }
