@@ -18924,34 +18924,33 @@
     "chatId": -1003822338715,
     "messageId": 5248,
     "timestamp": "2026-10-31T07:54:53+00:00",
-    "text": "🟡🛩️ Москва - Внуково, UUWW\n🟡🛩️ Москва - Шереметьево, UUEE",
+    "text": "🔴 Немчиновка (🟡🛩️ Москва - Внуково, UUWW; 🟡🛩️ Москва - Шереметьево, UUEE) / 30 км",
     "sourceUrl": "https://t.me/PlanKoverTDay/5248",
     "events": [
       {
-        "id": "0c390489ac605c1e",
+        "id": "344a8fc69baca588",
         "action": "ADD",
-        "name": "Внуково",
-        "icao": "UUWW",
-        "kind": "airport",
-        "type": "partial",
-        "radiusKm": null,
+        "name": "Немчиновка",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 30.0,
         "messageTimestamp": "2026-10-31T07:54:53+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/5248",
-        "text": "🟡🛩️ Москва - Внуково, UUWW",
-        "inKta": true
-      },
-      {
-        "id": "8628cb6f25d9ed27",
-        "action": "ADD",
-        "name": "Шереметьево",
-        "icao": "UUEE",
-        "kind": "airport",
-        "type": "partial",
-        "radiusKm": null,
-        "messageTimestamp": "2026-10-31T07:54:53+00:00",
-        "sourceUrl": "https://t.me/PlanKoverTDay/5248",
-        "text": "🟡🛩️ Москва - Шереметьево, UUEE",
-        "inKta": true
+        "text": "🔴 Немчиновка (🟡🛩️ Москва - Внуково, UUWW; 🟡🛩️ Москва - Шереметьево, UUEE) / 30 км",
+        "affectedAirports": [
+          {
+            "name": "Внуково",
+            "icao": "UUWW",
+            "kind": "airport"
+          },
+          {
+            "name": "Шереметьево",
+            "icao": "UUEE",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false
       }
     ]
   }

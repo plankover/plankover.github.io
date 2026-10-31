@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T07:55:22.621644+00:00",
+  "updatedAt": "2026-10-31T08:05:20.453713+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -87,34 +87,35 @@
       "lon": 55.8822099
     },
     {
-      "id": "0c390489ac605c1e",
+      "id": "344a8fc69baca588",
       "action": "ADD",
-      "name": "Внуково",
-      "icao": "UUWW",
-      "kind": "airport",
-      "type": "partial",
-      "radiusKm": null,
+      "name": "Немчиновка",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 30.0,
       "messageTimestamp": "2026-10-31T07:54:53+00:00",
       "sourceUrl": "https://t.me/PlanKoverTDay/5248",
-      "text": "🟡🛩️ Москва - Внуково, UUWW",
-      "inKta": true,
-      "lat": 55.5995278,
-      "lon": 37.2735752
-    },
-    {
-      "id": "8628cb6f25d9ed27",
-      "action": "ADD",
-      "name": "Шереметьево",
-      "icao": "UUEE",
-      "kind": "airport",
-      "type": "partial",
-      "radiusKm": null,
-      "messageTimestamp": "2026-10-31T07:54:53+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5248",
-      "text": "🟡🛩️ Москва - Шереметьево, UUEE",
-      "inKta": true,
-      "lat": 55.9760876,
-      "lon": 37.4238008
+      "text": "🔴 Немчиновка (🟡🛩️ Москва - Внуково, UUWW; 🟡🛩️ Москва - Шереметьево, UUEE) / 30 км",
+      "affectedAirports": [
+        {
+          "name": "Внуково",
+          "icao": "UUWW",
+          "kind": "airport",
+          "lat": 55.5995278,
+          "lon": 37.2735752
+        },
+        {
+          "name": "Шереметьево",
+          "icao": "UUEE",
+          "kind": "airport",
+          "lat": 55.9760876,
+          "lon": 37.4238008
+        }
+      ],
+      "inKta": false,
+      "lat": 55.7208421,
+      "lon": 37.3666309
     }
   ]
 }
