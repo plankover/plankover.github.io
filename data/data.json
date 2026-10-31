@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T04:00:16.739793+00:00",
+  "updatedAt": "2026-10-31T04:25:16.540554+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -100,21 +100,6 @@
       "inKta": true,
       "lat": 51.7139093,
       "lon": 46.1672319
-    },
-    {
-      "id": "9c14f36aa884e47a",
-      "action": "ADD",
-      "name": "Бегишево",
-      "icao": "UWKD",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-10-31T03:31:52+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5240",
-      "text": "🔴🛩️ Нижнекамск - Бегишево, UWKD",
-      "inKta": true,
-      "lat": 55.6074098,
-      "lon": 49.2855138
     },
     {
       "id": "a16460b97686304f",

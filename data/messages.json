@@ -18779,5 +18779,40 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5244,
+    "timestamp": "2026-10-31T04:20:37+00:00",
+    "text": "🟢🛩️ Казань, UWKD\n🟢🛩️ Нижнекамск - Бегишево, UWKE",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5244",
+    "events": [
+      {
+        "id": "c146a914c9d42738",
+        "action": "REMOVE",
+        "name": "Казань",
+        "icao": "UWKD",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-31T04:20:37+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5244",
+        "text": "🟢🛩️ Казань, UWKD",
+        "inKta": true
+      },
+      {
+        "id": "4d015876665bea3f",
+        "action": "REMOVE",
+        "name": "Бегишево",
+        "icao": "UWKE",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-31T04:20:37+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5244",
+        "text": "🟢🛩️ Нижнекамск - Бегишево, UWKE",
+        "inKta": true
+      }
+    ]
   }
 ]
