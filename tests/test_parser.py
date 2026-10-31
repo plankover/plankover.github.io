@@ -46,6 +46,15 @@ class ParserTests(unittest.TestCase):
         self.assertEqual(len(events), 2)
         self.assertTrue(all(event.get("snapshot") for event in events))
 
+    def test_reopening_notice_parses_airport_as_remove(self):
+        events = parse_message(
+            "🟢 Аэропорт ГЕЛЕНДЖИК\\n\\n✈️ СНЯТЫ ограничения на прием и выпуск воздушных судов.",
+            "2026-11-01T00:00:00+00:00",
+        )
+        self.assertEqual(len(events), 1)
+        self.assertEqual(events[0]["action"], "REMOVE")
+        self.assertEqual(events[0]["name"], "ГЕЛЕНДЖИК")
+        self.assertEqual(events[0]["kind"], "airport")
     def test_green_markers_remove_named_targets(self):
         text = "🟢🛩️ Сочи, URSS\n🟢🛩️ Калуга - Грабцево, UUBC"
         events = parse_message(text, "2026-10-24T12:00:00+00:00")
