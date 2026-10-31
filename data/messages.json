@@ -18722,5 +18722,62 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5242,
+    "timestamp": "2026-10-31T03:56:03+00:00",
+    "text": "🔴🛩️ Ижевск, USII",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5242",
+    "events": [
+      {
+        "id": "27dddb62de860dce",
+        "action": "ADD",
+        "name": "Ижевск",
+        "icao": "USII",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-31T03:56:03+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5242",
+        "text": "🔴🛩️ Ижевск, USII",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5243,
+    "timestamp": "2026-10-31T04:00:09+00:00",
+    "text": "🟢🛩️ Самара - Курумоч, UWWW\n🟢🛩️ Ульяновск - Баратаевка, UWLW",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5243",
+    "events": [
+      {
+        "id": "a40eba2abfb9ab8b",
+        "action": "REMOVE",
+        "name": "Курумоч",
+        "icao": "UWWW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-31T04:00:09+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5243",
+        "text": "🟢🛩️ Самара - Курумоч, UWWW",
+        "inKta": true
+      },
+      {
+        "id": "e68b3fd32975edee",
+        "action": "REMOVE",
+        "name": "Баратаевка",
+        "icao": "UWLW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-10-31T04:00:09+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5243",
+        "text": "🟢🛩️ Ульяновск - Баратаевка, UWLW",
+        "inKta": true
+      }
+    ]
   }
 ]

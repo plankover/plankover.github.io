@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T03:35:27.788216+00:00",
+  "updatedAt": "2026-10-31T04:00:16.739793+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -102,21 +102,6 @@
       "lon": 46.1672319
     },
     {
-      "id": "a75745dc1fdf3ea4",
-      "action": "ADD",
-      "name": "Баратаевка",
-      "icao": "UWLW",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-10-30T22:19:27+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5234",
-      "text": "🔴🛩️ Ульяновск - Баратаевка, UWLW",
-      "inKta": true,
-      "lat": 54.2690213,
-      "lon": 48.2248287
-    },
-    {
       "id": "9c14f36aa884e47a",
       "action": "ADD",
       "name": "Бегишево",
@@ -188,6 +173,21 @@
       "sourceUrl": "https://t.me/PlanKoverTDay/5240",
       "text": "🔴🛩️ Бугульма, UWKB",
       "inKta": true
+    },
+    {
+      "id": "27dddb62de860dce",
+      "action": "ADD",
+      "name": "Ижевск",
+      "icao": "USII",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-10-31T03:56:03+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5242",
+      "text": "🔴🛩️ Ижевск, USII",
+      "inKta": true,
+      "lat": 56.8361905,
+      "lon": 53.4631283
     }
   ]
 }
