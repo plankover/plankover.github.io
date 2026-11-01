@@ -1,38 +1,5 @@
 {
-  "updatedAt": "2026-11-01T08:00:18.502658+00:00",
+  "updatedAt": "2026-11-01T08:10:17.268089+00:00",
   "source": "@PlanKoverTDay",
-  "restrictions": [
-    {
-      "id": "b802f1971dc0938b",
-      "action": "ADD",
-      "name": "Волосово",
-      "icao": null,
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": 40.0,
-      "messageTimestamp": "2026-11-01T07:43:09+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5292",
-      "text": "🔴 а/д Волосово / 40 км",
-      "inKta": false,
-      "snapshot": true,
-      "lat": 55.0671987,
-      "lon": 37.4515019
-    },
-    {
-      "id": "8b59599e2c34f3fa",
-      "action": "ADD",
-      "name": "Саваслейка",
-      "icao": null,
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": 50.0,
-      "messageTimestamp": "2026-11-01T07:43:09+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5292",
-      "text": "🔴 а/д Саваслейка / 50 км",
-      "inKta": false,
-      "snapshot": true,
-      "lat": 55.439058,
-      "lon": 42.3063935
-    }
-  ]
+  "restrictions": []
 }
