@@ -20882,5 +20882,27 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5284,
+    "timestamp": "2026-11-01T01:00:32+00:00",
+    "text": "🔴🛩️ Чебоксары, UWKS",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5284",
+    "events": [
+      {
+        "id": "2886a6037650eb89",
+        "action": "ADD",
+        "name": "Чебоксары",
+        "icao": "UWKS",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-01T01:00:32+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5284",
+        "text": "🔴🛩️ Чебоксары, UWKS",
+        "inKta": true
+      }
+    ]
   }
 ]
