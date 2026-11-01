@@ -21259,5 +21259,34 @@
         "sourceUrl": "https://t.me/PlanKoverTDay/5296"
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5297,
+    "timestamp": "2026-11-01T17:41:31+00:00",
+    "text": "🔴 а/д Веретье (🛩️ Псков, ULOO) / 100 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5297",
+    "events": [
+      {
+        "id": "90f5ff4c523382e2",
+        "action": "ADD",
+        "name": "Веретье",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 100.0,
+        "messageTimestamp": "2026-11-01T17:41:31+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5297",
+        "text": "🔴 а/д Веретье (🛩️ Псков, ULOO) / 100 км",
+        "affectedAirports": [
+          {
+            "name": "Псков",
+            "icao": "ULOO",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false
+      }
+    ]
   }
 ]
