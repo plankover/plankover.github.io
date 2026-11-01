@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T18:55:18.377504+00:00",
+  "updatedAt": "2026-11-01T20:10:16.283511+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -25,30 +25,6 @@
       "inKta": false,
       "lat": 47.2223323,
       "lon": 39.7096214
-    },
-    {
-      "id": "90f5ff4c523382e2",
-      "action": "ADD",
-      "name": "Веретье",
-      "icao": null,
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": 100.0,
-      "messageTimestamp": "2026-11-01T17:41:31+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5297",
-      "text": "🔴 а/д Веретье (🛩️ Псков, ULOO) / 100 км",
-      "affectedAirports": [
-        {
-          "name": "Псков",
-          "icao": "ULOO",
-          "kind": "airport",
-          "lat": 57.7594629,
-          "lon": 29.5587337
-        }
-      ],
-      "inKta": false,
-      "lat": 57.2994574,
-      "lon": 28.4383396
     },
     {
       "id": "8aff6aad38b4fef8",
@@ -79,36 +55,6 @@
       "inKta": false,
       "lat": 54.2418249,
       "lon": 37.6000197
-    },
-    {
-      "id": "96de5dc86a81fe4a",
-      "action": "ADD",
-      "name": "Смуравьёво",
-      "icao": null,
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": 100.0,
-      "messageTimestamp": "2026-11-01T18:51:07+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5299",
-      "text": "🔴 а/д Смуравьёво / 100 км",
-      "inKta": false,
-      "lat": 58.8118022,
-      "lon": 28.0145069
-    },
-    {
-      "id": "53a459ef806ef578",
-      "action": "ADD",
-      "name": "Старая Русса",
-      "icao": null,
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": 100.0,
-      "messageTimestamp": "2026-11-01T18:51:07+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5299",
-      "text": "🔴 а/д Старая Русса / 100 км",
-      "inKta": false,
-      "lat": 57.9601551,
-      "lon": 31.3840079
     }
   ]
 }

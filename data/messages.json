@@ -21358,5 +21358,60 @@
         "inKta": false
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5300,
+    "timestamp": "2026-11-01T20:09:11+00:00",
+    "text": "🟢 а/д Веретье (🛩️ Псков, ULOO)\n🟢 а/д Смуравьёво\n🟢 а/д Старая Русса",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5300",
+    "events": [
+      {
+        "id": "de63b669aa856fe6",
+        "action": "REMOVE",
+        "name": "Веретье",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-01T20:09:11+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5300",
+        "text": "🟢 а/д Веретье (🛩️ Псков, ULOO)",
+        "affectedAirports": [
+          {
+            "name": "Псков",
+            "icao": "ULOO",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false
+      },
+      {
+        "id": "fd1a2155a37b635d",
+        "action": "REMOVE",
+        "name": "Смуравьёво",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-01T20:09:11+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5300",
+        "text": "🟢 а/д Смуравьёво",
+        "inKta": false
+      },
+      {
+        "id": "7e377ff5093cacbb",
+        "action": "REMOVE",
+        "name": "Старая Русса",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-01T20:09:11+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5300",
+        "text": "🟢 а/д Старая Русса",
+        "inKta": false
+      }
+    ]
   }
 ]
