@@ -21766,33 +21766,27 @@
     "chatId": -1003822338715,
     "messageId": 5311,
     "timestamp": "2026-11-01T21:53:54+00:00",
-    "text": "🔴🛩️ Москва - Домодедово, UUDD\n🔴🛩️ Москва - Жуковский, UUBW",
+    "text": "🔴🛩️ Домодедово, UUDD (🛩️ Жуковский, UUBW) / 40 км",
     "sourceUrl": "https://t.me/PlanKoverTDay/5311",
     "events": [
       {
-        "id": "d889858604c3009e",
+        "id": "1f622e3057c9f9b2",
         "action": "ADD",
         "name": "Домодедово",
         "icao": "UUDD",
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
+        "radiusKm": 40.0,
         "messageTimestamp": "2026-11-01T21:53:54+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/5311",
-        "text": "🔴🛩️ Москва - Домодедово, UUDD",
-        "inKta": true
-      },
-      {
-        "id": "93859827fd30e49c",
-        "action": "ADD",
-        "name": "Жуковский",
-        "icao": "UUBW",
-        "kind": "airport",
-        "type": "full",
-        "radiusKm": null,
-        "messageTimestamp": "2026-11-01T21:53:54+00:00",
-        "sourceUrl": "https://t.me/PlanKoverTDay/5311",
-        "text": "🔴🛩️ Москва - Жуковский, UUBW",
+        "text": "🔴🛩️ Домодедово, UUDD (🛩️ Жуковский, UUBW) / 40 км",
+        "affectedAirports": [
+          {
+            "name": "Жуковский",
+            "icao": "UUBW",
+            "kind": "airport"
+          }
+        ],
         "inKta": true
       }
     ]
@@ -21801,20 +21795,20 @@
     "chatId": -1003822338715,
     "messageId": 5312,
     "timestamp": "2026-11-01T21:59:18+00:00",
-    "text": "🔴🛩️ Волгоград, URWW",
+    "text": "🔴🛩️ Волгоград - Гумрак, URWW / 40 км",
     "sourceUrl": "https://t.me/PlanKoverTDay/5312",
     "events": [
       {
-        "id": "75cc66d215681afe",
+        "id": "b709f04fa898fc6e",
         "action": "ADD",
-        "name": "Волгоград",
+        "name": "Гумрак",
         "icao": "URWW",
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
+        "radiusKm": 40.0,
         "messageTimestamp": "2026-11-01T21:59:18+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/5312",
-        "text": "🔴🛩️ Волгоград, URWW",
+        "text": "🔴🛩️ Волгоград - Гумрак, URWW / 40 км",
         "inKta": true
       }
     ]
