@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T21:25:16.078423+00:00",
+  "updatedAt": "2026-11-01T21:30:17.965225+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -131,30 +131,6 @@
       "inKta": false,
       "lat": 54.2301856,
       "lon": 39.0274629
-    },
-    {
-      "id": "5624bb31a35aab77",
-      "action": "ADD",
-      "name": "Домодедово",
-      "icao": "UUDD",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": 40.0,
-      "messageTimestamp": "2026-11-01T21:09:43+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5305",
-      "text": "🔴🛩️ Домодедово, UUDD (🛩️ Жуковский, UUBW) / 40 км",
-      "affectedAirports": [
-        {
-          "name": "Жуковский",
-          "icao": "UUBW",
-          "kind": "airport",
-          "lat": 55.5496554,
-          "lon": 38.1547897
-        }
-      ],
-      "inKta": true,
-      "lat": 55.4087122,
-      "lon": 37.9094307
     },
     {
       "id": "4d09e9ac7b3f3a0e",

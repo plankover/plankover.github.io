@@ -21604,5 +21604,27 @@
         "inKta": false
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5307,
+    "timestamp": "2026-11-01T21:30:09+00:00",
+    "text": "🟢🛩️ Жуковский - Раменское, UUBW",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5307",
+    "events": [
+      {
+        "id": "8ac98bc187e6df67",
+        "action": "REMOVE",
+        "name": "Раменское",
+        "icao": "UUBW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-01T21:30:09+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5307",
+        "text": "🟢🛩️ Жуковский - Раменское, UUBW",
+        "inKta": true
+      }
+    ]
   }
 ]
