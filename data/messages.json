@@ -20834,5 +20834,53 @@
         "snapshot": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5283,
+    "timestamp": "2026-11-01T00:55:35+00:00",
+    "text": "🔴🛩️ Нижний Новгород - Чкалов, UWGG\n🔴🛩️ Самара - Курумоч, UWWW\n🔴🛩️ Ульяновск - Баратаевка, UWLL",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5283",
+    "events": [
+      {
+        "id": "80d2c430215f3df1",
+        "action": "ADD",
+        "name": "Чкалов",
+        "icao": "UWGG",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-01T00:55:35+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5283",
+        "text": "🔴🛩️ Нижний Новгород - Чкалов, UWGG",
+        "inKta": true
+      },
+      {
+        "id": "d0d3b1c88a571cc7",
+        "action": "ADD",
+        "name": "Курумоч",
+        "icao": "UWWW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-01T00:55:35+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5283",
+        "text": "🔴🛩️ Самара - Курумоч, UWWW",
+        "inKta": true
+      },
+      {
+        "id": "1014ae008554e814",
+        "action": "ADD",
+        "name": "Баратаевка",
+        "icao": "UWLL",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-01T00:55:35+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5283",
+        "text": "🔴🛩️ Ульяновск - Баратаевка, UWLL",
+        "inKta": true
+      }
+    ]
   }
 ]
