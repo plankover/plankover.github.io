@@ -20904,5 +20904,40 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5285,
+    "timestamp": "2026-11-01T02:54:23+00:00",
+    "text": "🟢🛩️ Пенза, UWPP\n🟢🛩️ Саратов - Гагарин, UWSG",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5285",
+    "events": [
+      {
+        "id": "6063a55be245802f",
+        "action": "REMOVE",
+        "name": "Пенза",
+        "icao": "UWPP",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-01T02:54:23+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5285",
+        "text": "🟢🛩️ Пенза, UWPP",
+        "inKta": true
+      },
+      {
+        "id": "4e3ecd1b069d7550",
+        "action": "REMOVE",
+        "name": "Гагарин",
+        "icao": "UWSG",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-01T02:54:23+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5285",
+        "text": "🟢🛩️ Саратов - Гагарин, UWSG",
+        "inKta": true
+      }
+    ]
   }
 ]
