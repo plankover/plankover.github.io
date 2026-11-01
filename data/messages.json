@@ -21460,21 +21460,41 @@
     "chatId": -1003822338715,
     "messageId": 5302,
     "timestamp": "2026-11-01T20:45:13+00:00",
-    "text": "🔴🛩️ Тамбов - Донское, UUOO",
+    "text": "🔴 авиабаза Тамбов (🛩️ Донское, UUOO) / 50 км\n\n🔴 а/д Дягилево, Рязань / 70 км",
     "sourceUrl": "https://t.me/PlanKoverTDay/5302",
     "events": [
       {
-        "id": "905152d1db43f1c2",
+        "id": "b8ca77788cb4888e",
         "action": "ADD",
-        "name": "Донское",
-        "icao": "UUOO",
-        "kind": "airport",
+        "name": "авиабаза Тамбов",
+        "icao": null,
+        "kind": "city",
         "type": "full",
-        "radiusKm": null,
+        "radiusKm": 50.0,
         "messageTimestamp": "2026-11-01T20:45:13+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/5302",
-        "text": "🔴🛩️ Тамбов - Донское, UUOO",
-        "inKta": true
+        "text": "🔴 авиабаза Тамбов (🛩️ Донское, UUOO) / 50 км",
+        "affectedAirports": [
+          {
+            "name": "Донское",
+            "icao": "UUOO",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false
+      },
+      {
+        "id": "5d6b929c9956b370",
+        "action": "ADD",
+        "name": "Дягилево, Рязань",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-11-01T20:45:13+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5302",
+        "text": "🔴 а/д Дягилево, Рязань / 70 км",
+        "inKta": false
       }
     ]
   },
@@ -21482,21 +21502,55 @@
     "chatId": -1003822338715,
     "messageId": 5303,
     "timestamp": "2026-11-01T20:48:14+00:00",
-    "text": "🟡🛩️ Москва - Домодедово, UUDD",
+    "text": "🟡🛩️ Москва - Домодедово, UUDD / 100 км (азимуты 090-270)",
     "sourceUrl": "https://t.me/PlanKoverTDay/5303",
     "events": [
       {
-        "id": "5c5a96948f4d620d",
+        "id": "392380a6c13a0d65",
         "action": "ADD",
         "name": "Домодедово",
         "icao": "UUDD",
         "kind": "airport",
         "type": "partial",
-        "radiusKm": null,
+        "radiusKm": 100.0,
         "messageTimestamp": "2026-11-01T20:48:14+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/5303",
-        "text": "🟡🛩️ Москва - Домодедово, UUDD",
+        "text": "🟡🛩️ Москва - Домодедово, UUDD / 100 км (азимуты 090-270)",
+        "sector": {
+          "radiusKm": 100.0,
+          "startAzimuth": 90,
+          "endAzimuth": 270
+        },
         "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5304,
+    "timestamp": "2026-11-01T20:51:02+00:00",
+    "text": "🔴 Энгельс (🛩️ Саратов - Гагарин, UWSG) / 100 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5304",
+    "events": [
+      {
+        "id": "4d09e9ac7b3f3a0e",
+        "action": "ADD",
+        "name": "Энгельс",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 100.0,
+        "messageTimestamp": "2026-11-01T20:51:02+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5304",
+        "text": "🔴 Энгельс (🛩️ Саратов - Гагарин, UWSG) / 100 км",
+        "affectedAirports": [
+          {
+            "name": "Гагарин",
+            "icao": "UWSG",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false
       }
     ]
   }

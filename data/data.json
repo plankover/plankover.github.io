@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T20:50:16.711632+00:00",
+  "updatedAt": "2026-11-01T20:55:21.013935+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -96,34 +96,85 @@
       "lon": 44.2678
     },
     {
-      "id": "905152d1db43f1c2",
+      "id": "b8ca77788cb4888e",
       "action": "ADD",
-      "name": "Донское",
-      "icao": "UUOO",
-      "kind": "airport",
+      "name": "авиабаза Тамбов",
+      "icao": null,
+      "kind": "city",
       "type": "full",
-      "radiusKm": null,
+      "radiusKm": 50.0,
       "messageTimestamp": "2026-11-01T20:45:13+00:00",
       "sourceUrl": "https://t.me/PlanKoverTDay/5302",
-      "text": "🔴🛩️ Тамбов - Донское, UUOO",
-      "inKta": true,
-      "lat": 52.8060125,
-      "lon": 41.4845129
+      "text": "🔴 авиабаза Тамбов (🛩️ Донское, UUOO) / 50 км",
+      "affectedAirports": [
+        {
+          "name": "Донское",
+          "icao": "UUOO",
+          "kind": "airport",
+          "lat": 52.8060125,
+          "lon": 41.4845129
+        }
+      ],
+      "inKta": false
     },
     {
-      "id": "5c5a96948f4d620d",
+      "id": "5d6b929c9956b370",
+      "action": "ADD",
+      "name": "Дягилево, Рязань",
+      "icao": null,
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 70.0,
+      "messageTimestamp": "2026-11-01T20:45:13+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5302",
+      "text": "🔴 а/д Дягилево, Рязань / 70 км",
+      "inKta": false,
+      "lat": 54.6571958,
+      "lon": 39.6308884
+    },
+    {
+      "id": "392380a6c13a0d65",
       "action": "ADD",
       "name": "Домодедово",
       "icao": "UUDD",
       "kind": "airport",
       "type": "partial",
-      "radiusKm": null,
+      "radiusKm": 100.0,
       "messageTimestamp": "2026-11-01T20:48:14+00:00",
       "sourceUrl": "https://t.me/PlanKoverTDay/5303",
-      "text": "🟡🛩️ Москва - Домодедово, UUDD",
+      "text": "🟡🛩️ Москва - Домодедово, UUDD / 100 км (азимуты 090-270)",
+      "sector": {
+        "radiusKm": 100.0,
+        "startAzimuth": 90,
+        "endAzimuth": 270
+      },
       "inKta": true,
       "lat": 55.4087122,
       "lon": 37.9094307
+    },
+    {
+      "id": "4d09e9ac7b3f3a0e",
+      "action": "ADD",
+      "name": "Энгельс",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 100.0,
+      "messageTimestamp": "2026-11-01T20:51:02+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5304",
+      "text": "🔴 Энгельс (🛩️ Саратов - Гагарин, UWSG) / 100 км",
+      "affectedAirports": [
+        {
+          "name": "Гагарин",
+          "icao": "UWSG",
+          "kind": "airport",
+          "lat": 51.7139093,
+          "lon": 46.1672319
+        }
+      ],
+      "inKta": false,
+      "lat": 51.5013775,
+      "lon": 46.1233093
     }
   ]
 }
