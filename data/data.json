@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T04:35:20.981741+00:00",
+  "updatedAt": "2026-11-01T06:05:17.005770+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -64,36 +64,6 @@
       "inKta": true,
       "lat": 56.2295198,
       "lon": 43.7840064
-    },
-    {
-      "id": "d0d3b1c88a571cc7",
-      "action": "ADD",
-      "name": "Курумоч",
-      "icao": "UWWW",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-01T00:55:35+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5283",
-      "text": "🔴🛩️ Самара - Курумоч, UWWW",
-      "inKta": true,
-      "lat": 53.5057511,
-      "lon": 50.1569939
-    },
-    {
-      "id": "1014ae008554e814",
-      "action": "ADD",
-      "name": "Баратаевка",
-      "icao": "UWLL",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-01T00:55:35+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5283",
-      "text": "🔴🛩️ Ульяновск - Баратаевка, UWLL",
-      "inKta": true,
-      "lat": 54.2690213,
-      "lon": 48.2248287
     },
     {
       "id": "2886a6037650eb89",
