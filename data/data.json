@@ -1,44 +1,7 @@
 {
-  "updatedAt": "2026-11-01T03:05:16.914460+00:00",
+  "updatedAt": "2026-11-01T04:35:20.981741+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
-    {
-      "id": "83231b761461ead7",
-      "action": "ADD",
-      "name": "Грабцево",
-      "icao": "UUBC",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": 70.0,
-      "messageTimestamp": "2026-10-31T22:50:05+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5282",
-      "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км",
-      "inKta": true,
-      "snapshot": true,
-      "lat": 54.5488708,
-      "lon": 36.3697725
-    },
-    {
-      "id": "a560295304fe036e",
-      "action": "ADD",
-      "name": "Домодедово",
-      "icao": "UUDD",
-      "kind": "airport",
-      "type": "partial",
-      "radiusKm": 100.0,
-      "messageTimestamp": "2026-10-31T22:50:05+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5282",
-      "text": "🟡🛩️ Москва - Домодедово, UUDD / 100 км (азимуты 090-270)",
-      "sector": {
-        "radiusKm": 100.0,
-        "startAzimuth": 90,
-        "endAzimuth": 270
-      },
-      "inKta": true,
-      "snapshot": true,
-      "lat": 55.4087122,
-      "lon": 37.9094307
-    },
     {
       "id": "4fd2873f016eb32f",
       "action": "ADD",
@@ -146,19 +109,6 @@
       "inKta": true,
       "lat": 56.0880752,
       "lon": 47.3382761
-    },
-    {
-      "id": "4e611730d076e353",
-      "action": "ADD",
-      "name": "Бугульма",
-      "icao": "UWKB",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-01T03:03:42+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5286",
-      "text": "🔴🛩️ Бугульма, UWKB",
-      "inKta": true
     }
   ]
 }

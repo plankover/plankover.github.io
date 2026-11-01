@@ -20961,5 +20961,62 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5287,
+    "timestamp": "2026-11-01T04:31:50+00:00",
+    "text": "🟢🛩️ Бугульма, UWKB\n🟢🛩️ Москва - Домодедово, UUDD",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5287",
+    "events": [
+      {
+        "id": "52b51e13df42659e",
+        "action": "REMOVE",
+        "name": "Бугульма",
+        "icao": "UWKB",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-01T04:31:50+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5287",
+        "text": "🟢🛩️ Бугульма, UWKB",
+        "inKta": true
+      },
+      {
+        "id": "b6f5e51043a85564",
+        "action": "REMOVE",
+        "name": "Домодедово",
+        "icao": "UUDD",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-01T04:31:50+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5287",
+        "text": "🟢🛩️ Москва - Домодедово, UUDD",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5288,
+    "timestamp": "2026-11-01T04:34:20+00:00",
+    "text": "🟢🛩️ Калуга - Грабцево, UUBC",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5288",
+    "events": [
+      {
+        "id": "6b41f06d99436005",
+        "action": "REMOVE",
+        "name": "Грабцево",
+        "icao": "UUBC",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-01T04:34:20+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5288",
+        "text": "🟢🛩️ Калуга - Грабцево, UUBC",
+        "inKta": true
+      }
+    ]
   }
 ]
