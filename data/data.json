@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T22:10:02.934073+00:00",
+  "updatedAt": "2026-11-01T22:15:26.016848+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -172,30 +172,6 @@
       "lon": 42.3063935
     },
     {
-      "id": "1f622e3057c9f9b2",
-      "action": "ADD",
-      "name": "Домодедово",
-      "icao": "UUDD",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": 40.0,
-      "messageTimestamp": "2026-11-01T21:53:54+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5311",
-      "text": "🔴🛩️ Домодедово, UUDD (🛩️ Жуковский, UUBW) / 40 км",
-      "affectedAirports": [
-        {
-          "name": "Жуковский",
-          "icao": "UUBW",
-          "kind": "airport",
-          "lat": 55.5496554,
-          "lon": 38.1547897
-        }
-      ],
-      "inKta": true,
-      "lat": 55.4087122,
-      "lon": 37.9094307
-    },
-    {
       "id": "a4f4f9d9c6d8cf6d",
       "action": "ADD",
       "name": "Внуково",
@@ -308,6 +284,57 @@
       "inKta": true,
       "lat": 48.7833547,
       "lon": 44.3472901
+    },
+    {
+      "id": "e4f761550830a7c7",
+      "action": "ADD",
+      "name": "Домодедово",
+      "icao": "UUDD",
+      "kind": "airport",
+      "type": "partial",
+      "radiusKm": 100.0,
+      "messageTimestamp": "2026-11-01T22:11:22+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5315",
+      "text": "🟡🛩️ Москва - Домодедово, UUDD / 100 км (азимуты 090-270)",
+      "sector": {
+        "radiusKm": 100.0,
+        "startAzimuth": 90,
+        "endAzimuth": 270
+      },
+      "inKta": true,
+      "lat": 55.4087122,
+      "lon": 37.9094307
+    },
+    {
+      "id": "e105863cbc39a70c",
+      "action": "ADD",
+      "name": "Биринск",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 150.0,
+      "messageTimestamp": "2026-11-01T22:12:09+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5316",
+      "text": "🔴 Биринск (🛩️ Самара - Курумоч, UWWW ; 🛩️ Ульяновск - Баратаевка, UWLL) / 150 км",
+      "affectedAirports": [
+        {
+          "name": "Курумоч",
+          "icao": "UWWW",
+          "kind": "airport",
+          "lat": 53.5057511,
+          "lon": 50.1569939
+        },
+        {
+          "name": "Баратаевка",
+          "icao": "UWLL",
+          "kind": "airport",
+          "lat": 54.2690213,
+          "lon": 48.2248287
+        }
+      ],
+      "inKta": false,
+      "lat": 53.5798818,
+      "lon": 48.6498061
     }
   ]
 }

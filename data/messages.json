@@ -21812,5 +21812,112 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5313,
+    "timestamp": "2026-11-01T22:11:08+00:00",
+    "text": "⛔️ Аэропорты\n\n— САМАРА (Курумоч)\n\n— УЛЬЯНОВСК (Баратаевка)\n\n✈️ВВЕДЕНЫ временны ограничения на прием и выпуск воздушных судов.\n\n✈️Ограничения необходимы для обеспечения безопасности полетов.\n\n✈Говорит Росавиация | MAX",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5313",
+    "events": [
+      {
+        "id": "890b57470ab6258f",
+        "action": "ADD",
+        "messageTimestamp": "2026-11-01T22:11:08+00:00",
+        "text": "⛔️ Аэропорты\n\n— САМАРА (Курумоч)\n\n— УЛЬЯНОВСК (Баратаевка)\n\n✈️ВВЕДЕНЫ временны ограничения на прием и выпуск воздушных судов.\n\n✈️Ограничения необходимы для обеспечения безопасности полетов.\n\n✈Говорит Росавиация | MAX",
+        "unresolved": true,
+        "sourceUrl": "https://t.me/PlanKoverTDay/5313"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5314,
+    "timestamp": "2026-11-01T22:11:11+00:00",
+    "text": "🟢🛩️ Домодедово, UUDD (🛩️ Жуковский, UUBW) / 40 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5314",
+    "events": [
+      {
+        "id": "6b2cce973cb289c0",
+        "action": "REMOVE",
+        "name": "Домодедово",
+        "icao": "UUDD",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 40.0,
+        "messageTimestamp": "2026-11-01T22:11:11+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5314",
+        "text": "🟢🛩️ Домодедово, UUDD (🛩️ Жуковский, UUBW) / 40 км",
+        "affectedAirports": [
+          {
+            "name": "Жуковский",
+            "icao": "UUBW",
+            "kind": "airport"
+          }
+        ],
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5315,
+    "timestamp": "2026-11-01T22:11:22+00:00",
+    "text": "🟡🛩️ Москва - Домодедово, UUDD / 100 км (азимуты 090-270)\nСохраняется",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5315",
+    "events": [
+      {
+        "id": "e4f761550830a7c7",
+        "action": "ADD",
+        "name": "Домодедово",
+        "icao": "UUDD",
+        "kind": "airport",
+        "type": "partial",
+        "radiusKm": 100.0,
+        "messageTimestamp": "2026-11-01T22:11:22+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5315",
+        "text": "🟡🛩️ Москва - Домодедово, UUDD / 100 км (азимуты 090-270)",
+        "sector": {
+          "radiusKm": 100.0,
+          "startAzimuth": 90,
+          "endAzimuth": 270
+        },
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5316,
+    "timestamp": "2026-11-01T22:12:09+00:00",
+    "text": "🔴 Биринск (🛩️ Самара - Курумоч, UWWW ; 🛩️ Ульяновск - Баратаевка, UWLL) / 150 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5316",
+    "events": [
+      {
+        "id": "e105863cbc39a70c",
+        "action": "ADD",
+        "name": "Биринск",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 150.0,
+        "messageTimestamp": "2026-11-01T22:12:09+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5316",
+        "text": "🔴 Биринск (🛩️ Самара - Курумоч, UWWW ; 🛩️ Ульяновск - Баратаевка, UWLL) / 150 км",
+        "affectedAirports": [
+          {
+            "name": "Курумоч",
+            "icao": "UWWW",
+            "kind": "airport"
+          },
+          {
+            "name": "Баратаевка",
+            "icao": "UWLL",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false
+      }
+    ]
   }
 ]
