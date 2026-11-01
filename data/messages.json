@@ -21460,11 +21460,11 @@
     "chatId": -1003822338715,
     "messageId": 5302,
     "timestamp": "2026-11-01T20:45:13+00:00",
-    "text": "🔴 авиабаза Тамбов (🛩️ Донское, UUOO) / 50 км\n\n🔴 а/д Дягилево, Рязань / 70 км",
+    "text": "🔴 авиабаза Тамбов (🛩️ Донское, UUOO) / 50 км\n\n🔴 Михайлов / 70 км",
     "sourceUrl": "https://t.me/PlanKoverTDay/5302",
     "events": [
       {
-        "id": "b8ca77788cb4888e",
+        "id": "459cdaee8476489a",
         "action": "ADD",
         "name": "авиабаза Тамбов",
         "icao": null,
@@ -21484,16 +21484,16 @@
         "inKta": false
       },
       {
-        "id": "5d6b929c9956b370",
+        "id": "a2346c6796a19240",
         "action": "ADD",
-        "name": "Дягилево, Рязань",
+        "name": "Михайлов",
         "icao": null,
-        "kind": "airport",
+        "kind": "city",
         "type": "full",
         "radiusKm": 70.0,
         "messageTimestamp": "2026-11-01T20:45:13+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/5302",
-        "text": "🔴 а/д Дягилево, Рязань / 70 км",
+        "text": "🔴 Михайлов / 70 км",
         "inKta": false
       }
     ]
@@ -21586,6 +21586,28 @@
         "sourceUrl": "https://t.me/PlanKoverTDay/5305",
         "text": "🔴🛩️ Москва - Жуковский, UUBW",
         "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5306,
+    "timestamp": "2026-11-01T21:13:46+00:00",
+    "text": "🔴 а/д Саваслейка / 50 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5306",
+    "events": [
+      {
+        "id": "1da9094acc052a2f",
+        "action": "ADD",
+        "name": "Саваслейка",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 50.0,
+        "messageTimestamp": "2026-11-01T21:13:46+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5306",
+        "text": "🔴 а/д Саваслейка / 50 км",
+        "inKta": false
       }
     ]
   }
