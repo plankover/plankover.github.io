@@ -21460,24 +21460,11 @@
     "chatId": -1003822338715,
     "messageId": 5302,
     "timestamp": "2026-11-01T20:45:13+00:00",
-    "text": "🔴🛩️ Пенза, UUWP\n🔴🛩️ Тамбов - Донское, UUOO",
+    "text": "🔴🛩️ Тамбов - Донское, UUOO",
     "sourceUrl": "https://t.me/PlanKoverTDay/5302",
     "events": [
       {
-        "id": "0799f1f6085fa37a",
-        "action": "ADD",
-        "name": "Пенза",
-        "icao": "UUWP",
-        "kind": "airport",
-        "type": "full",
-        "radiusKm": null,
-        "messageTimestamp": "2026-11-01T20:45:13+00:00",
-        "sourceUrl": "https://t.me/PlanKoverTDay/5302",
-        "text": "🔴🛩️ Пенза, UUWP",
-        "inKta": true
-      },
-      {
-        "id": "ae10425d62510f2d",
+        "id": "905152d1db43f1c2",
         "action": "ADD",
         "name": "Донское",
         "icao": "UUOO",
@@ -21487,6 +21474,28 @@
         "messageTimestamp": "2026-11-01T20:45:13+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/5302",
         "text": "🔴🛩️ Тамбов - Донское, UUOO",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5303,
+    "timestamp": "2026-11-01T20:48:14+00:00",
+    "text": "🟡🛩️ Москва - Домодедово, UUDD",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5303",
+    "events": [
+      {
+        "id": "5c5a96948f4d620d",
+        "action": "ADD",
+        "name": "Домодедово",
+        "icao": "UUDD",
+        "kind": "airport",
+        "type": "partial",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-01T20:48:14+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5303",
+        "text": "🟡🛩️ Москва - Домодедово, UUDD",
         "inKta": true
       }
     ]

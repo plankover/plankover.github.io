@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T20:45:19.093482+00:00",
+  "updatedAt": "2026-11-01T20:50:16.711632+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -96,22 +96,7 @@
       "lon": 44.2678
     },
     {
-      "id": "0799f1f6085fa37a",
-      "action": "ADD",
-      "name": "Пенза",
-      "icao": "UUWP",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-01T20:45:13+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5302",
-      "text": "🔴🛩️ Пенза, UUWP",
-      "inKta": true,
-      "lat": 53.110734,
-      "lon": 45.023455
-    },
-    {
-      "id": "ae10425d62510f2d",
+      "id": "905152d1db43f1c2",
       "action": "ADD",
       "name": "Донское",
       "icao": "UUOO",
@@ -124,6 +109,21 @@
       "inKta": true,
       "lat": 52.8060125,
       "lon": 41.4845129
+    },
+    {
+      "id": "5c5a96948f4d620d",
+      "action": "ADD",
+      "name": "Домодедово",
+      "icao": "UUDD",
+      "kind": "airport",
+      "type": "partial",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-01T20:48:14+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5303",
+      "text": "🟡🛩️ Москва - Домодедово, UUDD",
+      "inKta": true,
+      "lat": 55.4087122,
+      "lon": 37.9094307
     }
   ]
 }
