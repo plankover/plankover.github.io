@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T17:55:16.942893+00:00",
+  "updatedAt": "2026-11-01T18:55:18.377504+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -51,19 +51,64 @@
       "lon": 28.4383396
     },
     {
-      "id": "e3c147087664023a",
+      "id": "8aff6aad38b4fef8",
       "action": "ADD",
       "name": "Грабцево",
       "icao": "UUBC",
       "kind": "airport",
       "type": "full",
-      "radiusKm": null,
+      "radiusKm": 70.0,
       "messageTimestamp": "2026-11-01T17:50:32+00:00",
       "sourceUrl": "https://t.me/PlanKoverTDay/5298",
-      "text": "🔴🛩️ Калуга - Грабцево, UUBC",
+      "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км",
       "inKta": true,
       "lat": 54.5488708,
       "lon": 36.3697725
+    },
+    {
+      "id": "9a8094a451f47e02",
+      "action": "ADD",
+      "name": "Клоково, Тула",
+      "icao": null,
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 70.0,
+      "messageTimestamp": "2026-11-01T17:50:32+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5298",
+      "text": "🔴 а/д Клоково, Тула / 70 км",
+      "inKta": false,
+      "lat": 54.2418249,
+      "lon": 37.6000197
+    },
+    {
+      "id": "96de5dc86a81fe4a",
+      "action": "ADD",
+      "name": "Смуравьёво",
+      "icao": null,
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 100.0,
+      "messageTimestamp": "2026-11-01T18:51:07+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5299",
+      "text": "🔴 а/д Смуравьёво / 100 км",
+      "inKta": false,
+      "lat": 58.8118022,
+      "lon": 28.0145069
+    },
+    {
+      "id": "53a459ef806ef578",
+      "action": "ADD",
+      "name": "Старая Русса",
+      "icao": null,
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 100.0,
+      "messageTimestamp": "2026-11-01T18:51:07+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5299",
+      "text": "🔴 а/д Старая Русса / 100 км",
+      "inKta": false,
+      "lat": 57.9601551,
+      "lon": 31.3840079
     }
   ]
 }
