@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T21:47:56.479359+00:00",
+  "updatedAt": "2026-11-01T21:55:15.909328+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -172,42 +172,42 @@
       "lon": 42.3063935
     },
     {
-      "id": "3d3e78c792092d4c",
+      "id": "d889858604c3009e",
       "action": "ADD",
       "name": "Домодедово",
       "icao": "UUDD",
       "kind": "airport",
-      "type": "partial",
-      "radiusKm": 100.0,
-      "messageTimestamp": "2026-11-01T21:30:46+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5308",
-      "text": "🟡🛩️ Москва - Домодедово, UUDD / 100 км (азимуты 090-270)",
-      "sector": {
-        "radiusKm": 100.0,
-        "startAzimuth": 90,
-        "endAzimuth": 270
-      },
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-01T21:53:54+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5311",
+      "text": "🔴🛩️ Москва - Домодедово, UUDD",
       "inKta": true,
       "lat": 55.4087122,
       "lon": 37.9094307
     },
     {
-      "id": "578f773ea11b3a46",
+      "id": "a4f4f9d9c6d8cf6d",
       "action": "ADD",
       "name": "Внуково",
       "icao": "UUWW",
       "kind": "airport",
       "type": "partial",
-      "radiusKm": null,
+      "radiusKm": 100.0,
       "messageTimestamp": "2026-11-01T21:35:01+00:00",
       "sourceUrl": "https://t.me/PlanKoverTDay/5309",
-      "text": "🟡🛩️ Москва - Внуково, UUWW",
+      "text": "🟡🛩️ Москва - Внуково, UUWW / 100 км (азимуты 150-300)",
+      "sector": {
+        "radiusKm": 100.0,
+        "startAzimuth": 150,
+        "endAzimuth": 300
+      },
       "inKta": true,
       "lat": 55.5995278,
       "lon": 37.2735752
     },
     {
-      "id": "c62506f6a737aaa0",
+      "id": "98f0252fc8944f03",
       "action": "ADD",
       "name": "Плёс",
       "icao": null,
@@ -231,7 +231,7 @@
       "lon": 41.511353
     },
     {
-      "id": "c21c792e4da3b1b6",
+      "id": "59eae8388f8e3f2a",
       "action": "ADD",
       "name": "Леляевка",
       "icao": null,
@@ -260,6 +260,45 @@
       "inKta": false,
       "lat": 52.392879,
       "lon": 45.885208
+    },
+    {
+      "id": "1c60d8a1a5c4e71a",
+      "action": "ADD",
+      "name": "Медведица",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 150.0,
+      "messageTimestamp": "2026-11-01T21:42:10+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5310",
+      "text": "🔴 Медведица (🛩️ Саратов - Гагарин, UWSG) / 150 км",
+      "affectedAirports": [
+        {
+          "name": "Гагарин",
+          "icao": "UWSG",
+          "kind": "airport",
+          "lat": 51.7139093,
+          "lon": 46.1672319
+        }
+      ],
+      "inKta": false,
+      "lat": 51.079559,
+      "lon": 44.8182885
+    },
+    {
+      "id": "93859827fd30e49c",
+      "action": "ADD",
+      "name": "Жуковский",
+      "icao": "UUBW",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-01T21:53:54+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5311",
+      "text": "🔴🛩️ Москва - Жуковский, UUBW",
+      "inKta": true,
+      "lat": 55.5496554,
+      "lon": 38.1547897
     }
   ]
 }
