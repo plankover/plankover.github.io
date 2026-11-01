@@ -1,39 +1,7 @@
 {
-  "updatedAt": "2026-11-01T07:45:18.070139+00:00",
+  "updatedAt": "2026-11-01T08:00:18.502658+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
-    {
-      "id": "d0e8a6e570c97f98",
-      "action": "ADD",
-      "name": "Грабцево",
-      "icao": "UUBC",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": 70.0,
-      "messageTimestamp": "2026-11-01T07:43:09+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5292",
-      "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км ",
-      "inKta": true,
-      "snapshot": true,
-      "lat": 54.5488708,
-      "lon": 36.3697725
-    },
-    {
-      "id": "dde2e467fa0918a3",
-      "action": "ADD",
-      "name": "Чкалов",
-      "icao": "UWGG",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": 70.0,
-      "messageTimestamp": "2026-11-01T07:43:09+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5292",
-      "text": "🔴🛩️ Нижний Новгород - Чкалов, UWGG / 70 км",
-      "inKta": true,
-      "snapshot": true,
-      "lat": 56.2295198,
-      "lon": 43.7840064
-    },
     {
       "id": "b802f1971dc0938b",
       "action": "ADD",
