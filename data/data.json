@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T20:10:16.283511+00:00",
+  "updatedAt": "2026-11-01T20:45:19.093482+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -55,6 +55,75 @@
       "inKta": false,
       "lat": 54.2418249,
       "lon": 37.6000197
+    },
+    {
+      "id": "49adb79598d81131",
+      "action": "ADD",
+      "name": "Пенза",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 50.0,
+      "messageTimestamp": "2026-11-01T20:42:29+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5301",
+      "text": "🔴 Пенза (🛩️ Пенза, UWPP) / 50 км",
+      "affectedAirports": [
+        {
+          "name": "Пенза",
+          "icao": "UWPP",
+          "kind": "airport",
+          "lat": 53.110734,
+          "lon": 45.023455
+        }
+      ],
+      "inKta": false,
+      "lat": 53.1953477,
+      "lon": 45.0190437
+    },
+    {
+      "id": "0748ea9676c9dc35",
+      "action": "ADD",
+      "name": "Новоселовка",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 120.0,
+      "messageTimestamp": "2026-11-01T20:42:29+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5301",
+      "text": "🔴 Новоселовка / 120 км",
+      "inKta": false,
+      "lat": 51.9489,
+      "lon": 44.2678
+    },
+    {
+      "id": "0799f1f6085fa37a",
+      "action": "ADD",
+      "name": "Пенза",
+      "icao": "UUWP",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-01T20:45:13+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5302",
+      "text": "🔴🛩️ Пенза, UUWP",
+      "inKta": true,
+      "lat": 53.110734,
+      "lon": 45.023455
+    },
+    {
+      "id": "ae10425d62510f2d",
+      "action": "ADD",
+      "name": "Донское",
+      "icao": "UUOO",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-01T20:45:13+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5302",
+      "text": "🔴🛩️ Тамбов - Донское, UUOO",
+      "inKta": true,
+      "lat": 52.8060125,
+      "lon": 41.4845129
     }
   ]
 }
