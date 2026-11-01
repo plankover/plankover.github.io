@@ -21682,5 +21682,59 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5310,
+    "timestamp": "2026-11-01T21:42:10+00:00",
+    "text": "🔴 Плёс (🛩️ Саратов - Гагарин, UWSG) / 150 км\n🔴 Леляевка (🛩️ Саратов - Гагарин, UWSG ; 🛩️ Пенза, UWPP) / 150 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5310",
+    "events": [
+      {
+        "id": "c62506f6a737aaa0",
+        "action": "ADD",
+        "name": "Плёс",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 150.0,
+        "messageTimestamp": "2026-11-01T21:42:10+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5310",
+        "text": "🔴 Плёс (🛩️ Саратов - Гагарин, UWSG) / 150 км",
+        "affectedAirports": [
+          {
+            "name": "Гагарин",
+            "icao": "UWSG",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false
+      },
+      {
+        "id": "c21c792e4da3b1b6",
+        "action": "ADD",
+        "name": "Леляевка",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 150.0,
+        "messageTimestamp": "2026-11-01T21:42:10+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5310",
+        "text": "🔴 Леляевка (🛩️ Саратов - Гагарин, UWSG ; 🛩️ Пенза, UWPP) / 150 км",
+        "affectedAirports": [
+          {
+            "name": "Гагарин",
+            "icao": "UWSG",
+            "kind": "airport"
+          },
+          {
+            "name": "Пенза",
+            "icao": "UWPP",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false
+      }
+    ]
   }
 ]

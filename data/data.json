@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T21:35:16.405648+00:00",
+  "updatedAt": "2026-11-01T21:45:19.252953+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -205,6 +205,61 @@
       "inKta": true,
       "lat": 55.5995278,
       "lon": 37.2735752
+    },
+    {
+      "id": "c62506f6a737aaa0",
+      "action": "ADD",
+      "name": "Плёс",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 150.0,
+      "messageTimestamp": "2026-11-01T21:42:10+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5310",
+      "text": "🔴 Плёс (🛩️ Саратов - Гагарин, UWSG) / 150 км",
+      "affectedAirports": [
+        {
+          "name": "Гагарин",
+          "icao": "UWSG",
+          "kind": "airport",
+          "lat": 51.7139093,
+          "lon": 46.1672319
+        }
+      ],
+      "inKta": false,
+      "lat": 57.459187,
+      "lon": 41.511353
+    },
+    {
+      "id": "c21c792e4da3b1b6",
+      "action": "ADD",
+      "name": "Леляевка",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 150.0,
+      "messageTimestamp": "2026-11-01T21:42:10+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5310",
+      "text": "🔴 Леляевка (🛩️ Саратов - Гагарин, UWSG ; 🛩️ Пенза, UWPP) / 150 км",
+      "affectedAirports": [
+        {
+          "name": "Гагарин",
+          "icao": "UWSG",
+          "kind": "airport",
+          "lat": 51.7139093,
+          "lon": 46.1672319
+        },
+        {
+          "name": "Пенза",
+          "icao": "UWPP",
+          "kind": "airport",
+          "lat": 53.110734,
+          "lon": 45.023455
+        }
+      ],
+      "inKta": false,
+      "lat": 52.392879,
+      "lon": 45.885208
     }
   ]
 }
