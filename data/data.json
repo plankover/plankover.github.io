@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T20:00:23.462482+00:00",
+  "updatedAt": "2026-11-02T20:05:30.268782+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -76,6 +76,21 @@
       "inKta": false,
       "lat": 55.9760876,
       "lon": 37.4238008
+    },
+    {
+      "id": "6e87644286f285bd",
+      "action": "ADD",
+      "name": "ДОМОДЕДОВО",
+      "icao": null,
+      "kind": "airport",
+      "type": "partial",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-02T20:02:25+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5330",
+      "text": "🟡 Аэропорт ДОМОДЕДОВО",
+      "inKta": false,
+      "lat": 55.4087122,
+      "lon": 37.9094307
     }
   ]
 }
