@@ -22503,5 +22503,40 @@
         "inKta": false
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5338,
+    "timestamp": "2026-11-02T21:37:54+00:00",
+    "text": "🟢 а/д Чкаловский\n\n🔴 а/д Северный, Смоленск / 50 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5338",
+    "events": [
+      {
+        "id": "cbd8f4a15234fc0d",
+        "action": "REMOVE",
+        "name": "Чкаловский",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-02T21:37:54+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5338",
+        "text": "🟢 а/д Чкаловский",
+        "inKta": false
+      },
+      {
+        "id": "799d57f559b2a11c",
+        "action": "ADD",
+        "name": "Северный, Смоленск",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 50.0,
+        "messageTimestamp": "2026-11-02T21:37:54+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5338",
+        "text": "🔴 а/д Северный, Смоленск / 50 км",
+        "inKta": false
+      }
+    ]
   }
 ]
