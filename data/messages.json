@@ -22280,5 +22280,57 @@
         "inKta": false
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5331,
+    "timestamp": "2026-11-02T20:07:22+00:00",
+    "text": "🔴🛩️ Внуково, UUWW (🟡🛩️ Шереметьево, UUEE) / 100 км (азимуты 150-000)\n🟡🛩️ Домодедово, UUDD / 100 км (азимуты 090-270)",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5331",
+    "events": [
+      {
+        "id": "9c5840fb8240ec8e",
+        "action": "ADD",
+        "name": "Внуково",
+        "icao": "UUWW",
+        "kind": "airport",
+        "type": "partial",
+        "radiusKm": 100.0,
+        "messageTimestamp": "2026-11-02T20:07:22+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5331",
+        "text": "🔴🛩️ Внуково, UUWW (🟡🛩️ Шереметьево, UUEE) / 100 км (азимуты 150-000)",
+        "sector": {
+          "radiusKm": 100.0,
+          "startAzimuth": 150,
+          "endAzimuth": 0
+        },
+        "affectedAirports": [
+          {
+            "name": "🟡🛩️ Шереметьево",
+            "icao": "UUEE",
+            "kind": "airport"
+          }
+        ],
+        "inKta": true
+      },
+      {
+        "id": "e2f4938bc1470640",
+        "action": "ADD",
+        "name": "Домодедово",
+        "icao": "UUDD",
+        "kind": "airport",
+        "type": "partial",
+        "radiusKm": 100.0,
+        "messageTimestamp": "2026-11-02T20:07:22+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5331",
+        "text": "🟡🛩️ Домодедово, UUDD / 100 км (азимуты 090-270)",
+        "sector": {
+          "radiusKm": 100.0,
+          "startAzimuth": 90,
+          "endAzimuth": 270
+        },
+        "inKta": true
+      }
+    ]
   }
 ]

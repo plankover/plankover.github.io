@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T20:05:30.268782+00:00",
+  "updatedAt": "2026-11-02T20:10:22.025378+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -33,16 +33,30 @@
       "lon": 37.6000197
     },
     {
-      "id": "a2a90e402e93a4f4",
+      "id": "9c5840fb8240ec8e",
       "action": "ADD",
       "name": "Внуково",
       "icao": "UUWW",
       "kind": "airport",
-      "type": "full",
-      "radiusKm": 20.0,
-      "messageTimestamp": "2026-11-02T19:52:43+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5328",
-      "text": "🔴🛩️ Внуково, UUWW / 20 км",
+      "type": "partial",
+      "radiusKm": 100.0,
+      "messageTimestamp": "2026-11-02T20:07:22+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5331",
+      "text": "🔴🛩️ Внуково, UUWW (🟡🛩️ Шереметьево, UUEE) / 100 км (азимуты 150-000)",
+      "sector": {
+        "radiusKm": 100.0,
+        "startAzimuth": 150,
+        "endAzimuth": 0
+      },
+      "affectedAirports": [
+        {
+          "name": "🟡🛩️ Шереметьево",
+          "icao": "UUEE",
+          "kind": "airport",
+          "lat": 55.9760876,
+          "lon": 37.4238008
+        }
+      ],
       "inKta": true,
       "lat": 55.5995278,
       "lon": 37.2735752
@@ -89,6 +103,26 @@
       "sourceUrl": "https://t.me/PlanKoverTDay/5330",
       "text": "🟡 Аэропорт ДОМОДЕДОВО",
       "inKta": false,
+      "lat": 55.4087122,
+      "lon": 37.9094307
+    },
+    {
+      "id": "e2f4938bc1470640",
+      "action": "ADD",
+      "name": "Домодедово",
+      "icao": "UUDD",
+      "kind": "airport",
+      "type": "partial",
+      "radiusKm": 100.0,
+      "messageTimestamp": "2026-11-02T20:07:22+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5331",
+      "text": "🟡🛩️ Домодедово, UUDD / 100 км (азимуты 090-270)",
+      "sector": {
+        "radiusKm": 100.0,
+        "startAzimuth": 90,
+        "endAzimuth": 270
+      },
+      "inKta": true,
       "lat": 55.4087122,
       "lon": 37.9094307
     }
