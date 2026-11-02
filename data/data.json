@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T02:30:16.368501+00:00",
+  "updatedAt": "2026-11-02T02:55:16.032015+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -16,30 +16,6 @@
       "inKta": false,
       "lat": 54.2418249,
       "lon": 37.6000197
-    },
-    {
-      "id": "49adb79598d81131",
-      "action": "ADD",
-      "name": "Пенза",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": 50.0,
-      "messageTimestamp": "2026-11-01T20:42:29+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5301",
-      "text": "🔴 Пенза (🛩️ Пенза, UWPP) / 50 км",
-      "affectedAirports": [
-        {
-          "name": "Пенза",
-          "icao": "UWPP",
-          "kind": "airport",
-          "lat": 53.110734,
-          "lon": 45.023455
-        }
-      ],
-      "inKta": false,
-      "lat": 53.1953477,
-      "lon": 45.0190437
     },
     {
       "id": "0748ea9676c9dc35",
@@ -72,30 +48,6 @@
       "lon": 39.0274629
     },
     {
-      "id": "4d09e9ac7b3f3a0e",
-      "action": "ADD",
-      "name": "Энгельс",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": 100.0,
-      "messageTimestamp": "2026-11-01T20:51:02+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5304",
-      "text": "🔴 Энгельс (🛩️ Саратов - Гагарин, UWSG) / 100 км",
-      "affectedAirports": [
-        {
-          "name": "Гагарин",
-          "icao": "UWSG",
-          "kind": "airport",
-          "lat": 51.7139093,
-          "lon": 46.1672319
-        }
-      ],
-      "inKta": false,
-      "lat": 51.5013775,
-      "lon": 46.1233093
-    },
-    {
       "id": "1da9094acc052a2f",
       "action": "ADD",
       "name": "Саваслейка",
@@ -109,85 +61,6 @@
       "inKta": false,
       "lat": 55.439058,
       "lon": 42.3063935
-    },
-    {
-      "id": "98f0252fc8944f03",
-      "action": "ADD",
-      "name": "Плёс",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": 150.0,
-      "messageTimestamp": "2026-11-01T21:42:10+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5310",
-      "text": "🔴 Плёс (🛩️ Саратов - Гагарин, UWSG) / 150 км",
-      "affectedAirports": [
-        {
-          "name": "Гагарин",
-          "icao": "UWSG",
-          "kind": "airport",
-          "lat": 51.7139093,
-          "lon": 46.1672319
-        }
-      ],
-      "inKta": false,
-      "lat": 51.292837,
-      "lon": 47.777662
-    },
-    {
-      "id": "59eae8388f8e3f2a",
-      "action": "ADD",
-      "name": "Леляевка",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": 150.0,
-      "messageTimestamp": "2026-11-01T21:42:10+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5310",
-      "text": "🔴 Леляевка (🛩️ Саратов - Гагарин, UWSG ; 🛩️ Пенза, UWPP) / 150 км",
-      "affectedAirports": [
-        {
-          "name": "Гагарин",
-          "icao": "UWSG",
-          "kind": "airport",
-          "lat": 51.7139093,
-          "lon": 46.1672319
-        },
-        {
-          "name": "Пенза",
-          "icao": "UWPP",
-          "kind": "airport",
-          "lat": 53.110734,
-          "lon": 45.023455
-        }
-      ],
-      "inKta": false,
-      "lat": 52.392879,
-      "lon": 45.885208
-    },
-    {
-      "id": "1c60d8a1a5c4e71a",
-      "action": "ADD",
-      "name": "Медведица",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": 150.0,
-      "messageTimestamp": "2026-11-01T21:42:10+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5310",
-      "text": "🔴 Медведица (🛩️ Саратов - Гагарин, UWSG) / 150 км",
-      "affectedAirports": [
-        {
-          "name": "Гагарин",
-          "icao": "UWSG",
-          "kind": "airport",
-          "lat": 51.7139093,
-          "lon": 46.1672319
-        }
-      ],
-      "inKta": false,
-      "lat": 51.079559,
-      "lon": 44.8182885
     }
   ]
 }
