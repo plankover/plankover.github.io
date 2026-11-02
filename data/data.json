@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T20:45:18.052853+00:00",
+  "updatedAt": "2026-11-02T21:20:23.041907+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -152,16 +152,16 @@
       "lon": 36.779
     },
     {
-      "id": "5c7f8c9574368bbd",
+      "id": "fd5ebf50d230680a",
       "action": "ADD",
-      "name": "Жуковский",
+      "name": "Раменское",
       "icao": "UUBW",
       "kind": "airport",
-      "type": "partial",
+      "type": "full",
       "radiusKm": null,
-      "messageTimestamp": "2026-11-02T20:42:46+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5335",
-      "text": "🟡🛩️ Москва - Жуковский, UUBW",
+      "messageTimestamp": "2026-11-02T21:19:00+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5336",
+      "text": "🔴🛩️ Жуковский - Раменское, UUBW",
       "inKta": true,
       "lat": 55.5496554,
       "lon": 38.1547897
