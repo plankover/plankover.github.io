@@ -22337,21 +22337,73 @@
     "chatId": -1003822338715,
     "messageId": 5332,
     "timestamp": "2026-11-02T20:30:02+00:00",
-    "text": "🔴🛩️ Москва - Домодедово, UUDD",
+    "text": "🔴🛩️ Москва - Домодедово, UUDD / 20 км",
     "sourceUrl": "https://t.me/PlanKoverTDay/5332",
     "events": [
       {
-        "id": "85eb23c60fabdf9d",
+        "id": "748bd39c137f8fe9",
         "action": "ADD",
         "name": "Домодедово",
         "icao": "UUDD",
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
+        "radiusKm": 20.0,
         "messageTimestamp": "2026-11-02T20:30:02+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/5332",
-        "text": "🔴🛩️ Москва - Домодедово, UUDD",
+        "text": "🔴🛩️ Москва - Домодедово, UUDD / 20 км",
         "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5333,
+    "timestamp": "2026-11-02T20:36:37+00:00",
+    "text": "📌 Прогноз.\n\nНочью в московской зоне вероятны долгосрочные ограничения. Грабцево, Домодедово и Внуково закрыты, Шереметьево работает по согласованию. Возможны полные ограничения.\n\nПо остальным регионам предсказать не можем, но на данный момент все хорошо ✈️",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5333",
+    "events": [
+      {
+        "id": "3e3f51c863da5bab",
+        "action": "ADD",
+        "messageTimestamp": "2026-11-02T20:36:37+00:00",
+        "text": "📌 Прогноз.\n\nНочью в московской зоне вероятны долгосрочные ограничения. Грабцево, Домодедово и Внуково закрыты, Шереметьево работает по согласованию. Возможны полные ограничения.\n\nПо остальным регионам предсказать не можем, но на данный момент все хорошо ✈️",
+        "unresolved": true,
+        "sourceUrl": "https://t.me/PlanKoverTDay/5333"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5334,
+    "timestamp": "2026-11-02T20:39:38+00:00",
+    "text": "🔴 а/д Дягилево, Рязань / 70 км\n🔴 Конаково / 50 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5334",
+    "events": [
+      {
+        "id": "d9701e0d0ffb85f4",
+        "action": "ADD",
+        "name": "Дягилево, Рязань",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-11-02T20:39:38+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5334",
+        "text": "🔴 а/д Дягилево, Рязань / 70 км",
+        "inKta": false
+      },
+      {
+        "id": "bffd6c4d9dbc35a6",
+        "action": "ADD",
+        "name": "Конаково",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 50.0,
+        "messageTimestamp": "2026-11-02T20:39:38+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5334",
+        "text": "🔴 Конаково / 50 км",
+        "inKta": false
       }
     ]
   }

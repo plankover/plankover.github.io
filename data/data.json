@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T20:30:21.599015+00:00",
+  "updatedAt": "2026-11-02T20:40:20.608722+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -107,19 +107,49 @@
       "lon": 37.9094307
     },
     {
-      "id": "85eb23c60fabdf9d",
+      "id": "748bd39c137f8fe9",
       "action": "ADD",
       "name": "Домодедово",
       "icao": "UUDD",
       "kind": "airport",
       "type": "full",
-      "radiusKm": null,
+      "radiusKm": 20.0,
       "messageTimestamp": "2026-11-02T20:30:02+00:00",
       "sourceUrl": "https://t.me/PlanKoverTDay/5332",
-      "text": "🔴🛩️ Москва - Домодедово, UUDD",
+      "text": "🔴🛩️ Москва - Домодедово, UUDD / 20 км",
       "inKta": true,
       "lat": 55.4087122,
       "lon": 37.9094307
+    },
+    {
+      "id": "d9701e0d0ffb85f4",
+      "action": "ADD",
+      "name": "Дягилево, Рязань",
+      "icao": null,
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 70.0,
+      "messageTimestamp": "2026-11-02T20:39:38+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5334",
+      "text": "🔴 а/д Дягилево, Рязань / 70 км",
+      "inKta": false,
+      "lat": 54.6571958,
+      "lon": 39.6308884
+    },
+    {
+      "id": "bffd6c4d9dbc35a6",
+      "action": "ADD",
+      "name": "Конаково",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 50.0,
+      "messageTimestamp": "2026-11-02T20:39:38+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5334",
+      "text": "🔴 Конаково / 50 км",
+      "inKta": false,
+      "lat": 56.7126,
+      "lon": 36.779
     }
   ]
 }
