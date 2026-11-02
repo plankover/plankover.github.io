@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T23:20:15.838068+00:00",
+  "updatedAt": "2026-11-02T02:10:16.933270+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -225,37 +225,6 @@
       "inKta": false,
       "lat": 51.079559,
       "lon": 44.8182885
-    },
-    {
-      "id": "e105863cbc39a70c",
-      "action": "ADD",
-      "name": "Биринск",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": 150.0,
-      "messageTimestamp": "2026-11-01T22:12:09+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5316",
-      "text": "🔴 Биринск (🛩️ Самара - Курумоч, UWWW ; 🛩️ Ульяновск - Баратаевка, UWLL) / 150 км",
-      "affectedAirports": [
-        {
-          "name": "Курумоч",
-          "icao": "UWWW",
-          "kind": "airport",
-          "lat": 53.5057511,
-          "lon": 50.1569939
-        },
-        {
-          "name": "Баратаевка",
-          "icao": "UWLL",
-          "kind": "airport",
-          "lat": 54.2690213,
-          "lon": 48.2248287
-        }
-      ],
-      "inKta": false,
-      "lat": 53.5798818,
-      "lon": 48.6498061
     }
   ]
 }
