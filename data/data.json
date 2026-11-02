@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T21:40:18.890528+00:00",
+  "updatedAt": "2026-11-02T21:55:23.507963+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -187,7 +187,7 @@
       "lon": 33.2537994
     },
     {
-      "id": "799d57f559b2a11c",
+      "id": "8934d0325833cadf",
       "action": "ADD",
       "name": "Северный, Смоленск",
       "icao": null,
@@ -200,6 +200,21 @@
       "inKta": false,
       "lat": 54.823085,
       "lon": 32.0231288
+    },
+    {
+      "id": "d03ecf6c910f810c",
+      "action": "ADD",
+      "name": "Шатура",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 30.0,
+      "messageTimestamp": "2026-11-02T21:37:54+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5338",
+      "text": "🔴 Шатура / 30 км",
+      "inKta": false,
+      "lat": 55.578403,
+      "lon": 39.5437584
     }
   ]
 }

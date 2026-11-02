@@ -22508,11 +22508,11 @@
     "chatId": -1003822338715,
     "messageId": 5338,
     "timestamp": "2026-11-02T21:37:54+00:00",
-    "text": "🟢 а/д Чкаловский\n\n🔴 а/д Северный, Смоленск / 50 км",
+    "text": "🟢 а/д Чкаловский\n\n🔴 а/д Северный, Смоленск / 50 км\n🔴 Шатура / 30 км",
     "sourceUrl": "https://t.me/PlanKoverTDay/5338",
     "events": [
       {
-        "id": "cbd8f4a15234fc0d",
+        "id": "e6fc13c0e4d8bc83",
         "action": "REMOVE",
         "name": "Чкаловский",
         "icao": null,
@@ -22525,7 +22525,7 @@
         "inKta": false
       },
       {
-        "id": "799d57f559b2a11c",
+        "id": "8934d0325833cadf",
         "action": "ADD",
         "name": "Северный, Смоленск",
         "icao": null,
@@ -22535,6 +22535,19 @@
         "messageTimestamp": "2026-11-02T21:37:54+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/5338",
         "text": "🔴 а/д Северный, Смоленск / 50 км",
+        "inKta": false
+      },
+      {
+        "id": "d03ecf6c910f810c",
+        "action": "ADD",
+        "name": "Шатура",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 30.0,
+        "messageTimestamp": "2026-11-02T21:37:54+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5338",
+        "text": "🔴 Шатура / 30 км",
         "inKta": false
       }
     ]
