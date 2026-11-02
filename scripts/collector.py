@@ -140,6 +140,12 @@ def resolve_event_coords(event, cache):
 def key(e):
     icao=(e.get("icao") or "").strip().upper(); name=(e.get("name") or "").strip().casefold()
     return f"icao:{icao}" if icao else f"place:{name}"
+def active_key(e):
+    base = key(e)
+    sector = e.get('sector') or {}
+    geom = (e.get('type', 'full'), e.get('radiusKm'), sector.get('startAzimuth'), sector.get('endAzimuth'))
+    return base + ':' + canonical(geom)
+
 def build_active(history):
     active={}
     history=sorted(history,key=lambda r:dt(r.get("timestamp")) or datetime.min.replace(tzinfo=timezone.utc))
@@ -152,7 +158,7 @@ def build_active(history):
             continue
         snapshot_events=[e for e in events if e.get("snapshot") and e.get("action")=="ADD" and e.get("name")]
         if snapshot_events:
-            active={key(e):dict(e) for e in snapshot_events}
+            active={active_key(e):dict(e) for e in snapshot_events}
             continue
         for e in events:
             action=e.get("action")
@@ -161,8 +167,13 @@ def build_active(history):
                 targets=e.get("targets") or ([e] if e.get("name") else [])
                 removed_icaos = {str(t.get("icao") or "").strip().upper() for t in targets if t.get("kind") == "airport" and t.get("icao")}
                 removed_names = {re.sub(r"[^а-яa-z0-9]", "", str(t.get("name") or "").casefold()) for t in targets if t.get("kind") == "airport" and t.get("name")}
-                for target in targets:
-                    active.pop(key(target), None)
+                for active_id, restriction in list(active.items()):
+                    if restriction.get('kind') != 'airport':
+                        continue
+                    ri = str(restriction.get('icao') or '').strip().upper()
+                    rn = re.sub(r'[^а-яa-z0-9]', '', str(restriction.get('name') or '').casefold())
+                    if ri in removed_icaos or rn in removed_names:
+                        active.pop(active_id, None)
                 # Remove area zones that explicitly listed the reopened airport.
                 if removed_icaos or removed_names:
                     for active_key, restriction in list(active.items()):
@@ -173,7 +184,7 @@ def build_active(history):
                         if direct_match or affected_match:
                             active.pop(active_key, None)
             elif action=="ADD" and e.get("name"):
-                active[key(e)]=dict(e)
+                active[active_key(e)]=dict(e)
     return list(active.values())
 def main():
     if not TOKEN:raise RuntimeError("Не задан TELEGRAM_BOT_TOKEN в GitHub Secrets.")
