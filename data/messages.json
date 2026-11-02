@@ -22118,20 +22118,20 @@
     "chatId": -1003822338715,
     "messageId": 5324,
     "timestamp": "2026-11-02T17:56:17+00:00",
-    "text": "🔴🛩️ Калуга - Грабцево, UUBC",
+    "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км",
     "sourceUrl": "https://t.me/PlanKoverTDay/5324",
     "events": [
       {
-        "id": "e760b28fdc93b274",
+        "id": "04e00920b5ae0113",
         "action": "ADD",
         "name": "Грабцево",
         "icao": "UUBC",
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
+        "radiusKm": 70.0,
         "messageTimestamp": "2026-11-02T17:56:17+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/5324",
-        "text": "🔴🛩️ Калуга - Грабцево, UUBC",
+        "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км",
         "inKta": true
       }
     ]
