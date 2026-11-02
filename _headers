@@ -1,0 +1,12 @@
+/index.html
+  Cache-Control: no-cache, must-revalidate
+
+/data/*
+  Cache-Control: no-store, max-age=0
+
+/*.json
+  Cache-Control: no-store, max-age=0
+
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
