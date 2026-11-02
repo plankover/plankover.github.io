@@ -22162,21 +22162,39 @@
     "chatId": -1003822338715,
     "messageId": 5326,
     "timestamp": "2026-11-02T19:07:37+00:00",
-    "text": "🟡🛩️ Москва - Внуково, UUWW",
+    "text": "🟡🛩️ Москва - Внуково, UUWW / 100 км (азимуты 150-330)\n🔴 а/д Двоевка, Вязьма / 50 км",
     "sourceUrl": "https://t.me/PlanKoverTDay/5326",
     "events": [
       {
-        "id": "3cb575ca2c941208",
+        "id": "6d1cc2fa539f8b0c",
         "action": "ADD",
         "name": "Внуково",
         "icao": "UUWW",
         "kind": "airport",
         "type": "partial",
-        "radiusKm": null,
+        "radiusKm": 100.0,
         "messageTimestamp": "2026-11-02T19:07:37+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/5326",
-        "text": "🟡🛩️ Москва - Внуково, UUWW",
+        "text": "🟡🛩️ Москва - Внуково, UUWW / 100 км (азимуты 150-330)",
+        "sector": {
+          "radiusKm": 100.0,
+          "startAzimuth": 150,
+          "endAzimuth": 330
+        },
         "inKta": true
+      },
+      {
+        "id": "47d888e09c8d9ca5",
+        "action": "ADD",
+        "name": "Двоевка, Вязьма",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 50.0,
+        "messageTimestamp": "2026-11-02T19:07:37+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5326",
+        "text": "🔴 а/д Двоевка, Вязьма / 50 км",
+        "inKta": false
       }
     ]
   }
