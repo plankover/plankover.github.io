@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T21:55:23.507963+00:00",
+  "updatedAt": "2026-11-02T22:12:16.156394+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -77,6 +77,21 @@
       "lon": 34.3776834
     },
     {
+      "id": "a2a90e402e93a4f4",
+      "action": "ADD",
+      "name": "Внуково",
+      "icao": "UUWW",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 20.0,
+      "messageTimestamp": "2026-11-02T19:52:43+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5328",
+      "text": "🔴🛩️ Внуково, UUWW / 20 км",
+      "inKta": true,
+      "lat": 55.5995278,
+      "lon": 37.2735752
+    },
+    {
       "id": "b7b643ab8a1274d6",
       "action": "ADD",
       "name": "ШЕРЕМЕТЬЕВО",
@@ -103,6 +118,26 @@
       "sourceUrl": "https://t.me/PlanKoverTDay/5330",
       "text": "🟡 Аэропорт ДОМОДЕДОВО",
       "inKta": false,
+      "lat": 55.4087122,
+      "lon": 37.9094307
+    },
+    {
+      "id": "e2f4938bc1470640",
+      "action": "ADD",
+      "name": "Домодедово",
+      "icao": "UUDD",
+      "kind": "airport",
+      "type": "partial",
+      "radiusKm": 100.0,
+      "messageTimestamp": "2026-11-02T20:07:22+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5331",
+      "text": "🟡🛩️ Домодедово, UUDD / 100 км (азимуты 090-270)",
+      "sector": {
+        "radiusKm": 100.0,
+        "startAzimuth": 90,
+        "endAzimuth": 270
+      },
+      "inKta": true,
       "lat": 55.4087122,
       "lon": 37.9094307
     },
@@ -150,6 +185,21 @@
       "inKta": false,
       "lat": 56.7126,
       "lon": 36.779
+    },
+    {
+      "id": "fd5ebf50d230680a",
+      "action": "ADD",
+      "name": "Раменское",
+      "icao": "UUBW",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-02T21:19:00+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5336",
+      "text": "🔴🛩️ Жуковский - Раменское, UUBW",
+      "inKta": true,
+      "lat": 55.5496554,
+      "lon": 38.1547897
     },
     {
       "id": "f9daf9745374911a",

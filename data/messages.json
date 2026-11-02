@@ -22551,5 +22551,22 @@
         "inKta": false
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5339,
+    "timestamp": "2026-11-02T22:05:43+00:00",
+    "text": "🕒 Карта ограничений на 01:05 мск.",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5339",
+    "events": [
+      {
+        "id": "5c26224b03e85e16",
+        "action": "ADD",
+        "messageTimestamp": "2026-11-02T22:05:43+00:00",
+        "text": "🕒 Карта ограничений на 01:05 мск.",
+        "unresolved": true,
+        "sourceUrl": "https://t.me/PlanKoverTDay/5339"
+      }
+    ]
   }
 ]
