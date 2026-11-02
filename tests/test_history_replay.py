@@ -22,6 +22,19 @@ class HistoryReplayTests(unittest.TestCase):
         ]
         active = build_active(history)
         self.assertEqual([item["name"] for item in active], ["Казань"])
+    def test_multiple_airport_zones_at_distinct_radii_are_preserved(self):
+        history = [
+            {"timestamp": "2026-11-02T10:00:00+00:00", "events": [
+                {"action": "ADD", "name": "Внуково", "icao": "UUWW", "kind": "airport", "type": "full", "radiusKm": 20}
+            ]},
+            {"timestamp": "2026-11-02T10:05:00+00:00", "events": [
+                {"action": "ADD", "name": "Внуково", "icao": "UUWW", "kind": "airport", "type": "partial", "radiusKm": 100, "sector": {"radiusKm": 100, "startAzimuth": 150, "endAzimuth": 0}}
+            ]},
+        ]
+        active = build_active(history)
+        self.assertEqual(len(active), 2)
+        self.assertEqual({item["radiusKm"] for item in active}, {20, 100})
+
     def test_archived_history_replays_without_empty_or_unresolved_targets(self):
         archive_path = ROOT / "data" / "messages.json"
         with archive_path.open(encoding="utf-8") as f:
