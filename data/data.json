@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T20:40:20.608722+00:00",
+  "updatedAt": "2026-11-02T20:45:18.052853+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -150,6 +150,21 @@
       "inKta": false,
       "lat": 56.7126,
       "lon": 36.779
+    },
+    {
+      "id": "5c7f8c9574368bbd",
+      "action": "ADD",
+      "name": "Жуковский",
+      "icao": "UUBW",
+      "kind": "airport",
+      "type": "partial",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-02T20:42:46+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5335",
+      "text": "🟡🛩️ Москва - Жуковский, UUBW",
+      "inKta": true,
+      "lat": 55.5496554,
+      "lon": 38.1547897
     }
   ]
 }
