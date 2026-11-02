@@ -22197,5 +22197,44 @@
         "inKta": false
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5327,
+    "timestamp": "2026-11-02T19:51:04+00:00",
+    "text": "▫️Аэропорт ВНУКОВО\n\n✈️ВВЕДЕНЫ временные ограниченияна прием и выпуск воздушных судов.\n\n✈️Ограничения необходимы для обеспечения безопасности полетов.\n\n✈ Говорит Росавиация | MАХ",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5327",
+    "events": [
+      {
+        "id": "f6980965ee4eb350",
+        "action": "ADD",
+        "messageTimestamp": "2026-11-02T19:51:04+00:00",
+        "text": "▫️Аэропорт ВНУКОВО\n\n✈️ВВЕДЕНЫ временные ограниченияна прием и выпуск воздушных судов.\n\n✈️Ограничения необходимы для обеспечения безопасности полетов.\n\n✈ Говорит Росавиация | MАХ",
+        "unresolved": true,
+        "sourceUrl": "https://t.me/PlanKoverTDay/5327"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5328,
+    "timestamp": "2026-11-02T19:52:43+00:00",
+    "text": "🔴🛩️ Внуково, UUWW / 20 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5328",
+    "events": [
+      {
+        "id": "a2a90e402e93a4f4",
+        "action": "ADD",
+        "name": "Внуково",
+        "icao": "UUWW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 20.0,
+        "messageTimestamp": "2026-11-02T19:52:43+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5328",
+        "text": "🔴🛩️ Внуково, UUWW / 20 км",
+        "inKta": true
+      }
+    ]
   }
 ]
