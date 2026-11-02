@@ -22102,21 +22102,15 @@
     "chatId": -1003822338715,
     "messageId": 5323,
     "timestamp": "2026-11-02T02:57:47+00:00",
-    "text": "🟢🛩️ Самара - Курумоч, UWWW",
+    "text": "🟢🛩️ Самара - Курумоч, UWWW\n\n✅ Ранее объявленные",
     "sourceUrl": "https://t.me/PlanKoverTDay/5323",
     "events": [
       {
-        "id": "51cae81d28dada51",
-        "action": "REMOVE",
-        "name": "Курумоч",
-        "icao": "UWWW",
-        "kind": "airport",
-        "type": "full",
-        "radiusKm": null,
+        "id": "7ae56390bab22a4e",
+        "action": "CLEAR",
         "messageTimestamp": "2026-11-02T02:57:47+00:00",
-        "sourceUrl": "https://t.me/PlanKoverTDay/5323",
-        "text": "🟢🛩️ Самара - Курумоч, UWWW",
-        "inKta": true
+        "text": "🟢🛩️ Самара - Курумоч, UWWW\n\n✅ Ранее объявленные",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5323"
       }
     ]
   }
