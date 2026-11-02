@@ -22455,11 +22455,24 @@
     "chatId": -1003822338715,
     "messageId": 5337,
     "timestamp": "2026-11-02T21:26:51+00:00",
-    "text": "🟡🛩️ Жуковский, UUBW / 50 км (азимуты 030-180)\n🔴 а/д Чкаловский / 30 км\n🔴 Валдай / 70 км",
+    "text": "🟢🛩️ Жуковский, UUBW \n\n🟡🛩️ Жуковский, UUBW / 50 км (азимуты 030-180)\n🔴 а/д Чкаловский / 30 км\n🔴 Валдай / 70 км",
     "sourceUrl": "https://t.me/PlanKoverTDay/5337",
     "events": [
       {
-        "id": "f9daf9745374911a",
+        "id": "4a5f974c67abebaa",
+        "action": "REMOVE",
+        "name": "Жуковский",
+        "icao": "UUBW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-02T21:26:51+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5337",
+        "text": "🟢🛩️ Жуковский, UUBW ",
+        "inKta": true
+      },
+      {
+        "id": "f737e534e2933acb",
         "action": "ADD",
         "name": "Жуковский",
         "icao": "UUBW",
@@ -22477,7 +22490,7 @@
         "inKta": true
       },
       {
-        "id": "b8a68c70582c582b",
+        "id": "f8c31b202bc2674f",
         "action": "ADD",
         "name": "Чкаловский",
         "icao": null,
@@ -22490,7 +22503,7 @@
         "inKta": false
       },
       {
-        "id": "505dedc4ce72fd17",
+        "id": "49d1b2279c6c65e7",
         "action": "ADD",
         "name": "Валдай",
         "icao": null,
