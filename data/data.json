@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T21:20:23.041907+00:00",
+  "updatedAt": "2026-11-02T21:30:20.545413+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -152,19 +152,54 @@
       "lon": 36.779
     },
     {
-      "id": "fd5ebf50d230680a",
+      "id": "f9daf9745374911a",
       "action": "ADD",
-      "name": "Раменское",
+      "name": "Жуковский",
       "icao": "UUBW",
       "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-02T21:19:00+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5336",
-      "text": "🔴🛩️ Жуковский - Раменское, UUBW",
+      "type": "partial",
+      "radiusKm": 50.0,
+      "messageTimestamp": "2026-11-02T21:26:51+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5337",
+      "text": "🟡🛩️ Жуковский, UUBW / 50 км (азимуты 030-180)",
+      "sector": {
+        "radiusKm": 50.0,
+        "startAzimuth": 30,
+        "endAzimuth": 180
+      },
       "inKta": true,
       "lat": 55.5496554,
       "lon": 38.1547897
+    },
+    {
+      "id": "b8a68c70582c582b",
+      "action": "ADD",
+      "name": "Чкаловский",
+      "icao": null,
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 30.0,
+      "messageTimestamp": "2026-11-02T21:26:51+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5337",
+      "text": "🔴 а/д Чкаловский / 30 км",
+      "inKta": false,
+      "lat": 55.8812128,
+      "lon": 38.0529311
+    },
+    {
+      "id": "505dedc4ce72fd17",
+      "action": "ADD",
+      "name": "Валдай",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 70.0,
+      "messageTimestamp": "2026-11-02T21:26:51+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5337",
+      "text": "🔴 Валдай / 70 км",
+      "inKta": false,
+      "lat": 57.9791414,
+      "lon": 33.2537994
     }
   ]
 }
