@@ -143,7 +143,7 @@ def key(e):
 def active_key(e):
     base = key(e)
     sector = e.get('sector') or {}
-    geom = (e.get('type', 'full'), e.get('radiusKm'), sector.get('startAzimuth'), sector.get('endAzimuth'))
+    geom = e.get('radiusKm')
     return base + ':' + canonical(geom)
 
 def build_active(history):
