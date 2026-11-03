@@ -670,7 +670,7 @@
   }
 
   function applyUncertainHatch(shape) {
-    shape.on("add", () => {
+    const apply = () => {
       const path = shape.getElement();
       const svg = path?.ownerSVGElement;
       if (!path || !svg) return;
@@ -680,18 +680,29 @@
         defs.setAttribute("id", "uncertain-zone-defs");
         const pattern = document.createElementNS("http://www.w3.org/2000/svg", "pattern");
         pattern.setAttribute("id", "uncertain-zone-hatch");
-        pattern.setAttribute("width", "9"); pattern.setAttribute("height", "9");
+        pattern.setAttribute("width", "9");
+        pattern.setAttribute("height", "9");
         pattern.setAttribute("patternUnits", "userSpaceOnUse");
         const bg = document.createElementNS("http://www.w3.org/2000/svg", "rect");
-        bg.setAttribute("width", "9"); bg.setAttribute("height", "9");
-        bg.setAttribute("fill", "#9299a3"); bg.setAttribute("fill-opacity", ".20");
+        bg.setAttribute("width", "9");
+        bg.setAttribute("height", "9");
+        bg.setAttribute("fill", "#9299a3");
+        bg.setAttribute("fill-opacity", ".20");
         const line = document.createElementNS("http://www.w3.org/2000/svg", "path");
         line.setAttribute("d", "M-2,2 l9,-9 M0,9 l9,-9 M7,11 l5,-5");
-        line.setAttribute("stroke", "#9299a3"); line.setAttribute("stroke-width", "1.5");
-        pattern.appendChild(bg); pattern.appendChild(line); defs.appendChild(pattern); svg.prepend(defs);
+        line.setAttribute("stroke", "#9299a3");
+        line.setAttribute("stroke-width", "1.5");
+        pattern.appendChild(bg);
+        pattern.appendChild(line);
+        defs.appendChild(pattern);
+        svg.prepend(defs);
       }
       path.setAttribute("fill", "url(#uncertain-zone-hatch)");
-    });
+    };
+    // The layer is commonly added before this helper is called, so handle
+    // both an already-rendered path and future re-additions.
+    shape.on("add", apply);
+    apply();
   }
 
   function drawItem(item, airplaneGroups) {
@@ -742,7 +753,9 @@
       });
     }
     shape.bindPopup(popupHtml(item)).addTo(layer);
-    if (uncertain && (radius || sector)) applyUncertainHatch(shape);
+    // Hatch only an unconfirmed radius; an unconfirmed restriction itself
+    // uses a dashed outline without interior hatching.
+    if (uncertainRadius && (radius || sector)) applyUncertainHatch(shape);
     if (uncertainRadius) {
       L.circleMarker(coords, { radius: 4, color: "#9299a3", weight: 1,
         fillColor: "#9299a3", fillOpacity: 1, interactive: false }).addTo(layer);
