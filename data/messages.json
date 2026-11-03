@@ -23315,5 +23315,22 @@
         "snapshot": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5360,
+    "timestamp": "2026-11-03T21:22:41+00:00",
+    "text": "⚠️ В ближайший час возможен ряд полных ограничений в ЦФО (в том числе в Москве)",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5360",
+    "events": [
+      {
+        "id": "f023246b2a78f704",
+        "action": "ADD",
+        "messageTimestamp": "2026-11-03T21:22:41+00:00",
+        "text": "⚠️ В ближайший час возможен ряд полных ограничений в ЦФО (в том числе в Москве)",
+        "unresolved": true,
+        "sourceUrl": "https://t.me/PlanKoverTDay/5360"
+      }
+    ]
   }
 ]
