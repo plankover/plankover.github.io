@@ -22813,5 +22813,53 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5347,
+    "timestamp": "2026-11-03T02:51:34+00:00",
+    "text": "🟢🛩️ Казань, UWKD\n🟢🛩️ Ульяновск - Баратаевка, UWLW\n🟢🛩️ Чебоксары, UWKS",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5347",
+    "events": [
+      {
+        "id": "fa762a5b77b330a6",
+        "action": "REMOVE",
+        "name": "Казань",
+        "icao": "UWKD",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-03T02:51:34+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5347",
+        "text": "🟢🛩️ Казань, UWKD",
+        "inKta": true
+      },
+      {
+        "id": "239a4d526736f38b",
+        "action": "REMOVE",
+        "name": "Баратаевка",
+        "icao": "UWLW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-03T02:51:34+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5347",
+        "text": "🟢🛩️ Ульяновск - Баратаевка, UWLW",
+        "inKta": true
+      },
+      {
+        "id": "a2a170b74548fb28",
+        "action": "REMOVE",
+        "name": "Чебоксары",
+        "icao": "UWKS",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-03T02:51:34+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5347",
+        "text": "🟢🛩️ Чебоксары, UWKS",
+        "inKta": true
+      }
+    ]
   }
 ]
