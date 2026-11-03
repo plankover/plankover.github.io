@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T01:40:18.300923+00:00",
+  "updatedAt": "2026-11-03T01:55:17.373257+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -325,6 +325,51 @@
       "inKta": true,
       "lat": 51.7139093,
       "lon": 46.1672319
+    },
+    {
+      "id": "9d8f701eea1c54f5",
+      "action": "ADD",
+      "name": "Казань",
+      "icao": "UWKD",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-03T01:54:00+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5343",
+      "text": "🔴🛩️ Казань, UWKD",
+      "inKta": true,
+      "lat": 55.6074098,
+      "lon": 49.2855138
+    },
+    {
+      "id": "3bd5441b41a70a34",
+      "action": "ADD",
+      "name": "Чебоксары",
+      "icao": "UWKS",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-03T01:54:00+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5343",
+      "text": "🔴🛩️ Чебоксары, UWKS",
+      "inKta": true,
+      "lat": 56.0880752,
+      "lon": 47.3382761
+    },
+    {
+      "id": "1ac687c5eba2206a",
+      "action": "ADD",
+      "name": "Баратаевка",
+      "icao": "UWLL",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-03T01:54:00+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5343",
+      "text": "🔴🛩️ Ульяновск - Баратаевка, UWLL",
+      "inKta": true,
+      "lat": 54.2690213,
+      "lon": 48.2248287
     }
   ]
 }
