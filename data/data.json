@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T05:55:16.241251+00:00",
+  "updatedAt": "2026-11-03T06:35:19.255562+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -31,21 +31,6 @@
       "inKta": false,
       "lat": 55.1468584,
       "lon": 34.3776834
-    },
-    {
-      "id": "b7b643ab8a1274d6",
-      "action": "ADD",
-      "name": "ШЕРЕМЕТЬЕВО",
-      "icao": null,
-      "kind": "airport",
-      "type": "partial",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-02T19:59:11+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5329",
-      "text": "🟡 Аэропорт ШЕРЕМЕТЬЕВО",
-      "inKta": false,
-      "lat": 55.9760876,
-      "lon": 37.4238008
     },
     {
       "id": "d9701e0d0ffb85f4",
