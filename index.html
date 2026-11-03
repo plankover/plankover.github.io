@@ -278,6 +278,10 @@
         <button class="filter" data-filter="partial">🟡 Частичные</button>
       </div>
 
+      <div id="forecast-panel" hidden style="padding:10px 12px;border-bottom:1px solid #263448;background:#172231">
+        <div style="font-size:12px;font-weight:750;color:#f0c777;margin-bottom:7px">📌 Прогнозы</div>
+        <div id="forecast-list"></div>
+      </div>
       <div class="list-head">Активные события</div>
       <div id="restriction-list">
         <div class="empty">
@@ -347,6 +351,7 @@
     maxClusterRadius: 48
   }).addTo(map);
   let allItems = [];
+  let allForecasts = [];
   let activeFilter = "all";
   let selectedId = null;
   let hasAutoFitRestrictions = false;
@@ -792,6 +797,20 @@
     });
   }
 
+  function renderForecasts() {
+    const panel=$("forecast-panel"), list=$("forecast-list");
+    list.innerHTML="";
+    panel.hidden=!allForecasts.length;
+    for(const forecast of allForecasts){
+      const article=document.createElement("article");
+      article.style.cssText="padding:9px 0;border-top:1px solid #2a394b;font-size:12px;line-height:1.5;color:#e0e8f2;white-space:pre-wrap;overflow-wrap:anywhere";
+      const when=forecast.timestamp ? new Date(forecast.timestamp).toLocaleString("ru-RU",{timeZone:"Europe/Moscow",day:"2-digit",month:"2-digit",hour:"2-digit",minute:"2-digit"})+" МСК · " : "";
+      article.textContent=when+forecast.text;
+      if(forecast.sourceUrl){const link=document.createElement("a");link.href=forecast.sourceUrl;link.target="_blank";link.rel="noreferrer";link.textContent="Открыть сообщение ↗";link.style.cssText="display:block;margin-top:5px;color:#a7c7ff";article.appendChild(link)}
+      list.appendChild(article);
+    }
+  }
+
   function renderList() {
     const items = filteredItems();
     $("restriction-list").innerHTML = "";
@@ -846,6 +865,7 @@
     $("partial-count").textContent = partial;
     $("total-count").textContent = `${allItems.length} ${plural(allItems.length, "событие", "события", "событий")}`;
     renderList();
+    renderForecasts();
   }
 
   function plural(number, one, few, many) {
@@ -1076,6 +1096,7 @@
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
       const payload = await response.json();
       allItems = normalizeData(payload);
+      allForecasts = Array.isArray(payload.forecasts) ? payload.forecasts : [];
       render();
 
       // On first successful load, automatically frame the active restriction
