@@ -318,6 +318,8 @@ def parse_message(message, published_at=None, source_url=None):
         return [{"id": digest, "action": "SNAPSHOT_UNRESOLVED", "messageTimestamp": ts, "text": text, "sourceUrl": source_url}]
     if events:
         return events
+    if re.search(r"^\\s*📌\\s*прогноз\\b", clean_text(text), re.I):
+        return [{"id": digest, "action": "FORECAST", "messageTimestamp": ts, "text": clean_text(text), "sourceUrl": source_url}]
     if overall_action in {"ADD", "REMOVE"}:
         return [{"id": digest, "action": overall_action, "messageTimestamp": ts, "text": text, "unresolved": True, "sourceUrl": source_url}]
     return [{"id": digest, "action": "UNKNOWN", "messageTimestamp": ts, "text": text, "sourceUrl": source_url}]
