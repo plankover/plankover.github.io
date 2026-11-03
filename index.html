@@ -959,7 +959,9 @@
       // Use a consistent landscape canvas on both desktop and mobile.
       mapElement.style.width = "1400px";
       mapElement.style.height = "900px";
-      map.invalidateSize({ animate: false, pan: false });
+      // Wait for layout before Leaflet recalculates its pixel origin; otherwise overlays drift NW.
+      await wait(120);
+      map.invalidateSize({ animate: false, pan: true });
 
       // Fit the screenshot to the chosen area. Scale is a zoom offset from
       // the automatically fitted bounds; current-view mode keeps the map as-is.
@@ -1047,7 +1049,9 @@
       };
       watermark.addTo(map);
 
-      // Give the map time to load tiles for the new bounds before capturing.
+      // Let Leaflet finish positioning tiles and vector overlays after fitBounds.
+      await wait(300);
+      map.invalidateSize({ animate: false, pan: true });
       await wait(2200);
       const canvas = await html2canvas(mapElement, {
         useCORS: true,
@@ -1081,7 +1085,8 @@
       map.addLayer(airportMarkers);
       mapElement.style.width = originalWidth;
       mapElement.style.height = originalHeight;
-      map.invalidateSize({ animate: false, pan: false });
+      await wait(120);
+      map.invalidateSize({ animate: false, pan: true });
       map.setView(originalCenter, originalZoom, { animate: false });
       button.disabled = false;
       button.textContent = "📸 Скриншот";
