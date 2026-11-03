@@ -22603,5 +22603,27 @@
         "inKta": false
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5341,
+    "timestamp": "2026-11-03T00:12:42+00:00",
+    "text": "🔴🛩️ Ярославль - Туношна, UUDL",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5341",
+    "events": [
+      {
+        "id": "04d6f4f91c590684",
+        "action": "ADD",
+        "name": "Туношна",
+        "icao": "UUDL",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-03T00:12:42+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5341",
+        "text": "🔴🛩️ Ярославль - Туношна, UUDL",
+        "inKta": true
+      }
+    ]
   }
 ]
