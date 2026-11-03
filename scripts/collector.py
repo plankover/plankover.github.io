@@ -148,44 +148,60 @@ def active_key(e):
 
 def build_active(history):
     active={}
+    forecasts=[]
+    forecasts_by_id={}
+    had_active_since_forecast=False
     history=sorted(history,key=lambda r:dt(r.get("timestamp")) or datetime.min.replace(tzinfo=timezone.utc))
     for rec in history:
         events=rec.get("events",[])
-        # Explicit "Актуальные ограничения" posts are snapshots. Replace the current
-        # set only when every restriction-looking line was parsed successfully.
         if any(e.get("action")=="SNAPSHOT_UNRESOLVED" for e in events):
             print(f"Snapshot skipped (could not parse all lines): {rec.get('sourceUrl') or rec.get('messageId')}")
             continue
+        # Forecast posts accumulate independently from restriction updates.
+        for e in events:
+            if e.get("action")=="FORECAST":
+                fid=str(rec.get("messageId") or e.get("id") or rec.get("timestamp"))
+                forecasts_by_id[fid]={"timestamp":rec.get("timestamp") or e.get("messageTimestamp"),"text":e.get("text") or rec.get("text",""),"sourceUrl":e.get("sourceUrl") or rec.get("sourceUrl")}
         snapshot_events=[e for e in events if e.get("snapshot") and e.get("action")=="ADD" and e.get("name")]
         if snapshot_events:
+            previously_active=bool(active)
             active={active_key(e):dict(e) for e in snapshot_events}
+            if previously_active and not active:
+                forecasts_by_id.clear()
+            if active: had_active_since_forecast=True
             continue
         for e in events:
             action=e.get("action")
-            if action=="CLEAR":active.clear()
+            if action=="CLEAR":
+                active.clear()
+                forecasts_by_id.clear()
+                had_active_since_forecast=False
             elif action=="REMOVE":
+                was_active=bool(active)
                 targets=e.get("targets") or ([e] if e.get("name") else [])
                 removed_icaos = {str(t.get("icao") or "").strip().upper() for t in targets if t.get("kind") == "airport" and t.get("icao")}
                 removed_names = {re.sub(r"[^а-яa-z0-9]", "", str(t.get("name") or "").casefold()) for t in targets if t.get("kind") == "airport" and t.get("name")}
                 for active_id, restriction in list(active.items()):
-                    if restriction.get('kind') != 'airport':
-                        continue
-                    ri = str(restriction.get('icao') or '').strip().upper()
-                    rn = re.sub(r'[^а-яa-z0-9]', '', str(restriction.get('name') or '').casefold())
-                    if ri in removed_icaos or rn in removed_names:
-                        active.pop(active_id, None)
-                # Remove area zones that explicitly listed the reopened airport.
+                    if restriction.get('kind') != 'airport': continue
+                    ri=str(restriction.get('icao') or '').strip().upper()
+                    rn=re.sub(r'[^а-яa-z0-9]','',str(restriction.get('name') or '').casefold())
+                    if ri in removed_icaos or rn in removed_names: active.pop(active_id,None)
                 if removed_icaos or removed_names:
                     for active_id, restriction in list(active.items()):
-                        affected = restriction.get("affectedAirports", [])
-                        restriction_name = re.sub(r"[^а-яa-z0-9]", "", str(restriction.get("name") or "").casefold())
-                        direct_match = restriction.get("kind") == "airport" and restriction_name in removed_names
-                        affected_match = any(str(a.get("icao") or "").strip().upper() in removed_icaos or re.sub(r"[^а-яa-z0-9]", "", str(a.get("name") or "").casefold()) in removed_names for a in affected)
-                        if direct_match or affected_match:
-                            active.pop(active_id, None)
+                        affected=restriction.get("affectedAirports",[])
+                        rn=re.sub(r"[^а-яa-z0-9]","",str(restriction.get("name") or "").casefold())
+                        direct=restriction.get("kind")=="airport" and rn in removed_names
+                        linked=any(str(x.get("icao") or "").strip().upper() in removed_icaos or re.sub(r"[^а-яa-z0-9]","",str(x.get("name") or "").casefold()) in removed_names for x in affected)
+                        if direct or linked: active.pop(active_id,None)
+                if was_active and not active and had_active_since_forecast:
+                    forecasts_by_id.clear()
+                    had_active_since_forecast=False
             elif action=="ADD" and e.get("name"):
                 active[active_key(e)]=dict(e)
-    return list(active.values())
+                had_active_since_forecast=True
+    forecasts=sorted(forecasts_by_id.values(),key=lambda f:dt(f.get("timestamp")) or datetime.min.replace(tzinfo=timezone.utc))
+    return list(active.values()),forecasts
+
 def main():
     if not TOKEN:raise RuntimeError("Не задан TELEGRAM_BOT_TOKEN в GitHub Secrets.")
     chat=api("getChat",{"chat_id":CHANNEL}); chat_id=chat["id"]
@@ -234,7 +250,7 @@ def main():
         write(HISTORY_FILE,history)
     if new_offset!=offset or processed:
         write(STATE_FILE,{"lastUpdateId":new_offset,"lastRunAt":now()})
-    active=build_active(history);cache=read(CACHE_FILE,{})
+    active,forecasts=build_active(history);cache=read(CACHE_FILE,{})
     public=[]
     for e in active:
         # Active restrictions remain until an explicit removal/clear event.
@@ -244,9 +260,11 @@ def main():
         public.append(resolve_event_coords(e,cache))
     existing_data=read(DATA_FILE,{})
     payload=build_data_payload(existing_data,public,CHANNEL,now())
+    payload["forecasts"]=forecasts
     if canonical(payload)!=canonical(existing_data):
         write(DATA_FILE,payload)
     print(f"Telegram updates processed: {processed}")
     print(f"Messages in history: {len(history)}")
     print(f"Active restrictions published: {len(public)}")
+    print(f"Forecasts published: {len(forecasts)}")
 if __name__=="__main__":main()
