@@ -960,16 +960,14 @@
       exportMap = L.map(exportElement, {
         zoomControl: false, attributionControl: false,
         preferCanvas: false, fadeAnimation: false,
-        zoomAnimation: false, markerZoomAnimation: false
+        zoomAnimation: false, markerZoomAnimation: false,
+        renderer: L.svg()
       });
       L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
         maxZoom: 18,
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
       }).addTo(exportMap);
 
-      // Give the export map its own SVG renderer. Leaflet's implicit renderer
-      // can otherwise retain a reference to the live map during offscreen export.
-      const exportRenderer = L.svg({ padding: 0.5 }).addTo(exportMap);
       const exportShapes = L.featureGroup().addTo(exportMap);
       const exportAirports = L.featureGroup().addTo(exportMap);
       const airportGroups = new Map();
@@ -995,7 +993,7 @@
 
         if (sector) {
           shape = L.polygon(sectorPoints(coords[0], coords[1], sector.radius, sector.start, sector.end), {
-            renderer: exportRenderer, color, weight: uncertainRadius ? 0 : 2,
+            color, weight: uncertainRadius ? 0 : 2,
             dashArray: uncertainRestriction ? "7 6" : null,
             opacity: uncertainRadius ? 0 : .9,
             fillColor: color, fillOpacity: uncertain ? .28 : .2
