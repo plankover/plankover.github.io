@@ -8,8 +8,7 @@ EMOJI = "🔴🟡🟢⚠️✈️🛩️🕒"
 
 def clean_text(text):
     text = html.unescape(text or "")
-    text = re.sub(r"<br\s*/?>", "
-", text, flags=re.I)
+    text = re.sub(r"<br\s*/?>", "\\n", text, flags=re.I)
     text = re.sub(r"</?(?:b|i|strong|em|u|s|blockquote|code|pre)[^>]*>", "", text, flags=re.I)
     text = re.sub(r"<[^>]+>", " ", text)
     text = re.sub(r"[*_`~]+", "", text)
