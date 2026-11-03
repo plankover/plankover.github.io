@@ -967,6 +967,9 @@
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
       }).addTo(exportMap);
 
+      // Give the export map its own SVG renderer. Leaflet's implicit renderer
+      // can otherwise retain a reference to the live map during offscreen export.
+      const exportRenderer = L.svg({ padding: 0.5 }).addTo(exportMap);
       const exportShapes = L.featureGroup().addTo(exportMap);
       const exportAirports = L.featureGroup().addTo(exportMap);
       const airportGroups = new Map();
@@ -992,14 +995,14 @@
 
         if (sector) {
           shape = L.polygon(sectorPoints(coords[0], coords[1], sector.radius, sector.start, sector.end), {
-            color, weight: uncertainRadius ? 0 : 2,
+            renderer: exportRenderer, color, weight: uncertainRadius ? 0 : 2,
             dashArray: uncertainRestriction ? "7 6" : null,
             opacity: uncertainRadius ? 0 : .9,
             fillColor: color, fillOpacity: uncertain ? .28 : .2
           });
         } else if (radius) {
           shape = L.circle(coords, {
-            radius: radius * 1000, color, weight: uncertainRadius ? 0 : 2,
+            renderer: exportRenderer, radius: radius * 1000, color, weight: uncertainRadius ? 0 : 2,
             dashArray: uncertainRestriction ? "7 6" : null,
             opacity: uncertainRadius ? 0 : .9,
             fillColor: color,
@@ -1007,7 +1010,7 @@
           });
         } else {
           shape = L.circleMarker(coords, {
-            radius: 12, color, weight: 1,
+            renderer: exportRenderer, radius: 12, color, weight: 1,
             opacity: uncertain ? .8 : .01,
             fillColor: uncertain ? "#9299a3" : "#f8fafc",
             fillOpacity: uncertain ? .9 : .01
@@ -1017,7 +1020,7 @@
         if (uncertainRadius && (radius || sector)) applyUncertainHatch(shape);
         if (uncertainRadius) {
           L.circleMarker(coords, {
-            radius: 4, color: "#9299a3", weight: 1,
+            renderer: exportRenderer, radius: 4, color: "#9299a3", weight: 1,
             fillColor: "#9299a3", fillOpacity: 1, interactive: false
           }).addTo(exportShapes);
         }
