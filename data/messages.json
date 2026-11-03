@@ -17962,7 +17962,8 @@
             "kind": "airport"
           }
         ],
-        "inKta": false
+        "inKta": false,
+        "uncertain": true
       }
     ]
   },
