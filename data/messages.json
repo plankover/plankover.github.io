@@ -22931,5 +22931,62 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5350,
+    "timestamp": "2026-11-03T05:54:05+00:00",
+    "text": "🟢🛩️ Калуга - Грабцево, UUBC\n🟢🛩️ Ярославль - Туношна, UUDL",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5350",
+    "events": [
+      {
+        "id": "a4981c351c317b34",
+        "action": "REMOVE",
+        "name": "Грабцево",
+        "icao": "UUBC",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-03T05:54:05+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5350",
+        "text": "🟢🛩️ Калуга - Грабцево, UUBC",
+        "inKta": true
+      },
+      {
+        "id": "be3b8440a2500e01",
+        "action": "REMOVE",
+        "name": "Туношна",
+        "icao": "UUDL",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-03T05:54:05+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5350",
+        "text": "🟢🛩️ Ярославль - Туношна, UUDL",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5351,
+    "timestamp": "2026-11-03T05:54:37+00:00",
+    "text": "🟢🛩️ Череповец - Череповец, ULWC",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5351",
+    "events": [
+      {
+        "id": "edec0de76da14852",
+        "action": "REMOVE",
+        "name": "Череповец",
+        "icao": "ULWC",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-03T05:54:37+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5351",
+        "text": "🟢🛩️ Череповец - Череповец, ULWC",
+        "inKta": true
+      }
+    ]
   }
 ]

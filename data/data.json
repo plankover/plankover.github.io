@@ -1,22 +1,7 @@
 {
-  "updatedAt": "2026-11-03T05:05:17.572816+00:00",
+  "updatedAt": "2026-11-03T05:55:16.241251+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
-    {
-      "id": "04e00920b5ae0113",
-      "action": "ADD",
-      "name": "Грабцево",
-      "icao": "UUBC",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": 70.0,
-      "messageTimestamp": "2026-11-02T17:56:17+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5324",
-      "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км",
-      "inKta": true,
-      "lat": 54.5488708,
-      "lon": 36.3697725
-    },
     {
       "id": "08cac90ecc8b7f59",
       "action": "ADD",
@@ -151,36 +136,6 @@
       "inKta": false,
       "lat": 55.9287862,
       "lon": 39.6201571
-    },
-    {
-      "id": "04d6f4f91c590684",
-      "action": "ADD",
-      "name": "Туношна",
-      "icao": "UUDL",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-03T00:12:42+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5341",
-      "text": "🔴🛩️ Ярославль - Туношна, UUDL",
-      "inKta": true,
-      "lat": 57.5604597,
-      "lon": 40.1579512
-    },
-    {
-      "id": "66e01ac1bb488e45",
-      "action": "ADD",
-      "name": "Череповец",
-      "icao": "ULWC",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-03T03:08:30+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5348",
-      "text": "🔴🛩️ Череповец, ULWC",
-      "inKta": true,
-      "lat": 59.2778367,
-      "lon": 38.0206535
     }
   ]
 }
