@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-03T09:45:27.741961+00:00",
+  "updatedAt": "2026-11-03T09:50:17.942610+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
-      "id": "3d742b5e58567923",
+      "id": "937b5df252c4313d",
       "action": "ADD",
       "name": "Донское",
       "icao": "UUOT",
@@ -17,6 +17,22 @@
       "uncertain": true,
       "lat": 52.8060125,
       "lon": 41.4845129
+    },
+    {
+      "id": "589234825a451bc3",
+      "action": "ADD",
+      "name": "Новоселовка",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 120.0,
+      "messageTimestamp": "2026-11-03T09:41:50+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5353",
+      "text": "🔴 Новоселовка / 120 (❔) км",
+      "inKta": false,
+      "radiusUncertain": true,
+      "lat": 51.9489,
+      "lon": 44.2678
     }
   ]
 }

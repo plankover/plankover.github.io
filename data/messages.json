@@ -23010,11 +23010,11 @@
     "chatId": -1003822338715,
     "messageId": 5353,
     "timestamp": "2026-11-03T09:41:50+00:00",
-    "text": "Тестовое сообщение\n\n❔🔴🛩️ Тамбов - Донское, UUOT / 50 км",
+    "text": "Тестовое сообщение\n\n❔🔴🛩️ Тамбов - Донское, UUOT / 50 км\n\n🔴 Новоселовка / 120 (❔) км",
     "sourceUrl": "https://t.me/PlanKoverTDay/5353",
     "events": [
       {
-        "id": "3d742b5e58567923",
+        "id": "937b5df252c4313d",
         "action": "ADD",
         "name": "Донское",
         "icao": "UUOT",
@@ -23026,6 +23026,20 @@
         "text": "❔🔴🛩️ Тамбов - Донское, UUOT / 50 км",
         "inKta": true,
         "uncertain": true
+      },
+      {
+        "id": "589234825a451bc3",
+        "action": "ADD",
+        "name": "Новоселовка",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 120.0,
+        "messageTimestamp": "2026-11-03T09:41:50+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5353",
+        "text": "🔴 Новоселовка / 120 (❔) км",
+        "inKta": false,
+        "radiusUncertain": true
       }
     ]
   }
