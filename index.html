@@ -939,16 +939,8 @@
     button.disabled = true;
     button.textContent = "📸 Готовим…";
 
-    const mapElement = $("map");
-    const originalWidth = mapElement.style.width;
-    const originalHeight = mapElement.style.height;
-    const originalZoom = map.getZoom();
-    const originalCenter = map.getCenter();
-    const zoomControl = mapElementZoomControl();
-    const originalZoomDisplay = zoomControl ? zoomControl.style.display : "";
-    const exportAirportMarkers = airportMarkers.getLayers();
-    const attribution = map.attributionControl;
-    const originalAttributionPosition = attribution.getPosition();
+    let exportMap = null;
+    let exportElement = null;
     let watermark = null;
 
     try {
@@ -956,22 +948,107 @@
         throw new Error("Не удалось загрузить библиотеку экспорта изображения.");
       }
 
-      // Use a consistent landscape canvas on both desktop and mobile.
-      mapElement.style.width = "1400px";
-      mapElement.style.height = "900px";
-      // Wait for layout before Leaflet recalculates its pixel origin; otherwise overlays drift NW.
-      await wait(120);
-      map.invalidateSize({ animate: false, pan: true });
+      // Never resize the live map: render the export in an isolated Leaflet instance.
+      exportElement = document.createElement("div");
+      exportElement.style.cssText = [
+        "position:fixed", "left:-10000px", "top:0",
+        "width:1400px", "height:900px", "z-index:-1",
+        "background:#d8e0e8", "overflow:hidden"
+      ].join(";");
+      document.body.appendChild(exportElement);
 
-      // Fit the screenshot to the chosen area. Scale is a zoom offset from
-      // the automatically fitted bounds; current-view mode keeps the map as-is.
+      exportMap = L.map(exportElement, {
+        zoomControl: false, attributionControl: false,
+        preferCanvas: false, fadeAnimation: false,
+        zoomAnimation: false, markerZoomAnimation: false
+      });
+      L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+        maxZoom: 18,
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+      }).addTo(exportMap);
+
+      const exportShapes = L.featureGroup().addTo(exportMap);
+      const exportAirports = L.layerGroup().addTo(exportMap);
+      const airportGroups = new Map();
+
+      for (const item of allItems) {
+        const coords = getCoords(item);
+        if (!coords) continue;
+
+        if (item.inKta === true) addAirplanePoint(airportGroups, item, item, "kta");
+        if (Array.isArray(item.affectedAirports)) {
+          for (const airport of item.affectedAirports) {
+            addAirplanePoint(airportGroups, airport, item, "affected");
+          }
+        }
+
+        const uncertainRestriction = item.uncertain === true;
+        const uncertainRadius = item.radiusUncertain === true;
+        const uncertain = uncertainRestriction || uncertainRadius;
+        const color = uncertain ? "#9299a3" : "#ff515b";
+        const radius = getRadius(item);
+        const sector = getSector(item);
+        let shape;
+
+        if (sector) {
+          shape = L.polygon(sectorPoints(coords[0], coords[1], sector.radius, sector.start, sector.end), {
+            color, weight: uncertainRadius ? 0 : 2,
+            dashArray: uncertainRestriction ? "7 6" : null,
+            opacity: uncertainRadius ? 0 : .9,
+            fillColor: color, fillOpacity: uncertain ? .28 : .2
+          });
+        } else if (radius) {
+          shape = L.circle(coords, {
+            radius: radius * 1000, color, weight: uncertainRadius ? 0 : 2,
+            dashArray: uncertainRestriction ? "7 6" : null,
+            opacity: uncertainRadius ? 0 : .9,
+            fillColor: color,
+            fillOpacity: uncertainRadius ? 1 : (uncertain ? .28 : .12)
+          });
+        } else {
+          shape = L.circleMarker(coords, {
+            radius: 12, color, weight: 1,
+            opacity: uncertain ? .8 : .01,
+            fillColor: uncertain ? "#9299a3" : "#f8fafc",
+            fillOpacity: uncertain ? .9 : .01
+          });
+        }
+        shape.addTo(exportShapes);
+        if (uncertainRadius && (radius || sector)) applyUncertainHatch(shape);
+        if (uncertainRadius) {
+          L.circleMarker(coords, {
+            radius: 4, color: "#9299a3", weight: 1,
+            fillColor: "#9299a3", fillOpacity: 1, interactive: false
+          }).addTo(exportShapes);
+        }
+      }
+
+      for (const group of airportGroups.values()) {
+        const entries = airportStatusEntries(group);
+        const partial = entries.length > 0 && entries.every(airportEntryIsPartial);
+        const uncertainAirport = entries.some(entry => entry.item.uncertain === true);
+        const markerClass = uncertainAirport ? "map-marker uncertain-marker" :
+          (partial ? "map-marker partial" : "map-marker");
+        L.marker(group.coords, {
+          icon: L.divIcon({
+            className: "",
+            html: '<div class="' + markerClass + '"><span>✈</span></div>',
+            iconSize: [24, 24], iconAnchor: [12, 20]
+          }),
+          interactive: false
+        }).addTo(exportAirports);
+      }
+
+      let bounds;
       if (options.area === "current") {
-        map.setView(originalCenter, Math.max(3, Math.min(9, originalZoom + options.scale)), { animate: false });
+        const center = map.getCenter();
+        const zoom = Math.max(3, Math.min(9, map.getZoom() + options.scale));
+        exportMap.setView(center, zoom, { animate: false });
       } else {
-        let bounds = null;
         if (options.area === "all") {
-          const allBounds = layer.getBounds();
-          if (allBounds.isValid()) bounds = allBounds;
+          bounds = exportShapes.getBounds();
+          const airportBounds = exportAirports.getBounds();
+          if (airportBounds.isValid()) bounds.extend(airportBounds);
         } else {
           const item = allItems[Number(options.area)];
           const coords = item ? getCoords(item) : null;
@@ -988,84 +1065,45 @@
           }
         }
         if (bounds && bounds.isValid()) {
-          map.fitBounds(bounds, {
-            padding: [35, 35],
-            maxZoom: 8,
-            animate: false
-          });
+          exportMap.fitBounds(bounds, { padding: [35, 35], maxZoom: 8, animate: false });
           if (options.scale !== 0) {
-            map.setZoom(Math.max(3, Math.min(9, map.getZoom() + options.scale)), { animate: false });
+            exportMap.setZoom(Math.max(3, Math.min(9, exportMap.getZoom() + options.scale)), { animate: false });
           }
         } else {
-          map.setView([55.75, 55.5], 4, { animate: false });
+          exportMap.setView([55.75, 55.5], 4, { animate: false });
         }
       }
 
-      // Temporarily show each airport marker directly on the map, bypassing clusters.
-      map.removeLayer(airportMarkers);
-      exportAirportMarkers.forEach(marker => marker.addTo(map));
-
-      if (zoomControl) zoomControl.style.display = "none";
-      // Keep OSM attribution visible, moved away from the channel frame.
-      attribution.setPosition("bottomleft");
-
       const now = new Date();
       const timestamp = new Intl.DateTimeFormat("ru-RU", {
-        timeZone: "Europe/Moscow",
-        day: "2-digit",
-        month: "2-digit",
-        year: "numeric",
-        hour: "2-digit",
-        minute: "2-digit",
-        hourCycle: "h23"
+        timeZone: "Europe/Moscow", day: "2-digit", month: "2-digit",
+        year: "numeric", hour: "2-digit", minute: "2-digit", hourCycle: "h23"
       }).format(now);
 
       watermark = L.control({ position: "bottomleft" });
       watermark.onAdd = () => {
         const container = L.DomUtil.create("div", "screenshot-watermark");
         container.style.cssText = [
-          "position:absolute",
-          "left:0",
-          "bottom:8px",
-          "width:1400px",
-          "display:flex",
-          "justify-content:center",
-          "box-sizing:border-box",
-          "margin:0",
-          "padding:0",
-          "border:0",
-          "background:transparent",
-          "color:#000000",
-          "font-family:Inter,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif",
-          "font-size:11px",
-          "font-weight:600",
-          "line-height:1.4",
-          "text-align:center",
-          "white-space:nowrap"
+          "position:absolute", "left:0", "bottom:8px", "width:1400px",
+          "display:flex", "justify-content:center", "box-sizing:border-box",
+          "margin:0", "padding:0", "border:0", "background:transparent",
+          "color:#000000", "font-family:Inter,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif",
+          "font-size:11px", "font-weight:600", "line-height:1.4",
+          "text-align:center", "white-space:nowrap"
         ].join(";");
         container.innerHTML = '<span style="display:inline-block;padding:3px 8px;border:1px solid #43536a;border-radius:4px;background:#101722;color:#edf3fb;box-shadow:0 1px 3px #0003">@PlanKoverTDay · ' + esc(timestamp) + ' МСК</span>';
-        L.DomEvent.disableClickPropagation(container);
         return container;
       };
-      watermark.addTo(map);
+      watermark.addTo(exportMap);
 
-      // Let Leaflet finish positioning tiles and vector overlays after fitBounds.
-      await wait(300);
-      map.invalidateSize({ animate: false, pan: true });
-      await wait(2200);
-      const canvas = await html2canvas(mapElement, {
-        useCORS: true,
-        allowTaint: false,
-        backgroundColor: "#d8e0e8",
-        scale: 1.5,
-        logging: false,
-        width: 1400,
-        height: 900,
+      exportMap.invalidateSize({ animate: false, pan: false });
+      await wait(2600);
+      const canvas = await html2canvas(exportElement, {
+        useCORS: true, allowTaint: false,
+        backgroundColor: "#d8e0e8", scale: 1.5, logging: false,
+        width: 1400, height: 900,
         windowWidth: Math.max(window.innerWidth, 1400),
-        windowHeight: Math.max(window.innerHeight, 900),
-        // Explicitly exclude Leaflet's + / − zoom buttons from the exported image.
-        ignoreElements: element =>
-          element.classList?.contains("leaflet-control-zoom") === true
+        windowHeight: Math.max(window.innerHeight, 900)
       });
 
       const link = document.createElement("a");
@@ -1079,15 +1117,8 @@
       alert("Не удалось создать скриншот. Попробуйте ещё раз; если повторится, обновите страницу.");
     } finally {
       if (watermark) watermark.remove();
-      if (zoomControl) zoomControl.style.display = originalZoomDisplay;
-      attribution.setPosition(originalAttributionPosition);
-      exportAirportMarkers.forEach(marker => map.removeLayer(marker));
-      map.addLayer(airportMarkers);
-      mapElement.style.width = originalWidth;
-      mapElement.style.height = originalHeight;
-      await wait(120);
-      map.invalidateSize({ animate: false, pan: true });
-      map.setView(originalCenter, originalZoom, { animate: false });
+      if (exportMap) exportMap.remove();
+      if (exportElement) exportElement.remove();
       button.disabled = false;
       button.textContent = "📸 Скриншот";
     }
