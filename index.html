@@ -187,7 +187,7 @@
     }
     .map-marker span { transform: rotate(45deg); color: #fff; font-size: 13px; line-height: 1; }
     .map-marker.partial { border-color: #9c701b; background: #ffc34d; }
-    .map-marker.partial span { color: #392b0b; }
+    .map-marker.partial span { color: #392b0b; }\n    .map-marker.uncertain-marker { border-color: #626b76; background: #9299a3; }\n    .map-marker.uncertain-marker span { color: #202630; }
     footer { color: var(--muted); font-size: 11px; padding: 12px 20px; border-top: 1px solid var(--line); }
     footer a { color: #a7c7ff; text-decoration: none; }
     @media (max-width: 850px) {
@@ -297,7 +297,7 @@
       <section class="map-help" id="map-help" hidden aria-label="Условные обозначения">
         <div class="map-help-head"><span>Как читать карту</span><button id="map-help-close" aria-label="Закрыть">×</button></div>
         <p><strong class="help-red">Красный</strong> - полные ограничения.</p>
-        <p><strong class="help-yellow">Желтый</strong> - частичные ограничения.</p>
+        <p><strong class="help-yellow">Желтый</strong> - частичные ограничения.</p>\n        <p><strong style="color:#9299a3">Серый со штриховкой</strong> - предположительная зона; пунктирный контур означает, что не подтверждено само ограничение, отсутствие контура - что не подтверждён радиус.</p>
         <p>Значок самолета показывает аэропорт, упомянутый в ограничении. При близком расположении аэропорты объединяются в группы - приблизьте карту, чтобы увидеть их отдельно.</p>
         <p>Время публикации указано по исходному сообщению, если оно доступно.</p>
         <p>Карта носит информационный характер. Сверяйте сведения с официальными источниками и NOTAM.</p>
@@ -324,7 +324,7 @@
 
   // Keep desktop scrolling inside the restriction feed; leave Leaflet wheel zoom enabled on the map.
   // Canvas keeps restriction circles/sectors aligned with map tiles in html2canvas exports.
-  const map = L.map("map", { zoomControl: false, preferCanvas: true, zoomSnap: 0.5 }).setView([55.75, 55.5], 4);
+  const map = L.map("map", { zoomControl: false, preferCanvas: false, zoomSnap: 0.5 }).setView([55.75, 55.5], 4);
   L.DomEvent.disableScrollPropagation(document.getElementById("restriction-list"));
   // Keep required map data attribution, but remove Leaflet promotional prefix/link.
   map.attributionControl.setPrefix(false);
@@ -461,9 +461,9 @@
     const time = getTimestamp(item);
     const radiusText = radius ? `${esc(radius)} км` : "Радиус не указан";
     let html = `<div class="popup-title">${esc(getName(item))}</div>`;
-    html += `<div>${isPartial(item) ? "🟡 Частичные ограничения" : "🔴 Полные ограничения"}</div>`;
+    html += `<div>${item.uncertain || item.radiusUncertain ? "❔ Предположительное ограничение" : (isPartial(item) ? "🟡 Частичные ограничения" : "🔴 Полные ограничения")}</div>`;
     html += `<div class="popup-muted">Радиус: ${radiusText}</div>`;
-    if (sector) html += `<div class="popup-muted">Азимут: ${sector.start}°-${sector.end}°</div>`;
+    if (item.radiusUncertain) html += `<div class="popup-muted">Радиус не подтверждён</div>`;\n    if (item.uncertain) html += `<div class="popup-muted">Наличие ковра не подтверждено</div>`;\n    if (sector) html += `<div class="popup-muted">Азимут: ${sector.start}°-${sector.end}°</div>`;
     if (time) html += `<div class="popup-muted">Опубликовано: ${new Date(time).toLocaleString("ru-RU")}</div>`;
     if (item.sourceUrl) html += `<div style="margin-top:6px"><a href="${esc(item.sourceUrl)}" target="_blank" rel="noreferrer" style="color:#a7c7ff">Оригинал сообщения ↗</a></div>`;
     return html;
@@ -595,7 +595,7 @@
     const relevantEntries = airportStatusEntries(group);
     const partial = relevantEntries.length > 0 &&
       relevantEntries.every(entry => airportEntryIsPartial(entry));
-    const markerClass = partial ? "map-marker partial" : "map-marker";
+    const uncertainAirport = relevantEntries.some(entry => entry.item.uncertain === true);\n    const markerClass = uncertainAirport ? "map-marker uncertain-marker" : (partial ? "map-marker partial" : "map-marker");
     const marker = L.marker(group.coords, {
       icon: L.divIcon({
         className: "",
@@ -662,6 +662,31 @@
     });
   }
 
+  function applyUncertainHatch(shape) {
+    shape.on("add", () => {
+      const path = shape.getElement();
+      const svg = path?.ownerSVGElement;
+      if (!path || !svg) return;
+      let defs = svg.querySelector("#uncertain-zone-defs");
+      if (!defs) {
+        defs = document.createElementNS("http://www.w3.org/2000/svg", "defs");
+        defs.setAttribute("id", "uncertain-zone-defs");
+        const pattern = document.createElementNS("http://www.w3.org/2000/svg", "pattern");
+        pattern.setAttribute("id", "uncertain-zone-hatch");
+        pattern.setAttribute("width", "9"); pattern.setAttribute("height", "9");
+        pattern.setAttribute("patternUnits", "userSpaceOnUse");
+        const bg = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+        bg.setAttribute("width", "9"); bg.setAttribute("height", "9");
+        bg.setAttribute("fill", "#9299a3"); bg.setAttribute("fill-opacity", ".20");
+        const line = document.createElementNS("http://www.w3.org/2000/svg", "path");
+        line.setAttribute("d", "M-2,2 l9,-9 M0,9 l9,-9 M7,11 l5,-5");
+        line.setAttribute("stroke", "#9299a3"); line.setAttribute("stroke-width", "1.5");
+        pattern.appendChild(bg); pattern.appendChild(line); defs.appendChild(pattern); svg.prepend(defs);
+      }
+      path.setAttribute("fill", "url(#uncertain-zone-hatch)");
+    });
+  }
+
   function drawItem(item, airplaneGroups) {
     const coords = getCoords(item);
     if (!coords) return;
@@ -669,8 +694,11 @@
     const partial = isPartial(item);
     // Restriction geometry stays red; yellow is reserved for the affected
     // airport marker that is shown by addAirplanePoint/drawAirplaneMarker.
-    const color = "#ff515b";
-    const fill = "#ff515b";
+    const uncertainRestriction = item.uncertain === true;
+    const uncertainRadius = item.radiusUncertain === true;
+    const uncertain = uncertainRestriction || uncertainRadius;
+    const color = uncertain ? "#9299a3" : "#ff515b";
+    const fill = color;
     const radius = getRadius(item);
     const sector = getSector(item);
     const ktaRestriction = isKtaRestriction(item);
@@ -687,24 +715,32 @@
     let shape;
     if (sector) {
       shape = L.polygon(sectorPoints(coords[0], coords[1], sector.radius, sector.start, sector.end), {
-        color, weight: 2, opacity: .9, fillColor: fill, fillOpacity: .2
+        color, weight: uncertainRadius ? 0 : 2,
+        dashArray: uncertainRestriction ? "7 6" : null,
+        opacity: .9, fillColor: fill, fillOpacity: uncertain ? .28 : .2
       });
     } else if (radius) {
       shape = L.circle(coords, {
-        radius: radius * 1000, color, weight: 2, opacity: .9,
-        fillColor: fill, fillOpacity: .12
+        radius: radius * 1000, color, weight: uncertainRadius ? 0 : 2,
+        dashArray: uncertainRestriction ? "7 6" : null,
+        opacity: uncertainRadius ? 0 : .9,
+        fillColor: fill, fillOpacity: uncertain ? .28 : .12
       });
     } else {
-      // Keep an otherwise unmarked point restriction hoverable without adding
-      // a permanent icon that would clutter the map.
       shape = L.circleMarker(coords, {
-        radius: 12, color: "#233449", weight: 1, opacity: .01,
-        fillColor: "#f8fafc", fillOpacity: .01
+        radius: 12, color: uncertain ? "#9299a3" : "#233449", weight: 1,
+        opacity: uncertain ? .8 : .01,
+        fillColor: uncertain ? "#9299a3" : "#f8fafc",
+        fillOpacity: uncertain ? .9 : .01
       });
     }
-
     shape.bindPopup(popupHtml(item)).addTo(layer);
-    if (!ktaRestriction) bindCenterHover(shape, coords, color);
+    if (uncertain && (radius || sector)) applyUncertainHatch(shape);
+    if (uncertainRadius) {
+      L.circleMarker(coords, { radius: 4, color: "#9299a3", weight: 1,
+        fillColor: "#9299a3", fillOpacity: 1, interactive: false }).addTo(layer);
+    }
+    if (!ktaRestriction && !uncertainRadius) bindCenterHover(shape, coords, color);
   }
   function filteredItems() {
     const query = $("search").value.trim().toLocaleLowerCase("ru");
@@ -763,12 +799,12 @@
         <div class="item-top">
           <span class="status-icon ${partial ? "yellow-bg" : ""}"></span>
           <div style="min-width:0;flex:1">
-            <div class="item-name">${esc(getName(item))}</div>
+            <div class="item-name">${item.uncertain || item.radiusUncertain ? "❔ " : ""}${esc(getName(item))}</div>
             <div class="item-meta">${esc(item.icao || item.region || (item.city ? item.city : "Объект на карте"))}</div>
           </div>
         </div>
         <div class="item-bottom">
-          <span class="tag ${partial ? "partial" : ""}">${partial ? "ЧАСТИЧНЫЕ" : "ПОЛНЫЕ"}</span>
+          <span class="tag ${item.uncertain || item.radiusUncertain ? "stale" : (partial ? "partial" : "")}">${item.uncertain || item.radiusUncertain ? "ПРЕДПОЛОЖИТЕЛЬНОЕ" : (partial ? "ЧАСТИЧНЫЕ" : "ПОЛНЫЕ")}</span>
           <span class="age">${status.age === null ? "Время неизвестно" : esc(ageLabel(status.age))}</span>
         </div>
         <div class="item-meta" style="margin-top:9px">
