@@ -22993,21 +22993,15 @@
     "chatId": -1003822338715,
     "messageId": 5352,
     "timestamp": "2026-11-03T06:30:36+00:00",
-    "text": "🟢🛩️ Москва - Шереметьево, UUEE",
+    "text": "🟢🛩️ Москва - Шереметьево, UUEE\n\n✅ Ранее объявленные",
     "sourceUrl": "https://t.me/PlanKoverTDay/5352",
     "events": [
       {
-        "id": "8958324e31b8f2f4",
-        "action": "REMOVE",
-        "name": "Шереметьево",
-        "icao": "UUEE",
-        "kind": "airport",
-        "type": "full",
-        "radiusKm": null,
+        "id": "2370c91ca1e1dec1",
+        "action": "CLEAR",
         "messageTimestamp": "2026-11-03T06:30:36+00:00",
-        "sourceUrl": "https://t.me/PlanKoverTDay/5352",
-        "text": "🟢🛩️ Москва - Шереметьево, UUEE",
-        "inKta": true
+        "text": "🟢🛩️ Москва - Шереметьево, UUEE\n\n✅ Ранее объявленные",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5352"
       }
     ]
   }
