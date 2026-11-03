@@ -968,7 +968,7 @@
       }).addTo(exportMap);
 
       const exportShapes = L.featureGroup().addTo(exportMap);
-      const exportAirports = L.layerGroup().addTo(exportMap);
+      const exportAirports = L.featureGroup().addTo(exportMap);
       const airportGroups = new Map();
 
       for (const item of allItems) {
@@ -1114,7 +1114,7 @@
       link.click();
     } catch (error) {
       console.error("Не удалось создать скриншот карты:", error);
-      alert("Не удалось создать скриншот. Попробуйте ещё раз; если повторится, обновите страницу.");
+      alert("Не удалось создать скриншот: " + (error?.message || String(error)));
     } finally {
       if (watermark) watermark.remove();
       if (exportMap) exportMap.remove();
