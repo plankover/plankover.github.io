@@ -187,7 +187,9 @@
     }
     .map-marker span { transform: rotate(45deg); color: #fff; font-size: 13px; line-height: 1; }
     .map-marker.partial { border-color: #9c701b; background: #ffc34d; }
-    .map-marker.partial span { color: #392b0b; }\n    .map-marker.uncertain-marker { border-color: #626b76; background: #9299a3; }\n    .map-marker.uncertain-marker span { color: #202630; }
+    .map-marker.partial span { color: #392b0b; }
+    .map-marker.uncertain-marker { border-color: #626b76; background: #9299a3; }
+    .map-marker.uncertain-marker span { color: #202630; }
     footer { color: var(--muted); font-size: 11px; padding: 12px 20px; border-top: 1px solid var(--line); }
     footer a { color: #a7c7ff; text-decoration: none; }
     @media (max-width: 850px) {
@@ -297,7 +299,8 @@
       <section class="map-help" id="map-help" hidden aria-label="Условные обозначения">
         <div class="map-help-head"><span>Как читать карту</span><button id="map-help-close" aria-label="Закрыть">×</button></div>
         <p><strong class="help-red">Красный</strong> - полные ограничения.</p>
-        <p><strong class="help-yellow">Желтый</strong> - частичные ограничения.</p>\n        <p><strong style="color:#9299a3">Серый со штриховкой</strong> - предположительная зона; пунктирный контур означает, что не подтверждено само ограничение, отсутствие контура - что не подтверждён радиус.</p>
+        <p><strong class="help-yellow">Желтый</strong> - частичные ограничения.</p>
+        <p><strong style="color:#9299a3">Серый со штриховкой</strong> - предположительная зона; пунктирный контур означает, что не подтверждено само ограничение, отсутствие контура - что не подтверждён радиус.</p>
         <p>Значок самолета показывает аэропорт, упомянутый в ограничении. При близком расположении аэропорты объединяются в группы - приблизьте карту, чтобы увидеть их отдельно.</p>
         <p>Время публикации указано по исходному сообщению, если оно доступно.</p>
         <p>Карта носит информационный характер. Сверяйте сведения с официальными источниками и NOTAM.</p>
@@ -463,7 +466,9 @@
     let html = `<div class="popup-title">${esc(getName(item))}</div>`;
     html += `<div>${item.uncertain || item.radiusUncertain ? "❔ Предположительное ограничение" : (isPartial(item) ? "🟡 Частичные ограничения" : "🔴 Полные ограничения")}</div>`;
     html += `<div class="popup-muted">Радиус: ${radiusText}</div>`;
-    if (item.radiusUncertain) html += `<div class="popup-muted">Радиус не подтверждён</div>`;\n    if (item.uncertain) html += `<div class="popup-muted">Наличие ковра не подтверждено</div>`;\n    if (sector) html += `<div class="popup-muted">Азимут: ${sector.start}°-${sector.end}°</div>`;
+    if (item.radiusUncertain) html += `<div class="popup-muted">Радиус не подтверждён</div>`;
+    if (item.uncertain) html += `<div class="popup-muted">Наличие ковра не подтверждено</div>`;
+    if (sector) html += `<div class="popup-muted">Азимут: ${sector.start}°-${sector.end}°</div>`;
     if (time) html += `<div class="popup-muted">Опубликовано: ${new Date(time).toLocaleString("ru-RU")}</div>`;
     if (item.sourceUrl) html += `<div style="margin-top:6px"><a href="${esc(item.sourceUrl)}" target="_blank" rel="noreferrer" style="color:#a7c7ff">Оригинал сообщения ↗</a></div>`;
     return html;
@@ -595,7 +600,8 @@
     const relevantEntries = airportStatusEntries(group);
     const partial = relevantEntries.length > 0 &&
       relevantEntries.every(entry => airportEntryIsPartial(entry));
-    const uncertainAirport = relevantEntries.some(entry => entry.item.uncertain === true);\n    const markerClass = uncertainAirport ? "map-marker uncertain-marker" : (partial ? "map-marker partial" : "map-marker");
+    const uncertainAirport = relevantEntries.some(entry => entry.item.uncertain === true);
+    const markerClass = uncertainAirport ? "map-marker uncertain-marker" : (partial ? "map-marker partial" : "map-marker");
     const marker = L.marker(group.coords, {
       icon: L.divIcon({
         className: "",
