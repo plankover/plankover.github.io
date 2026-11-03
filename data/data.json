@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T02:15:16.953804+00:00",
+  "updatedAt": "2026-11-03T02:25:16.834804+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -370,21 +370,6 @@
       "inKta": true,
       "lat": 54.2690213,
       "lon": 48.2248287
-    },
-    {
-      "id": "ab86b0c4c2f8d471",
-      "action": "ADD",
-      "name": "Чкалов",
-      "icao": "UWGG",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-03T02:10:53+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5344",
-      "text": "🔴🛩️ Нижний Новгород - Чкалов, UWGG",
-      "inKta": true,
-      "lat": 56.2295198,
-      "lon": 43.7840064
     }
   ]
 }
