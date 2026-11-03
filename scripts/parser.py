@@ -8,7 +8,8 @@ EMOJI = "🔴🟡🟢⚠️✈️🛩️🕒"
 
 def clean_text(text):
     text = html.unescape(text or "")
-    text = re.sub(r"<br\s*/?>", "\n", text, flags=re.I)
+    text = re.sub(r"<br\s*/?>", "
+", text, flags=re.I)
     text = re.sub(r"</?(?:b|i|strong|em|u|s|blockquote|code|pre)[^>]*>", "", text, flags=re.I)
     text = re.sub(r"<[^>]+>", " ", text)
     text = re.sub(r"[*_`~]+", "", text)
@@ -271,6 +272,8 @@ def parse_message(message, published_at=None, source_url=None):
         line_action = "REMOVE" if marker in {"🟢", "⬜️"} else "ADD"
         key = target.get("icao") or target["name"].casefold()
         eid = hashlib.sha256(f"{digest}|{key}|{line_no}".encode()).hexdigest()[:16]
+        uncertain_restriction = bool(re.match(r"^\s*❔\s*[🔴🟡]", line))
+        uncertain_radius = bool(re.search(r"\d+(?:[.,]\d+)?\s*\(\s*❔\s*\)\s*(?:км|km)\b", line, re.I))
         event = {
             "id": eid,
             "action": line_action,
@@ -302,7 +305,11 @@ def parse_message(message, published_at=None, source_url=None):
                 re.I | re.S,
             ))
         )
-        event["inKta"] = bool(target.get("inKta") or (overall_action == "ADD" and airport_closure_notice))\n        if uncertain_restriction:\n            event["uncertain"] = True\n        if uncertain_radius:\n            event["radiusUncertain"] = True
+        event["inKta"] = bool(target.get("inKta") or (overall_action == "ADD" and airport_closure_notice))
+        if uncertain_restriction:
+            event["uncertain"] = True
+        if uncertain_radius:
+            event["radiusUncertain"] = True
         if snapshot:
             event["snapshot"] = True
         events.append(event)
