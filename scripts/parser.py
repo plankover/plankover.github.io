@@ -19,7 +19,7 @@ def clean_text(text):
 
 
 def parse_radius(text):
-    m = re.search(r"(?:/|\bрадиус(?:ом)?\s*)\s*(\d+(?:[.,]\d+)?)\s*(?:км|km)\b|\bна расстоянии\s+(\d+(?:[.,]\d+)?)\s*(?:км|km)\b", text, re.I)
+    m = re.search(r"(?:/|\bрадиус(?:ом)?\s*)\s*(\d+(?:[.,]\d+)?)\s*(?:\(\s*❔\s*\)\s*)?(?:км|km)\b|\bна расстоянии\s+(\d+(?:[.,]\d+)?)\s*(?:\(\s*❔\s*\)\s*)?(?:км|km)\b", text, re.I)
     if not m:
         return None
     value = next((x for x in m.groups() if x is not None), None)
@@ -302,7 +302,7 @@ def parse_message(message, published_at=None, source_url=None):
                 re.I | re.S,
             ))
         )
-        event["inKta"] = bool(target.get("inKta") or (overall_action == "ADD" and airport_closure_notice))
+        event["inKta"] = bool(target.get("inKta") or (overall_action == "ADD" and airport_closure_notice))\n        if uncertain_restriction:\n            event["uncertain"] = True\n        if uncertain_radius:\n            event["radiusUncertain"] = True
         if snapshot:
             event["snapshot"] = True
         events.append(event)
