@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T18:50:28.463412+00:00",
+  "updatedAt": "2026-11-03T19:30:29.673144+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -35,34 +35,79 @@
       "lon": 44.2678
     },
     {
-      "id": "9e7352bde33784b9",
+      "id": "9d8a86f413dc1220",
       "action": "ADD",
       "name": "Пашковский",
       "icao": "URKK",
       "kind": "airport",
       "type": "full",
-      "radiusKm": null,
+      "radiusKm": 20.0,
       "messageTimestamp": "2026-11-03T18:44:23+00:00",
       "sourceUrl": "https://t.me/PlanKoverTDay/5355",
-      "text": "🔴🛩️ Краснодар - Пашковский, URKK",
+      "text": "🔴🛩️ Краснодар - Пашковский, URKK / 20 км",
       "inKta": true,
       "lat": 45.033714,
       "lon": 39.1814429
     },
     {
-      "id": "df13cca44b3fbb84",
+      "id": "976053a94d0df188",
+      "action": "ADD",
+      "name": "Афипский",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 20.0,
+      "messageTimestamp": "2026-11-03T18:44:23+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5355",
+      "text": "🔴 Афипский / 20 км",
+      "inKta": false,
+      "lat": 44.9040435,
+      "lon": 38.8426821
+    },
+    {
+      "id": "fda96400ad8e55ae",
       "action": "ADD",
       "name": "Грабцево",
       "icao": "UUBC",
       "kind": "airport",
       "type": "full",
-      "radiusKm": null,
+      "radiusKm": 70.0,
       "messageTimestamp": "2026-11-03T18:47:47+00:00",
       "sourceUrl": "https://t.me/PlanKoverTDay/5356",
-      "text": "🔴🛩️ Калуга - Грабцево, UUBC",
+      "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км",
       "inKta": true,
       "lat": 54.5488708,
       "lon": 36.3697725
+    },
+    {
+      "id": "36ff6b2f07d3aa09",
+      "action": "ADD",
+      "name": "Клоково, Тула",
+      "icao": null,
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 70.0,
+      "messageTimestamp": "2026-11-03T18:47:47+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5356",
+      "text": "🔴 а/д Клоково, Тула / 70 км",
+      "inKta": false,
+      "lat": 54.2418249,
+      "lon": 37.6000197
+    },
+    {
+      "id": "a9572cb200cb1b31",
+      "action": "ADD",
+      "name": "Дягилево, Рязань",
+      "icao": null,
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 70.0,
+      "messageTimestamp": "2026-11-03T18:47:47+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5356",
+      "text": "🔴 а/д Дягилево, Рязань / 70 км",
+      "inKta": false,
+      "lat": 54.6571958,
+      "lon": 39.6308884
     }
   ]
 }
