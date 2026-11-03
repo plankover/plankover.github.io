@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T21:45:23.661321+00:00",
+  "updatedAt": "2026-11-03T21:55:18.680506+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -122,6 +122,51 @@
       "snapshot": true,
       "lat": 44.9040435,
       "lon": 38.8426821
+    },
+    {
+      "id": "6a7b4fb34de84b5f",
+      "action": "ADD",
+      "name": "Саваслейка",
+      "icao": null,
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 50.0,
+      "messageTimestamp": "2026-11-03T21:51:04+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5362",
+      "text": "🔴 а/д Саваслейка / 50 км",
+      "inKta": false,
+      "lat": 55.439058,
+      "lon": 42.3063935
+    },
+    {
+      "id": "8bf71c8c171778a6",
+      "action": "ADD",
+      "name": "Дзержинск",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 20.0,
+      "messageTimestamp": "2026-11-03T21:51:04+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5362",
+      "text": "🔴 Дзержинск / 20 км",
+      "inKta": false,
+      "lat": 56.2382157,
+      "lon": 43.4617405
+    },
+    {
+      "id": "b1cb356a5a74d097",
+      "action": "ADD",
+      "name": "Кстово",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 20.0,
+      "messageTimestamp": "2026-11-03T21:51:04+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5362",
+      "text": "🔴 Кстово / 20 км",
+      "inKta": false,
+      "lat": 56.149551,
+      "lon": 44.198032
     }
   ],
   "forecasts": [
