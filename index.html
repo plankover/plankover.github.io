@@ -680,19 +680,16 @@
         defs.setAttribute("id", "uncertain-zone-defs");
         const pattern = document.createElementNS("http://www.w3.org/2000/svg", "pattern");
         pattern.setAttribute("id", "uncertain-zone-hatch");
-        pattern.setAttribute("width", "9");
-        pattern.setAttribute("height", "9");
+        pattern.setAttribute("width", "11");
+        pattern.setAttribute("height", "11");
         pattern.setAttribute("patternUnits", "userSpaceOnUse");
-        const bg = document.createElementNS("http://www.w3.org/2000/svg", "rect");
-        bg.setAttribute("width", "9");
-        bg.setAttribute("height", "9");
-        bg.setAttribute("fill", "#9299a3");
-        bg.setAttribute("fill-opacity", ".20");
+        // Transparent background: only strong diagonal strokes are visible.
         const line = document.createElementNS("http://www.w3.org/2000/svg", "path");
-        line.setAttribute("d", "M-2,2 l9,-9 M0,9 l9,-9 M7,11 l5,-5");
-        line.setAttribute("stroke", "#9299a3");
-        line.setAttribute("stroke-width", "1.5");
-        pattern.appendChild(bg);
+        line.setAttribute("d", "M-3,3 l11,-11 M0,11 l11,-11 M8,14 l8,-8");
+        line.setAttribute("stroke", "#59636f");
+        line.setAttribute("stroke-width", "2.6");
+        line.setAttribute("stroke-opacity", ".95");
+        line.setAttribute("stroke-linecap", "square");
         pattern.appendChild(line);
         defs.appendChild(pattern);
         svg.prepend(defs);
@@ -742,7 +739,7 @@
         radius: radius * 1000, color, weight: uncertainRadius ? 0 : 2,
         dashArray: uncertainRestriction ? "7 6" : null,
         opacity: uncertainRadius ? 0 : .9,
-        fillColor: fill, fillOpacity: uncertain ? .28 : .12
+        fillColor: fill, fillOpacity: uncertainRadius ? 1 : (uncertain ? .28 : .12)
       });
     } else {
       shape = L.circleMarker(coords, {
