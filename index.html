@@ -116,6 +116,7 @@
       box-shadow: 0 0 12px #ff515b33;
     }
     .status-icon.yellow-bg { background: var(--yellow); box-shadow: 0 0 12px #ffc34d33; }
+    .status-icon.uncertain-bg { background: #9299a3; box-shadow: none; }
     .item-name { font-weight: 650; font-size: 13px; line-height: 1.4; overflow-wrap: anywhere; }
     .item-meta { color: #94a5bb; font-size: 11px; margin-top: 4px; }
     .item-bottom { display: flex; justify-content: space-between; align-items: center; gap: 8px; margin-top: 10px; }
@@ -803,7 +804,7 @@
       el.className = "item" + (selectedId === item._id ? " selected" : "");
       el.innerHTML = `
         <div class="item-top">
-          <span class="status-icon ${partial ? "yellow-bg" : ""}"></span>
+          <span class="status-icon ${item.uncertain || item.radiusUncertain ? "uncertain-bg" : (partial ? "yellow-bg" : "")}"></span>
           <div style="min-width:0;flex:1">
             <div class="item-name">${item.uncertain || item.radiusUncertain ? "❔ " : ""}${esc(getName(item))}</div>
             <div class="item-meta">${esc(item.icao || item.region || (item.city ? item.city : "Объект на карте"))}</div>
