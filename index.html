@@ -981,7 +981,7 @@
         preferCanvas: false, fadeAnimation: false,
         zoomAnimation: false, markerZoomAnimation: false,
         renderer: L.svg()
-      });
+      }).setView(map.getCenter(), map.getZoom(), { animate: false });
       L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
         maxZoom: 18,
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
@@ -1065,6 +1065,14 @@
         }).addTo(exportAirports);
       }
 
+      // Let the browser lay out the fixed-size export surface before Leaflet
+      // computes the final screenshot viewport. The map must have a valid view
+      // before its vector layers are projected.
+      await new Promise(resolve => requestAnimationFrame(() =>
+        requestAnimationFrame(resolve)
+      ));
+      exportMap.invalidateSize({ animate: false, pan: false });
+
       let bounds;
       if (options.area === "current") {
         const center = map.getCenter();
@@ -1120,7 +1128,6 @@
       };
       watermark.addTo(exportMap);
 
-      exportMap.invalidateSize({ animate: false, pan: false });
       await wait(2600);
       const canvas = await html2canvas(exportElement, {
         useCORS: true, allowTaint: false,
