@@ -24318,5 +24318,27 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5383,
+    "timestamp": "2026-11-04T09:34:23+00:00",
+    "text": "🟢🛩️ Нижнекамск - Бегишево, UWKE",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5383",
+    "events": [
+      {
+        "id": "83fb994d21182b47",
+        "action": "REMOVE",
+        "name": "Бегишево",
+        "icao": "UWKE",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-04T09:34:23+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5383",
+        "text": "🟢🛩️ Нижнекамск - Бегишево, UWKE",
+        "inKta": true
+      }
+    ]
   }
 ]

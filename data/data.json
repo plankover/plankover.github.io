@@ -1,32 +1,7 @@
 {
-  "updatedAt": "2026-11-04T08:40:16.721223+00:00",
+  "updatedAt": "2026-11-04T09:35:31.579001+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
-    {
-      "id": "be46038587368861",
-      "action": "ADD",
-      "name": "Елабуга",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": 50.0,
-      "messageTimestamp": "2026-11-04T07:40:41+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5377",
-      "text": "🔴 Елабуга (🛩️ Нижнекамск - Бегишево, UWKE) / 50 км",
-      "affectedAirports": [
-        {
-          "name": "Бегишево",
-          "icao": "UWKE",
-          "kind": "airport",
-          "lat": 55.5655378,
-          "lon": 52.0988028
-        }
-      ],
-      "inKta": false,
-      "snapshot": true,
-      "lat": 55.7577131,
-      "lon": 52.0539938
-    },
     {
       "id": "f2f19d990b228bf8",
       "action": "ADD",
