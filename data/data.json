@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T23:05:21.181479+00:00",
+  "updatedAt": "2026-11-04T23:55:17.162650+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -17,63 +17,6 @@
       "snapshot": true,
       "lat": 54.5488708,
       "lon": 36.3697725
-    },
-    {
-      "id": "fea65d9b474a7b83",
-      "action": "ADD",
-      "name": "Новоселовка",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": 150.0,
-      "messageTimestamp": "2026-11-04T21:21:43+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5406",
-      "text": "🔴 Новоселовка (🛩️ Пенза, UWPP; 🛩️ Саратов - Гагарин, UWSG) / 150 км",
-      "affectedAirports": [
-        {
-          "name": "Пенза",
-          "icao": "UWPP",
-          "kind": "airport",
-          "lat": 53.110734,
-          "lon": 45.023455
-        },
-        {
-          "name": "Гагарин",
-          "icao": "UWSG",
-          "kind": "airport",
-          "lat": 51.7139093,
-          "lon": 46.1672319
-        }
-      ],
-      "inKta": false,
-      "snapshot": true,
-      "lat": 51.9489,
-      "lon": 44.2678
-    },
-    {
-      "id": "bcc60c09eb7a344b",
-      "action": "ADD",
-      "name": "Медведица",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": 150.0,
-      "messageTimestamp": "2026-11-04T21:21:43+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5406",
-      "text": "🔴 Медведица (🛩️ Саратов - Гагарин, UWSG) / 150 км ",
-      "affectedAirports": [
-        {
-          "name": "Гагарин",
-          "icao": "UWSG",
-          "kind": "airport",
-          "lat": 51.7139093,
-          "lon": 46.1672319
-        }
-      ],
-      "inKta": false,
-      "snapshot": true,
-      "lat": 51.079559,
-      "lon": 44.8182885
     },
     {
       "id": "9cd799713a4481f8",
