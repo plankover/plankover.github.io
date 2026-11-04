@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-11-04T21:25:19.226411+00:00",
+  "updatedAt": "2026-11-04T21:45:18.333635+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
-      "id": "035aae2f697c7278",
+      "id": "55529e0b8316e161",
       "action": "ADD",
       "name": "Грабцево",
       "icao": "UUBC",
       "kind": "airport",
       "type": "full",
-      "radiusKm": null,
+      "radiusKm": 70.0,
       "messageTimestamp": "2026-11-04T21:21:43+00:00",
       "sourceUrl": "https://t.me/PlanKoverTDay/5406",
-      "text": "🔴🛩️ Калуга - Грабцево, UUBC 70 км",
+      "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км",
       "inKta": true,
       "snapshot": true,
       "lat": 54.5488708,
       "lon": 36.3697725
     },
     {
-      "id": "6e49075667a09279",
+      "id": "fea65d9b474a7b83",
       "action": "ADD",
       "name": "Новоселовка",
       "icao": null,
@@ -51,7 +51,7 @@
       "lon": 44.2678
     },
     {
-      "id": "857cc4afa38e086a",
+      "id": "bcc60c09eb7a344b",
       "action": "ADD",
       "name": "Медведица",
       "icao": null,
@@ -76,7 +76,7 @@
       "lon": 44.8182885
     },
     {
-      "id": "abc1190bf0fe7f42",
+      "id": "9cd799713a4481f8",
       "action": "ADD",
       "name": "Клоково, Тула",
       "icao": null,

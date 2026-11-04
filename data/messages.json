@@ -24859,25 +24859,25 @@
     "chatId": -1003822338715,
     "messageId": 5406,
     "timestamp": "2026-11-04T21:21:43+00:00",
-    "text": "🕒 Актуальные ограничения на 00:20 мск\n\n🔴🛩️ Калуга - Грабцево, UUBC 70 км\n🔴 Новоселовка (🛩️ Пенза, UWPP; 🛩️ Саратов - Гагарин, UWSG) / 150 км\n🔴 Медведица (🛩️ Саратов - Гагарин, UWSG) / 150 км \n\n🔴 а/д Клоково, Тула / 70 км",
+    "text": "🕒 Актуальные ограничения на 00:20 мск\n\n🔴🛩️ Калуга - Грабцево, UUBC / 70 км\n🔴 Новоселовка (🛩️ Пенза, UWPP; 🛩️ Саратов - Гагарин, UWSG) / 150 км\n🔴 Медведица (🛩️ Саратов - Гагарин, UWSG) / 150 км \n\n🔴 а/д Клоково, Тула / 70 км",
     "sourceUrl": "https://t.me/PlanKoverTDay/5406",
     "events": [
       {
-        "id": "035aae2f697c7278",
+        "id": "55529e0b8316e161",
         "action": "ADD",
         "name": "Грабцево",
         "icao": "UUBC",
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
+        "radiusKm": 70.0,
         "messageTimestamp": "2026-11-04T21:21:43+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/5406",
-        "text": "🔴🛩️ Калуга - Грабцево, UUBC 70 км",
+        "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км",
         "inKta": true,
         "snapshot": true
       },
       {
-        "id": "6e49075667a09279",
+        "id": "fea65d9b474a7b83",
         "action": "ADD",
         "name": "Новоселовка",
         "icao": null,
@@ -24903,7 +24903,7 @@
         "snapshot": true
       },
       {
-        "id": "857cc4afa38e086a",
+        "id": "bcc60c09eb7a344b",
         "action": "ADD",
         "name": "Медведица",
         "icao": null,
@@ -24924,7 +24924,7 @@
         "snapshot": true
       },
       {
-        "id": "abc1190bf0fe7f42",
+        "id": "9cd799713a4481f8",
         "action": "ADD",
         "name": "Клоково, Тула",
         "icao": null,
