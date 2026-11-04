@@ -999,14 +999,14 @@
         screenshotBounds.extend(L.latLng(group.coords));
       }
 
-      // Keep the export surface outside the visible viewport, but do not put
-      // it behind the document background (negative z-index broke captures
-      // in some browser layouts).
+      // Keep a full-size export surface in the viewport but invisible to the
+      // visitor. html2canvas reveals it only inside its cloned document.
       exportElement = document.createElement("div");
+      exportElement.id = "map-screenshot-export";
       exportElement.style.cssText = [
-        "position:fixed", "left:-1500px", "top:0",
+        "position:fixed", "left:0", "top:0",
         "width:1400px", "height:900px", "z-index:99999",
-        "pointer-events:none", "background:#d8e0e8", "overflow:hidden"
+        "opacity:0", "pointer-events:none", "background:#d8e0e8", "overflow:hidden"
       ].join(";");
       document.body.appendChild(exportElement);
 
@@ -1354,10 +1354,14 @@
         height: 900,
         windowWidth: Math.max(window.innerWidth, 1400),
         windowHeight: Math.max(window.innerHeight, 900),
-        x: -1500,
+        x: 0,
         y: 0,
         scrollX: 0,
-        scrollY: 0
+        scrollY: 0,
+        onclone: clonedDocument => {
+          const clonedExport = clonedDocument.getElementById("map-screenshot-export");
+          if (clonedExport) clonedExport.style.opacity = "1";
+        }
       });
 
       const fileStamp = now.toLocaleString("sv-SE", { timeZone: "Europe/Moscow" })
