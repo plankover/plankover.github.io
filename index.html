@@ -976,12 +976,27 @@
       ].join(";");
       document.body.appendChild(exportElement);
 
+      // Wait until the fixed export surface has its final 1400×900 layout box.
+      // Creating Leaflet before this point can leave its pixel origin stale,
+      // which makes SVG restrictions appear shifted relative to the tiles.
+      await new Promise(resolve => requestAnimationFrame(() =>
+        requestAnimationFrame(resolve)
+      ));
+
       exportMap = L.map(exportElement, {
         zoomControl: false, attributionControl: false,
         preferCanvas: false, fadeAnimation: false,
         zoomAnimation: false, markerZoomAnimation: false,
         renderer: L.svg()
-      }).setView(map.getCenter(), map.getZoom(), { animate: false });
+      });
+      exportMap.setView(map.getCenter(), map.getZoom(), { animate: false });
+      exportMap.invalidateSize({ animate: false, pan: true });
+
+      const exportSize = exportMap.getSize();
+      if (exportSize.x !== 1400 || exportSize.y !== 900) {
+        throw new Error("Неверный размер карты экспорта: " +
+          exportSize.x + "×" + exportSize.y + " вместо 1400×900.");
+      }
       L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
         maxZoom: 18,
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
@@ -1065,14 +1080,8 @@
         }).addTo(exportAirports);
       }
 
-      // Let the browser lay out the fixed-size export surface before Leaflet
-      // computes the final screenshot viewport. The map must have a valid view
-      // before its vector layers are projected.
-      await new Promise(resolve => requestAnimationFrame(() =>
-        requestAnimationFrame(resolve)
-      ));
-      exportMap.invalidateSize({ animate: false, pan: false });
-
+      // The export map already has its final dimensions and view before any
+      // vector layers are added. Only the target framing remains to be applied.
       let bounds;
       if (options.area === "current") {
         const center = map.getCenter();
@@ -1128,13 +1137,18 @@
       };
       watermark.addTo(exportMap);
 
+      // Give Leaflet one paint cycle after the final fitBounds/setZoom so
+      // its SVG renderer and tile pane use the same pixel origin at capture.
+      await new Promise(resolve => requestAnimationFrame(() =>
+        requestAnimationFrame(resolve)
+      ));
       await wait(2600);
       const canvas = await html2canvas(exportElement, {
         useCORS: true, allowTaint: false,
         backgroundColor: "#d8e0e8", scale: 1.5, logging: false,
         width: 1400, height: 900,
-        windowWidth: Math.max(window.innerWidth, 1400),
-        windowHeight: Math.max(window.innerHeight, 900)
+        windowWidth: 1400, windowHeight: 900,
+        scrollX: 0, scrollY: 0
       });
 
       const link = document.createElement("a");
