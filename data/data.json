@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T10:15:18.387600+00:00",
+  "updatedAt": "2026-11-04T10:25:30.085164+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -84,47 +84,6 @@
       "snapshot": true,
       "lat": 55.2102554,
       "lon": 54.7493542
-    },
-    {
-      "id": "c95c6f30c034da87",
-      "action": "ADD",
-      "name": "Березовка (Пермский край)",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": 150.0,
-      "messageTimestamp": "2026-11-04T07:40:41+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5377",
-      "text": "🔴 Березовка (Пермский край) (🛩️ Пермь - Большое Савино, USPP) / 150 км",
-      "affectedAirports": [
-        {
-          "name": "Большое Савино",
-          "icao": "USPP",
-          "kind": "airport",
-          "lat": 57.9153712,
-          "lon": 56.0283146
-        }
-      ],
-      "inKta": false,
-      "snapshot": true,
-      "lat": 58.9374565,
-      "lon": 54.1167359
-    },
-    {
-      "id": "50ec6918d4f63cf6",
-      "action": "ADD",
-      "name": "Большое Савино",
-      "icao": "USPP",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": 100.0,
-      "messageTimestamp": "2026-11-04T07:40:41+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5377",
-      "text": "🔴🛩️ Пермь - Большое Савино, USPP / 100 км",
-      "inKta": true,
-      "snapshot": true,
-      "lat": 57.9153712,
-      "lon": 56.0283146
     },
     {
       "id": "a02dd344e8e5757d",
