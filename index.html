@@ -1282,23 +1282,39 @@
         const fill = uncertainAirport ? "#9299a3" : (partial ? "#ffc34d" : "#ff3b45");
         const border = uncertainAirport ? "#626b76" : (partial ? "#9c701b" : "#8f1721");
 
+        // Match the regular Leaflet divIcon: 24×24 px, 12×20 anchor,
+        // 50% 50% 50% 4px corner radius, rotated -45 degrees.
         ctx.save();
-        ctx.translate(point.x, point.y - 8);
+        ctx.translate(point.x - 12, point.y - 20);
+        ctx.translate(12, 12);
         ctx.rotate(-Math.PI / 4);
+        ctx.translate(-12, -12);
+
         ctx.shadowColor = "rgba(0,0,0,0.32)";
-        ctx.shadowBlur = 5;
+        ctx.shadowBlur = 9;
+        ctx.shadowOffsetY = 2;
         ctx.beginPath();
-        ctx.arc(0, 0, 10, 0, Math.PI * 2);
-        ctx.moveTo(-6, 7);
-        ctx.lineTo(-12, 13);
-        ctx.lineTo(-3, 5);
+        ctx.moveTo(12, 0);
+        ctx.bezierCurveTo(18.627, 0, 24, 5.373, 24, 12);
+        ctx.bezierCurveTo(24, 18.627, 18.627, 24, 12, 24);
+        ctx.lineTo(4, 24);
+        ctx.quadraticCurveTo(0, 24, 0, 20);
+        ctx.lineTo(0, 12);
+        ctx.bezierCurveTo(0, 5.373, 5.373, 0, 12, 0);
         ctx.closePath();
         ctx.fillStyle = fill;
         ctx.fill();
+
+        ctx.shadowColor = "transparent";
         ctx.shadowBlur = 0;
+        ctx.shadowOffsetY = 0;
         ctx.lineWidth = 2;
         ctx.strokeStyle = border;
         ctx.stroke();
+
+        // Keep the airplane glyph upright, just like the span inside
+        // .map-marker, which counter-rotates the parent marker.
+        ctx.translate(12, 12);
         ctx.rotate(Math.PI / 4);
         ctx.fillStyle = uncertainAirport ? "#202630" : (partial ? "#392b0b" : "#ffffff");
         ctx.font = '13px "Segoe UI Symbol", "Apple Symbols", Arial, sans-serif';
@@ -1307,7 +1323,6 @@
         ctx.fillText("✈", 0, 0);
         ctx.restore();
       }
-
       allItems.forEach(drawRestriction);
       airportGroups.forEach(drawAirportMarker);
 
