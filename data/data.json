@@ -1,29 +1,6 @@
 {
-  "updatedAt": "2026-11-04T14:15:30.277570+00:00",
+  "updatedAt": "2026-11-04T14:20:17.440023+00:00",
   "source": "@PlanKoverTDay",
-  "restrictions": [
-    {
-      "id": "c23fc3da3560a152",
-      "action": "ADD",
-      "name": "Рощино",
-      "icao": "USTR",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": 100.0,
-      "messageTimestamp": "2026-11-04T13:22:29+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5391",
-      "text": "🔴🛩️ Тюмень - Рощино, USTR / 100 км",
-      "inKta": true,
-      "snapshot": true,
-      "lat": 57.1799511,
-      "lon": 65.3494166
-    }
-  ],
-  "forecasts": [
-    {
-      "timestamp": "2026-11-03T20:07:53+00:00",
-      "text": "📌 Прогноз.\n\nНочью в основном ожидаем ограничения в аэропортах южных регионов, московской зоны (ЦФО, ЮФО, СКФО).\n\nПо остальным регионам также возможны ограничения ближе к утру.",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5358"
-    }
-  ]
+  "restrictions": [],
+  "forecasts": []
 }
