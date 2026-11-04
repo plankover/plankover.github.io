@@ -1,81 +1,95 @@
 {
-  "updatedAt": "2026-11-04T21:14:26.578703+00:00",
+  "updatedAt": "2026-11-04T21:25:19.226411+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
-      "id": "1e807806811905ad",
+      "id": "035aae2f697c7278",
       "action": "ADD",
       "name": "Грабцево",
       "icao": "UUBC",
       "kind": "airport",
       "type": "full",
       "radiusKm": null,
-      "messageTimestamp": "2026-11-04T18:56:19+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5399",
+      "messageTimestamp": "2026-11-04T21:21:43+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5406",
       "text": "🔴🛩️ Калуга - Грабцево, UUBC 70 км",
       "inKta": true,
+      "snapshot": true,
       "lat": 54.5488708,
       "lon": 36.3697725
     },
     {
-      "id": "f3a9f8b19bfeb51f",
+      "id": "6e49075667a09279",
+      "action": "ADD",
+      "name": "Новоселовка",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 150.0,
+      "messageTimestamp": "2026-11-04T21:21:43+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5406",
+      "text": "🔴 Новоселовка (🛩️ Пенза, UWPP; 🛩️ Саратов - Гагарин, UWSG) / 150 км",
+      "affectedAirports": [
+        {
+          "name": "Пенза",
+          "icao": "UWPP",
+          "kind": "airport",
+          "lat": 53.110734,
+          "lon": 45.023455
+        },
+        {
+          "name": "Гагарин",
+          "icao": "UWSG",
+          "kind": "airport",
+          "lat": 51.7139093,
+          "lon": 46.1672319
+        }
+      ],
+      "inKta": false,
+      "snapshot": true,
+      "lat": 51.9489,
+      "lon": 44.2678
+    },
+    {
+      "id": "857cc4afa38e086a",
+      "action": "ADD",
+      "name": "Медведица",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 150.0,
+      "messageTimestamp": "2026-11-04T21:21:43+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5406",
+      "text": "🔴 Медведица (🛩️ Саратов - Гагарин, UWSG) / 150 км ",
+      "affectedAirports": [
+        {
+          "name": "Гагарин",
+          "icao": "UWSG",
+          "kind": "airport",
+          "lat": 51.7139093,
+          "lon": 46.1672319
+        }
+      ],
+      "inKta": false,
+      "snapshot": true,
+      "lat": 51.079559,
+      "lon": 44.8182885
+    },
+    {
+      "id": "abc1190bf0fe7f42",
       "action": "ADD",
       "name": "Клоково, Тула",
       "icao": null,
       "kind": "airport",
       "type": "full",
       "radiusKm": 70.0,
-      "messageTimestamp": "2026-11-04T18:56:19+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5399",
+      "messageTimestamp": "2026-11-04T21:21:43+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5406",
       "text": "🔴 а/д Клоково, Тула / 70 км",
       "inKta": false,
+      "snapshot": true,
       "lat": 54.2418249,
       "lon": 37.6000197
-    },
-    {
-      "id": "49c1b4789716db98",
-      "action": "ADD",
-      "name": "Ермолино",
-      "icao": null,
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": 40.0,
-      "messageTimestamp": "2026-11-04T20:23:45+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5401",
-      "text": "🔴 а/д Ермолино / 40 км",
-      "inKta": false,
-      "lat": 55.2262459,
-      "lon": 36.6097447
-    },
-    {
-      "id": "016fea788fdb3983",
-      "action": "ADD",
-      "name": "Гагарин",
-      "icao": "UWSG",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-04T20:58:27+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5403",
-      "text": "🔴🛩️ Саратов - Гагарин, UWSG",
-      "inKta": true,
-      "lat": 51.7139093,
-      "lon": 46.1672319
-    },
-    {
-      "id": "83193c25e2c50d83",
-      "action": "ADD",
-      "name": "Пенза",
-      "icao": "UWPP",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-04T21:14:01+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5405",
-      "text": "🔴🛩️ Пенза, UWPP",
-      "inKta": true,
-      "lat": 53.110734,
-      "lon": 45.023455
     }
   ],
   "forecasts": [
