@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T08:10:19.388043+00:00",
+  "updatedAt": "2026-11-04T08:35:17.501170+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -171,31 +171,6 @@
       "snapshot": true,
       "lat": 55.2102554,
       "lon": 54.7493542
-    },
-    {
-      "id": "b06af9e07b33ba02",
-      "action": "ADD",
-      "name": "Березовка (Сюмсинский р-н, Удмуртская Республика)",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": 150.0,
-      "messageTimestamp": "2026-11-04T07:40:41+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5377",
-      "text": "🔴 Березовка (Сюмсинский р-н, Удмуртская Республика) (🛩️ Ижевск, USII) / 150 км",
-      "affectedAirports": [
-        {
-          "name": "Ижевск",
-          "icao": "USII",
-          "kind": "airport",
-          "lat": 56.8361905,
-          "lon": 53.4631283
-        }
-      ],
-      "inKta": false,
-      "snapshot": true,
-      "lat": 57.2977748,
-      "lon": 51.1877584
     },
     {
       "id": "c95c6f30c034da87",
