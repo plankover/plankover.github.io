@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T19:15:17.214457+00:00",
+  "updatedAt": "2026-11-04T20:25:16.898674+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -31,7 +31,28 @@
       "inKta": false,
       "lat": 54.2418249,
       "lon": 37.6000197
+    },
+    {
+      "id": "49c1b4789716db98",
+      "action": "ADD",
+      "name": "Ермолино",
+      "icao": null,
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 40.0,
+      "messageTimestamp": "2026-11-04T20:23:45+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5401",
+      "text": "🔴 а/д Ермолино / 40 км",
+      "inKta": false,
+      "lat": 55.2262459,
+      "lon": 36.6097447
     }
   ],
-  "forecasts": []
+  "forecasts": [
+    {
+      "timestamp": "2026-11-04T20:00:07+00:00",
+      "text": "📌 Прогноз.\n\nНочью ожидаем ограничения в ряде аэропортов Центрального, Приволжского федеральных округов (Тамбов, Пенза, Саратов, Самара, Ульяновск, Казань и др).",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5400"
+    }
+  ]
 }

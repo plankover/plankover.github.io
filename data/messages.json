@@ -24744,5 +24744,27 @@
         "sourceUrl": "https://t.me/PlanKoverTDay/5400"
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5401,
+    "timestamp": "2026-11-04T20:23:45+00:00",
+    "text": "🔴 а/д Ермолино / 40 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5401",
+    "events": [
+      {
+        "id": "49c1b4789716db98",
+        "action": "ADD",
+        "name": "Ермолино",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 40.0,
+        "messageTimestamp": "2026-11-04T20:23:45+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5401",
+        "text": "🔴 а/д Ермолино / 40 км",
+        "inKta": false
+      }
+    ]
   }
 ]
