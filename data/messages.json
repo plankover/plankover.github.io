@@ -23412,21 +23412,81 @@
     "chatId": -1003822338715,
     "messageId": 5363,
     "timestamp": "2026-11-04T02:02:15+00:00",
-    "text": "🔴🛩️ Саратов - Гагарин, UWSG",
+    "text": "🔴 Плёс (🛩️ Саратов - Гагарин, UWSG) / 150 км\n🔴 Старая Полтавка (🛩️ Саратов - Гагарин, UWSG) / 150 км\n🔴 Медведица (🛩️ Саратов - Гагарин, UWSG) / 150 км\n\n🔴 Новоселовка / 120 км",
     "sourceUrl": "https://t.me/PlanKoverTDay/5363",
     "events": [
       {
-        "id": "d67204cc2667782f",
+        "id": "68fa0fee8b577baa",
         "action": "ADD",
-        "name": "Гагарин",
-        "icao": "UWSG",
-        "kind": "airport",
+        "name": "Плёс",
+        "icao": null,
+        "kind": "city",
         "type": "full",
-        "radiusKm": null,
+        "radiusKm": 150.0,
         "messageTimestamp": "2026-11-04T02:02:15+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/5363",
-        "text": "🔴🛩️ Саратов - Гагарин, UWSG",
-        "inKta": true
+        "text": "🔴 Плёс (🛩️ Саратов - Гагарин, UWSG) / 150 км",
+        "affectedAirports": [
+          {
+            "name": "Гагарин",
+            "icao": "UWSG",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false
+      },
+      {
+        "id": "0804a6fba8e3d94f",
+        "action": "ADD",
+        "name": "Старая Полтавка",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 150.0,
+        "messageTimestamp": "2026-11-04T02:02:15+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5363",
+        "text": "🔴 Старая Полтавка (🛩️ Саратов - Гагарин, UWSG) / 150 км",
+        "affectedAirports": [
+          {
+            "name": "Гагарин",
+            "icao": "UWSG",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false
+      },
+      {
+        "id": "7b0ed6e501dc41bd",
+        "action": "ADD",
+        "name": "Медведица",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 150.0,
+        "messageTimestamp": "2026-11-04T02:02:15+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5363",
+        "text": "🔴 Медведица (🛩️ Саратов - Гагарин, UWSG) / 150 км",
+        "affectedAirports": [
+          {
+            "name": "Гагарин",
+            "icao": "UWSG",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false
+      },
+      {
+        "id": "50a72420779778c8",
+        "action": "ADD",
+        "name": "Новоселовка",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 120.0,
+        "messageTimestamp": "2026-11-04T02:02:15+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5363",
+        "text": "🔴 Новоселовка / 120 км",
+        "inKta": false
       }
     ]
   },
@@ -23548,34 +23608,41 @@
     "chatId": -1003822338715,
     "messageId": 5368,
     "timestamp": "2026-11-04T03:08:50+00:00",
-    "text": "🔴🛩️ Волгоград, UWWW\n🔴🛩️ Самара - Курумоч, UWWW",
+    "text": "🔴🛩️ Волгоград - Гумрак, URWW / 60 км\n🔴 Большое Алдаркино (🛩️ Самара - Курумоч, UWWW) / 150 км",
     "sourceUrl": "https://t.me/PlanKoverTDay/5368",
     "events": [
       {
-        "id": "1a08e7a4ac0e2345",
+        "id": "3271a56acddf4567",
         "action": "ADD",
-        "name": "Волгоград",
-        "icao": "UWWW",
+        "name": "Гумрак",
+        "icao": "URWW",
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
+        "radiusKm": 60.0,
         "messageTimestamp": "2026-11-04T03:08:50+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/5368",
-        "text": "🔴🛩️ Волгоград, UWWW",
+        "text": "🔴🛩️ Волгоград - Гумрак, URWW / 60 км",
         "inKta": true
       },
       {
-        "id": "5e9c6984c8e9f222",
+        "id": "a36be214b9552a6e",
         "action": "ADD",
-        "name": "Курумоч",
-        "icao": "UWWW",
-        "kind": "airport",
+        "name": "Большое Алдаркино",
+        "icao": null,
+        "kind": "city",
         "type": "full",
-        "radiusKm": null,
+        "radiusKm": 150.0,
         "messageTimestamp": "2026-11-04T03:08:50+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/5368",
-        "text": "🔴🛩️ Самара - Курумоч, UWWW",
-        "inKta": true
+        "text": "🔴 Большое Алдаркино (🛩️ Самара - Курумоч, UWWW) / 150 км",
+        "affectedAirports": [
+          {
+            "name": "Курумоч",
+            "icao": "UWWW",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false
       }
     ]
   }

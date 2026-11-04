@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T03:10:18.210777+00:00",
+  "updatedAt": "2026-11-04T03:20:20.248369+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -169,19 +169,91 @@
       "lon": 44.198032
     },
     {
-      "id": "d67204cc2667782f",
+      "id": "68fa0fee8b577baa",
       "action": "ADD",
-      "name": "Гагарин",
-      "icao": "UWSG",
-      "kind": "airport",
+      "name": "Плёс",
+      "icao": null,
+      "kind": "city",
       "type": "full",
-      "radiusKm": null,
+      "radiusKm": 150.0,
       "messageTimestamp": "2026-11-04T02:02:15+00:00",
       "sourceUrl": "https://t.me/PlanKoverTDay/5363",
-      "text": "🔴🛩️ Саратов - Гагарин, UWSG",
-      "inKta": true,
-      "lat": 51.7139093,
-      "lon": 46.1672319
+      "text": "🔴 Плёс (🛩️ Саратов - Гагарин, UWSG) / 150 км",
+      "affectedAirports": [
+        {
+          "name": "Гагарин",
+          "icao": "UWSG",
+          "kind": "airport",
+          "lat": 51.7139093,
+          "lon": 46.1672319
+        }
+      ],
+      "inKta": false,
+      "lat": 51.292837,
+      "lon": 47.777662
+    },
+    {
+      "id": "0804a6fba8e3d94f",
+      "action": "ADD",
+      "name": "Старая Полтавка",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 150.0,
+      "messageTimestamp": "2026-11-04T02:02:15+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5363",
+      "text": "🔴 Старая Полтавка (🛩️ Саратов - Гагарин, UWSG) / 150 км",
+      "affectedAirports": [
+        {
+          "name": "Гагарин",
+          "icao": "UWSG",
+          "kind": "airport",
+          "lat": 51.7139093,
+          "lon": 46.1672319
+        }
+      ],
+      "inKta": false,
+      "lat": 50.475101,
+      "lon": 46.480801
+    },
+    {
+      "id": "7b0ed6e501dc41bd",
+      "action": "ADD",
+      "name": "Медведица",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 150.0,
+      "messageTimestamp": "2026-11-04T02:02:15+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5363",
+      "text": "🔴 Медведица (🛩️ Саратов - Гагарин, UWSG) / 150 км",
+      "affectedAirports": [
+        {
+          "name": "Гагарин",
+          "icao": "UWSG",
+          "kind": "airport",
+          "lat": 51.7139093,
+          "lon": 46.1672319
+        }
+      ],
+      "inKta": false,
+      "lat": 51.079559,
+      "lon": 44.8182885
+    },
+    {
+      "id": "50a72420779778c8",
+      "action": "ADD",
+      "name": "Новоселовка",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 120.0,
+      "messageTimestamp": "2026-11-04T02:02:15+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5363",
+      "text": "🔴 Новоселовка / 120 км",
+      "inKta": false,
+      "lat": 51.9489,
+      "lon": 44.2678
     },
     {
       "id": "5b4e2b2feb0a9cf5",
@@ -242,19 +314,43 @@
       "lon": 52.0988028
     },
     {
-      "id": "5e9c6984c8e9f222",
+      "id": "3271a56acddf4567",
       "action": "ADD",
-      "name": "Курумоч",
-      "icao": "UWWW",
+      "name": "Гумрак",
+      "icao": "URWW",
       "kind": "airport",
       "type": "full",
-      "radiusKm": null,
+      "radiusKm": 60.0,
       "messageTimestamp": "2026-11-04T03:08:50+00:00",
       "sourceUrl": "https://t.me/PlanKoverTDay/5368",
-      "text": "🔴🛩️ Самара - Курумоч, UWWW",
+      "text": "🔴🛩️ Волгоград - Гумрак, URWW / 60 км",
       "inKta": true,
-      "lat": 53.5057511,
-      "lon": 50.1569939
+      "lat": 48.7833547,
+      "lon": 44.3472901
+    },
+    {
+      "id": "a36be214b9552a6e",
+      "action": "ADD",
+      "name": "Большое Алдаркино",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 150.0,
+      "messageTimestamp": "2026-11-04T03:08:50+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5368",
+      "text": "🔴 Большое Алдаркино (🛩️ Самара - Курумоч, UWWW) / 150 км",
+      "affectedAirports": [
+        {
+          "name": "Курумоч",
+          "icao": "UWWW",
+          "kind": "airport",
+          "lat": 53.5057511,
+          "lon": 50.1569939
+        }
+      ],
+      "inKta": false,
+      "lat": 53.0998721,
+      "lon": 51.8969083
     }
   ],
   "forecasts": [
