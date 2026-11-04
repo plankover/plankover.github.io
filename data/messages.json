@@ -24564,5 +24564,27 @@
         "text": "⬜️Аэропорт ТЮМЕНЬ (Рощино)"
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5393,
+    "timestamp": "2026-11-04T14:14:38+00:00",
+    "text": "🟢🛩️ Омск - Центральный, UNOO",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5393",
+    "events": [
+      {
+        "id": "29db3a662b161cf2",
+        "action": "REMOVE",
+        "name": "Центральный",
+        "icao": "UNOO",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-04T14:14:38+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5393",
+        "text": "🟢🛩️ Омск - Центральный, UNOO",
+        "inKta": true
+      }
+    ]
   }
 ]
