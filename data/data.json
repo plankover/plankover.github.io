@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T22:08:43.304533+00:00",
+  "updatedAt": "2026-11-04T22:21:52.635458+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -92,19 +92,26 @@
       "lon": 37.6000197
     },
     {
-      "id": "e91f0c1d140034e8",
+      "id": "947aa5dc4a5b5f4f",
       "action": "ADD",
-      "name": "Донское",
-      "icao": "UUOT",
-      "kind": "airport",
+      "name": "авиабаза Тамбов",
+      "icao": null,
+      "kind": "city",
       "type": "full",
-      "radiusKm": null,
+      "radiusKm": 50.0,
       "messageTimestamp": "2026-11-04T22:05:27+00:00",
       "sourceUrl": "https://t.me/PlanKoverTDay/5407",
-      "text": "🔴🛩️ Тамбов - Донское, UUOT",
-      "inKta": true,
-      "lat": 52.8060125,
-      "lon": 41.4845129
+      "text": "🔴 авиабаза Тамбов (🛩️ Донское, UUOT) / 50 км",
+      "affectedAirports": [
+        {
+          "name": "Донское",
+          "icao": "UUOT",
+          "kind": "airport",
+          "lat": 52.8060125,
+          "lon": 41.4845129
+        }
+      ],
+      "inKta": false
     }
   ],
   "forecasts": [

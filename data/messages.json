@@ -24943,21 +24943,28 @@
     "chatId": -1003822338715,
     "messageId": 5407,
     "timestamp": "2026-11-04T22:05:27+00:00",
-    "text": "🔴🛩️ Тамбов - Донское, UUOT",
+    "text": "🔴 авиабаза Тамбов (🛩️ Донское, UUOT) / 50 км",
     "sourceUrl": "https://t.me/PlanKoverTDay/5407",
     "events": [
       {
-        "id": "e91f0c1d140034e8",
+        "id": "947aa5dc4a5b5f4f",
         "action": "ADD",
-        "name": "Донское",
-        "icao": "UUOT",
-        "kind": "airport",
+        "name": "авиабаза Тамбов",
+        "icao": null,
+        "kind": "city",
         "type": "full",
-        "radiusKm": null,
+        "radiusKm": 50.0,
         "messageTimestamp": "2026-11-04T22:05:27+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/5407",
-        "text": "🔴🛩️ Тамбов - Донское, UUOT",
-        "inKta": true
+        "text": "🔴 авиабаза Тамбов (🛩️ Донское, UUOT) / 50 км",
+        "affectedAirports": [
+          {
+            "name": "Донское",
+            "icao": "UUOT",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false
       }
     ]
   }
