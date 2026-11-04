@@ -23516,21 +23516,28 @@
     "chatId": -1003822338715,
     "messageId": 5365,
     "timestamp": "2026-11-04T02:27:26+00:00",
-    "text": "🔴🛩️ Ижевск, USII",
+    "text": "🔴 Березовка (Сюмсинский р-н, Удмуртская Республика) (🛩️ Ижевск, USII) / 150 км",
     "sourceUrl": "https://t.me/PlanKoverTDay/5365",
     "events": [
       {
-        "id": "5b4e2b2feb0a9cf5",
+        "id": "3168e0c53c9cf806",
         "action": "ADD",
-        "name": "Ижевск",
-        "icao": "USII",
-        "kind": "airport",
+        "name": "Березовка (Сюмсинский р-н, Удмуртская Республика)",
+        "icao": null,
+        "kind": "city",
         "type": "full",
-        "radiusKm": null,
+        "radiusKm": 150.0,
         "messageTimestamp": "2026-11-04T02:27:26+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/5365",
-        "text": "🔴🛩️ Ижевск, USII",
-        "inKta": true
+        "text": "🔴 Березовка (Сюмсинский р-н, Удмуртская Республика) (🛩️ Ижевск, USII) / 150 км",
+        "affectedAirports": [
+          {
+            "name": "Ижевск",
+            "icao": "USII",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false
       }
     ]
   },
@@ -23538,47 +23545,38 @@
     "chatId": -1003822338715,
     "messageId": 5366,
     "timestamp": "2026-11-04T02:45:47+00:00",
-    "text": "🔴🛩️ Бугульма, UWKB\n🔴🛩️ Казань, UWKD\n🔴🛩️ Нижнекамск - Бегишево, UWKE",
+    "text": "🔴 Новошешминск (🛩️ Казань, UWKD; 🛩️ Нижнекамск - Бегишево, UWKE; 🛩️ Бугульма, UWKB) / 150 км",
     "sourceUrl": "https://t.me/PlanKoverTDay/5366",
     "events": [
       {
-        "id": "8fa98438652e69b2",
+        "id": "6a29a18a511c7f1f",
         "action": "ADD",
-        "name": "Бугульма",
-        "icao": "UWKB",
-        "kind": "airport",
+        "name": "Новошешминск",
+        "icao": null,
+        "kind": "city",
         "type": "full",
-        "radiusKm": null,
+        "radiusKm": 150.0,
         "messageTimestamp": "2026-11-04T02:45:47+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/5366",
-        "text": "🔴🛩️ Бугульма, UWKB",
-        "inKta": true
-      },
-      {
-        "id": "2fa20a6f64f2a938",
-        "action": "ADD",
-        "name": "Казань",
-        "icao": "UWKD",
-        "kind": "airport",
-        "type": "full",
-        "radiusKm": null,
-        "messageTimestamp": "2026-11-04T02:45:47+00:00",
-        "sourceUrl": "https://t.me/PlanKoverTDay/5366",
-        "text": "🔴🛩️ Казань, UWKD",
-        "inKta": true
-      },
-      {
-        "id": "a640194f2e72e32c",
-        "action": "ADD",
-        "name": "Бегишево",
-        "icao": "UWKE",
-        "kind": "airport",
-        "type": "full",
-        "radiusKm": null,
-        "messageTimestamp": "2026-11-04T02:45:47+00:00",
-        "sourceUrl": "https://t.me/PlanKoverTDay/5366",
-        "text": "🔴🛩️ Нижнекамск - Бегишево, UWKE",
-        "inKta": true
+        "text": "🔴 Новошешминск (🛩️ Казань, UWKD; 🛩️ Нижнекамск - Бегишево, UWKE; 🛩️ Бугульма, UWKB) / 150 км",
+        "affectedAirports": [
+          {
+            "name": "Казань",
+            "icao": "UWKD",
+            "kind": "airport"
+          },
+          {
+            "name": "Бегишево",
+            "icao": "UWKE",
+            "kind": "airport"
+          },
+          {
+            "name": "Бугульма",
+            "icao": "UWKB",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false
       }
     ]
   },
