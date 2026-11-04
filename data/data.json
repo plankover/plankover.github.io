@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T21:10:18.329954+00:00",
+  "updatedAt": "2026-11-04T21:14:26.578703+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -61,6 +61,21 @@
       "inKta": true,
       "lat": 51.7139093,
       "lon": 46.1672319
+    },
+    {
+      "id": "83193c25e2c50d83",
+      "action": "ADD",
+      "name": "Пенза",
+      "icao": "UWPP",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-04T21:14:01+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5405",
+      "text": "🔴🛩️ Пенза, UWPP",
+      "inKta": true,
+      "lat": 53.110734,
+      "lon": 45.023455
     }
   ],
   "forecasts": [
