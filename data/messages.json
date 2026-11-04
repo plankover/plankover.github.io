@@ -24647,5 +24647,34 @@
         "inKta": false
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5397,
+    "timestamp": "2026-11-04T17:01:03+00:00",
+    "text": "🟢 а/д Центральный, Ростов на-Дону (🛩️ Платов, URRP)\n\nС Волгоградом тоже все хорошо.",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5397",
+    "events": [
+      {
+        "id": "04f67da1f2e3eaa8",
+        "action": "REMOVE",
+        "name": "Центральный, Ростов на-Дону",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-04T17:01:03+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5397",
+        "text": "🟢 а/д Центральный, Ростов на-Дону (🛩️ Платов, URRP)",
+        "affectedAirports": [
+          {
+            "name": "Платов",
+            "icao": "URRP",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false
+      }
+    ]
   }
 ]
