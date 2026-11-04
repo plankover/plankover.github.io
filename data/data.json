@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T10:30:19.496936+00:00",
+  "updatedAt": "2026-11-04T11:30:26.830645+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -65,45 +65,6 @@
       "snapshot": true,
       "lat": 59.4084171,
       "lon": 56.8036958
-    },
-    {
-      "id": "3ebdd275d328b88c",
-      "action": "ADD",
-      "name": "Кольцово",
-      "icao": "USSS",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-04T07:49:59+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5378",
-      "text": "🔴🛩️ Екатеринбург - Кольцово, USSS",
-      "inKta": true,
-      "lat": 56.7445764,
-      "lon": 60.8027902
-    },
-    {
-      "id": "73f98574af8a2930",
-      "action": "ADD",
-      "name": "с. Пристань",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": 150.0,
-      "messageTimestamp": "2026-11-04T08:01:48+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5380",
-      "text": "🔴 с. Пристань (🛩️ Екатеринбург - Кольцoво, USSS) / 150 км",
-      "affectedAirports": [
-        {
-          "name": "Кольцoво",
-          "icao": "USSS",
-          "kind": "airport",
-          "lat": 56.7445764,
-          "lon": 60.8027902
-        }
-      ],
-      "inKta": false,
-      "lat": 54.4868797,
-      "lon": 36.2786307
     },
     {
       "id": "ad230148fe69aabd",
