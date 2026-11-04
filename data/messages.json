@@ -24943,11 +24943,11 @@
     "chatId": -1003822338715,
     "messageId": 5407,
     "timestamp": "2026-11-04T22:05:27+00:00",
-    "text": "🔴 а/д Тамбов (🛩️ Донское, UUOT) / 50 км\n🔴 Пенза (🛩️ Пенза, UWPP) / 50 км",
+    "text": "🔴 а/д Тамбов (🛩️ Донское, UUOT) / 50 км\n🔴 Пенза (🛩️ Пенза, UWPP) / 50 км\n\n🔴 а/д Дягилево, Рязань / 70 км",
     "sourceUrl": "https://t.me/PlanKoverTDay/5407",
     "events": [
       {
-        "id": "d1323f688210fa6b",
+        "id": "0cfc1928d6ef8c34",
         "action": "ADD",
         "name": "Тамбов",
         "icao": null,
@@ -24967,7 +24967,7 @@
         "inKta": false
       },
       {
-        "id": "1a545e91779c941f",
+        "id": "e2a281943eed0df5",
         "action": "ADD",
         "name": "Пенза",
         "icao": null,
@@ -24984,6 +24984,19 @@
             "kind": "airport"
           }
         ],
+        "inKta": false
+      },
+      {
+        "id": "035a67e32dcab484",
+        "action": "ADD",
+        "name": "Дягилево, Рязань",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-11-04T22:05:27+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5407",
+        "text": "🔴 а/д Дягилево, Рязань / 70 км",
         "inKta": false
       }
     ]

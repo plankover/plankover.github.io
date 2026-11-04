@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T22:45:18.151888+00:00",
+  "updatedAt": "2026-11-04T23:05:21.181479+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -92,7 +92,7 @@
       "lon": 37.6000197
     },
     {
-      "id": "d1323f688210fa6b",
+      "id": "0cfc1928d6ef8c34",
       "action": "ADD",
       "name": "Тамбов",
       "icao": null,
@@ -116,7 +116,7 @@
       "lon": 41.3773864
     },
     {
-      "id": "1a545e91779c941f",
+      "id": "e2a281943eed0df5",
       "action": "ADD",
       "name": "Пенза",
       "icao": null,
@@ -138,6 +138,21 @@
       "inKta": false,
       "lat": 53.1953477,
       "lon": 45.0190437
+    },
+    {
+      "id": "035a67e32dcab484",
+      "action": "ADD",
+      "name": "Дягилево, Рязань",
+      "icao": null,
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 70.0,
+      "messageTimestamp": "2026-11-04T22:05:27+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5407",
+      "text": "🔴 а/д Дягилево, Рязань / 70 км",
+      "inKta": false,
+      "lat": 54.6571958,
+      "lon": 39.6308884
     }
   ],
   "forecasts": [
