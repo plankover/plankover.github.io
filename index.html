@@ -881,6 +881,25 @@
     return new Promise(resolve => setTimeout(resolve, ms));
   }
 
+  function screenshotCircleBounds(coords, radiusKm) {
+    // L.Circle.getBounds() needs a circle already attached to a map.
+    // Compute the geographic bounds directly so screenshot framing is safe
+    // before the temporary export layers are rendered.
+    const earthRadiusKm = 6371.0088;
+    const lat = coords[0] * Math.PI / 180;
+    const lon = coords[1];
+    const angularRadius = radiusKm / earthRadiusKm;
+    const minLat = lat - angularRadius;
+    const maxLat = lat + angularRadius;
+    const cosLat = Math.max(Math.cos(lat), 1e-9);
+    const lonDelta = Math.asin(Math.min(1, Math.sin(angularRadius) / cosLat));
+    const toDeg = value => value * 180 / Math.PI;
+    return L.latLngBounds(
+      [toDeg(minLat), lon - toDeg(lonDelta)],
+      [toDeg(maxLat), lon + toDeg(lonDelta)]
+    );
+  }
+
   function mapElementZoomControl() {
     // Zoom control was created explicitly with L.control.zoom(), so it is not
     // available as map.zoomControl; locate its actual Leaflet container.
@@ -951,8 +970,8 @@
       // Never resize the live map: render the export in an isolated Leaflet instance.
       exportElement = document.createElement("div");
       exportElement.style.cssText = [
-        "position:fixed", "left:-10000px", "top:0",
-        "width:1400px", "height:900px", "z-index:-1",
+        "position:fixed", "left:0", "top:0",
+        "width:1400px", "height:900px", "z-index:-1", "pointer-events:none",
         "background:#d8e0e8", "overflow:hidden"
       ].join(";");
       document.body.appendChild(exportElement);
@@ -971,6 +990,7 @@
       const exportShapes = L.featureGroup().addTo(exportMap);
       const exportAirports = L.featureGroup().addTo(exportMap);
       const airportGroups = new Map();
+      const screenshotBounds = L.latLngBounds();
 
       for (const item of allItems) {
         const coords = getCoords(item);
@@ -992,13 +1012,16 @@
         let shape;
 
         if (sector) {
-          shape = L.polygon(sectorPoints(coords[0], coords[1], sector.radius, sector.start, sector.end), {
+          const points = sectorPoints(coords[0], coords[1], sector.radius, sector.start, sector.end);
+          screenshotBounds.extend(points);
+          shape = L.polygon(points, {
             color, weight: uncertainRadius ? 0 : 2,
             dashArray: uncertainRestriction ? "7 6" : null,
             opacity: uncertainRadius ? 0 : .9,
             fillColor: color, fillOpacity: uncertain ? .28 : .2
           });
         } else if (radius) {
+          screenshotBounds.extend(screenshotCircleBounds(coords, radius));
           shape = L.circle(coords, {
             radius: radius * 1000, color, weight: uncertainRadius ? 0 : 2,
             dashArray: uncertainRestriction ? "7 6" : null,
@@ -1007,6 +1030,7 @@
             fillOpacity: uncertainRadius ? 1 : (uncertain ? .28 : .12)
           });
         } else {
+          screenshotBounds.extend(L.latLng(coords));
           shape = L.circleMarker(coords, {
             radius: 12, color, weight: 1,
             opacity: uncertain ? .8 : .01,
@@ -1030,6 +1054,7 @@
         const uncertainAirport = entries.some(entry => entry.item.uncertain === true);
         const markerClass = uncertainAirport ? "map-marker uncertain-marker" :
           (partial ? "map-marker partial" : "map-marker");
+        screenshotBounds.extend(L.latLng(group.coords));
         L.marker(group.coords, {
           icon: L.divIcon({
             className: "",
@@ -1047,9 +1072,7 @@
         exportMap.setView(center, zoom, { animate: false });
       } else {
         if (options.area === "all") {
-          bounds = exportShapes.getBounds();
-          const airportBounds = exportAirports.getBounds();
-          if (airportBounds.isValid()) bounds.extend(airportBounds);
+          bounds = screenshotBounds.isValid() ? screenshotBounds : null;
         } else {
           const item = allItems[Number(options.area)];
           const coords = item ? getCoords(item) : null;
@@ -1059,7 +1082,7 @@
             if (sector) {
               bounds = L.latLngBounds(sectorPoints(coords[0], coords[1], sector.radius, sector.start, sector.end));
             } else if (radius) {
-              bounds = L.circle(coords, { radius: radius * 1000 }).getBounds();
+              bounds = screenshotCircleBounds(coords, radius);
             } else {
               bounds = L.latLngBounds([coords, coords]).pad(0.18);
             }
