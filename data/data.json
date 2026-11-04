@@ -1,69 +1,7 @@
 {
-  "updatedAt": "2026-11-04T08:35:17.501170+00:00",
+  "updatedAt": "2026-11-04T08:40:16.721223+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
-    {
-      "id": "3a9e1c0ed2eaf5e9",
-      "action": "ADD",
-      "name": "Новошешминск",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": 150.0,
-      "messageTimestamp": "2026-11-04T07:40:41+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5377",
-      "text": "🔴 Новошешминск (🛩️ Казань, UWKD; 🛩️ Нижнекамск - Бегишево, UWKE; 🛩️ Бугульма, UWKB) / 150 км",
-      "affectedAirports": [
-        {
-          "name": "Казань",
-          "icao": "UWKD",
-          "kind": "airport",
-          "lat": 55.6074098,
-          "lon": 49.2855138
-        },
-        {
-          "name": "Бегишево",
-          "icao": "UWKE",
-          "kind": "airport",
-          "lat": 55.5655378,
-          "lon": 52.0988028
-        },
-        {
-          "name": "Бугульма",
-          "icao": "UWKB",
-          "kind": "airport"
-        }
-      ],
-      "inKta": false,
-      "snapshot": true,
-      "lat": 55.0616447,
-      "lon": 51.224884
-    },
-    {
-      "id": "62a58e307ebdd2a7",
-      "action": "ADD",
-      "name": "Казань",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": 100.0,
-      "messageTimestamp": "2026-11-04T07:40:41+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5377",
-      "text": "🔴 Казань (🛩️ Казань, UWKD) / 100 км",
-      "affectedAirports": [
-        {
-          "name": "Казань",
-          "icao": "UWKD",
-          "kind": "airport",
-          "lat": 55.6074098,
-          "lon": 49.2855138
-        }
-      ],
-      "inKta": false,
-      "snapshot": true,
-      "lat": 55.7946485,
-      "lon": 49.1115022
-    },
     {
       "id": "be46038587368861",
       "action": "ADD",
