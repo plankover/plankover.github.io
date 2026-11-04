@@ -23451,5 +23451,27 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5365,
+    "timestamp": "2026-11-04T02:27:26+00:00",
+    "text": "🔴🛩️ Ижевск, USII",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5365",
+    "events": [
+      {
+        "id": "5b4e2b2feb0a9cf5",
+        "action": "ADD",
+        "name": "Ижевск",
+        "icao": "USII",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-04T02:27:26+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5365",
+        "text": "🔴🛩️ Ижевск, USII",
+        "inKta": true
+      }
+    ]
   }
 ]
