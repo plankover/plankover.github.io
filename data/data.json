@@ -1,89 +1,7 @@
 {
-  "updatedAt": "2026-11-04T07:50:19.777301+00:00",
+  "updatedAt": "2026-11-04T07:55:16.806837+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
-    {
-      "id": "fe79082090c47474",
-      "action": "ADD",
-      "name": "Биринск",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": 150.0,
-      "messageTimestamp": "2026-11-04T07:40:41+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5377",
-      "text": "🔴 Биринск (🛩️ Самара - Курумоч, UWWW ; 🛩️ Ульяновск - Баратаевка, UWLL) / 150 км",
-      "affectedAirports": [
-        {
-          "name": "Курумоч",
-          "icao": "UWWW",
-          "kind": "airport",
-          "lat": 53.5057511,
-          "lon": 50.1569939
-        },
-        {
-          "name": "Баратаевка",
-          "icao": "UWLL",
-          "kind": "airport",
-          "lat": 54.2690213,
-          "lon": 48.2248287
-        }
-      ],
-      "inKta": false,
-      "snapshot": true,
-      "lat": 53.5798818,
-      "lon": 48.6498061
-    },
-    {
-      "id": "7d5e14a2f510dd24",
-      "action": "ADD",
-      "name": "Александровка (Самарская область)",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": 150.0,
-      "messageTimestamp": "2026-11-04T07:40:41+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5377",
-      "text": "🔴 Александровка (Самарская область) (🛩️ Самара - Курумоч, UWWW) / 150 км",
-      "affectedAirports": [
-        {
-          "name": "Курумоч",
-          "icao": "UWWW",
-          "kind": "airport",
-          "lat": 53.5057511,
-          "lon": 50.1569939
-        }
-      ],
-      "inKta": false,
-      "snapshot": true,
-      "lat": 53.1673553,
-      "lon": 49.1209026
-    },
-    {
-      "id": "9bd0330a013c9c81",
-      "action": "ADD",
-      "name": "Большое Алдаркино",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": 150.0,
-      "messageTimestamp": "2026-11-04T07:40:41+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5377",
-      "text": "🔴 Большое Алдаркино (🛩️ Самара - Курумоч, UWWW) / 150 км",
-      "affectedAirports": [
-        {
-          "name": "Курумоч",
-          "icao": "UWWW",
-          "kind": "airport",
-          "lat": 53.5057511,
-          "lon": 50.1569939
-        }
-      ],
-      "inKta": false,
-      "snapshot": true,
-      "lat": 53.0998721,
-      "lon": 51.8969083
-    },
     {
       "id": "3a9e1c0ed2eaf5e9",
       "action": "ADD",
@@ -120,31 +38,6 @@
       "snapshot": true,
       "lat": 55.0616447,
       "lon": 51.224884
-    },
-    {
-      "id": "f3e55fb13c33c85c",
-      "action": "ADD",
-      "name": "Ульяновск",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": 50.0,
-      "messageTimestamp": "2026-11-04T07:40:41+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5377",
-      "text": "🔴 Ульяновск (🛩️ Баратаевка, UWLL) / 50 км",
-      "affectedAirports": [
-        {
-          "name": "Баратаевка",
-          "icao": "UWLL",
-          "kind": "airport",
-          "lat": 54.2690213,
-          "lon": 48.2248287
-        }
-      ],
-      "inKta": false,
-      "snapshot": true,
-      "lat": 54.3150278,
-      "lon": 48.403373
     },
     {
       "id": "62a58e307ebdd2a7",
