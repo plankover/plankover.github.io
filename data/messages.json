@@ -23543,5 +23543,40 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5368,
+    "timestamp": "2026-11-04T03:08:50+00:00",
+    "text": "🔴🛩️ Волгоград, UWWW\n🔴🛩️ Самара - Курумоч, UWWW",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5368",
+    "events": [
+      {
+        "id": "1a08e7a4ac0e2345",
+        "action": "ADD",
+        "name": "Волгоград",
+        "icao": "UWWW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-04T03:08:50+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5368",
+        "text": "🔴🛩️ Волгоград, UWWW",
+        "inKta": true
+      },
+      {
+        "id": "5e9c6984c8e9f222",
+        "action": "ADD",
+        "name": "Курумоч",
+        "icao": "UWWW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-04T03:08:50+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5368",
+        "text": "🔴🛩️ Самара - Курумоч, UWWW",
+        "inKta": true
+      }
+    ]
   }
 ]
