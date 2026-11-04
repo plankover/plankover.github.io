@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T02:30:17.864294+00:00",
+  "updatedAt": "2026-11-04T02:50:17.819719+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -184,21 +184,6 @@
       "lon": 46.1672319
     },
     {
-      "id": "0e6e43b737390d81",
-      "action": "ADD",
-      "name": "Чкалов",
-      "icao": "UWGG",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-04T02:07:27+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5364",
-      "text": "🔴🛩️ Нижний Новгород - Чкалов, UWGG",
-      "inKta": true,
-      "lat": 56.2295198,
-      "lon": 43.7840064
-    },
-    {
       "id": "5b4e2b2feb0a9cf5",
       "action": "ADD",
       "name": "Ижевск",
@@ -212,6 +197,49 @@
       "inKta": true,
       "lat": 56.8361905,
       "lon": 53.4631283
+    },
+    {
+      "id": "8fa98438652e69b2",
+      "action": "ADD",
+      "name": "Бугульма",
+      "icao": "UWKB",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-04T02:45:47+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5366",
+      "text": "🔴🛩️ Бугульма, UWKB",
+      "inKta": true
+    },
+    {
+      "id": "2fa20a6f64f2a938",
+      "action": "ADD",
+      "name": "Казань",
+      "icao": "UWKD",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-04T02:45:47+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5366",
+      "text": "🔴🛩️ Казань, UWKD",
+      "inKta": true,
+      "lat": 55.6074098,
+      "lon": 49.2855138
+    },
+    {
+      "id": "a640194f2e72e32c",
+      "action": "ADD",
+      "name": "Бегишево",
+      "icao": "UWKE",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-04T02:45:47+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5366",
+      "text": "🔴🛩️ Нижнекамск - Бегишево, UWKE",
+      "inKta": true,
+      "lat": 55.5655378,
+      "lon": 52.0988028
     }
   ],
   "forecasts": [
