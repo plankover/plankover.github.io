@@ -23665,5 +23665,27 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5370,
+    "timestamp": "2026-11-04T03:44:12+00:00",
+    "text": "🔴🛩️ Ульяновск - Баратаевка, UWLW",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5370",
+    "events": [
+      {
+        "id": "0e23c7a454381049",
+        "action": "ADD",
+        "name": "Баратаевка",
+        "icao": "UWLW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-04T03:44:12+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5370",
+        "text": "🔴🛩️ Ульяновск - Баратаевка, UWLW",
+        "inKta": true
+      }
+    ]
   }
 ]
