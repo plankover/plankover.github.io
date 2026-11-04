@@ -23832,5 +23832,361 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5377,
+    "timestamp": "2026-11-04T07:40:41+00:00",
+    "text": "🕒 Актуальные ограничения на 10:40 мск\n\n🔴 Биринск (🛩️ Самара - Курумоч, UWWW ; 🛩️ Ульяновск - Баратаевка, UWLL) / 150 км\n🔴 Александровка (Самарская область) (🛩️ Самара - Курумоч, UWWW) / 150 км\n🔴 Большое Алдаркино (🛩️ Самара - Курумоч, UWWW) / 150 км\n🔴 Новошешминск (🛩️ Казань, UWKD; 🛩️ Нижнекамск - Бегишево, UWKE; 🛩️ Бугульма, UWKB) / 150 км\n🔴 Ульяновск (🛩️ Баратаевка, UWLL) / 50 км\n🔴 Казань (🛩️ Казань, UWKD) / 100 км\n🔴 Елабуга (🛩️ Нижнекамск - Бегишево, UWKE) / 50 км\n🔴 Альметьевск (🛩️ Бугульма, UWKB) / 50 км\n🔴 Ленинский (Башкортостан) (🛩️ Уфа, UWUU ; 🛩️ Бугульма, UWKB) / 150 км\n🔴 Сыйрышбашево (🛩️ Уфа, UWUU ; 🛩️ Бугульма, UWKB) / 150 км\n🔴 Березовка (Сюмсинский р-н, Удмуртская Республика) (🛩️ Ижевск, USII) / 150 км\n🔴 Березовка (Пермский край) (🛩️ Пермь - Большое Савино, USPP) / 150 км\n🔴🛩️ Пермь - Большое Савино, USPP / 100 км\n\n🔴 Базарный Сызган / 50 км\n🔴 Сызрань / 50 км\n🔴 Стерлитамак / 70 км\n🔴 Березники / 70 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5377",
+    "events": [
+      {
+        "id": "fe79082090c47474",
+        "action": "ADD",
+        "name": "Биринск",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 150.0,
+        "messageTimestamp": "2026-11-04T07:40:41+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5377",
+        "text": "🔴 Биринск (🛩️ Самара - Курумоч, UWWW ; 🛩️ Ульяновск - Баратаевка, UWLL) / 150 км",
+        "affectedAirports": [
+          {
+            "name": "Курумоч",
+            "icao": "UWWW",
+            "kind": "airport"
+          },
+          {
+            "name": "Баратаевка",
+            "icao": "UWLL",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false,
+        "snapshot": true
+      },
+      {
+        "id": "7d5e14a2f510dd24",
+        "action": "ADD",
+        "name": "Александровка (Самарская область)",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 150.0,
+        "messageTimestamp": "2026-11-04T07:40:41+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5377",
+        "text": "🔴 Александровка (Самарская область) (🛩️ Самара - Курумоч, UWWW) / 150 км",
+        "affectedAirports": [
+          {
+            "name": "Курумоч",
+            "icao": "UWWW",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false,
+        "snapshot": true
+      },
+      {
+        "id": "9bd0330a013c9c81",
+        "action": "ADD",
+        "name": "Большое Алдаркино",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 150.0,
+        "messageTimestamp": "2026-11-04T07:40:41+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5377",
+        "text": "🔴 Большое Алдаркино (🛩️ Самара - Курумоч, UWWW) / 150 км",
+        "affectedAirports": [
+          {
+            "name": "Курумоч",
+            "icao": "UWWW",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false,
+        "snapshot": true
+      },
+      {
+        "id": "3a9e1c0ed2eaf5e9",
+        "action": "ADD",
+        "name": "Новошешминск",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 150.0,
+        "messageTimestamp": "2026-11-04T07:40:41+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5377",
+        "text": "🔴 Новошешминск (🛩️ Казань, UWKD; 🛩️ Нижнекамск - Бегишево, UWKE; 🛩️ Бугульма, UWKB) / 150 км",
+        "affectedAirports": [
+          {
+            "name": "Казань",
+            "icao": "UWKD",
+            "kind": "airport"
+          },
+          {
+            "name": "Бегишево",
+            "icao": "UWKE",
+            "kind": "airport"
+          },
+          {
+            "name": "Бугульма",
+            "icao": "UWKB",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false,
+        "snapshot": true
+      },
+      {
+        "id": "f3e55fb13c33c85c",
+        "action": "ADD",
+        "name": "Ульяновск",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 50.0,
+        "messageTimestamp": "2026-11-04T07:40:41+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5377",
+        "text": "🔴 Ульяновск (🛩️ Баратаевка, UWLL) / 50 км",
+        "affectedAirports": [
+          {
+            "name": "Баратаевка",
+            "icao": "UWLL",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false,
+        "snapshot": true
+      },
+      {
+        "id": "62a58e307ebdd2a7",
+        "action": "ADD",
+        "name": "Казань",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 100.0,
+        "messageTimestamp": "2026-11-04T07:40:41+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5377",
+        "text": "🔴 Казань (🛩️ Казань, UWKD) / 100 км",
+        "affectedAirports": [
+          {
+            "name": "Казань",
+            "icao": "UWKD",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false,
+        "snapshot": true
+      },
+      {
+        "id": "be46038587368861",
+        "action": "ADD",
+        "name": "Елабуга",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 50.0,
+        "messageTimestamp": "2026-11-04T07:40:41+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5377",
+        "text": "🔴 Елабуга (🛩️ Нижнекамск - Бегишево, UWKE) / 50 км",
+        "affectedAirports": [
+          {
+            "name": "Бегишево",
+            "icao": "UWKE",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false,
+        "snapshot": true
+      },
+      {
+        "id": "f2f19d990b228bf8",
+        "action": "ADD",
+        "name": "Альметьевск",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 50.0,
+        "messageTimestamp": "2026-11-04T07:40:41+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5377",
+        "text": "🔴 Альметьевск (🛩️ Бугульма, UWKB) / 50 км",
+        "affectedAirports": [
+          {
+            "name": "Бугульма",
+            "icao": "UWKB",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false,
+        "snapshot": true
+      },
+      {
+        "id": "da087e0c3439b3da",
+        "action": "ADD",
+        "name": "Ленинский (Башкортостан)",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 150.0,
+        "messageTimestamp": "2026-11-04T07:40:41+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5377",
+        "text": "🔴 Ленинский (Башкортостан) (🛩️ Уфа, UWUU ; 🛩️ Бугульма, UWKB) / 150 км",
+        "affectedAirports": [
+          {
+            "name": "Уфа",
+            "icao": "UWUU",
+            "kind": "airport"
+          },
+          {
+            "name": "Бугульма",
+            "icao": "UWKB",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false,
+        "snapshot": true
+      },
+      {
+        "id": "18967b6bf32523dc",
+        "action": "ADD",
+        "name": "Сыйрышбашево",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 150.0,
+        "messageTimestamp": "2026-11-04T07:40:41+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5377",
+        "text": "🔴 Сыйрышбашево (🛩️ Уфа, UWUU ; 🛩️ Бугульма, UWKB) / 150 км",
+        "affectedAirports": [
+          {
+            "name": "Уфа",
+            "icao": "UWUU",
+            "kind": "airport"
+          },
+          {
+            "name": "Бугульма",
+            "icao": "UWKB",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false,
+        "snapshot": true
+      },
+      {
+        "id": "b06af9e07b33ba02",
+        "action": "ADD",
+        "name": "Березовка (Сюмсинский р-н, Удмуртская Республика)",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 150.0,
+        "messageTimestamp": "2026-11-04T07:40:41+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5377",
+        "text": "🔴 Березовка (Сюмсинский р-н, Удмуртская Республика) (🛩️ Ижевск, USII) / 150 км",
+        "affectedAirports": [
+          {
+            "name": "Ижевск",
+            "icao": "USII",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false,
+        "snapshot": true
+      },
+      {
+        "id": "c95c6f30c034da87",
+        "action": "ADD",
+        "name": "Березовка (Пермский край)",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 150.0,
+        "messageTimestamp": "2026-11-04T07:40:41+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5377",
+        "text": "🔴 Березовка (Пермский край) (🛩️ Пермь - Большое Савино, USPP) / 150 км",
+        "affectedAirports": [
+          {
+            "name": "Большое Савино",
+            "icao": "USPP",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false,
+        "snapshot": true
+      },
+      {
+        "id": "50ec6918d4f63cf6",
+        "action": "ADD",
+        "name": "Большое Савино",
+        "icao": "USPP",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 100.0,
+        "messageTimestamp": "2026-11-04T07:40:41+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5377",
+        "text": "🔴🛩️ Пермь - Большое Савино, USPP / 100 км",
+        "inKta": true,
+        "snapshot": true
+      },
+      {
+        "id": "a02dd344e8e5757d",
+        "action": "ADD",
+        "name": "Базарный Сызган",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 50.0,
+        "messageTimestamp": "2026-11-04T07:40:41+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5377",
+        "text": "🔴 Базарный Сызган / 50 км",
+        "inKta": false,
+        "snapshot": true
+      },
+      {
+        "id": "40c449ae1fad001f",
+        "action": "ADD",
+        "name": "Сызрань",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 50.0,
+        "messageTimestamp": "2026-11-04T07:40:41+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5377",
+        "text": "🔴 Сызрань / 50 км",
+        "inKta": false,
+        "snapshot": true
+      },
+      {
+        "id": "0e981ca7c85e3525",
+        "action": "ADD",
+        "name": "Стерлитамак",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-11-04T07:40:41+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5377",
+        "text": "🔴 Стерлитамак / 70 км",
+        "inKta": false,
+        "snapshot": true
+      },
+      {
+        "id": "ad00ba610a41de1b",
+        "action": "ADD",
+        "name": "Березники",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-11-04T07:40:41+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5377",
+        "text": "🔴 Березники / 70 км",
+        "inKta": false,
+        "snapshot": true
+      }
+    ]
   }
 ]
