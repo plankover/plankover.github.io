@@ -24698,11 +24698,11 @@
     "chatId": -1003822338715,
     "messageId": 5399,
     "timestamp": "2026-11-04T18:56:19+00:00",
-    "text": "🔴🛩️ Калуга - Грабцево, UUBC",
+    "text": "🔴🛩️ Калуга - Грабцево, UUBC 70 км\n🔴 а/д Клоково, Тула / 70 км",
     "sourceUrl": "https://t.me/PlanKoverTDay/5399",
     "events": [
       {
-        "id": "86df655b95f65d90",
+        "id": "1e807806811905ad",
         "action": "ADD",
         "name": "Грабцево",
         "icao": "UUBC",
@@ -24711,8 +24711,21 @@
         "radiusKm": null,
         "messageTimestamp": "2026-11-04T18:56:19+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/5399",
-        "text": "🔴🛩️ Калуга - Грабцево, UUBC",
+        "text": "🔴🛩️ Калуга - Грабцево, UUBC 70 км",
         "inKta": true
+      },
+      {
+        "id": "f3a9f8b19bfeb51f",
+        "action": "ADD",
+        "name": "Клоково, Тула",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-11-04T18:56:19+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5399",
+        "text": "🔴 а/д Клоково, Тула / 70 км",
+        "inKta": false
       }
     ]
   }
