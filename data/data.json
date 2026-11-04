@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T05:25:21.916119+00:00",
+  "updatedAt": "2026-11-04T05:35:17.284988+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -151,78 +151,6 @@
       "inKta": false,
       "lat": 56.149551,
       "lon": 44.198032
-    },
-    {
-      "id": "68fa0fee8b577baa",
-      "action": "ADD",
-      "name": "Плёс",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": 150.0,
-      "messageTimestamp": "2026-11-04T02:02:15+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5363",
-      "text": "🔴 Плёс (🛩️ Саратов - Гагарин, UWSG) / 150 км",
-      "affectedAirports": [
-        {
-          "name": "Гагарин",
-          "icao": "UWSG",
-          "kind": "airport",
-          "lat": 51.7139093,
-          "lon": 46.1672319
-        }
-      ],
-      "inKta": false,
-      "lat": 51.292837,
-      "lon": 47.777662
-    },
-    {
-      "id": "0804a6fba8e3d94f",
-      "action": "ADD",
-      "name": "Старая Полтавка",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": 150.0,
-      "messageTimestamp": "2026-11-04T02:02:15+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5363",
-      "text": "🔴 Старая Полтавка (🛩️ Саратов - Гагарин, UWSG) / 150 км",
-      "affectedAirports": [
-        {
-          "name": "Гагарин",
-          "icao": "UWSG",
-          "kind": "airport",
-          "lat": 51.7139093,
-          "lon": 46.1672319
-        }
-      ],
-      "inKta": false,
-      "lat": 50.475101,
-      "lon": 46.480801
-    },
-    {
-      "id": "7b0ed6e501dc41bd",
-      "action": "ADD",
-      "name": "Медведица",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": 150.0,
-      "messageTimestamp": "2026-11-04T02:02:15+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5363",
-      "text": "🔴 Медведица (🛩️ Саратов - Гагарин, UWSG) / 150 км",
-      "affectedAirports": [
-        {
-          "name": "Гагарин",
-          "icao": "UWSG",
-          "kind": "airport",
-          "lat": 51.7139093,
-          "lon": 46.1672319
-        }
-      ],
-      "inKta": false,
-      "lat": 51.079559,
-      "lon": 44.8182885
     },
     {
       "id": "50a72420779778c8",
