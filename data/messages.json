@@ -24340,5 +24340,27 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5384,
+    "timestamp": "2026-11-04T10:14:10+00:00",
+    "text": "🔴🛩️ Тюмень - Рощино, USTR",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5384",
+    "events": [
+      {
+        "id": "ad230148fe69aabd",
+        "action": "ADD",
+        "name": "Рощино",
+        "icao": "USTR",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-04T10:14:10+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5384",
+        "text": "🔴🛩️ Тюмень - Рощино, USTR",
+        "inKta": true
+      }
+    ]
   }
 ]
