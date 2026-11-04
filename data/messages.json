@@ -24250,20 +24250,20 @@
     "chatId": -1003822338715,
     "messageId": 5380,
     "timestamp": "2026-11-04T08:01:48+00:00",
-    "text": "🔴 Пристань (🛩️ Екатеринбург - Кольцoво, USSS) / 150 км",
+    "text": "🔴 с. Пристань (🛩️ Екатеринбург - Кольцoво, USSS) / 150 км",
     "sourceUrl": "https://t.me/PlanKoverTDay/5380",
     "events": [
       {
-        "id": "e0b290e73c02db4f",
+        "id": "73f98574af8a2930",
         "action": "ADD",
-        "name": "Пристань",
+        "name": "с. Пристань",
         "icao": null,
         "kind": "city",
         "type": "full",
         "radiusKm": 150.0,
         "messageTimestamp": "2026-11-04T08:01:48+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/5380",
-        "text": "🔴 Пристань (🛩️ Екатеринбург - Кольцoво, USSS) / 150 км",
+        "text": "🔴 с. Пристань (🛩️ Екатеринбург - Кольцoво, USSS) / 150 км",
         "affectedAirports": [
           {
             "name": "Кольцoво",

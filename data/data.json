@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T08:05:19.045470+00:00",
+  "updatedAt": "2026-11-04T08:10:19.388043+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -318,16 +318,16 @@
       "lon": 60.8027902
     },
     {
-      "id": "e0b290e73c02db4f",
+      "id": "73f98574af8a2930",
       "action": "ADD",
-      "name": "Пристань",
+      "name": "с. Пристань",
       "icao": null,
       "kind": "city",
       "type": "full",
       "radiusKm": 150.0,
       "messageTimestamp": "2026-11-04T08:01:48+00:00",
       "sourceUrl": "https://t.me/PlanKoverTDay/5380",
-      "text": "🔴 Пристань (🛩️ Екатеринбург - Кольцoво, USSS) / 150 км",
+      "text": "🔴 с. Пристань (🛩️ Екатеринбург - Кольцoво, USSS) / 150 км",
       "affectedAirports": [
         {
           "name": "Кольцoво",
@@ -338,8 +338,8 @@
         }
       ],
       "inKta": false,
-      "lat": 58.9028033,
-      "lon": 30.6174642
+      "lat": 54.4868797,
+      "lon": 36.2786307
     }
   ],
   "forecasts": [
