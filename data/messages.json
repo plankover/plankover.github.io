@@ -24485,5 +24485,27 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5390,
+    "timestamp": "2026-11-04T12:57:35+00:00",
+    "text": "🔴🛩️ Омск - Центральный, UNOO",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5390",
+    "events": [
+      {
+        "id": "da25b5d3746f0a3f",
+        "action": "ADD",
+        "name": "Центральный",
+        "icao": "UNOO",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-04T12:57:35+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5390",
+        "text": "🔴🛩️ Омск - Центральный, UNOO",
+        "inKta": true
+      }
+    ]
   }
 ]
