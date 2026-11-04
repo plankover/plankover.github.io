@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T05:35:17.284988+00:00",
+  "updatedAt": "2026-11-04T06:10:18.323050+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -17,47 +17,6 @@
       "snapshot": true,
       "lat": 54.5488708,
       "lon": 36.3697725
-    },
-    {
-      "id": "13a79382cf655698",
-      "action": "ADD",
-      "name": "Внуково",
-      "icao": "UUWW",
-      "kind": "airport",
-      "type": "partial",
-      "radiusKm": 100.0,
-      "messageTimestamp": "2026-11-03T21:00:26+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5359",
-      "text": "🟡🛩️ Москва - Внуково, UUWW / 100 км (азимуты 150-300)",
-      "sector": {
-        "radiusKm": 100.0,
-        "startAzimuth": 150,
-        "endAzimuth": 300
-      },
-      "inKta": true,
-      "snapshot": true,
-      "lat": 55.5995278,
-      "lon": 37.2735752
-    },
-    {
-      "id": "43840d5d0c19843d",
-      "action": "ADD",
-      "name": "Домодедово",
-      "icao": "UUDD",
-      "kind": "airport",
-      "type": "partial",
-      "radiusKm": 100.0,
-      "messageTimestamp": "2026-11-03T21:44:02+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5361",
-      "text": "🟡🛩️ Домодедово, UUDD / 100 км (новые азимуты 050-270)",
-      "sector": {
-        "radiusKm": 100.0,
-        "startAzimuth": 50,
-        "endAzimuth": 270
-      },
-      "inKta": true,
-      "lat": 55.4087122,
-      "lon": 37.9094307
     },
     {
       "id": "4cd98e97c6d4c7fc",
