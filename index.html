@@ -960,50 +960,14 @@
 
     let exportMap = null;
     let exportElement = null;
-    let watermark = null;
 
     try {
       if (typeof html2canvas !== "function") {
         throw new Error("Не удалось загрузить библиотеку экспорта изображения.");
       }
 
-      // Never resize the live map: render the export in an isolated Leaflet instance.
-      exportElement = document.createElement("div");
-      exportElement.style.cssText = [
-        "position:fixed", "left:0", "top:0",
-        "width:1400px", "height:900px", "z-index:-1", "pointer-events:none",
-        "background:#d8e0e8", "overflow:hidden"
-      ].join(";");
-      document.body.appendChild(exportElement);
-
-      // Wait until the fixed export surface has its final 1400×900 layout box.
-      // Creating Leaflet before this point can leave its pixel origin stale,
-      // which makes SVG restrictions appear shifted relative to the tiles.
-      await new Promise(resolve => requestAnimationFrame(() =>
-        requestAnimationFrame(resolve)
-      ));
-
-      exportMap = L.map(exportElement, {
-        zoomControl: false, attributionControl: false,
-        preferCanvas: false, fadeAnimation: false,
-        zoomAnimation: false, markerZoomAnimation: false,
-        renderer: L.svg()
-      });
-      exportMap.setView(map.getCenter(), map.getZoom(), { animate: false });
-      exportMap.invalidateSize({ animate: false, pan: true });
-
-      const exportSize = exportMap.getSize();
-      if (exportSize.x !== 1400 || exportSize.y !== 900) {
-        throw new Error("Неверный размер карты экспорта: " +
-          exportSize.x + "×" + exportSize.y + " вместо 1400×900.");
-      }
-      L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-        maxZoom: 18,
-        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-      }).addTo(exportMap);
-
-      const exportShapes = L.featureGroup().addTo(exportMap);
-      const exportAirports = L.featureGroup().addTo(exportMap);
+      // Collect all geographical bounds and airport groups before creating
+      // the export map. No restriction SVG/Leaflet layers are used here.
       const airportGroups = new Map();
       const screenshotBounds = L.latLngBounds();
 
@@ -1018,76 +982,61 @@
           }
         }
 
-        const uncertainRestriction = item.uncertain === true;
-        const uncertainRadius = item.radiusUncertain === true;
-        const uncertain = uncertainRestriction || uncertainRadius;
-        const color = uncertain ? "#9299a3" : "#ff515b";
-        const radius = getRadius(item);
         const sector = getSector(item);
-        let shape;
-
+        const radius = getRadius(item);
         if (sector) {
-          const points = sectorPoints(coords[0], coords[1], sector.radius, sector.start, sector.end);
-          screenshotBounds.extend(points);
-          shape = L.polygon(points, {
-            color, weight: uncertainRadius ? 0 : 2,
-            dashArray: uncertainRestriction ? "7 6" : null,
-            opacity: uncertainRadius ? 0 : .9,
-            fillColor: color, fillOpacity: uncertain ? .28 : .2
-          });
+          screenshotBounds.extend(
+            sectorPoints(coords[0], coords[1], sector.radius, sector.start, sector.end)
+          );
         } else if (radius) {
           screenshotBounds.extend(screenshotCircleBounds(coords, radius));
-          shape = L.circle(coords, {
-            radius: radius * 1000, color, weight: uncertainRadius ? 0 : 2,
-            dashArray: uncertainRestriction ? "7 6" : null,
-            opacity: uncertainRadius ? 0 : .9,
-            fillColor: color,
-            fillOpacity: uncertainRadius ? 1 : (uncertain ? .28 : .12)
-          });
         } else {
           screenshotBounds.extend(L.latLng(coords));
-          shape = L.circleMarker(coords, {
-            radius: 12, color, weight: 1,
-            opacity: uncertain ? .8 : .01,
-            fillColor: uncertain ? "#9299a3" : "#f8fafc",
-            fillOpacity: uncertain ? .9 : .01
-          });
-        }
-        shape.addTo(exportShapes);
-        if (uncertainRadius && (radius || sector)) applyUncertainHatch(shape);
-        if (uncertainRadius) {
-          L.circleMarker(coords, {
-            radius: 4, color: "#9299a3", weight: 1,
-            fillColor: "#9299a3", fillOpacity: 1, interactive: false
-          }).addTo(exportShapes);
         }
       }
 
       for (const group of airportGroups.values()) {
-        const entries = airportStatusEntries(group);
-        const partial = entries.length > 0 && entries.every(airportEntryIsPartial);
-        const uncertainAirport = entries.some(entry => entry.item.uncertain === true);
-        const markerClass = uncertainAirport ? "map-marker uncertain-marker" :
-          (partial ? "map-marker partial" : "map-marker");
         screenshotBounds.extend(L.latLng(group.coords));
-        L.marker(group.coords, {
-          icon: L.divIcon({
-            className: "",
-            html: '<div class="' + markerClass + '"><span>✈</span></div>',
-            iconSize: [24, 24], iconAnchor: [12, 20]
-          }),
-          interactive: false
-        }).addTo(exportAirports);
       }
 
-      // The export map already has its final dimensions and view before any
-      // vector layers are added. Only the target framing remains to be applied.
-      let bounds;
+      // Keep the export surface outside the visible viewport, but do not put
+      // it behind the document background (negative z-index broke captures
+      // in some browser layouts).
+      exportElement = document.createElement("div");
+      exportElement.style.cssText = [
+        "position:fixed", "left:-1500px", "top:0",
+        "width:1400px", "height:900px", "z-index:99999",
+        "pointer-events:none", "background:#d8e0e8", "overflow:hidden"
+      ].join(";");
+      document.body.appendChild(exportElement);
+
+      await new Promise(resolve => requestAnimationFrame(() =>
+        requestAnimationFrame(resolve)
+      ));
+
+      exportMap = L.map(exportElement, {
+        zoomControl: false,
+        attributionControl: false,
+        preferCanvas: true,
+        fadeAnimation: false,
+        zoomAnimation: false,
+        markerZoomAnimation: false
+      });
+
+      const exportSize = exportMap.getSize();
+      if (exportSize.x !== 1400 || exportSize.y !== 900) {
+        throw new Error("Неверный размер карты экспорта: " +
+          exportSize.x + "×" + exportSize.y + " вместо 1400×900.");
+      }
+
+      // Set the final view before requesting tiles. This avoids a second
+      // round of tile positioning after the vector overlay is drawn.
       if (options.area === "current") {
         const center = map.getCenter();
         const zoom = Math.max(3, Math.min(9, map.getZoom() + options.scale));
         exportMap.setView(center, zoom, { animate: false });
       } else {
+        let bounds = null;
         if (options.area === "all") {
           bounds = screenshotBounds.isValid() ? screenshotBounds : null;
         } else {
@@ -1097,7 +1046,9 @@
             const sector = getSector(item);
             const radius = getRadius(item);
             if (sector) {
-              bounds = L.latLngBounds(sectorPoints(coords[0], coords[1], sector.radius, sector.start, sector.end));
+              bounds = L.latLngBounds(
+                sectorPoints(coords[0], coords[1], sector.radius, sector.start, sector.end)
+              );
             } else if (radius) {
               bounds = screenshotCircleBounds(coords, radius);
             } else {
@@ -1105,70 +1056,326 @@
             }
           }
         }
+
         if (bounds && bounds.isValid()) {
-          exportMap.fitBounds(bounds, { padding: [35, 35], maxZoom: 8, animate: false });
+          exportMap.fitBounds(bounds, {
+            padding: [35, 35],
+            maxZoom: 8,
+            animate: false
+          });
           if (options.scale !== 0) {
-            exportMap.setZoom(Math.max(3, Math.min(9, exportMap.getZoom() + options.scale)), { animate: false });
+            exportMap.setZoom(
+              Math.max(3, Math.min(9, exportMap.getZoom() + options.scale)),
+              { animate: false }
+            );
           }
         } else {
           exportMap.setView([55.75, 55.5], 4, { animate: false });
         }
       }
 
-      const now = new Date();
-      const timestamp = new Intl.DateTimeFormat("ru-RU", {
-        timeZone: "Europe/Moscow", day: "2-digit", month: "2-digit",
-        year: "numeric", hour: "2-digit", minute: "2-digit", hourCycle: "h23"
-      }).format(now);
+      const tileLayer = L.tileLayer(
+        "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+        {
+          maxZoom: 18,
+          crossOrigin: true,
+          attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+        }
+      );
+      const tileLoad = new Promise(resolve => {
+        tileLayer.once("load", resolve);
+      });
+      tileLayer.addTo(exportMap);
 
-      watermark = L.control({ position: "bottomleft" });
-      watermark.onAdd = () => {
-        const container = L.DomUtil.create("div", "screenshot-watermark");
-        container.style.cssText = [
-          "position:absolute", "left:0", "bottom:8px", "width:1400px",
-          "display:flex", "justify-content:center", "box-sizing:border-box",
-          "margin:0", "padding:0", "border:0", "background:transparent",
-          "color:#000000", "font-family:Inter,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif",
-          "font-size:11px", "font-weight:600", "line-height:1.4",
-          "text-align:center", "white-space:nowrap"
-        ].join(";");
-        container.innerHTML = '<span style="display:inline-block;padding:3px 8px;border:1px solid #43536a;border-radius:4px;background:#101722;color:#edf3fb;box-shadow:0 1px 3px #0003">@PlanKoverTDay · ' + esc(timestamp) + ' МСК</span>';
-        return container;
-      };
-      watermark.addTo(exportMap);
-
-      // Give Leaflet one paint cycle after the final fitBounds/setZoom so
-      // its SVG renderer and tile pane use the same pixel origin at capture.
+      // Wait for the final viewport's tiles, with a finite fallback for a
+      // slow or partially unavailable tile server.
+      await Promise.race([tileLoad, wait(12000)]);
       await new Promise(resolve => requestAnimationFrame(() =>
         requestAnimationFrame(resolve)
       ));
-      await wait(2600);
-      const canvas = await html2canvas(exportElement, {
-        useCORS: true, allowTaint: false,
-        backgroundColor: "#d8e0e8", scale: 1.5, logging: false,
-        width: 1400, height: 900,
-        windowWidth: 1400, windowHeight: 900,
-        scrollX: 0, scrollY: 0
+
+      // One HTML canvas is the sole vector renderer for the export. Every
+      // point comes from this exact Leaflet map's latLngToContainerPoint(),
+      // so restrictions and airport markers share the tile layer's origin.
+      const overlayCanvas = document.createElement("canvas");
+      overlayCanvas.width = 1400;
+      overlayCanvas.height = 900;
+      overlayCanvas.style.cssText = [
+        "position:absolute", "left:0", "top:0",
+        "width:1400px", "height:900px",
+        "z-index:650", "pointer-events:none"
+      ].join(";");
+      exportElement.appendChild(overlayCanvas);
+
+      const ctx = overlayCanvas.getContext("2d");
+      if (!ctx) throw new Error("Браузер не смог создать Canvas для ограничений.");
+
+      function project(coords) {
+        const point = exportMap.latLngToContainerPoint(L.latLng(coords[0], coords[1]));
+        return { x: point.x, y: point.y };
+      }
+
+      function projectPath(latLngs) {
+        return latLngs.map(project);
+      }
+
+      function tracePath(points) {
+        if (!points.length) return;
+        ctx.beginPath();
+        ctx.moveTo(points[0].x, points[0].y);
+        for (let i = 1; i < points.length; i++) {
+          ctx.lineTo(points[i].x, points[i].y);
+        }
+        ctx.closePath();
+      }
+
+      function pathBounds(points) {
+        return points.reduce((box, point) => ({
+          minX: Math.min(box.minX, point.x),
+          minY: Math.min(box.minY, point.y),
+          maxX: Math.max(box.maxX, point.x),
+          maxY: Math.max(box.maxY, point.y)
+        }), {
+          minX: Infinity, minY: Infinity,
+          maxX: -Infinity, maxY: -Infinity
+        });
+      }
+
+      function drawHatch(points) {
+        if (!points.length) return;
+        const box = pathBounds(points);
+        ctx.save();
+        tracePath(points);
+        ctx.clip();
+        ctx.strokeStyle = "#59636f";
+        ctx.globalAlpha = 0.55;
+        ctx.lineWidth = 2.6;
+        for (let x = box.minX - (box.maxY - box.minY); x <= box.maxX; x += 11) {
+          ctx.beginPath();
+          ctx.moveTo(x, box.maxY);
+          ctx.lineTo(x + (box.maxY - box.minY), box.minY);
+          ctx.stroke();
+        }
+        ctx.restore();
+      }
+
+      function drawArea(latLngs, style) {
+        const points = projectPath(latLngs);
+        if (points.length < 3) return;
+        tracePath(points);
+
+        if (style.hatched) {
+          drawHatch(points);
+        } else {
+          ctx.save();
+          ctx.globalAlpha = style.fillOpacity;
+          ctx.fillStyle = style.color;
+          ctx.fill();
+          ctx.restore();
+        }
+
+        if (style.lineWidth > 0) {
+          ctx.save();
+          ctx.globalAlpha = style.strokeOpacity;
+          ctx.strokeStyle = style.color;
+          ctx.lineWidth = style.lineWidth;
+          ctx.setLineDash(style.dashed ? [7, 6] : []);
+          tracePath(points);
+          ctx.stroke();
+          ctx.restore();
+        }
+      }
+
+      function drawCenterDot(coords) {
+        const point = project(coords);
+        ctx.save();
+        ctx.beginPath();
+        ctx.arc(point.x, point.y, 4, 0, Math.PI * 2);
+        ctx.fillStyle = "#9299a3";
+        ctx.fill();
+        ctx.lineWidth = 1;
+        ctx.strokeStyle = "#9299a3";
+        ctx.stroke();
+        ctx.restore();
+      }
+
+      function drawPoint(coords, uncertain) {
+        const point = project(coords);
+        ctx.save();
+        ctx.beginPath();
+        ctx.arc(point.x, point.y, 12, 0, Math.PI * 2);
+        ctx.lineWidth = 1;
+        ctx.strokeStyle = uncertain ? "#9299a3" : "#233449";
+        ctx.globalAlpha = uncertain ? 0.8 : 0.01;
+        ctx.stroke();
+        ctx.fillStyle = uncertain ? "#9299a3" : "#f8fafc";
+        ctx.globalAlpha = uncertain ? 0.9 : 0.01;
+        ctx.fill();
+        ctx.restore();
+      }
+
+      function drawRestriction(item) {
+        const coords = getCoords(item);
+        if (!coords) return;
+
+        const uncertainRestriction = item.uncertain === true;
+        const uncertainRadius = item.radiusUncertain === true;
+        const uncertain = uncertainRestriction || uncertainRadius;
+        const color = uncertain ? "#9299a3" : "#ff515b";
+        const sector = getSector(item);
+        const radius = getRadius(item);
+
+        if (sector) {
+          const points = sectorPoints(
+            coords[0], coords[1], sector.radius, sector.start, sector.end
+          );
+          drawArea(points, {
+            color,
+            fillOpacity: uncertain ? 0.28 : 0.2,
+            strokeOpacity: uncertainRadius ? 0 : 0.9,
+            lineWidth: uncertainRadius ? 0 : 2,
+            dashed: uncertainRestriction,
+            hatched: uncertainRadius
+          });
+        } else if (radius) {
+          // Reuse the same geodesic perimeter for fill and stroke. It is
+          // projected by Leaflet below, rather than independently positioned
+          // by an SVG renderer or by html2canvas.
+          const perimeter = sectorPoints(
+            coords[0], coords[1], radius, 0, 360
+          ).slice(1, -1);
+          drawArea(perimeter, {
+            color,
+            fillOpacity: uncertainRadius ? 0 : (uncertain ? 0.28 : 0.12),
+            strokeOpacity: uncertainRadius ? 0 : 0.9,
+            lineWidth: uncertainRadius ? 0 : 2,
+            dashed: uncertainRestriction,
+            hatched: uncertainRadius
+          });
+        } else {
+          drawPoint(coords, uncertain);
+        }
+
+        if (uncertainRadius) drawCenterDot(coords);
+      }
+
+      function roundedRect(x, y, width, height, radius) {
+        const r = Math.min(radius, width / 2, height / 2);
+        ctx.beginPath();
+        ctx.moveTo(x + r, y);
+        ctx.lineTo(x + width - r, y);
+        ctx.quadraticCurveTo(x + width, y, x + width, y + r);
+        ctx.lineTo(x + width, y + height - r);
+        ctx.quadraticCurveTo(x + width, y + height, x + width - r, y + height);
+        ctx.lineTo(x + r, y + height);
+        ctx.quadraticCurveTo(x, y + height, x, y + height - r);
+        ctx.lineTo(x, y + r);
+        ctx.quadraticCurveTo(x, y, x + r, y);
+        ctx.closePath();
+      }
+
+      function drawAirportMarker(group) {
+        const entries = airportStatusEntries(group);
+        const partial = entries.length > 0 && entries.every(airportEntryIsPartial);
+        const uncertainAirport = entries.some(entry => entry.item.uncertain === true);
+        const point = project(group.coords);
+        const fill = uncertainAirport ? "#9299a3" : (partial ? "#ffc34d" : "#ff3b45");
+        const border = uncertainAirport ? "#626b76" : (partial ? "#9c701b" : "#8f1721");
+
+        ctx.save();
+        ctx.translate(point.x, point.y - 8);
+        ctx.rotate(-Math.PI / 4);
+        ctx.shadowColor = "rgba(0,0,0,0.32)";
+        ctx.shadowBlur = 5;
+        ctx.beginPath();
+        ctx.arc(0, 0, 10, 0, Math.PI * 2);
+        ctx.moveTo(-6, 7);
+        ctx.lineTo(-12, 13);
+        ctx.lineTo(-3, 5);
+        ctx.closePath();
+        ctx.fillStyle = fill;
+        ctx.fill();
+        ctx.shadowBlur = 0;
+        ctx.lineWidth = 2;
+        ctx.strokeStyle = border;
+        ctx.stroke();
+        ctx.rotate(Math.PI / 4);
+        ctx.fillStyle = uncertainAirport ? "#202630" : (partial ? "#392b0b" : "#ffffff");
+        ctx.font = '13px "Segoe UI Symbol", "Apple Symbols", Arial, sans-serif';
+        ctx.textAlign = "center";
+        ctx.textBaseline = "middle";
+        ctx.fillText("✈", 0, 0);
+        ctx.restore();
+      }
+
+      allItems.forEach(drawRestriction);
+      airportGroups.forEach(drawAirportMarker);
+
+      const now = new Date();
+      const timestamp = new Intl.DateTimeFormat("ru-RU", {
+        timeZone: "Europe/Moscow",
+        day: "2-digit",
+        month: "2-digit",
+        year: "numeric",
+        hour: "2-digit",
+        minute: "2-digit",
+        hourCycle: "h23"
+      }).format(now);
+
+      ctx.save();
+      ctx.font = '600 11px Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
+      const watermarkText = "@PlanKoverTDay · " + timestamp + " МСК";
+      const watermarkWidth = ctx.measureText(watermarkText).width + 16;
+      const watermarkX = (1400 - watermarkWidth) / 2;
+      const watermarkY = 900 - 8 - 20;
+      roundedRect(watermarkX, watermarkY, watermarkWidth, 20, 4);
+      ctx.fillStyle = "#101722";
+      ctx.fill();
+      ctx.strokeStyle = "#43536a";
+      ctx.lineWidth = 1;
+      ctx.stroke();
+      ctx.fillStyle = "#edf3fb";
+      ctx.textAlign = "center";
+      ctx.textBaseline = "middle";
+      ctx.fillText(watermarkText, 700, watermarkY + 10);
+      ctx.restore();
+
+      await new Promise(resolve => requestAnimationFrame(() =>
+        requestAnimationFrame(resolve)
+      ));
+
+      const screenshot = await html2canvas(exportElement, {
+        useCORS: true,
+        allowTaint: false,
+        backgroundColor: "#d8e0e8",
+        scale: 1.5,
+        logging: false,
+        width: 1400,
+        height: 900,
+        windowWidth: Math.max(window.innerWidth, 1400),
+        windowHeight: Math.max(window.innerHeight, 900),
+        x: -1500,
+        y: 0,
+        scrollX: 0,
+        scrollY: 0
       });
 
-      const link = document.createElement("a");
       const fileStamp = now.toLocaleString("sv-SE", { timeZone: "Europe/Moscow" })
         .replace(" ", "_").replace(/:/g, "-");
+      const link = document.createElement("a");
       link.download = "PlanKoverToday_" + fileStamp + ".png";
-      link.href = canvas.toDataURL("image/png");
+      link.href = screenshot.toDataURL("image/png");
       link.click();
     } catch (error) {
       console.error("Не удалось создать скриншот карты:", error);
       alert("Не удалось создать скриншот: " + (error?.message || String(error)));
     } finally {
-      if (watermark) watermark.remove();
       if (exportMap) exportMap.remove();
       if (exportElement) exportElement.remove();
       button.disabled = false;
       button.textContent = "📸 Скриншот";
     }
   }
-
   async function loadData() {
     $("refresh-btn").textContent = "↻ Загружаем…";
     $("refresh-btn").disabled = true;
