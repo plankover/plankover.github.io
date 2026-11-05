@@ -25256,21 +25256,28 @@
     "chatId": -1003822338715,
     "messageId": 5419,
     "timestamp": "2026-11-05T18:00:47+00:00",
-    "text": "🔴🛩️ Геленджик, URKG",
+    "text": "🔴 Новороссийск (🛩️ Геленджик, URKG) / 40 км",
     "sourceUrl": "https://t.me/PlanKoverTDay/5419",
     "events": [
       {
-        "id": "aae289bd39550e9f",
+        "id": "bd89f317a894271a",
         "action": "ADD",
-        "name": "Геленджик",
-        "icao": "URKG",
-        "kind": "airport",
+        "name": "Новороссийск",
+        "icao": null,
+        "kind": "city",
         "type": "full",
-        "radiusKm": null,
+        "radiusKm": 40.0,
         "messageTimestamp": "2026-11-05T18:00:47+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/5419",
-        "text": "🔴🛩️ Геленджик, URKG",
-        "inKta": true
+        "text": "🔴 Новороссийск (🛩️ Геленджик, URKG) / 40 км",
+        "affectedAirports": [
+          {
+            "name": "Геленджик",
+            "icao": "URKG",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false
       }
     ]
   }
