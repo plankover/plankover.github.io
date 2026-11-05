@@ -25341,5 +25341,27 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5423,
+    "timestamp": "2026-11-05T23:54:44+00:00",
+    "text": "🔴🛩️ Астрахань - Нариманово, URWA",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5423",
+    "events": [
+      {
+        "id": "37d718601d42c52d",
+        "action": "ADD",
+        "name": "Нариманово",
+        "icao": "URWA",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-05T23:54:44+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5423",
+        "text": "🔴🛩️ Астрахань - Нариманово, URWA",
+        "inKta": true
+      }
+    ]
   }
 ]
