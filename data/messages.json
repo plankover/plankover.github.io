@@ -25218,5 +25218,21 @@
         "snapshot": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5417,
+    "timestamp": "2026-11-05T08:09:27+00:00",
+    "text": "🟢🛩️ Махачкала - Уйташ, URML\n\n✅ Ранее объявленные",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5417",
+    "events": [
+      {
+        "id": "ed5757c3b097d754",
+        "action": "CLEAR",
+        "messageTimestamp": "2026-11-05T08:09:27+00:00",
+        "text": "🟢🛩️ Махачкала - Уйташ, URML\n\n✅ Ранее объявленные",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5417"
+      }
+    ]
   }
 ]

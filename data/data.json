@@ -1,29 +1,6 @@
 {
-  "updatedAt": "2026-11-05T07:15:19.766218+00:00",
+  "updatedAt": "2026-11-05T08:10:17.871713+00:00",
   "source": "@PlanKoverTDay",
-  "restrictions": [
-    {
-      "id": "5f300c240f88ebb4",
-      "action": "ADD",
-      "name": "Уйташ",
-      "icao": "URML",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": 30.0,
-      "messageTimestamp": "2026-11-05T07:13:00+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5416",
-      "text": "🔴🛩️ Махачкала - Уйташ, URML / 30 км",
-      "inKta": true,
-      "snapshot": true,
-      "lat": 42.813746,
-      "lon": 47.6566872
-    }
-  ],
-  "forecasts": [
-    {
-      "timestamp": "2026-11-04T20:00:07+00:00",
-      "text": "📌 Прогноз.\n\nНочью ожидаем ограничения в ряде аэропортов Центрального, Приволжского федеральных округов (Тамбов, Пенза, Саратов, Самара, Ульяновск, Казань и др).",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5400"
-    }
-  ]
+  "restrictions": [],
+  "forecasts": []
 }
