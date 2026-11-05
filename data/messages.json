@@ -25319,5 +25319,27 @@
         "sourceUrl": "https://t.me/PlanKoverTDay/5421"
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5422,
+    "timestamp": "2026-11-05T22:45:12+00:00",
+    "text": "🟢🛩️ Москва - Домодедово, UUDD",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5422",
+    "events": [
+      {
+        "id": "2e899c5b0c9f2d88",
+        "action": "REMOVE",
+        "name": "Домодедово",
+        "icao": "UUDD",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-05T22:45:12+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5422",
+        "text": "🟢🛩️ Москва - Домодедово, UUDD",
+        "inKta": true
+      }
+    ]
   }
 ]
