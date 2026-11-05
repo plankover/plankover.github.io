@@ -1,23 +1,7 @@
 {
-  "updatedAt": "2026-11-05T02:30:19.056188+00:00",
+  "updatedAt": "2026-11-05T04:20:16.813866+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
-    {
-      "id": "55529e0b8316e161",
-      "action": "ADD",
-      "name": "Грабцево",
-      "icao": "UUBC",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": 70.0,
-      "messageTimestamp": "2026-11-04T21:21:43+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5406",
-      "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км",
-      "inKta": true,
-      "snapshot": true,
-      "lat": 54.5488708,
-      "lon": 36.3697725
-    },
     {
       "id": "9cd799713a4481f8",
       "action": "ADD",
@@ -35,30 +19,6 @@
       "lon": 37.6000197
     },
     {
-      "id": "0cfc1928d6ef8c34",
-      "action": "ADD",
-      "name": "Тамбов",
-      "icao": null,
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": 50.0,
-      "messageTimestamp": "2026-11-04T22:05:27+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5407",
-      "text": "🔴 а/д Тамбов (🛩️ Донское, UUOT) / 50 км",
-      "affectedAirports": [
-        {
-          "name": "Донское",
-          "icao": "UUOT",
-          "kind": "airport",
-          "lat": 52.8060125,
-          "lon": 41.4845129
-        }
-      ],
-      "inKta": false,
-      "lat": 52.7040093,
-      "lon": 41.3773864
-    },
-    {
       "id": "035a67e32dcab484",
       "action": "ADD",
       "name": "Дягилево, Рязань",
@@ -72,21 +32,6 @@
       "inKta": false,
       "lat": 54.6571958,
       "lon": 39.6308884
-    },
-    {
-      "id": "f0b3065ae62225d5",
-      "action": "ADD",
-      "name": "Чкалов",
-      "icao": "UWGG",
-      "kind": "airport",
-      "type": "partial",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-05T01:40:43+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5411",
-      "text": "🟡🛩️ Нижний Новгород - Чкалов, UWGG",
-      "inKta": true,
-      "lat": 56.2295198,
-      "lon": 43.7840064
     }
   ],
   "forecasts": [
