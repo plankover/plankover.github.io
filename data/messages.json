@@ -25195,5 +25195,28 @@
         "sourceUrl": "https://t.me/PlanKoverTDay/5415"
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5416,
+    "timestamp": "2026-11-05T07:13:00+00:00",
+    "text": "🕒 Актуальные ограничения на 10:10 мск\n\n🔴🛩️ Махачкала - Уйташ, URML / 30 км",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5416",
+    "events": [
+      {
+        "id": "5f300c240f88ebb4",
+        "action": "ADD",
+        "name": "Уйташ",
+        "icao": "URML",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 30.0,
+        "messageTimestamp": "2026-11-05T07:13:00+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5416",
+        "text": "🔴🛩️ Махачкала - Уйташ, URML / 30 км",
+        "inKta": true,
+        "snapshot": true
+      }
+    ]
   }
 ]

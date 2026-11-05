@@ -1,37 +1,22 @@
 {
-  "updatedAt": "2026-11-05T04:20:16.813866+00:00",
+  "updatedAt": "2026-11-05T07:15:19.766218+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
-      "id": "9cd799713a4481f8",
+      "id": "5f300c240f88ebb4",
       "action": "ADD",
-      "name": "Клоково, Тула",
-      "icao": null,
+      "name": "Уйташ",
+      "icao": "URML",
       "kind": "airport",
       "type": "full",
-      "radiusKm": 70.0,
-      "messageTimestamp": "2026-11-04T21:21:43+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5406",
-      "text": "🔴 а/д Клоково, Тула / 70 км",
-      "inKta": false,
+      "radiusKm": 30.0,
+      "messageTimestamp": "2026-11-05T07:13:00+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5416",
+      "text": "🔴🛩️ Махачкала - Уйташ, URML / 30 км",
+      "inKta": true,
       "snapshot": true,
-      "lat": 54.2418249,
-      "lon": 37.6000197
-    },
-    {
-      "id": "035a67e32dcab484",
-      "action": "ADD",
-      "name": "Дягилево, Рязань",
-      "icao": null,
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": 70.0,
-      "messageTimestamp": "2026-11-04T22:05:27+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5407",
-      "text": "🔴 а/д Дягилево, Рязань / 70 км",
-      "inKta": false,
-      "lat": 54.6571958,
-      "lon": 39.6308884
+      "lat": 42.813746,
+      "lon": 47.6566872
     }
   ],
   "forecasts": [
