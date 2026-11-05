@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T00:05:16.871078+00:00",
+  "updatedAt": "2026-11-05T00:10:18.305963+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -111,6 +111,21 @@
       "inKta": true,
       "lat": 56.2295198,
       "lon": 43.7840064
+    },
+    {
+      "id": "2db33598ef1618d9",
+      "action": "ADD",
+      "name": "Сочи",
+      "icao": "URSS",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-05T00:05:34+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5410",
+      "text": "🔴🛩️ Сочи, URSS",
+      "inKta": true,
+      "lat": 43.4439715,
+      "lon": 39.9400928
     }
   ],
   "forecasts": [
