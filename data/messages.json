@@ -25857,5 +25857,41 @@
         "notamText": "КОВЕР ВОЛГОГРАД (ГУМРАК) АЭР. ВОЛГОГРАД (ГУМРАК) ЗАКРЫТ НА ПРИЕМ И ВЫПУСК ВС."
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5442,
+    "timestamp": "2026-11-06T22:19:47+00:00",
+    "text": "🔴🛩️ Пенза, UWPP\n🔴🛩️ Саратов - Гагарин, UWSG",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5442",
+    "events": [
+      {
+        "id": "dabe6656955612b3",
+        "action": "ADD",
+        "name": "Пенза",
+        "icao": "UWPP",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-06T22:19:47+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5442",
+        "text": "🔴🛩️ Пенза, UWPP",
+        "inKta": true
+      },
+      {
+        "id": "1c488907fd7bd9b4",
+        "action": "ADD",
+        "name": "Гагарин",
+        "icao": "UWSG",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-06T22:19:47+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5442",
+        "text": "🔴🛩️ Саратов - Гагарин, UWSG",
+        "inKta": true
+      }
+    ]
   }
 ]
