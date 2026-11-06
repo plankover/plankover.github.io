@@ -25530,5 +25530,27 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5431,
+    "timestamp": "2026-11-06T09:54:50+00:00",
+    "text": "🔴🛩️ Махачкала - Уйташ, URMM",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5431",
+    "events": [
+      {
+        "id": "1bb2792253d9f6b1",
+        "action": "ADD",
+        "name": "Уйташ",
+        "icao": "URMM",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-06T09:54:50+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5431",
+        "text": "🔴🛩️ Махачкала - Уйташ, URMM",
+        "inKta": true
+      }
+    ]
   }
 ]
