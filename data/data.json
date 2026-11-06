@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T09:30:17.102504+00:00",
+  "updatedAt": "2026-11-06T09:40:27.241291+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -31,6 +31,21 @@
       "inKta": false,
       "lat": 43.7832627,
       "lon": 44.6026528
+    },
+    {
+      "id": "b5da7bdde1c38abe",
+      "action": "ADD",
+      "name": "Северный",
+      "icao": "URMG",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-06T09:38:54+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5430",
+      "text": "🔴🛩️ Грозный - Северный, URMG",
+      "inKta": true,
+      "lat": 43.3880602,
+      "lon": 45.6822263
     }
   ],
   "forecasts": []

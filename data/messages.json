@@ -25508,5 +25508,27 @@
         "inKta": false
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5430,
+    "timestamp": "2026-11-06T09:38:54+00:00",
+    "text": "🔴🛩️ Грозный - Северный, URMG",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5430",
+    "events": [
+      {
+        "id": "b5da7bdde1c38abe",
+        "action": "ADD",
+        "name": "Северный",
+        "icao": "URMG",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-06T09:38:54+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5430",
+        "text": "🔴🛩️ Грозный - Северный, URMG",
+        "inKta": true
+      }
+    ]
   }
 ]
