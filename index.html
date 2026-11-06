@@ -717,7 +717,9 @@
     const uncertainRestriction = item.uncertain === true;
     const uncertainRadius = item.radiusUncertain === true;
     const uncertain = uncertainRestriction || uncertainRadius;
-    const color = uncertain ? "#9299a3" : "#ff515b";
+    // An uncertain radius keeps the ordinary restriction fill, but omits
+    // its perimeter. Only an uncertain restriction itself is grey/dashed.
+    const color = uncertainRestriction ? "#9299a3" : "#ff515b";
     const fill = color;
     const radius = getRadius(item);
     const sector = getSector(item);
@@ -737,14 +739,14 @@
       shape = L.polygon(sectorPoints(coords[0], coords[1], sector.radius, sector.start, sector.end), {
         color, weight: uncertainRadius ? 0 : 2,
         dashArray: uncertainRestriction ? "7 6" : null,
-        opacity: .9, fillColor: fill, fillOpacity: uncertain ? .28 : .2
+        opacity: uncertainRadius ? 0 : .9, fillColor: fill, fillOpacity: uncertainRestriction ? .28 : .2
       });
     } else if (radius) {
       shape = L.circle(coords, {
         radius: radius * 1000, color, weight: uncertainRadius ? 0 : 2,
         dashArray: uncertainRestriction ? "7 6" : null,
         opacity: uncertainRadius ? 0 : .9,
-        fillColor: fill, fillOpacity: uncertainRadius ? 1 : (uncertain ? .28 : .12)
+        fillColor: fill, fillOpacity: uncertainRestriction ? .28 : .12
       });
     } else {
       shape = L.circleMarker(coords, {
@@ -755,13 +757,8 @@
       });
     }
     shape.bindPopup(popupHtml(item)).addTo(layer);
-    // Hatch only an unconfirmed radius; an unconfirmed restriction itself
-    // uses a dashed outline without interior hatching.
-    if (uncertainRadius && (radius || sector)) applyUncertainHatch(shape);
-    if (uncertainRadius) {
-      L.circleMarker(coords, { radius: 4, color: "#9299a3", weight: 1,
-        fillColor: "#9299a3", fillOpacity: 1, interactive: false }).addTo(layer);
-    }
+    // An uncertain radius is shown with the normal translucent fill and no
+    // perimeter; no hatch or special center marker is added.
     if (!ktaRestriction && !uncertainRadius) bindCenterHover(shape, coords, color);
   }
   function filteredItems() {
