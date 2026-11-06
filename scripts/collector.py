@@ -214,7 +214,8 @@ def main():
         if m.get("chat",{}).get("id")!=chat_id:continue
         mid=m.get("message_id"); stamp=datetime.fromtimestamp(m["date"],timezone.utc).isoformat() if isinstance(m.get("date"),(int,float)) else now()
         text=m.get("text") or m.get("caption") or ""
-        rec={"chatId":chat_id,"messageId":mid,"timestamp":stamp,"text":text,"sourceUrl":message_url(m),"events":parse_message(text,stamp,message_url(m))}
+        entities=m.get("entities") or m.get("caption_entities") or []
+        rec={"chatId":chat_id,"messageId":mid,"timestamp":stamp,"text":text,"entities":entities,"sourceUrl":message_url(m),"events":parse_message(text,stamp,message_url(m),entities)}
         k=(chat_id,mid)
         if k in index:history[index[k]]=rec
         else:history.append(rec)
@@ -241,6 +242,7 @@ def main():
                 rec.get("text", ""),
                 rec.get("timestamp"),
                 rec.get("sourceUrl"),
+                rec.get("entities", []),
             )
 
     history.sort(key=lambda r:dt(r.get("timestamp")) or datetime.min.replace(tzinfo=timezone.utc))
