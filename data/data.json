@@ -1,22 +1,6 @@
 {
-  "updatedAt": "2026-11-06T06:05:18.669716+00:00",
+  "updatedAt": "2026-11-06T08:20:18.173916+00:00",
   "source": "@PlanKoverTDay",
-  "restrictions": [
-    {
-      "id": "2490f528cc470398",
-      "action": "ADD",
-      "name": "Пашковский",
-      "icao": "URKK",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-05T23:59:22+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5424",
-      "text": "🔴🛩️ Краснодар - Пашковский, URKK",
-      "inKta": true,
-      "lat": 45.033714,
-      "lon": 39.1814429
-    }
-  ],
+  "restrictions": [],
   "forecasts": []
 }
