@@ -1,48 +1,7 @@
 {
-  "updatedAt": "2026-11-06T19:25:18.704998+00:00",
+  "updatedAt": "2026-11-06T20:05:19.346012+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
-    {
-      "id": "ca50c04ca4bb7ac0",
-      "action": "ADD",
-      "name": "Приволжский",
-      "icao": null,
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": 30.0,
-      "messageTimestamp": "2026-11-06T18:56:26+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5434",
-      "text": "🔴 а/д Приволжский (🛩️ Астрахань - Нариманово, URWA) / 30 км ",
-      "affectedAirports": [
-        {
-          "name": "Нариманово",
-          "icao": "URWA",
-          "kind": "airport",
-          "lat": 46.2801671,
-          "lon": 48.0189072
-        }
-      ],
-      "inKta": false,
-      "notamText": "КОВЕР ПРИВОЛЖСКИЙ АЭР. АСТРАХАНЬ ЗАКРЫТ НА ПРИЕМ И ВЫПУСК ВС.",
-      "lat": 46.3968308,
-      "lon": 47.8939462
-    },
-    {
-      "id": "17050fe5d16a5921",
-      "action": "ADD",
-      "name": "Гумрак",
-      "icao": "URWW",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": 60.0,
-      "messageTimestamp": "2026-11-06T18:56:42+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5435",
-      "text": "🔴🛩️ Волгоград - Гумрак, URWW / 60 км ",
-      "inKta": true,
-      "notamText": "КОВЕР ВОЛГОГРАД (ГУМРАК) АЭР. ВОЛГОГРАД (ГУМРАК) ЗАКРЫТ НА ПРИЕМ И ВЫПУСК ВС.",
-      "lat": 48.7833547,
-      "lon": 44.3472901
-    },
     {
       "id": "92e7038a3c8610dd",
       "action": "ADD",

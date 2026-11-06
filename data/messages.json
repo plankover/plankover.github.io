@@ -25743,5 +25743,41 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5438,
+    "timestamp": "2026-11-06T20:01:53+00:00",
+    "text": "🟢🛩️ Астрахань, URWA\n🟢🛩️ Волгоград - Гумрак, URWW",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5438",
+    "events": [
+      {
+        "id": "71aaf1561d6ddbd8",
+        "action": "REMOVE",
+        "name": "Астрахань",
+        "icao": "URWA",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-06T20:01:53+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5438",
+        "text": "🟢🛩️ Астрахань, URWA",
+        "inKta": true
+      },
+      {
+        "id": "16181275698577ee",
+        "action": "REMOVE",
+        "name": "Гумрак",
+        "icao": "URWW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-06T20:01:53+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5438",
+        "text": "🟢🛩️ Волгоград - Гумрак, URWW",
+        "inKta": true
+      }
+    ]
   }
 ]
