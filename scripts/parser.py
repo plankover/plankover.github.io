@@ -225,6 +225,15 @@ def parse_message(message, published_at=None, source_url=None):
             return events
     failed_snapshot_line = False
     for line_no, line in enumerate(lines):
+        # A NOTAM line immediately following a restriction is attached to
+        # that restriction and preserved verbatim for the map/list UI.
+        notam_match = re.match(r"^\\s*(?:📄\\s*)?NOTAM\\s*[:：—-]\\s*(.+?)\\s*$", line, re.I)
+        if notam_match and events:
+            previous = next((e for e in reversed(events) if e.get("action") == "ADD"), None)
+            if previous:
+                previous["notamText"] = notam_match.group(1).strip()
+            continue
+
         # A green summary can name several airports in parentheses. Convert
         # each semicolon-separated airport entry into an individual removal.
         multi_green_targets = []
