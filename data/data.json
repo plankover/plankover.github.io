@@ -1,22 +1,7 @@
 {
-  "updatedAt": "2026-11-06T02:45:17.230512+00:00",
+  "updatedAt": "2026-11-06T06:05:18.669716+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
-    {
-      "id": "37d718601d42c52d",
-      "action": "ADD",
-      "name": "Нариманово",
-      "icao": "URWA",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-05T23:54:44+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5423",
-      "text": "🔴🛩️ Астрахань - Нариманово, URWA",
-      "inKta": true,
-      "lat": 46.2801671,
-      "lon": 48.0189072
-    },
     {
       "id": "2490f528cc470398",
       "action": "ADD",

@@ -25429,5 +25429,27 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5427,
+    "timestamp": "2026-11-06T06:05:01+00:00",
+    "text": "🟢🛩️ Астрахань, URWA",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5427",
+    "events": [
+      {
+        "id": "8078047b4c648186",
+        "action": "REMOVE",
+        "name": "Астрахань",
+        "icao": "URWA",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-06T06:05:01+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5427",
+        "text": "🟢🛩️ Астрахань, URWA",
+        "inKta": true
+      }
+    ]
   }
 ]
