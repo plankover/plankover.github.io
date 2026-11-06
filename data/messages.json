@@ -25584,5 +25584,51 @@
         "sourceUrl": "https://t.me/PlanKoverTDay/5432"
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5433,
+    "timestamp": "2026-11-06T18:54:19+00:00",
+    "text": "▫️Аэропорт ВОЛГОГРАД \n\n✈️ВВЕДЕНЫ временные ограничения на прием и выпуск воздушных судов.\n\n✈️Ограничения необходимы для обеспечения безопасности полетов.\n\n✈ Говорит Росавиация | MAX",
+    "entities": [
+      {
+        "offset": 11,
+        "length": 10,
+        "type": "bold"
+      },
+      {
+        "offset": 25,
+        "length": 47,
+        "type": "bold"
+      },
+      {
+        "offset": 93,
+        "length": 60,
+        "type": "italic"
+      },
+      {
+        "offset": 157,
+        "length": 18,
+        "type": "text_link",
+        "url": "https://t.me/favt_ru"
+      },
+      {
+        "offset": 178,
+        "length": 3,
+        "type": "text_link",
+        "url": "https://max.ru/favt_info"
+      }
+    ],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5433",
+    "events": [
+      {
+        "id": "0d020fb9010c4153",
+        "action": "ADD",
+        "messageTimestamp": "2026-11-06T18:54:19+00:00",
+        "text": "▫️Аэропорт ВОЛГОГРАД \n\n✈️ВВЕДЕНЫ временные ограничения на прием и выпуск воздушных судов.\n\n✈️Ограничения необходимы для обеспечения безопасности полетов.\n\n✈ Говорит Росавиация | MAX",
+        "unresolved": true,
+        "sourceUrl": "https://t.me/PlanKoverTDay/5433"
+      }
+    ]
   }
 ]
