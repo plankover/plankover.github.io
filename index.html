@@ -1417,6 +1417,15 @@
           });
           hasAutoFitRestrictions = true;
           map.invalidateSize({ animate: false, pan: false });
+
+          // Reattach the complete airport cluster layer only after Leaflet has
+          // finished its initial viewport calculation. This forces MarkerCluster
+          // to rebuild its visible-marker index for the final map bounds.
+          requestAnimationFrame(() => requestAnimationFrame(() => {
+            if (map.hasLayer(airportMarkers)) map.removeLayer(airportMarkers);
+            airportMarkers.addTo(map);
+            airportMarkers.refreshClusters();
+          }));
         }
       }
 
