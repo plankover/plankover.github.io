@@ -472,6 +472,7 @@
     let html = `<div class="popup-title">${esc(getName(item))}</div>`;
     html += `<div>${item.uncertain || item.radiusUncertain ? "❔ Предположительное ограничение" : (isPartial(item) ? "🟡 Частичные ограничения" : "🔴 Полные ограничения")}</div>`;
     html += `<div class="popup-muted">Радиус: ${radiusText}</div>`;
+    if (item.notamText) html += `<div class="popup-muted" style="margin-top:8px"><strong>Текст NOTAM:</strong><br>${esc(item.notamText)}</div>`;
     if (item.radiusUncertain) html += `<div class="popup-muted">Радиус не подтверждён</div>`;
     if (item.uncertain) html += `<div class="popup-muted">Наличие ковра не подтверждено</div>`;
     if (sector) html += `<div class="popup-muted">Азимут: ${sector.start}°-${sector.end}°</div>`;
@@ -843,6 +844,7 @@
         <div class="item-meta" style="margin-top:9px">
           ${radius ? `Радиус: ${esc(radius)} км${item.radiusUncertain ? " (предположительно)" : ""}` : "Радиус не указан"}
           ${sector ? ` · сектор ${esc(sector.start)}°-${esc(sector.end)}°` : ""}
+          ${item.notamText ? `<div class="item-meta" style="margin-top:7px"><strong>NOTAM:</strong> ${esc(item.notamText)}</div>` : ""}
         </div>
         ${item.sourceUrl ? `<div style="margin-top:9px"><a href="${esc(item.sourceUrl)}" target="_blank" rel="noreferrer" style="color:#a7c7ff" class="source-link">Открыть сообщение в Telegram ↗</a></div>` : ""}`;
       el.addEventListener("click", event => { if (event.target.closest("a")) return; selectItem(item._id); });
