@@ -234,7 +234,7 @@ def parse_message(message, published_at=None, source_url=None):
     for line_no, line in enumerate(lines):
         # A NOTAM line immediately following a restriction is attached to
         # that restriction and preserved verbatim for the map/list UI.
-        notam_match = re.match(r"^\\s*(?:📄\\s*)?NOTAM\\s*[:：—-]\\s*(.+?)\\s*$", line, re.I)
+        notam_match = re.match(r"^\s*(?:📄\s*)?NOTAM\s*[:：—-]\s*(.+?)\s*$", line, re.I)
         if notam_match and events:
             previous = next((e for e in reversed(events) if e.get("action") == "ADD"), None)
             if previous:
