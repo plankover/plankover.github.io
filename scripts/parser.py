@@ -173,6 +173,13 @@ def parse_affected_airports(text):
 
 def parse_message(message, published_at=None, source_url=None):
     original = message or ""
+    # Telegram renders quoted NOTAM text as an HTML blockquote. Preserve its
+    # contents before clean_text strips formatting tags.
+    quoted_notam = []
+    for quoted in re.findall(r"<blockquote\\b[^>]*>(.*?)</blockquote>", original, flags=re.I | re.S):
+        value = clean_text(quoted)
+        if value:
+            quoted_notam.append(value)
     text = clean_text(original)
     ts = published_at
     if isinstance(ts, datetime):
@@ -325,6 +332,13 @@ def parse_message(message, published_at=None, source_url=None):
     # Any unparsed restriction line makes the snapshot unsafe for destructive reconciliation.
     if snapshot and (not events or failed_snapshot_line):
         return [{"id": digest, "action": "SNAPSHOT_UNRESOLVED", "messageTimestamp": ts, "text": text, "sourceUrl": source_url}]
+    if quoted_notam and events:
+        # Attach the quote to the latest active restriction parsed from this
+        # message. Keep the full quote apart from Telegram markup.
+        previous = next((e for e in reversed(events) if e.get("action") == "ADD"), None)
+        if previous:
+            previous["notamText"] = "\\n".join(quoted_notam)
+
     if events:
         return events
     if re.search(r"^\s*📌\s*прогноз\b", clean_text(text), re.I):
