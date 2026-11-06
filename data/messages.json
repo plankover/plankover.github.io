@@ -25535,11 +25535,18 @@
     "chatId": -1003822338715,
     "messageId": 5431,
     "timestamp": "2026-11-06T09:54:50+00:00",
-    "text": "🔴 Каспийск (🛩️ Махачкала - Уйташ, URMM) / 40 км\nКОВЕР МАХА4КАЛА АЭР. МАХА4КАЛА ЗАКРЫТ НА ПРИЕМ И ВЫПУСК ВС.",
+    "text": "🔴 Каспийск (🛩️ Махачкала - Уйташ, URMM) / 40 км \nКОВЕР МАХА4КАЛА АЭР. МАХА4КАЛА ЗАКРЫТ НА ПРИЕМ И ВЫПУСК ВС.",
+    "entities": [
+      {
+        "offset": 51,
+        "length": 59,
+        "type": "blockquote"
+      }
+    ],
     "sourceUrl": "https://t.me/PlanKoverTDay/5431",
     "events": [
       {
-        "id": "62834a23a1199f85",
+        "id": "456afa460070ddc7",
         "action": "ADD",
         "name": "Каспийск",
         "icao": null,
@@ -25548,7 +25555,7 @@
         "radiusKm": 40.0,
         "messageTimestamp": "2026-11-06T09:54:50+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/5431",
-        "text": "🔴 Каспийск (🛩️ Махачкала - Уйташ, URMM) / 40 км",
+        "text": "🔴 Каспийск (🛩️ Махачкала - Уйташ, URMM) / 40 км ",
         "affectedAirports": [
           {
             "name": "Уйташ",
@@ -25556,7 +25563,25 @@
             "kind": "airport"
           }
         ],
-        "inKta": false
+        "inKta": false,
+        "notamText": "КОВЕР МАХА4КАЛА АЭР. МАХА4КАЛА ЗАКРЫТ НА ПРИЕМ И ВЫПУСК ВС."
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5432,
+    "timestamp": "2026-11-06T12:07:35+00:00",
+    "text": "✅ Ранее объявленные",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5432",
+    "events": [
+      {
+        "id": "fcb432a95b88c626",
+        "action": "CLEAR",
+        "messageTimestamp": "2026-11-06T12:07:35+00:00",
+        "text": "✅ Ранее объявленные",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5432"
       }
     ]
   }
