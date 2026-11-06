@@ -1,6 +1,38 @@
 {
-  "updatedAt": "2026-11-06T08:20:18.173916+00:00",
+  "updatedAt": "2026-11-06T09:10:20.047186+00:00",
   "source": "@PlanKoverTDay",
-  "restrictions": [],
+  "restrictions": [
+    {
+      "id": "9193f07835bbb87d",
+      "action": "ADD",
+      "name": "Беслан",
+      "icao": "URMO",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 30.0,
+      "messageTimestamp": "2026-11-06T09:06:53+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5429",
+      "text": "🔴🛩️ Владикавказ - Беслан, URMO / 30 (❔) км",
+      "inKta": true,
+      "radiusUncertain": true,
+      "lat": 43.2046416,
+      "lon": 44.609822
+    },
+    {
+      "id": "f64d5692ee788279",
+      "action": "ADD",
+      "name": "Моздок",
+      "icao": null,
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 20.0,
+      "messageTimestamp": "2026-11-06T09:06:53+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5429",
+      "text": "🔴 а/д Моздок / 20 км",
+      "inKta": false,
+      "lat": 43.7832627,
+      "lon": 44.6026528
+    }
+  ],
   "forecasts": []
 }
