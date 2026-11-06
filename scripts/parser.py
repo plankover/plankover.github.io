@@ -187,7 +187,7 @@ def parse_message(message, published_at=None, source_url=None, entities=None):
             if value:
                 quoted_notam.append(value)
     # Keep compatibility with HTML-formatted archived/test messages.
-    for quoted in re.findall(r"<blockquote\\b[^>]*>(.*?)</blockquote>", original, flags=re.I | re.S):
+    for quoted in re.findall(r"<blockquote\b[^>]*>(.*?)</blockquote>", original, flags=re.I | re.S):
         value = clean_text(quoted)
         if value:
             quoted_notam.append(value)
@@ -249,7 +249,7 @@ def parse_message(message, published_at=None, source_url=None, entities=None):
         if notam_match and events:
             previous = next((e for e in reversed(events) if e.get("action") == "ADD"), None)
             if previous:
-                previous["notamText"] = notam_match.group(1).strip()
+            previous["notamText"] = "\n".join(quoted_notam)
             continue
 
         # A green summary can name several airports in parentheses. Convert
@@ -348,7 +348,7 @@ def parse_message(message, published_at=None, source_url=None, entities=None):
         # message. Keep the full quote apart from Telegram markup.
         previous = next((e for e in reversed(events) if e.get("action") == "ADD"), None)
         if previous:
-            previous["notamText"] = "\\n".join(quoted_notam)
+            previous["notamText"] = "\n".join(quoted_notam)
 
     if events:
         return events
