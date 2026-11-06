@@ -830,14 +830,14 @@
       el.className = "item" + (selectedId === item._id ? " selected" : "");
       el.innerHTML = `
         <div class="item-top">
-          <span class="status-icon ${item.uncertain || item.radiusUncertain ? "uncertain-bg" : (partial ? "yellow-bg" : "")}"></span>
+          <span class="status-icon ${item.uncertain ? "uncertain-bg" : (partial ? "yellow-bg" : "")}"></span>
           <div style="min-width:0;flex:1">
-            <div class="item-name">${item.uncertain || item.radiusUncertain ? "❔ " : ""}${esc(getName(item))}</div>
+            <div class="item-name">${item.uncertain ? "❔ " : ""}${esc(getName(item))}</div>
             <div class="item-meta">${esc(item.icao || item.region || (item.city ? item.city : "Объект на карте"))}</div>
           </div>
         </div>
         <div class="item-bottom">
-          <span class="tag ${item.uncertain || item.radiusUncertain ? "stale" : (partial ? "partial" : "")}">${item.uncertain || item.radiusUncertain ? "ПРЕДПОЛОЖИТЕЛЬНОЕ" : (partial ? "ЧАСТИЧНЫЕ" : "ПОЛНЫЕ")}</span>
+          <span class="tag ${item.uncertain ? "stale" : (partial ? "partial" : "")}">${item.uncertain ? "ПРЕДПОЛОЖИТЕЛЬНОЕ" : (partial ? "ЧАСТИЧНЫЕ" : "ПОЛНЫЕ")}</span>
           <span class="age">${status.age === null ? "Время неизвестно" : esc(ageLabel(status.age))}</span>
         </div>
         <div class="item-meta" style="margin-top:9px">
