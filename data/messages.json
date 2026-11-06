@@ -25478,11 +25478,11 @@
     "chatId": -1003822338715,
     "messageId": 5429,
     "timestamp": "2026-11-06T09:06:53+00:00",
-    "text": "🔴🛩️ Владикавказ - Беслан, URMO / 30 (❔) км\n🔴 а/д Моздок / 20 км",
+    "text": "🔴🛩️ Владикавказ - Беслан, URMO / 30 км\n🔴 а/д Моздок / 20 км",
     "sourceUrl": "https://t.me/PlanKoverTDay/5429",
     "events": [
       {
-        "id": "9193f07835bbb87d",
+        "id": "cc8ac6ce0761b62b",
         "action": "ADD",
         "name": "Беслан",
         "icao": "URMO",
@@ -25491,12 +25491,11 @@
         "radiusKm": 30.0,
         "messageTimestamp": "2026-11-06T09:06:53+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/5429",
-        "text": "🔴🛩️ Владикавказ - Беслан, URMO / 30 (❔) км",
-        "inKta": true,
-        "radiusUncertain": true
+        "text": "🔴🛩️ Владикавказ - Беслан, URMO / 30 км",
+        "inKta": true
       },
       {
-        "id": "f64d5692ee788279",
+        "id": "e79a3f1daaa84cab",
         "action": "ADD",
         "name": "Моздок",
         "icao": null,
