@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T09:55:21.570641+00:00",
+  "updatedAt": "2026-11-06T10:20:19.484369+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -33,34 +33,43 @@
       "lon": 44.6026528
     },
     {
-      "id": "b5da7bdde1c38abe",
+      "id": "5f7ad9d75ac38d15",
       "action": "ADD",
       "name": "Северный",
       "icao": "URMG",
       "kind": "airport",
       "type": "full",
-      "radiusKm": null,
+      "radiusKm": 40.0,
       "messageTimestamp": "2026-11-06T09:38:54+00:00",
       "sourceUrl": "https://t.me/PlanKoverTDay/5430",
-      "text": "🔴🛩️ Грозный - Северный, URMG",
+      "text": "🔴🛩️ Грозный - Северный, URMG / 40 км",
       "inKta": true,
       "lat": 43.3880602,
       "lon": 45.6822263
     },
     {
-      "id": "1bb2792253d9f6b1",
+      "id": "62834a23a1199f85",
       "action": "ADD",
-      "name": "Уйташ",
-      "icao": "URMM",
-      "kind": "airport",
+      "name": "Каспийск",
+      "icao": null,
+      "kind": "city",
       "type": "full",
-      "radiusKm": null,
+      "radiusKm": 40.0,
       "messageTimestamp": "2026-11-06T09:54:50+00:00",
       "sourceUrl": "https://t.me/PlanKoverTDay/5431",
-      "text": "🔴🛩️ Махачкала - Уйташ, URMM",
-      "inKta": true,
-      "lat": 42.813746,
-      "lon": 47.6566872
+      "text": "🔴 Каспийск (🛩️ Махачкала - Уйташ, URMM) / 40 км",
+      "affectedAirports": [
+        {
+          "name": "Уйташ",
+          "icao": "URMM",
+          "kind": "airport",
+          "lat": 42.813746,
+          "lon": 47.6566872
+        }
+      ],
+      "inKta": false,
+      "lat": 42.8921817,
+      "lon": 47.6372105
     }
   ],
   "forecasts": []
