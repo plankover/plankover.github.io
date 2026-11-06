@@ -171,11 +171,22 @@ def parse_affected_airports(text):
     return list(airports.values())
 
 
-def parse_message(message, published_at=None, source_url=None):
+def _utf16_slice(value, offset, length):
+    raw = (value or "").encode("utf-16-le", errors="surrogatepass")
+    return raw[offset * 2:(offset + length) * 2].decode("utf-16-le", errors="replace")
+
+
+def parse_message(message, published_at=None, source_url=None, entities=None):
     original = message or ""
-    # Telegram renders quoted NOTAM text as an HTML blockquote. Preserve its
-    # contents before clean_text strips formatting tags.
+    # Telegram Bot API represents quoted text as message entities, not HTML.
     quoted_notam = []
+    for entity in entities or []:
+        if entity.get("type") in {"blockquote", "expandable_blockquote"}:
+            quoted = _utf16_slice(original, int(entity.get("offset", 0)), int(entity.get("length", 0)))
+            value = clean_text(quoted)
+            if value:
+                quoted_notam.append(value)
+    # Keep compatibility with HTML-formatted archived/test messages.
     for quoted in re.findall(r"<blockquote\\b[^>]*>(.*?)</blockquote>", original, flags=re.I | re.S):
         value = clean_text(quoted)
         if value:
