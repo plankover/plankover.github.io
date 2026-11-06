@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-06T09:25:52.890218+00:00",
+  "updatedAt": "2026-11-06T09:30:17.102504+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
-      "id": "581e08a0db09a2b7",
+      "id": "7c0a1afb3d1e43ff",
       "action": "ADD",
       "name": "Беслан",
       "icao": "URMO",
@@ -18,7 +18,7 @@
       "lon": 44.609822
     },
     {
-      "id": "103b4863509d06b2",
+      "id": "fb0884dfe61d0933",
       "action": "ADD",
       "name": "Моздок",
       "icao": null,
