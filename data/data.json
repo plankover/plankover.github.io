@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T22:30:17.915250+00:00",
+  "updatedAt": "2026-11-06T22:40:17.336040+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -46,21 +46,6 @@
       "inKta": false,
       "lat": 54.6571958,
       "lon": 39.6308884
-    },
-    {
-      "id": "419358696c540702",
-      "action": "ADD",
-      "name": "Гумрак",
-      "icao": "URWW",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": 60.0,
-      "messageTimestamp": "2026-11-06T22:01:37+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5441",
-      "text": "🔴🛩️ Волгоград - Гумрак, URWW / 60 км",
-      "inKta": true,
-      "lat": 48.7833547,
-      "lon": 44.3472901
     },
     {
       "id": "a4d593d2e0320d6a",
@@ -138,6 +123,21 @@
       "inKta": true,
       "lat": 54.1274695,
       "lon": 45.2152086
+    },
+    {
+      "id": "64ceebbe3a935665",
+      "action": "ADD",
+      "name": "Гагарин",
+      "icao": "UWSG",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-06T22:37:16+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5447",
+      "text": "🔴🛩️ Саратов - Гагарин, UWSG",
+      "inKta": true,
+      "lat": 51.7139093,
+      "lon": 46.1672319
     }
   ],
   "forecasts": []
