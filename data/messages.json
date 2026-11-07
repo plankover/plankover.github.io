@@ -26109,5 +26109,93 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5450,
+    "timestamp": "2026-11-07T05:05:39+00:00",
+    "text": "🟢🛩️ Калуга - Грабцево, UUBC\n🟢🛩️ Пенза, UWPP\n🟢🛩️ Самара - Курумоч, UWWW\n🟢🛩️ Саранск, UWPS\n🟢🛩️ Саратов - Гагарин, UWSG\n🟢🛩️ Ульяновск - Баратаевка, UWLL",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5450",
+    "events": [
+      {
+        "id": "45f6be26816a193b",
+        "action": "REMOVE",
+        "name": "Грабцево",
+        "icao": "UUBC",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-07T05:05:39+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5450",
+        "text": "🟢🛩️ Калуга - Грабцево, UUBC",
+        "inKta": true
+      },
+      {
+        "id": "26d556e1bbb6c2db",
+        "action": "REMOVE",
+        "name": "Пенза",
+        "icao": "UWPP",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-07T05:05:39+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5450",
+        "text": "🟢🛩️ Пенза, UWPP",
+        "inKta": true
+      },
+      {
+        "id": "b4817f73bcd07670",
+        "action": "REMOVE",
+        "name": "Курумоч",
+        "icao": "UWWW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-07T05:05:39+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5450",
+        "text": "🟢🛩️ Самара - Курумоч, UWWW",
+        "inKta": true
+      },
+      {
+        "id": "16c7dbf7dc94f95e",
+        "action": "REMOVE",
+        "name": "Саранск",
+        "icao": "UWPS",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-07T05:05:39+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5450",
+        "text": "🟢🛩️ Саранск, UWPS",
+        "inKta": true
+      },
+      {
+        "id": "16edbcd1f14d6748",
+        "action": "REMOVE",
+        "name": "Гагарин",
+        "icao": "UWSG",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-07T05:05:39+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5450",
+        "text": "🟢🛩️ Саратов - Гагарин, UWSG",
+        "inKta": true
+      },
+      {
+        "id": "523d06813634f731",
+        "action": "REMOVE",
+        "name": "Баратаевка",
+        "icao": "UWLL",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-07T05:05:39+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5450",
+        "text": "🟢🛩️ Ульяновск - Баратаевка, UWLL",
+        "inKta": true
+      }
+    ]
   }
 ]

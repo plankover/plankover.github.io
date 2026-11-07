@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T02:35:17.437282+00:00",
+  "updatedAt": "2026-11-07T05:10:16.525470+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -16,21 +16,6 @@
       "inKta": false,
       "lat": 54.2418249,
       "lon": 37.6000197
-    },
-    {
-      "id": "0c3e41365896e9ee",
-      "action": "ADD",
-      "name": "Грабцево",
-      "icao": "UUBC",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": 70.0,
-      "messageTimestamp": "2026-11-06T19:19:53+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5437",
-      "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км",
-      "inKta": true,
-      "lat": 54.5488708,
-      "lon": 36.3697725
     },
     {
       "id": "1b35a19439a2487b",
@@ -62,112 +47,6 @@
       "notamText": "КОВЕР ВОЛГОГРАД (ГУМРАК) АЭР. ВОЛГОГРАД (ГУМРАК) ЗАКРЫТ НА ПРИЕМ И ВЫПУСК ВС.",
       "lat": 48.663894,
       "lon": 45.7293891
-    },
-    {
-      "id": "dabe6656955612b3",
-      "action": "ADD",
-      "name": "Пенза",
-      "icao": "UWPP",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-06T22:19:47+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5442",
-      "text": "🔴🛩️ Пенза, UWPP",
-      "inKta": true,
-      "lat": 53.110734,
-      "lon": 45.023455
-    },
-    {
-      "id": "2f5ea1389830c20e",
-      "action": "ADD",
-      "name": "Ильмино",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": 150.0,
-      "messageTimestamp": "2026-11-06T22:25:43+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5444",
-      "text": "🔴 Ильмино (🛩️ Саранск, UWPS; 🛩️ Пенза, UWPP) / 150 км",
-      "affectedAirports": [
-        {
-          "name": "Саранск",
-          "icao": "UWPS",
-          "kind": "airport",
-          "lat": 54.1274695,
-          "lon": 45.2152086
-        },
-        {
-          "name": "Пенза",
-          "icao": "UWPP",
-          "kind": "airport",
-          "lat": 53.110734,
-          "lon": 45.023455
-        }
-      ],
-      "inKta": false,
-      "lat": 53.7897621,
-      "lon": 45.6592781
-    },
-    {
-      "id": "904e57b9f8a27631",
-      "action": "ADD",
-      "name": "Саранск",
-      "icao": "UWPS",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-06T22:27:24+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5446",
-      "text": "🔴🛩️ Саранск, UWPS",
-      "inKta": true,
-      "lat": 54.1274695,
-      "lon": 45.2152086
-    },
-    {
-      "id": "64ceebbe3a935665",
-      "action": "ADD",
-      "name": "Гагарин",
-      "icao": "UWSG",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-06T22:37:16+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5447",
-      "text": "🔴🛩️ Саратов - Гагарин, UWSG",
-      "inKta": true,
-      "lat": 51.7139093,
-      "lon": 46.1672319
-    },
-    {
-      "id": "4959abda360a9fbb",
-      "action": "ADD",
-      "name": "Курумоч",
-      "icao": "UWWW",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-07T02:30:19+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5449",
-      "text": "🔴🛩️ Самара - Курумоч, UWWW",
-      "inKta": true,
-      "lat": 53.5057511,
-      "lon": 50.1569939
-    },
-    {
-      "id": "e696f364c7b2c5a8",
-      "action": "ADD",
-      "name": "Баратаевка",
-      "icao": "UWLL",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-07T02:30:19+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5449",
-      "text": "🔴🛩️ Ульяновск - Баратаевка, UWLL",
-      "inKta": true,
-      "lat": 54.2690213,
-      "lon": 48.2248287
     }
   ],
   "forecasts": []
