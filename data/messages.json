@@ -26329,5 +26329,62 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5454,
+    "timestamp": "2026-11-07T21:16:46+00:00",
+    "text": "🔴 Пенза (🛩️ Пенза, UWPP) / 50 км\n🔴 Медведица (🛩️ Саратов - Гагарин, UWSG) / 150 км\nСИГНАЛ КОВЕР МЕДВЕДИЦА. АЭРОПОРТ САРАТОВ(ГАГАРИН) ПРЕКРАТИЛ ПРИЕМ/ВЫПУСК ВС, ТРУБА ЗАКРЫТА",
+    "entities": [
+      {
+        "offset": 87,
+        "length": 90,
+        "type": "blockquote"
+      }
+    ],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5454",
+    "events": [
+      {
+        "id": "c6976f489856bc4b",
+        "action": "ADD",
+        "name": "Пенза",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 50.0,
+        "messageTimestamp": "2026-11-07T21:16:46+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5454",
+        "text": "🔴 Пенза (🛩️ Пенза, UWPP) / 50 км",
+        "affectedAirports": [
+          {
+            "name": "Пенза",
+            "icao": "UWPP",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false
+      },
+      {
+        "id": "9c0ff077dd3d73d7",
+        "action": "ADD",
+        "name": "Медведица",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 150.0,
+        "messageTimestamp": "2026-11-07T21:16:46+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5454",
+        "text": "🔴 Медведица (🛩️ Саратов - Гагарин, UWSG) / 150 км",
+        "affectedAirports": [
+          {
+            "name": "Гагарин",
+            "icao": "UWSG",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false,
+        "notamText": "СИГНАЛ КОВЕР МЕДВЕДИЦА. АЭРОПОРТ САРАТОВ(ГАГАРИН) ПРЕКРАТИЛ ПРИЕМ/ВЫПУСК ВС, ТРУБА ЗАКРЫТА"
+      }
+    ]
   }
 ]
