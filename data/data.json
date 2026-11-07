@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-11-07T05:10:16.525470+00:00",
+  "updatedAt": "2026-11-07T20:40:17.256300+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
-      "id": "92e7038a3c8610dd",
+      "id": "cce77621d59bdee8",
       "action": "ADD",
       "name": "Клоково, Тула",
       "icao": null,
       "kind": "airport",
       "type": "full",
       "radiusKm": 70.0,
-      "messageTimestamp": "2026-11-06T18:57:25+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5436",
+      "messageTimestamp": "2026-11-07T20:36:04+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5452",
       "text": "🔴 а/д Клоково, Тула / 70 км",
       "inKta": false,
       "lat": 54.2418249,
@@ -47,7 +47,59 @@
       "notamText": "КОВЕР ВОЛГОГРАД (ГУМРАК) АЭР. ВОЛГОГРАД (ГУМРАК) ЗАКРЫТ НА ПРИЕМ И ВЫПУСК ВС.",
       "lat": 48.663894,
       "lon": 45.7293891
+    },
+    {
+      "id": "962f4713c718a02d",
+      "action": "ADD",
+      "name": "Новоселовка",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 150.0,
+      "messageTimestamp": "2026-11-07T20:36:04+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5452",
+      "text": "🔴 Новоселовка (🛩️ Саратов - Гагарин, UWSG ; 🛩️ Пенза, UWPP) / 150 км",
+      "affectedAirports": [
+        {
+          "name": "Гагарин",
+          "icao": "UWSG",
+          "kind": "airport",
+          "lat": 51.7139093,
+          "lon": 46.1672319
+        },
+        {
+          "name": "Пенза",
+          "icao": "UWPP",
+          "kind": "airport",
+          "lat": 53.110734,
+          "lon": 45.023455
+        }
+      ],
+      "inKta": false,
+      "lat": 51.9489,
+      "lon": 44.2678
+    },
+    {
+      "id": "1c357d0212e163e6",
+      "action": "ADD",
+      "name": "Михайлов",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 70.0,
+      "messageTimestamp": "2026-11-07T20:36:04+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5452",
+      "text": "🔴 Михайлов / 70 км",
+      "inKta": false,
+      "lat": 54.2301856,
+      "lon": 39.0274629
     }
   ],
-  "forecasts": []
+  "forecasts": [
+    {
+      "timestamp": "2026-11-07T20:35:45+00:00",
+      "text": "📌 Прогноз.\n\nВ течение ночи ожидаются ограничения в аэропортах Приволжского федерального округа (Саратов, Пенза, Саранск, Самара, Ульяновск и др)",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5451"
+    }
+  ]
 }
