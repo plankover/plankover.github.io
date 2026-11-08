@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T21:45:17.898099+00:00",
+  "updatedAt": "2026-11-08T21:50:16.675090+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -153,16 +153,21 @@
       "lon": 33.2537994
     },
     {
-      "id": "fc07eae1e9c2e3af",
+      "id": "8494db4213db4b8f",
       "action": "ADD",
       "name": "Внуково",
       "icao": "UUWW",
       "kind": "airport",
       "type": "partial",
-      "radiusKm": null,
+      "radiusKm": 50.0,
       "messageTimestamp": "2026-11-08T21:41:08+00:00",
       "sourceUrl": "https://t.me/PlanKoverTDay/5466",
-      "text": "🟡🛩️ Внуково, UUWW",
+      "text": "🟡🛩️ Внуково, UUWW / 50 км (азимуты 210-340)",
+      "sector": {
+        "radiusKm": 50.0,
+        "startAzimuth": 210,
+        "endAzimuth": 340
+      },
       "inKta": true,
       "lat": 55.5995278,
       "lon": 37.2735752

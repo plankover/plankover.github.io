@@ -26859,21 +26859,26 @@
     "chatId": -1003822338715,
     "messageId": 5466,
     "timestamp": "2026-11-08T21:41:08+00:00",
-    "text": "🟡🛩️ Внуково, UUWW",
+    "text": "🟡🛩️ Внуково, UUWW / 50 км (азимуты 210-340)",
     "entities": [],
     "sourceUrl": "https://t.me/PlanKoverTDay/5466",
     "events": [
       {
-        "id": "fc07eae1e9c2e3af",
+        "id": "8494db4213db4b8f",
         "action": "ADD",
         "name": "Внуково",
         "icao": "UUWW",
         "kind": "airport",
         "type": "partial",
-        "radiusKm": null,
+        "radiusKm": 50.0,
         "messageTimestamp": "2026-11-08T21:41:08+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/5466",
-        "text": "🟡🛩️ Внуково, UUWW",
+        "text": "🟡🛩️ Внуково, UUWW / 50 км (азимуты 210-340)",
+        "sector": {
+          "radiusKm": 50.0,
+          "startAzimuth": 210,
+          "endAzimuth": 340
+        },
         "inKta": true
       }
     ]
