@@ -614,9 +614,9 @@
         className: "",
         html: `<div class="${markerClass}"><span>✈</span></div>`,
         iconSize: [24, 24],
-        // The CSS pin is rotated -45°; its sharp corner lands just
-        // outside the 24×24 box at approximately (-2, 26).
-        iconAnchor: [-2, 26]
+        // The lower-left rounded corner ends at (4, 24); after the
+        // -45° rotation its tip is approximately (15, 26).
+        iconAnchor: [15, 26]
       })
     });
     marker.bindPopup(airplanePopupHtml(group), { maxWidth: 320 });
@@ -1286,9 +1286,9 @@
         // Match the regular Leaflet divIcon: 24×24 px, 12×20 anchor,
         // 50% 50% 50% 4px corner radius, rotated -45 degrees.
         ctx.save();
-        // Match the Leaflet icon anchor so the sharp tip, not the
-        // marker's center, sits exactly on the airport/KTA coordinates.
-        ctx.translate(point.x + 2, point.y - 26);
+        // Match the Leaflet icon anchor so the pin tip sits on the
+        // airport/KTA coordinates.
+        ctx.translate(point.x - 15, point.y - 26);
         ctx.translate(12, 12);
         ctx.rotate(-Math.PI / 4);
         ctx.translate(-12, -12);
