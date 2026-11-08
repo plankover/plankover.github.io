@@ -26674,5 +26674,81 @@
         "sourceUrl": "https://t.me/PlanKoverTDay/5462"
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5463,
+    "timestamp": "2026-11-08T20:16:37+00:00",
+    "text": "❔🔴🛩️ Калуга - Грабцево, UUBC / 70 км \n\n🔴 а/д Северный, Смоленск / 50 км\n🔴 а/д Клоково, Тула / 70 км\n🔴 а/д Дягилево, Рязань / 70 км \n🔴 Шатура / 40 км",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5463",
+    "events": [
+      {
+        "id": "70fb4cccfbc371f8",
+        "action": "ADD",
+        "name": "Грабцево",
+        "icao": "UUBC",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-11-08T20:16:37+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5463",
+        "text": "❔🔴🛩️ Калуга - Грабцево, UUBC / 70 км ",
+        "inKta": true,
+        "uncertain": true
+      },
+      {
+        "id": "eee511c9c36988da",
+        "action": "ADD",
+        "name": "Северный, Смоленск",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 50.0,
+        "messageTimestamp": "2026-11-08T20:16:37+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5463",
+        "text": "🔴 а/д Северный, Смоленск / 50 км",
+        "inKta": false
+      },
+      {
+        "id": "69acf5e7ffeef18a",
+        "action": "ADD",
+        "name": "Клоково, Тула",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-11-08T20:16:37+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5463",
+        "text": "🔴 а/д Клоково, Тула / 70 км",
+        "inKta": false
+      },
+      {
+        "id": "11b3fc3c31e5b890",
+        "action": "ADD",
+        "name": "Дягилево, Рязань",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-11-08T20:16:37+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5463",
+        "text": "🔴 а/д Дягилево, Рязань / 70 км ",
+        "inKta": false
+      },
+      {
+        "id": "e8a71a28587a1675",
+        "action": "ADD",
+        "name": "Шатура",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 40.0,
+        "messageTimestamp": "2026-11-08T20:16:37+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5463",
+        "text": "🔴 Шатура / 40 км",
+        "inKta": false
+      }
+    ]
   }
 ]

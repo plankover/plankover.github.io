@@ -1,6 +1,89 @@
 {
-  "updatedAt": "2026-11-08T08:15:16.572777+00:00",
+  "updatedAt": "2026-11-08T20:20:18.600568+00:00",
   "source": "@PlanKoverTDay",
-  "restrictions": [],
-  "forecasts": []
+  "restrictions": [
+    {
+      "id": "70fb4cccfbc371f8",
+      "action": "ADD",
+      "name": "Грабцево",
+      "icao": "UUBC",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 70.0,
+      "messageTimestamp": "2026-11-08T20:16:37+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5463",
+      "text": "❔🔴🛩️ Калуга - Грабцево, UUBC / 70 км ",
+      "inKta": true,
+      "uncertain": true,
+      "lat": 54.5488708,
+      "lon": 36.3697725
+    },
+    {
+      "id": "eee511c9c36988da",
+      "action": "ADD",
+      "name": "Северный, Смоленск",
+      "icao": null,
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 50.0,
+      "messageTimestamp": "2026-11-08T20:16:37+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5463",
+      "text": "🔴 а/д Северный, Смоленск / 50 км",
+      "inKta": false,
+      "lat": 54.823085,
+      "lon": 32.0231288
+    },
+    {
+      "id": "69acf5e7ffeef18a",
+      "action": "ADD",
+      "name": "Клоково, Тула",
+      "icao": null,
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 70.0,
+      "messageTimestamp": "2026-11-08T20:16:37+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5463",
+      "text": "🔴 а/д Клоково, Тула / 70 км",
+      "inKta": false,
+      "lat": 54.2418249,
+      "lon": 37.6000197
+    },
+    {
+      "id": "11b3fc3c31e5b890",
+      "action": "ADD",
+      "name": "Дягилево, Рязань",
+      "icao": null,
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 70.0,
+      "messageTimestamp": "2026-11-08T20:16:37+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5463",
+      "text": "🔴 а/д Дягилево, Рязань / 70 км ",
+      "inKta": false,
+      "lat": 54.6571958,
+      "lon": 39.6308884
+    },
+    {
+      "id": "e8a71a28587a1675",
+      "action": "ADD",
+      "name": "Шатура",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 40.0,
+      "messageTimestamp": "2026-11-08T20:16:37+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5463",
+      "text": "🔴 Шатура / 40 км",
+      "inKta": false,
+      "lat": 55.578403,
+      "lon": 39.5437584
+    }
+  ],
+  "forecasts": [
+    {
+      "timestamp": "2026-11-08T20:12:32+00:00",
+      "text": "📌 Прогноз.\n\nСегодня ожидаем ограничения в ряде регионов Центрального федерального округа (Калуга, Москва и др.), либо же Северо-Западного ФО (Псков, Санкт-Петербург)",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5462"
+    }
+  ]
 }
