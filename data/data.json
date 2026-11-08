@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T21:50:16.675090+00:00",
+  "updatedAt": "2026-11-08T21:55:15.943318+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -93,22 +93,27 @@
       "lon": 36.3697725
     },
     {
-      "id": "15a974634b9ad6e2",
+      "id": "ed14cacf8f39a867",
       "action": "ADD",
       "name": "Домодедово",
       "icao": "UUDD",
       "kind": "airport",
       "type": "partial",
-      "radiusKm": null,
+      "radiusKm": 120.0,
       "messageTimestamp": "2026-11-08T21:28:04+00:00",
       "sourceUrl": "https://t.me/PlanKoverTDay/5465",
-      "text": "🟡🛩️ Москва - Домодедово, UUDD",
+      "text": "🟡🛩️ Москва - Домодедово, UUDD / 120 км (азимуты 090-180)",
+      "sector": {
+        "radiusKm": 120.0,
+        "startAzimuth": 90,
+        "endAzimuth": 180
+      },
       "inKta": true,
       "lat": 55.4087122,
       "lon": 37.9094307
     },
     {
-      "id": "a39f6532cd6cb868",
+      "id": "20bcba0132d18544",
       "action": "ADD",
       "name": "Двоевка, Вязьма",
       "icao": null,
@@ -123,7 +128,7 @@
       "lon": 34.3776834
     },
     {
-      "id": "03fa821500677294",
+      "id": "dde965d0b52bfb63",
       "action": "ADD",
       "name": "Великие Луки",
       "icao": null,
@@ -138,7 +143,7 @@
       "lon": 30.527922
     },
     {
-      "id": "ac72863b9ba8c5f7",
+      "id": "4a3621ee48cca61b",
       "action": "ADD",
       "name": "Валдай",
       "icao": null,
@@ -153,24 +158,39 @@
       "lon": 33.2537994
     },
     {
-      "id": "8494db4213db4b8f",
+      "id": "ee24f4b0c37e3a76",
       "action": "ADD",
       "name": "Внуково",
       "icao": "UUWW",
       "kind": "airport",
       "type": "partial",
-      "radiusKm": 50.0,
+      "radiusKm": 100.0,
       "messageTimestamp": "2026-11-08T21:41:08+00:00",
       "sourceUrl": "https://t.me/PlanKoverTDay/5466",
-      "text": "🟡🛩️ Внуково, UUWW / 50 км (азимуты 210-340)",
+      "text": "🟡🛩️ Внуково, UUWW / 100 км (азимуты 210-340)",
       "sector": {
-        "radiusKm": 50.0,
+        "radiusKm": 100.0,
         "startAzimuth": 210,
         "endAzimuth": 340
       },
       "inKta": true,
       "lat": 55.5995278,
       "lon": 37.2735752
+    },
+    {
+      "id": "8c732f9cb75ba62e",
+      "action": "ADD",
+      "name": "Старая Русса",
+      "icao": null,
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 100.0,
+      "messageTimestamp": "2026-11-08T21:41:08+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5466",
+      "text": "🔴 а/д Старая Русса / 100 км",
+      "inKta": false,
+      "lat": 57.9601551,
+      "lon": 31.3840079
     }
   ],
   "forecasts": [
