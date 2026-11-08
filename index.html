@@ -181,7 +181,7 @@
     .popup-title { font-weight: 700; font-size: 14px; margin-bottom: 4px; }
     .popup-muted { color: #a3b2c6; font-size: 12px; }
     .map-marker {
-      width: 24px; height: 24px; border-radius: 50% 50% 50% 4px;
+      width: 24px; height: 24px; border-radius: 50% 50% 50% 0;
       transform: rotate(-45deg); border: 2px solid #8f1721;
       background: #ff3b45; color: #fff;
       box-shadow: 0 2px 9px #0005; display: grid; place-items: center;
@@ -614,9 +614,8 @@
         className: "",
         html: `<div class="${markerClass}"><span>✈</span></div>`,
         iconSize: [24, 24],
-        // The lower-left rounded corner ends at (4, 24); after the
-        // -45° rotation its tip is approximately (15, 26).
-        iconAnchor: [15, 26]
+        // The now-sharp lower-left corner rotates to (12, 29).
+        iconAnchor: [12, 29]
       })
     });
     marker.bindPopup(airplanePopupHtml(group), { maxWidth: 320 });
@@ -1283,12 +1282,11 @@
         const fill = uncertainAirport ? "#9299a3" : (partial ? "#ffc34d" : "#ff3b45");
         const border = uncertainAirport ? "#626b76" : (partial ? "#9c701b" : "#8f1721");
 
-        // Match the regular Leaflet divIcon: 24×24 px, 12×20 anchor,
-        // 50% 50% 50% 4px corner radius, rotated -45 degrees.
+        // Match the regular Leaflet divIcon: sharper 50% 50% 50% 0
+        // shape, rotated -45 degrees; its tip is at (12, 29).
         ctx.save();
-        // Match the Leaflet icon anchor so the pin tip sits on the
-        // airport/KTA coordinates.
-        ctx.translate(point.x - 15, point.y - 26);
+        // Place the sharp tip exactly on the airport/KTA coordinates.
+        ctx.translate(point.x - 12, point.y - 29);
         ctx.translate(12, 12);
         ctx.rotate(-Math.PI / 4);
         ctx.translate(-12, -12);
@@ -1300,10 +1298,8 @@
         ctx.moveTo(12, 0);
         ctx.bezierCurveTo(18.627, 0, 24, 5.373, 24, 12);
         ctx.bezierCurveTo(24, 18.627, 18.627, 24, 12, 24);
-        ctx.lineTo(4, 24);
-        ctx.quadraticCurveTo(0, 24, 0, 20);
-        ctx.lineTo(0, 12);
-        ctx.bezierCurveTo(0, 5.373, 5.373, 0, 12, 0);
+        ctx.lineTo(0, 24);
+        ctx.bezierCurveTo(0, 17.373, 5.373, 0, 12, 0);
         ctx.closePath();
         ctx.fillStyle = fill;
         ctx.fill();
