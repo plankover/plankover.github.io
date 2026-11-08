@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T23:10:18.381229+00:00",
+  "updatedAt": "2026-11-08T02:30:18.357892+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -35,19 +35,19 @@
       "lon": 39.0274629
     },
     {
-      "id": "17a1481003e5c553",
+      "id": "1c5579561d170960",
       "action": "ADD",
-      "name": "Грабцево",
-      "icao": "UUBC",
+      "name": "Геленджик",
+      "icao": "URKG",
       "kind": "airport",
       "type": "full",
       "radiusKm": null,
-      "messageTimestamp": "2026-11-07T23:08:07+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5458",
-      "text": "🔴🛩️ Калуга - Грабцево, UUBC",
+      "messageTimestamp": "2026-11-08T02:27:46+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5460",
+      "text": "🔴🛩️ Геленджик, URKG",
       "inKta": true,
-      "lat": 54.5488708,
-      "lon": 36.3697725
+      "lat": 44.58209,
+      "lon": 38.01248
     }
   ],
   "forecasts": [
