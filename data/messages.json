@@ -26906,7 +26906,14 @@
     "messageId": 5467,
     "timestamp": "2026-11-08T22:24:34+00:00",
     "text": "🕒 Актуальные ограничения на 01:20 мск",
-    "entities": [],
+    "entities": [
+      {
+        "offset": 0,
+        "length": 2,
+        "type": "custom_emoji",
+        "custom_emoji_id": "6278477897321685413"
+      }
+    ],
     "sourceUrl": "https://t.me/PlanKoverTDay/5467",
     "events": [
       {
