@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-08T20:20:18.600568+00:00",
+  "updatedAt": "2026-11-08T20:25:17.808854+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
-      "id": "70fb4cccfbc371f8",
+      "id": "5600119548f712f2",
       "action": "ADD",
       "name": "Грабцево",
       "icao": "UUBC",
@@ -12,14 +12,13 @@
       "radiusKm": 70.0,
       "messageTimestamp": "2026-11-08T20:16:37+00:00",
       "sourceUrl": "https://t.me/PlanKoverTDay/5463",
-      "text": "❔🔴🛩️ Калуга - Грабцево, UUBC / 70 км ",
+      "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км ",
       "inKta": true,
-      "uncertain": true,
       "lat": 54.5488708,
       "lon": 36.3697725
     },
     {
-      "id": "eee511c9c36988da",
+      "id": "5b41b77f59bb31ef",
       "action": "ADD",
       "name": "Северный, Смоленск",
       "icao": null,
@@ -34,7 +33,7 @@
       "lon": 32.0231288
     },
     {
-      "id": "69acf5e7ffeef18a",
+      "id": "42dc682c0b1bf751",
       "action": "ADD",
       "name": "Клоково, Тула",
       "icao": null,
@@ -49,7 +48,7 @@
       "lon": 37.6000197
     },
     {
-      "id": "11b3fc3c31e5b890",
+      "id": "19cedc674b43c03f",
       "action": "ADD",
       "name": "Дягилево, Рязань",
       "icao": null,
@@ -64,7 +63,7 @@
       "lon": 39.6308884
     },
     {
-      "id": "e8a71a28587a1675",
+      "id": "aec91c701b0e7a67",
       "action": "ADD",
       "name": "Шатура",
       "icao": null,
@@ -77,12 +76,27 @@
       "inKta": false,
       "lat": 55.578403,
       "lon": 39.5437584
+    },
+    {
+      "id": "725c6912d715755b",
+      "action": "ADD",
+      "name": "Грабцево",
+      "icao": "UUBC",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-08T20:22:17+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5464",
+      "text": "🔴🛩️ Калуга - Грабцево, UUBC",
+      "inKta": true,
+      "lat": 54.5488708,
+      "lon": 36.3697725
     }
   ],
   "forecasts": [
     {
       "timestamp": "2026-11-08T20:12:32+00:00",
-      "text": "📌 Прогноз.\n\nСегодня ожидаем ограничения в ряде регионов Центрального федерального округа (Калуга, Москва и др.), либо же Северо-Западного ФО (Псков, Санкт-Петербург)",
+      "text": "📌 Прогноз.\n\nСегодня ожидаем ограничения в ряде регионов Центрального ФО (Калуга, Москва и др.), либо же Северо-Западного ФО (Псков, Санкт-Петербург)\n\nТакже возможны ковры в западной части ПФО",
       "sourceUrl": "https://t.me/PlanKoverTDay/5462"
     }
   ]
