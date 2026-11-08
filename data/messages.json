@@ -26900,5 +26900,22 @@
         "inKta": false
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5467,
+    "timestamp": "2026-11-08T22:24:34+00:00",
+    "text": "🕒 Актуальные ограничения на 01:20 мск",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5467",
+    "events": [
+      {
+        "id": "be5eec2924ad4c1d",
+        "action": "SNAPSHOT_UNRESOLVED",
+        "messageTimestamp": "2026-11-08T22:24:34+00:00",
+        "text": "🕒 Актуальные ограничения на 01:20 мск",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5467"
+      }
+    ]
   }
 ]
