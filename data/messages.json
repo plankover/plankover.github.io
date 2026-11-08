@@ -26633,22 +26633,16 @@
     "chatId": -1003822338715,
     "messageId": 5461,
     "timestamp": "2026-11-08T04:08:12+00:00",
-    "text": "🟢🛩️ Геленджик, URKG",
+    "text": "🟢🛩️ Геленджик, URKG\n\n✅ Ранее объявленные",
     "entities": [],
     "sourceUrl": "https://t.me/PlanKoverTDay/5461",
     "events": [
       {
-        "id": "5ae08099522d3332",
-        "action": "REMOVE",
-        "name": "Геленджик",
-        "icao": "URKG",
-        "kind": "airport",
-        "type": "full",
-        "radiusKm": null,
+        "id": "16d775623d168d45",
+        "action": "CLEAR",
         "messageTimestamp": "2026-11-08T04:08:12+00:00",
-        "sourceUrl": "https://t.me/PlanKoverTDay/5461",
-        "text": "🟢🛩️ Геленджик, URKG",
-        "inKta": true
+        "text": "🟢🛩️ Геленджик, URKG\n\n✅ Ранее объявленные",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5461"
       }
     ]
   }

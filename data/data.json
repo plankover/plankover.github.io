@@ -1,45 +1,6 @@
 {
-  "updatedAt": "2026-11-08T04:10:16.978453+00:00",
+  "updatedAt": "2026-11-08T08:15:16.572777+00:00",
   "source": "@PlanKoverTDay",
-  "restrictions": [
-    {
-      "id": "4d46da1f366aa1cf",
-      "action": "ADD",
-      "name": "Клоково, Тула",
-      "icao": null,
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": 70.0,
-      "messageTimestamp": "2026-11-07T21:35:41+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5456",
-      "text": "🔴 а/д Клоково, Тула / 70 км",
-      "inKta": false,
-      "snapshot": true,
-      "lat": 54.2418249,
-      "lon": 37.6000197
-    },
-    {
-      "id": "35b833de0b63d354",
-      "action": "ADD",
-      "name": "Михайлов",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": 70.0,
-      "messageTimestamp": "2026-11-07T21:35:41+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5456",
-      "text": "🔴 Михайлов / 70 км",
-      "inKta": false,
-      "snapshot": true,
-      "lat": 54.2301856,
-      "lon": 39.0274629
-    }
-  ],
-  "forecasts": [
-    {
-      "timestamp": "2026-11-07T20:35:45+00:00",
-      "text": "📌 Прогноз.\n\nВ течение ночи ожидаются ограничения в аэропортах Приволжского федерального округа (Саратов, Пенза, Саранск, Самара, Ульяновск и др)\n\n🔄 Также ограничения возможны в некоторых субъектах ЦФО (Тамбов, возможно Москва (частичные) и др)",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5451"
-    }
-  ]
+  "restrictions": [],
+  "forecasts": []
 }
