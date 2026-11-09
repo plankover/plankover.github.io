@@ -27183,5 +27183,92 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5477,
+    "timestamp": "2026-11-09T04:10:26+00:00",
+    "text": "🕒 Актуальные ограничения на 07:10 мск\n\n🔴🛩️ Калуга - Грабцево, UUBC / 70 км\n\n🔴 а/д Клоково, Тула / 70 км\n🔴 а/д Дягилево, Рязань / 70 км\n🔴 а/д Капустин Яр / 40 км\n🔴 а/д Ахтубинск / 30 км",
+    "entities": [
+      {
+        "offset": 0,
+        "length": 2,
+        "type": "custom_emoji",
+        "custom_emoji_id": "6278477897321685413"
+      }
+    ],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5477",
+    "events": [
+      {
+        "id": "97b909144b9cc09a",
+        "action": "ADD",
+        "name": "Грабцево",
+        "icao": "UUBC",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-11-09T04:10:26+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5477",
+        "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км",
+        "inKta": true,
+        "snapshot": true
+      },
+      {
+        "id": "cf28d96bdbd27047",
+        "action": "ADD",
+        "name": "Клоково, Тула",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-11-09T04:10:26+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5477",
+        "text": "🔴 а/д Клоково, Тула / 70 км",
+        "inKta": false,
+        "snapshot": true
+      },
+      {
+        "id": "da466915424ac993",
+        "action": "ADD",
+        "name": "Дягилево, Рязань",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-11-09T04:10:26+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5477",
+        "text": "🔴 а/д Дягилево, Рязань / 70 км",
+        "inKta": false,
+        "snapshot": true
+      },
+      {
+        "id": "8bda4a4c3a15f8dd",
+        "action": "ADD",
+        "name": "Капустин Яр",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 40.0,
+        "messageTimestamp": "2026-11-09T04:10:26+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5477",
+        "text": "🔴 а/д Капустин Яр / 40 км",
+        "inKta": false,
+        "snapshot": true
+      },
+      {
+        "id": "48f23f4402d2349f",
+        "action": "ADD",
+        "name": "Ахтубинск",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 30.0,
+        "messageTimestamp": "2026-11-09T04:10:26+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5477",
+        "text": "🔴 а/д Ахтубинск / 30 км",
+        "inKta": false,
+        "snapshot": true
+      }
+    ]
   }
 ]
