@@ -27137,5 +27137,28 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5475,
+    "timestamp": "2026-11-09T02:30:22+00:00",
+    "text": "🟢🛩️ Череповец, ULWP",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5475",
+    "events": [
+      {
+        "id": "0e68f32bfa2b0629",
+        "action": "REMOVE",
+        "name": "Череповец",
+        "icao": "ULWP",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-09T02:30:22+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5475",
+        "text": "🟢🛩️ Череповец, ULWP",
+        "inKta": true
+      }
+    ]
   }
 ]
