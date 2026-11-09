@@ -26983,5 +26983,64 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5470,
+    "timestamp": "2026-11-09T00:45:25+00:00",
+    "text": "🔴🛩️ Санкт-Петербург - Пулково, ULLI",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5470",
+    "events": [
+      {
+        "id": "a37a73cf3bed80ad",
+        "action": "ADD",
+        "name": "Пулково",
+        "icao": "ULLI",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-09T00:45:25+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5470",
+        "text": "🔴🛩️ Санкт-Петербург - Пулково, ULLI",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5471,
+    "timestamp": "2026-11-09T00:48:35+00:00",
+    "text": "🟢🛩️ Москва - Внуково, UUWW\n🟢🛩️ Москва - Домодедово, UUDD",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5471",
+    "events": [
+      {
+        "id": "1971ac7b7c362c34",
+        "action": "REMOVE",
+        "name": "Внуково",
+        "icao": "UUWW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-09T00:48:35+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5471",
+        "text": "🟢🛩️ Москва - Внуково, UUWW",
+        "inKta": true
+      },
+      {
+        "id": "880b0804026b06d3",
+        "action": "REMOVE",
+        "name": "Домодедово",
+        "icao": "UUDD",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-09T00:48:35+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5471",
+        "text": "🟢🛩️ Москва - Домодедово, UUDD",
+        "inKta": true
+      }
+    ]
   }
 ]

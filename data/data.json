@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T22:45:17.560952+00:00",
+  "updatedAt": "2026-11-09T00:50:16.868017+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -93,26 +93,6 @@
       "lon": 36.3697725
     },
     {
-      "id": "ed14cacf8f39a867",
-      "action": "ADD",
-      "name": "Домодедово",
-      "icao": "UUDD",
-      "kind": "airport",
-      "type": "partial",
-      "radiusKm": 120.0,
-      "messageTimestamp": "2026-11-08T21:28:04+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5465",
-      "text": "🟡🛩️ Москва - Домодедово, UUDD / 120 км (азимуты 090-180)",
-      "sector": {
-        "radiusKm": 120.0,
-        "startAzimuth": 90,
-        "endAzimuth": 180
-      },
-      "inKta": true,
-      "lat": 55.4087122,
-      "lon": 37.9094307
-    },
-    {
       "id": "20bcba0132d18544",
       "action": "ADD",
       "name": "Двоевка, Вязьма",
@@ -158,26 +138,6 @@
       "lon": 33.2537994
     },
     {
-      "id": "ee24f4b0c37e3a76",
-      "action": "ADD",
-      "name": "Внуково",
-      "icao": "UUWW",
-      "kind": "airport",
-      "type": "partial",
-      "radiusKm": 100.0,
-      "messageTimestamp": "2026-11-08T21:41:08+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5466",
-      "text": "🟡🛩️ Внуково, UUWW / 100 км (азимуты 210-340)",
-      "sector": {
-        "radiusKm": 100.0,
-        "startAzimuth": 210,
-        "endAzimuth": 340
-      },
-      "inKta": true,
-      "lat": 55.5995278,
-      "lon": 37.2735752
-    },
-    {
       "id": "8c732f9cb75ba62e",
       "action": "ADD",
       "name": "Старая Русса",
@@ -191,21 +151,6 @@
       "inKta": false,
       "lat": 57.9601551,
       "lon": 31.3840079
-    },
-    {
-      "id": "cf49aedd6ce0a7bb",
-      "action": "ADD",
-      "name": "Внуково",
-      "icao": "UUWW",
-      "kind": "airport",
-      "type": "partial",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-08T22:35:50+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5468",
-      "text": "🟡🛩️ Москва - Внуково, UUWW",
-      "inKta": true,
-      "lat": 55.5995278,
-      "lon": 37.2735752
     },
     {
       "id": "d2472705bd998270",
@@ -236,6 +181,21 @@
       "inKta": true,
       "lat": 57.5604597,
       "lon": 40.1579512
+    },
+    {
+      "id": "a37a73cf3bed80ad",
+      "action": "ADD",
+      "name": "Пулково",
+      "icao": "ULLI",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-09T00:45:25+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5470",
+      "text": "🔴🛩️ Санкт-Петербург - Пулково, ULLI",
+      "inKta": true,
+      "lat": 59.8016986,
+      "lon": 30.2676011
     }
   ],
   "forecasts": [
