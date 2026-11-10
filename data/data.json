@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T18:25:18.215127+00:00",
+  "updatedAt": "2026-11-10T19:55:17.420360+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -142,19 +142,54 @@
       "lon": 32.0231288
     },
     {
-      "id": "3c940d245e0df53a",
+      "id": "9e9c9491e6827a19",
       "action": "ADD",
       "name": "Внуково",
       "icao": "UUWW",
       "kind": "airport",
       "type": "partial",
-      "radiusKm": null,
+      "radiusKm": 100.0,
       "messageTimestamp": "2026-11-10T18:24:01+00:00",
       "sourceUrl": "https://t.me/PlanKoverTDay/5487",
-      "text": "🟡🛩️ Москва - Внуково, UUWW",
+      "text": "🟡🛩️ Москва - Внуково, UUWW / 100 км (азимуты 150-330)",
+      "sector": {
+        "radiusKm": 100.0,
+        "startAzimuth": 150,
+        "endAzimuth": 330
+      },
       "inKta": true,
       "lat": 55.5995278,
       "lon": 37.2735752
+    },
+    {
+      "id": "58cafa0a82dac860",
+      "action": "ADD",
+      "name": "Великие Луки",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 100.0,
+      "messageTimestamp": "2026-11-10T18:24:01+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5487",
+      "text": "🔴 Великие Луки / 100 км",
+      "inKta": false,
+      "lat": 56.342361,
+      "lon": 30.527922
+    },
+    {
+      "id": "7dea7d1ffcbcd3f7",
+      "action": "ADD",
+      "name": "Валдай",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 70.0,
+      "messageTimestamp": "2026-11-10T18:24:01+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5487",
+      "text": "🔴 Валдай / 70 км",
+      "inKta": false,
+      "lat": 57.9791414,
+      "lon": 33.2537994
     }
   ],
   "forecasts": [
