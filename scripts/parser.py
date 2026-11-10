@@ -202,6 +202,19 @@ def parse_message(message, published_at=None, source_url=None, entities=None):
     digest = hashlib.sha256(f"{ts}|{text}".encode()).hexdigest()[:16]
     snapshot = is_snapshot(text)
 
+    # Forecast messages are independent from restriction events. A warning
+    # emoji marks an operational forecast even without the 📌 heading.
+    forecast_label = "Оперативный" if "⚠️" in text else ("Прогноз" if re.search(r"^\s*📌\s*прогноз\b", text, re.I) else None)
+    if forecast_label:
+        return [{
+            "id": digest,
+            "action": "FORECAST",
+            "label": forecast_label,
+            "messageTimestamp": ts,
+            "text": text,
+            "sourceUrl": source_url,
+        }]
+
     if re.search(r"(?:🟢|✅)\s*ранее\s+объявлен", text.lower()):
         return [{"id": digest, "action": "CLEAR", "messageTimestamp": ts, "text": text, "sourceUrl": source_url}]
 
