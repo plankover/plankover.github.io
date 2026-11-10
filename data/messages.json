@@ -27690,5 +27690,54 @@
         "inKta": false
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5491,
+    "timestamp": "2026-11-10T20:46:01+00:00",
+    "text": "⚠️ Возможен ряд ограничений в регионах Приволжского ФО в ближайшие минуты.",
+    "entities": [
+      {
+        "offset": 0,
+        "length": 2,
+        "type": "custom_emoji",
+        "custom_emoji_id": "6275948470821987795"
+      }
+    ],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5491",
+    "events": [
+      {
+        "id": "a52fccf8363e9d95",
+        "action": "FORECAST",
+        "label": "Оперативный",
+        "messageTimestamp": "2026-11-10T20:46:01+00:00",
+        "text": "⚠️ Возможен ряд ограничений в регионах Приволжского ФО в ближайшие минуты.",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5491"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5492,
+    "timestamp": "2026-11-10T20:49:45+00:00",
+    "text": "❔🔴🛩️ Пенза, UWPP",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5492",
+    "events": [
+      {
+        "id": "8192492820ad9312",
+        "action": "ADD",
+        "name": "Пенза",
+        "icao": "UWPP",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-10T20:49:45+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5492",
+        "text": "❔🔴🛩️ Пенза, UWPP",
+        "inKta": true,
+        "uncertain": true
+      }
+    ]
   }
 ]

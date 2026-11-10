@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T20:30:20.454980+00:00",
+  "updatedAt": "2026-11-10T20:50:18.977396+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -256,14 +256,30 @@
       "inKta": false,
       "lat": 56.7362705,
       "lon": 37.1623696
+    },
+    {
+      "id": "8192492820ad9312",
+      "action": "ADD",
+      "name": "Пенза",
+      "icao": "UWPP",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-10T20:49:45+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5492",
+      "text": "❔🔴🛩️ Пенза, UWPP",
+      "inKta": true,
+      "uncertain": true,
+      "lat": 53.110734,
+      "lon": 45.023455
     }
   ],
   "forecasts": [
     {
       "label": "Оперативный",
-      "timestamp": "2026-11-10T20:12:58+00:00",
-      "text": "⚠️ В течение нескольких часов ожидаются полные ограничения в Ленинградской области, аэропорт Пулково, возможно, будет закрыт до раннего утра.",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5489"
+      "timestamp": "2026-11-10T20:46:01+00:00",
+      "text": "⚠️ Возможен ряд ограничений в регионах Приволжского ФО в ближайшие минуты.",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5491"
     }
   ]
 }
