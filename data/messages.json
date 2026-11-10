@@ -27720,35 +27720,54 @@
     "chatId": -1003822338715,
     "messageId": 5492,
     "timestamp": "2026-11-10T20:49:45+00:00",
-    "text": "🔴🛩️ Пенза, UWPP\n🔴🛩️ Саранск, UWPS",
+    "text": "🔴 Новоселовка (🛩️ Пенза, UWPP; 🛩️ Саратов - Гагарин, UWSG) / 150 км\n🔴 Медведица (🛩️ Саратов - Гагарин, UWSG) / 150 км",
     "entities": [],
     "sourceUrl": "https://t.me/PlanKoverTDay/5492",
     "events": [
       {
-        "id": "15db24cdabb3c710",
+        "id": "4cacac211a8f61f4",
         "action": "ADD",
-        "name": "Пенза",
-        "icao": "UWPP",
-        "kind": "airport",
+        "name": "Новоселовка",
+        "icao": null,
+        "kind": "city",
         "type": "full",
-        "radiusKm": null,
+        "radiusKm": 150.0,
         "messageTimestamp": "2026-11-10T20:49:45+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/5492",
-        "text": "🔴🛩️ Пенза, UWPP",
-        "inKta": true
+        "text": "🔴 Новоселовка (🛩️ Пенза, UWPP; 🛩️ Саратов - Гагарин, UWSG) / 150 км",
+        "affectedAirports": [
+          {
+            "name": "Пенза",
+            "icao": "UWPP",
+            "kind": "airport"
+          },
+          {
+            "name": "Гагарин",
+            "icao": "UWSG",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false
       },
       {
-        "id": "c5e324786a06dab7",
+        "id": "38bb283623c5a2a1",
         "action": "ADD",
-        "name": "Саранск",
-        "icao": "UWPS",
-        "kind": "airport",
+        "name": "Медведица",
+        "icao": null,
+        "kind": "city",
         "type": "full",
-        "radiusKm": null,
+        "radiusKm": 150.0,
         "messageTimestamp": "2026-11-10T20:49:45+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/5492",
-        "text": "🔴🛩️ Саранск, UWPS",
-        "inKta": true
+        "text": "🔴 Медведица (🛩️ Саратов - Гагарин, UWSG) / 150 км",
+        "affectedAirports": [
+          {
+            "name": "Гагарин",
+            "icao": "UWSG",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false
       }
     ]
   },
@@ -27784,60 +27803,21 @@
     "chatId": -1003822338715,
     "messageId": 5494,
     "timestamp": "2026-11-10T21:14:45+00:00",
-    "text": "🔴🛩️ Пенза, UWPP\n🔴🛩️ Саранск, UWPS\n🔴🛩️ Саратов - Гагарин, UWSG\n🔴🛩️ Ярославль - Туношна, UUDL",
+    "text": "🔴🛩️ Ярославль - Туношна, UUDL / 50 км",
     "entities": [],
     "sourceUrl": "https://t.me/PlanKoverTDay/5494",
     "events": [
       {
-        "id": "159764a0bc6b0d35",
-        "action": "ADD",
-        "name": "Пенза",
-        "icao": "UWPP",
-        "kind": "airport",
-        "type": "full",
-        "radiusKm": null,
-        "messageTimestamp": "2026-11-10T21:14:45+00:00",
-        "sourceUrl": "https://t.me/PlanKoverTDay/5494",
-        "text": "🔴🛩️ Пенза, UWPP",
-        "inKta": true
-      },
-      {
-        "id": "9f19bb577b23e321",
-        "action": "ADD",
-        "name": "Саранск",
-        "icao": "UWPS",
-        "kind": "airport",
-        "type": "full",
-        "radiusKm": null,
-        "messageTimestamp": "2026-11-10T21:14:45+00:00",
-        "sourceUrl": "https://t.me/PlanKoverTDay/5494",
-        "text": "🔴🛩️ Саранск, UWPS",
-        "inKta": true
-      },
-      {
-        "id": "2c416169f34a33f0",
-        "action": "ADD",
-        "name": "Гагарин",
-        "icao": "UWSG",
-        "kind": "airport",
-        "type": "full",
-        "radiusKm": null,
-        "messageTimestamp": "2026-11-10T21:14:45+00:00",
-        "sourceUrl": "https://t.me/PlanKoverTDay/5494",
-        "text": "🔴🛩️ Саратов - Гагарин, UWSG",
-        "inKta": true
-      },
-      {
-        "id": "bd74e4a7ff70e60d",
+        "id": "50252ef044334d80",
         "action": "ADD",
         "name": "Туношна",
         "icao": "UUDL",
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
+        "radiusKm": 50.0,
         "messageTimestamp": "2026-11-10T21:14:45+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/5494",
-        "text": "🔴🛩️ Ярославль - Туношна, UUDL",
+        "text": "🔴🛩️ Ярославль - Туношна, UUDL / 50 км",
         "inKta": true
       }
     ]

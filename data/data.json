@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T21:15:16.655375+00:00",
+  "updatedAt": "2026-11-10T21:20:17.657994+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -258,34 +258,59 @@
       "lon": 37.1623696
     },
     {
-      "id": "159764a0bc6b0d35",
+      "id": "4cacac211a8f61f4",
       "action": "ADD",
-      "name": "Пенза",
-      "icao": "UWPP",
-      "kind": "airport",
+      "name": "Новоселовка",
+      "icao": null,
+      "kind": "city",
       "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-10T21:14:45+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5494",
-      "text": "🔴🛩️ Пенза, UWPP",
-      "inKta": true,
-      "lat": 53.110734,
-      "lon": 45.023455
+      "radiusKm": 150.0,
+      "messageTimestamp": "2026-11-10T20:49:45+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5492",
+      "text": "🔴 Новоселовка (🛩️ Пенза, UWPP; 🛩️ Саратов - Гагарин, UWSG) / 150 км",
+      "affectedAirports": [
+        {
+          "name": "Пенза",
+          "icao": "UWPP",
+          "kind": "airport",
+          "lat": 53.110734,
+          "lon": 45.023455
+        },
+        {
+          "name": "Гагарин",
+          "icao": "UWSG",
+          "kind": "airport",
+          "lat": 51.7139093,
+          "lon": 46.1672319
+        }
+      ],
+      "inKta": false,
+      "lat": 51.9489,
+      "lon": 44.2678
     },
     {
-      "id": "9f19bb577b23e321",
+      "id": "38bb283623c5a2a1",
       "action": "ADD",
-      "name": "Саранск",
-      "icao": "UWPS",
-      "kind": "airport",
+      "name": "Медведица",
+      "icao": null,
+      "kind": "city",
       "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-10T21:14:45+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5494",
-      "text": "🔴🛩️ Саранск, UWPS",
-      "inKta": true,
-      "lat": 54.1274695,
-      "lon": 45.2152086
+      "radiusKm": 150.0,
+      "messageTimestamp": "2026-11-10T20:49:45+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5492",
+      "text": "🔴 Медведица (🛩️ Саратов - Гагарин, UWSG) / 150 км",
+      "affectedAirports": [
+        {
+          "name": "Гагарин",
+          "icao": "UWSG",
+          "kind": "airport",
+          "lat": 51.7139093,
+          "lon": 46.1672319
+        }
+      ],
+      "inKta": false,
+      "lat": 51.079559,
+      "lon": 44.8182885
     },
     {
       "id": "ea3da983ed756127",
@@ -308,31 +333,16 @@
       "lon": 37.9094307
     },
     {
-      "id": "2c416169f34a33f0",
-      "action": "ADD",
-      "name": "Гагарин",
-      "icao": "UWSG",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-10T21:14:45+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5494",
-      "text": "🔴🛩️ Саратов - Гагарин, UWSG",
-      "inKta": true,
-      "lat": 51.7139093,
-      "lon": 46.1672319
-    },
-    {
-      "id": "bd74e4a7ff70e60d",
+      "id": "50252ef044334d80",
       "action": "ADD",
       "name": "Туношна",
       "icao": "UUDL",
       "kind": "airport",
       "type": "full",
-      "radiusKm": null,
+      "radiusKm": 50.0,
       "messageTimestamp": "2026-11-10T21:14:45+00:00",
       "sourceUrl": "https://t.me/PlanKoverTDay/5494",
-      "text": "🔴🛩️ Ярославль - Туношна, UUDL",
+      "text": "🔴🛩️ Ярославль - Туношна, UUDL / 50 км",
       "inKta": true,
       "lat": 57.5604597,
       "lon": 40.1579512
