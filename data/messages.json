@@ -27516,5 +27516,28 @@
         "inKta": false
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5487,
+    "timestamp": "2026-11-10T18:24:01+00:00",
+    "text": "🟡🛩️ Москва - Внуково, UUWW",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5487",
+    "events": [
+      {
+        "id": "3c940d245e0df53a",
+        "action": "ADD",
+        "name": "Внуково",
+        "icao": "UUWW",
+        "kind": "airport",
+        "type": "partial",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-10T18:24:01+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5487",
+        "text": "🟡🛩️ Москва - Внуково, UUWW",
+        "inKta": true
+      }
+    ]
   }
 ]
