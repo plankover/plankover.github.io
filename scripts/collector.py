@@ -162,8 +162,10 @@ def build_active(history):
         # Forecast posts accumulate independently from restriction updates.
         for e in events:
             if e.get("action")=="FORECAST":
+                # Keep only the newest forecast; a new post replaces the previous one.
+                forecasts_by_id.clear()
                 fid=str(rec.get("messageId") or e.get("id") or rec.get("timestamp"))
-                forecasts_by_id[fid]={"timestamp":rec.get("timestamp") or e.get("messageTimestamp"),"text":e.get("text") or rec.get("text",""),"sourceUrl":e.get("sourceUrl") or rec.get("sourceUrl")}
+                forecasts_by_id[fid]={"label":e.get("label") or ("Оперативный" if "⚠️" in (e.get("text") or rec.get("text","")) else "Прогноз"),"timestamp":rec.get("timestamp") or e.get("messageTimestamp"),"text":e.get("text") or rec.get("text",""),"sourceUrl":e.get("sourceUrl") or rec.get("sourceUrl")}
         snapshot_events=[e for e in events if e.get("snapshot") and e.get("action")=="ADD" and e.get("name")]
         if snapshot_events:
             previously_active=bool(active)
