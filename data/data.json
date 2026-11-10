@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T17:15:19.509524+00:00",
+  "updatedAt": "2026-11-10T17:20:20.570025+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -80,6 +80,49 @@
       "inKta": true,
       "lat": 54.5488708,
       "lon": 36.3697725
+    },
+    {
+      "id": "0ae289aa015a32d8",
+      "action": "ADD",
+      "name": "Ермолино",
+      "icao": null,
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 40.0,
+      "messageTimestamp": "2026-11-10T17:17:55+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5485",
+      "text": "🔴 а/д Ермолино / 40 км",
+      "inKta": false,
+      "lat": 55.2262459,
+      "lon": 36.6097447
+    },
+    {
+      "id": "2bda3b066d8e7f55",
+      "action": "ADD",
+      "name": "Русь, Завидово",
+      "icao": null,
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 40.0,
+      "messageTimestamp": "2026-11-10T17:17:55+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5485",
+      "text": "🔴 а/д Русь, Завидово / 40 км",
+      "inKta": false
+    },
+    {
+      "id": "67a5285e3bdc14a9",
+      "action": "ADD",
+      "name": "Можайск",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 40.0,
+      "messageTimestamp": "2026-11-10T17:17:55+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5485",
+      "text": "🔴 Можайск / 40 км",
+      "inKta": false,
+      "lat": 55.506478,
+      "lon": 36.0213092
     }
   ],
   "forecasts": [

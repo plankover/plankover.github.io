@@ -27444,5 +27444,54 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5485,
+    "timestamp": "2026-11-10T17:17:55+00:00",
+    "text": "🔴 а/д Ермолино / 40 км\n🔴 а/д Русь, Завидово / 40 км\n🔴 Можайск / 40 км",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5485",
+    "events": [
+      {
+        "id": "0ae289aa015a32d8",
+        "action": "ADD",
+        "name": "Ермолино",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 40.0,
+        "messageTimestamp": "2026-11-10T17:17:55+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5485",
+        "text": "🔴 а/д Ермолино / 40 км",
+        "inKta": false
+      },
+      {
+        "id": "2bda3b066d8e7f55",
+        "action": "ADD",
+        "name": "Русь, Завидово",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 40.0,
+        "messageTimestamp": "2026-11-10T17:17:55+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5485",
+        "text": "🔴 а/д Русь, Завидово / 40 км",
+        "inKta": false
+      },
+      {
+        "id": "67a5285e3bdc14a9",
+        "action": "ADD",
+        "name": "Можайск",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 40.0,
+        "messageTimestamp": "2026-11-10T17:17:55+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5485",
+        "text": "🔴 Можайск / 40 км",
+        "inKta": false
+      }
+    ]
   }
 ]
