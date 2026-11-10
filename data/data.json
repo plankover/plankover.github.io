@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T20:50:18.977396+00:00",
+  "updatedAt": "2026-11-10T20:55:19.253669+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -258,7 +258,7 @@
       "lon": 37.1623696
     },
     {
-      "id": "8192492820ad9312",
+      "id": "540fc67805592bce",
       "action": "ADD",
       "name": "Пенза",
       "icao": "UWPP",
@@ -272,6 +272,22 @@
       "uncertain": true,
       "lat": 53.110734,
       "lon": 45.023455
+    },
+    {
+      "id": "df3b24361bfddd24",
+      "action": "ADD",
+      "name": "Саранск",
+      "icao": "UWPS",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-10T20:49:45+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5492",
+      "text": "❔🔴🛩️ Саранск, UWPS",
+      "inKta": true,
+      "uncertain": true,
+      "lat": 54.1274695,
+      "lon": 45.2152086
     }
   ],
   "forecasts": [
