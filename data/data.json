@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T20:55:19.253669+00:00",
+  "updatedAt": "2026-11-10T21:00:19.569870+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -288,6 +288,26 @@
       "uncertain": true,
       "lat": 54.1274695,
       "lon": 45.2152086
+    },
+    {
+      "id": "ea3da983ed756127",
+      "action": "ADD",
+      "name": "Домодедово",
+      "icao": "UUDD",
+      "kind": "airport",
+      "type": "partial",
+      "radiusKm": 100.0,
+      "messageTimestamp": "2026-11-10T20:57:42+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5493",
+      "text": "🟡🛩️ Домодедово, UUDD / 100 км (азимуты 090-270)",
+      "sector": {
+        "radiusKm": 100.0,
+        "startAzimuth": 90,
+        "endAzimuth": 270
+      },
+      "inKta": true,
+      "lat": 55.4087122,
+      "lon": 37.9094307
     }
   ],
   "forecasts": [

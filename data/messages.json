@@ -27753,5 +27753,33 @@
         "uncertain": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5493,
+    "timestamp": "2026-11-10T20:57:42+00:00",
+    "text": "🟡🛩️ Домодедово, UUDD / 100 км (азимуты 090-270)",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5493",
+    "events": [
+      {
+        "id": "ea3da983ed756127",
+        "action": "ADD",
+        "name": "Домодедово",
+        "icao": "UUDD",
+        "kind": "airport",
+        "type": "partial",
+        "radiusKm": 100.0,
+        "messageTimestamp": "2026-11-10T20:57:42+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5493",
+        "text": "🟡🛩️ Домодедово, UUDD / 100 км (азимуты 090-270)",
+        "sector": {
+          "radiusKm": 100.0,
+          "startAzimuth": 90,
+          "endAzimuth": 270
+        },
+        "inKta": true
+      }
+    ]
   }
 ]
