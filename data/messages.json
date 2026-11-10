@@ -27344,12 +27344,12 @@
     "chatId": -1003822338715,
     "messageId": 5481,
     "timestamp": "2026-11-09T20:30:28+00:00",
-    "text": "🔴 а/д Северный, Смоленск / 50 км",
+    "text": "🔴 а/д Северный, Смоленск / 50 км\n\nupd: 🟢 а/д Северный, Смоленск",
     "entities": [],
     "sourceUrl": "https://t.me/PlanKoverTDay/5481",
     "events": [
       {
-        "id": "77ffe235ef6383f7",
+        "id": "619ee2d414b88c78",
         "action": "ADD",
         "name": "Северный, Смоленск",
         "icao": null,
@@ -27359,6 +27359,19 @@
         "messageTimestamp": "2026-11-09T20:30:28+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/5481",
         "text": "🔴 а/д Северный, Смоленск / 50 км",
+        "inKta": false
+      },
+      {
+        "id": "99c1b302cfa20a2d",
+        "action": "REMOVE",
+        "name": "Северный, Смоленск",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-09T20:30:28+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5481",
+        "text": "upd: 🟢 а/д Северный, Смоленск",
         "inKta": false
       }
     ]
