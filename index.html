@@ -803,8 +803,9 @@
     for(const forecast of allForecasts){
       const article=document.createElement("article");
       article.style.cssText="padding:9px 0;border-top:1px solid #2a394b;font-size:12px;line-height:1.5;color:#e0e8f2;white-space:pre-wrap;overflow-wrap:anywhere";
+      const label=forecast.label || ("⚠️"===((forecast.text||"").trim().slice(0,2)) ? "Оперативный" : "Прогноз");
       const when=forecast.timestamp ? new Date(forecast.timestamp).toLocaleString("ru-RU",{timeZone:"Europe/Moscow",day:"2-digit",month:"2-digit",hour:"2-digit",minute:"2-digit"})+" МСК · " : "";
-      article.textContent=when+forecast.text;
+      article.textContent=label.toUpperCase()+" · "+when+forecast.text;
       if(forecast.sourceUrl){const link=document.createElement("a");link.href=forecast.sourceUrl;link.target="_blank";link.rel="noreferrer";link.textContent="Открыть сообщение ↗";link.style.cssText="display:block;margin-top:5px;color:#a7c7ff";article.appendChild(link)}
       list.appendChild(article);
     }
