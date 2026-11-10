@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T20:05:35.216374+00:00",
+  "updatedAt": "2026-11-10T20:30:20.454980+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -226,13 +226,44 @@
         }
       ],
       "inKta": false
+    },
+    {
+      "id": "ed94eb7d061885b4",
+      "action": "ADD",
+      "name": "Старая Русса",
+      "icao": null,
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 100.0,
+      "messageTimestamp": "2026-11-10T20:28:57+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5490",
+      "text": "🔴 а/д Старая Русса / 100 км",
+      "inKta": false,
+      "lat": 57.9601551,
+      "lon": 31.3840079
+    },
+    {
+      "id": "6823a20848045f91",
+      "action": "ADD",
+      "name": "Дубна",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 20.0,
+      "messageTimestamp": "2026-11-10T20:28:57+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5490",
+      "text": "🔴 Дубна / 20 км",
+      "inKta": false,
+      "lat": 56.7362705,
+      "lon": 37.1623696
     }
   ],
   "forecasts": [
     {
-      "timestamp": "2026-11-08T20:12:32+00:00",
-      "text": "📌 Прогноз.\n\nСегодня ожидаем ограничения в ряде регионов Центрального ФО (Калуга, Москва и др.), либо же Северо-Западного ФО (Псков, Санкт-Петербург (!) и др.)\n\nТакже возможны ковры в западной части ПФО",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5462"
+      "label": "Оперативный",
+      "timestamp": "2026-11-10T20:12:58+00:00",
+      "text": "⚠️ В течение нескольких часов ожидаются полные ограничения в Ленинградской области, аэропорт Пулково, возможно, будет закрыт до раннего утра.",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5489"
     }
   ]
 }
