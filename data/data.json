@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T19:55:17.420360+00:00",
+  "updatedAt": "2026-11-10T20:00:18.894723+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -142,7 +142,7 @@
       "lon": 32.0231288
     },
     {
-      "id": "9e9c9491e6827a19",
+      "id": "bc49c79825bc138e",
       "action": "ADD",
       "name": "Внуково",
       "icao": "UUWW",
@@ -162,7 +162,7 @@
       "lon": 37.2735752
     },
     {
-      "id": "58cafa0a82dac860",
+      "id": "7b1af6ac66a8f49b",
       "action": "ADD",
       "name": "Великие Луки",
       "icao": null,
@@ -177,7 +177,7 @@
       "lon": 30.527922
     },
     {
-      "id": "7dea7d1ffcbcd3f7",
+      "id": "f129336017ca8ce6",
       "action": "ADD",
       "name": "Валдай",
       "icao": null,
@@ -190,6 +190,36 @@
       "inKta": false,
       "lat": 57.9791414,
       "lon": 33.2537994
+    },
+    {
+      "id": "ec0756b8efd9b6d5",
+      "action": "ADD",
+      "name": "Михайлов",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 70.0,
+      "messageTimestamp": "2026-11-10T18:24:01+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5487",
+      "text": "🔴 Михайлов / 70 км",
+      "inKta": false,
+      "lat": 54.2301856,
+      "lon": 39.0274629
+    },
+    {
+      "id": "064912776c7e86d8",
+      "action": "ADD",
+      "name": "Псков",
+      "icao": "ULOO",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-10T19:55:36+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5488",
+      "text": "🔴🛩️ Псков, ULOO",
+      "inKta": true,
+      "lat": 57.7594629,
+      "lon": 29.5587337
     }
   ],
   "forecasts": [
