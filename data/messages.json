@@ -28020,5 +28020,131 @@
         "sourceUrl": "https://t.me/PlanKoverTDay/5499"
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5500,
+    "timestamp": "2026-11-10T23:48:55+00:00",
+    "text": "🟢🛩️ Калуга - Грабцево, UUBC",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5500",
+    "events": [
+      {
+        "id": "6cd85f5ebe1a249b",
+        "action": "REMOVE",
+        "name": "Грабцево",
+        "icao": "UUBC",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-10T23:48:55+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5500",
+        "text": "🟢🛩️ Калуга - Грабцево, UUBC",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5501,
+    "timestamp": "2026-11-10T23:49:38+00:00",
+    "text": "⬜️ Аэропорты\n\n— ВНУКОВО\n\n— ДОМОДЕДОВО\n\n✈️СНЯТЫ ограничения на прием и выпуск воздушных судов. \n\n✈️Ограничения вводили для обеспечения безопасности полетов.\n\n✈ Говорит Росавиация | MАХ",
+    "entities": [
+      {
+        "offset": 16,
+        "length": 7,
+        "type": "bold"
+      },
+      {
+        "offset": 27,
+        "length": 10,
+        "type": "bold"
+      },
+      {
+        "offset": 41,
+        "length": 5,
+        "type": "bold"
+      },
+      {
+        "offset": 46,
+        "length": 1,
+        "type": "italic"
+      },
+      {
+        "offset": 47,
+        "length": 11,
+        "type": "bold"
+      },
+      {
+        "offset": 59,
+        "length": 17,
+        "type": "bold"
+      },
+      {
+        "offset": 98,
+        "length": 57,
+        "type": "italic"
+      },
+      {
+        "offset": 159,
+        "length": 18,
+        "type": "text_link",
+        "url": "https://t.me/favt_ru"
+      },
+      {
+        "offset": 180,
+        "length": 3,
+        "type": "text_link",
+        "url": "https://max.ru/favt_info"
+      }
+    ],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5501",
+    "events": [
+      {
+        "id": "93e467bb17cfdb07",
+        "action": "REMOVE",
+        "name": "ВНУКОВО",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "messageTimestamp": "2026-11-10T23:49:38+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5501",
+        "text": "⬜️ Аэропорты"
+      },
+      {
+        "id": "dcb62c156cb5dcbb",
+        "action": "REMOVE",
+        "name": "ДОМОДЕДОВО",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "messageTimestamp": "2026-11-10T23:49:38+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5501",
+        "text": "⬜️ Аэропорты"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5502,
+    "timestamp": "2026-11-10T23:49:51+00:00",
+    "text": "🔴🛩️ Геленджик, URKG",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5502",
+    "events": [
+      {
+        "id": "b846c76565fad3be",
+        "action": "ADD",
+        "name": "Геленджик",
+        "icao": "URKG",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-10T23:49:51+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5502",
+        "text": "🔴🛩️ Геленджик, URKG",
+        "inKta": true
+      }
+    ]
   }
 ]

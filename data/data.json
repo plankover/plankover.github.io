@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T21:55:16.914951+00:00",
+  "updatedAt": "2026-11-10T23:50:16.067096+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -66,21 +66,6 @@
       "lon": 46.2481942
     },
     {
-      "id": "25a5d5d0796055bd",
-      "action": "ADD",
-      "name": "Грабцево",
-      "icao": "UUBC",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": 70.0,
-      "messageTimestamp": "2026-11-10T15:33:11+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5484",
-      "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км",
-      "inKta": true,
-      "lat": 54.5488708,
-      "lon": 36.3697725
-    },
-    {
       "id": "0ae289aa015a32d8",
       "action": "ADD",
       "name": "Ермолино",
@@ -139,26 +124,6 @@
       "inKta": false,
       "lat": 54.823085,
       "lon": 32.0231288
-    },
-    {
-      "id": "bc49c79825bc138e",
-      "action": "ADD",
-      "name": "Внуково",
-      "icao": "UUWW",
-      "kind": "airport",
-      "type": "partial",
-      "radiusKm": 100.0,
-      "messageTimestamp": "2026-11-10T18:24:01+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5487",
-      "text": "🟡🛩️ Москва - Внуково, UUWW / 100 км (азимуты 150-330)",
-      "sector": {
-        "radiusKm": 100.0,
-        "startAzimuth": 150,
-        "endAzimuth": 330
-      },
-      "inKta": true,
-      "lat": 55.5995278,
-      "lon": 37.2735752
     },
     {
       "id": "7b1af6ac66a8f49b",
@@ -344,26 +309,6 @@
       "lon": 45.6592781
     },
     {
-      "id": "ea3da983ed756127",
-      "action": "ADD",
-      "name": "Домодедово",
-      "icao": "UUDD",
-      "kind": "airport",
-      "type": "partial",
-      "radiusKm": 100.0,
-      "messageTimestamp": "2026-11-10T20:57:42+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5493",
-      "text": "🟡🛩️ Домодедово, UUDD / 100 км (азимуты 090-270)",
-      "sector": {
-        "radiusKm": 100.0,
-        "startAzimuth": 90,
-        "endAzimuth": 270
-      },
-      "inKta": true,
-      "lat": 55.4087122,
-      "lon": 37.9094307
-    },
-    {
       "id": "50252ef044334d80",
       "action": "ADD",
       "name": "Туношна",
@@ -377,21 +322,6 @@
       "inKta": true,
       "lat": 57.5604597,
       "lon": 40.1579512
-    },
-    {
-      "id": "7d83f1d4f25d9304",
-      "action": "ADD",
-      "name": "Домодедово",
-      "icao": "UUDD",
-      "kind": "airport",
-      "type": "partial",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-10T21:15:13+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5495",
-      "text": "🟡🛩️ Москва - Домодедово, UUDD",
-      "inKta": true,
-      "lat": 55.4087122,
-      "lon": 37.9094307
     },
     {
       "id": "b0f912945339d0ea",
@@ -461,6 +391,21 @@
       "inKta": true,
       "lat": 59.8016986,
       "lon": 30.2676011
+    },
+    {
+      "id": "b846c76565fad3be",
+      "action": "ADD",
+      "name": "Геленджик",
+      "icao": "URKG",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-10T23:49:51+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5502",
+      "text": "🔴🛩️ Геленджик, URKG",
+      "inKta": true,
+      "lat": 44.58209,
+      "lon": 38.01248
     }
   ],
   "forecasts": [
