@@ -27498,12 +27498,12 @@
     "chatId": -1003822338715,
     "messageId": 5486,
     "timestamp": "2026-11-10T17:49:33+00:00",
-    "text": "🔴 а/д Северный, Смоленск / 50 км",
+    "text": "🔴 а/д Северный, Смоленск / 50 км\n🔴 а/д Клоково, Тула / 70 км",
     "entities": [],
     "sourceUrl": "https://t.me/PlanKoverTDay/5486",
     "events": [
       {
-        "id": "1065b1087bd69a26",
+        "id": "e9f7de25a40e37f3",
         "action": "ADD",
         "name": "Северный, Смоленск",
         "icao": null,
@@ -27513,6 +27513,19 @@
         "messageTimestamp": "2026-11-10T17:49:33+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/5486",
         "text": "🔴 а/д Северный, Смоленск / 50 км",
+        "inKta": false
+      },
+      {
+        "id": "67bae864445cd9c8",
+        "action": "ADD",
+        "name": "Клоково, Тула",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-11-10T17:49:33+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5486",
+        "text": "🔴 а/д Клоково, Тула / 70 км",
         "inKta": false
       }
     ]
@@ -27588,22 +27601,29 @@
     "chatId": -1003822338715,
     "messageId": 5488,
     "timestamp": "2026-11-10T19:55:36+00:00",
-    "text": "🔴🛩️ Псков, ULOO",
+    "text": "🔴 Порхов (🛩️ Псков, ULOO) / 100 км",
     "entities": [],
     "sourceUrl": "https://t.me/PlanKoverTDay/5488",
     "events": [
       {
-        "id": "064912776c7e86d8",
+        "id": "f862a50ff624f02a",
         "action": "ADD",
-        "name": "Псков",
-        "icao": "ULOO",
-        "kind": "airport",
+        "name": "Порхов",
+        "icao": null,
+        "kind": "city",
         "type": "full",
-        "radiusKm": null,
+        "radiusKm": 100.0,
         "messageTimestamp": "2026-11-10T19:55:36+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/5488",
-        "text": "🔴🛩️ Псков, ULOO",
-        "inKta": true
+        "text": "🔴 Порхов (🛩️ Псков, ULOO) / 100 км",
+        "affectedAirports": [
+          {
+            "name": "Псков",
+            "icao": "ULOO",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false
       }
     ]
   }

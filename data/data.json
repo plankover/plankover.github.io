@@ -1,20 +1,19 @@
 {
-  "updatedAt": "2026-11-10T20:00:18.894723+00:00",
+  "updatedAt": "2026-11-10T20:05:35.216374+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
-      "id": "cf28d96bdbd27047",
+      "id": "67bae864445cd9c8",
       "action": "ADD",
       "name": "Клоково, Тула",
       "icao": null,
       "kind": "airport",
       "type": "full",
       "radiusKm": 70.0,
-      "messageTimestamp": "2026-11-09T04:10:26+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5477",
+      "messageTimestamp": "2026-11-10T17:49:33+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5486",
       "text": "🔴 а/д Клоково, Тула / 70 км",
       "inKta": false,
-      "snapshot": true,
       "lat": 54.2418249,
       "lon": 37.6000197
     },
@@ -127,7 +126,7 @@
       "lon": 36.0213092
     },
     {
-      "id": "1065b1087bd69a26",
+      "id": "e9f7de25a40e37f3",
       "action": "ADD",
       "name": "Северный, Смоленск",
       "icao": null,
@@ -207,19 +206,26 @@
       "lon": 39.0274629
     },
     {
-      "id": "064912776c7e86d8",
+      "id": "f862a50ff624f02a",
       "action": "ADD",
-      "name": "Псков",
-      "icao": "ULOO",
-      "kind": "airport",
+      "name": "Порхов",
+      "icao": null,
+      "kind": "city",
       "type": "full",
-      "radiusKm": null,
+      "radiusKm": 100.0,
       "messageTimestamp": "2026-11-10T19:55:36+00:00",
       "sourceUrl": "https://t.me/PlanKoverTDay/5488",
-      "text": "🔴🛩️ Псков, ULOO",
-      "inKta": true,
-      "lat": 57.7594629,
-      "lon": 29.5587337
+      "text": "🔴 Порхов (🛩️ Псков, ULOO) / 100 км",
+      "affectedAirports": [
+        {
+          "name": "Псков",
+          "icao": "ULOO",
+          "kind": "airport",
+          "lat": 57.7594629,
+          "lon": 29.5587337
+        }
+      ],
+      "inKta": false
     }
   ],
   "forecasts": [
