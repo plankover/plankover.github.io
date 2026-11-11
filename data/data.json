@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T11:15:17.402669+00:00",
+  "updatedAt": "2026-11-11T13:15:17.485454+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -214,21 +214,6 @@
       "inKta": false,
       "lat": 59.450325,
       "lon": 32.010578
-    },
-    {
-      "id": "8240e0e4a2921230",
-      "action": "ADD",
-      "name": "Рощино",
-      "icao": "USTR",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-11T08:01:07+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5523",
-      "text": "🔴🛩️ Тюмень - Рощино, USTR",
-      "inKta": true,
-      "lat": 57.1799511,
-      "lon": 65.3494166
     },
     {
       "id": "5994fb10ed2d66a6",
