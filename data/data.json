@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T09:40:17.468704+00:00",
+  "updatedAt": "2026-11-11T09:45:17.934401+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -244,36 +244,6 @@
       "inKta": true,
       "lat": 58.5021703,
       "lon": 49.3399536
-    },
-    {
-      "id": "6e21f7282de5e586",
-      "action": "ADD",
-      "name": "Бегишево",
-      "icao": "UWKE",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-11T04:20:34+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5515",
-      "text": "🔴🛩️ Нижнекамск - Бегишево, UWKE ",
-      "inKta": true,
-      "lat": 55.5655378,
-      "lon": 52.0988028
-    },
-    {
-      "id": "e45f923e403119de",
-      "action": "ADD",
-      "name": "Чебоксары",
-      "icao": "UWKS",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-11T04:20:34+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5515",
-      "text": "🔴🛩️ Чебоксары, UWKS",
-      "inKta": true,
-      "lat": 56.0880752,
-      "lon": 47.3382761
     },
     {
       "id": "be56da4ba837a081",

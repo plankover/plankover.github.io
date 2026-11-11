@@ -29183,5 +29183,41 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5529,
+    "timestamp": "2026-11-11T09:41:15+00:00",
+    "text": "🟢🛩️ Нижнекамск - Бегишево, UWKE\n🟢🛩️ Чебоксары, UWKS",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5529",
+    "events": [
+      {
+        "id": "7e4b65a4b24a06ba",
+        "action": "REMOVE",
+        "name": "Бегишево",
+        "icao": "UWKE",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-11T09:41:15+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5529",
+        "text": "🟢🛩️ Нижнекамск - Бегишево, UWKE",
+        "inKta": true
+      },
+      {
+        "id": "5ec80463fe2b4472",
+        "action": "REMOVE",
+        "name": "Чебоксары",
+        "icao": "UWKS",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-11T09:41:15+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5529",
+        "text": "🟢🛩️ Чебоксары, UWKS",
+        "inKta": true
+      }
+    ]
   }
 ]
