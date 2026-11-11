@@ -29044,5 +29044,41 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5526,
+    "timestamp": "2026-11-11T09:10:51+00:00",
+    "text": "🟢🛩️ Апатиты - Хибины, UULM\n🟢🛩️ Мурманск, ULMM",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5526",
+    "events": [
+      {
+        "id": "6d6826fdda1fe1e2",
+        "action": "REMOVE",
+        "name": "Хибины",
+        "icao": "UULM",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-11T09:10:51+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5526",
+        "text": "🟢🛩️ Апатиты - Хибины, UULM",
+        "inKta": true
+      },
+      {
+        "id": "e476dad112645b73",
+        "action": "REMOVE",
+        "name": "Мурманск",
+        "icao": "ULMM",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-11T09:10:51+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5526",
+        "text": "🟢🛩️ Мурманск, ULMM",
+        "inKta": true
+      }
+    ]
   }
 ]
