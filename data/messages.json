@@ -29242,5 +29242,41 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5531,
+    "timestamp": "2026-11-11T10:29:20+00:00",
+    "text": "🟢🛩️ Ижевск, USII\n🟢🛩️ Киров - Победилово, USPP",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5531",
+    "events": [
+      {
+        "id": "fa3d8917ee4654c0",
+        "action": "REMOVE",
+        "name": "Ижевск",
+        "icao": "USII",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-11T10:29:20+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5531",
+        "text": "🟢🛩️ Ижевск, USII",
+        "inKta": true
+      },
+      {
+        "id": "373a18ff81b6ff4c",
+        "action": "REMOVE",
+        "name": "Победилово",
+        "icao": "USPP",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-11T10:29:20+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5531",
+        "text": "🟢🛩️ Киров - Победилово, USPP",
+        "inKta": true
+      }
+    ]
   }
 ]
