@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T04:05:16.924661+00:00",
+  "updatedAt": "2026-11-11T04:10:18.044704+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -171,28 +171,6 @@
       "lon": 39.0274629
     },
     {
-      "id": "f862a50ff624f02a",
-      "action": "ADD",
-      "name": "Порхов",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": 100.0,
-      "messageTimestamp": "2026-11-10T19:55:36+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5488",
-      "text": "🔴 Порхов (🛩️ Псков, ULOO) / 100 км",
-      "affectedAirports": [
-        {
-          "name": "Псков",
-          "icao": "ULOO",
-          "kind": "airport",
-          "lat": 57.7594629,
-          "lon": 29.5587337
-        }
-      ],
-      "inKta": false
-    },
-    {
       "id": "ed94eb7d061885b4",
       "action": "ADD",
       "name": "Старая Русса",
@@ -309,21 +287,6 @@
       "lon": 45.6592781
     },
     {
-      "id": "b0f912945339d0ea",
-      "action": "ADD",
-      "name": "Череповец",
-      "icao": "ULWC",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": 50.0,
-      "messageTimestamp": "2026-11-10T21:22:03+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5496",
-      "text": "🔴🛩️ Череповец, ULWC / 50 км",
-      "inKta": true,
-      "lat": 59.2778367,
-      "lon": 38.0206535
-    },
-    {
       "id": "11043645b17de91b",
       "action": "ADD",
       "name": "Кёрстово",
@@ -376,21 +339,6 @@
       "inKta": true,
       "lat": 59.8016986,
       "lon": 30.2676011
-    },
-    {
-      "id": "8e3d132310b61f40",
-      "action": "ADD",
-      "name": "Бесовец",
-      "icao": "ULHP",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-11T00:44:48+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5504",
-      "text": "🔴🛩️ Петрозаводск - Бесовец, ULHP",
-      "inKta": true,
-      "lat": 61.8871903,
-      "lon": 34.1469459
     },
     {
       "id": "f825c03f581b0527",
