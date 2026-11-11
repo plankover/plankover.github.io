@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T20:54:03.949474+00:00",
+  "updatedAt": "2026-11-11T21:05:17.501862+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -19,36 +19,6 @@
       "lon": 36.3697725
     },
     {
-      "id": "7c3290dda9a0fcb5",
-      "action": "ADD",
-      "name": "Домодедово",
-      "icao": "UUDD",
-      "kind": "airport",
-      "type": "partial",
-      "radiusKm": 100.0,
-      "messageTimestamp": "2026-11-11T20:30:04+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5539",
-      "text": "🟡🛩️ Домодедово, UUDD (🔴🛩️ Жуковский, UUBW) / 100 км (азимуты 030-180)",
-      "sector": {
-        "radiusKm": 100.0,
-        "startAzimuth": 30,
-        "endAzimuth": 180
-      },
-      "affectedAirports": [
-        {
-          "name": "🔴🛩️ Жуковский",
-          "icao": "UUBW",
-          "kind": "airport",
-          "lat": 55.5496554,
-          "lon": 38.1547897
-        }
-      ],
-      "inKta": true,
-      "snapshot": true,
-      "lat": 55.4087122,
-      "lon": 37.9094307
-    },
-    {
       "id": "471c93258d51dd5b",
       "action": "ADD",
       "name": "Клоково, Тула",
@@ -63,21 +33,6 @@
       "snapshot": true,
       "lat": 54.2418249,
       "lon": 37.6000197
-    },
-    {
-      "id": "730b5c8c090d37cf",
-      "action": "ADD",
-      "name": "Раменское",
-      "icao": "UUBW",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-11T20:30:40+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5540",
-      "text": "🔴🛩️ Жуковский - Раменское, UUBW",
-      "inKta": true,
-      "lat": 55.5496554,
-      "lon": 38.1547897
     },
     {
       "id": "9c6be2fdfe6d10e4",
