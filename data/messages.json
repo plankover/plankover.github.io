@@ -28215,5 +28215,71 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5506,
+    "timestamp": "2026-11-11T02:49:47+00:00",
+    "text": "⛔️ Аэропорты\n\n— БУГУЛЬМА\n\n— КАЗАНЬ\n\n— НИЖНЕКАМСК (Бегишево)\n\n— ЧЕБОКСАРЫ\n\n✈️ВВЕДЕНЫ временные ограничения на прием и выпуск воздушных судов.\n\n✈️Ограничения необходимы для обеспечения безопасности полетов.\n\n✈Говорит Росавиация | MAX",
+    "entities": [
+      {
+        "offset": 16,
+        "length": 8,
+        "type": "bold"
+      },
+      {
+        "offset": 28,
+        "length": 6,
+        "type": "bold"
+      },
+      {
+        "offset": 38,
+        "length": 10,
+        "type": "bold"
+      },
+      {
+        "offset": 49,
+        "length": 10,
+        "type": "italic"
+      },
+      {
+        "offset": 63,
+        "length": 9,
+        "type": "bold"
+      },
+      {
+        "offset": 76,
+        "length": 29,
+        "type": "bold"
+      },
+      {
+        "offset": 144,
+        "length": 60,
+        "type": "italic"
+      },
+      {
+        "offset": 207,
+        "length": 18,
+        "type": "text_link",
+        "url": "https://t.me/favt_ru"
+      },
+      {
+        "offset": 228,
+        "length": 3,
+        "type": "text_link",
+        "url": "https://max.ru/favt_info"
+      }
+    ],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5506",
+    "events": [
+      {
+        "id": "a0074bb0ca526ac3",
+        "action": "ADD",
+        "messageTimestamp": "2026-11-11T02:49:47+00:00",
+        "text": "⛔️ Аэропорты\n\n— БУГУЛЬМА\n\n— КАЗАНЬ\n\n— НИЖНЕКАМСК (Бегишево)\n\n— ЧЕБОКСАРЫ\n\n✈️ВВЕДЕНЫ временные ограничения на прием и выпуск воздушных судов.\n\n✈️Ограничения необходимы для обеспечения безопасности полетов.\n\n✈Говорит Росавиация | MAX",
+        "unresolved": true,
+        "sourceUrl": "https://t.me/PlanKoverTDay/5506"
+      }
+    ]
   }
 ]
