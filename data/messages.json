@@ -28169,5 +28169,28 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5504,
+    "timestamp": "2026-11-11T00:44:48+00:00",
+    "text": "🔴🛩️ Петрозаводск - Бесовец, ULHP",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5504",
+    "events": [
+      {
+        "id": "8e3d132310b61f40",
+        "action": "ADD",
+        "name": "Бесовец",
+        "icao": "ULHP",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-11T00:44:48+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5504",
+        "text": "🔴🛩️ Петрозаводск - Бесовец, ULHP",
+        "inKta": true
+      }
+    ]
   }
 ]

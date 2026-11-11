@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T00:00:19.712184+00:00",
+  "updatedAt": "2026-11-11T00:45:19.682964+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -421,6 +421,21 @@
       "inKta": true,
       "lat": 45.033714,
       "lon": 39.1814429
+    },
+    {
+      "id": "8e3d132310b61f40",
+      "action": "ADD",
+      "name": "Бесовец",
+      "icao": "ULHP",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-11T00:44:48+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5504",
+      "text": "🔴🛩️ Петрозаводск - Бесовец, ULHP",
+      "inKta": true,
+      "lat": 61.8871903,
+      "lon": 34.1469459
     }
   ],
   "forecasts": [
