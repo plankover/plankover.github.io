@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T06:40:21.196050+00:00",
+  "updatedAt": "2026-11-11T07:25:17.731346+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -216,21 +216,6 @@
       "lon": 32.010578
     },
     {
-      "id": "f825c03f581b0527",
-      "action": "ADD",
-      "name": "Баратаевка",
-      "icao": "UWLW",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-11T01:38:01+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5505",
-      "text": "🔴🛩️ Ульяновск - Баратаевка, UWLW",
-      "inKta": true,
-      "lat": 54.2690213,
-      "lon": 48.2248287
-    },
-    {
       "id": "1eb8e9be8f179d0e",
       "action": "ADD",
       "name": "Уфа",
@@ -244,21 +229,6 @@
       "inKta": true,
       "lat": 54.5543582,
       "lon": 55.8822099
-    },
-    {
-      "id": "c1ef76c845cfae70",
-      "action": "ADD",
-      "name": "Курумоч",
-      "icao": "UWWW",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-11T04:20:34+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5515",
-      "text": "🔴🛩️ Самара - Курумоч, UWWW ",
-      "inKta": true,
-      "lat": 53.5057511,
-      "lon": 50.1569939
     },
     {
       "id": "3c5e2b57c1127147",
@@ -332,21 +302,6 @@
       "inKta": true,
       "lat": 55.5655378,
       "lon": 52.0988028
-    },
-    {
-      "id": "e638fa94e315ebb8",
-      "action": "ADD",
-      "name": "Баратаевка",
-      "icao": "UWLL",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-11T04:20:34+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5515",
-      "text": "🔴🛩️ Ульяновск - Баратаевка, UWLL ",
-      "inKta": true,
-      "lat": 54.2690213,
-      "lon": 48.2248287
     },
     {
       "id": "e45f923e403119de",

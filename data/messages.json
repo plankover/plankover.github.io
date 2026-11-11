@@ -28913,5 +28913,41 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5522,
+    "timestamp": "2026-11-11T07:22:50+00:00",
+    "text": "🟢🛩️ Самара - Курумоч, UWWW\n🟢🛩️ Ульяновск - Баратаевка, UWLW",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5522",
+    "events": [
+      {
+        "id": "02ab537ab3712fe3",
+        "action": "REMOVE",
+        "name": "Курумоч",
+        "icao": "UWWW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-11T07:22:50+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5522",
+        "text": "🟢🛩️ Самара - Курумоч, UWWW",
+        "inKta": true
+      },
+      {
+        "id": "79b2affd794183e4",
+        "action": "REMOVE",
+        "name": "Баратаевка",
+        "icao": "UWLW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-11T07:22:50+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5522",
+        "text": "🟢🛩️ Ульяновск - Баратаевка, UWLW",
+        "inKta": true
+      }
+    ]
   }
 ]
