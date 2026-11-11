@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T23:00:16.815536+00:00",
+  "updatedAt": "2026-11-11T23:10:18.865919+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -48,21 +48,6 @@
       "inKta": false,
       "lat": 56.1555332,
       "lon": 38.8326305
-    },
-    {
-      "id": "ed6c79f9bd6cb33d",
-      "action": "ADD",
-      "name": "Домодедово",
-      "icao": "UUDD",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-11T22:59:48+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5544",
-      "text": "🔴🛩️ Москва - Домодедово, UUDD",
-      "inKta": true,
-      "lat": 55.4087122,
-      "lon": 37.9094307
     }
   ],
   "forecasts": [
