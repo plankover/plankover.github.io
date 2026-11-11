@@ -29278,5 +29278,41 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5532,
+    "timestamp": "2026-11-11T11:14:07+00:00",
+    "text": "🟢🛩️ Советский - Советский, USHS\n🟢🛩️ Урай - Урай, USRU",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5532",
+    "events": [
+      {
+        "id": "56993e188cd06757",
+        "action": "REMOVE",
+        "name": "Советский",
+        "icao": "USHS",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-11T11:14:07+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5532",
+        "text": "🟢🛩️ Советский - Советский, USHS",
+        "inKta": true
+      },
+      {
+        "id": "dbc4c0244e9fc315",
+        "action": "REMOVE",
+        "name": "Урай",
+        "icao": "USRU",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-11T11:14:07+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5532",
+        "text": "🟢🛩️ Урай - Урай, USRU",
+        "inKta": true
+      }
+    ]
   }
 ]

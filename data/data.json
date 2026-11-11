@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T10:30:20.074304+00:00",
+  "updatedAt": "2026-11-11T11:15:17.402669+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -216,21 +216,6 @@
       "lon": 32.010578
     },
     {
-      "id": "be56da4ba837a081",
-      "action": "ADD",
-      "name": "Советский",
-      "icao": "USHS",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-11T08:01:07+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5523",
-      "text": "🔴🛩️ Советский, USHS",
-      "inKta": true,
-      "lat": 61.3245161,
-      "lon": 63.6075319
-    },
-    {
       "id": "8240e0e4a2921230",
       "action": "ADD",
       "name": "Рощино",
@@ -244,21 +229,6 @@
       "inKta": true,
       "lat": 57.1799511,
       "lon": 65.3494166
-    },
-    {
-      "id": "bc2f3def69927abf",
-      "action": "ADD",
-      "name": "Урай",
-      "icao": "USRU",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-11T08:01:07+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5523",
-      "text": "🔴🛩️ Урай, USRU",
-      "inKta": true,
-      "lat": 60.107211,
-      "lon": 64.8255174
     },
     {
       "id": "5994fb10ed2d66a6",
