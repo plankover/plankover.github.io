@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T05:20:16.467807+00:00",
+  "updatedAt": "2026-11-11T06:40:21.196050+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -377,6 +377,36 @@
       "inKta": true,
       "lat": 56.7445764,
       "lon": 60.8027902
+    },
+    {
+      "id": "bddb1d72268f5e3b",
+      "action": "ADD",
+      "name": "Хибины",
+      "icao": "UULM",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-11T06:37:37+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5521",
+      "text": "🔴🛩️ Апатиты - Хибины, UULM",
+      "inKta": true,
+      "lat": 67.4631634,
+      "lon": 33.585584
+    },
+    {
+      "id": "91f445eba54913cd",
+      "action": "ADD",
+      "name": "Мурманск",
+      "icao": "ULMM",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-11T06:37:37+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5521",
+      "text": "🔴🛩️ Мурманск, ULMM",
+      "inKta": true,
+      "lat": 68.7809016,
+      "lon": 32.758228
     }
   ],
   "forecasts": [
