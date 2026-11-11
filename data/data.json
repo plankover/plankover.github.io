@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T08:05:22.858659+00:00",
+  "updatedAt": "2026-11-11T08:40:17.520960+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -407,6 +407,21 @@
       "inKta": true,
       "lat": 60.107211,
       "lon": 64.8255174
+    },
+    {
+      "id": "5994fb10ed2d66a6",
+      "action": "ADD",
+      "name": "Сургут",
+      "icao": "USRR",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-11T08:37:34+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5524",
+      "text": "🔴🛩️ Сургут, USRR",
+      "inKta": true,
+      "lat": 61.3414657,
+      "lon": 73.405212
     }
   ],
   "forecasts": [
