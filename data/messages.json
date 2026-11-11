@@ -29360,5 +29360,28 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5535,
+    "timestamp": "2026-11-11T17:04:36+00:00",
+    "text": "🟢🛩️ Сургут, USRR",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5535",
+    "events": [
+      {
+        "id": "9bf3d8c9d2f658f9",
+        "action": "REMOVE",
+        "name": "Сургут",
+        "icao": "USRR",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-11T17:04:36+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5535",
+        "text": "🟢🛩️ Сургут, USRR",
+        "inKta": true
+      }
+    ]
   }
 ]
