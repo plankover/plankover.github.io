@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T17:40:19.481429+00:00",
+  "updatedAt": "2026-11-11T18:20:17.505800+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -214,21 +214,6 @@
       "inKta": false,
       "lat": 59.450325,
       "lon": 32.010578
-    },
-    {
-      "id": "e52d566a2e9b89f9",
-      "action": "ADD",
-      "name": "Центральный",
-      "icao": "UNOO",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-11T09:47:24+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5530",
-      "text": "🔴🛩️ Омск - Центральный, UNOO",
-      "inKta": true,
-      "lat": 46.2031173,
-      "lon": 40.8324415
     },
     {
       "id": "ae7e02c04f3a64af",
