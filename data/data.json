@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T01:40:15.967835+00:00",
+  "updatedAt": "2026-11-11T03:15:17.018738+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -393,36 +393,6 @@
       "lon": 30.2676011
     },
     {
-      "id": "b846c76565fad3be",
-      "action": "ADD",
-      "name": "Геленджик",
-      "icao": "URKG",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-10T23:49:51+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5502",
-      "text": "🔴🛩️ Геленджик, URKG",
-      "inKta": true,
-      "lat": 44.58209,
-      "lon": 38.01248
-    },
-    {
-      "id": "0f77c4298d25b4b4",
-      "action": "ADD",
-      "name": "Пашковский",
-      "icao": "URKK",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-10T23:57:26+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5503",
-      "text": "🔴🛩️ Краснодар - Пашковский, URKK",
-      "inKta": true,
-      "lat": 45.033714,
-      "lon": 39.1814429
-    },
-    {
       "id": "8e3d132310b61f40",
       "action": "ADD",
       "name": "Бесовец",
@@ -451,6 +421,36 @@
       "inKta": true,
       "lat": 54.2690213,
       "lon": 48.2248287
+    },
+    {
+      "id": "a4574187e4eceb03",
+      "action": "ADD",
+      "name": "Победилово",
+      "icao": "USPP",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-11T03:11:07+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5507",
+      "text": "🔴🛩️ Киров - Победилово, USPP",
+      "inKta": true,
+      "lat": 57.9153712,
+      "lon": 56.0283146
+    },
+    {
+      "id": "1c465aa6e5221d17",
+      "action": "ADD",
+      "name": "Уфа",
+      "icao": "UWUU",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-11T03:13:18+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5509",
+      "text": "🔴🛩️ Уфа, UWUU",
+      "inKta": true,
+      "lat": 54.5543582,
+      "lon": 55.8822099
     }
   ],
   "forecasts": [

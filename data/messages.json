@@ -28281,5 +28281,87 @@
         "sourceUrl": "https://t.me/PlanKoverTDay/5506"
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5507,
+    "timestamp": "2026-11-11T03:11:07+00:00",
+    "text": "🔴🛩️ Киров - Победилово, USPP",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5507",
+    "events": [
+      {
+        "id": "a4574187e4eceb03",
+        "action": "ADD",
+        "name": "Победилово",
+        "icao": "USPP",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-11T03:11:07+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5507",
+        "text": "🔴🛩️ Киров - Победилово, USPP",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5508,
+    "timestamp": "2026-11-11T03:11:50+00:00",
+    "text": "🟢🛩️ Геленджик, URKG\n🟢🛩️ Краснодар - Пашковский, URKK",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5508",
+    "events": [
+      {
+        "id": "f1a1e35c6a7ba2ec",
+        "action": "REMOVE",
+        "name": "Геленджик",
+        "icao": "URKG",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-11T03:11:50+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5508",
+        "text": "🟢🛩️ Геленджик, URKG",
+        "inKta": true
+      },
+      {
+        "id": "0ea5bf8435826650",
+        "action": "REMOVE",
+        "name": "Пашковский",
+        "icao": "URKK",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-11T03:11:50+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5508",
+        "text": "🟢🛩️ Краснодар - Пашковский, URKK",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5509,
+    "timestamp": "2026-11-11T03:13:18+00:00",
+    "text": "🔴🛩️ Уфа, UWUU",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5509",
+    "events": [
+      {
+        "id": "1c465aa6e5221d17",
+        "action": "ADD",
+        "name": "Уфа",
+        "icao": "UWUU",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-11T03:13:18+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5509",
+        "text": "🔴🛩️ Уфа, UWUU",
+        "inKta": true
+      }
+    ]
   }
 ]
