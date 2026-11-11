@@ -28470,12 +28470,12 @@
     "chatId": -1003822338715,
     "messageId": 5513,
     "timestamp": "2026-11-11T04:07:44+00:00",
-    "text": "🟢🛩️ Петрозаводск - Бесовец, ULHP\n🟢🛩️ Псков - Кресты, ULOO\n🟢🛩️ Череповец, ULWC",
+    "text": "🟢🛩️ Петрозаводск - Бесовец, ULHP\n🟢🛩️ Псков, ULOO\n🟢🛩️ Череповец, ULWC",
     "entities": [],
     "sourceUrl": "https://t.me/PlanKoverTDay/5513",
     "events": [
       {
-        "id": "7cfb51a335763d4c",
+        "id": "0e7905c9d61d1086",
         "action": "REMOVE",
         "name": "Бесовец",
         "icao": "ULHP",
@@ -28488,20 +28488,20 @@
         "inKta": true
       },
       {
-        "id": "fcd83b324ce41568",
+        "id": "6946c333d3c9b613",
         "action": "REMOVE",
-        "name": "Кресты",
+        "name": "Псков",
         "icao": "ULOO",
         "kind": "airport",
         "type": "full",
         "radiusKm": null,
         "messageTimestamp": "2026-11-11T04:07:44+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/5513",
-        "text": "🟢🛩️ Псков - Кресты, ULOO",
+        "text": "🟢🛩️ Псков, ULOO",
         "inKta": true
       },
       {
-        "id": "654259effbaa9dd4",
+        "id": "e2a6b1a667ddf522",
         "action": "REMOVE",
         "name": "Череповец",
         "icao": "ULWC",
@@ -28511,6 +28511,29 @@
         "messageTimestamp": "2026-11-11T04:07:44+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/5513",
         "text": "🟢🛩️ Череповец, ULWC",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5514,
+    "timestamp": "2026-11-11T04:15:23+00:00",
+    "text": "🟡🛩️ Санкт-Петербург - Пулково, ULLI",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5514",
+    "events": [
+      {
+        "id": "3f9d783da76d8dbd",
+        "action": "ADD",
+        "name": "Пулково",
+        "icao": "ULLI",
+        "kind": "airport",
+        "type": "partial",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-11T04:15:23+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5514",
+        "text": "🟡🛩️ Санкт-Петербург - Пулково, ULLI",
         "inKta": true
       }
     ]

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T04:10:18.044704+00:00",
+  "updatedAt": "2026-11-11T04:20:17.621321+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -399,6 +399,21 @@
       "inKta": true,
       "lat": 53.5057511,
       "lon": 50.1569939
+    },
+    {
+      "id": "3f9d783da76d8dbd",
+      "action": "ADD",
+      "name": "Пулково",
+      "icao": "ULLI",
+      "kind": "airport",
+      "type": "partial",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-11T04:15:23+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5514",
+      "text": "🟡🛩️ Санкт-Петербург - Пулково, ULLI",
+      "inKta": true,
+      "lat": 59.8016986,
+      "lon": 30.2676011
     }
   ],
   "forecasts": [
