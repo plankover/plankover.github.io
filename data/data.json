@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T04:25:20.176044+00:00",
+  "updatedAt": "2026-11-11T04:30:17.112839+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -287,30 +287,6 @@
       "lon": 45.6592781
     },
     {
-      "id": "11043645b17de91b",
-      "action": "ADD",
-      "name": "Кёрстово",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": 90.0,
-      "messageTimestamp": "2026-11-10T21:38:51+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5497",
-      "text": "🔴 Кёрстово (❔🟡🛩️ Санкт-Петербург - Пулково, ULLI) / 90 км",
-      "affectedAirports": [
-        {
-          "name": "Пулково",
-          "icao": "ULLI",
-          "kind": "airport",
-          "lat": 59.8016986,
-          "lon": 30.2676011
-        }
-      ],
-      "inKta": false,
-      "lat": 59.480228,
-      "lon": 28.782757
-    },
-    {
       "id": "2ef780925f9bd486",
       "action": "ADD",
       "name": "Кириши",
@@ -324,21 +300,6 @@
       "inKta": false,
       "lat": 59.450325,
       "lon": 32.010578
-    },
-    {
-      "id": "33ca555bbe216068",
-      "action": "ADD",
-      "name": "Пулково",
-      "icao": "ULLI",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": 100.0,
-      "messageTimestamp": "2026-11-10T21:47:55+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5498",
-      "text": "🔴🛩️ Санкт-Петербург - Пулково, ULLI / 100 км",
-      "inKta": true,
-      "lat": 59.8016986,
-      "lon": 30.2676011
     },
     {
       "id": "f825c03f581b0527",
@@ -399,21 +360,6 @@
       "inKta": true,
       "lat": 53.5057511,
       "lon": 50.1569939
-    },
-    {
-      "id": "3107010e73ed6e01",
-      "action": "ADD",
-      "name": "Пулково",
-      "icao": "ULLI",
-      "kind": "airport",
-      "type": "partial",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-11T04:20:34+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5515",
-      "text": "🟡🛩️ Санкт-Петербург - Пулково, ULLI",
-      "inKta": true,
-      "lat": 59.8016986,
-      "lon": 30.2676011
     },
     {
       "id": "3c5e2b57c1127147",

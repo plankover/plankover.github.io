@@ -28736,5 +28736,74 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5516,
+    "timestamp": "2026-11-11T04:29:03+00:00",
+    "text": "🟢🛩️ Санкт-Петербург - Пулково, ULLI",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5516",
+    "events": [
+      {
+        "id": "2604a625441bcf82",
+        "action": "REMOVE",
+        "name": "Пулково",
+        "icao": "ULLI",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-11T04:29:03+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5516",
+        "text": "🟢🛩️ Санкт-Петербург - Пулково, ULLI",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5517,
+    "timestamp": "2026-11-11T04:29:10+00:00",
+    "text": "🟢🛩️ Санкт-Петербург - Пулково, ULLI",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5517",
+    "events": [
+      {
+        "id": "afd4c0beb82423f4",
+        "action": "REMOVE",
+        "name": "Пулково",
+        "icao": "ULLI",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-11T04:29:10+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5517",
+        "text": "🟢🛩️ Санкт-Петербург - Пулково, ULLI",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5518,
+    "timestamp": "2026-11-11T04:29:37+00:00",
+    "text": "🟢🛩️ Калининград - Храброво, UMKK",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5518",
+    "events": [
+      {
+        "id": "f9a1ee4965a3d5bc",
+        "action": "REMOVE",
+        "name": "Храброво",
+        "icao": "UMKK",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-11T04:29:37+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5518",
+        "text": "🟢🛩️ Калининград - Храброво, UMKK",
+        "inKta": true
+      }
+    ]
   }
 ]
