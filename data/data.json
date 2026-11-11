@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T04:55:16.157291+00:00",
+  "updatedAt": "2026-11-11T05:20:16.467807+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -362,6 +362,21 @@
       "inKta": true,
       "lat": 56.0880752,
       "lon": 47.3382761
+    },
+    {
+      "id": "2d9a8490454bc688",
+      "action": "ADD",
+      "name": "Кольцово",
+      "icao": "USSS",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-11T05:19:20+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5520",
+      "text": "🔴🛩️ Екатеринбург - Кольцово, USSS",
+      "inKta": true,
+      "lat": 56.7445764,
+      "lon": 60.8027902
     }
   ],
   "forecasts": [
