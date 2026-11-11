@@ -29021,5 +29021,28 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5525,
+    "timestamp": "2026-11-11T08:59:07+00:00",
+    "text": "🟢🛩️ Казань, UWKD",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5525",
+    "events": [
+      {
+        "id": "1413942ff0f2c3af",
+        "action": "REMOVE",
+        "name": "Казань",
+        "icao": "UWKD",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-11T08:59:07+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5525",
+        "text": "🟢🛩️ Казань, UWKD",
+        "inKta": true
+      }
+    ]
   }
 ]
