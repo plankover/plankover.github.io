@@ -29429,5 +29429,250 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5538,
+    "timestamp": "2026-11-11T20:21:05+00:00",
+    "text": "🟡🛩️ Домодедово, UUDD (🔴🛩️ Жуковский, UUBW) / 100 км (азимуты 030-180)",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5538",
+    "events": [
+      {
+        "id": "53ae10aa13fa2c13",
+        "action": "ADD",
+        "name": "Домодедово",
+        "icao": "UUDD",
+        "kind": "airport",
+        "type": "partial",
+        "radiusKm": 100.0,
+        "messageTimestamp": "2026-11-11T20:21:05+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5538",
+        "text": "🟡🛩️ Домодедово, UUDD (🔴🛩️ Жуковский, UUBW) / 100 км (азимуты 030-180)",
+        "sector": {
+          "radiusKm": 100.0,
+          "startAzimuth": 30,
+          "endAzimuth": 180
+        },
+        "affectedAirports": [
+          {
+            "name": "🔴🛩️ Жуковский",
+            "icao": "UUBW",
+            "kind": "airport"
+          }
+        ],
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5539,
+    "timestamp": "2026-11-11T20:30:04+00:00",
+    "text": "🕒 Актуальные ограничения на 23:30 мск\n\n🔴🛩️ Калуга - Грабцево, UUBC / 70 км\n🟡🛩️ Домодедово, UUDD (🔴🛩️ Жуковский, UUBW) / 100 км (азимуты 030-180)\n\n🔴 а/д Клоково, Тула / 70 км",
+    "entities": [
+      {
+        "offset": 0,
+        "length": 2,
+        "type": "custom_emoji",
+        "custom_emoji_id": "6278477897321685413"
+      }
+    ],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5539",
+    "events": [
+      {
+        "id": "eade9390b7c741c5",
+        "action": "ADD",
+        "name": "Грабцево",
+        "icao": "UUBC",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-11-11T20:30:04+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5539",
+        "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км",
+        "inKta": true,
+        "snapshot": true
+      },
+      {
+        "id": "7c3290dda9a0fcb5",
+        "action": "ADD",
+        "name": "Домодедово",
+        "icao": "UUDD",
+        "kind": "airport",
+        "type": "partial",
+        "radiusKm": 100.0,
+        "messageTimestamp": "2026-11-11T20:30:04+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5539",
+        "text": "🟡🛩️ Домодедово, UUDD (🔴🛩️ Жуковский, UUBW) / 100 км (азимуты 030-180)",
+        "sector": {
+          "radiusKm": 100.0,
+          "startAzimuth": 30,
+          "endAzimuth": 180
+        },
+        "affectedAirports": [
+          {
+            "name": "🔴🛩️ Жуковский",
+            "icao": "UUBW",
+            "kind": "airport"
+          }
+        ],
+        "inKta": true,
+        "snapshot": true
+      },
+      {
+        "id": "471c93258d51dd5b",
+        "action": "ADD",
+        "name": "Клоково, Тула",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-11-11T20:30:04+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5539",
+        "text": "🔴 а/д Клоково, Тула / 70 км",
+        "inKta": false,
+        "snapshot": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5540,
+    "timestamp": "2026-11-11T20:30:40+00:00",
+    "text": "🔴🛩️ Жуковский - Раменское, UUBW",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5540",
+    "events": [
+      {
+        "id": "730b5c8c090d37cf",
+        "action": "ADD",
+        "name": "Раменское",
+        "icao": "UUBW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-11T20:30:40+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5540",
+        "text": "🔴🛩️ Жуковский - Раменское, UUBW",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5541,
+    "timestamp": "2026-11-11T20:39:52+00:00",
+    "text": "🟡 Аэропорты \n\n— ДОМОДЕДОВО\n\n— ЖУКОВСКИЙ (Раменское)\n\nпринимают и отправляют рейсы по согласованию с соответствующими органами в связи с введением временных ограничений на использование воздушного пространства в районе авиагаваней. \n\n🗓 Возможны корректировки в расписании рейсов.\n\n❗️Меры приняты для обеспечения безопасности полетов.\n\n🔎 Статус вашего рейса можно уточнить с помощью онлайн-табло аэропортов Домодедово, Жуковский.\n\n✈ Говорит Росавиация | МАХ",
+    "entities": [
+      {
+        "offset": 17,
+        "length": 10,
+        "type": "bold"
+      },
+      {
+        "offset": 31,
+        "length": 9,
+        "type": "bold"
+      },
+      {
+        "offset": 42,
+        "length": 9,
+        "type": "italic"
+      },
+      {
+        "offset": 54,
+        "length": 29,
+        "type": "bold"
+      },
+      {
+        "offset": 98,
+        "length": 1,
+        "type": "bold"
+      },
+      {
+        "offset": 128,
+        "length": 1,
+        "type": "bold"
+      },
+      {
+        "offset": 134,
+        "length": 1,
+        "type": "bold"
+      },
+      {
+        "offset": 136,
+        "length": 1,
+        "type": "bold"
+      },
+      {
+        "offset": 237,
+        "length": 43,
+        "type": "bold"
+      },
+      {
+        "offset": 284,
+        "length": 50,
+        "type": "italic"
+      },
+      {
+        "offset": 408,
+        "length": 10,
+        "type": "text_link",
+        "url": "https://m.dme.ru/passengers/flight/live-board/"
+      },
+      {
+        "offset": 420,
+        "length": 9,
+        "type": "text_link",
+        "url": "https://zia.aero/flights/online-timetable/?ysclid=mqj7rlkggh830019671"
+      },
+      {
+        "offset": 434,
+        "length": 18,
+        "type": "text_link",
+        "url": "https://t.me/favt_ru"
+      },
+      {
+        "offset": 455,
+        "length": 3,
+        "type": "text_link",
+        "url": "https://max.ru/favt_info"
+      }
+    ],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5541",
+    "events": [
+      {
+        "id": "fbb4d2df96692ca8",
+        "action": "ADD",
+        "messageTimestamp": "2026-11-11T20:39:52+00:00",
+        "text": "🟡 Аэропорты \n\n— ДОМОДЕДОВО\n\n— ЖУКОВСКИЙ (Раменское)\n\nпринимают и отправляют рейсы по согласованию с соответствующими органами в связи с введением временных ограничений на использование воздушного пространства в районе авиагаваней. \n\n🗓 Возможны корректировки в расписании рейсов.\n\n❗️Меры приняты для обеспечения безопасности полетов.\n\n🔎 Статус вашего рейса можно уточнить с помощью онлайн-табло аэропортов Домодедово, Жуковский.\n\n✈ Говорит Росавиация | МАХ",
+        "unresolved": true,
+        "sourceUrl": "https://t.me/PlanKoverTDay/5541"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5542,
+    "timestamp": "2026-11-11T20:47:06+00:00",
+    "text": "🔴 а/д Киржач / 30 км",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5542",
+    "events": [
+      {
+        "id": "9c6be2fdfe6d10e4",
+        "action": "ADD",
+        "name": "Киржач",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 30.0,
+        "messageTimestamp": "2026-11-11T20:47:06+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5542",
+        "text": "🔴 а/д Киржач / 30 км",
+        "inKta": false
+      }
+    ]
   }
 ]
