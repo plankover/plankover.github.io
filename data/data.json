@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T18:50:18.447880+00:00",
+  "updatedAt": "2026-11-12T19:10:19.507761+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -207,49 +207,72 @@
       "lon": 37.2735752
     },
     {
-      "id": "ef1fdf795550f801",
+      "id": "52b4b5fa3216301a",
       "action": "ADD",
-      "name": "Донское",
-      "icao": "UUOT",
+      "name": "Тамбов",
+      "icao": null,
       "kind": "airport",
       "type": "full",
       "radiusKm": 50.0,
       "messageTimestamp": "2026-11-12T18:38:09+00:00",
       "sourceUrl": "https://t.me/PlanKoverTDay/5560",
-      "text": "🔴🛩️ Тамбов - Донское, UUOT / 50 км",
-      "inKta": true,
-      "lat": 52.8060125,
-      "lon": 41.4845129
+      "text": "🔴 а/д Тамбов (🛩️ Донское, UUOT) / 50 км",
+      "affectedAirports": [
+        {
+          "name": "Донское",
+          "icao": "UUOT",
+          "kind": "airport",
+          "lat": 52.8060125,
+          "lon": 41.4845129
+        }
+      ],
+      "inKta": false,
+      "lat": 52.7040093,
+      "lon": 41.3773864
     },
     {
-      "id": "bd3f99d7063d6601",
+      "id": "29edf951f23a24e9",
       "action": "ADD",
       "name": "Домодедово",
       "icao": "UUDD",
       "kind": "airport",
       "type": "partial",
-      "radiusKm": null,
+      "radiusKm": 100.0,
       "messageTimestamp": "2026-11-12T18:47:48+00:00",
       "sourceUrl": "https://t.me/PlanKoverTDay/5561",
-      "text": "🟡🛩️ Москва - Домодедово, UUDD",
+      "text": "🟡🛩️ Москва - Домодедово, UUDD (🟡🛩️ Жуковский - Раменское, UUBW) / 100 км (азимуты 040-270)",
+      "sector": {
+        "radiusKm": 100.0,
+        "startAzimuth": 40,
+        "endAzimuth": 270
+      },
+      "affectedAirports": [
+        {
+          "name": "Раменское",
+          "icao": "UUBW",
+          "kind": "airport",
+          "lat": 55.5496554,
+          "lon": 38.1547897
+        }
+      ],
       "inKta": true,
       "lat": 55.4087122,
       "lon": 37.9094307
     },
     {
-      "id": "31b05ad473957a35",
+      "id": "fee7f9f63b610391",
       "action": "ADD",
-      "name": "Раменское",
-      "icao": "UUBW",
+      "name": "Шереметьево",
+      "icao": "UUEE",
       "kind": "airport",
       "type": "partial",
       "radiusKm": null,
-      "messageTimestamp": "2026-11-12T18:47:48+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5561",
-      "text": "🟡🛩️ Жуковский - Раменское, UUBW",
+      "messageTimestamp": "2026-11-12T19:08:50+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5563",
+      "text": "🟡🛩️ Москва - Шереметьево, UUEE",
       "inKta": true,
-      "lat": 55.5496554,
-      "lon": 38.1547897
+      "lat": 55.9760876,
+      "lon": 37.4238008
     }
   ],
   "forecasts": []
