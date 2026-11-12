@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T17:25:18.308883+00:00",
+  "updatedAt": "2026-11-12T18:00:19.628774+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -62,6 +62,21 @@
       "inKta": true,
       "lat": 48.7833547,
       "lon": 44.3472901
+    },
+    {
+      "id": "9fa71a86ba6fd5c3",
+      "action": "ADD",
+      "name": "Гагарин",
+      "icao": "UWSG",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-12T17:57:22+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5556",
+      "text": "🔴🛩️ Саратов - Гагарин, UWSG",
+      "inKta": true,
+      "lat": 51.7139093,
+      "lon": 46.1672319
     }
   ],
   "forecasts": [
