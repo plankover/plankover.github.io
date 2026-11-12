@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T18:00:19.628774+00:00",
+  "updatedAt": "2026-11-12T18:10:19.599354+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -77,6 +77,21 @@
       "inKta": true,
       "lat": 51.7139093,
       "lon": 46.1672319
+    },
+    {
+      "id": "37dc5590b1ff7a74",
+      "action": "ADD",
+      "name": "ВНУКОВО",
+      "icao": null,
+      "kind": "airport",
+      "type": "partial",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-12T18:09:48+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5557",
+      "text": "🟡 Аэропорт ВНУКОВО  ",
+      "inKta": false,
+      "lat": 55.5995278,
+      "lon": 37.2735752
     }
   ],
   "forecasts": [

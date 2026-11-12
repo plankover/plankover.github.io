@@ -30089,5 +30089,61 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5557,
+    "timestamp": "2026-11-12T18:09:48+00:00",
+    "text": "🟡 Аэропорт ВНУКОВО  \n\nпринимает и отправляет рейсы по согласованию с соответствующими органами в связи с введением временных ограничений на использование воздушного пространства в районе авиагавани. \n\n🗓 Возможны корректировки в расписании рейсов.\n\n❗Меры приняты для обеспечения безопасности полетов.\n\n🔎 Статус вашего рейса можно уточнить с помощью онлайн-табло аэропорта.\n\n✈ Говорит Росавиация | MАХ",
+    "entities": [
+      {
+        "offset": 12,
+        "length": 7,
+        "type": "bold"
+      },
+      {
+        "offset": 23,
+        "length": 28,
+        "type": "bold"
+      },
+      {
+        "offset": 205,
+        "length": 43,
+        "type": "bold"
+      },
+      {
+        "offset": 251,
+        "length": 50,
+        "type": "italic"
+      },
+      {
+        "offset": 351,
+        "length": 12,
+        "type": "text_link",
+        "url": "https://vnukovo.ru/ru"
+      },
+      {
+        "offset": 378,
+        "length": 24,
+        "type": "text_link",
+        "url": "https://max.ru/favt_info"
+      }
+    ],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5557",
+    "events": [
+      {
+        "id": "37dc5590b1ff7a74",
+        "action": "ADD",
+        "name": "ВНУКОВО",
+        "icao": null,
+        "kind": "airport",
+        "type": "partial",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-12T18:09:48+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5557",
+        "text": "🟡 Аэропорт ВНУКОВО  ",
+        "inKta": false
+      }
+    ]
   }
 ]
