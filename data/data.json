@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T19:25:16.812519+00:00",
+  "updatedAt": "2026-11-12T20:29:22.623101+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -258,6 +258,54 @@
       "inKta": true,
       "lat": 55.4087122,
       "lon": 37.9094307
+    },
+    {
+      "id": "5f8a6bf98a011be5",
+      "action": "ADD",
+      "name": "Старая Полтавка",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 150.0,
+      "messageTimestamp": "2026-11-12T20:28:30+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5565",
+      "text": "🔴 Старая Полтавка (🛩️ Саратов - Гагарин, UWSG) / 150 км",
+      "affectedAirports": [
+        {
+          "name": "Гагарин",
+          "icao": "UWSG",
+          "kind": "airport",
+          "lat": 51.7139093,
+          "lon": 46.1672319
+        }
+      ],
+      "inKta": false,
+      "lat": 50.475101,
+      "lon": 46.480801
+    },
+    {
+      "id": "55f257275880c364",
+      "action": "ADD",
+      "name": "Центральный - Ростов на-Дону",
+      "icao": null,
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 60.0,
+      "messageTimestamp": "2026-11-12T20:28:30+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5565",
+      "text": "🔴 а/д Центральный - Ростов на-Дону (🛩️ Платов, URRP) / 60 км",
+      "affectedAirports": [
+        {
+          "name": "Платов",
+          "icao": "URRP",
+          "kind": "airport",
+          "lat": 47.4879227,
+          "lon": 39.9295997
+        }
+      ],
+      "inKta": false,
+      "lat": 47.2737429,
+      "lon": 39.6404742
     }
   ],
   "forecasts": [
