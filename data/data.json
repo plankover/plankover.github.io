@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T16:50:22.910394+00:00",
+  "updatedAt": "2026-11-12T17:25:18.308883+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -47,6 +47,21 @@
       "inKta": true,
       "lat": 54.5488708,
       "lon": 36.3697725
+    },
+    {
+      "id": "9e90836d3a5abd43",
+      "action": "ADD",
+      "name": "Гумрак",
+      "icao": "URWW",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-12T17:23:39+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5555",
+      "text": "🔴🛩️ Волгоград - Гумрак, URWW",
+      "inKta": true,
+      "lat": 48.7833547,
+      "lon": 44.3472901
     }
   ],
   "forecasts": [
