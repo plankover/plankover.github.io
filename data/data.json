@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T19:10:19.507761+00:00",
+  "updatedAt": "2026-11-12T19:25:16.812519+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -178,28 +178,28 @@
       "lon": 37.2735752
     },
     {
-      "id": "60a4f5686ab75862",
+      "id": "4549c3e7ced3c768",
       "action": "ADD",
       "name": "Внуково",
       "icao": "UUWW",
       "kind": "airport",
       "type": "partial",
       "radiusKm": 150.0,
-      "messageTimestamp": "2026-11-12T18:23:13+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5559",
-      "text": "🟡🛩️ Внуково, UUWW (🔴🛩️ Калуга - Грабцево, UUBC) / 150 км (азимуты 150-330)",
+      "messageTimestamp": "2026-11-12T19:08:50+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5563",
+      "text": "Изменен азимут 🟡🛩️ Москва - Внуково, UUWW (🟡🛩️ Шереметьево, UUEE) / 150 км (азимуты 150-000)",
       "sector": {
         "radiusKm": 150.0,
         "startAzimuth": 150,
-        "endAzimuth": 330
+        "endAzimuth": 0
       },
       "affectedAirports": [
         {
-          "name": "Грабцево",
-          "icao": "UUBC",
+          "name": "🟡🛩️ Шереметьево",
+          "icao": "UUEE",
           "kind": "airport",
-          "lat": 54.5488708,
-          "lon": 36.3697725
+          "lat": 55.9760876,
+          "lon": 37.4238008
         }
       ],
       "inKta": true,
@@ -258,22 +258,14 @@
       "inKta": true,
       "lat": 55.4087122,
       "lon": 37.9094307
-    },
-    {
-      "id": "fee7f9f63b610391",
-      "action": "ADD",
-      "name": "Шереметьево",
-      "icao": "UUEE",
-      "kind": "airport",
-      "type": "partial",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-12T19:08:50+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5563",
-      "text": "🟡🛩️ Москва - Шереметьево, UUEE",
-      "inKta": true,
-      "lat": 55.9760876,
-      "lon": 37.4238008
     }
   ],
-  "forecasts": []
+  "forecasts": [
+    {
+      "label": "Прогноз",
+      "timestamp": "2026-11-12T19:13:18+00:00",
+      "text": "📌 Прогноз.\n\nДо утра будут действовать старые и вводиться новые ограничения в московских аэропортах, на регион массовая атака.\n\nТакже ограничения возможны в других близлежащих аэропортах Центрального, Приволжского федеральных округов",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5564"
+    }
+  ]
 }
