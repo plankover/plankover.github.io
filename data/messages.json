@@ -29838,5 +29838,54 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5549,
+    "timestamp": "2026-11-12T04:58:47+00:00",
+    "text": "🟢🛩️ Пенза, USPP\n🟢🛩️ Саранск, UWPS\n🟢🛩️ Саратов - Гагарин, UWSS",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5549",
+    "events": [
+      {
+        "id": "264537e3c6138e3d",
+        "action": "REMOVE",
+        "name": "Пенза",
+        "icao": "USPP",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-12T04:58:47+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5549",
+        "text": "🟢🛩️ Пенза, USPP",
+        "inKta": true
+      },
+      {
+        "id": "44f9d00dc07d5b3c",
+        "action": "REMOVE",
+        "name": "Саранск",
+        "icao": "UWPS",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-12T04:58:47+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5549",
+        "text": "🟢🛩️ Саранск, UWPS",
+        "inKta": true
+      },
+      {
+        "id": "335200e7a373c6b4",
+        "action": "REMOVE",
+        "name": "Гагарин",
+        "icao": "UWSS",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-12T04:58:47+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5549",
+        "text": "🟢🛩️ Саратов - Гагарин, UWSS",
+        "inKta": true
+      }
+    ]
   }
 ]
