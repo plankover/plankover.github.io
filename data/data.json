@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T21:25:18.429424+00:00",
+  "updatedAt": "2026-11-12T22:45:18.282957+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -345,6 +345,21 @@
       "inKta": false,
       "lat": 52.01812,
       "lon": 47.819141
+    },
+    {
+      "id": "085182fbb013fdee",
+      "action": "ADD",
+      "name": "Туношна",
+      "icao": "UUDL",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-12T22:44:16+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5567",
+      "text": "🔴🛩️ Ярославль - Туношна, UUDL",
+      "inKta": true,
+      "lat": 57.5604597,
+      "lon": 40.1579512
     }
   ],
   "forecasts": [
