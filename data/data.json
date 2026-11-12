@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T20:29:22.623101+00:00",
+  "updatedAt": "2026-11-12T21:25:18.429424+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -306,6 +306,45 @@
       "inKta": false,
       "lat": 47.2737429,
       "lon": 39.6404742
+    },
+    {
+      "id": "95437ff6544cbd72",
+      "action": "ADD",
+      "name": "Пенза",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 50.0,
+      "messageTimestamp": "2026-11-12T21:23:56+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5566",
+      "text": "🔴 Пенза (🛩️ Пенза, UWPP) / 50 км",
+      "affectedAirports": [
+        {
+          "name": "Пенза",
+          "icao": "UWPP",
+          "kind": "airport",
+          "lat": 53.110734,
+          "lon": 45.023455
+        }
+      ],
+      "inKta": false,
+      "lat": 53.1953477,
+      "lon": 45.0190437
+    },
+    {
+      "id": "3c3c531c2e3a043d",
+      "action": "ADD",
+      "name": "Балаково",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 50.0,
+      "messageTimestamp": "2026-11-12T21:23:56+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5566",
+      "text": "🔴 Балаково / 50 км",
+      "inKta": false,
+      "lat": 52.01812,
+      "lon": 47.819141
     }
   ],
   "forecasts": [
