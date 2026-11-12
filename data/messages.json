@@ -29933,5 +29933,41 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5552,
+    "timestamp": "2026-11-12T11:52:34+00:00",
+    "text": "🟢🛩️ Калуга - Грабцево, UUBC\n🟢🛩️ Тамбов - Донское, UUOT",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5552",
+    "events": [
+      {
+        "id": "78f62c4dbb9f69b6",
+        "action": "REMOVE",
+        "name": "Грабцево",
+        "icao": "UUBC",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-12T11:52:34+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5552",
+        "text": "🟢🛩️ Калуга - Грабцево, UUBC",
+        "inKta": true
+      },
+      {
+        "id": "2231a778d1fdcb5b",
+        "action": "REMOVE",
+        "name": "Донское",
+        "icao": "UUOT",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-12T11:52:34+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5552",
+        "text": "🟢🛩️ Тамбов - Донское, UUOT",
+        "inKta": true
+      }
+    ]
   }
 ]
