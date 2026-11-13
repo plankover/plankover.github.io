@@ -30811,5 +30811,41 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5577,
+    "timestamp": "2026-11-13T06:22:09+00:00",
+    "text": "🔴🛩️ Оренбург, UWOO\n🔴🛩️ Орск, UWUO",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5577",
+    "events": [
+      {
+        "id": "997b6bcd085be5be",
+        "action": "ADD",
+        "name": "Оренбург",
+        "icao": "UWOO",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-13T06:22:09+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5577",
+        "text": "🔴🛩️ Оренбург, UWOO",
+        "inKta": true
+      },
+      {
+        "id": "c57fcd8f8c778fff",
+        "action": "ADD",
+        "name": "Орск",
+        "icao": "UWUO",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-13T06:22:09+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5577",
+        "text": "🔴🛩️ Орск, UWUO",
+        "inKta": true
+      }
+    ]
   }
 ]

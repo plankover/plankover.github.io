@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T06:10:19.184025+00:00",
+  "updatedAt": "2026-11-13T06:25:18.108629+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -145,6 +145,36 @@
       "inKta": true,
       "lat": 54.2690213,
       "lon": 48.2248287
+    },
+    {
+      "id": "997b6bcd085be5be",
+      "action": "ADD",
+      "name": "Оренбург",
+      "icao": "UWOO",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-13T06:22:09+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5577",
+      "text": "🔴🛩️ Оренбург, UWOO",
+      "inKta": true,
+      "lat": 51.7957696,
+      "lon": 55.455575
+    },
+    {
+      "id": "c57fcd8f8c778fff",
+      "action": "ADD",
+      "name": "Орск",
+      "icao": "UWUO",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-13T06:22:09+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5577",
+      "text": "🔴🛩️ Орск, UWUO",
+      "inKta": true,
+      "lat": 51.0736434,
+      "lon": 58.5985748
     }
   ],
   "forecasts": [
