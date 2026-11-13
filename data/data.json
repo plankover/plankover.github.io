@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T04:00:17.262728+00:00",
+  "updatedAt": "2026-11-13T05:10:16.944037+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -184,6 +184,21 @@
       "inKta": true,
       "lat": 57.5604597,
       "lon": 40.1579512
+    },
+    {
+      "id": "e671b35e2c554bbe",
+      "action": "ADD",
+      "name": "Курумоч",
+      "icao": "UWWW",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-13T05:08:32+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5572",
+      "text": "🔴🛩️ Самара - Курумоч, UWWW",
+      "inKta": true,
+      "lat": 53.5057511,
+      "lon": 50.1569939
     }
   ],
   "forecasts": [
