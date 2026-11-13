@@ -31145,5 +31145,101 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5585,
+    "timestamp": "2026-11-13T22:40:57+00:00",
+    "text": "🟢🛩️ Волгоград - Гумрак, URWW",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5585",
+    "events": [
+      {
+        "id": "88898a6ac49dd320",
+        "action": "REMOVE",
+        "name": "Гумрак",
+        "icao": "URWW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-13T22:40:57+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5585",
+        "text": "🟢🛩️ Волгоград - Гумрак, URWW",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5586,
+    "timestamp": "2026-11-13T22:43:13+00:00",
+    "text": "🟢🛩️ Домодедово, UUDD",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5586",
+    "events": [
+      {
+        "id": "a82f3e7ccb8f0c07",
+        "action": "REMOVE",
+        "name": "Домодедово",
+        "icao": "UUDD",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-13T22:43:13+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5586",
+        "text": "🟢🛩️ Домодедово, UUDD",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5587,
+    "timestamp": "2026-11-13T22:44:19+00:00",
+    "text": "🟢 а/д Приволжский (🛩️ Астрахань - Нариманово, URWA)\n🟢 а/д Центральный, Ростов на-Дону (🛩️ Платов, URRP)",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5587",
+    "events": [
+      {
+        "id": "1b1d844c90095b7b",
+        "action": "REMOVE",
+        "name": "Приволжский",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-13T22:44:19+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5587",
+        "text": "🟢 а/д Приволжский (🛩️ Астрахань - Нариманово, URWA)",
+        "affectedAirports": [
+          {
+            "name": "Нариманово",
+            "icao": "URWA",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false
+      },
+      {
+        "id": "e0558902c2b99ba8",
+        "action": "REMOVE",
+        "name": "Центральный, Ростов на-Дону",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-13T22:44:19+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5587",
+        "text": "🟢 а/д Центральный, Ростов на-Дону (🛩️ Платов, URRP)",
+        "affectedAirports": [
+          {
+            "name": "Платов",
+            "icao": "URRP",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false
+      }
+    ]
   }
 ]
