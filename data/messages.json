@@ -30989,5 +30989,101 @@
         "sourceUrl": "https://t.me/PlanKoverTDay/5580"
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5581,
+    "timestamp": "2026-11-13T21:41:23+00:00",
+    "text": "🔴🛩️ Волгоград - Гумрак, URWW / 60 (❔) км\n🟡🛩️ Домодедово, UUDD / 100 км (азимуты 090-270)\n\n🔴 а/д Клоково, Тула / 70 км\n❔🔴 а/д Капустин Яр \n❔🔴 а/д Ахтубинск\n🔴 Михайлов / 70 км",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5581",
+    "events": [
+      {
+        "id": "ce809d8212bb1a64",
+        "action": "ADD",
+        "name": "Гумрак",
+        "icao": "URWW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 60.0,
+        "messageTimestamp": "2026-11-13T21:41:23+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5581",
+        "text": "🔴🛩️ Волгоград - Гумрак, URWW / 60 (❔) км",
+        "inKta": true,
+        "radiusUncertain": true
+      },
+      {
+        "id": "3ada4ed8b0223b34",
+        "action": "ADD",
+        "name": "Домодедово",
+        "icao": "UUDD",
+        "kind": "airport",
+        "type": "partial",
+        "radiusKm": 100.0,
+        "messageTimestamp": "2026-11-13T21:41:23+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5581",
+        "text": "🟡🛩️ Домодедово, UUDD / 100 км (азимуты 090-270)",
+        "sector": {
+          "radiusKm": 100.0,
+          "startAzimuth": 90,
+          "endAzimuth": 270
+        },
+        "inKta": true
+      },
+      {
+        "id": "8fd4a4cebe05126b",
+        "action": "ADD",
+        "name": "Клоково, Тула",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-11-13T21:41:23+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5581",
+        "text": "🔴 а/д Клоково, Тула / 70 км",
+        "inKta": false
+      },
+      {
+        "id": "8583672fd20d7a34",
+        "action": "ADD",
+        "name": "Капустин Яр",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-13T21:41:23+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5581",
+        "text": "❔🔴 а/д Капустин Яр ",
+        "inKta": false,
+        "uncertain": true
+      },
+      {
+        "id": "3dace561b1c42f33",
+        "action": "ADD",
+        "name": "Ахтубинск",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-13T21:41:23+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5581",
+        "text": "❔🔴 а/д Ахтубинск",
+        "inKta": false,
+        "uncertain": true
+      },
+      {
+        "id": "8e733e73d978447a",
+        "action": "ADD",
+        "name": "Михайлов",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-11-13T21:41:23+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5581",
+        "text": "🔴 Михайлов / 70 км",
+        "inKta": false
+      }
+    ]
   }
 ]
