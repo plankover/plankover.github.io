@@ -30965,5 +30965,29 @@
         "sourceUrl": "https://t.me/PlanKoverTDay/5579"
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5580,
+    "timestamp": "2026-11-13T21:35:20+00:00",
+    "text": "⚡️ В США временно запретили вылеты во всех аэропортах страны. Радиолокационные системы вышли из строя.",
+    "entities": [
+      {
+        "offset": 0,
+        "length": 2,
+        "type": "custom_emoji",
+        "custom_emoji_id": "6275944167264756863"
+      }
+    ],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5580",
+    "events": [
+      {
+        "id": "bfdd8e765d3ce44a",
+        "action": "UNKNOWN",
+        "messageTimestamp": "2026-11-13T21:35:20+00:00",
+        "text": "⚡️ В США временно запретили вылеты во всех аэропортах страны. Радиолокационные системы вышли из строя.",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5580"
+      }
+    ]
   }
 ]
