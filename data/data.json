@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T23:05:16.652852+00:00",
+  "updatedAt": "2026-11-13T00:00:17.720533+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -143,35 +143,6 @@
       "sourceUrl": "https://t.me/PlanKoverTDay/5557",
       "text": "🟡 Аэропорт ВНУКОВО  ",
       "inKta": false,
-      "lat": 55.5995278,
-      "lon": 37.2735752
-    },
-    {
-      "id": "4549c3e7ced3c768",
-      "action": "ADD",
-      "name": "Внуково",
-      "icao": "UUWW",
-      "kind": "airport",
-      "type": "partial",
-      "radiusKm": 150.0,
-      "messageTimestamp": "2026-11-12T19:08:50+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5563",
-      "text": "Изменен азимут 🟡🛩️ Москва - Внуково, UUWW (🟡🛩️ Шереметьево, UUEE) / 150 км (азимуты 150-000)",
-      "sector": {
-        "radiusKm": 150.0,
-        "startAzimuth": 150,
-        "endAzimuth": 0
-      },
-      "affectedAirports": [
-        {
-          "name": "🟡🛩️ Шереметьево",
-          "icao": "UUEE",
-          "kind": "airport",
-          "lat": 55.9760876,
-          "lon": 37.4238008
-        }
-      ],
-      "inKta": true,
       "lat": 55.5995278,
       "lon": 37.2735752
     },
