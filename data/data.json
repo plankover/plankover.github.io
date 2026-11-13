@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T02:10:16.802258+00:00",
+  "updatedAt": "2026-11-13T04:00:17.262728+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -108,21 +108,6 @@
       "lon": 46.2481942
     },
     {
-      "id": "37dc5590b1ff7a74",
-      "action": "ADD",
-      "name": "ВНУКОВО",
-      "icao": null,
-      "kind": "airport",
-      "type": "partial",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-12T18:09:48+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5557",
-      "text": "🟡 Аэропорт ВНУКОВО  ",
-      "inKta": false,
-      "lat": 55.5995278,
-      "lon": 37.2735752
-    },
-    {
       "id": "52b4b5fa3216301a",
       "action": "ADD",
       "name": "Тамбов",
@@ -145,35 +130,6 @@
       "inKta": false,
       "lat": 52.7040093,
       "lon": 41.3773864
-    },
-    {
-      "id": "29edf951f23a24e9",
-      "action": "ADD",
-      "name": "Домодедово",
-      "icao": "UUDD",
-      "kind": "airport",
-      "type": "partial",
-      "radiusKm": 100.0,
-      "messageTimestamp": "2026-11-12T18:47:48+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5561",
-      "text": "🟡🛩️ Москва - Домодедово, UUDD (🟡🛩️ Жуковский - Раменское, UUBW) / 100 км (азимуты 040-270)",
-      "sector": {
-        "radiusKm": 100.0,
-        "startAzimuth": 40,
-        "endAzimuth": 270
-      },
-      "affectedAirports": [
-        {
-          "name": "Раменское",
-          "icao": "UUBW",
-          "kind": "airport",
-          "lat": 55.5496554,
-          "lon": 38.1547897
-        }
-      ],
-      "inKta": true,
-      "lat": 55.4087122,
-      "lon": 37.9094307
     },
     {
       "id": "55f257275880c364",
