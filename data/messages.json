@@ -30852,12 +30852,12 @@
     "chatId": -1003822338715,
     "messageId": 5578,
     "timestamp": "2026-11-13T08:35:48+00:00",
-    "text": "🟢🛩️ Самара - Курумоч, UWWW\n🟢🛩️ Ульяновск - Баратаевка, UWLW",
+    "text": "🟢🛩️ Самара - Курумоч, UWWW\n🟢🛩️ Ульяновск - Баратаевка, UWLL",
     "entities": [],
     "sourceUrl": "https://t.me/PlanKoverTDay/5578",
     "events": [
       {
-        "id": "478de9def10aed4a",
+        "id": "bc752b2968b8baaa",
         "action": "REMOVE",
         "name": "Курумоч",
         "icao": "UWWW",
@@ -30870,16 +30870,16 @@
         "inKta": true
       },
       {
-        "id": "4fb43c82f3c04b3f",
+        "id": "9dd3c2ea3a4fcfcc",
         "action": "REMOVE",
         "name": "Баратаевка",
-        "icao": "UWLW",
+        "icao": "UWLL",
         "kind": "airport",
         "type": "full",
         "radiusKm": null,
         "messageTimestamp": "2026-11-13T08:35:48+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/5578",
-        "text": "🟢🛩️ Ульяновск - Баратаевка, UWLW",
+        "text": "🟢🛩️ Ульяновск - Баратаевка, UWLL",
         "inKta": true
       }
     ]
@@ -30888,35 +30888,16 @@
     "chatId": -1003822338715,
     "messageId": 5579,
     "timestamp": "2026-11-13T11:36:58+00:00",
-    "text": "🟢🛩️ Оренбург, UWOO\n🟢🛩️ Орск, UWUU",
+    "text": "✅ Ранее объявленные",
     "entities": [],
     "sourceUrl": "https://t.me/PlanKoverTDay/5579",
     "events": [
       {
-        "id": "487ac4f2482452b9",
-        "action": "REMOVE",
-        "name": "Оренбург",
-        "icao": "UWOO",
-        "kind": "airport",
-        "type": "full",
-        "radiusKm": null,
+        "id": "21001f6ecc303fb4",
+        "action": "CLEAR",
         "messageTimestamp": "2026-11-13T11:36:58+00:00",
-        "sourceUrl": "https://t.me/PlanKoverTDay/5579",
-        "text": "🟢🛩️ Оренбург, UWOO",
-        "inKta": true
-      },
-      {
-        "id": "eedc866a7ad37ea4",
-        "action": "REMOVE",
-        "name": "Орск",
-        "icao": "UWUU",
-        "kind": "airport",
-        "type": "full",
-        "radiusKm": null,
-        "messageTimestamp": "2026-11-13T11:36:58+00:00",
-        "sourceUrl": "https://t.me/PlanKoverTDay/5579",
-        "text": "🟢🛩️ Орск, UWUU",
-        "inKta": true
+        "text": "✅ Ранее объявленные",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5579"
       }
     ]
   }
