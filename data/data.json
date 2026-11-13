@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T05:30:15.874207+00:00",
+  "updatedAt": "2026-11-13T05:50:19.223003+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -108,30 +108,6 @@
       "lon": 46.2481942
     },
     {
-      "id": "52b4b5fa3216301a",
-      "action": "ADD",
-      "name": "Тамбов",
-      "icao": null,
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": 50.0,
-      "messageTimestamp": "2026-11-12T18:38:09+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5560",
-      "text": "🔴 а/д Тамбов (🛩️ Донское, UUOT) / 50 км",
-      "affectedAirports": [
-        {
-          "name": "Донское",
-          "icao": "UUOT",
-          "kind": "airport",
-          "lat": 52.8060125,
-          "lon": 41.4845129
-        }
-      ],
-      "inKta": false,
-      "lat": 52.7040093,
-      "lon": 41.3773864
-    },
-    {
       "id": "55f257275880c364",
       "action": "ADD",
       "name": "Центральный - Ростов на-Дону",
@@ -169,21 +145,6 @@
       "inKta": false,
       "lat": 52.01812,
       "lon": 47.819141
-    },
-    {
-      "id": "085182fbb013fdee",
-      "action": "ADD",
-      "name": "Туношна",
-      "icao": "UUDL",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-12T22:44:16+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5567",
-      "text": "🔴🛩️ Ярославль - Туношна, UUDL",
-      "inKta": true,
-      "lat": 57.5604597,
-      "lon": 40.1579512
     },
     {
       "id": "e671b35e2c554bbe",

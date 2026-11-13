@@ -30729,5 +30729,41 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5574,
+    "timestamp": "2026-11-13T05:50:04+00:00",
+    "text": "🟢🛩️ Тамбов - Донское, UUOT\n🟢🛩️ Ярославль - Туношна, UUDL",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5574",
+    "events": [
+      {
+        "id": "38f5bdc7c03cd4ef",
+        "action": "REMOVE",
+        "name": "Донское",
+        "icao": "UUOT",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-13T05:50:04+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5574",
+        "text": "🟢🛩️ Тамбов - Донское, UUOT",
+        "inKta": true
+      },
+      {
+        "id": "ec3d34c12f2af186",
+        "action": "REMOVE",
+        "name": "Туношна",
+        "icao": "UUDL",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-13T05:50:04+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5574",
+        "text": "🟢🛩️ Ярославль - Туношна, UUDL",
+        "inKta": true
+      }
+    ]
   }
 ]
