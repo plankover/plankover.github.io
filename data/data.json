@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T21:45:17.616744+00:00",
+  "updatedAt": "2026-11-13T22:05:59.111628+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -99,6 +99,30 @@
       "inKta": false,
       "lat": 54.2301856,
       "lon": 39.0274629
+    },
+    {
+      "id": "cd6c9d92c6302dc4",
+      "action": "ADD",
+      "name": "Приволжский",
+      "icao": null,
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 30.0,
+      "messageTimestamp": "2026-11-13T22:05:58+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5582",
+      "text": "🔴 а/д Приволжский (🛩️ Астрахань - Нариманово, URWA) / 30 км",
+      "affectedAirports": [
+        {
+          "name": "Нариманово",
+          "icao": "URWA",
+          "kind": "airport",
+          "lat": 46.2801671,
+          "lon": 48.0189072
+        }
+      ],
+      "inKta": false,
+      "lat": 46.3968308,
+      "lon": 47.8939462
     }
   ],
   "forecasts": []
