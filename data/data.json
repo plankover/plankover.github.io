@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T00:00:17.720533+00:00",
+  "updatedAt": "2026-11-13T02:10:16.802258+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -108,30 +108,6 @@
       "lon": 46.2481942
     },
     {
-      "id": "890f98ae4e6275e6",
-      "action": "ADD",
-      "name": "Медведица",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": 150.0,
-      "messageTimestamp": "2026-11-12T17:57:22+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5556",
-      "text": "🔴 Медведица (🛩️ Саратов - Гагарин, UWSG) / 150 км",
-      "affectedAirports": [
-        {
-          "name": "Гагарин",
-          "icao": "UWSG",
-          "kind": "airport",
-          "lat": 51.7139093,
-          "lon": 46.1672319
-        }
-      ],
-      "inKta": false,
-      "lat": 51.079559,
-      "lon": 44.8182885
-    },
-    {
       "id": "37dc5590b1ff7a74",
       "action": "ADD",
       "name": "ВНУКОВО",
@@ -198,30 +174,6 @@
       "inKta": true,
       "lat": 55.4087122,
       "lon": 37.9094307
-    },
-    {
-      "id": "5f8a6bf98a011be5",
-      "action": "ADD",
-      "name": "Старая Полтавка",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": 150.0,
-      "messageTimestamp": "2026-11-12T20:28:30+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5565",
-      "text": "🔴 Старая Полтавка (🛩️ Саратов - Гагарин, UWSG) / 150 км",
-      "affectedAirports": [
-        {
-          "name": "Гагарин",
-          "icao": "UWSG",
-          "kind": "airport",
-          "lat": 51.7139093,
-          "lon": 46.1672319
-        }
-      ],
-      "inKta": false,
-      "lat": 50.475101,
-      "lon": 46.480801
     },
     {
       "id": "55f257275880c364",
