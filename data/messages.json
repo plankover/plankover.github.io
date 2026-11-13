@@ -30765,5 +30765,28 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5575,
+    "timestamp": "2026-11-13T05:54:56+00:00",
+    "text": "🟢🛩️ Волгоград - Гумрак, URWW",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5575",
+    "events": [
+      {
+        "id": "2718c5b664e96c6a",
+        "action": "REMOVE",
+        "name": "Гумрак",
+        "icao": "URWW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-13T05:54:56+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5575",
+        "text": "🟢🛩️ Волгоград - Гумрак, URWW",
+        "inKta": true
+      }
+    ]
   }
 ]
