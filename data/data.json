@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-14T08:45:17.086880+00:00",
+  "updatedAt": "2026-11-14T08:50:17.072781+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
-      "id": "eb2ad530a4e68c72",
+      "id": "aad30e990424382a",
       "action": "ADD",
       "name": "Грабцево",
       "icao": "UUBC",
@@ -18,7 +18,7 @@
       "lon": 36.3697725
     },
     {
-      "id": "3de6799b33f023de",
+      "id": "dcceb30e76131d54",
       "action": "ADD",
       "name": "Таруса",
       "icao": null,
@@ -33,16 +33,16 @@
       "lon": 37.1815538
     },
     {
-      "id": "54588b3150cea632",
+      "id": "26a791fd86cf4889",
       "action": "ADD",
       "name": "Дубна",
       "icao": null,
       "kind": "city",
       "type": "full",
-      "radiusKm": 50.0,
+      "radiusKm": 30.0,
       "messageTimestamp": "2026-11-14T08:20:26+00:00",
       "sourceUrl": "https://t.me/PlanKoverTDay/5589",
-      "text": "🔴 Дубна / 50 км",
+      "text": "🔴 Дубна / 30 км",
       "inKta": false,
       "lat": 56.7362705,
       "lon": 37.1623696
