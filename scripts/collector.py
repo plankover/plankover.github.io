@@ -140,6 +140,9 @@ def resolve_event_coords(event, cache):
     return event
 
 def key(e):
+    geometry=e.get("geometry")
+    if isinstance(geometry,dict) and geometry.get("type")=="Polygon":
+        return "polygon:"+canonical(geometry)
     icao=(e.get("icao") or "").strip().upper(); name=(e.get("name") or "").strip().casefold()
     return f"icao:{icao}" if icao else f"place:{name}"
 def active_key(e):
@@ -259,6 +262,11 @@ def main():
     active,forecasts=build_active(history);cache=read(CACHE_FILE,{})
     public=[]
     for e in active:
+        # Polygonal KOVRs already contain their complete geographic geometry;
+        # they must not be geocoded as a place name.
+        if isinstance(e.get("geometry"),dict) and e["geometry"].get("type")=="Polygon":
+            public.append(dict(e))
+            continue
         # Active restrictions remain until an explicit removal/clear event.
         # Do not expire them merely because 24 hours have elapsed.
         # Airport markers are published only for airports explicitly listed
