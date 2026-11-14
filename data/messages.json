@@ -31501,5 +31501,60 @@
         "text": "Тестовое сообщение\n\n🔴 Координаты:\n52,3000000, 42,6500000\n51,5333333, 42,5666667\n50,7500000, 42,9666667\n50,2666667, 41,9666667\n50,8500000, 40,7166667\n51,4666667, 40,4333333"
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5597,
+    "timestamp": "2026-11-14T16:14:27+00:00",
+    "text": "🔴 Новоселовка (🛩️ Саратов - Гагарин, UWSG ; 🛩️ Пенза, UWPP) / 150 км\nСИГНАЛ КОВЕР НОВОСЕЛОВКА. АЭРОПОРТЫ САРАТОВ(ГАГАРИН), ПЕНЗА ПРЕКРАТИЛИ ПРИЕМ/ВЫПУСК ВС\n\n🔴 а/д Борисоглебск / 50 км",
+    "entities": [
+      {
+        "offset": 72,
+        "length": 86,
+        "type": "blockquote"
+      }
+    ],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5597",
+    "events": [
+      {
+        "id": "a5d0b8a093a55055",
+        "action": "ADD",
+        "name": "Новоселовка",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 150.0,
+        "messageTimestamp": "2026-11-14T16:14:27+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5597",
+        "text": "🔴 Новоселовка (🛩️ Саратов - Гагарин, UWSG ; 🛩️ Пенза, UWPP) / 150 км",
+        "affectedAirports": [
+          {
+            "name": "Гагарин",
+            "icao": "UWSG",
+            "kind": "airport"
+          },
+          {
+            "name": "Пенза",
+            "icao": "UWPP",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false
+      },
+      {
+        "id": "d3fba99ae9899111",
+        "action": "ADD",
+        "name": "Борисоглебск",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 50.0,
+        "messageTimestamp": "2026-11-14T16:14:27+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5597",
+        "text": "🔴 а/д Борисоглебск / 50 км",
+        "inKta": false,
+        "notamText": "СИГНАЛ КОВЕР НОВОСЕЛОВКА. АЭРОПОРТЫ САРАТОВ(ГАГАРИН), ПЕНЗА ПРЕКРАТИЛИ ПРИЕМ/ВЫПУСК ВС"
+      }
+    ]
   }
 ]
