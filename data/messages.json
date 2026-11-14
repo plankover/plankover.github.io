@@ -31307,5 +31307,30 @@
         "inKta": false
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5590,
+    "timestamp": "2026-11-14T09:19:47+00:00",
+    "text": "⚠️ В ближайшие часы возможны ограничения в московских аэропортах",
+    "entities": [
+      {
+        "offset": 0,
+        "length": 2,
+        "type": "custom_emoji",
+        "custom_emoji_id": "6275948470821987795"
+      }
+    ],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5590",
+    "events": [
+      {
+        "id": "cac2485be32e8290",
+        "action": "FORECAST",
+        "label": "Оперативный",
+        "messageTimestamp": "2026-11-14T09:19:47+00:00",
+        "text": "⚠️ В ближайшие часы возможны ограничения в московских аэропортах",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5590"
+      }
+    ]
   }
 ]
