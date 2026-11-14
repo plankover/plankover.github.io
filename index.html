@@ -427,11 +427,38 @@
     return points;
   }
 
+  function getPolygonPoints(item) {
+    const coordinates = item.geometry?.type === "Polygon"
+      ? item.geometry.coordinates?.[0]
+      : item.polygon;
+    if (!Array.isArray(coordinates)) return null;
+    const points = coordinates.map(point => {
+      if (!Array.isArray(point) || point.length < 2) return null;
+      const lon = Number(point[0]), lat = Number(point[1]);
+      return Number.isFinite(lat) && Number.isFinite(lon) &&
+        Math.abs(lat) <= 90 && Math.abs(lon) <= 180 ? [lat, lon] : null;
+    });
+    if (points.some(point => !point) || points.length < 4) return null;
+    return points;
+  }
+
   function getCoords(item) {
     const lat = Number(item.lat ?? item.latitude ?? item.coordinates?.lat);
     const lon = Number(item.lon ?? item.lng ?? item.longitude ?? item.coordinates?.lon ?? item.coordinates?.lng);
-    return Number.isFinite(lat) && Number.isFinite(lon) &&
-      Math.abs(lat) <= 90 && Math.abs(lon) <= 180 ? [lat, lon] : null;
+    if (Number.isFinite(lat) && Number.isFinite(lon) &&
+        Math.abs(lat) <= 90 && Math.abs(lon) <= 180) return [lat, lon];
+    const polygon = getPolygonPoints(item);
+    if (polygon) {
+      const open = polygon.length > 1 &&
+        polygon[0][0] === polygon[polygon.length - 1][0] &&
+        polygon[0][1] === polygon[polygon.length - 1][1]
+        ? polygon.slice(0, -1) : polygon;
+      return [
+        open.reduce((sum, point) => sum + point[0], 0) / open.length,
+        open.reduce((sum, point) => sum + point[1], 0) / open.length
+      ];
+    }
+    return null;
   }
 
   function getRadius(item) {
@@ -710,8 +737,9 @@
   }
 
   function drawItem(item, airplaneGroups) {
+    const polygonPoints = getPolygonPoints(item);
     const coords = getCoords(item);
-    if (!coords) return;
+    if (!coords && !polygonPoints) return;
 
     const partial = isPartial(item);
     // Restriction geometry stays red; yellow is reserved for the affected
@@ -737,7 +765,14 @@
     }
 
     let shape;
-    if (sector) {
+    if (polygonPoints) {
+      shape = L.polygon(polygonPoints, {
+        color, weight: 2,
+        dashArray: uncertainRestriction ? "7 6" : null,
+        opacity: .9, fillColor: fill,
+        fillOpacity: uncertainRestriction ? .28 : .16
+      });
+    } else if (sector) {
       shape = L.polygon(sectorPoints(coords[0], coords[1], sector.radius, sector.start, sector.end), {
         color, weight: uncertainRadius ? 0 : 2,
         dashArray: uncertainRestriction ? "7 6" : null,
@@ -973,10 +1008,11 @@
       const screenshotBounds = L.latLngBounds();
 
       for (const item of allItems) {
+        const polygonPoints = getPolygonPoints(item);
         const coords = getCoords(item);
-        if (!coords) continue;
+        if (!coords && !polygonPoints) continue;
 
-        if (item.inKta === true) addAirplanePoint(airportGroups, item, item, "kta");
+        if (item.inKta === true && coords) addAirplanePoint(airportGroups, item, item, "kta");
         if (Array.isArray(item.affectedAirports)) {
           for (const airport of item.affectedAirports) {
             addAirplanePoint(airportGroups, airport, item, "affected");
@@ -985,7 +1021,9 @@
 
         const sector = getSector(item);
         const radius = getRadius(item);
-        if (sector) {
+        if (polygonPoints) {
+          screenshotBounds.extend(polygonPoints);
+        } else if (sector) {
           screenshotBounds.extend(
             sectorPoints(coords[0], coords[1], sector.radius, sector.start, sector.end)
           );
@@ -1043,7 +1081,10 @@
         } else {
           const item = allItems[Number(options.area)];
           const coords = item ? getCoords(item) : null;
-          if (coords) {
+          const polygonPoints = item ? getPolygonPoints(item) : null;
+          if (polygonPoints) {
+            bounds = L.latLngBounds(polygonPoints);
+          } else if (coords) {
             const sector = getSector(item);
             const radius = getRadius(item);
             if (sector) {
@@ -1216,8 +1257,9 @@
       }
 
       function drawRestriction(item) {
+        const polygonPoints = getPolygonPoints(item);
         const coords = getCoords(item);
-        if (!coords) return;
+        if (!coords && !polygonPoints) return;
 
         const uncertainRestriction = item.uncertain === true;
         const uncertainRadius = item.radiusUncertain === true;
@@ -1226,7 +1268,16 @@
         const sector = getSector(item);
         const radius = getRadius(item);
 
-        if (sector) {
+        if (polygonPoints) {
+          drawArea(polygonPoints, {
+            color,
+            fillOpacity: uncertain ? 0.28 : 0.16,
+            strokeOpacity: 0.9,
+            lineWidth: 2,
+            dashed: uncertainRestriction,
+            hatched: false
+          });
+        } else if (sector) {
           const points = sectorPoints(
             coords[0], coords[1], sector.radius, sector.start, sector.end
           );
