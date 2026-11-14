@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T08:50:17.072781+00:00",
+  "updatedAt": "2026-11-14T10:10:17.502262+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -46,7 +46,29 @@
       "inKta": false,
       "lat": 56.7362705,
       "lon": 37.1623696
+    },
+    {
+      "id": "e69b6bad1d62767f",
+      "action": "ADD",
+      "name": "Дягилево, Рязань",
+      "icao": null,
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 70.0,
+      "messageTimestamp": "2026-11-14T10:09:59+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5591",
+      "text": "🔴 а/д Дягилево, Рязань / 70 км",
+      "inKta": false,
+      "lat": 54.6571958,
+      "lon": 39.6308884
     }
   ],
-  "forecasts": []
+  "forecasts": [
+    {
+      "label": "Оперативный",
+      "timestamp": "2026-11-14T09:19:47+00:00",
+      "text": "⚠️ В ближайшие часы возможны ограничения в московских аэропортах",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5590"
+    }
+  ]
 }
