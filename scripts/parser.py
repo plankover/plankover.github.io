@@ -221,13 +221,13 @@ def parse_message(message, published_at=None, source_url=None, entities=None):
 
     # A red "Координаты:" post defines a polygonal KOVR.
     # Telegram coordinates are written as latitude, longitude, one vertex per line.
-    if re.search(r"^\\s*🔴\\s*координаты\\s*:\\s*$", text, re.I | re.M):
+    if re.search(r"^\s*🔴\s*координаты\s*:\s*$", text, re.I | re.M):
         lines = text.splitlines()
         header_index = next(i for i, line in enumerate(lines)
-                            if re.match(r"^\\s*🔴\\s*координаты\\s*:\\s*$", line, re.I))
+                            if re.match(r"^\s*🔴\s*координаты\s*:\s*$", line, re.I))
         vertices = []
         coordinate_pattern = re.compile(
-            r"^\\s*(-?\\d+(?:[.,]\\d+)?)\\s*,\\s*(-?\\d+(?:[.,]\\d+)?)\\s*$"
+            r"^\s*(-?\d+(?:[.,]\d+)?)\s*,\s*(-?\d+(?:[.,]\d+)?)\s*$"
         )
         for line in lines[header_index + 1:]:
             if not line.strip():
