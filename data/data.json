@@ -1,21 +1,53 @@
 {
-  "updatedAt": "2026-11-14T08:25:16.796624+00:00",
+  "updatedAt": "2026-11-14T08:30:18.600305+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
-      "id": "2412b3a93804ee15",
+      "id": "01d3b9d131791d16",
       "action": "ADD",
       "name": "Грабцево",
       "icao": "UUBC",
       "kind": "airport",
       "type": "full",
-      "radiusKm": null,
+      "radiusKm": 50.0,
       "messageTimestamp": "2026-11-14T08:20:26+00:00",
       "sourceUrl": "https://t.me/PlanKoverTDay/5589",
-      "text": "🔴🛩️ Калуга - Грабцево, UUBC",
+      "text": "🔴🛩️ Калуга - Грабцево, UUBC / 50 км",
       "inKta": true,
       "lat": 54.5488708,
       "lon": 36.3697725
+    },
+    {
+      "id": "c111a446bfe5cdd2",
+      "action": "ADD",
+      "name": "Таруса",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 50.0,
+      "messageTimestamp": "2026-11-14T08:20:26+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5589",
+      "text": "❔🔴 Таруса/ 50 км",
+      "inKta": false,
+      "uncertain": true,
+      "lat": 54.7293536,
+      "lon": 37.1815538
+    },
+    {
+      "id": "e558f22e5d535683",
+      "action": "ADD",
+      "name": "Дубна",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 50.0,
+      "messageTimestamp": "2026-11-14T08:20:26+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5589",
+      "text": "❔🔴 Дубна / 50 км",
+      "inKta": false,
+      "uncertain": true,
+      "lat": 56.7362705,
+      "lon": 37.1623696
     }
   ],
   "forecasts": []
