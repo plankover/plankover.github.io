@@ -31685,5 +31685,28 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5602,
+    "timestamp": "2026-11-14T22:47:20+00:00",
+    "text": "🔴🛩️ Пенза, UWPP",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5602",
+    "events": [
+      {
+        "id": "99a6463f7f5e982a",
+        "action": "ADD",
+        "name": "Пенза",
+        "icao": "UWPP",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-14T22:47:20+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5602",
+        "text": "🔴🛩️ Пенза, UWPP",
+        "inKta": true
+      }
+    ]
   }
 ]
