@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T10:10:17.502262+00:00",
+  "updatedAt": "2026-11-14T11:05:17.585101+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -61,6 +61,41 @@
       "inKta": false,
       "lat": 54.6571958,
       "lon": 39.6308884
+    },
+    {
+      "id": "a14109c25d37f241",
+      "action": "ADD",
+      "name": "Сергиев Посад",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 40.0,
+      "messageTimestamp": "2026-11-14T10:55:23+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5592",
+      "text": "🔴 Сергиев Посад / 40 км",
+      "inKta": false,
+      "lat": 56.3153284,
+      "lon": 38.1359898
+    },
+    {
+      "id": "7b61ab8b71e63d0a",
+      "action": "ADD",
+      "name": "Домодедово",
+      "icao": "UUDD",
+      "kind": "airport",
+      "type": "partial",
+      "radiusKm": 100.0,
+      "messageTimestamp": "2026-11-14T10:56:52+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5593",
+      "text": "🟡🛩️ Домодедово, UUDD / 100 км (азимуты 180-270)",
+      "sector": {
+        "radiusKm": 100.0,
+        "startAzimuth": 180,
+        "endAzimuth": 270
+      },
+      "inKta": true,
+      "lat": 55.4087122,
+      "lon": 37.9094307
     }
   ],
   "forecasts": [
