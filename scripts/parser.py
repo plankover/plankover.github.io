@@ -219,6 +219,48 @@ def parse_message(message, published_at=None, source_url=None, entities=None):
         }]
 
 
+    # A red "Координаты:" post defines a polygonal KOVR.
+    # Telegram coordinates are written as latitude, longitude, one vertex per line.
+    if re.search(r"^\\s*🔴\\s*координаты\\s*:\\s*$", text, re.I | re.M):
+        lines = text.splitlines()
+        header_index = next(i for i, line in enumerate(lines)
+                            if re.match(r"^\\s*🔴\\s*координаты\\s*:\\s*$", line, re.I))
+        vertices = []
+        coordinate_pattern = re.compile(
+            r"^\\s*(-?\\d+(?:[.,]\\d+)?)\\s*,\\s*(-?\\d+(?:[.,]\\d+)?)\\s*$"
+        )
+        for line in lines[header_index + 1:]:
+            if not line.strip():
+                continue
+            match = coordinate_pattern.match(line)
+            if not match:
+                if vertices:
+                    break
+                continue
+            lat = float(match.group(1).replace(",", "."))
+            lon = float(match.group(2).replace(",", "."))
+            if not (-90 <= lat <= 90 and -180 <= lon <= 180):
+                return [{"id": digest, "action": "UNKNOWN", "messageTimestamp": ts,
+                         "text": text, "sourceUrl": source_url, "unresolved": True}]
+            vertices.append([lon, lat])
+        if vertices and vertices[-1] == vertices[0]:
+            vertices.pop()
+        if len({(point[0], point[1]) for point in vertices}) < 3:
+            return [{"id": digest, "action": "UNKNOWN", "messageTimestamp": ts,
+                     "text": text, "sourceUrl": source_url, "unresolved": True}]
+        vertices.append(vertices[0])
+        return [{
+            "id": digest,
+            "action": "ADD",
+            "name": "КОВР",
+            "kind": "polygon",
+            "type": "full",
+            "geometry": {"type": "Polygon", "coordinates": [vertices]},
+            "messageTimestamp": ts,
+            "sourceUrl": source_url,
+            "text": text,
+        }]
+
     # If a removal message contains named green-marked targets, parse those
     # targets first so they can be removed individually. Unnamed removals stay
     # unresolved and therefore do not accidentally clear the whole map.
