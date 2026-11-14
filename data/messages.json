@@ -31429,5 +31429,22 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5595,
+    "timestamp": "2026-11-14T12:28:35+00:00",
+    "text": "✅ Ранее объявленные",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5595",
+    "events": [
+      {
+        "id": "19b9657f7d441ec2",
+        "action": "CLEAR",
+        "messageTimestamp": "2026-11-14T12:28:35+00:00",
+        "text": "✅ Ранее объявленные",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5595"
+      }
+    ]
   }
 ]
