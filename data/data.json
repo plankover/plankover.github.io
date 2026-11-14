@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T17:35:18.105888+00:00",
+  "updatedAt": "2026-11-14T21:50:17.036498+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -46,6 +46,66 @@
       "messageTimestamp": "2026-11-14T13:01:21+00:00",
       "sourceUrl": "https://t.me/PlanKoverTDay/5596",
       "text": "Тестовое сообщение\n\n🔴 Координаты:\n52,3000000, 42,6500000\n51,5333333, 42,5666667\n50,7500000, 42,9666667\n50,2666667, 41,9666667\n50,8500000, 40,7166667\n51,4666667, 40,4333333"
+    },
+    {
+      "id": "d2f96fe476ccbefd",
+      "action": "ADD",
+      "name": "Волгоград",
+      "icao": "URWW",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-14T21:48:44+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5600",
+      "text": "🔴🛩️ Волгоград, URWW",
+      "inKta": true,
+      "lat": 48.7833547,
+      "lon": 44.3472901
+    },
+    {
+      "id": "d4e69f32be742435",
+      "action": "ADD",
+      "name": "Гагарин",
+      "icao": "UWSG",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-14T21:48:44+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5600",
+      "text": "🔴🛩️ Саратов - Гагарин, UWSG",
+      "inKta": true,
+      "lat": 51.7139093,
+      "lon": 46.1672319
+    },
+    {
+      "id": "339f505adebc3964",
+      "action": "ADD",
+      "name": "Донское",
+      "icao": "UUOT",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-14T21:48:44+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5600",
+      "text": "🔴🛩️ Тамбов - Донское, UUOT",
+      "inKta": true,
+      "lat": 52.8060125,
+      "lon": 41.4845129
+    },
+    {
+      "id": "017c04dceb11662a",
+      "action": "ADD",
+      "name": "Геленджик",
+      "icao": "URKG",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-14T21:49:21+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5601",
+      "text": "🔴🛩️ Геленджик, URKG",
+      "inKta": true,
+      "lat": 44.58209,
+      "lon": 38.01248
     }
   ],
   "forecasts": []

@@ -31613,5 +31613,77 @@
         "text": "🟢 🛩️ Пенза, UWPP"
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5600,
+    "timestamp": "2026-11-14T21:48:44+00:00",
+    "text": "🔴🛩️ Волгоград, URWW\n🔴🛩️ Саратов - Гагарин, UWSG\n🔴🛩️ Тамбов - Донское, UUOT",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5600",
+    "events": [
+      {
+        "id": "d2f96fe476ccbefd",
+        "action": "ADD",
+        "name": "Волгоград",
+        "icao": "URWW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-14T21:48:44+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5600",
+        "text": "🔴🛩️ Волгоград, URWW",
+        "inKta": true
+      },
+      {
+        "id": "d4e69f32be742435",
+        "action": "ADD",
+        "name": "Гагарин",
+        "icao": "UWSG",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-14T21:48:44+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5600",
+        "text": "🔴🛩️ Саратов - Гагарин, UWSG",
+        "inKta": true
+      },
+      {
+        "id": "339f505adebc3964",
+        "action": "ADD",
+        "name": "Донское",
+        "icao": "UUOT",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-14T21:48:44+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5600",
+        "text": "🔴🛩️ Тамбов - Донское, UUOT",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5601,
+    "timestamp": "2026-11-14T21:49:21+00:00",
+    "text": "🔴🛩️ Геленджик, URKG",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5601",
+    "events": [
+      {
+        "id": "017c04dceb11662a",
+        "action": "ADD",
+        "name": "Геленджик",
+        "icao": "URKG",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-14T21:49:21+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5601",
+        "text": "🔴🛩️ Геленджик, URKG",
+        "inKta": true
+      }
+    ]
   }
 ]
