@@ -495,10 +495,13 @@
     const radius = getRadius(item);
     const sector = getSector(item);
     const time = getTimestamp(item);
+    const polygon = getPolygonPoints(item);
     const radiusText = radius ? `${esc(radius)} км` : "Радиус не указан";
     let html = `<div class="popup-title">${esc(getName(item))}</div>`;
     html += `<div>${item.uncertain || item.radiusUncertain ? "❔ Предположительное ограничение" : (isPartial(item) ? "🟡 Частичные ограничения" : "🔴 Полные ограничения")}</div>`;
-    html += `<div class="popup-muted">Радиус: ${radiusText}</div>`;
+    html += polygon
+      ? `<div class="popup-muted">Границы КОВР заданы координатами (${polygon.length - 1} вершин)</div>`
+      : `<div class="popup-muted">Радиус: ${radiusText}</div>`;
     if (item.notamText) html += `<div class="popup-muted" style="margin-top:8px"><strong>Текст NOTAM:</strong><br>${esc(item.notamText)}</div>`;
     if (item.radiusUncertain) html += `<div class="popup-muted">Радиус не подтверждён</div>`;
     if (item.uncertain) html += `<div class="popup-muted">Наличие ковра не подтверждено</div>`;
