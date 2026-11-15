@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T17:34:53.900655+00:00",
+  "updatedAt": "2026-11-15T17:45:22.494831+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -110,14 +110,34 @@
       "inKta": false,
       "lat": 54.8871653,
       "lon": 38.144335
+    },
+    {
+      "id": "9e464a9adca10ba0",
+      "action": "ADD",
+      "name": "Клин",
+      "icao": null,
+      "kind": "airport",
+      "type": "partial",
+      "radiusKm": 40.0,
+      "messageTimestamp": "2026-11-15T17:44:39+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5616",
+      "text": "🔴 а/д Клин / 40 км (азимуты 180-000)",
+      "sector": {
+        "radiusKm": 40.0,
+        "startAzimuth": 180,
+        "endAzimuth": 0
+      },
+      "inKta": false,
+      "lat": 56.3608256,
+      "lon": 36.7314909
     }
   ],
   "forecasts": [
     {
-      "label": "Прогноз",
-      "timestamp": "2026-11-15T17:06:48+00:00",
-      "text": "📌 Прогноз.\n\nВ течение ночи, вероятно, будут вводиться ограничения в московских аэропортах. \n\nТакже ограничения возможны в других близлежащих аэропортах Центрального, Приволжского федеральных округов",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5612"
+      "label": "Оперативный",
+      "timestamp": "2026-11-15T17:35:33+00:00",
+      "text": "⚠️ Ожидаем частичные ограничения в ближайшее время в аэропортах Шереметьево и Домодедово",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5615"
     }
   ]
 }
