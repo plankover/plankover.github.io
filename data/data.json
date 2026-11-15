@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T17:50:20.425094+00:00",
+  "updatedAt": "2026-11-15T18:30:16.701771+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -112,7 +112,7 @@
       "lon": 38.144335
     },
     {
-      "id": "4f0ccb4d0931ef73",
+      "id": "b429a4920413c678",
       "action": "ADD",
       "name": "Клин",
       "icao": null,
@@ -132,7 +132,7 @@
       "lon": 36.7314909
     },
     {
-      "id": "be742618bf7d47d5",
+      "id": "764fc2599a5462ce",
       "action": "ADD",
       "name": "Егорьевск",
       "icao": null,
@@ -145,6 +145,21 @@
       "inKta": false,
       "lat": 55.3829765,
       "lon": 39.0356223
+    },
+    {
+      "id": "71346a2f86fa4472",
+      "action": "ADD",
+      "name": "Дягилево, Рязань",
+      "icao": null,
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 70.0,
+      "messageTimestamp": "2026-11-15T17:44:39+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5616",
+      "text": "🔴 а/д Дягилево, Рязань / 70 км",
+      "inKta": false,
+      "lat": 54.6571958,
+      "lon": 39.6308884
     }
   ],
   "forecasts": [
