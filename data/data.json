@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T19:45:18.861049+00:00",
+  "updatedAt": "2026-11-15T22:40:16.450272+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -175,6 +175,51 @@
       "inKta": false,
       "lat": 56.8408741,
       "lon": 36.6673488
+    },
+    {
+      "id": "3b10f992608de7d9",
+      "action": "ADD",
+      "name": "Шереметьево",
+      "icao": "UUEE",
+      "kind": "airport",
+      "type": "partial",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-15T22:35:30+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5618",
+      "text": "🟡🛩️ Москва - Шереметьево, UUEE",
+      "inKta": true,
+      "lat": 55.9760876,
+      "lon": 37.4238008
+    },
+    {
+      "id": "21d271afaed11cc4",
+      "action": "ADD",
+      "name": "Пашковский",
+      "icao": "URKK",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-15T22:36:38+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5619",
+      "text": "🔴🛩️ Краснодар - Пашковский, URKK",
+      "inKta": true,
+      "lat": 45.033714,
+      "lon": 39.1814429
+    },
+    {
+      "id": "7cda66fb534e200c",
+      "action": "ADD",
+      "name": "Туношна",
+      "icao": "UUDL",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-15T22:37:00+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5620",
+      "text": "🔴🛩️ Ярославль - Туношна, UUDL",
+      "inKta": true,
+      "lat": 57.5604597,
+      "lon": 40.1579512
     }
   ],
   "forecasts": [
