@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T02:05:23.801654+00:00",
+  "updatedAt": "2026-11-15T03:10:17.807436+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -46,21 +46,6 @@
       "messageTimestamp": "2026-11-14T13:01:21+00:00",
       "sourceUrl": "https://t.me/PlanKoverTDay/5596",
       "text": "Тестовое сообщение\n\n🔴 Координаты:\n52,3000000, 42,6500000\n51,5333333, 42,5666667\n50,7500000, 42,9666667\n50,2666667, 41,9666667\n50,8500000, 40,7166667\n51,4666667, 40,4333333"
-    },
-    {
-      "id": "d2f96fe476ccbefd",
-      "action": "ADD",
-      "name": "Волгоград",
-      "icao": "URWW",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-14T21:48:44+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5600",
-      "text": "🔴🛩️ Волгоград, URWW",
-      "inKta": true,
-      "lat": 48.7833547,
-      "lon": 44.3472901
     },
     {
       "id": "339f505adebc3964",
@@ -149,21 +134,6 @@
       "inKta": true,
       "lat": 53.5057511,
       "lon": 50.1569939
-    },
-    {
-      "id": "0bd913b822073be8",
-      "action": "ADD",
-      "name": "Сочи",
-      "icao": "URSS",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-15T02:03:13+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5604",
-      "text": "🔴🛩️ Сочи, URSS",
-      "inKta": true,
-      "lat": 43.4439715,
-      "lon": 39.9400928
     },
     {
       "id": "ece657c35578fb2b",
