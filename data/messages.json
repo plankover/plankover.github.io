@@ -31744,5 +31744,106 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5604,
+    "timestamp": "2026-11-15T02:03:13+00:00",
+    "text": "🔴🛩️ Бугульма, UWKB\n🔴🛩️ Казань, UWKD\n🔴🛩️ Нижнекамск - Бегишево, UWKE\n🔴🛩️ Самара - Курумоч, UWWW\n🔴🛩️ Сочи, URSS\n🔴🛩️ Ульяновск - Баратаевка, UWLL\n🔴🛩️ Чебоксары, UWKS",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5604",
+    "events": [
+      {
+        "id": "38781015512701e1",
+        "action": "ADD",
+        "name": "Бугульма",
+        "icao": "UWKB",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-15T02:03:13+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5604",
+        "text": "🔴🛩️ Бугульма, UWKB",
+        "inKta": true
+      },
+      {
+        "id": "c253d8fd66cbdff0",
+        "action": "ADD",
+        "name": "Казань",
+        "icao": "UWKD",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-15T02:03:13+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5604",
+        "text": "🔴🛩️ Казань, UWKD",
+        "inKta": true
+      },
+      {
+        "id": "b348bdcaee3f9dc8",
+        "action": "ADD",
+        "name": "Бегишево",
+        "icao": "UWKE",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-15T02:03:13+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5604",
+        "text": "🔴🛩️ Нижнекамск - Бегишево, UWKE",
+        "inKta": true
+      },
+      {
+        "id": "408d7bed3ce05bc0",
+        "action": "ADD",
+        "name": "Курумоч",
+        "icao": "UWWW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-15T02:03:13+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5604",
+        "text": "🔴🛩️ Самара - Курумоч, UWWW",
+        "inKta": true
+      },
+      {
+        "id": "0bd913b822073be8",
+        "action": "ADD",
+        "name": "Сочи",
+        "icao": "URSS",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-15T02:03:13+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5604",
+        "text": "🔴🛩️ Сочи, URSS",
+        "inKta": true
+      },
+      {
+        "id": "ece657c35578fb2b",
+        "action": "ADD",
+        "name": "Баратаевка",
+        "icao": "UWLL",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-15T02:03:13+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5604",
+        "text": "🔴🛩️ Ульяновск - Баратаевка, UWLL",
+        "inKta": true
+      },
+      {
+        "id": "eee845ad7da9cc9c",
+        "action": "ADD",
+        "name": "Чебоксары",
+        "icao": "UWKS",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-15T02:03:13+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5604",
+        "text": "🔴🛩️ Чебоксары, UWKS",
+        "inKta": true
+      }
+    ]
   }
 ]
