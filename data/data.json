@@ -1,37 +1,79 @@
 {
-  "updatedAt": "2026-11-15T16:55:21.709030+00:00",
+  "updatedAt": "2026-11-15T17:10:17.416812+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
-      "id": "85ee7d5ecc81501c",
+      "id": "67c703056a223e12",
       "action": "ADD",
       "name": "Грабцево",
       "icao": "UUBC",
       "kind": "airport",
       "type": "full",
-      "radiusKm": null,
+      "radiusKm": 70.0,
       "messageTimestamp": "2026-11-15T16:20:00+00:00",
       "sourceUrl": "https://t.me/PlanKoverTDay/5610",
-      "text": "🔴🛩️ Калуга - Грабцево, UUBC",
+      "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км",
       "inKta": true,
       "lat": 54.5488708,
       "lon": 36.3697725
     },
     {
-      "id": "59ec57e4f97faadd",
+      "id": "701d0c46f60c06a7",
+      "action": "ADD",
+      "name": "Клоково, Тула",
+      "icao": null,
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 70.0,
+      "messageTimestamp": "2026-11-15T16:20:00+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5610",
+      "text": "🔴 а/д Клоково, Тула / 70 км",
+      "inKta": false,
+      "lat": 54.2418249,
+      "lon": 37.6000197
+    },
+    {
+      "id": "cd19fe7aa8f1c9ca",
+      "action": "ADD",
+      "name": "Двоевка, Вязьма",
+      "icao": null,
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 70.0,
+      "messageTimestamp": "2026-11-15T16:20:00+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5610",
+      "text": "🔴 а/д Двоевка, Вязьма / 70 км",
+      "inKta": false,
+      "lat": 55.1468584,
+      "lon": 34.3776834
+    },
+    {
+      "id": "7c0982c3aa549e1b",
       "action": "ADD",
       "name": "Внуково",
       "icao": "UUWW",
       "kind": "airport",
       "type": "partial",
-      "radiusKm": null,
+      "radiusKm": 100.0,
       "messageTimestamp": "2026-11-15T16:51:01+00:00",
       "sourceUrl": "https://t.me/PlanKoverTDay/5611",
-      "text": "🟡🛩️ Москва - Внуково, UUWW",
+      "text": "🟡🛩️ Москва - Внуково, UUWW / 100 км (азимуты 150-300)",
+      "sector": {
+        "radiusKm": 100.0,
+        "startAzimuth": 150,
+        "endAzimuth": 300
+      },
       "inKta": true,
       "lat": 55.5995278,
       "lon": 37.2735752
     }
   ],
-  "forecasts": []
+  "forecasts": [
+    {
+      "label": "Прогноз",
+      "timestamp": "2026-11-15T17:06:48+00:00",
+      "text": "📌 Прогноз.\n\nВ течение ночи, вероятно, будут вводиться ограничения в московских аэропортах. \n\nТакже ограничения возможны в других близлежащих аэропортах Центрального, Приволжского федеральных округов",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5612"
+    }
+  ]
 }
