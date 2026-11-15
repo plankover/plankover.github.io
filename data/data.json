@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T22:50:16.654227+00:00",
+  "updatedAt": "2026-11-15T01:55:17.105886+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -63,21 +63,6 @@
       "lon": 44.3472901
     },
     {
-      "id": "d4e69f32be742435",
-      "action": "ADD",
-      "name": "Гагарин",
-      "icao": "UWSG",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-14T21:48:44+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5600",
-      "text": "🔴🛩️ Саратов - Гагарин, UWSG",
-      "inKta": true,
-      "lat": 51.7139093,
-      "lon": 46.1672319
-    },
-    {
       "id": "339f505adebc3964",
       "action": "ADD",
       "name": "Донское",
@@ -106,21 +91,6 @@
       "inKta": true,
       "lat": 44.58209,
       "lon": 38.01248
-    },
-    {
-      "id": "99a6463f7f5e982a",
-      "action": "ADD",
-      "name": "Пенза",
-      "icao": "UWPP",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-14T22:47:20+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5602",
-      "text": "🔴🛩️ Пенза, UWPP",
-      "inKta": true,
-      "lat": 53.110734,
-      "lon": 45.023455
     }
   ],
   "forecasts": []
