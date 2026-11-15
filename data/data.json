@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T18:30:16.701771+00:00",
+  "updatedAt": "2026-11-15T19:45:18.861049+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -160,6 +160,21 @@
       "inKta": false,
       "lat": 54.6571958,
       "lon": 39.6308884
+    },
+    {
+      "id": "d80ad75f138ef3d3",
+      "action": "ADD",
+      "name": "Говорово (Тверская область)",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 50.0,
+      "messageTimestamp": "2026-11-15T19:40:45+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5617",
+      "text": "🔴 Говорово (Тверская область) / 50 км",
+      "inKta": false,
+      "lat": 56.8408741,
+      "lon": 36.6673488
     }
   ],
   "forecasts": [
