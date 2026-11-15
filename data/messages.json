@@ -31881,5 +31881,28 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5606,
+    "timestamp": "2026-11-15T03:20:39+00:00",
+    "text": "🟢🛩️ Самара - Курумоч, UWWW",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5606",
+    "events": [
+      {
+        "id": "6f3b76be9ba006a0",
+        "action": "REMOVE",
+        "name": "Курумоч",
+        "icao": "UWWW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-15T03:20:39+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5606",
+        "text": "🟢🛩️ Самара - Курумоч, UWWW",
+        "inKta": true
+      }
+    ]
   }
 ]
