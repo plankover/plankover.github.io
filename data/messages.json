@@ -32149,7 +32149,7 @@
     "chatId": -1003822338715,
     "messageId": 5615,
     "timestamp": "2026-11-15T17:35:33+00:00",
-    "text": "⚠️ Ожидаем частичные ограничения в ближайшее время в аэропортах Шереметьево и Домодедово",
+    "text": "⚠️ Ожидаем частичные ограничения в ближайшее время в аэропортах Шереметьево и Домодедово\n\nupd: + Жуковский",
     "entities": [
       {
         "offset": 0,
@@ -32161,11 +32161,11 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/5615",
     "events": [
       {
-        "id": "82ea4bb484f1acca",
+        "id": "69d7bd61e6c800f9",
         "action": "FORECAST",
         "label": "Оперативный",
         "messageTimestamp": "2026-11-15T17:35:33+00:00",
-        "text": "⚠️ Ожидаем частичные ограничения в ближайшее время в аэропортах Шереметьево и Домодедово",
+        "text": "⚠️ Ожидаем частичные ограничения в ближайшее время в аэропортах Шереметьево и Домодедово\n\nupd: + Жуковский",
         "sourceUrl": "https://t.me/PlanKoverTDay/5615"
       }
     ]
@@ -32174,12 +32174,12 @@
     "chatId": -1003822338715,
     "messageId": 5616,
     "timestamp": "2026-11-15T17:44:39+00:00",
-    "text": "🔴 а/д Клин / 40 км (азимуты 180-000)",
+    "text": "🔴 а/д Клин / 40 км (азимуты 180-000)\n🔴 а/д Егорьевск / 50 км",
     "entities": [],
     "sourceUrl": "https://t.me/PlanKoverTDay/5616",
     "events": [
       {
-        "id": "9e464a9adca10ba0",
+        "id": "4f0ccb4d0931ef73",
         "action": "ADD",
         "name": "Клин",
         "icao": null,
@@ -32194,6 +32194,19 @@
           "startAzimuth": 180,
           "endAzimuth": 0
         },
+        "inKta": false
+      },
+      {
+        "id": "be742618bf7d47d5",
+        "action": "ADD",
+        "name": "Егорьевск",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 50.0,
+        "messageTimestamp": "2026-11-15T17:44:39+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5616",
+        "text": "🔴 а/д Егорьевск / 50 км",
         "inKta": false
       }
     ]

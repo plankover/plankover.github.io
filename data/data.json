@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T17:45:22.494831+00:00",
+  "updatedAt": "2026-11-15T17:50:20.425094+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -112,7 +112,7 @@
       "lon": 38.144335
     },
     {
-      "id": "9e464a9adca10ba0",
+      "id": "4f0ccb4d0931ef73",
       "action": "ADD",
       "name": "Клин",
       "icao": null,
@@ -130,13 +130,28 @@
       "inKta": false,
       "lat": 56.3608256,
       "lon": 36.7314909
+    },
+    {
+      "id": "be742618bf7d47d5",
+      "action": "ADD",
+      "name": "Егорьевск",
+      "icao": null,
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 50.0,
+      "messageTimestamp": "2026-11-15T17:44:39+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5616",
+      "text": "🔴 а/д Егорьевск / 50 км",
+      "inKta": false,
+      "lat": 55.3829765,
+      "lon": 39.0356223
     }
   ],
   "forecasts": [
     {
       "label": "Оперативный",
       "timestamp": "2026-11-15T17:35:33+00:00",
-      "text": "⚠️ Ожидаем частичные ограничения в ближайшее время в аэропортах Шереметьево и Домодедово",
+      "text": "⚠️ Ожидаем частичные ограничения в ближайшее время в аэропортах Шереметьево и Домодедово\n\nupd: + Жуковский",
       "sourceUrl": "https://t.me/PlanKoverTDay/5615"
     }
   ]
