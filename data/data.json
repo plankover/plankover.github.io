@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T21:05:17.822957+00:00",
+  "updatedAt": "2026-11-16T21:20:17.661503+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -309,6 +309,36 @@
       "inKta": false,
       "lat": 56.7362705,
       "lon": 37.1623696
+    },
+    {
+      "id": "b4057b6069be6969",
+      "action": "ADD",
+      "name": "Череповец",
+      "icao": "ULWC",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 50.0,
+      "messageTimestamp": "2026-11-16T21:14:59+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5648",
+      "text": "🔴🛩️ Череповец, ULWC / 50 км",
+      "inKta": true,
+      "lat": 59.2778367,
+      "lon": 38.0206535
+    },
+    {
+      "id": "bca7991565a7369a",
+      "action": "ADD",
+      "name": "Валдай",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 70.0,
+      "messageTimestamp": "2026-11-16T21:14:59+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5648",
+      "text": "🔴 Валдай / 70 км",
+      "inKta": false,
+      "lat": 57.9791414,
+      "lon": 33.2537994
     }
   ],
   "forecasts": []
