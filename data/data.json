@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T20:15:17.949198+00:00",
+  "updatedAt": "2026-11-16T20:20:29.373206+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -198,49 +198,77 @@
       "lon": 39.6201571
     },
     {
-      "id": "7bb699cf87f2879d",
+      "id": "cf37c148066cfe6c",
       "action": "ADD",
-      "name": "Внуково",
-      "icao": "UUWW",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
+      "name": "Москва",
+      "icao": null,
+      "kind": "city",
+      "type": "partial",
+      "radiusKm": 150.0,
       "messageTimestamp": "2026-11-16T20:10:57+00:00",
       "sourceUrl": "https://t.me/PlanKoverTDay/5641",
-      "text": "🔴🛩️ Москва - Внуково, UUWW",
-      "inKta": true,
-      "lat": 55.5995278,
-      "lon": 37.2735752
+      "text": "🔴 Москва (🛩️ Внуково, UUWW; 🛩️ Домодедово, UUDD; 🛩️ Жуковский, UUBW) / 150 км (азимуты 090-300)",
+      "sector": {
+        "radiusKm": 150.0,
+        "startAzimuth": 90,
+        "endAzimuth": 300
+      },
+      "affectedAirports": [
+        {
+          "name": "Внуково",
+          "icao": "UUWW",
+          "kind": "airport",
+          "lat": 55.5995278,
+          "lon": 37.2735752
+        },
+        {
+          "name": "Домодедово",
+          "icao": "UUDD",
+          "kind": "airport",
+          "lat": 55.4087122,
+          "lon": 37.9094307
+        },
+        {
+          "name": "Жуковский",
+          "icao": "UUBW",
+          "kind": "airport",
+          "lat": 55.5496554,
+          "lon": 38.1547897
+        }
+      ],
+      "inKta": false,
+      "lat": 55.7522,
+      "lon": 37.6156
     },
     {
-      "id": "4858f26b1d2df3c6",
+      "id": "34c8bd1b9475f108",
       "action": "ADD",
-      "name": "Домодедово",
-      "icao": "UUDD",
+      "name": "Пенза",
+      "icao": "UWPP",
       "kind": "airport",
       "type": "full",
       "radiusKm": null,
-      "messageTimestamp": "2026-11-16T20:10:57+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5641",
-      "text": "🔴🛩️ Москва - Домодедово, UUDD",
+      "messageTimestamp": "2026-11-16T20:15:20+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5642",
+      "text": "🔴🛩️ Пенза, UWPP",
       "inKta": true,
-      "lat": 55.4087122,
-      "lon": 37.9094307
+      "lat": 53.110734,
+      "lon": 45.023455
     },
     {
-      "id": "d4d70e8b76efa16f",
+      "id": "a656fc338bcb2414",
       "action": "ADD",
-      "name": "Жуковский",
-      "icao": "UUBW",
+      "name": "Гагарин",
+      "icao": "UWSS",
       "kind": "airport",
       "type": "full",
       "radiusKm": null,
-      "messageTimestamp": "2026-11-16T20:10:57+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5641",
-      "text": "🔴🛩️ Раменское - Жуковский, UUBW",
+      "messageTimestamp": "2026-11-16T20:15:20+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5642",
+      "text": "🔴🛩️ Саратов - Гагарин, UWSS",
       "inKta": true,
-      "lat": 55.5496554,
-      "lon": 38.1547897
+      "lat": 51.7139093,
+      "lon": 46.1672319
     }
   ],
   "forecasts": []
