@@ -32962,5 +32962,188 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5640,
+    "timestamp": "2026-11-16T19:38:38+00:00",
+    "text": "🕒 Актуальные ограничения на 22:35 мск\n\n🔴🛩️ Калуга - Грабцево, UUBC / 70 км\n🔴 Тейково (🛩️ Иваново - Южный, UUBI) / 30 км \n🟡🛩️ Домодедово, UUDD / 100 км (азимуты 090-270)\n🟡🛩️ Внуково, UUWW / 100 км (150-330)\n\n🔴 а/д Северный, Смоленск / 70 км\n🔴 а/д Клоково, Тула / 70 км\n🔴 а/д Дягилево, Рязань / 70 км\n🔴 а/д Семязино, Владимир / 40 км\n🔴 а/д Витязево, Анапа / 20 км \n🔴 Шатура / 20 км\n🔴 Костерёво / 20 км",
+    "entities": [
+      {
+        "offset": 0,
+        "length": 2,
+        "type": "custom_emoji",
+        "custom_emoji_id": "6278477897321685413"
+      }
+    ],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5640",
+    "events": [
+      {
+        "id": "a0837d06d85c9583",
+        "action": "ADD",
+        "name": "Грабцево",
+        "icao": "UUBC",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-11-16T19:38:38+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5640",
+        "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км",
+        "inKta": true,
+        "snapshot": true
+      },
+      {
+        "id": "6d3d4f8c4aafca68",
+        "action": "ADD",
+        "name": "Тейково",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 30.0,
+        "messageTimestamp": "2026-11-16T19:38:38+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5640",
+        "text": "🔴 Тейково (🛩️ Иваново - Южный, UUBI) / 30 км ",
+        "affectedAirports": [
+          {
+            "name": "Южный",
+            "icao": "UUBI",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false,
+        "snapshot": true
+      },
+      {
+        "id": "a6197d27e13df15c",
+        "action": "ADD",
+        "name": "Домодедово",
+        "icao": "UUDD",
+        "kind": "airport",
+        "type": "partial",
+        "radiusKm": 100.0,
+        "messageTimestamp": "2026-11-16T19:38:38+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5640",
+        "text": "🟡🛩️ Домодедово, UUDD / 100 км (азимуты 090-270)",
+        "sector": {
+          "radiusKm": 100.0,
+          "startAzimuth": 90,
+          "endAzimuth": 270
+        },
+        "inKta": true,
+        "snapshot": true
+      },
+      {
+        "id": "785218595c39a105",
+        "action": "ADD",
+        "name": "Внуково",
+        "icao": "UUWW",
+        "kind": "airport",
+        "type": "partial",
+        "radiusKm": 100.0,
+        "messageTimestamp": "2026-11-16T19:38:38+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5640",
+        "text": "🟡🛩️ Внуково, UUWW / 100 км (150-330)",
+        "inKta": true,
+        "snapshot": true
+      },
+      {
+        "id": "36e3b1215c238453",
+        "action": "ADD",
+        "name": "Северный, Смоленск",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-11-16T19:38:38+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5640",
+        "text": "🔴 а/д Северный, Смоленск / 70 км",
+        "inKta": false,
+        "snapshot": true
+      },
+      {
+        "id": "18be55f92b890b85",
+        "action": "ADD",
+        "name": "Клоково, Тула",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-11-16T19:38:38+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5640",
+        "text": "🔴 а/д Клоково, Тула / 70 км",
+        "inKta": false,
+        "snapshot": true
+      },
+      {
+        "id": "edebd375c34954c0",
+        "action": "ADD",
+        "name": "Дягилево, Рязань",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-11-16T19:38:38+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5640",
+        "text": "🔴 а/д Дягилево, Рязань / 70 км",
+        "inKta": false,
+        "snapshot": true
+      },
+      {
+        "id": "d2d5b5842e012b68",
+        "action": "ADD",
+        "name": "Семязино, Владимир",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 40.0,
+        "messageTimestamp": "2026-11-16T19:38:38+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5640",
+        "text": "🔴 а/д Семязино, Владимир / 40 км",
+        "inKta": false,
+        "snapshot": true
+      },
+      {
+        "id": "8afd2ac3f1fc0b18",
+        "action": "ADD",
+        "name": "Витязево, Анапа",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 20.0,
+        "messageTimestamp": "2026-11-16T19:38:38+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5640",
+        "text": "🔴 а/д Витязево, Анапа / 20 км ",
+        "inKta": false,
+        "snapshot": true
+      },
+      {
+        "id": "5315ea40ef651993",
+        "action": "ADD",
+        "name": "Шатура",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 20.0,
+        "messageTimestamp": "2026-11-16T19:38:38+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5640",
+        "text": "🔴 Шатура / 20 км",
+        "inKta": false,
+        "snapshot": true
+      },
+      {
+        "id": "882defe621f2ed20",
+        "action": "ADD",
+        "name": "Костерёво",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 20.0,
+        "messageTimestamp": "2026-11-16T19:38:38+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5640",
+        "text": "🔴 Костерёво / 20 км",
+        "inKta": false,
+        "snapshot": true
+      }
+    ]
   }
 ]
