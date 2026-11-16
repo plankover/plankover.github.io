@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-16T19:40:22.946273+00:00",
+  "updatedAt": "2026-11-16T19:45:18.858766+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
-      "id": "a0837d06d85c9583",
+      "id": "5ee3d929b3e9815b",
       "action": "ADD",
       "name": "Грабцево",
       "icao": "UUBC",
@@ -19,7 +19,7 @@
       "lon": 36.3697725
     },
     {
-      "id": "6d3d4f8c4aafca68",
+      "id": "b820ca8ad0312150",
       "action": "ADD",
       "name": "Тейково",
       "icao": null,
@@ -44,7 +44,7 @@
       "lon": 40.5405863
     },
     {
-      "id": "a6197d27e13df15c",
+      "id": "04ef84e2491d2b8d",
       "action": "ADD",
       "name": "Домодедово",
       "icao": "UUDD",
@@ -65,7 +65,7 @@
       "lon": 37.9094307
     },
     {
-      "id": "785218595c39a105",
+      "id": "3f884a27db248b63",
       "action": "ADD",
       "name": "Внуково",
       "icao": "UUWW",
@@ -74,14 +74,19 @@
       "radiusKm": 100.0,
       "messageTimestamp": "2026-11-16T19:38:38+00:00",
       "sourceUrl": "https://t.me/PlanKoverTDay/5640",
-      "text": "🟡🛩️ Внуково, UUWW / 100 км (150-330)",
+      "text": "🟡🛩️ Внуково, UUWW / 100 км (азимуты 150-330)",
+      "sector": {
+        "radiusKm": 100.0,
+        "startAzimuth": 150,
+        "endAzimuth": 330
+      },
       "inKta": true,
       "snapshot": true,
       "lat": 55.5995278,
       "lon": 37.2735752
     },
     {
-      "id": "36e3b1215c238453",
+      "id": "822e07a1e8227deb",
       "action": "ADD",
       "name": "Северный, Смоленск",
       "icao": null,
@@ -97,7 +102,7 @@
       "lon": 32.0231288
     },
     {
-      "id": "18be55f92b890b85",
+      "id": "6a416fa6eed5b7ce",
       "action": "ADD",
       "name": "Клоково, Тула",
       "icao": null,
@@ -113,7 +118,7 @@
       "lon": 37.6000197
     },
     {
-      "id": "edebd375c34954c0",
+      "id": "3d6ae2d46cd29a5c",
       "action": "ADD",
       "name": "Дягилево, Рязань",
       "icao": null,
@@ -129,7 +134,7 @@
       "lon": 39.6308884
     },
     {
-      "id": "d2d5b5842e012b68",
+      "id": "31b08b0dab6cbd56",
       "action": "ADD",
       "name": "Семязино, Владимир",
       "icao": null,
@@ -145,7 +150,7 @@
       "lon": 40.3173426
     },
     {
-      "id": "8afd2ac3f1fc0b18",
+      "id": "a7e81ece1788f3e6",
       "action": "ADD",
       "name": "Витязево, Анапа",
       "icao": null,
@@ -161,7 +166,7 @@
       "lon": 37.2607195
     },
     {
-      "id": "5315ea40ef651993",
+      "id": "645ea6981f46f3d2",
       "action": "ADD",
       "name": "Шатура",
       "icao": null,
@@ -177,7 +182,7 @@
       "lon": 39.5437584
     },
     {
-      "id": "882defe621f2ed20",
+      "id": "d60df4d52b83323e",
       "action": "ADD",
       "name": "Костерёво",
       "icao": null,
