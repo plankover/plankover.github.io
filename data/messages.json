@@ -32384,5 +32384,41 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5624,
+    "timestamp": "2026-11-16T03:21:04+00:00",
+    "text": "🟢🛩️ Краснодар - Пашковский, URKK\n🟢🛩️ Сочи, URSS",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5624",
+    "events": [
+      {
+        "id": "becbaebf50faf7de",
+        "action": "REMOVE",
+        "name": "Пашковский",
+        "icao": "URKK",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-16T03:21:04+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5624",
+        "text": "🟢🛩️ Краснодар - Пашковский, URKK",
+        "inKta": true
+      },
+      {
+        "id": "0cc436c62c64d345",
+        "action": "REMOVE",
+        "name": "Сочи",
+        "icao": "URSS",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-16T03:21:04+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5624",
+        "text": "🟢🛩️ Сочи, URSS",
+        "inKta": true
+      }
+    ]
   }
 ]

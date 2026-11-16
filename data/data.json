@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T02:10:17.423922+00:00",
+  "updatedAt": "2026-11-16T03:25:16.778823+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -143,21 +143,6 @@
       "lon": 37.4238008
     },
     {
-      "id": "21d271afaed11cc4",
-      "action": "ADD",
-      "name": "Пашковский",
-      "icao": "URKK",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-15T22:36:38+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5619",
-      "text": "🔴🛩️ Краснодар - Пашковский, URKK",
-      "inKta": true,
-      "lat": 45.033714,
-      "lon": 39.1814429
-    },
-    {
       "id": "7cda66fb534e200c",
       "action": "ADD",
       "name": "Туношна",
@@ -171,21 +156,6 @@
       "inKta": true,
       "lat": 57.5604597,
       "lon": 40.1579512
-    },
-    {
-      "id": "e0441666957a397e",
-      "action": "ADD",
-      "name": "Сочи",
-      "icao": "URSS",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-16T01:59:11+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5621",
-      "text": "🔴🛩️ Сочи, URSS",
-      "inKta": true,
-      "lat": 43.4439715,
-      "lon": 39.9400928
     },
     {
       "id": "3e9f2ae5c4bac718",
