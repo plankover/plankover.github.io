@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T20:35:16.985764+00:00",
+  "updatedAt": "2026-11-16T20:42:02.986199+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -182,20 +182,20 @@
       "lon": 39.6201571
     },
     {
-      "id": "cf37c148066cfe6c",
+      "id": "87a987251d7f2b04",
       "action": "ADD",
       "name": "Москва",
       "icao": null,
       "kind": "city",
       "type": "partial",
       "radiusKm": 150.0,
-      "messageTimestamp": "2026-11-16T20:10:57+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5641",
-      "text": "🔴 Москва (🛩️ Внуково, UUWW; 🛩️ Домодедово, UUDD; 🛩️ Жуковский, UUBW) / 150 км (азимуты 090-300)",
+      "messageTimestamp": "2026-11-16T20:34:16+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5644",
+      "text": "🔴 Москва (🛩️ Внуково, UUWW; 🛩️ Домодедово, UUDD; 🛩️ Жуковский, UUBW; 🛩️ Шереметьево, UUEE ) / 150 км (азимуты 090-000)",
       "sector": {
         "radiusKm": 150.0,
         "startAzimuth": 90,
-        "endAzimuth": 300
+        "endAzimuth": 0
       },
       "affectedAirports": [
         {
@@ -218,6 +218,13 @@
           "kind": "airport",
           "lat": 55.5496554,
           "lon": 38.1547897
+        },
+        {
+          "name": "Шереметьево",
+          "icao": "UUEE",
+          "kind": "airport",
+          "lat": 55.9760876,
+          "lon": 37.4238008
         }
       ],
       "inKta": false,
@@ -253,21 +260,6 @@
       "inKta": true,
       "lat": 51.7139093,
       "lon": 46.1672319
-    },
-    {
-      "id": "cb31c970961adb5d",
-      "action": "ADD",
-      "name": "Шереметьево",
-      "icao": "UUEE",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-16T20:34:16+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5644",
-      "text": "🔴🛩️ Москва - Шереметьево, UUEE",
-      "inKta": true,
-      "lat": 55.9760876,
-      "lon": 37.4238008
     }
   ],
   "forecasts": []

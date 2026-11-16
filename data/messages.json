@@ -26004,11 +26004,10 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/5443",
     "events": [
       {
-        "id": "531c391984a968a7",
-        "action": "FORECAST",
-        "label": "Оперативный",
+        "id": "54aec5d7b623ab5c",
+        "action": "UNKNOWN",
         "messageTimestamp": "2026-11-06T22:21:26+00:00",
-        "text": "⚠️ Есть вероятность ограничений в московском авиаузле. \nНа данный момент уже введен ковер, но на гражданские самолёты не распространяется\n\nОтбой, угроза миновала",
+        "text": "Отбой, угроза миновала",
         "sourceUrl": "https://t.me/PlanKoverTDay/5443"
       }
     ]
@@ -32038,22 +32037,11 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/5611",
     "events": [
       {
-        "id": "26770c1b0f84dfef",
-        "action": "ADD",
-        "name": "Внуково",
-        "icao": "UUWW",
-        "kind": "airport",
-        "type": "partial",
-        "radiusKm": 100.0,
+        "id": "158a304fbd069a3d",
+        "action": "UNKNOWN",
         "messageTimestamp": "2026-11-15T16:51:01+00:00",
-        "sourceUrl": "https://t.me/PlanKoverTDay/5611",
-        "text": "🟡🛩️ Москва - Внуково, UUWW / 100 км (азимуты 150-300)",
-        "sector": {
-          "radiusKm": 100.0,
-          "startAzimuth": 150,
-          "endAzimuth": 300
-        },
-        "inKta": true
+        "text": "Актуальное",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5611"
       }
     ]
   },
@@ -33247,22 +33235,49 @@
     "chatId": -1003822338715,
     "messageId": 5644,
     "timestamp": "2026-11-16T20:34:16+00:00",
-    "text": "🔴🛩️ Москва - Шереметьево, UUEE",
+    "text": "Изменен азимут\n\n🔴 Москва (🛩️ Внуково, UUWW; 🛩️ Домодедово, UUDD; 🛩️ Жуковский, UUBW; 🛩️ Шереметьево, UUEE ) / 150 км (азимуты 090-000)",
     "entities": [],
     "sourceUrl": "https://t.me/PlanKoverTDay/5644",
     "events": [
       {
-        "id": "cb31c970961adb5d",
+        "id": "87a987251d7f2b04",
         "action": "ADD",
-        "name": "Шереметьево",
-        "icao": "UUEE",
-        "kind": "airport",
-        "type": "full",
-        "radiusKm": null,
+        "name": "Москва",
+        "icao": null,
+        "kind": "city",
+        "type": "partial",
+        "radiusKm": 150.0,
         "messageTimestamp": "2026-11-16T20:34:16+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/5644",
-        "text": "🔴🛩️ Москва - Шереметьево, UUEE",
-        "inKta": true
+        "text": "🔴 Москва (🛩️ Внуково, UUWW; 🛩️ Домодедово, UUDD; 🛩️ Жуковский, UUBW; 🛩️ Шереметьево, UUEE ) / 150 км (азимуты 090-000)",
+        "sector": {
+          "radiusKm": 150.0,
+          "startAzimuth": 90,
+          "endAzimuth": 0
+        },
+        "affectedAirports": [
+          {
+            "name": "Внуково",
+            "icao": "UUWW",
+            "kind": "airport"
+          },
+          {
+            "name": "Домодедово",
+            "icao": "UUDD",
+            "kind": "airport"
+          },
+          {
+            "name": "Жуковский",
+            "icao": "UUBW",
+            "kind": "airport"
+          },
+          {
+            "name": "Шереметьево",
+            "icao": "UUEE",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false
       }
     ]
   }
