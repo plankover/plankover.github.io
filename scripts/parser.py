@@ -201,8 +201,26 @@ def _remove_struck_lines(value, entities):
     return "".join(lines)
 
 
+
+def _struck_lines(value, entities):
+    """Return original lines touched by Telegram strikethrough entities."""
+    struck = [
+        (int(entity.get("offset", 0)), int(entity.get("offset", 0)) + int(entity.get("length", 0)))
+        for entity in entities or []
+        if entity.get("type") == "strikethrough"
+    ]
+    result = []
+    offset = 0
+    for line in (value or "").splitlines(keepends=True):
+        line_end = offset + len(line.encode("utf-16-le", errors="surrogatepass")) // 2
+        if any(start < line_end and end > offset for start, end in struck):
+            result.append(line.rstrip("\r\n"))
+        offset = line_end
+    return result
+
 def parse_message(message, published_at=None, source_url=None, entities=None):
     raw_original = message or ""
+    struck_lines = _struck_lines(raw_original, entities)
     original = _remove_struck_lines(raw_original, entities)
     # Telegram Bot API represents quoted text as message entities, not HTML.
     quoted_notam = []
@@ -430,6 +448,25 @@ def parse_message(message, published_at=None, source_url=None, entities=None):
         previous = next((e for e in reversed(events) if e.get("action") == "ADD"), None)
         if previous:
             previous["notamText"] = "\n".join(quoted_notam)
+
+    # A struck-through restriction line explicitly cancels an earlier ADD.
+    for line_no, line in enumerate(struck_lines):
+        target = parse_target_line(line)
+        if not target:
+            continue
+        key = target.get("icao") or target["name"].casefold()
+        eid = hashlib.sha256(f"{digest}|strikethrough|{key}|{line_no}".encode()).hexdigest()[:16]
+        events.append({
+            "id": eid,
+            "action": "REMOVE",
+            "name": target["name"],
+            "icao": target.get("icao"),
+            "kind": target["kind"],
+            "type": "full",
+            "messageTimestamp": ts,
+            "sourceUrl": source_url,
+            "text": clean_text(line),
+        })
 
     if events:
         return events
