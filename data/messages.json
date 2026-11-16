@@ -32758,5 +32758,28 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5636,
+    "timestamp": "2026-11-16T19:00:58+00:00",
+    "text": "🔴🛩️ Иваново - Южный, UUBI",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5636",
+    "events": [
+      {
+        "id": "2af982fe28470399",
+        "action": "ADD",
+        "name": "Южный",
+        "icao": "UUBI",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-16T19:00:58+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5636",
+        "text": "🔴🛩️ Иваново - Южный, UUBI",
+        "inKta": true
+      }
+    ]
   }
 ]
