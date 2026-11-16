@@ -194,7 +194,7 @@ def _remove_struck_lines(value, entities):
         line_length = len(line.encode("utf-16-le", errors="surrogatepass")) // 2
         line_end = offset + line_length
         if any(start < line_end and end > offset for start, end in struck):
-            lines.append("\\n" if line.endswith("\\n") else "")
+            lines.append("\n" if line.endswith("\n") else "")
         else:
             lines.append(line)
         offset = line_end
