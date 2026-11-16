@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-16T19:45:18.858766+00:00",
+  "updatedAt": "2026-11-16T19:50:18.238373+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
-      "id": "5ee3d929b3e9815b",
+      "id": "520c5dbce13868f7",
       "action": "ADD",
       "name": "Грабцево",
       "icao": "UUBC",
@@ -19,7 +19,7 @@
       "lon": 36.3697725
     },
     {
-      "id": "b820ca8ad0312150",
+      "id": "6f2436acafa31a89",
       "action": "ADD",
       "name": "Тейково",
       "icao": null,
@@ -44,7 +44,7 @@
       "lon": 40.5405863
     },
     {
-      "id": "04ef84e2491d2b8d",
+      "id": "b69785debe367c84",
       "action": "ADD",
       "name": "Домодедово",
       "icao": "UUDD",
@@ -65,7 +65,7 @@
       "lon": 37.9094307
     },
     {
-      "id": "3f884a27db248b63",
+      "id": "1a139100f781c4f2",
       "action": "ADD",
       "name": "Внуково",
       "icao": "UUWW",
@@ -86,7 +86,7 @@
       "lon": 37.2735752
     },
     {
-      "id": "822e07a1e8227deb",
+      "id": "2017ff945bf57cc1",
       "action": "ADD",
       "name": "Северный, Смоленск",
       "icao": null,
@@ -102,7 +102,7 @@
       "lon": 32.0231288
     },
     {
-      "id": "6a416fa6eed5b7ce",
+      "id": "1725483d0d5c6dfa",
       "action": "ADD",
       "name": "Клоково, Тула",
       "icao": null,
@@ -118,7 +118,7 @@
       "lon": 37.6000197
     },
     {
-      "id": "3d6ae2d46cd29a5c",
+      "id": "2a884acd7c95078f",
       "action": "ADD",
       "name": "Дягилево, Рязань",
       "icao": null,
@@ -134,7 +134,7 @@
       "lon": 39.6308884
     },
     {
-      "id": "31b08b0dab6cbd56",
+      "id": "cd1622a9e8f4e22b",
       "action": "ADD",
       "name": "Семязино, Владимир",
       "icao": null,
@@ -150,23 +150,23 @@
       "lon": 40.3173426
     },
     {
-      "id": "a7e81ece1788f3e6",
+      "id": "57f12a64c345ed14",
       "action": "ADD",
-      "name": "Витязево, Анапа",
+      "name": "Анапа - Витязево",
       "icao": null,
       "kind": "airport",
       "type": "full",
       "radiusKm": 20.0,
       "messageTimestamp": "2026-11-16T19:38:38+00:00",
       "sourceUrl": "https://t.me/PlanKoverTDay/5640",
-      "text": "🔴 а/д Витязево, Анапа / 20 км ",
+      "text": "🔴 а/д Анапа - Витязево / 20 км ",
       "inKta": false,
       "snapshot": true,
-      "lat": 44.9897066,
-      "lon": 37.2607195
+      "lat": 45.0026734,
+      "lon": 37.3451849
     },
     {
-      "id": "645ea6981f46f3d2",
+      "id": "4eae02901c587944",
       "action": "ADD",
       "name": "Шатура",
       "icao": null,
@@ -182,7 +182,7 @@
       "lon": 39.5437584
     },
     {
-      "id": "d60df4d52b83323e",
+      "id": "16c784b82e67a7c4",
       "action": "ADD",
       "name": "Костерёво",
       "icao": null,
