@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T20:50:19.506069+00:00",
+  "updatedAt": "2026-11-16T20:55:19.218868+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -227,6 +227,73 @@
       "inKta": false,
       "lat": 51.9489,
       "lon": 44.2678
+    },
+    {
+      "id": "15cba0f874e67b59",
+      "action": "ADD",
+      "name": "Москва",
+      "icao": null,
+      "kind": "city",
+      "type": "partial",
+      "radiusKm": 150.0,
+      "messageTimestamp": "2026-11-16T20:50:04+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5645",
+      "text": "🔴 Москва (🛩️ Внуково, UUWW; 🛩️ Домодедово, UUDD; 🛩️ Жуковский, UUBW) / 150 км (азимуты 090-300)",
+      "sector": {
+        "radiusKm": 150.0,
+        "startAzimuth": 90,
+        "endAzimuth": 300
+      },
+      "affectedAirports": [
+        {
+          "name": "Внуково",
+          "icao": "UUWW",
+          "kind": "airport",
+          "lat": 55.5995278,
+          "lon": 37.2735752
+        },
+        {
+          "name": "Домодедово",
+          "icao": "UUDD",
+          "kind": "airport",
+          "lat": 55.4087122,
+          "lon": 37.9094307
+        },
+        {
+          "name": "Жуковский",
+          "icao": "UUBW",
+          "kind": "airport",
+          "lat": 55.5496554,
+          "lon": 38.1547897
+        }
+      ],
+      "inKta": false,
+      "lat": 55.7522,
+      "lon": 37.6156
+    },
+    {
+      "id": "a7b86c70cb313beb",
+      "action": "ADD",
+      "name": "Энгельс",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 150.0,
+      "messageTimestamp": "2026-11-16T20:52:25+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5646",
+      "text": "🔴 Энгельс (🛩️ Саратов - Гагарин, UWSG) / 150 км",
+      "affectedAirports": [
+        {
+          "name": "Гагарин",
+          "icao": "UWSG",
+          "kind": "airport",
+          "lat": 51.7139093,
+          "lon": 46.1672319
+        }
+      ],
+      "inKta": false,
+      "lat": 51.5013775,
+      "lon": 46.1233093
     }
   ],
   "forecasts": []

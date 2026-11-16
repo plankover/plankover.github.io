@@ -33141,24 +33141,18 @@
     "chatId": -1003822338715,
     "messageId": 5641,
     "timestamp": "2026-11-16T20:10:57+00:00",
-    "text": "🔴 Москва (🛩️ Внуково, UUWW; 🛩️ Домодедово, UUDD; 🛩️ Жуковский, UUBW) / 150 км (азимуты 090-300)\n\nАктуальное",
+    "text": "🔴 Москва (🛩️ Внуково, UUWW; 🛩️ Домодедово, UUDD; 🛩️ Жуковский, UUBW) / 150 км (азимуты 090-300)",
     "entities": [
       {
         "offset": 0,
         "length": 99,
         "type": "strikethrough"
-      },
-      {
-        "offset": 101,
-        "length": 10,
-        "type": "text_link",
-        "url": "https://t.me/PlanKoverTDay/5644"
       }
     ],
     "sourceUrl": "https://t.me/PlanKoverTDay/5641",
     "events": [
       {
-        "id": "a56a3cb69169f3d1",
+        "id": "6f28c52a82284c16",
         "action": "REMOVE",
         "name": "Москва",
         "icao": null,
@@ -33235,25 +33229,59 @@
     "chatId": -1003822338715,
     "messageId": 5644,
     "timestamp": "2026-11-16T20:34:16+00:00",
-    "text": "Изменен азимут\n\n🔴 Москва (🛩️ Внуково, UUWW; 🛩️ Домодедово, UUDD; 🛩️ Жуковский, UUBW; 🛩️ Шереметьево, UUEE ) / 150 км (азимуты 090-000)",
-    "entities": [],
+    "text": "Изменен азимут\n\n🔴 Москва (🛩️ Внуково, UUWW; 🛩️ Домодедово, UUDD; 🛩️ Жуковский, UUBW; 🛩️ Шереметьево, UUEE ) / 150 км (азимуты 090-000)\n\nАктуальное",
+    "entities": [
+      {
+        "offset": 0,
+        "length": 139,
+        "type": "strikethrough"
+      },
+      {
+        "offset": 141,
+        "length": 10,
+        "type": "text_link",
+        "url": "https://t.me/PlanKoverTDay/5645"
+      }
+    ],
     "sourceUrl": "https://t.me/PlanKoverTDay/5644",
     "events": [
       {
-        "id": "87a987251d7f2b04",
+        "id": "240e7d4f5b1b9e79",
+        "action": "REMOVE",
+        "name": "Москва",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "messageTimestamp": "2026-11-16T20:34:16+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5644",
+        "text": "🔴 Москва (🛩️ Внуково, UUWW; 🛩️ Домодедово, UUDD; 🛩️ Жуковский, UUBW; 🛩️ Шереметьево, UUEE ) / 150 км (азимуты 090-000)",
+        "strikethrough": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5645,
+    "timestamp": "2026-11-16T20:50:04+00:00",
+    "text": "🔴 Москва (🛩️ Внуково, UUWW; 🛩️ Домодедово, UUDD; 🛩️ Жуковский, UUBW) / 150 км (азимуты 090-300)",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5645",
+    "events": [
+      {
+        "id": "15cba0f874e67b59",
         "action": "ADD",
         "name": "Москва",
         "icao": null,
         "kind": "city",
         "type": "partial",
         "radiusKm": 150.0,
-        "messageTimestamp": "2026-11-16T20:34:16+00:00",
-        "sourceUrl": "https://t.me/PlanKoverTDay/5644",
-        "text": "🔴 Москва (🛩️ Внуково, UUWW; 🛩️ Домодедово, UUDD; 🛩️ Жуковский, UUBW; 🛩️ Шереметьево, UUEE ) / 150 км (азимуты 090-000)",
+        "messageTimestamp": "2026-11-16T20:50:04+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5645",
+        "text": "🔴 Москва (🛩️ Внуково, UUWW; 🛩️ Домодедово, UUDD; 🛩️ Жуковский, UUBW) / 150 км (азимуты 090-300)",
         "sector": {
           "radiusKm": 150.0,
           "startAzimuth": 90,
-          "endAzimuth": 0
+          "endAzimuth": 300
         },
         "affectedAirports": [
           {
@@ -33270,11 +33298,6 @@
             "name": "Жуковский",
             "icao": "UUBW",
             "kind": "airport"
-          },
-          {
-            "name": "Шереметьево",
-            "icao": "UUEE",
-            "kind": "airport"
           }
         ],
         "inKta": false
@@ -33283,24 +33306,31 @@
   },
   {
     "chatId": -1003822338715,
-    "messageId": 5645,
-    "timestamp": "2026-11-16T20:50:04+00:00",
-    "text": "🟢🛩️ Москва - Шереметьево, UUEE",
+    "messageId": 5646,
+    "timestamp": "2026-11-16T20:52:25+00:00",
+    "text": "🔴 Энгельс (🛩️ Саратов - Гагарин, UWSG) / 150 км",
     "entities": [],
-    "sourceUrl": "https://t.me/PlanKoverTDay/5645",
+    "sourceUrl": "https://t.me/PlanKoverTDay/5646",
     "events": [
       {
-        "id": "e8aad57d21c12072",
-        "action": "REMOVE",
-        "name": "Шереметьево",
-        "icao": "UUEE",
-        "kind": "airport",
+        "id": "a7b86c70cb313beb",
+        "action": "ADD",
+        "name": "Энгельс",
+        "icao": null,
+        "kind": "city",
         "type": "full",
-        "radiusKm": null,
-        "messageTimestamp": "2026-11-16T20:50:04+00:00",
-        "sourceUrl": "https://t.me/PlanKoverTDay/5645",
-        "text": "🟢🛩️ Москва - Шереметьево, UUEE",
-        "inKta": true
+        "radiusKm": 150.0,
+        "messageTimestamp": "2026-11-16T20:52:25+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5646",
+        "text": "🔴 Энгельс (🛩️ Саратов - Гагарин, UWSG) / 150 км",
+        "affectedAirports": [
+          {
+            "name": "Гагарин",
+            "icao": "UWSG",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false
       }
     ]
   }
