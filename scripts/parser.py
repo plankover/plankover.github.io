@@ -176,8 +176,33 @@ def _utf16_slice(value, offset, length):
     return raw[offset * 2:(offset + length) * 2].decode("utf-16-le", errors="replace")
 
 
+def _remove_struck_lines(value, entities):
+    """Treat any line touched by a Telegram strikethrough entity as cancelled."""
+    value = value or ""
+    struck = [
+        (int(entity.get("offset", 0)), int(entity.get("offset", 0)) + int(entity.get("length", 0)))
+        for entity in entities or []
+        if entity.get("type") == "strikethrough"
+    ]
+    if not struck:
+        return value
+
+    # Telegram entity offsets and lengths are measured in UTF-16 code units.
+    lines = []
+    offset = 0
+    for line in value.splitlines(keepends=True):
+        line_length = len(line.encode("utf-16-le", errors="surrogatepass")) // 2
+        line_end = offset + line_length
+        if any(start < line_end and end > offset for start, end in struck):
+            lines.append("\\n" if line.endswith("\\n") else "")
+        else:
+            lines.append(line)
+        offset = line_end
+    return "".join(lines)
+
+
 def parse_message(message, published_at=None, source_url=None, entities=None):
-    original = message or ""
+    original = _remove_struck_lines(message or "", entities)
     # Telegram Bot API represents quoted text as message entities, not HTML.
     quoted_notam = []
     for entity in entities or []:
