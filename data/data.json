@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T20:55:19.218868+00:00",
+  "updatedAt": "2026-11-16T21:05:17.822957+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -294,6 +294,21 @@
       "inKta": false,
       "lat": 51.5013775,
       "lon": 46.1233093
+    },
+    {
+      "id": "53c46af253608847",
+      "action": "ADD",
+      "name": "Дубна",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 20.0,
+      "messageTimestamp": "2026-11-16T21:03:08+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5647",
+      "text": "🔴 Дубна / 20 км",
+      "inKta": false,
+      "lat": 56.7362705,
+      "lon": 37.1623696
     }
   ],
   "forecasts": []

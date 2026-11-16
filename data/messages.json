@@ -33333,5 +33333,28 @@
         "inKta": false
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5647,
+    "timestamp": "2026-11-16T21:03:08+00:00",
+    "text": "🔴 Дубна / 20 км",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5647",
+    "events": [
+      {
+        "id": "53c46af253608847",
+        "action": "ADD",
+        "name": "Дубна",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 20.0,
+        "messageTimestamp": "2026-11-16T21:03:08+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5647",
+        "text": "🔴 Дубна / 20 км",
+        "inKta": false
+      }
+    ]
   }
 ]
