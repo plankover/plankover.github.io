@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-16T20:42:02.986199+00:00",
+  "updatedAt": "2026-11-16T20:45:16.131328+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
-      "id": "d42f539c6e07f230",
+      "id": "8ae86d0e2f584a38",
       "action": "ADD",
       "name": "Грабцево",
       "icao": "UUBC",
@@ -19,7 +19,7 @@
       "lon": 36.3697725
     },
     {
-      "id": "e291cd217d5888e7",
+      "id": "e6176e8d11f55c4a",
       "action": "ADD",
       "name": "Тейково",
       "icao": null,
@@ -44,7 +44,7 @@
       "lon": 40.5405863
     },
     {
-      "id": "cab3824eec7e3d65",
+      "id": "8393bd3929daf111",
       "action": "ADD",
       "name": "Домодедово",
       "icao": "UUDD",
@@ -65,7 +65,7 @@
       "lon": 37.9094307
     },
     {
-      "id": "d0b245d4d667dec0",
+      "id": "6ac19b0094feb846",
       "action": "ADD",
       "name": "Внуково",
       "icao": "UUWW",
@@ -86,7 +86,7 @@
       "lon": 37.2735752
     },
     {
-      "id": "7e665ea9119e3783",
+      "id": "161dc8d9071b0e96",
       "action": "ADD",
       "name": "Северный, Смоленск",
       "icao": null,
@@ -102,7 +102,7 @@
       "lon": 32.0231288
     },
     {
-      "id": "766830cda3505645",
+      "id": "d538f24dc2d03f4f",
       "action": "ADD",
       "name": "Клоково, Тула",
       "icao": null,
@@ -118,7 +118,7 @@
       "lon": 37.6000197
     },
     {
-      "id": "21e8cd079e8bd222",
+      "id": "08506fecf4a74d29",
       "action": "ADD",
       "name": "Дягилево, Рязань",
       "icao": null,
@@ -134,7 +134,7 @@
       "lon": 39.6308884
     },
     {
-      "id": "cf371343205d102a",
+      "id": "8d5213b70fdb4868",
       "action": "ADD",
       "name": "Семязино, Владимир",
       "icao": null,
@@ -150,7 +150,23 @@
       "lon": 40.3173426
     },
     {
-      "id": "da36ee25a787895c",
+      "id": "ace182ccdca41702",
+      "action": "ADD",
+      "name": "Анапа - Витязево",
+      "icao": null,
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 20.0,
+      "messageTimestamp": "2026-11-16T19:38:38+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5640",
+      "text": "🔴 а/д Анапа - Витязево / 20 км ",
+      "inKta": false,
+      "snapshot": true,
+      "lat": 45.0026734,
+      "lon": 37.3451849
+    },
+    {
+      "id": "ce1350f56c5a7cb6",
       "action": "ADD",
       "name": "Шатура",
       "icao": null,
@@ -166,7 +182,7 @@
       "lon": 39.5437584
     },
     {
-      "id": "ede3525b7c5464e2",
+      "id": "039c3c8008073b4e",
       "action": "ADD",
       "name": "Костерёво",
       "icao": null,
@@ -180,6 +196,37 @@
       "snapshot": true,
       "lat": 55.9287862,
       "lon": 39.6201571
+    },
+    {
+      "id": "38473990b78f58b6",
+      "action": "ADD",
+      "name": "Новоселовка",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 150.0,
+      "messageTimestamp": "2026-11-16T20:15:20+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5642",
+      "text": "🔴 Новоселовка (🛩️ Пенза, UWPP; 🛩️ Саратов - Гагарин, UWSG) / 150 км",
+      "affectedAirports": [
+        {
+          "name": "Пенза",
+          "icao": "UWPP",
+          "kind": "airport",
+          "lat": 53.110734,
+          "lon": 45.023455
+        },
+        {
+          "name": "Гагарин",
+          "icao": "UWSG",
+          "kind": "airport",
+          "lat": 51.7139093,
+          "lon": 46.1672319
+        }
+      ],
+      "inKta": false,
+      "lat": 51.9489,
+      "lon": 44.2678
     },
     {
       "id": "87a987251d7f2b04",
@@ -230,36 +277,6 @@
       "inKta": false,
       "lat": 55.7522,
       "lon": 37.6156
-    },
-    {
-      "id": "ebe320b8b834e6a4",
-      "action": "ADD",
-      "name": "Пенза",
-      "icao": "UWPP",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-16T20:15:20+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5642",
-      "text": "🔴🛩️ Пенза, UWPP",
-      "inKta": true,
-      "lat": 53.110734,
-      "lon": 45.023455
-    },
-    {
-      "id": "4c27293160f1e2de",
-      "action": "ADD",
-      "name": "Гагарин",
-      "icao": "UWSG",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-16T20:15:20+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5642",
-      "text": "🔴🛩️ Саратов - Гагарин, UWSG",
-      "inKta": true,
-      "lat": 51.7139093,
-      "lon": 46.1672319
     }
   ],
   "forecasts": []

@@ -32960,19 +32960,12 @@
     "chatId": -1003822338715,
     "messageId": 5640,
     "timestamp": "2026-11-16T19:38:38+00:00",
-    "text": "🕒 Актуальные ограничения на 22:35 мск\n\n🔴🛩️ Калуга - Грабцево, UUBC / 70 км\n🔴 Тейково (🛩️ Иваново - Южный, UUBI) / 30 км \n🟡🛩️ Домодедово, UUDD / 100 км (азимуты 090-270)\n🟡🛩️ Внуково, UUWW / 100 км (азимуты 150-330)\n\n🔴 а/д Северный, Смоленск / 70 км\n🔴 а/д Клоково, Тула / 70 км\n🔴 а/д Дягилево, Рязань / 70 км\n🔴 а/д Семязино, Владимир / 40 км \n🔴 Шатура / 20 км\n🔴 Костерёво / 20 км",
-    "entities": [
-      {
-        "offset": 0,
-        "length": 2,
-        "type": "custom_emoji",
-        "custom_emoji_id": "6278477897321685413"
-      }
-    ],
+    "text": "🕒 Актуальные ограничения на 22:35 мск\n\n🔴🛩️ Калуга - Грабцево, UUBC / 70 км\n🔴 Тейково (🛩️ Иваново - Южный, UUBI) / 30 км \n🟡🛩️ Домодедово, UUDD / 100 км (азимуты 090-270)\n🟡🛩️ Внуково, UUWW / 100 км (азимуты 150-330)\n\n🔴 а/д Северный, Смоленск / 70 км\n🔴 а/д Клоково, Тула / 70 км\n🔴 а/д Дягилево, Рязань / 70 км\n🔴 а/д Семязино, Владимир / 40 км \n🔴 а/д Анапа - Витязево / 20 км \n🔴 Шатура / 20 км\n🔴 Костерёво / 20 км",
+    "entities": [],
     "sourceUrl": "https://t.me/PlanKoverTDay/5640",
     "events": [
       {
-        "id": "d42f539c6e07f230",
+        "id": "8ae86d0e2f584a38",
         "action": "ADD",
         "name": "Грабцево",
         "icao": "UUBC",
@@ -32986,7 +32979,7 @@
         "snapshot": true
       },
       {
-        "id": "e291cd217d5888e7",
+        "id": "e6176e8d11f55c4a",
         "action": "ADD",
         "name": "Тейково",
         "icao": null,
@@ -33007,7 +33000,7 @@
         "snapshot": true
       },
       {
-        "id": "cab3824eec7e3d65",
+        "id": "8393bd3929daf111",
         "action": "ADD",
         "name": "Домодедово",
         "icao": "UUDD",
@@ -33026,7 +33019,7 @@
         "snapshot": true
       },
       {
-        "id": "d0b245d4d667dec0",
+        "id": "6ac19b0094feb846",
         "action": "ADD",
         "name": "Внуково",
         "icao": "UUWW",
@@ -33045,7 +33038,7 @@
         "snapshot": true
       },
       {
-        "id": "7e665ea9119e3783",
+        "id": "161dc8d9071b0e96",
         "action": "ADD",
         "name": "Северный, Смоленск",
         "icao": null,
@@ -33059,7 +33052,7 @@
         "snapshot": true
       },
       {
-        "id": "766830cda3505645",
+        "id": "d538f24dc2d03f4f",
         "action": "ADD",
         "name": "Клоково, Тула",
         "icao": null,
@@ -33073,7 +33066,7 @@
         "snapshot": true
       },
       {
-        "id": "21e8cd079e8bd222",
+        "id": "08506fecf4a74d29",
         "action": "ADD",
         "name": "Дягилево, Рязань",
         "icao": null,
@@ -33087,7 +33080,7 @@
         "snapshot": true
       },
       {
-        "id": "cf371343205d102a",
+        "id": "8d5213b70fdb4868",
         "action": "ADD",
         "name": "Семязино, Владимир",
         "icao": null,
@@ -33101,7 +33094,21 @@
         "snapshot": true
       },
       {
-        "id": "da36ee25a787895c",
+        "id": "ace182ccdca41702",
+        "action": "ADD",
+        "name": "Анапа - Витязево",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 20.0,
+        "messageTimestamp": "2026-11-16T19:38:38+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5640",
+        "text": "🔴 а/д Анапа - Витязево / 20 км ",
+        "inKta": false,
+        "snapshot": true
+      },
+      {
+        "id": "ce1350f56c5a7cb6",
         "action": "ADD",
         "name": "Шатура",
         "icao": null,
@@ -33115,7 +33122,7 @@
         "snapshot": true
       },
       {
-        "id": "ede3525b7c5464e2",
+        "id": "039c3c8008073b4e",
         "action": "ADD",
         "name": "Костерёво",
         "icao": null,
@@ -33134,44 +33141,33 @@
     "chatId": -1003822338715,
     "messageId": 5641,
     "timestamp": "2026-11-16T20:10:57+00:00",
-    "text": "🔴 Москва (🛩️ Внуково, UUWW; 🛩️ Домодедово, UUDD; 🛩️ Жуковский, UUBW) / 150 км (азимуты 090-300)",
-    "entities": [],
+    "text": "🔴 Москва (🛩️ Внуково, UUWW; 🛩️ Домодедово, UUDD; 🛩️ Жуковский, UUBW) / 150 км (азимуты 090-300)\n\nАктуальное",
+    "entities": [
+      {
+        "offset": 0,
+        "length": 99,
+        "type": "strikethrough"
+      },
+      {
+        "offset": 101,
+        "length": 10,
+        "type": "text_link",
+        "url": "https://t.me/PlanKoverTDay/5644"
+      }
+    ],
     "sourceUrl": "https://t.me/PlanKoverTDay/5641",
     "events": [
       {
-        "id": "cf37c148066cfe6c",
-        "action": "ADD",
+        "id": "a56a3cb69169f3d1",
+        "action": "REMOVE",
         "name": "Москва",
         "icao": null,
         "kind": "city",
-        "type": "partial",
-        "radiusKm": 150.0,
+        "type": "full",
         "messageTimestamp": "2026-11-16T20:10:57+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/5641",
         "text": "🔴 Москва (🛩️ Внуково, UUWW; 🛩️ Домодедово, UUDD; 🛩️ Жуковский, UUBW) / 150 км (азимуты 090-300)",
-        "sector": {
-          "radiusKm": 150.0,
-          "startAzimuth": 90,
-          "endAzimuth": 300
-        },
-        "affectedAirports": [
-          {
-            "name": "Внуково",
-            "icao": "UUWW",
-            "kind": "airport"
-          },
-          {
-            "name": "Домодедово",
-            "icao": "UUDD",
-            "kind": "airport"
-          },
-          {
-            "name": "Жуковский",
-            "icao": "UUBW",
-            "kind": "airport"
-          }
-        ],
-        "inKta": false
+        "strikethrough": true
       }
     ]
   },
@@ -33179,35 +33175,34 @@
     "chatId": -1003822338715,
     "messageId": 5642,
     "timestamp": "2026-11-16T20:15:20+00:00",
-    "text": "🔴🛩️ Пенза, UWPP\n🔴🛩️ Саратов - Гагарин, UWSG",
+    "text": "🔴 Новоселовка (🛩️ Пенза, UWPP; 🛩️ Саратов - Гагарин, UWSG) / 150 км",
     "entities": [],
     "sourceUrl": "https://t.me/PlanKoverTDay/5642",
     "events": [
       {
-        "id": "ebe320b8b834e6a4",
+        "id": "38473990b78f58b6",
         "action": "ADD",
-        "name": "Пенза",
-        "icao": "UWPP",
-        "kind": "airport",
+        "name": "Новоселовка",
+        "icao": null,
+        "kind": "city",
         "type": "full",
-        "radiusKm": null,
+        "radiusKm": 150.0,
         "messageTimestamp": "2026-11-16T20:15:20+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/5642",
-        "text": "🔴🛩️ Пенза, UWPP",
-        "inKta": true
-      },
-      {
-        "id": "4c27293160f1e2de",
-        "action": "ADD",
-        "name": "Гагарин",
-        "icao": "UWSG",
-        "kind": "airport",
-        "type": "full",
-        "radiusKm": null,
-        "messageTimestamp": "2026-11-16T20:15:20+00:00",
-        "sourceUrl": "https://t.me/PlanKoverTDay/5642",
-        "text": "🔴🛩️ Саратов - Гагарин, UWSG",
-        "inKta": true
+        "text": "🔴 Новоселовка (🛩️ Пенза, UWPP; 🛩️ Саратов - Гагарин, UWSG) / 150 км",
+        "affectedAirports": [
+          {
+            "name": "Пенза",
+            "icao": "UWPP",
+            "kind": "airport"
+          },
+          {
+            "name": "Гагарин",
+            "icao": "UWSG",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false
       }
     ]
   },
