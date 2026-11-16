@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T21:20:17.661503+00:00",
+  "updatedAt": "2026-11-16T21:50:19.330495+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -63,27 +63,6 @@
       "snapshot": true,
       "lat": 55.4087122,
       "lon": 37.9094307
-    },
-    {
-      "id": "6ac19b0094feb846",
-      "action": "ADD",
-      "name": "Внуково",
-      "icao": "UUWW",
-      "kind": "airport",
-      "type": "partial",
-      "radiusKm": 100.0,
-      "messageTimestamp": "2026-11-16T19:38:38+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5640",
-      "text": "🟡🛩️ Внуково, UUWW / 100 км (азимуты 150-330)",
-      "sector": {
-        "radiusKm": 100.0,
-        "startAzimuth": 150,
-        "endAzimuth": 330
-      },
-      "inKta": true,
-      "snapshot": true,
-      "lat": 55.5995278,
-      "lon": 37.2735752
     },
     {
       "id": "161dc8d9071b0e96",
@@ -227,49 +206,6 @@
       "inKta": false,
       "lat": 51.9489,
       "lon": 44.2678
-    },
-    {
-      "id": "15cba0f874e67b59",
-      "action": "ADD",
-      "name": "Москва",
-      "icao": null,
-      "kind": "city",
-      "type": "partial",
-      "radiusKm": 150.0,
-      "messageTimestamp": "2026-11-16T20:50:04+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5645",
-      "text": "🔴 Москва (🛩️ Внуково, UUWW; 🛩️ Домодедово, UUDD; 🛩️ Жуковский, UUBW) / 150 км (азимуты 090-300)",
-      "sector": {
-        "radiusKm": 150.0,
-        "startAzimuth": 90,
-        "endAzimuth": 300
-      },
-      "affectedAirports": [
-        {
-          "name": "Внуково",
-          "icao": "UUWW",
-          "kind": "airport",
-          "lat": 55.5995278,
-          "lon": 37.2735752
-        },
-        {
-          "name": "Домодедово",
-          "icao": "UUDD",
-          "kind": "airport",
-          "lat": 55.4087122,
-          "lon": 37.9094307
-        },
-        {
-          "name": "Жуковский",
-          "icao": "UUBW",
-          "kind": "airport",
-          "lat": 55.5496554,
-          "lon": 38.1547897
-        }
-      ],
-      "inKta": false,
-      "lat": 55.7522,
-      "lon": 37.6156
     },
     {
       "id": "a7b86c70cb313beb",

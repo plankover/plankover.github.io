@@ -33392,5 +33392,41 @@
         "inKta": false
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5649,
+    "timestamp": "2026-11-16T21:50:06+00:00",
+    "text": "🟢🛩️ Москва - Внуково, UUWW\n🟢🛩️ Жуковский - Раменское, UUBW",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5649",
+    "events": [
+      {
+        "id": "4ec8e73a65e2c169",
+        "action": "REMOVE",
+        "name": "Внуково",
+        "icao": "UUWW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-16T21:50:06+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5649",
+        "text": "🟢🛩️ Москва - Внуково, UUWW",
+        "inKta": true
+      },
+      {
+        "id": "c1f212c3313f29e7",
+        "action": "REMOVE",
+        "name": "Раменское",
+        "icao": "UUBW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-16T21:50:06+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5649",
+        "text": "🟢🛩️ Жуковский - Раменское, UUBW",
+        "inKta": true
+      }
+    ]
   }
 ]
