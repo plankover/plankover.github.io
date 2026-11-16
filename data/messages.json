@@ -32781,5 +32781,150 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5637,
+    "timestamp": "2026-11-16T19:06:26+00:00",
+    "text": "⬜️ Аэропорты\n\n— ВНУКОВО\n\n— ДОМОДЕДОВО\n\n— ЖУКОВСКИЙ (Раменское)\n\n✈️СНЯТЫ ограничения на выпуск воздушных судов. \n\n✈️Ограничения на прием введены для обеспечения безопасности полетов.\n\n✈Говорит Росавиация | MАХ",
+    "entities": [
+      {
+        "offset": 16,
+        "length": 7,
+        "type": "bold"
+      },
+      {
+        "offset": 27,
+        "length": 10,
+        "type": "bold"
+      },
+      {
+        "offset": 41,
+        "length": 9,
+        "type": "bold"
+      },
+      {
+        "offset": 51,
+        "length": 11,
+        "type": "italic"
+      },
+      {
+        "offset": 66,
+        "length": 5,
+        "type": "bold"
+      },
+      {
+        "offset": 71,
+        "length": 1,
+        "type": "italic"
+      },
+      {
+        "offset": 72,
+        "length": 21,
+        "type": "bold"
+      },
+      {
+        "offset": 115,
+        "length": 66,
+        "type": "italic"
+      },
+      {
+        "offset": 184,
+        "length": 18,
+        "type": "text_link",
+        "url": "https://t.me/favt_ru"
+      },
+      {
+        "offset": 205,
+        "length": 3,
+        "type": "text_link",
+        "url": "https://max.ru/favt_info"
+      }
+    ],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5637",
+    "events": [
+      {
+        "id": "96e21bf976403325",
+        "action": "REMOVE",
+        "name": "ВНУКОВО",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "messageTimestamp": "2026-11-16T19:06:26+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5637",
+        "text": "⬜️ Аэропорты"
+      },
+      {
+        "id": "9085c3d03fe07574",
+        "action": "REMOVE",
+        "name": "ДОМОДЕДОВО",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "messageTimestamp": "2026-11-16T19:06:26+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5637",
+        "text": "⬜️ Аэропорты"
+      },
+      {
+        "id": "abd577eef01be1b6",
+        "action": "REMOVE",
+        "name": "ЖУКОВСКИЙ (Раменское)",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "messageTimestamp": "2026-11-16T19:06:26+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5637",
+        "text": "⬜️ Аэропорты"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5638,
+    "timestamp": "2026-11-16T19:06:50+00:00",
+    "text": "🟢 🛩️ Москва - Внуково, UUWW\n🟢 🛩️ Москва - Домодедово, UUDD\n🟢 🛩️ Раменское - Жуковский, UUBW",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5638",
+    "events": [
+      {
+        "id": "72ee82f5a1a10067",
+        "action": "REMOVE",
+        "name": "Внуково",
+        "icao": "UUWW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-16T19:06:50+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5638",
+        "text": "🟢 🛩️ Москва - Внуково, UUWW",
+        "inKta": true
+      },
+      {
+        "id": "f834e759904b618a",
+        "action": "REMOVE",
+        "name": "Домодедово",
+        "icao": "UUDD",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-16T19:06:50+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5638",
+        "text": "🟢 🛩️ Москва - Домодедово, UUDD",
+        "inKta": true
+      },
+      {
+        "id": "d9364fe6124feaf9",
+        "action": "REMOVE",
+        "name": "Жуковский",
+        "icao": "UUBW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-16T19:06:50+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5638",
+        "text": "🟢 🛩️ Раменское - Жуковский, UUBW",
+        "inKta": true
+      }
+    ]
   }
 ]
