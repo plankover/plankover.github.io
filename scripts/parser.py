@@ -466,6 +466,7 @@ def parse_message(message, published_at=None, source_url=None, entities=None):
             "messageTimestamp": ts,
             "sourceUrl": source_url,
             "text": clean_text(line),
+            "strikethrough": True,
         })
 
     if events:
