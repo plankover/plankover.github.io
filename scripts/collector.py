@@ -186,10 +186,10 @@ def build_active(history):
             elif action=="REMOVE":
                 was_active=bool(active)
                 targets=e.get("targets") or ([e] if e.get("name") else [])
-                removed_icaos = {str(t.get("icao") or "").strip().upper() for t in targets if t.get("kind") == "airport" and t.get("icao")}
-                removed_names = {re.sub(r"[^а-яa-z0-9]", "", str(t.get("name") or "").casefold()) for t in targets if t.get("kind") == "airport" and t.get("name")}
+                removed_icaos = {str(t.get("icao") or "").strip().upper() for t in targets if (t.get("kind") == "airport" or e.get("strikethrough")) and t.get("icao")}
+                removed_names = {re.sub(r"[^а-яa-z0-9]", "", str(t.get("name") or "").casefold()) for t in targets if (t.get("kind") == "airport" or e.get("strikethrough")) and t.get("name")}
                 for active_id, restriction in list(active.items()):
-                    if restriction.get('kind') != 'airport': continue
+                    if restriction.get('kind') != 'airport' and not e.get("strikethrough"): continue
                     ri=str(restriction.get('icao') or '').strip().upper()
                     rn=re.sub(r'[^а-яa-z0-9]','',str(restriction.get('name') or '').casefold())
                     if ri in removed_icaos or rn in removed_names: active.pop(active_id,None)
