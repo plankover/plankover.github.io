@@ -202,12 +202,13 @@ def _remove_struck_lines(value, entities):
 
 
 def parse_message(message, published_at=None, source_url=None, entities=None):
-    original = _remove_struck_lines(message or "", entities)
+    raw_original = message or ""
+    original = _remove_struck_lines(raw_original, entities)
     # Telegram Bot API represents quoted text as message entities, not HTML.
     quoted_notam = []
     for entity in entities or []:
         if entity.get("type") in {"blockquote", "expandable_blockquote"}:
-            quoted = _utf16_slice(original, int(entity.get("offset", 0)), int(entity.get("length", 0)))
+            quoted = _utf16_slice(raw_original, int(entity.get("offset", 0)), int(entity.get("length", 0)))
             value = clean_text(quoted)
             if value:
                 quoted_notam.append(value)
