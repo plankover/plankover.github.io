@@ -32624,5 +32624,41 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5633,
+    "timestamp": "2026-11-16T16:16:38+00:00",
+    "text": "🟡🛩️ Москва - Внуково, UUWW\n🟡🛩️ Москва - Домодедово, UUDD",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5633",
+    "events": [
+      {
+        "id": "e2a954ac39dde98f",
+        "action": "ADD",
+        "name": "Внуково",
+        "icao": "UUWW",
+        "kind": "airport",
+        "type": "partial",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-16T16:16:38+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5633",
+        "text": "🟡🛩️ Москва - Внуково, UUWW",
+        "inKta": true
+      },
+      {
+        "id": "0148987b1cb7680c",
+        "action": "ADD",
+        "name": "Домодедово",
+        "icao": "UUDD",
+        "kind": "airport",
+        "type": "partial",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-16T16:16:38+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5633",
+        "text": "🟡🛩️ Москва - Домодедово, UUDD",
+        "inKta": true
+      }
+    ]
   }
 ]
