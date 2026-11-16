@@ -33428,5 +33428,77 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5650,
+    "timestamp": "2026-11-16T22:37:04+00:00",
+    "text": "🔴🛩️ Самара - Курумоч, UWWW\n🔴🛩️ Ульяновск - Баратаевка, UWLL\n🔴🛩️ Ярославль - Туношна, UUDL",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5650",
+    "events": [
+      {
+        "id": "780703b1921b3e7b",
+        "action": "ADD",
+        "name": "Курумоч",
+        "icao": "UWWW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-16T22:37:04+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5650",
+        "text": "🔴🛩️ Самара - Курумоч, UWWW",
+        "inKta": true
+      },
+      {
+        "id": "2e2217dd37aba93c",
+        "action": "ADD",
+        "name": "Баратаевка",
+        "icao": "UWLL",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-16T22:37:04+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5650",
+        "text": "🔴🛩️ Ульяновск - Баратаевка, UWLL",
+        "inKta": true
+      },
+      {
+        "id": "f953a1cdcbc02a90",
+        "action": "ADD",
+        "name": "Туношна",
+        "icao": "UUDL",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-16T22:37:04+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5650",
+        "text": "🔴🛩️ Ярославль - Туношна, UUDL",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5651,
+    "timestamp": "2026-11-16T22:39:41+00:00",
+    "text": "🟡🛩️ Москва - Домодедово, UUDD",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5651",
+    "events": [
+      {
+        "id": "97c439424433136a",
+        "action": "ADD",
+        "name": "Домодедово",
+        "icao": "UUDD",
+        "kind": "airport",
+        "type": "partial",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-16T22:39:41+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5651",
+        "text": "🟡🛩️ Москва - Домодедово, UUDD",
+        "inKta": true
+      }
+    ]
   }
 ]

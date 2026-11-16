@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T21:50:19.330495+00:00",
+  "updatedAt": "2026-11-16T22:40:16.843042+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -275,6 +275,66 @@
       "inKta": false,
       "lat": 57.9791414,
       "lon": 33.2537994
+    },
+    {
+      "id": "780703b1921b3e7b",
+      "action": "ADD",
+      "name": "Курумоч",
+      "icao": "UWWW",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-16T22:37:04+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5650",
+      "text": "🔴🛩️ Самара - Курумоч, UWWW",
+      "inKta": true,
+      "lat": 53.5057511,
+      "lon": 50.1569939
+    },
+    {
+      "id": "2e2217dd37aba93c",
+      "action": "ADD",
+      "name": "Баратаевка",
+      "icao": "UWLL",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-16T22:37:04+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5650",
+      "text": "🔴🛩️ Ульяновск - Баратаевка, UWLL",
+      "inKta": true,
+      "lat": 54.2690213,
+      "lon": 48.2248287
+    },
+    {
+      "id": "f953a1cdcbc02a90",
+      "action": "ADD",
+      "name": "Туношна",
+      "icao": "UUDL",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-16T22:37:04+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5650",
+      "text": "🔴🛩️ Ярославль - Туношна, UUDL",
+      "inKta": true,
+      "lat": 57.5604597,
+      "lon": 40.1579512
+    },
+    {
+      "id": "97c439424433136a",
+      "action": "ADD",
+      "name": "Домодедово",
+      "icao": "UUDD",
+      "kind": "airport",
+      "type": "partial",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-16T22:39:41+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5651",
+      "text": "🟡🛩️ Москва - Домодедово, UUDD",
+      "inKta": true,
+      "lat": 55.4087122,
+      "lon": 37.9094307
     }
   ],
   "forecasts": []
