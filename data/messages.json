@@ -32967,7 +32967,7 @@
     "chatId": -1003822338715,
     "messageId": 5640,
     "timestamp": "2026-11-16T19:38:38+00:00",
-    "text": "🕒 Актуальные ограничения на 22:35 мск\n\n🔴🛩️ Калуга - Грабцево, UUBC / 70 км\n🔴 Тейково (🛩️ Иваново - Южный, UUBI) / 30 км \n🟡🛩️ Домодедово, UUDD / 100 км (азимуты 090-270)\n🟡🛩️ Внуково, UUWW / 100 км (азимуты 150-330)\n\n🔴 а/д Северный, Смоленск / 70 км\n🔴 а/д Клоково, Тула / 70 км\n🔴 а/д Дягилево, Рязань / 70 км\n🔴 а/д Семязино, Владимир / 40 км\n🔴 а/д Анапа - Витязево / 20 км \n🔴 Шатура / 20 км\n🔴 Костерёво / 20 км",
+    "text": "🕒 Актуальные ограничения на 22:35 мск\n\n🔴🛩️ Калуга - Грабцево, UUBC / 70 км\n🔴 Тейково (🛩️ Иваново - Южный, UUBI) / 30 км \n🟡🛩️ Домодедово, UUDD / 100 км (азимуты 090-270)\n🟡🛩️ Внуково, UUWW / 100 км (азимуты 150-330)\n\n🔴 а/д Северный, Смоленск / 70 км\n🔴 а/д Клоково, Тула / 70 км\n🔴 а/д Дягилево, Рязань / 70 км\n🔴 а/д Семязино, Владимир / 40 км \n🔴 Шатура / 20 км\n🔴 Костерёво / 20 км",
     "entities": [
       {
         "offset": 0,
@@ -32979,7 +32979,7 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/5640",
     "events": [
       {
-        "id": "520c5dbce13868f7",
+        "id": "d42f539c6e07f230",
         "action": "ADD",
         "name": "Грабцево",
         "icao": "UUBC",
@@ -32993,7 +32993,7 @@
         "snapshot": true
       },
       {
-        "id": "6f2436acafa31a89",
+        "id": "e291cd217d5888e7",
         "action": "ADD",
         "name": "Тейково",
         "icao": null,
@@ -33014,7 +33014,7 @@
         "snapshot": true
       },
       {
-        "id": "b69785debe367c84",
+        "id": "cab3824eec7e3d65",
         "action": "ADD",
         "name": "Домодедово",
         "icao": "UUDD",
@@ -33033,7 +33033,7 @@
         "snapshot": true
       },
       {
-        "id": "1a139100f781c4f2",
+        "id": "d0b245d4d667dec0",
         "action": "ADD",
         "name": "Внуково",
         "icao": "UUWW",
@@ -33052,7 +33052,7 @@
         "snapshot": true
       },
       {
-        "id": "2017ff945bf57cc1",
+        "id": "7e665ea9119e3783",
         "action": "ADD",
         "name": "Северный, Смоленск",
         "icao": null,
@@ -33066,7 +33066,7 @@
         "snapshot": true
       },
       {
-        "id": "1725483d0d5c6dfa",
+        "id": "766830cda3505645",
         "action": "ADD",
         "name": "Клоково, Тула",
         "icao": null,
@@ -33080,7 +33080,7 @@
         "snapshot": true
       },
       {
-        "id": "2a884acd7c95078f",
+        "id": "21e8cd079e8bd222",
         "action": "ADD",
         "name": "Дягилево, Рязань",
         "icao": null,
@@ -33094,7 +33094,7 @@
         "snapshot": true
       },
       {
-        "id": "cd1622a9e8f4e22b",
+        "id": "cf371343205d102a",
         "action": "ADD",
         "name": "Семязино, Владимир",
         "icao": null,
@@ -33103,26 +33103,12 @@
         "radiusKm": 40.0,
         "messageTimestamp": "2026-11-16T19:38:38+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/5640",
-        "text": "🔴 а/д Семязино, Владимир / 40 км",
+        "text": "🔴 а/д Семязино, Владимир / 40 км ",
         "inKta": false,
         "snapshot": true
       },
       {
-        "id": "57f12a64c345ed14",
-        "action": "ADD",
-        "name": "Анапа - Витязево",
-        "icao": null,
-        "kind": "airport",
-        "type": "full",
-        "radiusKm": 20.0,
-        "messageTimestamp": "2026-11-16T19:38:38+00:00",
-        "sourceUrl": "https://t.me/PlanKoverTDay/5640",
-        "text": "🔴 а/д Анапа - Витязево / 20 км ",
-        "inKta": false,
-        "snapshot": true
-      },
-      {
-        "id": "4eae02901c587944",
+        "id": "da36ee25a787895c",
         "action": "ADD",
         "name": "Шатура",
         "icao": null,
@@ -33136,7 +33122,7 @@
         "snapshot": true
       },
       {
-        "id": "16c784b82e67a7c4",
+        "id": "ede3525b7c5464e2",
         "action": "ADD",
         "name": "Костерёво",
         "icao": null,
@@ -33200,12 +33186,12 @@
     "chatId": -1003822338715,
     "messageId": 5642,
     "timestamp": "2026-11-16T20:15:20+00:00",
-    "text": "🔴🛩️ Пенза, UWPP\n🔴🛩️ Саратов - Гагарин, UWSS",
+    "text": "🔴🛩️ Пенза, UWPP\n🔴🛩️ Саратов - Гагарин, UWSG",
     "entities": [],
     "sourceUrl": "https://t.me/PlanKoverTDay/5642",
     "events": [
       {
-        "id": "34c8bd1b9475f108",
+        "id": "ebe320b8b834e6a4",
         "action": "ADD",
         "name": "Пенза",
         "icao": "UWPP",
@@ -33218,16 +33204,16 @@
         "inKta": true
       },
       {
-        "id": "a656fc338bcb2414",
+        "id": "4c27293160f1e2de",
         "action": "ADD",
         "name": "Гагарин",
-        "icao": "UWSS",
+        "icao": "UWSG",
         "kind": "airport",
         "type": "full",
         "radiusKm": null,
         "messageTimestamp": "2026-11-16T20:15:20+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/5642",
-        "text": "🔴🛩️ Саратов - Гагарин, UWSS",
+        "text": "🔴🛩️ Саратов - Гагарин, UWSG",
         "inKta": true
       }
     ]

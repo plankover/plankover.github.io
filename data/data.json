@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-16T20:20:29.373206+00:00",
+  "updatedAt": "2026-11-16T20:25:19.011724+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
-      "id": "520c5dbce13868f7",
+      "id": "d42f539c6e07f230",
       "action": "ADD",
       "name": "Грабцево",
       "icao": "UUBC",
@@ -19,7 +19,7 @@
       "lon": 36.3697725
     },
     {
-      "id": "6f2436acafa31a89",
+      "id": "e291cd217d5888e7",
       "action": "ADD",
       "name": "Тейково",
       "icao": null,
@@ -44,7 +44,7 @@
       "lon": 40.5405863
     },
     {
-      "id": "b69785debe367c84",
+      "id": "cab3824eec7e3d65",
       "action": "ADD",
       "name": "Домодедово",
       "icao": "UUDD",
@@ -65,7 +65,7 @@
       "lon": 37.9094307
     },
     {
-      "id": "1a139100f781c4f2",
+      "id": "d0b245d4d667dec0",
       "action": "ADD",
       "name": "Внуково",
       "icao": "UUWW",
@@ -86,7 +86,7 @@
       "lon": 37.2735752
     },
     {
-      "id": "2017ff945bf57cc1",
+      "id": "7e665ea9119e3783",
       "action": "ADD",
       "name": "Северный, Смоленск",
       "icao": null,
@@ -102,7 +102,7 @@
       "lon": 32.0231288
     },
     {
-      "id": "1725483d0d5c6dfa",
+      "id": "766830cda3505645",
       "action": "ADD",
       "name": "Клоково, Тула",
       "icao": null,
@@ -118,7 +118,7 @@
       "lon": 37.6000197
     },
     {
-      "id": "2a884acd7c95078f",
+      "id": "21e8cd079e8bd222",
       "action": "ADD",
       "name": "Дягилево, Рязань",
       "icao": null,
@@ -134,7 +134,7 @@
       "lon": 39.6308884
     },
     {
-      "id": "cd1622a9e8f4e22b",
+      "id": "cf371343205d102a",
       "action": "ADD",
       "name": "Семязино, Владимир",
       "icao": null,
@@ -143,30 +143,14 @@
       "radiusKm": 40.0,
       "messageTimestamp": "2026-11-16T19:38:38+00:00",
       "sourceUrl": "https://t.me/PlanKoverTDay/5640",
-      "text": "🔴 а/д Семязино, Владимир / 40 км",
+      "text": "🔴 а/д Семязино, Владимир / 40 км ",
       "inKta": false,
       "snapshot": true,
       "lat": 56.1269091,
       "lon": 40.3173426
     },
     {
-      "id": "57f12a64c345ed14",
-      "action": "ADD",
-      "name": "Анапа - Витязево",
-      "icao": null,
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": 20.0,
-      "messageTimestamp": "2026-11-16T19:38:38+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5640",
-      "text": "🔴 а/д Анапа - Витязево / 20 км ",
-      "inKta": false,
-      "snapshot": true,
-      "lat": 45.0026734,
-      "lon": 37.3451849
-    },
-    {
-      "id": "4eae02901c587944",
+      "id": "da36ee25a787895c",
       "action": "ADD",
       "name": "Шатура",
       "icao": null,
@@ -182,7 +166,7 @@
       "lon": 39.5437584
     },
     {
-      "id": "16c784b82e67a7c4",
+      "id": "ede3525b7c5464e2",
       "action": "ADD",
       "name": "Костерёво",
       "icao": null,
@@ -241,7 +225,7 @@
       "lon": 37.6156
     },
     {
-      "id": "34c8bd1b9475f108",
+      "id": "ebe320b8b834e6a4",
       "action": "ADD",
       "name": "Пенза",
       "icao": "UWPP",
@@ -256,16 +240,16 @@
       "lon": 45.023455
     },
     {
-      "id": "a656fc338bcb2414",
+      "id": "4c27293160f1e2de",
       "action": "ADD",
       "name": "Гагарин",
-      "icao": "UWSS",
+      "icao": "UWSG",
       "kind": "airport",
       "type": "full",
       "radiusKm": null,
       "messageTimestamp": "2026-11-16T20:15:20+00:00",
       "sourceUrl": "https://t.me/PlanKoverTDay/5642",
-      "text": "🔴🛩️ Саратов - Гагарин, UWSS",
+      "text": "🔴🛩️ Саратов - Гагарин, UWSG",
       "inKta": true,
       "lat": 51.7139093,
       "lon": 46.1672319
