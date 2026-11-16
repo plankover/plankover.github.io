@@ -32037,11 +32037,16 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/5611",
     "events": [
       {
-        "id": "158a304fbd069a3d",
-        "action": "UNKNOWN",
+        "id": "2a18c05eafad93c0",
+        "action": "REMOVE",
+        "name": "Внуково",
+        "icao": "UUWW",
+        "kind": "airport",
+        "type": "full",
         "messageTimestamp": "2026-11-15T16:51:01+00:00",
-        "text": "Актуальное",
-        "sourceUrl": "https://t.me/PlanKoverTDay/5611"
+        "sourceUrl": "https://t.me/PlanKoverTDay/5611",
+        "text": "🟡🛩️ Москва - Внуково, UUWW / 100 км (азимуты 150-300)",
+        "strikethrough": true
       }
     ]
   },
