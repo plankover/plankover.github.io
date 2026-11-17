@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T03:50:17.342535+00:00",
+  "updatedAt": "2026-11-17T04:05:17.286999+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -175,61 +175,6 @@
       "snapshot": true,
       "lat": 55.9287862,
       "lon": 39.6201571
-    },
-    {
-      "id": "38473990b78f58b6",
-      "action": "ADD",
-      "name": "Новоселовка",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": 150.0,
-      "messageTimestamp": "2026-11-16T20:15:20+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5642",
-      "text": "🔴 Новоселовка (🛩️ Пенза, UWPP; 🛩️ Саратов - Гагарин, UWSG) / 150 км",
-      "affectedAirports": [
-        {
-          "name": "Пенза",
-          "icao": "UWPP",
-          "kind": "airport",
-          "lat": 53.110734,
-          "lon": 45.023455
-        },
-        {
-          "name": "Гагарин",
-          "icao": "UWSG",
-          "kind": "airport",
-          "lat": 51.7139093,
-          "lon": 46.1672319
-        }
-      ],
-      "inKta": false,
-      "lat": 51.9489,
-      "lon": 44.2678
-    },
-    {
-      "id": "a7b86c70cb313beb",
-      "action": "ADD",
-      "name": "Энгельс",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": 150.0,
-      "messageTimestamp": "2026-11-16T20:52:25+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5646",
-      "text": "🔴 Энгельс (🛩️ Саратов - Гагарин, UWSG) / 150 км",
-      "affectedAirports": [
-        {
-          "name": "Гагарин",
-          "icao": "UWSG",
-          "kind": "airport",
-          "lat": 51.7139093,
-          "lon": 46.1672319
-        }
-      ],
-      "inKta": false,
-      "lat": 51.5013775,
-      "lon": 46.1233093
     },
     {
       "id": "53c46af253608847",
@@ -423,21 +368,6 @@
       "inKta": true,
       "lat": 54.5543582,
       "lon": 55.8822099
-    },
-    {
-      "id": "c9869a9d6d7fcb48",
-      "action": "ADD",
-      "name": "Шереметьево",
-      "icao": "UUEE",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-17T03:46:40+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5658",
-      "text": "🔴🛩️ Москва - Шереметьево, UUEE",
-      "inKta": true,
-      "lat": 55.9760876,
-      "lon": 37.4238008
     }
   ],
   "forecasts": []
