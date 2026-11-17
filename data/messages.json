@@ -34517,5 +34517,28 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5677,
+    "timestamp": "2026-11-17T18:44:57+00:00",
+    "text": "🔴🛩️ Геленджик, URKG",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5677",
+    "events": [
+      {
+        "id": "80dda57c8f36400e",
+        "action": "ADD",
+        "name": "Геленджик",
+        "icao": "URKG",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-17T18:44:57+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5677",
+        "text": "🔴🛩️ Геленджик, URKG",
+        "inKta": true
+      }
+    ]
   }
 ]
