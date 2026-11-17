@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T08:35:17.130937+00:00",
+  "updatedAt": "2026-11-17T09:20:21.283291+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -172,21 +172,6 @@
       "sourceUrl": "https://t.me/PlanKoverTDay/5662",
       "text": "🟡 Внуково, Домодедово, Жуковский (Раменское) - работают по согласованию с соответствующими органами",
       "inKta": false
-    },
-    {
-      "id": "0eef6fdb41ff79eb",
-      "action": "ADD",
-      "name": "Внуково",
-      "icao": "UUWW",
-      "kind": "airport",
-      "type": "partial",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-17T08:25:35+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5670",
-      "text": "🟡🛩️ Москва - Внуково, UUWW",
-      "inKta": true,
-      "lat": 55.5995278,
-      "lon": 37.2735752
     }
   ],
   "forecasts": []
