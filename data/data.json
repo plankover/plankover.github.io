@@ -1,23 +1,7 @@
 {
-  "updatedAt": "2026-11-17T09:20:21.283291+00:00",
+  "updatedAt": "2026-11-17T10:55:18.006347+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
-    {
-      "id": "8ae86d0e2f584a38",
-      "action": "ADD",
-      "name": "Грабцево",
-      "icao": "UUBC",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": 70.0,
-      "messageTimestamp": "2026-11-16T19:38:38+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5640",
-      "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км",
-      "inKta": true,
-      "snapshot": true,
-      "lat": 54.5488708,
-      "lon": 36.3697725
-    },
     {
       "id": "161dc8d9071b0e96",
       "action": "ADD",
