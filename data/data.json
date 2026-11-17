@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T04:10:20.238156+00:00",
+  "updatedAt": "2026-11-17T04:15:16.950960+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -17,52 +17,6 @@
       "snapshot": true,
       "lat": 54.5488708,
       "lon": 36.3697725
-    },
-    {
-      "id": "e6176e8d11f55c4a",
-      "action": "ADD",
-      "name": "Тейково",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": 30.0,
-      "messageTimestamp": "2026-11-16T19:38:38+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5640",
-      "text": "🔴 Тейково (🛩️ Иваново - Южный, UUBI) / 30 км ",
-      "affectedAirports": [
-        {
-          "name": "Южный",
-          "icao": "UUBI",
-          "kind": "airport",
-          "lat": 56.941138,
-          "lon": 40.9389727
-        }
-      ],
-      "inKta": false,
-      "snapshot": true,
-      "lat": 56.8554753,
-      "lon": 40.5405863
-    },
-    {
-      "id": "8393bd3929daf111",
-      "action": "ADD",
-      "name": "Домодедово",
-      "icao": "UUDD",
-      "kind": "airport",
-      "type": "partial",
-      "radiusKm": 100.0,
-      "messageTimestamp": "2026-11-16T19:38:38+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5640",
-      "text": "🟡🛩️ Домодедово, UUDD / 100 км (азимуты 090-270)",
-      "sector": {
-        "radiusKm": 100.0,
-        "startAzimuth": 90,
-        "endAzimuth": 270
-      },
-      "inKta": true,
-      "snapshot": true,
-      "lat": 55.4087122,
-      "lon": 37.9094307
     },
     {
       "id": "161dc8d9071b0e96",
@@ -235,66 +189,6 @@
       "inKta": true,
       "lat": 54.2690213,
       "lon": 48.2248287
-    },
-    {
-      "id": "f953a1cdcbc02a90",
-      "action": "ADD",
-      "name": "Туношна",
-      "icao": "UUDL",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-16T22:37:04+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5650",
-      "text": "🔴🛩️ Ярославль - Туношна, UUDL",
-      "inKta": true,
-      "lat": 57.5604597,
-      "lon": 40.1579512
-    },
-    {
-      "id": "e145ca6b7f59620e",
-      "action": "ADD",
-      "name": "Домодедово",
-      "icao": "UUDD",
-      "kind": "airport",
-      "type": "partial",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-17T00:21:38+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5653",
-      "text": "🟡🛩️ Москва - Домодедово, UUDD",
-      "inKta": true,
-      "lat": 55.4087122,
-      "lon": 37.9094307
-    },
-    {
-      "id": "1f78f3b37b038cbf",
-      "action": "ADD",
-      "name": "Внуково",
-      "icao": "UUWW",
-      "kind": "airport",
-      "type": "partial",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-17T00:21:38+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5653",
-      "text": "🟡🛩️ Москва - Внуково, UUWW",
-      "inKta": true,
-      "lat": 55.5995278,
-      "lon": 37.2735752
-    },
-    {
-      "id": "3432c83b09c57b24",
-      "action": "ADD",
-      "name": "Раменское",
-      "icao": "UUBW",
-      "kind": "airport",
-      "type": "partial",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-17T00:21:38+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5653",
-      "text": "🟡🛩️ Жуковский - Раменское, UUBW",
-      "inKta": true,
-      "lat": 55.5496554,
-      "lon": 38.1547897
     },
     {
       "id": "e7f74b44f11eb7f3",

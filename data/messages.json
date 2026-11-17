@@ -33936,5 +33936,139 @@
         "inKta": false
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5663,
+    "timestamp": "2026-11-17T04:14:13+00:00",
+    "text": "🔴🛩️ Москва - Внуково, UUWW\n🔴🛩️ Москва - Домодедово, UUDD\n🔴🛩️ Москва - Жуковский, UUBW",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5663",
+    "events": [
+      {
+        "id": "a93e8be21e36688d",
+        "action": "ADD",
+        "name": "Внуково",
+        "icao": "UUWW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-17T04:14:13+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5663",
+        "text": "🔴🛩️ Москва - Внуково, UUWW",
+        "inKta": true
+      },
+      {
+        "id": "8f97ea519aab1828",
+        "action": "ADD",
+        "name": "Домодедово",
+        "icao": "UUDD",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-17T04:14:13+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5663",
+        "text": "🔴🛩️ Москва - Домодедово, UUDD",
+        "inKta": true
+      },
+      {
+        "id": "f201a784d7b0fe0a",
+        "action": "ADD",
+        "name": "Жуковский",
+        "icao": "UUBW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-17T04:14:13+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5663",
+        "text": "🔴🛩️ Москва - Жуковский, UUBW",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5664,
+    "timestamp": "2026-11-17T04:14:44+00:00",
+    "text": "🟢🛩️ Внуково, UUWW\n🟢🛩️ Домодедово, UUDD\n🟢🛩️ Жуковский, UUBW",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5664",
+    "events": [
+      {
+        "id": "26e88a5027ec6019",
+        "action": "REMOVE",
+        "name": "Внуково",
+        "icao": "UUWW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-17T04:14:44+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5664",
+        "text": "🟢🛩️ Внуково, UUWW",
+        "inKta": true
+      },
+      {
+        "id": "7b6d1686a39cd15d",
+        "action": "REMOVE",
+        "name": "Домодедово",
+        "icao": "UUDD",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-17T04:14:44+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5664",
+        "text": "🟢🛩️ Домодедово, UUDD",
+        "inKta": true
+      },
+      {
+        "id": "ce31a5d60267764a",
+        "action": "REMOVE",
+        "name": "Жуковский",
+        "icao": "UUBW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-17T04:14:44+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5664",
+        "text": "🟢🛩️ Жуковский, UUBW",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5665,
+    "timestamp": "2026-11-17T04:14:55+00:00",
+    "text": "🟢🛩️ Иваново - Южный, UUBI\n🟢🛩️ Ярославль - Туношна, UUDL",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5665",
+    "events": [
+      {
+        "id": "1dd1205d2e399990",
+        "action": "REMOVE",
+        "name": "Южный",
+        "icao": "UUBI",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-17T04:14:55+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5665",
+        "text": "🟢🛩️ Иваново - Южный, UUBI",
+        "inKta": true
+      },
+      {
+        "id": "2cd16326d67cdc3b",
+        "action": "REMOVE",
+        "name": "Туношна",
+        "icao": "UUDL",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-17T04:14:55+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5665",
+        "text": "🟢🛩️ Ярославль - Туношна, UUDL",
+        "inKta": true
+      }
+    ]
   }
 ]
