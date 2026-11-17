@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T00:45:17.804046+00:00",
+  "updatedAt": "2026-11-17T01:10:18.680944+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -423,6 +423,21 @@
       "inKta": true,
       "lat": 56.0880752,
       "lon": 47.3382761
+    },
+    {
+      "id": "9505031ddaccdf63",
+      "action": "ADD",
+      "name": "Уфа",
+      "icao": "UWUU",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-17T01:07:50+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5656",
+      "text": "🔴🛩️ Уфа - Уфа, UWUU",
+      "inKta": true,
+      "lat": 54.5543582,
+      "lon": 55.8822099
     }
   ],
   "forecasts": []
