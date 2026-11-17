@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T01:10:18.680944+00:00",
+  "updatedAt": "2026-11-17T03:10:17.221665+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -245,21 +245,6 @@
       "inKta": false,
       "lat": 56.7362705,
       "lon": 37.1623696
-    },
-    {
-      "id": "b4057b6069be6969",
-      "action": "ADD",
-      "name": "Череповец",
-      "icao": "ULWC",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": 50.0,
-      "messageTimestamp": "2026-11-16T21:14:59+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5648",
-      "text": "🔴🛩️ Череповец, ULWC / 50 км",
-      "inKta": true,
-      "lat": 59.2778367,
-      "lon": 38.0206535
     },
     {
       "id": "bca7991565a7369a",
