@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T00:25:17.570015+00:00",
+  "updatedAt": "2026-11-17T00:35:16.700160+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -277,16 +277,16 @@
       "lon": 33.2537994
     },
     {
-      "id": "780703b1921b3e7b",
+      "id": "97001c4f8c2fe7ea",
       "action": "ADD",
-      "name": "Курумоч",
+      "name": "Центральный",
       "icao": "UWWW",
       "kind": "airport",
       "type": "full",
       "radiusKm": null,
-      "messageTimestamp": "2026-11-16T22:37:04+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5650",
-      "text": "🔴🛩️ Самара - Курумоч, UWWW",
+      "messageTimestamp": "2026-11-17T00:32:20+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5654",
+      "text": "🔴🛩️ Оренбург - Центральный, UWWW",
       "inKta": true,
       "lat": 53.5057511,
       "lon": 50.1569939

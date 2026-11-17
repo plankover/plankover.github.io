@@ -33598,5 +33598,28 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5654,
+    "timestamp": "2026-11-17T00:32:20+00:00",
+    "text": "🔴🛩️ Оренбург - Центральный, UWWW",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5654",
+    "events": [
+      {
+        "id": "97001c4f8c2fe7ea",
+        "action": "ADD",
+        "name": "Центральный",
+        "icao": "UWWW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-17T00:32:20+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5654",
+        "text": "🔴🛩️ Оренбург - Центральный, UWWW",
+        "inKta": true
+      }
+    ]
   }
 ]
