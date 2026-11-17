@@ -34563,5 +34563,28 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5679,
+    "timestamp": "2026-11-17T19:37:02+00:00",
+    "text": "🟢🛩️ Калуга - Грабцево, UUBC",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5679",
+    "events": [
+      {
+        "id": "e709b04b94c8a8a4",
+        "action": "REMOVE",
+        "name": "Грабцево",
+        "icao": "UUBC",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-17T19:37:02+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5679",
+        "text": "🟢🛩️ Калуга - Грабцево, UUBC",
+        "inKta": true
+      }
+    ]
   }
 ]
