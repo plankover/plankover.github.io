@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T08:30:18.002929+00:00",
+  "updatedAt": "2026-11-17T08:35:17.130937+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -172,21 +172,6 @@
       "sourceUrl": "https://t.me/PlanKoverTDay/5662",
       "text": "🟡 Внуково, Домодедово, Жуковский (Раменское) - работают по согласованию с соответствующими органами",
       "inKta": false
-    },
-    {
-      "id": "e66436d7dd5538dd",
-      "action": "ADD",
-      "name": "Донское",
-      "icao": "UUOT",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-17T06:49:28+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5669",
-      "text": "🔴🛩️ Тамбов - Донское, UUOT",
-      "inKta": true,
-      "lat": 52.8060125,
-      "lon": 41.4845129
     },
     {
       "id": "0eef6fdb41ff79eb",
