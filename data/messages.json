@@ -34070,5 +34070,237 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5666,
+    "timestamp": "2026-11-17T04:28:09+00:00",
+    "text": "⬜️Аэропорты\n\n— КАЗАНЬ \n\n— НИЖНЕКАМСК (Бегишево)\n\n— ОРЕНБУРГ\n\n— САМАРА (Курумоч)\n\n— УЛЬЯНОВСК (Баратаевка)\n\n— ЧЕБОКСАРЫ\n\n✈️СНЯТЫ временные ограниченияна прием и выпуск воздушных судов.\n\n✈️Ограничения вводили для обеспечения безопасности полетов.\n\n✈️Говорит Росавиация | MАХ",
+    "entities": [
+      {
+        "offset": 15,
+        "length": 6,
+        "type": "bold"
+      },
+      {
+        "offset": 26,
+        "length": 10,
+        "type": "bold"
+      },
+      {
+        "offset": 37,
+        "length": 10,
+        "type": "italic"
+      },
+      {
+        "offset": 51,
+        "length": 8,
+        "type": "bold"
+      },
+      {
+        "offset": 63,
+        "length": 6,
+        "type": "bold"
+      },
+      {
+        "offset": 70,
+        "length": 9,
+        "type": "italic"
+      },
+      {
+        "offset": 83,
+        "length": 9,
+        "type": "bold"
+      },
+      {
+        "offset": 93,
+        "length": 12,
+        "type": "italic"
+      },
+      {
+        "offset": 109,
+        "length": 9,
+        "type": "bold"
+      },
+      {
+        "offset": 122,
+        "length": 44,
+        "type": "bold"
+      },
+      {
+        "offset": 187,
+        "length": 57,
+        "type": "italic"
+      },
+      {
+        "offset": 247,
+        "length": 19,
+        "type": "text_link",
+        "url": "https://t.me/favt_ru"
+      },
+      {
+        "offset": 269,
+        "length": 3,
+        "type": "text_link",
+        "url": "https://max.ru/favt_info"
+      }
+    ],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5666",
+    "events": [
+      {
+        "id": "cb9ccc40662b7ff5",
+        "action": "REMOVE",
+        "name": "КАЗАНЬ",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "messageTimestamp": "2026-11-17T04:28:09+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5666",
+        "text": "⬜️Аэропорты"
+      },
+      {
+        "id": "ace213c86436d571",
+        "action": "REMOVE",
+        "name": "НИЖНЕКАМСК (Бегишево)",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "messageTimestamp": "2026-11-17T04:28:09+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5666",
+        "text": "⬜️Аэропорты"
+      },
+      {
+        "id": "4e75281cbae0fbf0",
+        "action": "REMOVE",
+        "name": "ОРЕНБУРГ",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "messageTimestamp": "2026-11-17T04:28:09+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5666",
+        "text": "⬜️Аэропорты"
+      },
+      {
+        "id": "d5da6b5c1c6abae2",
+        "action": "REMOVE",
+        "name": "САМАРА (Курумоч)",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "messageTimestamp": "2026-11-17T04:28:09+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5666",
+        "text": "⬜️Аэропорты"
+      },
+      {
+        "id": "056ede3b0ab28c9e",
+        "action": "REMOVE",
+        "name": "УЛЬЯНОВСК (Баратаевка)",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "messageTimestamp": "2026-11-17T04:28:09+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5666",
+        "text": "⬜️Аэропорты"
+      },
+      {
+        "id": "c91d02ae3e7e0dd2",
+        "action": "REMOVE",
+        "name": "ЧЕБОКСАРЫ",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "messageTimestamp": "2026-11-17T04:28:09+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5666",
+        "text": "⬜️Аэропорты"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5667,
+    "timestamp": "2026-11-17T04:29:11+00:00",
+    "text": "🟢🛩️ Казань, UWKD\n🟢🛩️ Чебоксары, UWKS\n🟢🛩️ Ульяновск - Баратаевка, UWLL\n🟢🛩️ Самара - Курумоч, UWWW\n🟢🛩️ Нижнекамск - Бегишево, UWKE\n🟢🛩️ Оренбург, UWOO",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5667",
+    "events": [
+      {
+        "id": "996bb159df0af061",
+        "action": "REMOVE",
+        "name": "Казань",
+        "icao": "UWKD",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-17T04:29:11+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5667",
+        "text": "🟢🛩️ Казань, UWKD",
+        "inKta": true
+      },
+      {
+        "id": "4b3aace2a4030dd8",
+        "action": "REMOVE",
+        "name": "Чебоксары",
+        "icao": "UWKS",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-17T04:29:11+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5667",
+        "text": "🟢🛩️ Чебоксары, UWKS",
+        "inKta": true
+      },
+      {
+        "id": "2e7cc2355117e009",
+        "action": "REMOVE",
+        "name": "Баратаевка",
+        "icao": "UWLL",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-17T04:29:11+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5667",
+        "text": "🟢🛩️ Ульяновск - Баратаевка, UWLL",
+        "inKta": true
+      },
+      {
+        "id": "e3b8e5821687a8ee",
+        "action": "REMOVE",
+        "name": "Курумоч",
+        "icao": "UWWW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-17T04:29:11+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5667",
+        "text": "🟢🛩️ Самара - Курумоч, UWWW",
+        "inKta": true
+      },
+      {
+        "id": "229418f509cf38ee",
+        "action": "REMOVE",
+        "name": "Бегишево",
+        "icao": "UWKE",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-17T04:29:11+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5667",
+        "text": "🟢🛩️ Нижнекамск - Бегишево, UWKE",
+        "inKta": true
+      },
+      {
+        "id": "4a713c2672079f58",
+        "action": "REMOVE",
+        "name": "Оренбург",
+        "icao": "UWOO",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-17T04:29:11+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5667",
+        "text": "🟢🛩️ Оренбург, UWOO",
+        "inKta": true
+      }
+    ]
   }
 ]
