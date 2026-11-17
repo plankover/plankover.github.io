@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T18:45:18.597327+00:00",
+  "updatedAt": "2026-11-17T19:10:18.891758+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -31,21 +31,6 @@
       "inKta": true,
       "lat": 45.033714,
       "lon": 39.1814429
-    },
-    {
-      "id": "80dda57c8f36400e",
-      "action": "ADD",
-      "name": "Геленджик",
-      "icao": "URKG",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-17T18:44:57+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5677",
-      "text": "🔴🛩️ Геленджик, URKG",
-      "inKta": true,
-      "lat": 44.58209,
-      "lon": 38.01248
     }
   ],
   "forecasts": []
