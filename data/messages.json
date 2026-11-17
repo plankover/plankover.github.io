@@ -33834,5 +33834,107 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5662,
+    "timestamp": "2026-11-17T04:07:43+00:00",
+    "text": "🕒 На 7:00 по мск, в аэропортах:\n\n✈️ Бугульма\n✈️ Иваново (Южный)\n✈️ Казань\n✈️ Калуга (Грабцево) \n✈️ Нижнекамск (Бегишево)\n✈️ Оренбург\n✈️ Самара (Курумоч) \n✈️ Ульяновск (Баратаевка) \n✈️ Уфа\n✈️ Чебоксары\n✈️ Ярославль (Туношна) \n\nдействуют временные ограничения на прием и выпуск воздушных судов для обеспечения безопасности их полетов.\n\n🟡 Внуково, Домодедово, Жуковский (Раменское) - работают по согласованию с соответствующими органами",
+    "entities": [
+      {
+        "offset": 0,
+        "length": 2,
+        "type": "custom_emoji",
+        "custom_emoji_id": "6278477897321685413"
+      },
+      {
+        "offset": 34,
+        "length": 2,
+        "type": "custom_emoji",
+        "custom_emoji_id": "6278362173722861975"
+      },
+      {
+        "offset": 46,
+        "length": 2,
+        "type": "custom_emoji",
+        "custom_emoji_id": "6278362173722861975"
+      },
+      {
+        "offset": 65,
+        "length": 2,
+        "type": "custom_emoji",
+        "custom_emoji_id": "6278362173722861975"
+      },
+      {
+        "offset": 75,
+        "length": 2,
+        "type": "custom_emoji",
+        "custom_emoji_id": "6278362173722861975"
+      },
+      {
+        "offset": 97,
+        "length": 2,
+        "type": "custom_emoji",
+        "custom_emoji_id": "6278362173722861975"
+      },
+      {
+        "offset": 122,
+        "length": 2,
+        "type": "custom_emoji",
+        "custom_emoji_id": "6278362173722861975"
+      },
+      {
+        "offset": 134,
+        "length": 2,
+        "type": "custom_emoji",
+        "custom_emoji_id": "6278362173722861975"
+      },
+      {
+        "offset": 155,
+        "length": 2,
+        "type": "custom_emoji",
+        "custom_emoji_id": "6278362173722861975"
+      },
+      {
+        "offset": 182,
+        "length": 2,
+        "type": "custom_emoji",
+        "custom_emoji_id": "6278362173722861975"
+      },
+      {
+        "offset": 189,
+        "length": 2,
+        "type": "custom_emoji",
+        "custom_emoji_id": "6278362173722861975"
+      },
+      {
+        "offset": 202,
+        "length": 2,
+        "type": "custom_emoji",
+        "custom_emoji_id": "6278362173722861975"
+      },
+      {
+        "offset": 335,
+        "length": 2,
+        "type": "custom_emoji",
+        "custom_emoji_id": "6276285595689952452"
+      }
+    ],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5662",
+    "events": [
+      {
+        "id": "416acddbb2fecbdd",
+        "action": "ADD",
+        "name": "Внуково, Домодедово, Жуковский (Раменское) - работают по согласованию с соответствующими органами",
+        "icao": null,
+        "kind": "city",
+        "type": "partial",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-17T04:07:43+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5662",
+        "text": "🟡 Внуково, Домодедово, Жуковский (Раменское) - работают по согласованию с соответствующими органами",
+        "inKta": false
+      }
+    ]
   }
 ]

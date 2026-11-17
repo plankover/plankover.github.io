@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T04:05:17.286999+00:00",
+  "updatedAt": "2026-11-17T04:10:20.238156+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -368,6 +368,19 @@
       "inKta": true,
       "lat": 54.5543582,
       "lon": 55.8822099
+    },
+    {
+      "id": "416acddbb2fecbdd",
+      "action": "ADD",
+      "name": "Внуково, Домодедово, Жуковский (Раменское) - работают по согласованию с соответствующими органами",
+      "icao": null,
+      "kind": "city",
+      "type": "partial",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-17T04:07:43+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5662",
+      "text": "🟡 Внуково, Домодедово, Жуковский (Раменское) - работают по согласованию с соответствующими органами",
+      "inKta": false
     }
   ],
   "forecasts": []
