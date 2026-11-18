@@ -34632,5 +34632,28 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5682,
+    "timestamp": "2026-11-18T09:24:49+00:00",
+    "text": "🟢🛩️ Краснодар - Пашковский, URKK",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5682",
+    "events": [
+      {
+        "id": "14f047a12c5f0363",
+        "action": "REMOVE",
+        "name": "Пашковский",
+        "icao": "URKK",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-18T09:24:49+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5682",
+        "text": "🟢🛩️ Краснодар - Пашковский, URKK",
+        "inKta": true
+      }
+    ]
   }
 ]
