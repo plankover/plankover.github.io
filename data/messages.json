@@ -35650,5 +35650,93 @@
         "sourceUrl": "https://t.me/PlanKoverTDay/5713"
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5714,
+    "timestamp": "2026-11-19T13:26:12+00:00",
+    "text": "🟢🛩️ Ижевск, USII\n🟢🛩️ Казань, UWKD\n🟢🛩️ Нижнекамск - Бегишево, UWKE\n🟢🛩️ Оренбург - Центральный, UWWW\n🟢🛩️ Чебоксары, UWKS\n🟢🛩️ Уфа, UWUU",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5714",
+    "events": [
+      {
+        "id": "176b2a8de1774d00",
+        "action": "REMOVE",
+        "name": "Ижевск",
+        "icao": "USII",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-19T13:26:12+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5714",
+        "text": "🟢🛩️ Ижевск, USII",
+        "inKta": true
+      },
+      {
+        "id": "01893c72b712da6d",
+        "action": "REMOVE",
+        "name": "Казань",
+        "icao": "UWKD",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-19T13:26:12+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5714",
+        "text": "🟢🛩️ Казань, UWKD",
+        "inKta": true
+      },
+      {
+        "id": "6d7fe49a91b809c1",
+        "action": "REMOVE",
+        "name": "Бегишево",
+        "icao": "UWKE",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-19T13:26:12+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5714",
+        "text": "🟢🛩️ Нижнекамск - Бегишево, UWKE",
+        "inKta": true
+      },
+      {
+        "id": "fe956f137852df86",
+        "action": "REMOVE",
+        "name": "Центральный",
+        "icao": "UWWW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-19T13:26:12+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5714",
+        "text": "🟢🛩️ Оренбург - Центральный, UWWW",
+        "inKta": true
+      },
+      {
+        "id": "85a0b713b6b8cb7a",
+        "action": "REMOVE",
+        "name": "Чебоксары",
+        "icao": "UWKS",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-19T13:26:12+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5714",
+        "text": "🟢🛩️ Чебоксары, UWKS",
+        "inKta": true
+      },
+      {
+        "id": "8e1b4a699eed8f99",
+        "action": "REMOVE",
+        "name": "Уфа",
+        "icao": "UWUU",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-19T13:26:12+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5714",
+        "text": "🟢🛩️ Уфа, UWUU",
+        "inKta": true
+      }
+    ]
   }
 ]
