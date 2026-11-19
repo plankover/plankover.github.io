@@ -1,21 +1,51 @@
 {
-  "updatedAt": "2026-11-19T18:40:17.674477+00:00",
+  "updatedAt": "2026-11-19T20:40:18.054485+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
-      "id": "cb0358a831d2dbdd",
+      "id": "8080b227cf393ceb",
       "action": "ADD",
       "name": "Грабцево",
       "icao": "UUBC",
       "kind": "airport",
       "type": "full",
-      "radiusKm": null,
+      "radiusKm": 80.0,
       "messageTimestamp": "2026-11-19T18:39:26+00:00",
       "sourceUrl": "https://t.me/PlanKoverTDay/5715",
-      "text": "🔴🛩️ Калуга - Грабцево, UUBC",
+      "text": "🔴🛩️ Калуга - Грабцево, UUBC / 80 км",
       "inKta": true,
       "lat": 54.5488708,
       "lon": 36.3697725
+    },
+    {
+      "id": "51c9e446cefde6ce",
+      "action": "ADD",
+      "name": "Северный, Смоленск",
+      "icao": null,
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 50.0,
+      "messageTimestamp": "2026-11-19T18:39:26+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5715",
+      "text": "🔴 а/д Северный, Смоленск / 50 км",
+      "inKta": false,
+      "lat": 54.823085,
+      "lon": 32.0231288
+    },
+    {
+      "id": "fef24ce72b465dcf",
+      "action": "ADD",
+      "name": "Клоково, Тула",
+      "icao": null,
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 70.0,
+      "messageTimestamp": "2026-11-19T18:39:26+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5715",
+      "text": "🔴 а/д Клоково, Тула / 70 км",
+      "inKta": false,
+      "lat": 54.2418249,
+      "lon": 37.6000197
     }
   ],
   "forecasts": []
