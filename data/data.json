@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T11:15:17.851176+00:00",
+  "updatedAt": "2026-11-19T11:25:16.926596+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -61,6 +61,51 @@
       "inKta": true,
       "lat": 51.7139093,
       "lon": 46.1672319
+    },
+    {
+      "id": "71bd3798af2cbcc6",
+      "action": "ADD",
+      "name": "Казань",
+      "icao": "UWKD",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-19T11:21:46+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5699",
+      "text": "🔴🛩️ Казань, UWKD",
+      "inKta": true,
+      "lat": 55.6074098,
+      "lon": 49.2855138
+    },
+    {
+      "id": "91b404b799d13ff2",
+      "action": "ADD",
+      "name": "Чебоксары",
+      "icao": "UWKS",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-19T11:21:46+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5699",
+      "text": "🔴🛩️ Чебоксары, UWKS",
+      "inKta": true,
+      "lat": 56.0880752,
+      "lon": 47.3382761
+    },
+    {
+      "id": "627549a1d160da8b",
+      "action": "ADD",
+      "name": "Донское",
+      "icao": "UUOT",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-19T11:24:34+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5700",
+      "text": "🔴🛩️ Тамбов - Донское, UUOT",
+      "inKta": true,
+      "lat": 52.8060125,
+      "lon": 41.4845129
     }
   ],
   "forecasts": []

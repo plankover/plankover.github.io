@@ -35166,5 +35166,87 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5698,
+    "timestamp": "2026-11-19T11:21:35+00:00",
+    "text": "🔴🛩️ Казань, UWKD",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5698",
+    "events": [
+      {
+        "id": "5c49f1a0425bf04b",
+        "action": "ADD",
+        "name": "Казань",
+        "icao": "UWKD",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-19T11:21:35+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5698",
+        "text": "🔴🛩️ Казань, UWKD",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5699,
+    "timestamp": "2026-11-19T11:21:46+00:00",
+    "text": "🔴🛩️ Казань, UWKD\n🔴🛩️ Чебоксары, UWKS",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5699",
+    "events": [
+      {
+        "id": "71bd3798af2cbcc6",
+        "action": "ADD",
+        "name": "Казань",
+        "icao": "UWKD",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-19T11:21:46+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5699",
+        "text": "🔴🛩️ Казань, UWKD",
+        "inKta": true
+      },
+      {
+        "id": "91b404b799d13ff2",
+        "action": "ADD",
+        "name": "Чебоксары",
+        "icao": "UWKS",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-19T11:21:46+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5699",
+        "text": "🔴🛩️ Чебоксары, UWKS",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5700,
+    "timestamp": "2026-11-19T11:24:34+00:00",
+    "text": "🔴🛩️ Тамбов - Донское, UUOT",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5700",
+    "events": [
+      {
+        "id": "627549a1d160da8b",
+        "action": "ADD",
+        "name": "Донское",
+        "icao": "UUOT",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-19T11:24:34+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5700",
+        "text": "🔴🛩️ Тамбов - Донское, UUOT",
+        "inKta": true
+      }
+    ]
   }
 ]
