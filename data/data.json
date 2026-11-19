@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T00:30:17.555100+00:00",
+  "updatedAt": "2026-11-19T01:15:17.229795+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -33,36 +33,6 @@
       "lon": 36.3697725
     },
     {
-      "id": "16caf73c09a6fd14",
-      "action": "ADD",
-      "name": "Гагарин",
-      "icao": "UWSG",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-18T22:21:04+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5687",
-      "text": "🔴🛩️ Саратов - Гагарин, UWSG",
-      "inKta": true,
-      "lat": 51.7139093,
-      "lon": 46.1672319
-    },
-    {
-      "id": "3e4a69ce5f542556",
-      "action": "ADD",
-      "name": "Пенза",
-      "icao": "UWPP",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-18T23:13:01+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5688",
-      "text": "🔴🛩️ Пенза, UWPP",
-      "inKta": true,
-      "lat": 53.110734,
-      "lon": 45.023455
-    },
-    {
       "id": "873a99ad0fa36016",
       "action": "ADD",
       "name": "Курумоч",
@@ -91,6 +61,36 @@
       "inKta": true,
       "lat": 54.2690213,
       "lon": 48.2248287
+    },
+    {
+      "id": "4632e6410638b1b9",
+      "action": "ADD",
+      "name": "Казань",
+      "icao": "UWKD",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-19T01:10:24+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5691",
+      "text": "🔴🛩️ Казань, UWKD",
+      "inKta": true,
+      "lat": 55.6074098,
+      "lon": 49.2855138
+    },
+    {
+      "id": "e900e947eddc9fb1",
+      "action": "ADD",
+      "name": "Бегишево",
+      "icao": "UWKE",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-19T01:10:24+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5691",
+      "text": "🔴🛩️ Нижнекамск - Бегишево, UWKE",
+      "inKta": true,
+      "lat": 55.5655378,
+      "lon": 52.0988028
     }
   ],
   "forecasts": []
