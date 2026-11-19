@@ -35610,5 +35610,28 @@
         "text": "⬜️ Аэропорты"
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5712,
+    "timestamp": "2026-11-19T13:10:18+00:00",
+    "text": "🟢🛩️ Киров - Победилово, USKK",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5712",
+    "events": [
+      {
+        "id": "a131c198f3f6fd0c",
+        "action": "REMOVE",
+        "name": "Победилово",
+        "icao": "USKK",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-19T13:10:18+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5712",
+        "text": "🟢🛩️ Киров - Победилово, USKK",
+        "inKta": true
+      }
+    ]
   }
 ]
