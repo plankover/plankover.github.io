@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T12:10:19.523790+00:00",
+  "updatedAt": "2026-11-19T12:20:26.987963+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -134,6 +134,36 @@
       "inKta": true,
       "lat": 58.5021703,
       "lon": 49.3399536
+    },
+    {
+      "id": "d77c1f9c1a5e1883",
+      "action": "ADD",
+      "name": "Оренбург",
+      "icao": "UWOO",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-19T12:18:08+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5706",
+      "text": "🔴🛩️ Оренбург, UWOO",
+      "inKta": true,
+      "lat": 51.7957696,
+      "lon": 55.455575
+    },
+    {
+      "id": "ec261a663f502a0d",
+      "action": "ADD",
+      "name": "Уфа",
+      "icao": "UWUU",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-19T12:18:08+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5706",
+      "text": "🔴🛩️ Уфа, UWUU",
+      "inKta": true,
+      "lat": 54.5543582,
+      "lon": 55.8822099
     }
   ],
   "forecasts": []

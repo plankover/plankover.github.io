@@ -35389,5 +35389,41 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5706,
+    "timestamp": "2026-11-19T12:18:08+00:00",
+    "text": "🔴🛩️ Оренбург, UWOO\n🔴🛩️ Уфа, UWUU",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5706",
+    "events": [
+      {
+        "id": "d77c1f9c1a5e1883",
+        "action": "ADD",
+        "name": "Оренбург",
+        "icao": "UWOO",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-19T12:18:08+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5706",
+        "text": "🔴🛩️ Оренбург, UWOO",
+        "inKta": true
+      },
+      {
+        "id": "ec261a663f502a0d",
+        "action": "ADD",
+        "name": "Уфа",
+        "icao": "UWUU",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-19T12:18:08+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5706",
+        "text": "🔴🛩️ Уфа, UWUU",
+        "inKta": true
+      }
+    ]
   }
 ]
