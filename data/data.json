@@ -1,37 +1,7 @@
 {
-  "updatedAt": "2026-11-19T01:40:19.621479+00:00",
+  "updatedAt": "2026-11-19T05:10:16.695041+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
-    {
-      "id": "790ba7b7472fa334",
-      "action": "ADD",
-      "name": "Донское",
-      "icao": "UUOT",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-18T19:38:40+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5685",
-      "text": "🔴🛩️ Тамбов - Донское, UUOT",
-      "inKta": true,
-      "lat": 52.8060125,
-      "lon": 41.4845129
-    },
-    {
-      "id": "f940ff68825d5692",
-      "action": "ADD",
-      "name": "Грабцево",
-      "icao": "UUBC",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-18T21:02:09+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5686",
-      "text": "🔴🛩️ Калуга - Грабцево, UUBC",
-      "inKta": true,
-      "lat": 54.5488708,
-      "lon": 36.3697725
-    },
     {
       "id": "873a99ad0fa36016",
       "action": "ADD",
