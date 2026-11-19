@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T01:15:17.229795+00:00",
+  "updatedAt": "2026-11-19T01:40:19.621479+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -91,6 +91,34 @@
       "inKta": true,
       "lat": 55.5655378,
       "lon": 52.0988028
+    },
+    {
+      "id": "028e86b781f70a3c",
+      "action": "ADD",
+      "name": "Бугульма",
+      "icao": "UWKB",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-19T01:35:41+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5693",
+      "text": "🔴🛩️ Бугульма, UWKB",
+      "inKta": true
+    },
+    {
+      "id": "3eb711d1880c46e8",
+      "action": "ADD",
+      "name": "Уфа",
+      "icao": "UWUU",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-19T01:35:41+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5693",
+      "text": "🔴🛩️ Уфа, UWUU",
+      "inKta": true,
+      "lat": 54.5543582,
+      "lon": 55.8822099
     }
   ],
   "forecasts": []

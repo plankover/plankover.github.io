@@ -34911,5 +34911,41 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5693,
+    "timestamp": "2026-11-19T01:35:41+00:00",
+    "text": "🔴🛩️ Бугульма, UWKB\n🔴🛩️ Уфа, UWUU",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5693",
+    "events": [
+      {
+        "id": "028e86b781f70a3c",
+        "action": "ADD",
+        "name": "Бугульма",
+        "icao": "UWKB",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-19T01:35:41+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5693",
+        "text": "🔴🛩️ Бугульма, UWKB",
+        "inKta": true
+      },
+      {
+        "id": "3eb711d1880c46e8",
+        "action": "ADD",
+        "name": "Уфа",
+        "icao": "UWUU",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-19T01:35:41+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5693",
+        "text": "🔴🛩️ Уфа, UWUU",
+        "inKta": true
+      }
+    ]
   }
 ]
