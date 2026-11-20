@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T09:45:17.170892+00:00",
+  "updatedAt": "2026-11-20T10:10:17.367937+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -46,21 +46,6 @@
       "inKta": true,
       "lat": 42.813746,
       "lon": 47.6566872
-    },
-    {
-      "id": "6e7bc218bd07308a",
-      "action": "ADD",
-      "name": "Хибины",
-      "icao": "ULMM",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-20T09:43:37+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5720",
-      "text": "🔴🛩️ Апатиты - Хибины, ULMM",
-      "inKta": true,
-      "lat": 68.7809016,
-      "lon": 32.758228
     }
   ],
   "forecasts": []
