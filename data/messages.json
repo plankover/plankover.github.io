@@ -35949,5 +35949,22 @@
         "notamText": "СИГНАЛ КОВЕР (САРАТОВ). АЭРОПОРТ САРАТОВ(ГАГАРИН) ПРЕКРАТИЛ ПРИЕМ/ВЫПУСК ВС"
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5723,
+    "timestamp": "2026-11-20T16:04:50+00:00",
+    "text": "",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5723",
+    "events": [
+      {
+        "id": "b57ee091527794e5",
+        "action": "UNKNOWN",
+        "messageTimestamp": "2026-11-20T16:04:50+00:00",
+        "text": "",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5723"
+      }
+    ]
   }
 ]
