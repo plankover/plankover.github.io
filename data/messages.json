@@ -35879,5 +35879,28 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5720,
+    "timestamp": "2026-11-20T09:43:37+00:00",
+    "text": "🔴🛩️ Апатиты - Хибины, ULMM",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5720",
+    "events": [
+      {
+        "id": "6e7bc218bd07308a",
+        "action": "ADD",
+        "name": "Хибины",
+        "icao": "ULMM",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-20T09:43:37+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5720",
+        "text": "🔴🛩️ Апатиты - Хибины, ULMM",
+        "inKta": true
+      }
+    ]
   }
 ]
