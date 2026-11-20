@@ -35919,5 +35919,28 @@
         "sourceUrl": "https://t.me/PlanKoverTDay/5721"
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5722,
+    "timestamp": "2026-11-20T15:45:13+00:00",
+    "text": "🔴🛩️ Саратов - Гагарин, UWWW",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5722",
+    "events": [
+      {
+        "id": "73468f038c7673d4",
+        "action": "ADD",
+        "name": "Гагарин",
+        "icao": "UWWW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-20T15:45:13+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5722",
+        "text": "🔴🛩️ Саратов - Гагарин, UWWW",
+        "inKta": true
+      }
+    ]
   }
 ]
