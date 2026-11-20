@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T05:45:16.365476+00:00",
+  "updatedAt": "2026-11-20T07:40:17.950552+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -31,6 +31,21 @@
       "inKta": false,
       "lat": 54.2418249,
       "lon": 37.6000197
+    },
+    {
+      "id": "19d5f214ded19601",
+      "action": "ADD",
+      "name": "Уйташ",
+      "icao": "URML",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-20T07:38:43+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5719",
+      "text": "🔴🛩️ Махачкала - Уйташ, URML",
+      "inKta": true,
+      "lat": 42.813746,
+      "lon": 47.6566872
     }
   ],
   "forecasts": []
