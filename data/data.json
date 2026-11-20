@@ -1,23 +1,6 @@
 {
-  "updatedAt": "2026-11-20T15:50:17.160817+00:00",
+  "updatedAt": "2026-11-20T16:35:18.859083+00:00",
   "source": "@PlanKoverTDay",
-  "restrictions": [
-    {
-      "id": "115e470c639ffc71",
-      "action": "ADD",
-      "name": "Гагарин",
-      "icao": "UWSG",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": 100.0,
-      "messageTimestamp": "2026-11-20T15:45:13+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5722",
-      "text": "🔴🛩️ Саратов - Гагарин, UWSG / 100 км",
-      "inKta": true,
-      "notamText": "СИГНАЛ КОВЕР (САРАТОВ). АЭРОПОРТ САРАТОВ(ГАГАРИН) ПРЕКРАТИЛ ПРИЕМ/ВЫПУСК ВС",
-      "lat": 51.7139093,
-      "lon": 46.1672319
-    }
-  ],
+  "restrictions": [],
   "forecasts": []
 }
