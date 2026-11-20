@@ -1,6 +1,29 @@
 {
-  "updatedAt": "2026-11-20T16:35:18.859083+00:00",
+  "updatedAt": "2026-11-20T21:40:17.812270+00:00",
   "source": "@PlanKoverTDay",
-  "restrictions": [],
-  "forecasts": []
+  "restrictions": [
+    {
+      "id": "7de684fa8811aece",
+      "action": "ADD",
+      "name": "Северный, Смоленск",
+      "icao": null,
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 50.0,
+      "messageTimestamp": "2026-11-20T21:35:48+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5729",
+      "text": "🔴 а/д Северный, Смоленск / 50 км",
+      "inKta": false,
+      "lat": 54.823085,
+      "lon": 32.0231288
+    }
+  ],
+  "forecasts": [
+    {
+      "label": "Оперативный",
+      "timestamp": "2026-11-20T21:17:21+00:00",
+      "text": "⚠️ В ближайшие минуты возможны ограничения в регионах ЦФО (вероятно Калуга, Тула, Рязань, Москва и др)",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5728"
+    }
+  ]
 }
