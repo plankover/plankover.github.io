@@ -36104,17 +36104,21 @@
         "offset": 0,
         "length": 2,
         "type": "custom_emoji",
-        "custom_emoji_id": "6167988751235555444"
+        "custom_emoji_id": "6275948470821987795"
+      },
+      {
+        "offset": 2,
+        "length": 100,
+        "type": "strikethrough"
       }
     ],
     "sourceUrl": "https://t.me/PlanKoverTDay/5728",
     "events": [
       {
-        "id": "b9627be4e97d285e",
-        "action": "FORECAST",
-        "label": "Оперативный",
+        "id": "028fc8ae6d19b5be",
+        "action": "UNKNOWN",
         "messageTimestamp": "2026-11-20T21:17:21+00:00",
-        "text": "⚠️ В ближайшие минуты возможны ограничения в регионах ЦФО (вероятно Калуга, Тула, Рязань, Москва и др)",
+        "text": "",
         "sourceUrl": "https://t.me/PlanKoverTDay/5728"
       }
     ]
@@ -36138,6 +36142,29 @@
         "messageTimestamp": "2026-11-20T21:35:48+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/5729",
         "text": "🔴 а/д Северный, Смоленск / 50 км",
+        "inKta": false
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5730,
+    "timestamp": "2026-11-20T21:47:20+00:00",
+    "text": "🔴 Валдай / 100 км",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5730",
+    "events": [
+      {
+        "id": "7681fde746e4aa72",
+        "action": "ADD",
+        "name": "Валдай",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 100.0,
+        "messageTimestamp": "2026-11-20T21:47:20+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5730",
+        "text": "🔴 Валдай / 100 км",
         "inKta": false
       }
     ]
