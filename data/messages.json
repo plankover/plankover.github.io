@@ -36053,5 +36053,22 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5726,
+    "timestamp": "2026-11-20T16:58:40+00:00",
+    "text": "",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5726",
+    "events": [
+      {
+        "id": "2af2a8008741e105",
+        "action": "UNKNOWN",
+        "messageTimestamp": "2026-11-20T16:58:40+00:00",
+        "text": "",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5726"
+      }
+    ]
   }
 ]
