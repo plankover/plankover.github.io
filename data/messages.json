@@ -36093,5 +36093,30 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5728,
+    "timestamp": "2026-11-20T21:17:21+00:00",
+    "text": "⚠️ В ближайшие минуты возможны ограничения в регионах ЦФО (вероятно Калуга, Тула, Рязань, Москва и др)",
+    "entities": [
+      {
+        "offset": 0,
+        "length": 2,
+        "type": "custom_emoji",
+        "custom_emoji_id": "6167988751235555444"
+      }
+    ],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5728",
+    "events": [
+      {
+        "id": "b9627be4e97d285e",
+        "action": "FORECAST",
+        "label": "Оперативный",
+        "messageTimestamp": "2026-11-20T21:17:21+00:00",
+        "text": "⚠️ В ближайшие минуты возможны ограничения в регионах ЦФО (вероятно Калуга, Тула, Рязань, Москва и др)",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5728"
+      }
+    ]
   }
 ]
