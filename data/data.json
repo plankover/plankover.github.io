@@ -1,6 +1,31 @@
 {
-  "updatedAt": "2026-11-21T17:50:17.496694+00:00",
+  "updatedAt": "2026-11-21T20:25:16.191730+00:00",
   "source": "@PlanKoverTDay",
-  "restrictions": [],
+  "restrictions": [
+    {
+      "id": "13e7cd4778f034f5",
+      "action": "ADD",
+      "name": "Центральный, Ростов на-Дону",
+      "icao": null,
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 40.0,
+      "messageTimestamp": "2026-11-21T20:23:15+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5741",
+      "text": "🔴 а/д Центральный, Ростов на-Дону (🛩️ Платов, URRP) / 40 км",
+      "affectedAirports": [
+        {
+          "name": "Платов",
+          "icao": "URRP",
+          "kind": "airport",
+          "lat": 47.4879227,
+          "lon": 39.9295997
+        }
+      ],
+      "inKta": false,
+      "lat": 47.2223323,
+      "lon": 39.7096214
+    }
+  ],
   "forecasts": []
 }
