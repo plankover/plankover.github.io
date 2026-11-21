@@ -36216,5 +36216,22 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5733,
+    "timestamp": "2026-11-21T01:49:48+00:00",
+    "text": "Пулково",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5733",
+    "events": [
+      {
+        "id": "63fee230e9d6e524",
+        "action": "UNKNOWN",
+        "messageTimestamp": "2026-11-21T01:49:48+00:00",
+        "text": "Пулково",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5733"
+      }
+    ]
   }
 ]
