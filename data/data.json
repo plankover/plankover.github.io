@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T21:10:17.189440+00:00",
+  "updatedAt": "2026-11-21T22:45:18.511775+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -80,13 +80,37 @@
       "inKta": false,
       "lat": 54.6571958,
       "lon": 39.6308884
+    },
+    {
+      "id": "2f55c1e94d84abb2",
+      "action": "ADD",
+      "name": "Внуково",
+      "icao": "UUWW",
+      "kind": "airport",
+      "type": "partial",
+      "radiusKm": 150.0,
+      "messageTimestamp": "2026-11-21T22:45:00+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5746",
+      "text": "🟡🛩️ Внуково, UUWW (🔴🛩️ Калуга - Грабцево, UUBC) / 150 км (азимуты уточняются)",
+      "affectedAirports": [
+        {
+          "name": "Грабцево",
+          "icao": "UUBC",
+          "kind": "airport",
+          "lat": 54.5488708,
+          "lon": 36.3697725
+        }
+      ],
+      "inKta": true,
+      "lat": 55.5995278,
+      "lon": 37.2735752
     }
   ],
   "forecasts": [
     {
       "label": "Прогноз",
       "timestamp": "2026-11-21T20:46:24+00:00",
-      "text": "📌 Прогноз.\n\nСегодня ожидаем ограничения в основном по югу страны (Краснодар, Геленджик, Сочи и, возможно, далее на восток), но возможны ковры и в Центральном федеральном округе.",
+      "text": "📌 Прогноз.",
       "sourceUrl": "https://t.me/PlanKoverTDay/5742"
     }
   ]
