@@ -36591,5 +36591,78 @@
         "sourceUrl": "https://t.me/PlanKoverTDay/5742"
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5743,
+    "timestamp": "2026-11-21T21:06:49+00:00",
+    "text": "🔴 Афипский (🛩️ Краснодар - Пашковский, URKK) / 30 км\nКОВЕР АФИПСКИЙ АЭР. КРАСНОДАР (ПАШКОВСКИЙ) ЗАКРЫТЫ МАРШРУТЫ SID И STAR",
+    "entities": [
+      {
+        "offset": 55,
+        "length": 70,
+        "type": "blockquote"
+      }
+    ],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5743",
+    "events": [
+      {
+        "id": "70f397d87287dea7",
+        "action": "ADD",
+        "name": "Афипский",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 30.0,
+        "messageTimestamp": "2026-11-21T21:06:49+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5743",
+        "text": "🔴 Афипский (🛩️ Краснодар - Пашковский, URKK) / 30 км",
+        "affectedAirports": [
+          {
+            "name": "Пашковский",
+            "icao": "URKK",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false,
+        "notamText": "КОВЕР АФИПСКИЙ АЭР. КРАСНОДАР (ПАШКОВСКИЙ) ЗАКРЫТЫ МАРШРУТЫ SID И STAR"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5744,
+    "timestamp": "2026-11-21T21:07:22+00:00",
+    "text": "🔴 а/д Клоково, Тула / 70 км\n🔴 а/д Дягилево, Рязань / 70 км",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5744",
+    "events": [
+      {
+        "id": "6a5d6640db67d3af",
+        "action": "ADD",
+        "name": "Клоково, Тула",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-11-21T21:07:22+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5744",
+        "text": "🔴 а/д Клоково, Тула / 70 км",
+        "inKta": false
+      },
+      {
+        "id": "abc3e9b8e205cb39",
+        "action": "ADD",
+        "name": "Дягилево, Рязань",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-11-21T21:07:22+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5744",
+        "text": "🔴 а/д Дягилево, Рязань / 70 км",
+        "inKta": false
+      }
+    ]
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T20:25:16.191730+00:00",
+  "updatedAt": "2026-11-21T21:10:17.189440+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -25,7 +25,69 @@
       "inKta": false,
       "lat": 47.2223323,
       "lon": 39.7096214
+    },
+    {
+      "id": "70f397d87287dea7",
+      "action": "ADD",
+      "name": "Афипский",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 30.0,
+      "messageTimestamp": "2026-11-21T21:06:49+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5743",
+      "text": "🔴 Афипский (🛩️ Краснодар - Пашковский, URKK) / 30 км",
+      "affectedAirports": [
+        {
+          "name": "Пашковский",
+          "icao": "URKK",
+          "kind": "airport",
+          "lat": 45.033714,
+          "lon": 39.1814429
+        }
+      ],
+      "inKta": false,
+      "notamText": "КОВЕР АФИПСКИЙ АЭР. КРАСНОДАР (ПАШКОВСКИЙ) ЗАКРЫТЫ МАРШРУТЫ SID И STAR",
+      "lat": 44.9040435,
+      "lon": 38.8426821
+    },
+    {
+      "id": "6a5d6640db67d3af",
+      "action": "ADD",
+      "name": "Клоково, Тула",
+      "icao": null,
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 70.0,
+      "messageTimestamp": "2026-11-21T21:07:22+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5744",
+      "text": "🔴 а/д Клоково, Тула / 70 км",
+      "inKta": false,
+      "lat": 54.2418249,
+      "lon": 37.6000197
+    },
+    {
+      "id": "abc3e9b8e205cb39",
+      "action": "ADD",
+      "name": "Дягилево, Рязань",
+      "icao": null,
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 70.0,
+      "messageTimestamp": "2026-11-21T21:07:22+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5744",
+      "text": "🔴 а/д Дягилево, Рязань / 70 км",
+      "inKta": false,
+      "lat": 54.6571958,
+      "lon": 39.6308884
     }
   ],
-  "forecasts": []
+  "forecasts": [
+    {
+      "label": "Прогноз",
+      "timestamp": "2026-11-21T20:46:24+00:00",
+      "text": "📌 Прогноз.\n\nСегодня ожидаем ограничения в основном по югу страны (Краснодар, Геленджик, Сочи и, возможно, далее на восток), но возможны ковры и в Центральном федеральном округе.",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5742"
+    }
+  ]
 }
