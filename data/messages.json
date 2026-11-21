@@ -36233,5 +36233,28 @@
         "sourceUrl": "https://t.me/PlanKoverTDay/5733"
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5734,
+    "timestamp": "2026-11-21T01:57:58+00:00",
+    "text": "🟡🛩️ Санкт-Петербург - Пулково, ULLI",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5734",
+    "events": [
+      {
+        "id": "dedd2bba2f697e3f",
+        "action": "ADD",
+        "name": "Пулково",
+        "icao": "ULLI",
+        "kind": "airport",
+        "type": "partial",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-21T01:57:58+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5734",
+        "text": "🟡🛩️ Санкт-Петербург - Пулково, ULLI",
+        "inKta": true
+      }
+    ]
   }
 ]
