@@ -36664,5 +36664,29 @@
         "inKta": false
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5745,
+    "timestamp": "2026-11-21T22:16:39+00:00",
+    "text": "❗️ Сообщают о попытке атаки на  инфраструктуру аэропорта. \n\nИнформация пока не подтверждена.",
+    "entities": [
+      {
+        "offset": 0,
+        "length": 2,
+        "type": "custom_emoji",
+        "custom_emoji_id": "6278437228276361683"
+      }
+    ],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5745",
+    "events": [
+      {
+        "id": "afdbb721e672c9c3",
+        "action": "UNKNOWN",
+        "messageTimestamp": "2026-11-21T22:16:39+00:00",
+        "text": "❗️ Сообщают о попытке атаки на инфраструктуру аэропорта. \n\nИнформация пока не подтверждена.",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5745"
+      }
+    ]
   }
 ]
