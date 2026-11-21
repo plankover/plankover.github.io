@@ -36193,5 +36193,28 @@
         "sourceUrl": "https://t.me/PlanKoverTDay/5731"
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5732,
+    "timestamp": "2026-11-21T01:05:04+00:00",
+    "text": "🔴🛩️ Псков, ULOO",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5732",
+    "events": [
+      {
+        "id": "3d43a0585cd42340",
+        "action": "ADD",
+        "name": "Псков",
+        "icao": "ULOO",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-21T01:05:04+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5732",
+        "text": "🔴🛩️ Псков, ULOO",
+        "inKta": true
+      }
+    ]
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T21:50:18.671532+00:00",
+  "updatedAt": "2026-11-21T01:05:17.336378+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -31,6 +31,21 @@
       "inKta": false,
       "lat": 57.9791414,
       "lon": 33.2537994
+    },
+    {
+      "id": "3d43a0585cd42340",
+      "action": "ADD",
+      "name": "Псков",
+      "icao": "ULOO",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-21T01:05:04+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5732",
+      "text": "🔴🛩️ Псков, ULOO",
+      "inKta": true,
+      "lat": 57.7594629,
+      "lon": 29.5587337
     }
   ],
   "forecasts": []
