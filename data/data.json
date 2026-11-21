@@ -1,6 +1,22 @@
 {
-  "updatedAt": "2026-11-21T10:20:16.112347+00:00",
+  "updatedAt": "2026-11-21T17:25:17.795585+00:00",
   "source": "@PlanKoverTDay",
-  "restrictions": [],
+  "restrictions": [
+    {
+      "id": "c91775798208e71f",
+      "action": "ADD",
+      "name": "Храброво",
+      "icao": "UMKK",
+      "kind": "airport",
+      "type": "partial",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-21T17:22:07+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5739",
+      "text": "🟡🛩️ Калининград - Храброво, UMKK",
+      "inKta": true,
+      "lat": 54.8897378,
+      "lon": 20.5876487
+    }
+  ],
   "forecasts": []
 }
