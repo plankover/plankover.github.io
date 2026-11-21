@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T22:45:18.511775+00:00",
+  "updatedAt": "2026-11-21T22:50:17.101331+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -82,7 +82,7 @@
       "lon": 39.6308884
     },
     {
-      "id": "2f55c1e94d84abb2",
+      "id": "d46ca2f964048cd5",
       "action": "ADD",
       "name": "Внуково",
       "icao": "UUWW",
@@ -91,7 +91,12 @@
       "radiusKm": 150.0,
       "messageTimestamp": "2026-11-21T22:45:00+00:00",
       "sourceUrl": "https://t.me/PlanKoverTDay/5746",
-      "text": "🟡🛩️ Внуково, UUWW (🔴🛩️ Калуга - Грабцево, UUBC) / 150 км (азимуты уточняются)",
+      "text": "🟡🛩️ Внуково, UUWW (🔴🛩️ Калуга - Грабцево, UUBC) / 150 км (азимуты 140-340 примерно)",
+      "sector": {
+        "radiusKm": 150.0,
+        "startAzimuth": 140,
+        "endAzimuth": 340
+      },
       "affectedAirports": [
         {
           "name": "Грабцево",
@@ -108,10 +113,10 @@
   ],
   "forecasts": [
     {
-      "label": "Прогноз",
-      "timestamp": "2026-11-21T20:46:24+00:00",
-      "text": "📌 Прогноз.",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5742"
+      "label": "Оперативный",
+      "timestamp": "2026-11-21T22:46:05+00:00",
+      "text": "⚠️ Внимание по ограничениям в столичных аэропортах, в Московской области режим \"Ракетная опасность\"",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5747"
     }
   ]
 }

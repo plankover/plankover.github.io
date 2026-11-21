@@ -36698,12 +36698,12 @@
     "chatId": -1003822338715,
     "messageId": 5746,
     "timestamp": "2026-11-21T22:45:00+00:00",
-    "text": "🟡🛩️ Внуково, UUWW (🔴🛩️ Калуга - Грабцево, UUBC) / 150 км (азимуты уточняются)",
+    "text": "🟡🛩️ Внуково, UUWW (🔴🛩️ Калуга - Грабцево, UUBC) / 150 км (азимуты 140-340 примерно)",
     "entities": [],
     "sourceUrl": "https://t.me/PlanKoverTDay/5746",
     "events": [
       {
-        "id": "2f55c1e94d84abb2",
+        "id": "d46ca2f964048cd5",
         "action": "ADD",
         "name": "Внуково",
         "icao": "UUWW",
@@ -36712,7 +36712,12 @@
         "radiusKm": 150.0,
         "messageTimestamp": "2026-11-21T22:45:00+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/5746",
-        "text": "🟡🛩️ Внуково, UUWW (🔴🛩️ Калуга - Грабцево, UUBC) / 150 км (азимуты уточняются)",
+        "text": "🟡🛩️ Внуково, UUWW (🔴🛩️ Калуга - Грабцево, UUBC) / 150 км (азимуты 140-340 примерно)",
+        "sector": {
+          "radiusKm": 150.0,
+          "startAzimuth": 140,
+          "endAzimuth": 340
+        },
         "affectedAirports": [
           {
             "name": "Грабцево",
@@ -36721,6 +36726,31 @@
           }
         ],
         "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5747,
+    "timestamp": "2026-11-21T22:46:05+00:00",
+    "text": "⚠️ Внимание по ограничениям в столичных аэропортах, в Московской области режим \"Ракетная опасность\"",
+    "entities": [
+      {
+        "offset": 0,
+        "length": 2,
+        "type": "custom_emoji",
+        "custom_emoji_id": "6275948470821987795"
+      }
+    ],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5747",
+    "events": [
+      {
+        "id": "c73748b08cd8522f",
+        "action": "FORECAST",
+        "label": "Оперативный",
+        "messageTimestamp": "2026-11-21T22:46:05+00:00",
+        "text": "⚠️ Внимание по ограничениям в столичных аэропортах, в Московской области режим \"Ракетная опасность\"",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5747"
       }
     ]
   }
