@@ -36256,5 +36256,28 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5735,
+    "timestamp": "2026-11-21T02:00:19+00:00",
+    "text": "🟡🛩️ Калининград - Храброво, UMKK",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5735",
+    "events": [
+      {
+        "id": "d6ce0a772b6afc9f",
+        "action": "ADD",
+        "name": "Храброво",
+        "icao": "UMKK",
+        "kind": "airport",
+        "type": "partial",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-21T02:00:19+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5735",
+        "text": "🟡🛩️ Калининград - Храброво, UMKK",
+        "inKta": true
+      }
+    ]
   }
 ]
