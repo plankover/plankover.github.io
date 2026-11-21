@@ -36485,7 +36485,7 @@
     "chatId": -1003822338715,
     "messageId": 5739,
     "timestamp": "2026-11-21T17:22:07+00:00",
-    "text": "🟡🛩️ Калининград - Храброво, UMKK",
+    "text": "🟡🛩️ Калининград - Храброво, UMKK\n\nВероятно были учения",
     "entities": [
       {
         "offset": 0,
@@ -36496,7 +36496,7 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/5739",
     "events": [
       {
-        "id": "1307a66b8343756c",
+        "id": "2506222217e2cf5a",
         "action": "REMOVE",
         "name": "Храброво",
         "icao": "UMKK",
