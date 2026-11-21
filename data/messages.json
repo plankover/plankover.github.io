@@ -36793,5 +36793,41 @@
         "inKta": false
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5749,
+    "timestamp": "2026-11-21T23:23:07+00:00",
+    "text": "🟢🛩️ Москва - Внуково, UUWW\n🟢🛩️ Калуга - Грабцево, UUBC",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5749",
+    "events": [
+      {
+        "id": "7a0f3f46dd2df85f",
+        "action": "REMOVE",
+        "name": "Внуково",
+        "icao": "UUWW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-21T23:23:07+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5749",
+        "text": "🟢🛩️ Москва - Внуково, UUWW",
+        "inKta": true
+      },
+      {
+        "id": "c9e6afcd19b1d09b",
+        "action": "REMOVE",
+        "name": "Грабцево",
+        "icao": "UUBC",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-21T23:23:07+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5749",
+        "text": "🟢🛩️ Калуга - Грабцево, UUBC",
+        "inKta": true
+      }
+    ]
   }
 ]

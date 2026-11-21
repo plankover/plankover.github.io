@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T22:55:22.660723+00:00",
+  "updatedAt": "2026-11-21T23:25:24.188105+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -82,50 +82,6 @@
       "lon": 39.6308884
     },
     {
-      "id": "d46ca2f964048cd5",
-      "action": "ADD",
-      "name": "Внуково",
-      "icao": "UUWW",
-      "kind": "airport",
-      "type": "partial",
-      "radiusKm": 150.0,
-      "messageTimestamp": "2026-11-21T22:45:00+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5746",
-      "text": "🟡🛩️ Внуково, UUWW (🔴🛩️ Калуга - Грабцево, UUBC) / 150 км (азимуты 140-340 примерно)",
-      "sector": {
-        "radiusKm": 150.0,
-        "startAzimuth": 140,
-        "endAzimuth": 340
-      },
-      "affectedAirports": [
-        {
-          "name": "Грабцево",
-          "icao": "UUBC",
-          "kind": "airport",
-          "lat": 54.5488708,
-          "lon": 36.3697725
-        }
-      ],
-      "inKta": true,
-      "lat": 55.5995278,
-      "lon": 37.2735752
-    },
-    {
-      "id": "a64fe4dbfbc32c53",
-      "action": "ADD",
-      "name": "Грабцево",
-      "icao": "UUBC",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": 70.0,
-      "messageTimestamp": "2026-11-21T22:53:59+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5748",
-      "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км",
-      "inKta": true,
-      "lat": 54.5488708,
-      "lon": 36.3697725
-    },
-    {
       "id": "34e3b69fe0b83307",
       "action": "ADD",
       "name": "Двоевка, Вязьма",
@@ -143,10 +99,10 @@
   ],
   "forecasts": [
     {
-      "label": "Оперативный",
-      "timestamp": "2026-11-21T22:46:05+00:00",
-      "text": "⚠️ Внимание по ограничениям в столичных аэропортах, в Московской области режим \"Ракетная опасность\"",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5747"
+      "label": "Прогноз",
+      "timestamp": "2026-11-21T20:46:24+00:00",
+      "text": "📌 Прогноз.\n\n\n\nВ дополнение: с высокой вероятностью будут закрыты некоторые аэропорты СКФО",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5742"
     }
   ]
 }
