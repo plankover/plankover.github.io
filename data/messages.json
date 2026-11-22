@@ -36905,5 +36905,28 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5753,
+    "timestamp": "2026-11-22T22:09:40+00:00",
+    "text": "🔴🛩️ Волгоград, URWW",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5753",
+    "events": [
+      {
+        "id": "aa0befbd5b9b50b2",
+        "action": "ADD",
+        "name": "Волгоград",
+        "icao": "URWW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-22T22:09:40+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5753",
+        "text": "🔴🛩️ Волгоград, URWW",
+        "inKta": true
+      }
+    ]
   }
 ]
