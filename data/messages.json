@@ -36928,5 +36928,28 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5754,
+    "timestamp": "2026-11-22T22:31:10+00:00",
+    "text": "🔴🛩️ Саранск, UWPS",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5754",
+    "events": [
+      {
+        "id": "6e11f2f8d6479e64",
+        "action": "ADD",
+        "name": "Саранск",
+        "icao": "UWPS",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-22T22:31:10+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5754",
+        "text": "🔴🛩️ Саранск, UWPS",
+        "inKta": true
+      }
+    ]
   }
 ]
