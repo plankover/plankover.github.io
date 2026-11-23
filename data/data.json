@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T04:50:18.117456+00:00",
+  "updatedAt": "2026-11-23T05:00:21.292320+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -31,36 +31,6 @@
       "inKta": true,
       "lat": 54.6375722,
       "lon": 52.7976418
-    },
-    {
-      "id": "f44d7ab7f639a31b",
-      "action": "ADD",
-      "name": "Чебоксары",
-      "icao": "UWKS",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-23T00:20:00+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5757",
-      "text": "🔴🛩️ Чебоксары, UWKS",
-      "inKta": true,
-      "lat": 56.0880752,
-      "lon": 47.3382761
-    },
-    {
-      "id": "0120aa9339cb805d",
-      "action": "ADD",
-      "name": "Казань",
-      "icao": "UWKD",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-23T00:50:57+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5758",
-      "text": "🔴🛩️ Казань, UWKD",
-      "inKta": true,
-      "lat": 55.6074098,
-      "lon": 49.2855138
     },
     {
       "id": "29ea9794e5bf80f7",

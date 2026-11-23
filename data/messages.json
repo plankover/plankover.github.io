@@ -37266,5 +37266,41 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5767,
+    "timestamp": "2026-11-23T05:00:04+00:00",
+    "text": "🟢🛩️ Казань, UWKD\n🟢🛩️ Чебоксары, UWKS",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5767",
+    "events": [
+      {
+        "id": "bc789c4b0b590a2c",
+        "action": "REMOVE",
+        "name": "Казань",
+        "icao": "UWKD",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-23T05:00:04+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5767",
+        "text": "🟢🛩️ Казань, UWKD",
+        "inKta": true
+      },
+      {
+        "id": "70879df743d473fd",
+        "action": "REMOVE",
+        "name": "Чебоксары",
+        "icao": "UWKS",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-23T05:00:04+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5767",
+        "text": "🟢🛩️ Чебоксары, UWKS",
+        "inKta": true
+      }
+    ]
   }
 ]
