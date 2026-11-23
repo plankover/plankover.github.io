@@ -37092,5 +37092,28 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5760,
+    "timestamp": "2026-11-23T01:59:11+00:00",
+    "text": "🔴🛩️ Уфа, UWUU",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5760",
+    "events": [
+      {
+        "id": "c772fc72a1f06111",
+        "action": "ADD",
+        "name": "Уфа",
+        "icao": "UWUU",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-23T01:59:11+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5760",
+        "text": "🔴🛩️ Уфа, UWUU",
+        "inKta": true
+      }
+    ]
   }
 ]
