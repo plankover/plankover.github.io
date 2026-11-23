@@ -37033,5 +37033,41 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5758,
+    "timestamp": "2026-11-23T00:50:57+00:00",
+    "text": "🔴🛩️ Казань, UWKD\n🔴🛩️ Ижевск, USII",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5758",
+    "events": [
+      {
+        "id": "0120aa9339cb805d",
+        "action": "ADD",
+        "name": "Казань",
+        "icao": "UWKD",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-23T00:50:57+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5758",
+        "text": "🔴🛩️ Казань, UWKD",
+        "inKta": true
+      },
+      {
+        "id": "29ea9794e5bf80f7",
+        "action": "ADD",
+        "name": "Ижевск",
+        "icao": "USII",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-23T00:50:57+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5758",
+        "text": "🔴🛩️ Ижевск, USII",
+        "inKta": true
+      }
+    ]
   }
 ]
