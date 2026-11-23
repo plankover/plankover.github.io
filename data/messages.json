@@ -37474,22 +37474,16 @@
     "chatId": -1003822338715,
     "messageId": 5773,
     "timestamp": "2026-11-23T08:17:24+00:00",
-    "text": "🟢🛩️ Пермь - Большое Савино, USPP",
+    "text": "🟢🛩️ Пермь - Большое Савино, USPP\n\n✅ Ранее объявленные",
     "entities": [],
     "sourceUrl": "https://t.me/PlanKoverTDay/5773",
     "events": [
       {
-        "id": "436df9bd2710f637",
-        "action": "REMOVE",
-        "name": "Большое Савино",
-        "icao": "USPP",
-        "kind": "airport",
-        "type": "full",
-        "radiusKm": null,
+        "id": "0502bc5fabfd5f93",
+        "action": "CLEAR",
         "messageTimestamp": "2026-11-23T08:17:24+00:00",
-        "sourceUrl": "https://t.me/PlanKoverTDay/5773",
-        "text": "🟢🛩️ Пермь - Большое Савино, USPP",
-        "inKta": true
+        "text": "🟢🛩️ Пермь - Большое Савино, USPP\n\n✅ Ранее объявленные",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5773"
       }
     ]
   }
