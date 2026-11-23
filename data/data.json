@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T02:00:16.893616+00:00",
+  "updatedAt": "2026-11-23T02:25:22.460081+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -33,21 +33,6 @@
       "lon": 46.1672319
     },
     {
-      "id": "aa0befbd5b9b50b2",
-      "action": "ADD",
-      "name": "Волгоград",
-      "icao": "URWW",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-22T22:09:40+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5753",
-      "text": "🔴🛩️ Волгоград, URWW",
-      "inKta": true,
-      "lat": 48.7833547,
-      "lon": 44.3472901
-    },
-    {
       "id": "6e11f2f8d6479e64",
       "action": "ADD",
       "name": "Саранск",
@@ -61,21 +46,6 @@
       "inKta": true,
       "lat": 54.1274695,
       "lon": 45.2152086
-    },
-    {
-      "id": "07fb24be8d1d7541",
-      "action": "ADD",
-      "name": "Курумоч",
-      "icao": "UWWW",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-22T22:39:29+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5755",
-      "text": "🔴🛩️ Самара - Курумоч, UWWW",
-      "inKta": true,
-      "lat": 53.5057511,
-      "lon": 50.1569939
     },
     {
       "id": "eb00f51b99822cff",

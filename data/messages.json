@@ -37115,5 +37115,28 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5761,
+    "timestamp": "2026-11-23T02:21:16+00:00",
+    "text": "🟢🛩️ Волгоград, UWWW",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5761",
+    "events": [
+      {
+        "id": "ded8a9c389bcc6e2",
+        "action": "REMOVE",
+        "name": "Волгоград",
+        "icao": "UWWW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-23T02:21:16+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5761",
+        "text": "🟢🛩️ Волгоград, UWWW",
+        "inKta": true
+      }
+    ]
   }
 ]
