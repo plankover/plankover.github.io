@@ -37433,5 +37433,41 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5772,
+    "timestamp": "2026-11-23T07:10:05+00:00",
+    "text": "🟢🛩️ Екатеринбург - Кольцово, USSS\n🟢🛩️ Киров - Победилово, USKK",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5772",
+    "events": [
+      {
+        "id": "208e7b06cc0caf52",
+        "action": "REMOVE",
+        "name": "Кольцово",
+        "icao": "USSS",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-23T07:10:05+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5772",
+        "text": "🟢🛩️ Екатеринбург - Кольцово, USSS",
+        "inKta": true
+      },
+      {
+        "id": "519a211528479dbc",
+        "action": "REMOVE",
+        "name": "Победилово",
+        "icao": "USKK",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-23T07:10:05+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5772",
+        "text": "🟢🛩️ Киров - Победилово, USKK",
+        "inKta": true
+      }
+    ]
   }
 ]
