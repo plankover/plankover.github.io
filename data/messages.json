@@ -36987,5 +36987,51 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5756,
+    "timestamp": "2026-11-23T00:17:49+00:00",
+    "text": "🔴🛩️ Бугульма, UWKB",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5756",
+    "events": [
+      {
+        "id": "d0fd9e469a61403e",
+        "action": "ADD",
+        "name": "Бугульма",
+        "icao": "UWKB",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-23T00:17:49+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5756",
+        "text": "🔴🛩️ Бугульма, UWKB",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5757,
+    "timestamp": "2026-11-23T00:20:00+00:00",
+    "text": "🔴🛩️ Чебоксары, UWKS",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5757",
+    "events": [
+      {
+        "id": "f44d7ab7f639a31b",
+        "action": "ADD",
+        "name": "Чебоксары",
+        "icao": "UWKS",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-23T00:20:00+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5757",
+        "text": "🔴🛩️ Чебоксары, UWKS",
+        "inKta": true
+      }
+    ]
   }
 ]
