@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T19:55:16.920088+00:00",
+  "updatedAt": "2026-11-23T23:15:17.806727+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -16,6 +16,21 @@
       "inKta": true,
       "lat": 54.5488708,
       "lon": 36.3697725
+    },
+    {
+      "id": "1bc4a238f4579bb0",
+      "action": "ADD",
+      "name": "Волгоград",
+      "icao": "URWW",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-23T23:11:57+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5775",
+      "text": "🔴🛩️ Волгоград, URWW",
+      "inKta": true,
+      "lat": 48.7833547,
+      "lon": 44.3472901
     }
   ],
   "forecasts": []
