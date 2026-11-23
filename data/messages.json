@@ -37207,5 +37207,41 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5765,
+    "timestamp": "2026-11-23T04:25:54+00:00",
+    "text": "🟢🛩️ Пенза, UWPP\n🟢🛩️ Саранск, UWPS",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5765",
+    "events": [
+      {
+        "id": "b2234703716bb98e",
+        "action": "REMOVE",
+        "name": "Пенза",
+        "icao": "UWPP",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-23T04:25:54+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5765",
+        "text": "🟢🛩️ Пенза, UWPP",
+        "inKta": true
+      },
+      {
+        "id": "28cd878a67982833",
+        "action": "REMOVE",
+        "name": "Саранск",
+        "icao": "UWPS",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-23T04:25:54+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5765",
+        "text": "🟢🛩️ Саранск, UWPS",
+        "inKta": true
+      }
+    ]
   }
 ]

@@ -1,37 +1,7 @@
 {
-  "updatedAt": "2026-11-23T03:25:24.165645+00:00",
+  "updatedAt": "2026-11-23T04:30:16.776512+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
-    {
-      "id": "a3d618684065a7b1",
-      "action": "ADD",
-      "name": "Пенза",
-      "icao": "UWPP",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-22T20:43:33+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5752",
-      "text": "🔴🛩️ Пенза, UWPP",
-      "inKta": true,
-      "lat": 53.110734,
-      "lon": 45.023455
-    },
-    {
-      "id": "6e11f2f8d6479e64",
-      "action": "ADD",
-      "name": "Саранск",
-      "icao": "UWPS",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-22T22:31:10+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5754",
-      "text": "🔴🛩️ Саранск, UWPS",
-      "inKta": true,
-      "lat": 54.1274695,
-      "lon": 45.2152086
-    },
     {
       "id": "eb00f51b99822cff",
       "action": "ADD",
