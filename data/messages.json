@@ -37325,5 +37325,54 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5769,
+    "timestamp": "2026-11-23T06:05:00+00:00",
+    "text": "🟢🛩️ Нижнекамск - Бегишево, UWKE\n🟢🛩️ Самара - Курумоч, UWWW\n🟢🛩️ Ульяновск - Баратаевка, UWLL",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5769",
+    "events": [
+      {
+        "id": "2631c4ec521014d1",
+        "action": "REMOVE",
+        "name": "Бегишево",
+        "icao": "UWKE",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-23T06:05:00+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5769",
+        "text": "🟢🛩️ Нижнекамск - Бегишево, UWKE",
+        "inKta": true
+      },
+      {
+        "id": "11adb9b24e4a30a6",
+        "action": "REMOVE",
+        "name": "Курумоч",
+        "icao": "UWWW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-23T06:05:00+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5769",
+        "text": "🟢🛩️ Самара - Курумоч, UWWW",
+        "inKta": true
+      },
+      {
+        "id": "0054e4fb2ba251c3",
+        "action": "REMOVE",
+        "name": "Баратаевка",
+        "icao": "UWLL",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-23T06:05:00+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5769",
+        "text": "🟢🛩️ Ульяновск - Баратаевка, UWLL",
+        "inKta": true
+      }
+    ]
   }
 ]

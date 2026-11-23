@@ -1,22 +1,7 @@
 {
-  "updatedAt": "2026-11-23T05:40:17.266732+00:00",
+  "updatedAt": "2026-11-23T06:05:15.831927+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
-    {
-      "id": "eb00f51b99822cff",
-      "action": "ADD",
-      "name": "Баратаевка",
-      "icao": "UWLL",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-22T22:39:29+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5755",
-      "text": "🔴🛩️ Ульяновск - Баратаевка, UWLL",
-      "inKta": true,
-      "lat": 54.2690213,
-      "lon": 48.2248287
-    },
     {
       "id": "d0fd9e469a61403e",
       "action": "ADD",
