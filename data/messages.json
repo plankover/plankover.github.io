@@ -37835,7 +37835,7 @@
     "chatId": -1003822338715,
     "messageId": 5786,
     "timestamp": "2026-11-24T20:52:59+00:00",
-    "text": "🕒 Актуальные ограничения на 23:50 мск\n\n🔴🛩️ Калуга - Грабцево, UUBC / 70 км \n🔴 а/д Тамбов (🛩️ Донское, UUOT) / 50 км\n🔴 Новоселовка (🛩️ Пенза, UWPP; 🛩️ Саратов - Гагарин, UWSG) / 150 км\n🔴 Старая Полтавка (🛩️ Саратов - Гагарин, UWSG) / 150 км \n🔴 Плес (🛩️ Саратов - Гагарин, UWSG) / 150 км\n🔴 Энгельс (🛩️ Саратов - Гагарин, UWSG) / 100 км\n🔴 Пенза (🛩️ Пенза, UWPP) / 50 км\n🔴 а/д Центральный, Ростов на-Дону (🛩️ Платов, URRP) / 40 км \n\n🔴 а/д Клоково, Тула / 70 км \n🔴 а/д Дягилево, Рязань / 70 км \n🔴 а/д Сасово / 100 км \n🔴 а/д Борисоглебск / 50 км",
+    "text": "🕒 Актуальные ограничения на 23:50 мск\n\n🔴🛩️ Калуга - Грабцево, UUBC / 70 км \n🔴 а/д Тамбов (🛩️ Донское, UUOT) / 50 км\n🔴 Новоселовка (🛩️ Пенза, UWPP; 🛩️ Саратов - Гагарин, UWSG) / 150 км\n🔴 Старая Полтавка (🛩️ Саратов - Гагарин, UWSG) / 150 км \n🔴 Плёс (🛩️ Саратов - Гагарин, UWSG) / 150 км\n🔴 Энгельс (🛩️ Саратов - Гагарин, UWSG) / 100 км\n🔴 Пенза (🛩️ Пенза, UWPP) / 50 км\n\n🔴 а/д Клоково, Тула / 70 км \n🔴 а/д Дягилево, Рязань / 70 км \n🔴 а/д Сасово / 90 км \n🔴 а/д Борисоглебск / 50 км",
     "entities": [
       {
         "offset": 0,
@@ -37847,7 +37847,7 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/5786",
     "events": [
       {
-        "id": "6e1e61223216296d",
+        "id": "77b0eeb04c2e0788",
         "action": "ADD",
         "name": "Грабцево",
         "icao": "UUBC",
@@ -37861,7 +37861,7 @@
         "snapshot": true
       },
       {
-        "id": "1c109bc24503531a",
+        "id": "cc375e753e036637",
         "action": "ADD",
         "name": "Тамбов",
         "icao": null,
@@ -37882,7 +37882,7 @@
         "snapshot": true
       },
       {
-        "id": "ab563bdddf7e0fa8",
+        "id": "bfe2ec74d7b15a65",
         "action": "ADD",
         "name": "Новоселовка",
         "icao": null,
@@ -37908,7 +37908,7 @@
         "snapshot": true
       },
       {
-        "id": "053d4219d1f95f27",
+        "id": "70ce2ca2d7218fe1",
         "action": "ADD",
         "name": "Старая Полтавка",
         "icao": null,
@@ -37929,16 +37929,16 @@
         "snapshot": true
       },
       {
-        "id": "b6c350a692f6814b",
+        "id": "a856abeac7c40279",
         "action": "ADD",
-        "name": "Плес",
+        "name": "Плёс",
         "icao": null,
         "kind": "city",
         "type": "full",
         "radiusKm": 150.0,
         "messageTimestamp": "2026-11-24T20:52:59+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/5786",
-        "text": "🔴 Плес (🛩️ Саратов - Гагарин, UWSG) / 150 км",
+        "text": "🔴 Плёс (🛩️ Саратов - Гагарин, UWSG) / 150 км",
         "affectedAirports": [
           {
             "name": "Гагарин",
@@ -37950,7 +37950,7 @@
         "snapshot": true
       },
       {
-        "id": "77d04aa57e4a1b84",
+        "id": "5fa048031807953b",
         "action": "ADD",
         "name": "Энгельс",
         "icao": null,
@@ -37971,7 +37971,7 @@
         "snapshot": true
       },
       {
-        "id": "a561ba4b9b180e68",
+        "id": "060f166e2ac3df3b",
         "action": "ADD",
         "name": "Пенза",
         "icao": null,
@@ -37992,28 +37992,7 @@
         "snapshot": true
       },
       {
-        "id": "d7476c08f7383cf7",
-        "action": "ADD",
-        "name": "Центральный, Ростов на-Дону",
-        "icao": null,
-        "kind": "airport",
-        "type": "full",
-        "radiusKm": 40.0,
-        "messageTimestamp": "2026-11-24T20:52:59+00:00",
-        "sourceUrl": "https://t.me/PlanKoverTDay/5786",
-        "text": "🔴 а/д Центральный, Ростов на-Дону (🛩️ Платов, URRP) / 40 км ",
-        "affectedAirports": [
-          {
-            "name": "Платов",
-            "icao": "URRP",
-            "kind": "airport"
-          }
-        ],
-        "inKta": false,
-        "snapshot": true
-      },
-      {
-        "id": "330924f76b4e1a79",
+        "id": "1e4b26461b325a7b",
         "action": "ADD",
         "name": "Клоково, Тула",
         "icao": null,
@@ -38027,7 +38006,7 @@
         "snapshot": true
       },
       {
-        "id": "2858831c06521b63",
+        "id": "4827bfa9b589b5e8",
         "action": "ADD",
         "name": "Дягилево, Рязань",
         "icao": null,
@@ -38041,21 +38020,21 @@
         "snapshot": true
       },
       {
-        "id": "c6d5eb89e111c621",
+        "id": "71cbead1019c0cef",
         "action": "ADD",
         "name": "Сасово",
         "icao": null,
         "kind": "airport",
         "type": "full",
-        "radiusKm": 100.0,
+        "radiusKm": 90.0,
         "messageTimestamp": "2026-11-24T20:52:59+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/5786",
-        "text": "🔴 а/д Сасово / 100 км ",
+        "text": "🔴 а/д Сасово / 90 км ",
         "inKta": false,
         "snapshot": true
       },
       {
-        "id": "cb2ac45c37218291",
+        "id": "42fa39fa6a456b30",
         "action": "ADD",
         "name": "Борисоглебск",
         "icao": null,
@@ -38067,6 +38046,144 @@
         "text": "🔴 а/д Борисоглебск / 50 км",
         "inKta": false,
         "snapshot": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5787,
+    "timestamp": "2026-11-24T21:40:03+00:00",
+    "text": "🔴🛩️ Самара - Курумоч, UWWW",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5787",
+    "events": [
+      {
+        "id": "6dac63bc1e6b3deb",
+        "action": "ADD",
+        "name": "Курумоч",
+        "icao": "UWWW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-24T21:40:03+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5787",
+        "text": "🔴🛩️ Самара - Курумоч, UWWW",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5788,
+    "timestamp": "2026-11-24T21:57:51+00:00",
+    "text": "🔴🛩️ Ульяновск - Баратаевка, UWLW",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5788",
+    "events": [
+      {
+        "id": "1200f0db68ce5f73",
+        "action": "ADD",
+        "name": "Баратаевка",
+        "icao": "UWLW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-24T21:57:51+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5788",
+        "text": "🔴🛩️ Ульяновск - Баратаевка, UWLW",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5789,
+    "timestamp": "2026-11-24T23:52:12+00:00",
+    "text": "🔴🛩️ Геленджик, URKA",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5789",
+    "events": [
+      {
+        "id": "50ce7afc7dcf911f",
+        "action": "ADD",
+        "name": "Геленджик",
+        "icao": "URKA",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-24T23:52:12+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5789",
+        "text": "🔴🛩️ Геленджик, URKA",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5790,
+    "timestamp": "2026-11-25T00:24:03+00:00",
+    "text": "🔴🛩️ Сочи, URSS",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5790",
+    "events": [
+      {
+        "id": "40425b4b91383d43",
+        "action": "ADD",
+        "name": "Сочи",
+        "icao": "URSS",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-25T00:24:03+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5790",
+        "text": "🔴🛩️ Сочи, URSS",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5791,
+    "timestamp": "2026-11-25T00:34:06+00:00",
+    "text": "🟢🛩️ Сочи - Адлер, URSS",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5791",
+    "events": [
+      {
+        "id": "d52219fa648e3606",
+        "action": "REMOVE",
+        "name": "Адлер",
+        "icao": "URSS",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-25T00:34:06+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5791",
+        "text": "🟢🛩️ Сочи - Адлер, URSS",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5792,
+    "timestamp": "2026-11-25T01:18:15+00:00",
+    "text": "🔴🛩️ Уфа, UWUU",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5792",
+    "events": [
+      {
+        "id": "f1bdaf81151a7701",
+        "action": "ADD",
+        "name": "Уфа",
+        "icao": "UWUU",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-25T01:18:15+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5792",
+        "text": "🔴🛩️ Уфа, UWUU",
+        "inKta": true
       }
     ]
   }
