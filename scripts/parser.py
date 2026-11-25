@@ -439,8 +439,14 @@ def parse_message(message, published_at=None, source_url=None, entities=None):
             event["snapshot"] = True
         events.append(event)
 
-    # Any unparsed restriction line makes the snapshot unsafe for destructive reconciliation.
-    if snapshot and (not events or failed_snapshot_line):
+    # A partially parsed snapshot must never erase the active map.
+    # Keep all recognized zones and mark the snapshot incomplete; the collector
+    # will merge these zones into the current state instead of replacing it.
+    if snapshot and failed_snapshot_line:
+        for event in events:
+            if event.get("action") == "ADD":
+                event["snapshotIncomplete"] = True
+    if snapshot and not events:
         return [{"id": digest, "action": "SNAPSHOT_UNRESOLVED", "messageTimestamp": ts, "text": text, "sourceUrl": source_url}]
     if quoted_notam and events:
         # Attach the quote to the latest active restriction parsed from this
