@@ -172,8 +172,14 @@ def build_active(history):
                 forecasts_by_id[fid]={"label":e.get("label") or ("Оперативный" if "⚠️" in (e.get("text") or rec.get("text","")) else "Прогноз"),"timestamp":rec.get("timestamp") or e.get("messageTimestamp"),"text":e.get("text") or rec.get("text",""),"sourceUrl":e.get("sourceUrl") or rec.get("sourceUrl")}
         snapshot_events=[e for e in events if e.get("snapshot") and e.get("action")=="ADD" and e.get("name")]
         if snapshot_events:
+            incomplete = any(e.get("snapshotIncomplete") for e in snapshot_events)
             previously_active=bool(active)
-            active={active_key(e):dict(e) for e in snapshot_events}
+            # Complete snapshots replace the active state. Incomplete snapshots
+            # only refresh recognized zones; unknown lines must not delete zones.
+            if not incomplete:
+                active={}
+            for event in snapshot_events:
+                active[active_key(event)]=dict(event)
             if previously_active and not active:
                 forecasts_by_id.clear()
             if active: had_active_since_forecast=True
