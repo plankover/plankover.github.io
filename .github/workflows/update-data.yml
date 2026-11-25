@@ -66,4 +66,5 @@ jobs:
           # Perform one poll per workflow run. Scheduled polling may wait up to
           # 25 seconds in Telegram, then exits well before the next five-minute
           # slot instead of holding the concurrency group for almost four minutes.
+          # Triggered push runs also poll once to catch any queued Telegram updates.
           poll_once
