@@ -38186,5 +38186,140 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5793,
+    "timestamp": "2026-11-25T02:50:30+00:00",
+    "text": "🟢🛩️ Геленджик, URKG",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5793",
+    "events": [
+      {
+        "id": "607d2cdc11603aa2",
+        "action": "REMOVE",
+        "name": "Геленджик",
+        "icao": "URKG",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-25T02:50:30+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5793",
+        "text": "🟢🛩️ Геленджик, URKG",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5794,
+    "timestamp": "2026-11-25T03:05:21+00:00",
+    "text": "🟢🛩️ Калуга - Грабцево, UUBC\n🟢🛩️ Тамбов - Донское, UUOT",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5794",
+    "events": [
+      {
+        "id": "22a48aede3ec9aa7",
+        "action": "REMOVE",
+        "name": "Грабцево",
+        "icao": "UUBC",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-25T03:05:21+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5794",
+        "text": "🟢🛩️ Калуга - Грабцево, UUBC",
+        "inKta": true
+      },
+      {
+        "id": "84c759a7f1b59459",
+        "action": "REMOVE",
+        "name": "Донское",
+        "icao": "UUOT",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-25T03:05:21+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5794",
+        "text": "🟢🛩️ Тамбов - Донское, UUOT",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5795,
+    "timestamp": "2026-11-25T04:25:23+00:00",
+    "text": "🟢🛩️ Пенза, UWPP\n🟢🛩️ Ульяновск - Баратаевка, UWLL",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5795",
+    "events": [
+      {
+        "id": "728071526662ef72",
+        "action": "REMOVE",
+        "name": "Пенза",
+        "icao": "UWPP",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-25T04:25:23+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5795",
+        "text": "🟢🛩️ Пенза, UWPP",
+        "inKta": true
+      },
+      {
+        "id": "42f69daa033f6a6a",
+        "action": "REMOVE",
+        "name": "Баратаевка",
+        "icao": "UWLL",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-25T04:25:23+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5795",
+        "text": "🟢🛩️ Ульяновск - Баратаевка, UWLL",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5796,
+    "timestamp": "2026-11-25T05:08:24+00:00",
+    "text": "🟢🛩️ Уфа, UWUU",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5796",
+    "events": [
+      {
+        "id": "4f7803d4b299d52e",
+        "action": "REMOVE",
+        "name": "Уфа",
+        "icao": "UWUU",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-25T05:08:24+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5796",
+        "text": "🟢🛩️ Уфа, UWUU",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5797,
+    "timestamp": "2026-11-25T06:03:00+00:00",
+    "text": "🟢🛩️ Самара - Курумоч, UWWW\n🟢🛩️ Саратов - Гагарин, UWSG\n\n✅ Ранее объявленные",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5797",
+    "events": [
+      {
+        "id": "496cb2533925482b",
+        "action": "CLEAR",
+        "messageTimestamp": "2026-11-25T06:03:00+00:00",
+        "text": "🟢🛩️ Самара - Курумоч, UWWW\n🟢🛩️ Саратов - Гагарин, UWSG\n\n✅ Ранее объявленные",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5797"
+      }
+    ]
   }
 ]
