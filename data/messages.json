@@ -39132,5 +39132,271 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5823,
+    "timestamp": "2026-11-26T03:25:22+00:00",
+    "text": "🟢🛩️ Казань, UWKD\n🟢🛩️ Ульяновск - Баратаевка, UWLL\n🟢🛩️ Чебоксары, UWKS",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5823",
+    "events": [
+      {
+        "id": "0403a3ecfaadd2ae",
+        "action": "REMOVE",
+        "name": "Казань",
+        "icao": "UWKD",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-26T03:25:22+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5823",
+        "text": "🟢🛩️ Казань, UWKD",
+        "inKta": true
+      },
+      {
+        "id": "b45d6a20f6d3da16",
+        "action": "REMOVE",
+        "name": "Баратаевка",
+        "icao": "UWLL",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-26T03:25:22+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5823",
+        "text": "🟢🛩️ Ульяновск - Баратаевка, UWLL",
+        "inKta": true
+      },
+      {
+        "id": "76b95e39f0d6f2f7",
+        "action": "REMOVE",
+        "name": "Чебоксары",
+        "icao": "UWKS",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-26T03:25:22+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5823",
+        "text": "🟢🛩️ Чебоксары, UWKS",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5824,
+    "timestamp": "2026-11-26T03:55:52+00:00",
+    "text": "🟢🛩️ Краснодар - Пашковский, URKK",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5824",
+    "events": [
+      {
+        "id": "8e2e5bc67c589ac9",
+        "action": "REMOVE",
+        "name": "Пашковский",
+        "icao": "URKK",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-26T03:55:52+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5824",
+        "text": "🟢🛩️ Краснодар - Пашковский, URKK",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5825,
+    "timestamp": "2026-11-26T03:56:28+00:00",
+    "text": "🟢🛩️ Краснодар - Пашковский, URKK",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5825",
+    "events": [
+      {
+        "id": "9a2e06cb93a6a555",
+        "action": "REMOVE",
+        "name": "Пашковский",
+        "icao": "URKK",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-26T03:56:28+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5825",
+        "text": "🟢🛩️ Краснодар - Пашковский, URKK",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5826,
+    "timestamp": "2026-11-26T03:58:14+00:00",
+    "text": "🟢🛩️ Геленджик, URKG",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5826",
+    "events": [
+      {
+        "id": "5e5334a94d9915cc",
+        "action": "REMOVE",
+        "name": "Геленджик",
+        "icao": "URKG",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-26T03:58:14+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5826",
+        "text": "🟢🛩️ Геленджик, URKG",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5827,
+    "timestamp": "2026-11-26T04:15:52+00:00",
+    "text": "⬜️Аэропорт САМАРА (Курумоч)\n\n✈️СНЯТЫ ограничения на прием и выпуск воздушных судов.\n\n✈️Ограничения вводили для обеспечения безопасности полетов.\n\n✈ Говорит Росавиация | MАХ",
+    "entities": [
+      {
+        "offset": 11,
+        "length": 6,
+        "type": "bold"
+      },
+      {
+        "offset": 18,
+        "length": 9,
+        "type": "italic"
+      },
+      {
+        "offset": 31,
+        "length": 35,
+        "type": "bold"
+      },
+      {
+        "offset": 87,
+        "length": 57,
+        "type": "italic"
+      },
+      {
+        "offset": 148,
+        "length": 18,
+        "type": "text_link",
+        "url": "https://t.me/favt_ru"
+      },
+      {
+        "offset": 169,
+        "length": 3,
+        "type": "text_link",
+        "url": "https://max.ru/favt_info"
+      }
+    ],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5827",
+    "events": [
+      {
+        "id": "993764665ad9eb5d",
+        "action": "REMOVE",
+        "name": "САМАРА (Курумоч)",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "messageTimestamp": "2026-11-26T04:15:52+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5827",
+        "text": "⬜️Аэропорт САМАРА (Курумоч)"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5828,
+    "timestamp": "2026-11-26T04:32:16+00:00",
+    "text": "⬜️Аэропорт ВЛАДИКАВКАЗ (Беслан)\n\n✈️СНЯТЫ ограничения на прием и выпуск воздушных судов.\n\n✈️Ограничения вводили для обеспечения безопасности полетов.\n\n✈Говорит Росавиация | MAX",
+    "entities": [
+      {
+        "offset": 11,
+        "length": 12,
+        "type": "bold"
+      },
+      {
+        "offset": 23,
+        "length": 8,
+        "type": "italic"
+      },
+      {
+        "offset": 35,
+        "length": 35,
+        "type": "bold"
+      },
+      {
+        "offset": 91,
+        "length": 57,
+        "type": "italic"
+      },
+      {
+        "offset": 151,
+        "length": 18,
+        "type": "text_link",
+        "url": "https://t.me/favt_ru"
+      },
+      {
+        "offset": 172,
+        "length": 3,
+        "type": "text_link",
+        "url": "https://max.ru/korenyako"
+      }
+    ],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5828",
+    "events": [
+      {
+        "id": "9883a64adef22360",
+        "action": "REMOVE",
+        "name": "ВЛАДИКАВКАЗ (Беслан)",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "messageTimestamp": "2026-11-26T04:32:16+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5828",
+        "text": "⬜️Аэропорт ВЛАДИКАВКАЗ (Беслан)"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5829,
+    "timestamp": "2026-11-26T04:33:57+00:00",
+    "text": "🟢🛩️ Нижнекамск - Бегишево, UWKE",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5829",
+    "events": [
+      {
+        "id": "0644f917d9e5a64e",
+        "action": "REMOVE",
+        "name": "Бегишево",
+        "icao": "UWKE",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-26T04:33:57+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5829",
+        "text": "🟢🛩️ Нижнекамск - Бегишево, UWKE",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5830,
+    "timestamp": "2026-11-26T04:46:53+00:00",
+    "text": "🟢🛩️ Бугульма, UWKB\n🟢🛩️ Уфа, UWUU\n\n✅ Ранее объявленные",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5830",
+    "events": [
+      {
+        "id": "a0495903ca2d8bb6",
+        "action": "CLEAR",
+        "messageTimestamp": "2026-11-26T04:46:53+00:00",
+        "text": "🟢🛩️ Бугульма, UWKB\n🟢🛩️ Уфа, UWUU\n\n✅ Ранее объявленные",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5830"
+      }
+    ]
   }
 ]
