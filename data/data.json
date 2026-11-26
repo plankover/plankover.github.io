@@ -1,6 +1,61 @@
 {
-  "updatedAt": "2026-11-26T12:13:12.996092+00:00",
+  "updatedAt": "2026-11-26T21:33:17.106890+00:00",
   "source": "@PlanKoverTDay",
-  "restrictions": [],
+  "restrictions": [
+    {
+      "id": "2102737c73ee54f4",
+      "action": "ADD",
+      "name": "Новороссийск",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 30.0,
+      "messageTimestamp": "2026-11-26T15:01:32+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5831",
+      "text": "🔴 Новороссийск (🛩️ Геленджик, URKG) / 30 км",
+      "affectedAirports": [
+        {
+          "name": "Геленджик",
+          "icao": "URKG",
+          "kind": "airport",
+          "lat": 44.58209,
+          "lon": 38.01248
+        }
+      ],
+      "inKta": false,
+      "lat": 44.7239578,
+      "lon": 37.7690711
+    },
+    {
+      "id": "c308396557cf41f6",
+      "action": "ADD",
+      "name": "Грабцево",
+      "icao": "UUBC",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 70.0,
+      "messageTimestamp": "2026-11-26T20:44:41+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5833",
+      "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км",
+      "inKta": true,
+      "lat": 54.5488708,
+      "lon": 36.3697725
+    },
+    {
+      "id": "e1038c25ee022aa1",
+      "action": "ADD",
+      "name": "Северный, Смоленск",
+      "icao": null,
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 50.0,
+      "messageTimestamp": "2026-11-26T20:44:41+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5833",
+      "text": "🔴 а/д Северный, Смоленск / 50 км",
+      "inKta": false,
+      "lat": 54.823085,
+      "lon": 32.0231288
+    }
+  ],
   "forecasts": []
 }
