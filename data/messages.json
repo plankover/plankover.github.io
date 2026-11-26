@@ -38632,5 +38632,505 @@
         "inKta": false
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5805,
+    "timestamp": "2026-11-25T20:48:27+00:00",
+    "text": "",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5805",
+    "events": [
+      {
+        "id": "370309a9101c5376",
+        "action": "UNKNOWN",
+        "messageTimestamp": "2026-11-25T20:48:27+00:00",
+        "text": "",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5805"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5806,
+    "timestamp": "2026-11-25T21:40:11+00:00",
+    "text": "🔴 а/д Центральный, Ростов на-Дону (🛩️ Платов, URRP) / 50 км\nКОВЕР РОСТОВ (ЦЕНТРАЛЬНЫЙ) АЭР. РОСТОВ (ПЛАТОВ) ЗАКРЫТ НА ПРИЕМ И ВЫПУСК ВС.",
+    "entities": [
+      {
+        "offset": 62,
+        "length": 76,
+        "type": "blockquote"
+      }
+    ],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5806",
+    "events": [
+      {
+        "id": "20610a309899826e",
+        "action": "ADD",
+        "name": "Центральный, Ростов на-Дону",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 50.0,
+        "messageTimestamp": "2026-11-25T21:40:11+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5806",
+        "text": "🔴 а/д Центральный, Ростов на-Дону (🛩️ Платов, URRP) / 50 км",
+        "affectedAirports": [
+          {
+            "name": "Платов",
+            "icao": "URRP",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false,
+        "notamText": "КОВЕР РОСТОВ (ЦЕНТРАЛЬНЫЙ) АЭР. РОСТОВ (ПЛАТОВ) ЗАКРЫТ НА ПРИЕМ И ВЫПУСК ВС."
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5807,
+    "timestamp": "2026-11-25T21:40:21+00:00",
+    "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км\n🔴 а/д Клоково, Тула / 70 км",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5807",
+    "events": [
+      {
+        "id": "8022ee7645ef62d4",
+        "action": "ADD",
+        "name": "Грабцево",
+        "icao": "UUBC",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-11-25T21:40:21+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5807",
+        "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км",
+        "inKta": true
+      },
+      {
+        "id": "b22120acb6901a9f",
+        "action": "ADD",
+        "name": "Клоково, Тула",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-11-25T21:40:21+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5807",
+        "text": "🔴 а/д Клоково, Тула / 70 км",
+        "inKta": false
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5808,
+    "timestamp": "2026-11-25T21:41:10+00:00",
+    "text": "🔴🛩️ Пенза, UWPP\n🔴🛩️ Саратов - Гагарин, UWSG",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5808",
+    "events": [
+      {
+        "id": "e2a67615cd7c3ea7",
+        "action": "ADD",
+        "name": "Пенза",
+        "icao": "UWPP",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-25T21:41:10+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5808",
+        "text": "🔴🛩️ Пенза, UWPP",
+        "inKta": true
+      },
+      {
+        "id": "e7f98a463b6ba8fe",
+        "action": "ADD",
+        "name": "Гагарин",
+        "icao": "UWSG",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-25T21:41:10+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5808",
+        "text": "🔴🛩️ Саратов - Гагарин, UWSG",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5809,
+    "timestamp": "2026-11-25T21:54:37+00:00",
+    "text": "🔴🛩️ Краснодар - Пашковский, URKK",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5809",
+    "events": [
+      {
+        "id": "bd167371179606dd",
+        "action": "ADD",
+        "name": "Пашковский",
+        "icao": "URKK",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-25T21:54:37+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5809",
+        "text": "🔴🛩️ Краснодар - Пашковский, URKK",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5810,
+    "timestamp": "2026-11-25T22:17:52+00:00",
+    "text": "🔴🛩️ Волгоград, URWW",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5810",
+    "events": [
+      {
+        "id": "3f1f226e914611d3",
+        "action": "ADD",
+        "name": "Волгоград",
+        "icao": "URWW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-25T22:17:52+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5810",
+        "text": "🔴🛩️ Волгоград, URWW",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5811,
+    "timestamp": "2026-11-25T22:24:11+00:00",
+    "text": "🟡🛩️ Москва - Домодедово, UUDD",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5811",
+    "events": [
+      {
+        "id": "c7d09a8ffdbbbb8f",
+        "action": "ADD",
+        "name": "Домодедово",
+        "icao": "UUDD",
+        "kind": "airport",
+        "type": "partial",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-25T22:24:11+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5811",
+        "text": "🟡🛩️ Москва - Домодедово, UUDD",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5812,
+    "timestamp": "2026-11-25T23:09:53+00:00",
+    "text": "🔴🛩️ Грозный - Северный, URMG",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5812",
+    "events": [
+      {
+        "id": "c6d4e541c5bc049b",
+        "action": "ADD",
+        "name": "Северный",
+        "icao": "URMG",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-25T23:09:53+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5812",
+        "text": "🔴🛩️ Грозный - Северный, URMG",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5813,
+    "timestamp": "2026-11-25T23:18:21+00:00",
+    "text": "🔴🛩️ Казань, UWKD\n🔴🛩️ Ульяновск - Баратаевка, UWLW\n🔴🛩️ Чебоксары, UWKS",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5813",
+    "events": [
+      {
+        "id": "3a06b0cebd28ab2e",
+        "action": "ADD",
+        "name": "Казань",
+        "icao": "UWKD",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-25T23:18:21+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5813",
+        "text": "🔴🛩️ Казань, UWKD",
+        "inKta": true
+      },
+      {
+        "id": "9bb1a80db662dcdd",
+        "action": "ADD",
+        "name": "Баратаевка",
+        "icao": "UWLW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-25T23:18:21+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5813",
+        "text": "🔴🛩️ Ульяновск - Баратаевка, UWLW",
+        "inKta": true
+      },
+      {
+        "id": "fa51b3351313d81b",
+        "action": "ADD",
+        "name": "Чебоксары",
+        "icao": "UWKS",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-25T23:18:21+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5813",
+        "text": "🔴🛩️ Чебоксары, UWKS",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5814,
+    "timestamp": "2026-11-25T23:28:09+00:00",
+    "text": "🔴🛩️ Самара - Курумоч, UWWW",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5814",
+    "events": [
+      {
+        "id": "61d4f5699b59fbca",
+        "action": "ADD",
+        "name": "Курумоч",
+        "icao": "UWWW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-25T23:28:09+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5814",
+        "text": "🔴🛩️ Самара - Курумоч, UWWW",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5815,
+    "timestamp": "2026-11-25T23:31:50+00:00",
+    "text": "🟢🛩️ Грозный - Северный, URMG",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5815",
+    "events": [
+      {
+        "id": "a42f62902be985ef",
+        "action": "REMOVE",
+        "name": "Северный",
+        "icao": "URMG",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-25T23:31:50+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5815",
+        "text": "🟢🛩️ Грозный - Северный, URMG",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5816,
+    "timestamp": "2026-11-25T23:46:49+00:00",
+    "text": "🔴🛩️ Геленджик, URKG",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5816",
+    "events": [
+      {
+        "id": "8586fd8c5306d0ae",
+        "action": "ADD",
+        "name": "Геленджик",
+        "icao": "URKG",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-25T23:46:49+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5816",
+        "text": "🔴🛩️ Геленджик, URKG",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5817,
+    "timestamp": "2026-11-25T23:58:34+00:00",
+    "text": "🟢🛩️ Москва - Домодедово, UUDD",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5817",
+    "events": [
+      {
+        "id": "1eaf04d69f0bec16",
+        "action": "REMOVE",
+        "name": "Домодедово",
+        "icao": "UUDD",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-25T23:58:34+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5817",
+        "text": "🟢🛩️ Москва - Домодедово, UUDD",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5818,
+    "timestamp": "2026-11-26T00:44:15+00:00",
+    "text": "🔴🛩️ Бугульма, UWKB\n🔴🛩️ Нижнекамск - Бегишево, UWKD",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5818",
+    "events": [
+      {
+        "id": "9689b2f05474a9f6",
+        "action": "ADD",
+        "name": "Бугульма",
+        "icao": "UWKB",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-26T00:44:15+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5818",
+        "text": "🔴🛩️ Бугульма, UWKB",
+        "inKta": true
+      },
+      {
+        "id": "c4ebe0676d90af03",
+        "action": "ADD",
+        "name": "Бегишево",
+        "icao": "UWKD",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-26T00:44:15+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5818",
+        "text": "🔴🛩️ Нижнекамск - Бегишево, UWKD",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5819,
+    "timestamp": "2026-11-26T00:50:56+00:00",
+    "text": "🔴🛩️ Владикавказ - Беслан, URMO",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5819",
+    "events": [
+      {
+        "id": "28aabb491a1a573d",
+        "action": "ADD",
+        "name": "Беслан",
+        "icao": "URMO",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-26T00:50:56+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5819",
+        "text": "🔴🛩️ Владикавказ - Беслан, URMO",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5820,
+    "timestamp": "2026-11-26T01:20:40+00:00",
+    "text": "🟢🛩️ Пенза, UUWP\n🟢🛩️ Саратов - Гагарин, UWSG",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5820",
+    "events": [
+      {
+        "id": "7a9154c55d167482",
+        "action": "REMOVE",
+        "name": "Пенза",
+        "icao": "UUWP",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-26T01:20:40+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5820",
+        "text": "🟢🛩️ Пенза, UUWP",
+        "inKta": true
+      },
+      {
+        "id": "e21414346dc9c758",
+        "action": "REMOVE",
+        "name": "Гагарин",
+        "icao": "UWSG",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-26T01:20:40+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5820",
+        "text": "🟢🛩️ Саратов - Гагарин, UWSG",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5821,
+    "timestamp": "2026-11-26T01:30:17+00:00",
+    "text": "🔴🛩️ Уфа, UWUU",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5821",
+    "events": [
+      {
+        "id": "b52b1aaee9c1db1d",
+        "action": "ADD",
+        "name": "Уфа",
+        "icao": "UWUU",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-26T01:30:17+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5821",
+        "text": "🔴🛩️ Уфа, UWUU",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5822,
+    "timestamp": "2026-11-26T02:38:04+00:00",
+    "text": "🟢🛩️ Волгоград, URWW",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5822",
+    "events": [
+      {
+        "id": "37eea89e28526135",
+        "action": "REMOVE",
+        "name": "Волгоград",
+        "icao": "URWW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-26T02:38:04+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5822",
+        "text": "🟢🛩️ Волгоград, URWW",
+        "inKta": true
+      }
+    ]
   }
 ]
