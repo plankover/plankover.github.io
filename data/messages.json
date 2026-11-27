@@ -39989,5 +39989,41 @@
         "inKta": false
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5850,
+    "timestamp": "2026-11-27T20:40:03+00:00",
+    "text": "🔄🔴 Плёс (🛩️ Саратов - Гагарин, UWSG) / 170 км",
+    "entities": [
+      {
+        "offset": 42,
+        "length": 6,
+        "type": "bold"
+      }
+    ],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5850",
+    "events": [
+      {
+        "id": "d156f9ae49104a18",
+        "action": "ADD",
+        "name": "Плёс",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 170.0,
+        "messageTimestamp": "2026-11-27T20:40:03+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5850",
+        "text": "🔄🔴 Плёс (🛩️ Саратов - Гагарин, UWSG) / 170 км",
+        "affectedAirports": [
+          {
+            "name": "Гагарин",
+            "icao": "UWSG",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false
+      }
+    ]
   }
 ]
