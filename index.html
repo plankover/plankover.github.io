@@ -70,7 +70,8 @@
     h1 { font-size: 17px; line-height: 1.2; margin: 0 0 4px; }
     .subtitle { color: var(--muted); font-size: 12px; }
     .live { display: flex; align-items: center; gap: 8px; color: #b6c5d8; font-size: 12px; }
-    .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--green); }
+    .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--muted); }
+    .dot.stale { background: var(--yellow); }
     .layout {
       flex: 1; min-height: 0; overflow: hidden; display: grid;
       grid-template-columns: 340px minmax(0, 1fr);
@@ -271,7 +272,7 @@
         <div class="subtitle">Мониторинг временных ограничений воздушного пространства</div>
       </div>
     </div>
-    <div class="live"><span class="dot"></span> Данные обновляются автоматически</div>
+    <div class="live" id="live-status"><span class="dot"></span> Загружаем отметку времени…</div>
   </header>
 
   <div class="layout">
@@ -338,7 +339,7 @@
     </main>
   </div>
   <footer>
-    <strong>План «Ковер» — онлайн-карта ограничений воздушного пространства.</strong> Интерактивная карта показывает временные ограничения полётов в России, включая полные и частичные ограничения и связанные с ними аэропорты. Данные обновляются автоматически с некоторой периодичностью; возможны задержки. Сверяйте сведения с официальными источниками и NOTAM. <a href="https://t.me/PlanKoverTDay" target="_blank" rel="noreferrer">Telegram-канал «План Ковер»</a>.
+    <strong>План «Ковер» — онлайн-карта ограничений воздушного пространства.</strong> Интерактивная карта показывает временные ограничения полётов в России, включая полные и частичные ограничения и связанные с ними аэропорты. Время последнего изменения опубликованных данных показано в панели. Оно не подтверждает, что новых сообщений не было: возможны задержки разбора. Сверяйте сведения с официальными источниками и NOTAM. <a href="https://t.me/PlanKoverTDay" target="_blank" rel="noreferrer">Telegram-канал «План Ковер»</a>.
     Карта © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noreferrer">OpenStreetMap</a>.
   </footer>
 </div>
@@ -1510,10 +1511,36 @@
         }
       }
 
-      $("updated-at").textContent = "Данные обновляются автоматически с некоторой периодичностью. Возможны задержки.";
+      const snapshotTime = Date.parse(payload.updatedAt || "");
+      if (Number.isFinite(snapshotTime)) {
+        const age = Math.max(0, Date.now() - snapshotTime);
+        const formatted = new Date(snapshotTime).toLocaleString("ru-RU", {
+          timeZone: "Europe/Moscow",
+          day: "2-digit", month: "2-digit", year: "numeric",
+          hour: "2-digit", minute: "2-digit"
+        });
+        const elapsed = age < HOUR
+          ? Math.floor(age / 60000) + " мин. назад"
+          : age < 24 * HOUR
+            ? Math.floor(age / HOUR) + " ч. назад"
+            : Math.floor(age / (24 * HOUR)) + " дн. назад";
+        const stale = age >= STALE_AFTER;
+        const statusText = stale
+          ? "Снимок давно не менялся"
+          : "Последнее изменение карты: " + formatted + " МСК";
+        $("live-status").innerHTML = '<span class="dot' + (stale ? ' stale' : '') + '"></span>' + statusText;
+        $("updated-at").textContent = "Последнее изменение опубликованных данных: " + formatted + " МСК (" + elapsed + "). " +
+          (stale
+            ? "Снимок не менялся более 3 часов — обязательно сверяйте актуальность с Telegram и официальными NOTAM."
+            : "Это время изменения опубликованного набора, а не время последней проверки Telegram.");
+      } else {
+        $("live-status").innerHTML = '<span class="dot stale"></span>Нет отметки времени';
+        $("updated-at").textContent = "В опубликованном наборе отсутствует корректная отметка времени. Сверяйте сведения с Telegram и официальными NOTAM.";
+      }
     } catch (error) {
       console.error("Не удалось загрузить данные:", error);
-      $("updated-at").textContent = "Не удалось загрузить данные. Попробуйте обновить страницу немного позже.";
+      $("live-status").innerHTML = '<span class="dot stale"></span>Данные недоступны';
+      $("updated-at").textContent = "Не удалось загрузить данные. Проверьте подключение и сверьтесь с Telegram и официальными NOTAM.";
       if (!allItems.length) {
         $("restriction-list").innerHTML = `<div class="empty">
           <div class="empty-icon">!</div>
