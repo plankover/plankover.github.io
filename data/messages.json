@@ -1183,11 +1183,17 @@
     "sourceUrl": "https://t.me/PlanKoverTDay/4649",
     "events": [
       {
-        "id": "916342d58b02b4fd",
-        "action": "CLEAR",
+        "id": "d3142169088f55c2",
+        "action": "REMOVE",
+        "name": "Ранее объявленные",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": null,
         "messageTimestamp": "2026-10-11T21:22:57+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/4649",
         "text": "🟢 Ранее объявленные",
-        "sourceUrl": "https://t.me/PlanKoverTDay/4649"
+        "inKta": false
       }
     ]
   },
@@ -39605,6 +39611,130 @@
         "sourceUrl": "https://t.me/PlanKoverTDay/5837",
         "text": "🟢🛩️ Калуга - Грабцево, UUBC",
         "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5838,
+    "timestamp": "2026-11-27T04:23:17+00:00",
+    "text": "🔴🛩️ Калуга - Грабцево, UUBC",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5838",
+    "events": [
+      {
+        "id": "a91f2cb75f735d4e",
+        "action": "ADD",
+        "name": "Грабцево",
+        "icao": "UUBC",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-27T04:23:17+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5838",
+        "text": "🔴🛩️ Калуга - Грабцево, UUBC",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5839,
+    "timestamp": "2026-11-27T04:34:07+00:00",
+    "text": "🟡🛩️ Санкт-Петербург - Пулково, ULLI",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5839",
+    "events": [
+      {
+        "id": "c36946a851a53b84",
+        "action": "ADD",
+        "name": "Пулково",
+        "icao": "ULLI",
+        "kind": "airport",
+        "type": "partial",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-27T04:34:07+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5839",
+        "text": "🟡🛩️ Санкт-Петербург - Пулково, ULLI",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5840,
+    "timestamp": "2026-11-27T05:17:29+00:00",
+    "text": "🟢🛩️ Псков, ULOO\n🟢🛩️ Санкт-Петербург - Пулково, ULLI",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5840",
+    "events": [
+      {
+        "id": "be11c32bcf1f8b37",
+        "action": "REMOVE",
+        "name": "Псков",
+        "icao": "ULOO",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-27T05:17:29+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5840",
+        "text": "🟢🛩️ Псков, ULOO",
+        "inKta": true
+      },
+      {
+        "id": "432554c2d176ba84",
+        "action": "REMOVE",
+        "name": "Пулково",
+        "icao": "ULLI",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-27T05:17:29+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5840",
+        "text": "🟢🛩️ Санкт-Петербург - Пулково, ULLI",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5841,
+    "timestamp": "2026-11-27T05:20:47+00:00",
+    "text": "🟢🛩️ Калуга - Грабцево, UUBC\n\n✅ Ранее объявленные",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5841",
+    "events": [
+      {
+        "id": "26dc81e8cce12998",
+        "action": "CLEAR",
+        "messageTimestamp": "2026-11-27T05:20:47+00:00",
+        "text": "🟢🛩️ Калуга - Грабцево, UUBC\n\n✅ Ранее объявленные",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5841"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5842,
+    "timestamp": "2026-11-27T11:26:25+00:00",
+    "text": "Прямо сейчас в небе над Прибалтикой ведёт разведку регионов СЗФО шведский борт Gulfstream S102B Korpen (перехват военных переговоров, поиск ПВО и радаров).\n\nРано утром, во время атаки на Ленобласть, над Латвией и Эстонией кружил натовский Boeing E-3A Sentry.\n\nТакже ведётся разведка над Чёрным морем.\n✈️\nПоэтому в ближайшие дни сохраняется возможность ограничений в ЮФО и СЗФО.",
+    "entities": [
+      {
+        "offset": 301,
+        "length": 2,
+        "type": "custom_emoji",
+        "custom_emoji_id": "6276213148181603398"
+      }
+    ],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5842",
+    "events": [
+      {
+        "id": "d2884297daee437b",
+        "action": "ADD",
+        "messageTimestamp": "2026-11-27T11:26:25+00:00",
+        "text": "Прямо сейчас в небе над Прибалтикой ведёт разведку регионов СЗФО шведский борт Gulfstream S102B Korpen (перехват военных переговоров, поиск ПВО и радаров).\n\nРано утром, во время атаки на Ленобласть, над Латвией и Эстонией кружил натовский Boeing E-3A Sentry.\n\nТакже ведётся разведка над Чёрным морем.\n✈️\nПоэтому в ближайшие дни сохраняется возможность ограничений в ЮФО и СЗФО.",
+        "unresolved": true,
+        "sourceUrl": "https://t.me/PlanKoverTDay/5842"
       }
     ]
   }
