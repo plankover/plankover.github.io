@@ -39742,22 +39742,74 @@
     "chatId": -1003822338715,
     "messageId": 5843,
     "timestamp": "2026-11-27T17:50:14+00:00",
-    "text": "🔴🛩️ Калуга - Грабцево, UUBC",
+    "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км\n🔴 а/д Северный, Смоленск / 70 км\n🔴 а/д Двоевка, Вязьма / 70 км\n🔴 а/д Клоково, Тула / 70 км\n🔴 Михайлов / 70 км",
     "entities": [],
     "sourceUrl": "https://t.me/PlanKoverTDay/5843",
     "events": [
       {
-        "id": "2422d3e6efcf0080",
+        "id": "21610f215791b1cf",
         "action": "ADD",
         "name": "Грабцево",
         "icao": "UUBC",
         "kind": "airport",
         "type": "full",
-        "radiusKm": null,
+        "radiusKm": 70.0,
         "messageTimestamp": "2026-11-27T17:50:14+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/5843",
-        "text": "🔴🛩️ Калуга - Грабцево, UUBC",
+        "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км",
         "inKta": true
+      },
+      {
+        "id": "a357c642a5ae1c76",
+        "action": "ADD",
+        "name": "Северный, Смоленск",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-11-27T17:50:14+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5843",
+        "text": "🔴 а/д Северный, Смоленск / 70 км",
+        "inKta": false
+      },
+      {
+        "id": "0710317eaef21725",
+        "action": "ADD",
+        "name": "Двоевка, Вязьма",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-11-27T17:50:14+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5843",
+        "text": "🔴 а/д Двоевка, Вязьма / 70 км",
+        "inKta": false
+      },
+      {
+        "id": "225dd0dbee41db99",
+        "action": "ADD",
+        "name": "Клоково, Тула",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-11-27T17:50:14+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5843",
+        "text": "🔴 а/д Клоково, Тула / 70 км",
+        "inKta": false
+      },
+      {
+        "id": "a7e2604bed75df8c",
+        "action": "ADD",
+        "name": "Михайлов",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 70.0,
+        "messageTimestamp": "2026-11-27T17:50:14+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5843",
+        "text": "🔴 Михайлов / 70 км",
+        "inKta": false
       }
     ]
   },
@@ -39765,21 +39817,26 @@
     "chatId": -1003822338715,
     "messageId": 5844,
     "timestamp": "2026-11-27T18:13:43+00:00",
-    "text": "🟡🛩️ Москва - Внуково, UUWW",
+    "text": "🟡🛩️ Москва - Внуково, UUWW / 150 км (азимуты 150-300)",
     "entities": [],
     "sourceUrl": "https://t.me/PlanKoverTDay/5844",
     "events": [
       {
-        "id": "189d31bf1a70c6ed",
+        "id": "96ae0a003662075f",
         "action": "ADD",
         "name": "Внуково",
         "icao": "UUWW",
         "kind": "airport",
         "type": "partial",
-        "radiusKm": null,
+        "radiusKm": 150.0,
         "messageTimestamp": "2026-11-27T18:13:43+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/5844",
-        "text": "🟡🛩️ Москва - Внуково, UUWW",
+        "text": "🟡🛩️ Москва - Внуково, UUWW / 150 км (азимуты 150-300)",
+        "sector": {
+          "radiusKm": 150.0,
+          "startAzimuth": 150,
+          "endAzimuth": 300
+        },
         "inKta": true
       }
     ]
@@ -39788,22 +39845,94 @@
     "chatId": -1003822338715,
     "messageId": 5845,
     "timestamp": "2026-11-27T19:16:25+00:00",
-    "text": "🟡🛩️ Москва - Домодедово, UUDD",
+    "text": "🟡🛩️ Москва - Домодедово, UUDD / 150 км (азимуты 090-240)",
     "entities": [],
     "sourceUrl": "https://t.me/PlanKoverTDay/5845",
     "events": [
       {
-        "id": "231ae3b49379a9c9",
+        "id": "d4d33698c1645522",
         "action": "ADD",
         "name": "Домодедово",
         "icao": "UUDD",
         "kind": "airport",
         "type": "partial",
-        "radiusKm": null,
+        "radiusKm": 150.0,
         "messageTimestamp": "2026-11-27T19:16:25+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/5845",
-        "text": "🟡🛩️ Москва - Домодедово, UUDD",
+        "text": "🟡🛩️ Москва - Домодедово, UUDD / 150 км (азимуты 090-240)",
+        "sector": {
+          "radiusKm": 150.0,
+          "startAzimuth": 90,
+          "endAzimuth": 240
+        },
         "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5846,
+    "timestamp": "2026-11-27T19:42:23+00:00",
+    "text": "📌 Прогноз\n\nВ ближайшие минуты ожидаются ограничения воздушного пространства в ряде регионов, закрытие аэропортов Саратов, Пенза, Тамбов.\n\nНочью новые ограничения в ЦФО (включая Москву) и ПФО.",
+    "entities": [
+      {
+        "offset": 0,
+        "length": 2,
+        "type": "custom_emoji",
+        "custom_emoji_id": "6276313895229466513"
+      }
+    ],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5846",
+    "events": [
+      {
+        "id": "663414d7cca76558",
+        "action": "FORECAST",
+        "label": "Прогноз",
+        "messageTimestamp": "2026-11-27T19:42:23+00:00",
+        "text": "📌 Прогноз\n\nВ ближайшие минуты ожидаются ограничения воздушного пространства в ряде регионов, закрытие аэропортов Саратов, Пенза, Тамбов.\n\nНочью новые ограничения в ЦФО (включая Москву) и ПФО.",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5846"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5847,
+    "timestamp": "2026-11-27T19:50:37+00:00",
+    "text": "🔴 Новоселовка (🛩️ Пенза, UWPP; 🛩️ Саратов - Гагарин, UWSG) / 150 км\nСИГНАЛ КОВЕР НОВОСЕЛОВКА. АЭРОПОРТЫ САРАТОВ(ГАГАРИН), ПЕНЗА ПРЕКРАТИЛИ ПРИЕМ/ВЫПУСК ВС.ТРУБА ЗАКРЫТА ПО САМАРСКОМУ РЕГ.Ц",
+    "entities": [
+      {
+        "offset": 71,
+        "length": 120,
+        "type": "blockquote"
+      }
+    ],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5847",
+    "events": [
+      {
+        "id": "a8dc28be958558a7",
+        "action": "ADD",
+        "name": "Новоселовка",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 150.0,
+        "messageTimestamp": "2026-11-27T19:50:37+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5847",
+        "text": "🔴 Новоселовка (🛩️ Пенза, UWPP; 🛩️ Саратов - Гагарин, UWSG) / 150 км",
+        "affectedAirports": [
+          {
+            "name": "Пенза",
+            "icao": "UWPP",
+            "kind": "airport"
+          },
+          {
+            "name": "Гагарин",
+            "icao": "UWSG",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false,
+        "notamText": "СИГНАЛ КОВЕР НОВОСЕЛОВКА. АЭРОПОРТЫ САРАТОВ(ГАГАРИН), ПЕНЗА ПРЕКРАТИЛИ ПРИЕМ/ВЫПУСК ВС.ТРУБА ЗАКРЫТА ПО САМАРСКОМУ РЕГ.Ц"
       }
     ]
   }
