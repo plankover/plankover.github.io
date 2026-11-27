@@ -52,7 +52,7 @@ def is_snapshot(text):
 
 def detect_action(text):
     t = re.sub(r"\s+", " ", clean_text(text).lower()).strip()
-    if re.search(r"(?:🟢|✅)\s*ранее\s+объявлен", t):
+    if re.search(r"✅\s*ранее\s+объявлен", t):
         return "CLEAR"
     removal = re.search(r"(?:сняты|снято|отменены|отменено|прекращены|прекращено)", t)
     topic = re.search(r"(?:ограничени|при[её]м|выпуск|работ[ау]\s+аэропорт|аэропорт)", t)
@@ -246,7 +246,7 @@ def parse_message(message, published_at=None, source_url=None, entities=None):
     digest = hashlib.sha256(f"{ts}|{text}".encode()).hexdigest()[:16]
     snapshot = is_snapshot(text)
 
-    if re.search(r"(?:🟢|✅)\s*ранее\s+объявлен", text.lower()):
+    if re.search(r"✅\s*ранее\s+объявлен", text.lower()):
         return [{"id": digest, "action": "CLEAR", "messageTimestamp": ts, "text": text, "sourceUrl": source_url}]
 
     # Forecast messages are independent from restriction events. A warning
