@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T20:46:56.372032+00:00",
+  "updatedAt": "2026-11-27T22:33:11.704959+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -196,6 +196,136 @@
       "inKta": false,
       "lat": 51.292837,
       "lon": 47.777662
+    },
+    {
+      "id": "401bccb443517e77",
+      "action": "ADD",
+      "name": "Тамбов",
+      "icao": null,
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 50.0,
+      "messageTimestamp": "2026-11-27T20:58:04+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5852",
+      "text": "🔴 а/д Тамбов (🛩️ Донское, UUOT) / 50 км ",
+      "affectedAirports": [
+        {
+          "name": "Донское",
+          "icao": "UUOT",
+          "kind": "airport",
+          "lat": 52.8060125,
+          "lon": 41.4845129
+        }
+      ],
+      "inKta": false,
+      "lat": 52.7040093,
+      "lon": 41.3773864
+    },
+    {
+      "id": "47c701f176eea51a",
+      "action": "ADD",
+      "name": "Леляевка",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 150.0,
+      "messageTimestamp": "2026-11-27T20:58:04+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5852",
+      "text": "🔴 Леляевка (🛩️ Саратов - Гагарин, UWSG ; 🛩️ Пенза, UWPP) / 150 км",
+      "affectedAirports": [
+        {
+          "name": "Гагарин",
+          "icao": "UWSG",
+          "kind": "airport",
+          "lat": 51.7139093,
+          "lon": 46.1672319
+        },
+        {
+          "name": "Пенза",
+          "icao": "UWPP",
+          "kind": "airport",
+          "lat": 53.110734,
+          "lon": 45.023455
+        }
+      ],
+      "inKta": false,
+      "lat": 52.392879,
+      "lon": 45.885208
+    },
+    {
+      "id": "d3ce1c1ba882a4e5",
+      "action": "ADD",
+      "name": "Борисоглебск",
+      "icao": null,
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 50.0,
+      "messageTimestamp": "2026-11-27T20:58:04+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5852",
+      "text": "🔴 а/д Борисоглебск / 50 км",
+      "inKta": false,
+      "lat": 51.3677214,
+      "lon": 42.1756878
+    },
+    {
+      "id": "81cec3fce9386495",
+      "action": "ADD",
+      "name": "Саваслейка",
+      "icao": null,
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": 50.0,
+      "messageTimestamp": "2026-11-27T21:57:25+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5853",
+      "text": "🔴 а/д Саваслейка / 50 км",
+      "inKta": false,
+      "lat": 55.439058,
+      "lon": 42.3063935
+    },
+    {
+      "id": "fd389f10b66bccf8",
+      "action": "ADD",
+      "name": "Дзержинск",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 20.0,
+      "messageTimestamp": "2026-11-27T21:57:25+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5853",
+      "text": "🔴 Дзержинск / 20 км",
+      "inKta": false,
+      "lat": 56.2382157,
+      "lon": 43.4617405
+    },
+    {
+      "id": "48658f7a9ab52435",
+      "action": "ADD",
+      "name": "Кстово",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 20.0,
+      "messageTimestamp": "2026-11-27T21:57:25+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5853",
+      "text": "🔴 Кстово / 20 км",
+      "inKta": false,
+      "lat": 56.149551,
+      "lon": 44.198032
+    },
+    {
+      "id": "f6800b3aaf678d96",
+      "action": "ADD",
+      "name": "Первоцелинный",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 150.0,
+      "messageTimestamp": "2026-11-27T21:57:25+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5853",
+      "text": "🔴 Первоцелинный / 150 км",
+      "inKta": false,
+      "lat": 51.625071,
+      "lon": 49.81575
     }
   ],
   "forecasts": [

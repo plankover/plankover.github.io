@@ -40059,5 +40059,135 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5852,
+    "timestamp": "2026-11-27T20:58:04+00:00",
+    "text": "🔴 а/д Тамбов (🛩️ Донское, UUOT) / 50 км \n🔴 Леляевка (🛩️ Саратов - Гагарин, UWSG ; 🛩️ Пенза, UWPP) / 150 км\n\n🔴 а/д Борисоглебск / 50 км",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5852",
+    "events": [
+      {
+        "id": "401bccb443517e77",
+        "action": "ADD",
+        "name": "Тамбов",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 50.0,
+        "messageTimestamp": "2026-11-27T20:58:04+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5852",
+        "text": "🔴 а/д Тамбов (🛩️ Донское, UUOT) / 50 км ",
+        "affectedAirports": [
+          {
+            "name": "Донское",
+            "icao": "UUOT",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false
+      },
+      {
+        "id": "47c701f176eea51a",
+        "action": "ADD",
+        "name": "Леляевка",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 150.0,
+        "messageTimestamp": "2026-11-27T20:58:04+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5852",
+        "text": "🔴 Леляевка (🛩️ Саратов - Гагарин, UWSG ; 🛩️ Пенза, UWPP) / 150 км",
+        "affectedAirports": [
+          {
+            "name": "Гагарин",
+            "icao": "UWSG",
+            "kind": "airport"
+          },
+          {
+            "name": "Пенза",
+            "icao": "UWPP",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false
+      },
+      {
+        "id": "d3ce1c1ba882a4e5",
+        "action": "ADD",
+        "name": "Борисоглебск",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 50.0,
+        "messageTimestamp": "2026-11-27T20:58:04+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5852",
+        "text": "🔴 а/д Борисоглебск / 50 км",
+        "inKta": false
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5853,
+    "timestamp": "2026-11-27T21:57:25+00:00",
+    "text": "🔴 а/д Саваслейка / 50 км\n🔴 Дзержинск / 20 км\n🔴 Кстово / 20 км\n\n🔴 Первоцелинный / 150 км",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5853",
+    "events": [
+      {
+        "id": "81cec3fce9386495",
+        "action": "ADD",
+        "name": "Саваслейка",
+        "icao": null,
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": 50.0,
+        "messageTimestamp": "2026-11-27T21:57:25+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5853",
+        "text": "🔴 а/д Саваслейка / 50 км",
+        "inKta": false
+      },
+      {
+        "id": "fd389f10b66bccf8",
+        "action": "ADD",
+        "name": "Дзержинск",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 20.0,
+        "messageTimestamp": "2026-11-27T21:57:25+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5853",
+        "text": "🔴 Дзержинск / 20 км",
+        "inKta": false
+      },
+      {
+        "id": "48658f7a9ab52435",
+        "action": "ADD",
+        "name": "Кстово",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 20.0,
+        "messageTimestamp": "2026-11-27T21:57:25+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5853",
+        "text": "🔴 Кстово / 20 км",
+        "inKta": false
+      },
+      {
+        "id": "f6800b3aaf678d96",
+        "action": "ADD",
+        "name": "Первоцелинный",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 150.0,
+        "messageTimestamp": "2026-11-27T21:57:25+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5853",
+        "text": "🔴 Первоцелинный / 150 км",
+        "inKta": false
+      }
+    ]
   }
 ]
