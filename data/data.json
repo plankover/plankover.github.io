@@ -1,6 +1,37 @@
 {
-  "updatedAt": "2026-11-27T12:09:34.211651+00:00",
+  "updatedAt": "2026-11-27T19:04:11.604049+00:00",
   "source": "@PlanKoverTDay",
-  "restrictions": [],
+  "restrictions": [
+    {
+      "id": "2422d3e6efcf0080",
+      "action": "ADD",
+      "name": "Грабцево",
+      "icao": "UUBC",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-27T17:50:14+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5843",
+      "text": "🔴🛩️ Калуга - Грабцево, UUBC",
+      "inKta": true,
+      "lat": 54.5488708,
+      "lon": 36.3697725
+    },
+    {
+      "id": "189d31bf1a70c6ed",
+      "action": "ADD",
+      "name": "Внуково",
+      "icao": "UUWW",
+      "kind": "airport",
+      "type": "partial",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-27T18:13:43+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5844",
+      "text": "🟡🛩️ Москва - Внуково, UUWW",
+      "inKta": true,
+      "lat": 55.5995278,
+      "lon": 37.2735752
+    }
+  ],
   "forecasts": []
 }
