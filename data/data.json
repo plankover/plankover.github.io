@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T19:56:55.318060+00:00",
+  "updatedAt": "2026-11-27T20:28:09.868401+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -148,6 +148,30 @@
       "notamText": "СИГНАЛ КОВЕР НОВОСЕЛОВКА. АЭРОПОРТЫ САРАТОВ(ГАГАРИН), ПЕНЗА ПРЕКРАТИЛИ ПРИЕМ/ВЫПУСК ВС.ТРУБА ЗАКРЫТА ПО САМАРСКОМУ РЕГ.Ц",
       "lat": 51.9489,
       "lon": 44.2678
+    },
+    {
+      "id": "8727bafd0176243e",
+      "action": "ADD",
+      "name": "Плёс",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 150.0,
+      "messageTimestamp": "2026-11-27T20:03:11+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5849",
+      "text": "🔴 Плёс (🛩️ Саратов - Гагарин, UWSG) / 150 км",
+      "affectedAirports": [
+        {
+          "name": "Гагарин",
+          "icao": "UWSG",
+          "kind": "airport",
+          "lat": 51.7139093,
+          "lon": 46.1672319
+        }
+      ],
+      "inKta": false,
+      "lat": 51.292837,
+      "lon": 47.777662
     }
   ],
   "forecasts": [

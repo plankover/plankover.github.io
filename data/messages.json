@@ -39935,5 +39935,59 @@
         "notamText": "СИГНАЛ КОВЕР НОВОСЕЛОВКА. АЭРОПОРТЫ САРАТОВ(ГАГАРИН), ПЕНЗА ПРЕКРАТИЛИ ПРИЕМ/ВЫПУСК ВС.ТРУБА ЗАКРЫТА ПО САМАРСКОМУ РЕГ.Ц"
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5848,
+    "timestamp": "2026-11-27T20:00:51+00:00",
+    "text": "🕒 Актуальные ограничения на 23:00 мск",
+    "entities": [
+      {
+        "offset": 0,
+        "length": 2,
+        "type": "custom_emoji",
+        "custom_emoji_id": "6278477897321685413"
+      }
+    ],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5848",
+    "events": [
+      {
+        "id": "5d66c0ab6619c898",
+        "action": "SNAPSHOT_UNRESOLVED",
+        "messageTimestamp": "2026-11-27T20:00:51+00:00",
+        "text": "🕒 Актуальные ограничения на 23:00 мск",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5848"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5849,
+    "timestamp": "2026-11-27T20:03:11+00:00",
+    "text": "🔴 Плёс (🛩️ Саратов - Гагарин, UWSG) / 150 км",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5849",
+    "events": [
+      {
+        "id": "8727bafd0176243e",
+        "action": "ADD",
+        "name": "Плёс",
+        "icao": null,
+        "kind": "city",
+        "type": "full",
+        "radiusKm": 150.0,
+        "messageTimestamp": "2026-11-27T20:03:11+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5849",
+        "text": "🔴 Плёс (🛩️ Саратов - Гагарин, UWSG) / 150 км",
+        "affectedAirports": [
+          {
+            "name": "Гагарин",
+            "icao": "UWSG",
+            "kind": "airport"
+          }
+        ],
+        "inKta": false
+      }
+    ]
   }
 ]
