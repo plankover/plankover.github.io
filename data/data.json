@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T21:33:17.106890+00:00",
+  "updatedAt": "2026-11-27T03:44:52.901920+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -27,35 +27,42 @@
       "lon": 37.7690711
     },
     {
-      "id": "c308396557cf41f6",
+      "id": "b8f2e1f02d4bd9dc",
       "action": "ADD",
-      "name": "Грабцево",
-      "icao": "UUBC",
+      "name": "Псков",
+      "icao": "ULOO",
       "kind": "airport",
       "type": "full",
-      "radiusKm": 70.0,
-      "messageTimestamp": "2026-11-26T20:44:41+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5833",
-      "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-26T22:53:59+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5835",
+      "text": "🔴🛩️ Псков, ULOO",
       "inKta": true,
-      "lat": 54.5488708,
-      "lon": 36.3697725
+      "lat": 57.7594629,
+      "lon": 29.5587337
     },
     {
-      "id": "e1038c25ee022aa1",
+      "id": "3bd8f1a4b2023a6a",
       "action": "ADD",
-      "name": "Северный, Смоленск",
-      "icao": null,
+      "name": "Пулково",
+      "icao": "ULLI",
       "kind": "airport",
       "type": "full",
-      "radiusKm": 50.0,
-      "messageTimestamp": "2026-11-26T20:44:41+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5833",
-      "text": "🔴 а/д Северный, Смоленск / 50 км",
-      "inKta": false,
-      "lat": 54.823085,
-      "lon": 32.0231288
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-27T01:18:24+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5836",
+      "text": "🔴🛩️ Санкт-Петербург - Пулково, ULLI",
+      "inKta": true,
+      "lat": 59.8016986,
+      "lon": 30.2676011
     }
   ],
-  "forecasts": []
+  "forecasts": [
+    {
+      "label": "Прогноз",
+      "timestamp": "2026-11-26T21:46:29+00:00",
+      "text": "📌 Прогноз.\n\nВ ночное время суток ожидаем ограничения на использование воздушного пространства в следующих регионах: \n\n✈️ Центральный федеральный округ (Калуга, Москва / Ярославль, Иваново, Нижний Новгород, Тамбов)\n\nлибо же:\n\n✈️ Северо-Западный федеральный округ (Санкт-Петербург, Псков, Калининград).\n\nТакже готовность к возможным ограничениям южные регионы",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5834"
+    }
+  ]
 }

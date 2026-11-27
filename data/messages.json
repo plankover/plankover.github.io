@@ -39463,35 +39463,148 @@
     "chatId": -1003822338715,
     "messageId": 5833,
     "timestamp": "2026-11-26T20:44:41+00:00",
-    "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км\n🔴 а/д Северный, Смоленск / 50 км",
+    "text": "🔴🛩️ Калуга - Грабцево, UUBC",
     "entities": [],
     "sourceUrl": "https://t.me/PlanKoverTDay/5833",
     "events": [
       {
-        "id": "c308396557cf41f6",
+        "id": "debf3cad857eb5ef",
         "action": "ADD",
         "name": "Грабцево",
         "icao": "UUBC",
         "kind": "airport",
         "type": "full",
-        "radiusKm": 70.0,
+        "radiusKm": null,
         "messageTimestamp": "2026-11-26T20:44:41+00:00",
         "sourceUrl": "https://t.me/PlanKoverTDay/5833",
-        "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км",
+        "text": "🔴🛩️ Калуга - Грабцево, UUBC",
         "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5834,
+    "timestamp": "2026-11-26T21:46:29+00:00",
+    "text": "📌 Прогноз.\n\nВ ночное время суток ожидаем ограничения на использование воздушного пространства в следующих регионах: \n\n✈️ Центральный федеральный округ (Калуга, Москва / Ярославль, Иваново, Нижний Новгород, Тамбов)\n\nлибо же:\n\n✈️ Северо-Западный федеральный округ (Санкт-Петербург, Псков, Калининград).\n\nТакже готовность к возможным ограничениям южные регионы",
+    "entities": [
+      {
+        "offset": 0,
+        "length": 2,
+        "type": "custom_emoji",
+        "custom_emoji_id": "6276313895229466513"
       },
       {
-        "id": "e1038c25ee022aa1",
+        "offset": 119,
+        "length": 2,
+        "type": "custom_emoji",
+        "custom_emoji_id": "6278362173722861975"
+      },
+      {
+        "offset": 122,
+        "length": 29,
+        "type": "bold"
+      },
+      {
+        "offset": 153,
+        "length": 6,
+        "type": "italic"
+      },
+      {
+        "offset": 216,
+        "length": 9,
+        "type": "underline"
+      },
+      {
+        "offset": 226,
+        "length": 2,
+        "type": "custom_emoji",
+        "custom_emoji_id": "6278362173722861975"
+      },
+      {
+        "offset": 229,
+        "length": 33,
+        "type": "bold"
+      }
+    ],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5834",
+    "events": [
+      {
+        "id": "b58c47a02c5954bf",
+        "action": "FORECAST",
+        "label": "Прогноз",
+        "messageTimestamp": "2026-11-26T21:46:29+00:00",
+        "text": "📌 Прогноз.\n\nВ ночное время суток ожидаем ограничения на использование воздушного пространства в следующих регионах: \n\n✈️ Центральный федеральный округ (Калуга, Москва / Ярославль, Иваново, Нижний Новгород, Тамбов)\n\nлибо же:\n\n✈️ Северо-Западный федеральный округ (Санкт-Петербург, Псков, Калининград).\n\nТакже готовность к возможным ограничениям южные регионы",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5834"
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5835,
+    "timestamp": "2026-11-26T22:53:59+00:00",
+    "text": "🔴🛩️ Псков, ULOO",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5835",
+    "events": [
+      {
+        "id": "b8f2e1f02d4bd9dc",
         "action": "ADD",
-        "name": "Северный, Смоленск",
-        "icao": null,
+        "name": "Псков",
+        "icao": "ULOO",
         "kind": "airport",
         "type": "full",
-        "radiusKm": 50.0,
-        "messageTimestamp": "2026-11-26T20:44:41+00:00",
-        "sourceUrl": "https://t.me/PlanKoverTDay/5833",
-        "text": "🔴 а/д Северный, Смоленск / 50 км",
-        "inKta": false
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-26T22:53:59+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5835",
+        "text": "🔴🛩️ Псков, ULOO",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5836,
+    "timestamp": "2026-11-27T01:18:24+00:00",
+    "text": "🔴🛩️ Санкт-Петербург - Пулково, ULLI",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5836",
+    "events": [
+      {
+        "id": "3bd8f1a4b2023a6a",
+        "action": "ADD",
+        "name": "Пулково",
+        "icao": "ULLI",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-27T01:18:24+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5836",
+        "text": "🔴🛩️ Санкт-Петербург - Пулково, ULLI",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5837,
+    "timestamp": "2026-11-27T03:43:09+00:00",
+    "text": "🟢🛩️ Калуга - Грабцево, UUBC",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5837",
+    "events": [
+      {
+        "id": "e3f625ac7d7ad13a",
+        "action": "REMOVE",
+        "name": "Грабцево",
+        "icao": "UUBC",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-27T03:43:09+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5837",
+        "text": "🟢🛩️ Калуга - Грабцево, UUBC",
+        "inKta": true
       }
     ]
   }
