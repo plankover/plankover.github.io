@@ -1,0 +1,16 @@
+name: Schedule heartbeat probe
+
+on:
+  schedule:
+    - cron: "6-59/5 * * * *"
+
+jobs:
+  heartbeat:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Confirm GitHub scheduled event
+        run: |
+          echo "GitHub Actions schedule heartbeat"
+          echo "UTC time: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          echo "Workflow: ${{ github.workflow }}"
+          echo "Event: ${{ github.event_name }}"
