@@ -1,0 +1,60 @@
+name: Telegram collector
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+  schedule:
+    # Refresh the collector every five minutes, offset from the hour boundary.
+    - cron: "3-59/5 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-airspace-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Collect and publish Telegram updates
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL: "@PlanKoverTDay"
+          TELEGRAM_LONG_POLL_TIMEOUT_SECONDS: ${{ github.event_name == 'schedule' && '25' || '0' }}
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          poll_once() {
+            for attempt in 1 2 3; do
+              python scripts/collector.py
+              git add data/
+              if git diff --cached --quiet; then
+                return 0
+              fi
+              git commit -m "Update Telegram airspace data"
+              if git push origin HEAD:main; then
+                return 0
+              fi
+
+              echo "Push attempt $attempt failed; retrying from latest main."
+              git fetch origin main
+              git reset --hard origin/main
+            done
+            echo "Could not publish after three attempts." >&2
+            return 1
+          }
+
+          poll_once
