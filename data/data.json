@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T22:33:11.704959+00:00",
+  "updatedAt": "2026-11-28T02:56:32.937169+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
     {
@@ -118,86 +118,6 @@
       "lon": 37.9094307
     },
     {
-      "id": "a8dc28be958558a7",
-      "action": "ADD",
-      "name": "Новоселовка",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": 150.0,
-      "messageTimestamp": "2026-11-27T19:50:37+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5847",
-      "text": "🔴 Новоселовка (🛩️ Пенза, UWPP; 🛩️ Саратов - Гагарин, UWSG) / 150 км",
-      "affectedAirports": [
-        {
-          "name": "Пенза",
-          "icao": "UWPP",
-          "kind": "airport",
-          "lat": 53.110734,
-          "lon": 45.023455
-        },
-        {
-          "name": "Гагарин",
-          "icao": "UWSG",
-          "kind": "airport",
-          "lat": 51.7139093,
-          "lon": 46.1672319
-        }
-      ],
-      "inKta": false,
-      "notamText": "СИГНАЛ КОВЕР НОВОСЕЛОВКА. АЭРОПОРТЫ САРАТОВ(ГАГАРИН), ПЕНЗА ПРЕКРАТИЛИ ПРИЕМ/ВЫПУСК ВС.ТРУБА ЗАКРЫТА ПО САМАРСКОМУ РЕГ.Ц",
-      "lat": 51.9489,
-      "lon": 44.2678
-    },
-    {
-      "id": "8727bafd0176243e",
-      "action": "ADD",
-      "name": "Плёс",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": 150.0,
-      "messageTimestamp": "2026-11-27T20:03:11+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5849",
-      "text": "🔴 Плёс (🛩️ Саратов - Гагарин, UWSG) / 150 км",
-      "affectedAirports": [
-        {
-          "name": "Гагарин",
-          "icao": "UWSG",
-          "kind": "airport",
-          "lat": 51.7139093,
-          "lon": 46.1672319
-        }
-      ],
-      "inKta": false,
-      "lat": 51.292837,
-      "lon": 47.777662
-    },
-    {
-      "id": "d156f9ae49104a18",
-      "action": "ADD",
-      "name": "Плёс",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": 170.0,
-      "messageTimestamp": "2026-11-27T20:40:03+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5850",
-      "text": "🔄🔴 Плёс (🛩️ Саратов - Гагарин, UWSG) / 170 км",
-      "affectedAirports": [
-        {
-          "name": "Гагарин",
-          "icao": "UWSG",
-          "kind": "airport",
-          "lat": 51.7139093,
-          "lon": 46.1672319
-        }
-      ],
-      "inKta": false,
-      "lat": 51.292837,
-      "lon": 47.777662
-    },
-    {
       "id": "401bccb443517e77",
       "action": "ADD",
       "name": "Тамбов",
@@ -220,37 +140,6 @@
       "inKta": false,
       "lat": 52.7040093,
       "lon": 41.3773864
-    },
-    {
-      "id": "47c701f176eea51a",
-      "action": "ADD",
-      "name": "Леляевка",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": 150.0,
-      "messageTimestamp": "2026-11-27T20:58:04+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5852",
-      "text": "🔴 Леляевка (🛩️ Саратов - Гагарин, UWSG ; 🛩️ Пенза, UWPP) / 150 км",
-      "affectedAirports": [
-        {
-          "name": "Гагарин",
-          "icao": "UWSG",
-          "kind": "airport",
-          "lat": 51.7139093,
-          "lon": 46.1672319
-        },
-        {
-          "name": "Пенза",
-          "icao": "UWPP",
-          "kind": "airport",
-          "lat": 53.110734,
-          "lon": 45.023455
-        }
-      ],
-      "inKta": false,
-      "lat": 52.392879,
-      "lon": 45.885208
     },
     {
       "id": "d3ce1c1ba882a4e5",
@@ -326,6 +215,99 @@
       "inKta": false,
       "lat": 51.625071,
       "lon": 49.81575
+    },
+    {
+      "id": "8c70df43f7d6672e",
+      "action": "ADD",
+      "name": "Александровка (Самарская обл)",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 150.0,
+      "messageTimestamp": "2026-11-27T22:34:26+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5854",
+      "text": "🔴 Александровка (Самарская обл) (🛩️ Самара - Курумоч, UWWW) / 150 км ",
+      "affectedAirports": [
+        {
+          "name": "Курумоч",
+          "icao": "UWWW",
+          "kind": "airport",
+          "lat": 53.5057511,
+          "lon": 50.1569939
+        }
+      ],
+      "inKta": false,
+      "lat": 53.1673553,
+      "lon": 49.1209026
+    },
+    {
+      "id": "efd28bd8237581ba",
+      "action": "ADD",
+      "name": "Большое Алдаркино",
+      "icao": null,
+      "kind": "city",
+      "type": "full",
+      "radiusKm": 150.0,
+      "messageTimestamp": "2026-11-27T22:34:26+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5854",
+      "text": "🔴 Большое Алдаркино (🛩️ Самара - Курумоч, UWWW) / 150 км",
+      "affectedAirports": [
+        {
+          "name": "Курумоч",
+          "icao": "UWWW",
+          "kind": "airport",
+          "lat": 53.5057511,
+          "lon": 50.1569939
+        }
+      ],
+      "inKta": false,
+      "lat": 53.0998721,
+      "lon": 51.8969083
+    },
+    {
+      "id": "379958f461087d74",
+      "action": "ADD",
+      "name": "Курумоч",
+      "icao": "UWWW",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-28T01:49:04+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5856",
+      "text": "🔴🛩️ Самара - Курумоч, UWWW",
+      "inKta": true,
+      "lat": 53.5057511,
+      "lon": 50.1569939
+    },
+    {
+      "id": "1b4d6fce460b0530",
+      "action": "ADD",
+      "name": "Бугульма",
+      "icao": "UWKB",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-28T02:40:09+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5857",
+      "text": "🔴🛩️ Бугульма, UWKB",
+      "inKta": true,
+      "lat": 54.6375722,
+      "lon": 52.7976418
+    },
+    {
+      "id": "ed8b966f5c7e9c76",
+      "action": "ADD",
+      "name": "Уфа",
+      "icao": "UWUU",
+      "kind": "airport",
+      "type": "full",
+      "radiusKm": null,
+      "messageTimestamp": "2026-11-28T02:40:09+00:00",
+      "sourceUrl": "https://t.me/PlanKoverTDay/5857",
+      "text": "🔴🛩️ Уфа, UWUU",
+      "inKta": true,
+      "lat": 54.5543582,
+      "lon": 55.8822099
     }
   ],
   "forecasts": [
