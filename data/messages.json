@@ -40334,5 +40334,172 @@
         "inKta": true
       }
     ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5858,
+    "timestamp": "2026-11-28T04:19:59+00:00",
+    "text": "🟢🛩️ Москва - Внуково, UUWW\n🟢🛩️ Москва - Домодедово, UUDD\n🟢🛩️ Калуга - Грабцево, UUBC\n🟢🛩️ Тамбов - Донское, UUOT",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5858",
+    "events": [
+      {
+        "id": "6976702823f41c16",
+        "action": "REMOVE",
+        "name": "Внуково",
+        "icao": "UUWW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-28T04:19:59+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5858",
+        "text": "🟢🛩️ Москва - Внуково, UUWW",
+        "inKta": true
+      },
+      {
+        "id": "ce4120ed0d0b4c74",
+        "action": "REMOVE",
+        "name": "Домодедово",
+        "icao": "UUDD",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-28T04:19:59+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5858",
+        "text": "🟢🛩️ Москва - Домодедово, UUDD",
+        "inKta": true
+      },
+      {
+        "id": "4c6ad20dc8973c3e",
+        "action": "REMOVE",
+        "name": "Грабцево",
+        "icao": "UUBC",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-28T04:19:59+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5858",
+        "text": "🟢🛩️ Калуга - Грабцево, UUBC",
+        "inKta": true
+      },
+      {
+        "id": "899b40d2bdbba5c4",
+        "action": "REMOVE",
+        "name": "Донское",
+        "icao": "UUOT",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-28T04:19:59+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5858",
+        "text": "🟢🛩️ Тамбов - Донское, UUOT",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5859,
+    "timestamp": "2026-11-28T04:26:15+00:00",
+    "text": "🟢🛩️ Самара - Курумоч, UWWW",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5859",
+    "events": [
+      {
+        "id": "35f31cc0664c1f03",
+        "action": "REMOVE",
+        "name": "Курумоч",
+        "icao": "UWWW",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-28T04:26:15+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5859",
+        "text": "🟢🛩️ Самара - Курумоч, UWWW",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5860,
+    "timestamp": "2026-11-28T04:40:06+00:00",
+    "text": "🔴🛩️ Краснодар - Пашковский, URKK",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5860",
+    "events": [
+      {
+        "id": "edef814b0dbf04d2",
+        "action": "ADD",
+        "name": "Пашковский",
+        "icao": "URKK",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-28T04:40:06+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5860",
+        "text": "🔴🛩️ Краснодар - Пашковский, URKK",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5861,
+    "timestamp": "2026-11-28T06:08:43+00:00",
+    "text": "🟢🛩️ Краснодар - Пашковский, URKK",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5861",
+    "events": [
+      {
+        "id": "0fbcedd2658cb89b",
+        "action": "REMOVE",
+        "name": "Пашковский",
+        "icao": "URKK",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-28T06:08:43+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5861",
+        "text": "🟢🛩️ Краснодар - Пашковский, URKK",
+        "inKta": true
+      }
+    ]
+  },
+  {
+    "chatId": -1003822338715,
+    "messageId": 5862,
+    "timestamp": "2026-11-28T06:11:26+00:00",
+    "text": "🟢🛩️ Бугульма, UWKB\n🟢🛩️ Уфа, UWUU",
+    "entities": [],
+    "sourceUrl": "https://t.me/PlanKoverTDay/5862",
+    "events": [
+      {
+        "id": "4709ef0134bbaaf6",
+        "action": "REMOVE",
+        "name": "Бугульма",
+        "icao": "UWKB",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-28T06:11:26+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5862",
+        "text": "🟢🛩️ Бугульма, UWKB",
+        "inKta": true
+      },
+      {
+        "id": "c00a3d624b085ea9",
+        "action": "REMOVE",
+        "name": "Уфа",
+        "icao": "UWUU",
+        "kind": "airport",
+        "type": "full",
+        "radiusKm": null,
+        "messageTimestamp": "2026-11-28T06:11:26+00:00",
+        "sourceUrl": "https://t.me/PlanKoverTDay/5862",
+        "text": "🟢🛩️ Уфа, UWUU",
+        "inKta": true
+      }
+    ]
   }
 ]

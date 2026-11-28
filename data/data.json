@@ -1,22 +1,7 @@
 {
-  "updatedAt": "2026-11-28T02:56:32.937169+00:00",
+  "updatedAt": "2026-11-28T11:37:07.610624+00:00",
   "source": "@PlanKoverTDay",
   "restrictions": [
-    {
-      "id": "21610f215791b1cf",
-      "action": "ADD",
-      "name": "Грабцево",
-      "icao": "UUBC",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": 70.0,
-      "messageTimestamp": "2026-11-27T17:50:14+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5843",
-      "text": "🔴🛩️ Калуга - Грабцево, UUBC / 70 км",
-      "inKta": true,
-      "lat": 54.5488708,
-      "lon": 36.3697725
-    },
     {
       "id": "a357c642a5ae1c76",
       "action": "ADD",
@@ -76,70 +61,6 @@
       "inKta": false,
       "lat": 54.2301856,
       "lon": 39.0274629
-    },
-    {
-      "id": "b19fd70cd607c900",
-      "action": "ADD",
-      "name": "Внуково",
-      "icao": "UUWW",
-      "kind": "airport",
-      "type": "partial",
-      "radiusKm": 150.0,
-      "messageTimestamp": "2026-11-27T20:46:51+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5851",
-      "text": "🔄🟡🛩️ Москва - Внуково, UUWW / 150 км (азимуты 150-330)",
-      "sector": {
-        "radiusKm": 150.0,
-        "startAzimuth": 150,
-        "endAzimuth": 330
-      },
-      "inKta": true,
-      "lat": 55.5995278,
-      "lon": 37.2735752
-    },
-    {
-      "id": "d4d33698c1645522",
-      "action": "ADD",
-      "name": "Домодедово",
-      "icao": "UUDD",
-      "kind": "airport",
-      "type": "partial",
-      "radiusKm": 150.0,
-      "messageTimestamp": "2026-11-27T19:16:25+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5845",
-      "text": "🟡🛩️ Москва - Домодедово, UUDD / 150 км (азимуты 090-240)",
-      "sector": {
-        "radiusKm": 150.0,
-        "startAzimuth": 90,
-        "endAzimuth": 240
-      },
-      "inKta": true,
-      "lat": 55.4087122,
-      "lon": 37.9094307
-    },
-    {
-      "id": "401bccb443517e77",
-      "action": "ADD",
-      "name": "Тамбов",
-      "icao": null,
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": 50.0,
-      "messageTimestamp": "2026-11-27T20:58:04+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5852",
-      "text": "🔴 а/д Тамбов (🛩️ Донское, UUOT) / 50 км ",
-      "affectedAirports": [
-        {
-          "name": "Донское",
-          "icao": "UUOT",
-          "kind": "airport",
-          "lat": 52.8060125,
-          "lon": 41.4845129
-        }
-      ],
-      "inKta": false,
-      "lat": 52.7040093,
-      "lon": 41.3773864
     },
     {
       "id": "d3ce1c1ba882a4e5",
@@ -215,99 +136,6 @@
       "inKta": false,
       "lat": 51.625071,
       "lon": 49.81575
-    },
-    {
-      "id": "8c70df43f7d6672e",
-      "action": "ADD",
-      "name": "Александровка (Самарская обл)",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": 150.0,
-      "messageTimestamp": "2026-11-27T22:34:26+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5854",
-      "text": "🔴 Александровка (Самарская обл) (🛩️ Самара - Курумоч, UWWW) / 150 км ",
-      "affectedAirports": [
-        {
-          "name": "Курумоч",
-          "icao": "UWWW",
-          "kind": "airport",
-          "lat": 53.5057511,
-          "lon": 50.1569939
-        }
-      ],
-      "inKta": false,
-      "lat": 53.1673553,
-      "lon": 49.1209026
-    },
-    {
-      "id": "efd28bd8237581ba",
-      "action": "ADD",
-      "name": "Большое Алдаркино",
-      "icao": null,
-      "kind": "city",
-      "type": "full",
-      "radiusKm": 150.0,
-      "messageTimestamp": "2026-11-27T22:34:26+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5854",
-      "text": "🔴 Большое Алдаркино (🛩️ Самара - Курумоч, UWWW) / 150 км",
-      "affectedAirports": [
-        {
-          "name": "Курумоч",
-          "icao": "UWWW",
-          "kind": "airport",
-          "lat": 53.5057511,
-          "lon": 50.1569939
-        }
-      ],
-      "inKta": false,
-      "lat": 53.0998721,
-      "lon": 51.8969083
-    },
-    {
-      "id": "379958f461087d74",
-      "action": "ADD",
-      "name": "Курумоч",
-      "icao": "UWWW",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-28T01:49:04+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5856",
-      "text": "🔴🛩️ Самара - Курумоч, UWWW",
-      "inKta": true,
-      "lat": 53.5057511,
-      "lon": 50.1569939
-    },
-    {
-      "id": "1b4d6fce460b0530",
-      "action": "ADD",
-      "name": "Бугульма",
-      "icao": "UWKB",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-28T02:40:09+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5857",
-      "text": "🔴🛩️ Бугульма, UWKB",
-      "inKta": true,
-      "lat": 54.6375722,
-      "lon": 52.7976418
-    },
-    {
-      "id": "ed8b966f5c7e9c76",
-      "action": "ADD",
-      "name": "Уфа",
-      "icao": "UWUU",
-      "kind": "airport",
-      "type": "full",
-      "radiusKm": null,
-      "messageTimestamp": "2026-11-28T02:40:09+00:00",
-      "sourceUrl": "https://t.me/PlanKoverTDay/5857",
-      "text": "🔴🛩️ Уфа, UWUU",
-      "inKta": true,
-      "lat": 54.5543582,
-      "lon": 55.8822099
     }
   ],
   "forecasts": [
